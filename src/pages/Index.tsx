@@ -1,11 +1,27 @@
+import { useNavigate } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 import ConnectionsGame from "@/components/ConnectionsGame";
 import { gameSets } from "@/data/gameSets";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
+  const navigate = useNavigate();
   const currentGame = gameSets[0];
 
   return (
     <main className="min-h-screen bg-background px-4 py-10">
+      <div className="mx-auto max-w-lg">
+        <Button
+          variant="ghost"
+          size="sm"
+          className="mb-4 gap-1.5 text-muted-foreground"
+          onClick={() => navigate("/")}
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Back
+        </Button>
+      </div>
+
       <header className="mb-8 text-center">
         <h1 className="text-3xl font-bold tracking-tight text-foreground">SYT Games</h1>
         <p className="mt-1 text-sm text-muted-foreground">
