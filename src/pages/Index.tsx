@@ -1,12 +1,26 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import ConnectionsGame from "@/components/ConnectionsGame";
-import { gameSets } from "@/data/gameSets";
+import { getGameByUnit } from "@/data/gameSets";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
   const navigate = useNavigate();
-  const currentGame = gameSets[0];
+  const { unit } = useParams<{ unit: string }>();
+  const currentGame = getGameByUnit(Number(unit));
+
+  if (!currentGame) {
+    return (
+      <main className="flex min-h-screen items-center justify-center bg-background">
+        <div className="text-center">
+          <p className="text-lg font-medium text-foreground">Game not found</p>
+          <Button variant="ghost" size="sm" className="mt-4" onClick={() => navigate("/")}>
+            ← Back to Units
+          </Button>
+        </div>
+      </main>
+    );
+  }
 
   return (
     <main className="min-h-screen bg-background px-4 py-10">
@@ -38,7 +52,7 @@ const Index = () => {
         </p>
       </section>
 
-      <ConnectionsGame gameSet={currentGame} />
+      <ConnectionsGame key={currentGame.id} gameSet={currentGame} />
     </main>
   );
 };

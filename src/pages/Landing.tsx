@@ -1,9 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import { gameSets } from "@/data/gameSets";
+
+const activeUnits = new Set(gameSets.map((g) => g.unit));
 
 const units = Array.from({ length: 9 }, (_, i) => ({
   number: i + 1,
-  active: i + 1 === 8,
+  active: activeUnits.has(i + 1),
 }));
 
 const Landing = () => {
@@ -29,7 +32,7 @@ const Landing = () => {
           {units.map(({ number, active }) => (
             <button
               key={number}
-              onClick={() => active && navigate("/unit/8")}
+              onClick={() => active && navigate(`/unit/${number}`)}
               disabled={!active}
               className={cn(
                 "relative flex flex-col items-center justify-center rounded-2xl border px-4 py-6 text-center transition-all duration-200",
