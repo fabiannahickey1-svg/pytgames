@@ -8,41 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 40 20% 97%;
-    --foreground: 220 15% 15%;
+    /* Grayscale + Yale Blue #0F4D92 */
+    --background: 0 0% 98%;
+    --foreground: 0 0% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 15%;
+    --card-foreground: 0 0% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 15%;
+    --popover-foreground: 0 0% 8%;
 
-    --primary: 220 15% 15%;
-    --primary-foreground: 40 20% 97%;
+    --primary: 212 81% 32%;        /* Yale Blue #0F4D92 */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 40 10% 92%;
-    --secondary-foreground: 220 15% 15%;
+    --secondary: 212 40% 95%;      /* light Yale Blue tint */
+    --secondary-foreground: 212 81% 32%;
 
-    --muted: 40 10% 92%;
-    --muted-foreground: 220 5% 50%;
+    --muted: 0 0% 93%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 40 10% 88%;
-    --accent-foreground: 220 15% 15%;
+    --accent: 212 50% 91%;
+    --accent-foreground: 212 81% 28%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 40 10% 88%;
-    --input: 40 10% 88%;
-    --ring: 220 15% 15%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: 212 81% 32%;           /* Yale Blue */
 
     --radius: 0.625rem;
 
-    --game-correct: 142 60% 45%;
+    --game-correct: 212 81% 32%;           /* Yale Blue */
     --game-correct-foreground: 0 0% 100%;
     --game-tile: 0 0% 100%;
-    --game-tile-selected: 220 15% 15%;
-    --game-tile-selected-foreground: 40 20% 97%;
+    --game-tile-selected: 0 0% 10%;        /* near black */
+    --game-tile-selected-foreground: 0 0% 100%;
   }
 }
 

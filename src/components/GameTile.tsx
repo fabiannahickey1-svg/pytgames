@@ -14,8 +14,8 @@ const GameTile = ({ term, selected, solved, disabled, onClick }: GameTileProps) 
       onClick={onClick}
       disabled={disabled || solved}
       className={cn(
-        "rounded-lg px-2 py-4 text-sm font-semibold transition-all duration-200 select-none",
-        "min-h-[60px] flex items-center justify-center text-center leading-tight",
+        "rounded-lg px-1 py-3 sm:px-2 sm:py-4 text-[11px] sm:text-sm font-semibold transition-all duration-200 select-none",
+        "min-h-[70px] sm:min-h-[60px] flex items-center justify-center text-center leading-tight break-words",
         solved
           ? "bg-game-correct text-game-correct-foreground cursor-default"
           : selected
