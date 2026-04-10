@@ -2,18 +2,21 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import ConnectionsGame from "@/components/ConnectionsGame";
-import { getGameByUnit, gameSets } from "@/data/gameSets";
+import { getGamesByUnit, gameSets } from "@/data/gameSets";
+import { markPuzzleComplete } from "@/lib/progress";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
   const navigate = useNavigate();
-  const { unit } = useParams<{ unit: string }>();
-  const currentGame = getGameByUnit(Number(unit));
+  const { unit, puzzle } = useParams<{ unit: string; puzzle: string }>();
+  const unitNum = Number(unit);
+  const puzzleNum = Number(puzzle) || 1;
   const [resetKey, setResetKey] = useState(0);
 
-  const nextGame = currentGame
-    ? gameSets.find((g) => g.unit > currentGame.unit)
-    : undefined;
+  const puzzles = getGamesByUnit(unitNum);
+  const currentGame = puzzles.find((p) => (p.puzzle ?? 1) === puzzleNum);
+  const nextPuzzle = puzzles.find((p) => (p.puzzle ?? 1) === puzzleNum + 1);
+  const nextUnit = gameSets.find((g) => g.unit > unitNum && (g.puzzle ?? 1) === 1);
 
   if (!currentGame) {
     return (
@@ -28,6 +31,12 @@ const Index = () => {
     );
   }
 
+  const handleWin = () => {
+    markPuzzleComplete(unitNum, puzzleNum);
+  };
+
+  const backTarget = puzzles.length > 1 ? `/unit/${unitNum}` : "/apush";
+
   return (
     <main className="min-h-screen bg-background px-4 py-10">
       <div className="mx-auto max-w-lg">
@@ -35,7 +44,7 @@ const Index = () => {
           variant="ghost"
           size="sm"
           className="mb-4 gap-1.5 text-muted-foreground"
-          onClick={() => navigate("/apush")}
+          onClick={() => navigate(backTarget)}
         >
           <ArrowLeft className="h-4 w-4" />
           Back
@@ -53,6 +62,11 @@ const Index = () => {
         <p className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
           {currentGame.subject} — {currentGame.title}
         </p>
+        {puzzles.length > 1 && (
+          <p className="mt-1 text-xs text-muted-foreground">
+            Puzzle {puzzleNum} of {puzzles.length}
+          </p>
+        )}
         <p className="mt-1 text-xs text-muted-foreground">
           Find the 4 groups of 4 connected terms
         </p>
@@ -61,13 +75,15 @@ const Index = () => {
       <ConnectionsGame
         key={`${currentGame.id}-${resetKey}`}
         gameSet={currentGame}
-        onWin={() => {
-          const saved = JSON.parse(localStorage.getItem("pyt-apush-completed") ?? "[]") as number[];
-          if (!saved.includes(currentGame.unit)) {
-            localStorage.setItem("pyt-apush-completed", JSON.stringify([...saved, currentGame.unit]));
-          }
-        }}
-        onNextUnit={nextGame ? () => navigate(`/unit/${nextGame.unit}`) : undefined}
+        onWin={handleWin}
+        onNextUnit={
+          nextPuzzle
+            ? () => navigate(`/unit/${unitNum}/${nextPuzzle.puzzle ?? 1}`)
+            : nextUnit
+              ? () => navigate(`/unit/${nextUnit.unit}`)
+              : undefined
+        }
+        onNextUnitLabel={nextPuzzle ? "Next Puzzle →" : undefined}
         onTryAgain={() => setResetKey((k) => k + 1)}
         onBackToUnits={() => navigate("/apush")}
       />

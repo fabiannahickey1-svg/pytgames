@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Splash from "./pages/Splash.tsx";
 import Landing from "./pages/Landing.tsx";
+import PuzzlePicker from "./pages/PuzzlePicker.tsx";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
@@ -19,7 +20,8 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Splash />} />
           <Route path="/apush" element={<Landing />} />
-          <Route path="/unit/:unit" element={<Index />} />
+          <Route path="/unit/:unit" element={<PuzzlePicker />} />
+          <Route path="/unit/:unit/:puzzle" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

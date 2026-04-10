@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { gameSets } from "@/data/gameSets";
+import { getCompletedUnits } from "@/lib/progress";
 
 const TOTAL_UNITS = 9;
 const activeUnits = new Set(gameSets.map((g) => g.unit));
@@ -30,8 +31,7 @@ const Landing = () => {
   const [completed, setCompleted] = useState<number[]>([]);
 
   useEffect(() => {
-    const saved = JSON.parse(localStorage.getItem("pyt-apush-completed") ?? "[]") as number[];
-    setCompleted(saved);
+    setCompleted(getCompletedUnits());
   }, []);
 
   const level = getLevel(completed.length);

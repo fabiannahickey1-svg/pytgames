@@ -113,7 +113,7 @@ const Splash = () => {
       <section className="animate-fade-in mb-10">
         <div className="border-t border-border pt-8 mb-6">
           <p className="text-4xl font-black uppercase tracking-widest text-foreground">
-            Pick Your Subject
+            Pick Your Class
           </p>
         </div>
 
