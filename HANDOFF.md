@@ -1,7 +1,7 @@
 # Developer Handoff — PYT Games
 
-**Last updated:** 2026-04-09  
-**Status:** Active development — All 9 APUSH units have 2 puzzles each, AP Bio / AP Lang coming soon
+**Last updated:** 2026-04-13  
+**Status:** Active development — Units 1, 7, and 8 have 8 themed puzzles each; Units 2–6 and 9 have 2 generic puzzles each; AP Bio / AP Lang coming soon
 
 ---
 
@@ -82,10 +82,16 @@ interface GameGroup {
   terms: GameTerm[];  // exactly 4 terms
 }
 
+interface GameTheme {
+  code: string;       // AP theme code, e.g. "NAT"
+  name: string;       // full name, e.g. "American and National Identity"
+}
+
 interface GameSet {
-  id: string;         // unique, e.g. "unit-5-2"
+  id: string;         // unique, e.g. "unit-7-nat"
   unit: number;       // maps to /unit/:unit and landing grid position
   puzzle?: number;    // 1-indexed within a unit; defaults to 1 if omitted
+  theme?: GameTheme;  // AP theme metadata; omit for generic numbered puzzles
   title: string;      // e.g. "Civil War & Reconstruction"
   subject: string;    // e.g. "APUSH"
   groups: GameGroup[];  // exactly 4 groups
@@ -100,17 +106,19 @@ The landing page renders a 3-column grid of units 1–9. Any unit number present
 
 ### Current content
 
-| Unit | Title | Puzzles |
-|------|-------|---------|
-| 1 | Natives, Contact & Exploration | 2 |
-| 2 | Colonial America | 2 |
-| 3 | Revolution & Early Republic | 2 |
-| 4 | Jacksonian Era & Market Revolution | 2 |
-| 5 | Civil War & Reconstruction | 2 |
-| 6 | Gilded Age & Progressive Era | 2 |
-| 7 | WWI, Roaring 20s & Great Depression | 2 |
-| 8 | Cold War & Civil Rights | 2 |
-| 9 | Reagan Era to Present | 2 |
+| Unit | Title | Puzzles | Format |
+|------|-------|---------|--------|
+| 1 | Natives, Contact & Exploration | 8 | AP Themed (NAT–SOC) |
+| 2 | Colonial America | 2 | Generic |
+| 3 | Revolution & Early Republic | 2 | Generic |
+| 4 | Jacksonian Era & Market Revolution | 2 | Generic |
+| 5 | Civil War & Reconstruction | 2 | Generic |
+| 6 | Gilded Age & Progressive Era | 2 | Generic |
+| 7 | WWI, Roaring 20s & Great Depression | 8 | AP Themed (NAT–SOC) |
+| 8 | Cold War & Civil Rights | 8 | AP Themed (NAT–SOC) |
+| 9 | Reagan Era to Present | 2 | Generic |
+
+**AP Themes** (used in themed units): NAT · WXT · GEO · MIG · PCE · WOR · ARC · SOC
 
 ---
 
@@ -120,13 +128,16 @@ The landing page renders a 3-column grid of units 1–9. Any unit number present
 - Select exactly 4, then submit
 - Correct → group is solved and removed from board
 - Wrong → mistake counter increments (max 4)
+- "One away!" message when 3 of 4 selected terms are in the same group
+- **Hint system:** 2 hints per puzzle; each reveals one unsolved category name
 - Win: all 4 groups solved
-- Loss: 4 mistakes reached
+- Loss: 4 mistakes reached → study list of all 16 terms with definitions (shuffled order)
 
 ---
 
 ## Known gaps / next steps
 
+- **Remaining themed units** — Units 2–6 and 9 still use 2 generic puzzles; convert to 8 AP-themed puzzles
 - **AP Bio / AP Lang** subject pages don't exist yet — splash shows them as Coming Soon
 - **No shuffle button** — terms are shuffled once on load; players can't reshuffle mid-game
 - **No streak/history** — win/loss per session isn't tracked beyond puzzle completion in localStorage

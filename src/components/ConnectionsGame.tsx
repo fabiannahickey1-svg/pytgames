@@ -34,6 +34,8 @@ const ConnectionsGame = ({ gameSet, onWin, onNextUnit, onNextUnitLabel, onTryAga
   const [won, setWon] = useState(false);
   const [lost, setLost] = useState(false);
   const [message, setMessage] = useState("");
+  const [hintsUsed, setHintsUsed] = useState(0);
+  const [hintMessage, setHintMessage] = useState("");
 
   // All terms as objects, shuffled once on load
   const shuffledTerms = useMemo<GameTerm[]>(() => {
@@ -95,6 +97,7 @@ const solvedTermStrings = useMemo(
       const newMistakes = mistakes + 1;
       setMistakes(newMistakes);
       setShaking(true);
+      setHintMessage("");
       setMessage(
         oneAway
           ? "One away!"
@@ -110,6 +113,22 @@ const solvedTermStrings = useMemo(
 
   const handleDeselectAll = () => {
     setSelected([]);
+    setMessage("");
+  };
+
+  const MAX_HINTS = 2;
+
+  const handleHint = () => {
+    if (hintsUsed >= MAX_HINTS) return;
+    const unsolved = gameSet.groups.filter((g) => !solvedGroups.includes(g));
+    if (unsolved.length === 0) return;
+    // Pick a group based on which hint we're on
+    const group = unsolved[hintsUsed % unsolved.length];
+    // Prefer a term that isn't already selected so the hint is novel
+    const candidates = group.terms.filter((t) => !selected.includes(t.term));
+    const target = candidates.length > 0 ? candidates[0] : group.terms[0];
+    setHintMessage(`One category is: "${group.name}"`);
+    setHintsUsed((c) => c + 1);
     setMessage("");
   };
 
@@ -140,7 +159,7 @@ const solvedTermStrings = useMemo(
   }
 
   if (lost) {
-    const allTerms = gameSet.groups.flatMap((g) => g.terms);
+    const allTerms = shuffle(gameSet.groups.flatMap((g) => g.terms));
     return (
       <div className="mx-auto max-w-lg space-y-4">
         <div className="text-center">
@@ -214,6 +233,11 @@ const solvedTermStrings = useMemo(
         <p className="text-center text-sm font-medium text-destructive">{message}</p>
       )}
 
+      {/* Hint message */}
+      {hintMessage && !message && (
+        <p className="text-center text-sm font-medium text-[#0F4D92]">{hintMessage}</p>
+      )}
+
       {/* Actions */}
       <div className="flex items-center justify-center gap-3 pt-2">
         <Button
@@ -223,6 +247,14 @@ const solvedTermStrings = useMemo(
           disabled={selected.length === 0}
         >
           Deselect All
+        </Button>
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={handleHint}
+          disabled={hintsUsed >= MAX_HINTS}
+        >
+          {hintsUsed >= MAX_HINTS ? "No hints left" : `Hint (${MAX_HINTS - hintsUsed} left)`}
         </Button>
         <Button
           size="sm"

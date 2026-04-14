@@ -21,6 +21,8 @@ const PuzzlePicker = () => {
 
   if (puzzles.length <= 1) return null;
 
+  const hasThemes = puzzles.some((p) => p.theme);
+
   return (
     <main className="min-h-screen bg-background px-4 py-12">
       <div className="mx-auto max-w-md">
@@ -40,12 +42,12 @@ const PuzzlePicker = () => {
             {puzzles[0].title}
           </h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            Choose a puzzle to play.
+            {hasThemes ? "Choose a theme to study." : "Choose a puzzle to play."}
           </p>
         </header>
 
         <div className="space-y-3">
-          {puzzles.map((p, i) => {
+          {puzzles.map((p) => {
             const puzzleNum = p.puzzle ?? 1;
             const isDone = completed.has(`${unitNum}-${puzzleNum}`);
 
@@ -61,22 +63,43 @@ const PuzzlePicker = () => {
                     : "border-border bg-card shadow-sm hover:border-primary/50"
                 )}
               >
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className={cn(
-                      "text-sm font-bold",
-                      isDone ? "text-[#0F4D92]" : "text-foreground"
-                    )}>
-                      Puzzle {i + 1}
-                    </p>
+                <div className="flex items-center justify-between gap-3">
+                  <div className="min-w-0">
+                    {p.theme ? (
+                      <>
+                        <div className="flex items-center gap-2 mb-0.5">
+                          <span className={cn(
+                            "text-[10px] font-bold uppercase tracking-widest px-1.5 py-0.5 rounded",
+                            isDone
+                              ? "bg-[#0F4D92]/15 text-[#0F4D92]"
+                              : "bg-muted text-muted-foreground"
+                          )}>
+                            {p.theme.code}
+                          </span>
+                        </div>
+                        <p className={cn(
+                          "text-sm font-bold leading-snug",
+                          isDone ? "text-[#0F4D92]" : "text-foreground"
+                        )}>
+                          {p.theme.name}
+                        </p>
+                      </>
+                    ) : (
+                      <p className={cn(
+                        "text-sm font-bold",
+                        isDone ? "text-[#0F4D92]" : "text-foreground"
+                      )}>
+                        Puzzle {puzzleNum}
+                      </p>
+                    )}
                     <p className="mt-0.5 text-xs text-muted-foreground">
                       16 terms · 4 groups
                     </p>
                   </div>
                   {isDone ? (
-                    <span className="text-[#0F4D92] font-bold text-sm">✓ Done</span>
+                    <span className="text-[#0F4D92] font-bold text-sm shrink-0">✓ Done</span>
                   ) : (
-                    <span className="text-muted-foreground text-xs">Play →</span>
+                    <span className="text-muted-foreground text-xs shrink-0">Play →</span>
                   )}
                 </div>
               </button>

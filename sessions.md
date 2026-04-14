@@ -49,3 +49,12 @@
 - Changed "Pick Your Subject" → "Pick Your Class" on splash page
 
 **Next:** AP Bio / AP Lang subject pages, shuffle button, mobile polish
+
+## 2026-04-13 — Session 5
+
+- Added hint system to `ConnectionsGame.tsx`: 2 hints per puzzle, each reveals one unsolved category name; button shows hints remaining and disables when exhausted
+- Game-over study list now shuffles term order so the answer groupings aren't visible from position
+- Replaced Unit 7's 2 generic puzzles with 8 AP-themed puzzles (NAT → SOC), covering WWI, Roaring 20s, and the Great Depression — 128 new terms total
+- Unit 7 themed puzzle breakdown: NAT (identity/dissent/Harlem/Prohibition), WXT (economic mobilization/consumer economy/Depression collapse/New Deal finance), GEO (Dust Bowl/New Deal dams/WWI geography/Depression cities), MIG (Great Migration/immigration restriction/Dust Bowl migration/anti-immigrant hysteria), PCE (Wilson/1920s GOP/FDR/New Deal opposition), WOR (WWI entry/Versailles/AEF/isolationism), ARC (Jazz Age/Harlem Renaissance/Lost Generation/cultural conflicts), SOC (race/women/labor/New Deal social programs)
+
+**Next:** Convert Units 2–6 and 9 to AP-themed format; AP Bio / AP Lang subject pages; shuffle button; mobile polish

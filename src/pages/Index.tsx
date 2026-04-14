@@ -60,12 +60,19 @@ const Index = () => {
 
       <section className="mb-6 text-center">
         <p className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
-          {currentGame.subject} — {currentGame.title}
+          {currentGame.subject} — Unit {unitNum}
         </p>
-        {puzzles.length > 1 && (
-          <p className="mt-1 text-xs text-muted-foreground">
-            Puzzle {puzzleNum} of {puzzles.length}
+        {currentGame.theme ? (
+          <p className="mt-1 text-sm font-semibold text-foreground">
+            <span className="text-xs font-bold text-muted-foreground mr-1.5">{currentGame.theme.code}</span>
+            {currentGame.theme.name}
           </p>
+        ) : (
+          puzzles.length > 1 && (
+            <p className="mt-1 text-xs text-muted-foreground">
+              Puzzle {puzzleNum} of {puzzles.length}
+            </p>
+          )
         )}
         <p className="mt-1 text-xs text-muted-foreground">
           Find the 4 groups of 4 connected terms
