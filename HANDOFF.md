@@ -1,7 +1,7 @@
 # Developer Handoff — PYT Games
 
-**Last updated:** 2026-04-13  
-**Status:** Active development — Units 1, 3–9 have 8 AP-themed puzzles each; Unit 2 removed (merged into Unit 1); AP Bio / AP Lang coming soon
+**Last updated:** 2026-04-15  
+**Status:** Active development — Units 1, 3–9 have 8 AP-themed puzzles each; Unit 2 removed/merged into Unit 1; Unit 1 landing card shows "1 & 2"; content audit to reduce to 4 puzzles/unit is pending; AP Bio / AP Lang coming soon
 
 ---
 

@@ -61,3 +61,11 @@
 - All 9 active APUSH units (1, 3–9) now have 8 AP-themed puzzles — 64 puzzles, 1024 terms total
 
 **Next:** AP Bio / AP Lang subject pages; shuffle button; mobile polish; difficulty coloring
+
+## 2026-04-15 — Session 6
+
+- Unit 1 landing card updated: big label now reads "1 & 2"; sublabel reads "Units 1 & 2"
+- Unit 2 button removed from the landing grid entirely (content is in Unit 1)
+- Attempted content audit to reduce from 1024 → ~512 terms (4 puzzles/unit instead of 8); not yet completed
+
+**Next:** Complete content audit and reduce to 4 focused puzzles per unit; AP Bio / AP Lang subject pages; shuffle button; mobile polish
