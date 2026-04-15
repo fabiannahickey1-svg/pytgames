@@ -24,49 +24,49 @@ export interface GameSet {
 }
 
 export const gameSets: GameSet[] = [
-  // ── Unit 1: Natives, Contact & Exploration ──────────────────────────────
+  // ── Unit 1: Native Peoples, Contact & Colonial America (1491–1754) ────────
   {
     id: "unit-1-nat",
     unit: 1,
     puzzle: 1,
     theme: { code: "NAT", name: "American and National Identity" },
-    title: "Natives, Contact & Exploration",
+    title: "Native Peoples, Contact & Colonial America",
     subject: "APUSH",
     groups: [
       {
-        name: "Northeastern Native Nations",
+        name: "Native Identity and Governance",
         terms: [
-          { term: "Iroquois Confederacy", definition: "Alliance of five (later six) northeastern Native nations united under the Great Law of Peace; one of the most sophisticated democratic governments in the pre-contact Americas." },
-          { term: "Algonquian", definition: "Diverse group of Native peoples along the Eastern Seaboard who were among the first to encounter English settlers; spoke a family of related languages." },
-          { term: "Huron", definition: "Confederacy of four nations in the Great Lakes region who allied with French fur traders; longstanding rivals of the Iroquois Confederacy." },
-          { term: "Lenape", definition: "Eastern Woodlands people of the mid-Atlantic region, known among Algonquian-speaking peoples as the 'Grandfathers' for their status as an ancient and respected nation." },
-        ],
-      },
-      {
-        name: "Mesoamerican Civilizations",
-        terms: [
-          { term: "Aztec", definition: "Dominant Mesoamerican empire centered at Tenochtitlán; conquered by Cortés in 1521 through a combination of military force, disease, and alliances with rival Native peoples." },
-          { term: "Maya", definition: "Sophisticated Mesoamerican civilization known for written language, advanced astronomy, and city-states; had declined before Spanish arrival but remained numerous at contact." },
-          { term: "Olmec", definition: "Ancient Mesoamerican civilization considered a 'mother culture' of later societies; known for colossal stone heads and one of the earliest writing systems in the Western Hemisphere." },
-          { term: "Zapotec", definition: "Pre-Columbian Mesoamerican civilization of the Oaxaca Valley that developed one of the earliest writing systems in the Americas, predating even the Maya." },
-        ],
-      },
-      {
-        name: "European Justifications for Conquest",
-        terms: [
-          { term: "Doctrine of Discovery", definition: "Legal principle claiming that Christian European nations could claim sovereignty over any land not already ruled by Christians; used to legitimize colonization." },
-          { term: "Terra Nullius", definition: "Legal concept declaring that land inhabited by non-Christian or 'uncivilized' peoples was legally empty and available for European claiming." },
-          { term: "Just War Theory", definition: "Catholic theological framework used to justify warfare against Native peoples who resisted conversion or refused to submit to Spanish authority." },
-          { term: "Divine Providence", definition: "Belief that God had specifically ordained European expansion as part of a divine plan; widely used by colonizers to justify conquest as a religious duty." },
-        ],
-      },
-      {
-        name: "Native Self-Governance",
-        terms: [
-          { term: "Great Law of Peace", definition: "Founding constitution of the Iroquois Confederacy establishing democratic governance, individual rights, and collective decision-making among member nations." },
+          { term: "Iroquois Confederacy", definition: "Alliance of five (later six) northeastern Native nations united under the Great Law of Peace; one of the most sophisticated democratic governments in pre-contact North America." },
+          { term: "Great Law of Peace", definition: "Founding constitution of the Iroquois Confederacy establishing democratic governance, individual rights, and collective decision-making — admired by some Founders as a model." },
           { term: "Tribal Sovereignty", definition: "The inherent authority of Native nations to govern themselves; recognized in various European treaties as independent political entities pre-dating European arrival." },
-          { term: "Clan Mothers", definition: "In Iroquois society, elder women who held significant political power, including the authority to select and remove male chiefs (sachems)." },
-          { term: "Sachems", definition: "Chiefs or leaders in Algonquian and Iroquois societies who represented their people in council and diplomatic negotiations with other nations." },
+          { term: "Clan Mothers", definition: "In Iroquois society, elder women who held significant political power including the authority to select and remove male chiefs (sachems)." },
+        ],
+      },
+      {
+        name: "Puritan Identity",
+        terms: [
+          { term: "Puritans", definition: "English Calvinist settlers who founded Massachusetts Bay Colony in 1630 seeking to build a 'city upon a hill' — a godly model community for all of Christendom." },
+          { term: "City Upon a Hill", definition: "John Winthrop's 1630 vision of Massachusetts as a moral exemplar watched by the world; became the foundational metaphor for American exceptionalism." },
+          { term: "Covenant Theology", definition: "Puritan belief that God had made a special agreement with New England's settlers to build a godly society; failure would bring divine punishment on the whole community." },
+          { term: "Mayflower Compact", definition: "1620 self-governance agreement signed by Pilgrim settlers before landing; an early precedent for the idea that government derives its authority from the consent of the governed." },
+        ],
+      },
+      {
+        name: "Tolerant Colonial Identities",
+        terms: [
+          { term: "Quakers", definition: "Society of Friends who settled Pennsylvania; practiced pacifism, gender equality, and early antislavery — the most radically tolerant religious community in colonial America." },
+          { term: "William Penn", definition: "Quaker founder of Pennsylvania who established a colony based on religious tolerance and peaceful relations with Native peoples; his 'Holy Experiment' attracted diverse immigrants." },
+          { term: "Roger Williams", definition: "Puritan minister expelled from Massachusetts for advocating separation of church and state; founded Rhode Island as a colony with full religious liberty." },
+          { term: "Maryland Toleration Act", definition: "1649 law granting religious freedom to all Christians in Maryland; an early (if limited) experiment in religious tolerance in English North America." },
+        ],
+      },
+      {
+        name: "European Claims and Justifications",
+        terms: [
+          { term: "Doctrine of Discovery", definition: "Legal principle claiming Christian European nations could claim sovereignty over any land not ruled by Christians; used to legitimize colonization of Native lands." },
+          { term: "Divine Providence", definition: "Belief that God had ordained European expansion as part of a divine plan; used by both Spanish conquistadors and English Puritans to justify conquest and colonization." },
+          { term: "Requerimiento", definition: "Spanish legal document demanding Native submission to the Crown and Church; refusal justified military conquest — read aloud in Spanish to people who spoke neither Spanish nor Latin." },
+          { term: "Charter Colony", definition: "English colony governed by a royal charter granting significant self-rule; Connecticut and Rhode Island operated this way — establishing precedents for colonial self-governance." },
         ],
       },
     ],
@@ -76,43 +76,43 @@ export const gameSets: GameSet[] = [
     unit: 1,
     puzzle: 2,
     theme: { code: "WXT", name: "Work, Exchange, and Technology" },
-    title: "Natives, Contact & Exploration",
+    title: "Native Peoples, Contact & Colonial America",
     subject: "APUSH",
     groups: [
       {
-        name: "Columbian Exchange: Europe to Americas",
+        name: "Columbian Exchange",
         terms: [
-          { term: "Smallpox", definition: "Deadly disease brought by Europeans that killed 50–90% of Indigenous populations in many regions, as Native peoples had no prior immunity." },
-          { term: "Horses", definition: "European animals reintroduced to the Americas that transformed the hunting, warfare, and mobility of Great Plains Native peoples." },
-          { term: "Cattle", definition: "European livestock brought to the Americas that reshaped land use, caused overgrazing, and displaced Native food sources across the continent." },
-          { term: "Wheat", definition: "European grain introduced to the Americas that became a major staple crop and eventually a key export of the colonial economy." },
+          { term: "Smallpox", definition: "Deadly European disease that killed 50–90% of Indigenous populations in many regions within a century of contact; the single most destructive consequence of the Columbian Exchange." },
+          { term: "Horses", definition: "European animals reintroduced to the Americas that transformed Plains Native cultures — enabling buffalo hunting, long-distance travel, and new forms of warfare." },
+          { term: "Tobacco", definition: "Native American plant introduced to Europe after contact; became Virginia's first profitable cash crop and the foundation of the Southern plantation economy." },
+          { term: "Corn", definition: "Mesoamerican staple domesticated thousands of years before contact; introduced to Europe after 1492 and became one of the world's most important food crops." },
         ],
       },
       {
-        name: "Columbian Exchange: Americas to Europe",
+        name: "Colonial Trade System",
         terms: [
-          { term: "Corn", definition: "Staple crop domesticated in Mesoamerica and introduced to Europe after 1492; became one of the most important food sources in the world." },
-          { term: "Potatoes", definition: "South American crop brought to Europe after contact; became a dietary staple especially in Ireland and Eastern Europe, later triggering a catastrophic famine." },
-          { term: "Tobacco", definition: "Native American plant introduced to Europe after contact; became a highly profitable cash crop in the English colonies and fueled demand for enslaved labor." },
-          { term: "Tomatoes", definition: "Mesoamerican fruit introduced to Europe after 1492; initially regarded with suspicion but eventually transformed European cuisines, especially Italian." },
+          { term: "Mercantilism", definition: "Economic theory that colonies exist to enrich the mother country by supplying raw materials and buying finished goods; the framework of all European colonial economic policy." },
+          { term: "Navigation Acts", definition: "British laws requiring colonial trade to flow through English ships and ports; largely ignored under salutary neglect but fiercely resisted when enforced after 1763." },
+          { term: "Triangular Trade", definition: "Three-way Atlantic commerce linking the Americas, Europe, and Africa; colonists traded raw goods for manufactured items and enslaved Africans." },
+          { term: "Salutary Neglect", definition: "Britain's unofficial policy of loosely enforcing trade laws in the colonies from 1607–1763; allowed colonial economies to flourish and self-governance habits to deepen." },
         ],
       },
       {
-        name: "Spanish Colonial Labor Systems",
+        name: "Spanish Colonial Labor",
         terms: [
-          { term: "Encomienda", definition: "Spanish colonial labor system granting settlers the right to demand tribute and labor from Native peoples in exchange for protection and religious instruction." },
-          { term: "Repartimiento", definition: "Replacement labor system requiring Native communities to provide rotating draft workers for colonial projects; ostensibly paid but effectively coercive." },
-          { term: "Mita", definition: "Andean forced labor system adapted by the Spanish, requiring Indigenous communities to supply rotating workers for deadly silver mines like Potosí." },
-          { term: "Hacienda", definition: "Large Spanish-owned landed estate worked by Native or mestizo laborers under debt bondage; the dominant economic unit of the colonial countryside." },
+          { term: "Encomienda", definition: "Spanish colonial system granting settlers the right to demand tribute and labor from Native peoples in exchange for protection and conversion — enslavement in practice." },
+          { term: "Mita", definition: "Andean forced labor system adapted by Spain requiring Indigenous communities to supply rotating workers for deadly silver mines like Potosí." },
+          { term: "Hacienda", definition: "Large Spanish landed estate worked by Native or mestizo laborers under debt bondage; the dominant economic unit of the colonial countryside." },
+          { term: "Atlantic Slave Trade", definition: "Forced transportation of millions of Africans to the Americas beginning in the 16th century; the labor system that made the plantation economy of the Americas possible." },
         ],
       },
       {
-        name: "Native Trade Networks",
+        name: "English Colonial Labor",
         terms: [
-          { term: "Obsidian", definition: "Volcanic glass prized by Mesoamerican and Southwestern peoples for cutting tools and weapons; traded across vast continental networks." },
-          { term: "Copper", definition: "Metal traded extensively among North American peoples, especially in the Great Lakes region; used for ornamental and ceremonial objects marking high status." },
-          { term: "Turquoise", definition: "Semi-precious stone mined in the Southwest and traded across the continent; highly valued by Pueblo and other Southwestern peoples for jewelry and ceremony." },
-          { term: "Wampum", definition: "Beads made from clamshells used by Eastern Woodlands peoples as a medium of exchange, diplomatic record, and ceremonial object; later adopted by colonists as currency." },
+          { term: "Indentured Servants", definition: "Immigrants who traded 4–7 years of labor for Atlantic passage; the main labor source in early Virginia and Maryland before the expansion of chattel slavery." },
+          { term: "Tobacco Economy", definition: "Virginia's plantation economy centered on tobacco; required constant labor, exhausted soil rapidly, and drove insatiable demand first for indentured servants and then enslaved Africans." },
+          { term: "Chattel Slavery", definition: "System treating enslaved people as inheritable personal property with no legal rights; entrenched in colonial law by the 1660s and became the foundation of the Southern economy." },
+          { term: "Bacon's Rebellion", definition: "1676 Virginia uprising by frontier settlers and indentured servants; its multiracial character alarmed planters and accelerated the shift from indentured servitude to African slavery." },
         ],
       },
     ],
@@ -122,43 +122,43 @@ export const gameSets: GameSet[] = [
     unit: 1,
     puzzle: 3,
     theme: { code: "GEO", name: "Geography and the Environment" },
-    title: "Natives, Contact & Exploration",
+    title: "Native Peoples, Contact & Colonial America",
     subject: "APUSH",
     groups: [
       {
         name: "Native Culture Regions",
         terms: [
           { term: "Eastern Woodlands", definition: "Culture region east of the Mississippi characterized by dense forests, mixed farming and hunting, and diverse nations including the Iroquois and Algonquian peoples." },
-          { term: "Great Plains", definition: "Vast grassland region between the Mississippi and Rockies; home to nomadic and semi-nomadic nations who hunted bison before and after the arrival of horses." },
-          { term: "Pacific Northwest", definition: "Coastal region of abundant salmon, cedar, and marine resources; home to nations like the Chinook and Tlingit known for complex stratified societies and totem poles." },
-          { term: "Southwest Desert", definition: "Arid region of present-day Arizona and New Mexico; home to Pueblo, Navajo, and Hopi peoples who mastered irrigation agriculture in an extreme environment." },
+          { term: "Great Plains", definition: "Vast grassland region between the Mississippi and Rockies; home to nations who hunted bison — their culture transformed after the reintroduction of horses by the Spanish." },
+          { term: "Pacific Northwest", definition: "Coastal region of abundant salmon and cedar; home to nations like the Chinook and Tlingit known for complex stratified societies and potlatch ceremonies." },
+          { term: "Southwest Desert", definition: "Arid region of present-day Arizona and New Mexico; home to Pueblo, Navajo, and Hopi peoples who mastered irrigation agriculture — and resisted Spanish rule in the 1680 Pueblo Revolt." },
         ],
       },
       {
-        name: "Major Pre-Columbian Urban Centers",
+        name: "Pre-Columbian Cities and Centers",
         terms: [
-          { term: "Tenochtitlán", definition: "Capital of the Aztec Empire, built on an island in Lake Texcoco with a population rivaling the largest European cities at the time of Spanish contact." },
+          { term: "Tenochtitlán", definition: "Aztec capital built on an island in Lake Texcoco with a population of 200,000 — larger than any European city at the time; destroyed by Cortés in 1521." },
           { term: "Cahokia", definition: "Largest pre-Columbian city north of Mexico, near present-day St. Louis; center of Mississippian culture with massive earthen mounds and a population of ~20,000." },
-          { term: "Chaco Canyon", definition: "Major center of Ancestral Puebloan culture in present-day New Mexico; featured monumental great houses and served as a regional hub for trade and ceremony." },
-          { term: "Cusco", definition: "Capital of the Inca Empire high in the Andes; center of a highly organized state controlling much of western South America before Spanish conquest." },
+          { term: "Chaco Canyon", definition: "Major center of Ancestral Puebloan culture in present-day New Mexico; monumental great houses served as a regional hub for trade and ceremony." },
+          { term: "Tenochtitlán Siege", definition: "1521 months-long destruction of the Aztec capital by Cortés and his Native allies; its fall ended the Aztec Empire and became the most consequential act of conquest in the Americas." },
         ],
       },
       {
-        name: "Technology That Enabled Exploration",
+        name: "Colonial Settlement Geography",
         terms: [
-          { term: "Caravel", definition: "Small, maneuverable Portuguese sailing ship with lateen sails; its ability to sail into the wind made long Atlantic and coastal voyages of exploration possible." },
-          { term: "Astrolabe", definition: "Navigational instrument used to measure the altitude of the sun or stars, allowing sailors to determine their latitude at sea." },
-          { term: "Trade Winds", definition: "Steady equatorial winds blowing westward across the Atlantic; their predictability allowed European sailors to reliably cross the ocean toward the Americas." },
-          { term: "Portolan Charts", definition: "Detailed navigational maps showing coastlines, ports, and sailing directions; essential tools for European explorers navigating unfamiliar Atlantic waters." },
+          { term: "Jamestown", definition: "First permanent English settlement in North America (1607), founded in a Virginia swamp; survived starvation and disease to become the base of England's colonial enterprise." },
+          { term: "New Amsterdam", definition: "Dutch colonial settlement on Manhattan Island at the mouth of the Hudson River; captured by England in 1664 and renamed New York — a pivotal strategic port." },
+          { term: "St. Augustine", definition: "Spanish settlement founded in Florida in 1565 — the oldest continuously occupied European settlement in North America; a base for missions and a refuge for escaped enslaved people." },
+          { term: "Plymouth", definition: "1620 settlement by Pilgrim Separatists in Massachusetts; their Mayflower Compact established self-governance principles and their survival narrative became central to American mythology." },
         ],
       },
       {
-        name: "Environmental Impact of Contact",
+        name: "Environmental Impact",
         terms: [
-          { term: "Overgrazing", definition: "Introduced cattle, pigs, and sheep consumed vegetation faster than ecosystems could recover, causing widespread soil erosion and loss of native plant species." },
-          { term: "Deforestation", definition: "Spanish demand for timber for ships, construction, and fuel led to large-scale forest clearing around colonial settlements, altering watersheds and habitats." },
-          { term: "Epidemic Disease", definition: "Smallpox and other European diseases killed 50–90% of Indigenous populations across the Americas within a century of contact, reshaping the entire landscape." },
-          { term: "Silver Mining", definition: "Spanish extraction at mines like Potosí used toxic mercury amalgamation and required massive deforestation for fuel, poisoning soil and water across entire regions." },
+          { term: "Epidemic Disease", definition: "European diseases killed 50–90% of Indigenous populations within a century of contact, depopulating entire regions and opening land that colonists interpreted as divinely emptied for them." },
+          { term: "Deforestation", definition: "English colonists cleared forests for farmland, timber, and fuel at a scale that altered watersheds, eliminated animal habitat, and erased the landscape management Native peoples had practiced." },
+          { term: "Overgrazing", definition: "Introduced cattle, pigs, and sheep consumed vegetation faster than ecosystems could recover, causing soil erosion and displacing Native food sources across the continent." },
+          { term: "Silver Mining", definition: "Spanish extraction at mines like Potosí used toxic mercury amalgamation and massive deforestation, poisoning soil and water while generating the wealth that fueled European capitalism." },
         ],
       },
     ],
@@ -168,43 +168,43 @@ export const gameSets: GameSet[] = [
     unit: 1,
     puzzle: 4,
     theme: { code: "MIG", name: "Migration and Settlement" },
-    title: "Natives, Contact & Exploration",
+    title: "Native Peoples, Contact & Colonial America",
     subject: "APUSH",
     groups: [
       {
-        name: "Spanish Conquistadors",
-        terms: [
-          { term: "Hernán Cortés", definition: "Spanish conquistador who conquered the Aztec Empire in 1521 by forging alliances with rival Native peoples and exploiting political divisions." },
-          { term: "Francisco Pizarro", definition: "Spanish conquistador who defeated the Inca Empire in Peru in the 1530s, capturing Emperor Atahualpa and opening South America to colonization." },
-          { term: "Hernando de Soto", definition: "Spanish explorer who led the first European expedition through the southeastern United States (1539–1542) in a brutal search for gold." },
-          { term: "Juan Ponce de León", definition: "Spanish conquistador who led the first European expedition to Florida in 1513, claiming it for Spain while searching for land and legendary riches." },
-        ],
-      },
-      {
-        name: "Non-Spanish Explorers",
-        terms: [
-          { term: "Jacques Cartier", definition: "French explorer who sailed the St. Lawrence River in the 1530s, claiming the region for France and laying the groundwork for New France." },
-          { term: "John Cabot", definition: "Italian explorer sailing for England who reached North America in 1497, providing the legal basis for England's later territorial claims on the continent." },
-          { term: "Giovanni da Verrazzano", definition: "Italian explorer sailing for France who mapped the Atlantic coast of North America in 1524, including what is now New York Harbor." },
-          { term: "Henry Hudson", definition: "English explorer sailing for the Dutch who explored the Hudson River (1609), establishing Dutch claims to the region that became New Netherland." },
-        ],
-      },
-      {
-        name: "Native Dwelling Types",
-        terms: [
-          { term: "Longhouses", definition: "Large communal wooden structures built by Iroquois and other northeastern peoples, housing multiple related families under one roof along a central corridor." },
-          { term: "Pueblos", definition: "Multi-story stone and adobe structures built by Southwestern peoples for communal housing and defense; some housed hundreds of people." },
-          { term: "Tipis", definition: "Portable cone-shaped dwellings made from animal hides used by nomadic Great Plains peoples; could be assembled or disassembled in under an hour for seasonal moves." },
-          { term: "Wigwams", definition: "Dome-shaped structures built by Algonquian-speaking peoples using bent saplings covered with bark or hides; smaller and more mobile than longhouses." },
-        ],
-      },
-      {
         name: "Motivations for European Exploration",
         terms: [
-          { term: "God", definition: "Religious motivation driving European exploration; rulers and the Church sought to spread Christianity to new peoples and win souls, justifying conquest as a holy mission." },
-          { term: "Gold", definition: "Economic motivation driving European explorers to seek precious metals; Spanish extraction of silver and gold from the Americas fueled European economies for centuries." },
-          { term: "Glory", definition: "Nationalist motivation for exploration; European monarchs competed for prestige, territorial claims, and international power through overseas discovery." },
-          { term: "New Trade Routes", definition: "Desire to reach Asian markets directly without crossing Ottoman-controlled overland routes; the search for a western sea route to Asia led Columbus to the Americas." },
+          { term: "God", definition: "Religious motivation driving European exploration; spreading Christianity justified conquest as a holy mission and gave European powers a moral framework for subjugating non-Christian peoples." },
+          { term: "Gold", definition: "Economic motivation driving explorers to seek precious metals; Spanish extraction of silver and gold from the Americas transferred enormous wealth to Europe." },
+          { term: "Glory", definition: "Nationalist motivation for exploration; monarchs competed for prestige, territorial claims, and international power through overseas discovery and colonization." },
+          { term: "New Trade Routes", definition: "Desire to reach Asian markets without crossing Ottoman lands; the search for a western sea route to Asia led Columbus to the Americas in 1492." },
+        ],
+      },
+      {
+        name: "Explorers and Conquistadors",
+        terms: [
+          { term: "Hernán Cortés", definition: "Spanish conquistador who conquered the Aztec Empire in 1521 by forging alliances with rival Native peoples; his success opened Central America to Spanish colonization." },
+          { term: "Columbus's 1492 Voyage", definition: "Spanish-funded expedition that reached the Caribbean, initiating sustained transatlantic contact and permanently altering the course of world history." },
+          { term: "John Cabot", definition: "Italian explorer sailing for England who reached North America in 1497, providing the legal basis for England's later territorial claims on the continent." },
+          { term: "Henry Hudson", definition: "English explorer sailing for the Dutch who explored the Hudson River (1609), establishing Dutch claims to the region that became New Netherland (later New York)." },
+        ],
+      },
+      {
+        name: "English Colonial Settlement Patterns",
+        terms: [
+          { term: "Jamestown", definition: "Virginia Company's 1607 settlement — the first permanent English colony; early settlers starved until tobacco cultivation under John Rolfe made it profitable." },
+          { term: "Pilgrims", definition: "Separatist Puritans who sailed on the Mayflower and founded Plymouth Colony in 1620; sought complete separation from the Church of England, not just reform." },
+          { term: "Great Migration", definition: "1630–1640 movement of roughly 20,000 Puritans from England to Massachusetts Bay; the largest single migration to colonial New England, driven by religious persecution and economic hardship." },
+          { term: "Patroon System", definition: "Dutch colonial land-grant system giving large estates to wealthy landlords who brought settlers to farm; established the patronage patterns that shaped New York's land tenure long after English conquest." },
+        ],
+      },
+      {
+        name: "The Middle Passage and Forced Migration",
+        terms: [
+          { term: "Middle Passage", definition: "Brutal transatlantic voyage bringing enslaved Africans to the Americas; millions died from disease, violence, and dehydration in ships designed for cargo, not people." },
+          { term: "African Diaspora", definition: "Forced dispersal of millions of Africans across the Atlantic world through the slave trade, creating diverse African-descended communities in every corner of the Americas." },
+          { term: "Stono Rebellion", definition: "1739 South Carolina slave revolt in which 20 enslaved Africans marched toward Spanish Florida seeking freedom; the largest slave uprising in colonial North America." },
+          { term: "Asiento", definition: "Contract granting a nation or company exclusive rights to supply enslaved Africans to Spanish colonies; the key commercial mechanism of the transatlantic slave trade." },
         ],
       },
     ],
@@ -213,44 +213,44 @@ export const gameSets: GameSet[] = [
     id: "unit-1-pce",
     unit: 1,
     puzzle: 5,
-    theme: { code: "PCE", name: "Politics and Power" },
-    title: "Natives, Contact & Exploration",
+    theme: { code: "PCE", name: "Politics and Civic Engagement" },
+    title: "Native Peoples, Contact & Colonial America",
     subject: "APUSH",
     groups: [
       {
-        name: "Spanish Colonial Government",
+        name: "Native Political Organization",
         terms: [
-          { term: "Viceroy", definition: "Royal governor who administered a large Spanish colonial territory (viceroyalty) on behalf of the Spanish crown, holding sweeping executive and judicial powers." },
-          { term: "Audiencia", definition: "High court and governing council in Spanish colonial territories that handled both judicial and administrative matters, reporting directly to the Council of the Indies." },
-          { term: "Cabildo", definition: "Municipal council in Spanish colonial towns handling local governance; one of the few venues where colonists had any meaningful political participation." },
-          { term: "Council of the Indies", definition: "Spanish royal body based in Madrid that oversaw all colonial legislation, appointments, and trade for the American colonies; the supreme authority over colonial affairs." },
-        ],
-      },
-      {
-        name: "Native Resistance to Spanish Power",
-        terms: [
-          { term: "Pueblo Revolt", definition: "1680 uprising in which Pueblo peoples united under Popé expelled Spanish colonizers from New Mexico for 12 years, destroying missions and killing priests." },
-          { term: "Mixtón War", definition: "1541–1542 rebellion by Indigenous peoples of western Mexico against Spanish rule; nearly ended Spanish expansion northward into the region." },
-          { term: "Arauco War", definition: "Long-running conflict between Spanish colonizers and the Mapuche people of Chile who successfully resisted Spanish conquest for centuries using guerrilla warfare." },
-          { term: "Tenochtitlán Siege", definition: "1521 months-long siege by Spanish and allied Native forces that destroyed the Aztec capital; its fall ended the Aztec Empire and opened central Mexico to colonization." },
-        ],
-      },
-      {
-        name: "Spanish Legal Concepts",
-        terms: [
-          { term: "Requerimiento", definition: "Spanish legal document read aloud (often in Spanish to people who spoke no Spanish) demanding submission to the Crown; refusal was used to legally justify conquest." },
-          { term: "Papal Donation", definition: "1493 decree by Pope Alexander VI dividing the non-Christian world between Spain and Portugal, used to legitimize their colonial territorial claims." },
-          { term: "New Laws of 1542", definition: "Spanish legislation attempting to limit the encomienda system and protect Native peoples from abuse; largely unenforced due to colonist resistance." },
-          { term: "Treaty of Tordesillas", definition: "1494 agreement between Spain and Portugal dividing the newly discovered world along a meridian line, giving Spain most of the Americas and Portugal Brazil and Africa." },
-        ],
-      },
-      {
-        name: "Native Political Confederacies",
-        terms: [
+          { term: "Iroquois Confederacy", definition: "Alliance of five nations (Mohawk, Onondaga, Cayuga, Oneida, Seneca) governed by the Great Law of Peace; a model of federal democracy that may have influenced the U.S. Constitution." },
+          { term: "Powhatan Confederacy", definition: "Alliance of ~30 Algonquian-speaking tribes in Virginia, led by Chief Wahunsenacah; initially traded with Jamestown settlers before launching major attacks to drive them out." },
           { term: "Aztec Triple Alliance", definition: "Political and military alliance of Tenochtitlán, Texcoco, and Tlacopan that dominated Mesoamerica through tribute extraction before the Spanish conquest." },
-          { term: "Powhatan Confederacy", definition: "Alliance of approximately 30 Algonquian-speaking tribes in the Virginia tidewater region, led by Chief Wahunsenacah; encountered English settlers at Jamestown." },
-          { term: "Creek Confederacy", definition: "Loose alliance of towns in the southeastern United States; one of the major Native political entities that shaped colonial power dynamics in the region." },
-          { term: "Maya City-States", definition: "Independent urban centers of the Maya civilization, each ruled by a divine king; their political fragmentation made them easier targets for Spanish conquest than the centralized Aztec Empire." },
+          { term: "Pueblo Revolt", definition: "1680 unified uprising in which Pueblo peoples under Popé expelled Spanish colonizers from New Mexico for 12 years — the most successful Native revolt against European colonization in North America." },
+        ],
+      },
+      {
+        name: "Colonial Self-Governance",
+        terms: [
+          { term: "Mayflower Compact", definition: "1620 agreement among Pilgrim men to govern themselves by majority rule before disembarking; an early precedent for the idea that political authority requires the consent of the governed." },
+          { term: "House of Burgesses", definition: "Virginia's elected colonial legislature, founded in 1619 — the first representative assembly in English North America; established the precedent of elected self-governance." },
+          { term: "Town Meetings", definition: "New England practice of direct democratic governance in which all male property owners gathered to vote on local laws; celebrated as the purest form of American self-rule." },
+          { term: "Dominion of New England", definition: "1686–89 attempt by King James II to consolidate New England colonies under a royal governor and eliminate their assemblies; ended when the Glorious Revolution removed James from power." },
+        ],
+      },
+      {
+        name: "Colonial Rebellion and Conflict",
+        terms: [
+          { term: "Bacon's Rebellion", definition: "1676 Virginia uprising of frontier settlers against the colonial government; exposed class tensions between the planter elite and poor white settlers and accelerated the shift to African slavery." },
+          { term: "King Philip's War", definition: "1675–76 conflict between New England colonists and a Native alliance led by Metacom (King Philip); proportionally the deadliest war in American history, devastating both sides." },
+          { term: "Pequot War", definition: "1636–38 conflict in Connecticut in which English colonists and their Mohegan and Narragansett allies nearly destroyed the Pequot nation — establishing a brutal template for future Native-colonial wars." },
+          { term: "Salem Witch Trials", definition: "1692 Massachusetts crisis in which 20 people were executed for witchcraft; rooted in social tensions, Puritan theology, and community conflict — and a lesson about the dangers of mass hysteria." },
+        ],
+      },
+      {
+        name: "Spanish Colonial Control",
+        terms: [
+          { term: "Viceroy", definition: "Royal governor administering a Spanish colonial territory on behalf of the Crown; wielded sweeping executive, judicial, and military powers." },
+          { term: "Encomienda", definition: "Spanish system granting colonists the right to demand labor and tribute from Native peoples; condemned by Bartolomé de las Casas and partially reformed by the New Laws of 1542." },
+          { term: "Bartolomé de las Casas", definition: "Spanish priest who documented atrocities against Indigenous peoples and argued passionately for their rights; his accounts shaped European debates about the morality of colonization." },
+          { term: "Treaty of Tordesillas", definition: "1494 agreement dividing the non-Christian world between Spain and Portugal along a meridian; gave Spain most of the Americas — the foundational act of European colonial geopolitics." },
         ],
       },
     ],
@@ -260,43 +260,43 @@ export const gameSets: GameSet[] = [
     unit: 1,
     puzzle: 6,
     theme: { code: "WOR", name: "America in the World" },
-    title: "Natives, Contact & Exploration",
+    title: "Native Peoples, Contact & Colonial America",
     subject: "APUSH",
     groups: [
       {
         name: "European Colonial Powers",
         terms: [
-          { term: "Spain", definition: "First European power to establish a major colonial empire in the Americas after 1492; dominated Central and South America and extracted enormous wealth through mining and agriculture." },
-          { term: "Portugal", definition: "First European nation to develop Atlantic trade routes; colonized Brazil, controlled the African slave trade, and established an empire stretching from Africa to Asia." },
-          { term: "France", definition: "Established colonies in Canada and the Caribbean focusing on the fur trade and Indigenous alliances; founded Quebec in 1608 and contested British power for North America." },
-          { term: "England", definition: "Late entrant to American colonization; established Jamestown in 1607 and quickly expanded along the Atlantic coast, eventually challenging Spain and France for dominance." },
+          { term: "Spain", definition: "First European power to build a major colonial empire after 1492; dominated Central and South America through military conquest, the encomienda system, and Catholic missionary work." },
+          { term: "France", definition: "Established New France (Canada and Louisiana) focused on the fur trade and Native alliances rather than settlement; founded Quebec in 1608 and contested Britain for North America." },
+          { term: "England", definition: "Late entrant to colonization; established Jamestown in 1607 and expanded along the Atlantic coast through charter companies, proprietary grants, and religious refuge colonies." },
+          { term: "Netherlands", definition: "Founded New Netherland (New York) in the early 1600s as a commercial enterprise; their liberal approach attracted diverse settlers and established patterns of religious tolerance." },
         ],
       },
       {
-        name: "Navigation Innovations",
+        name: "Transatlantic Connections",
         terms: [
-          { term: "Compass", definition: "Navigational device using Earth's magnetic field to indicate north; adopted by European explorers from Arab and Chinese navigators, enabling open-ocean sailing." },
-          { term: "Lateen Sail", definition: "Triangular sail that allowed ships to sail more directly into the wind; a key innovation enabling Portuguese and Spanish explorers to navigate Atlantic and coastal waters." },
-          { term: "Cross-Staff", definition: "Navigational instrument used to measure the angle of the sun or stars above the horizon, allowing sailors to calculate their latitude during the Age of Exploration." },
-          { term: "Dead Reckoning", definition: "Navigation method using known speed, direction, and elapsed time to estimate position; essential for sailors crossing open ocean before precise instruments were available." },
+          { term: "Columbian Exchange", definition: "Transfer of plants, animals, diseases, and people between the Old and New Worlds after 1492; the most consequential ecological event in human history, reshaping every society it touched." },
+          { term: "Reconquista", definition: "Centuries-long Christian reconquest of Iberia completed in 1492; freed Spain's military and religious energy for overseas expansion and shaped the crusading ideology of the conquistadors." },
+          { term: "Atlantic Slave Trade", definition: "Forced transportation of 12 million Africans to the Americas between the 16th and 19th centuries; the largest forced migration in history and the economic foundation of the colonial Atlantic world." },
+          { term: "West African Kingdoms", definition: "Powerful states including Mali, Songhai, and Kongo that were drawn into or destabilized by the slave trade; their political complexity shaped who was enslaved and who profited." },
         ],
       },
       {
-        name: "Key Transatlantic Events",
+        name: "Colonial Rivalries",
         terms: [
-          { term: "Reconquista", definition: "Centuries-long Christian campaign to retake the Iberian Peninsula from Muslim rule; its completion in 1492 freed Spain to fund Columbus's voyage that same year." },
-          { term: "Columbus's 1492 Voyage", definition: "Spanish-funded expedition that reached the Caribbean, initiating sustained transatlantic contact between Europe and the Americas and permanently altering world history." },
-          { term: "Magellan's Circumnavigation", definition: "1519–1522 Spanish expedition that first sailed around the world, demonstrating the Earth's true scale and the vast size of the Pacific Ocean." },
-          { term: "Line of Demarcation", definition: "Boundary established by the papal decree of 1493 dividing exploration rights between Spain and Portugal; formalized by the Treaty of Tordesillas in 1494." },
+          { term: "Beaver Wars", definition: "Series of 17th-century conflicts in which the Iroquois Confederacy — backed by Dutch and English guns — attacked rival nations for control of the lucrative fur trade." },
+          { term: "King William's War", definition: "1689–97 North American theater of the European War of the League of Augsburg; the first of a series of colonial wars between England and France for control of North America." },
+          { term: "Queen Anne's War", definition: "1702–13 North American conflict corresponding to the War of the Spanish Succession; Britain gained Acadia (Nova Scotia) from France, intensifying competition for the continent." },
+          { term: "Fur Trade Alliances", definition: "French alliance with Huron and Algonquian nations against the Iroquois; Dutch and English alliance with the Iroquois — Native nations were indispensable military partners in the colonial rivalries." },
         ],
       },
       {
-        name: "Africa and the Atlantic World",
+        name: "Navigation and Exploration Technology",
         terms: [
-          { term: "West African Kingdoms", definition: "Powerful states such as Mali, Songhai, and Kongo that were drawn into or weakened by the Atlantic slave trade, fundamentally reshaping African society and politics." },
-          { term: "Atlantic Slave Trade", definition: "System of forced transportation of millions of Africans to the Americas beginning in the 16th century; one of the largest forced migrations in human history." },
-          { term: "Asiento", definition: "Contract granted by the Spanish crown giving a nation or company exclusive rights to supply enslaved Africans to Spanish American colonies; a key mechanism of the Atlantic slave trade." },
-          { term: "Estevanico", definition: "Enslaved African man who survived a disastrous Spanish expedition and became one of the first non-Native people to travel through the American Southwest, exploring for Spain in 1539." },
+          { term: "Caravel", definition: "Maneuverable Portuguese sailing ship with lateen sails; its ability to sail into the wind made sustained long-distance Atlantic voyages possible for the first time." },
+          { term: "Compass", definition: "Navigational device indicating magnetic north; adopted by European explorers from Arab and Chinese navigators — enabled open-ocean sailing without visible landmarks." },
+          { term: "Astrolabe", definition: "Instrument measuring the altitude of celestial bodies; allowed sailors to determine their latitude, essential for navigation on the open Atlantic." },
+          { term: "Trade Winds", definition: "Steady equatorial winds blowing westward across the Atlantic; their predictability allowed Columbus and later explorers to reliably sail from Europe to the Americas." },
         ],
       },
     ],
@@ -306,43 +306,43 @@ export const gameSets: GameSet[] = [
     unit: 1,
     puzzle: 7,
     theme: { code: "ARC", name: "American and Regional Culture" },
-    title: "Natives, Contact & Exploration",
+    title: "Native Peoples, Contact & Colonial America",
     subject: "APUSH",
     groups: [
       {
-        name: "Native American Spiritual Practices",
+        name: "Native Spiritual and Cultural Life",
         terms: [
-          { term: "Animism", definition: "Belief that spirits inhabit all natural objects — animals, plants, rivers, and landforms; central to most Native American spiritual traditions." },
-          { term: "Shamanism", definition: "Spiritual practice in which a shaman acts as intermediary between the human and spirit worlds through ritual, healing, and vision; found across many Native cultures." },
-          { term: "Vision Quest", definition: "Coming-of-age ritual practiced by many Plains and Woodland peoples in which a young person fasts in solitude seeking a spiritual vision to guide their life." },
-          { term: "Sweat Lodge", definition: "Ceremonial structure used for purification rituals combining heat, steam, and prayer; practiced across many Native nations as a spiritual and communal rite." },
+          { term: "Animism", definition: "Belief that spirits inhabit all natural objects — animals, plants, rivers, and landforms; central to most Native American spiritual traditions and shaped how Native peoples related to the land." },
+          { term: "Oral Tradition", definition: "Transmission of history, law, and culture through spoken word, song, and story; the primary means of preserving collective knowledge — and a target of colonial assimilation campaigns." },
+          { term: "Potlatch", definition: "Pacific Northwest ceremonial feast in which hosts distribute wealth to build alliances and demonstrate status; attacked by Canadian and U.S. governments as incompatible with private property." },
+          { term: "Pueblo Revolt", definition: "1680 uprising that drove out Spanish missionaries and destroyed mission churches; Pueblo peoples reasserted their spiritual traditions after decades of forced conversion and cultural suppression." },
+        ],
+      },
+      {
+        name: "Puritan Religious Culture",
+        terms: [
+          { term: "Puritans", definition: "English Calvinist colonizers of New England who sought to build a biblically ordered society; their culture of literacy (to read scripture), education, and communal obligation shaped American civic life." },
+          { term: "Salem Witch Trials", definition: "1692 hysteria in which 20 people were executed; exposed the dangers of Puritan theocracy and communal conformity — and became America's defining cautionary tale about religious extremism." },
+          { term: "Halfway Covenant", definition: "1662 Puritan compromise allowing partial church membership to the children of members who hadn't experienced conversion; a sign of declining religious intensity in New England." },
+          { term: "Roger Williams", definition: "Puritan minister expelled for advocating church-state separation; founded Rhode Island with full religious liberty — the most radical colonial experiment in tolerance." },
+        ],
+      },
+      {
+        name: "The First Great Awakening",
+        terms: [
+          { term: "First Great Awakening", definition: "1730s–40s wave of Protestant revivalism that swept the colonies; emphasized personal conversion over church hierarchy, democratized religion, and indirectly fueled the Revolution." },
+          { term: "Jonathan Edwards", definition: "Puritan theologian whose 'Sinners in the Hands of an Angry God' (1741) terrified audiences into conversion; the Awakening's intellectual architect." },
+          { term: "George Whitefield", definition: "Charismatic English preacher who toured all 13 colonies drawing crowds of thousands; his itinerant preaching style and open-air services bypassed established church authority." },
+          { term: "New Lights vs. Old Lights", definition: "Split in colonial Protestantism between revivalists (New Lights) who embraced emotional conversion and traditionalists (Old Lights) who feared enthusiasm as disorderly and theologically unsound." },
         ],
       },
       {
         name: "Spanish Catholic Cultural Influence",
         terms: [
           { term: "Missions", definition: "Spanish religious settlements combining Catholic worship, forced labor, and cultural assimilation; built across Florida, the Southwest, and California to convert Native peoples." },
-          { term: "Franciscans", definition: "Catholic religious order that led missionary efforts across Spanish North America, building a chain of missions from Florida to California." },
-          { term: "Jesuits", definition: "Catholic religious order known for intellectual rigor and adaptability; established missions in South America and Canada and advocated—with limits—for some Indigenous rights." },
+          { term: "Franciscans", definition: "Catholic religious order that led North American missionary efforts; built a chain of missions from Florida to California and enforced cultural conversion on Native peoples." },
           { term: "Our Lady of Guadalupe", definition: "Apparition of the Virgin Mary said to appear to a Nahua man in 1531; became the most powerful religious symbol of colonial Mexico, blending Catholic and Indigenous devotion." },
-        ],
-      },
-      {
-        name: "Native Cultural Traditions",
-        terms: [
-          { term: "Potlatch", definition: "Ceremonial feast practiced by Pacific Northwest peoples in which hosts demonstrate status and build alliances by giving away large quantities of goods." },
-          { term: "Sun Dance", definition: "Sacred annual ceremony of many Plains peoples involving communal prayer, fasting, and physical endurance to renew spiritual bonds with the creator and community." },
-          { term: "Green Corn Ceremony", definition: "Annual thanksgiving ritual of Southeastern peoples celebrating the new corn harvest through communal fasting, feasting, forgiveness, and spiritual renewal." },
-          { term: "Oral Tradition", definition: "Transmission of history, law, and culture through spoken word, song, and story; the primary means of preserving collective knowledge in non-literate Native societies." },
-        ],
-      },
-      {
-        name: "Native Arts and Architecture",
-        terms: [
-          { term: "Totem Poles", definition: "Carved wooden pillars created by Pacific Northwest peoples depicting ancestral beings, clan histories, and significant events; monuments of cultural identity and status." },
-          { term: "Kachina Dolls", definition: "Carved figures representing spiritual beings (kachinas) in Pueblo religion; used in ceremonies and given to children as teaching tools about the spirit world." },
-          { term: "Earthen Mounds", definition: "Large earthworks built by Mississippian and earlier cultures for ceremonial, burial, and residential purposes; the most impressive at Cahokia rival the size of Egyptian pyramids." },
-          { term: "Cliff Dwellings", definition: "Stone and adobe structures built into cliff faces by Ancestral Puebloan peoples for protection and habitation, such as the elaborate complex at Mesa Verde, Colorado." },
+          { term: "Syncretism", definition: "Blending of Native and Catholic religious practices; allowed Indigenous peoples to preserve elements of their spiritual traditions within the framework of forced Christian conversion." },
         ],
       },
     ],
@@ -352,488 +352,1519 @@ export const gameSets: GameSet[] = [
     unit: 1,
     puzzle: 8,
     theme: { code: "SOC", name: "Social Structures" },
-    title: "Natives, Contact & Exploration",
+    title: "Native Peoples, Contact & Colonial America",
     subject: "APUSH",
     groups: [
       {
-        name: "Spanish Colonial Hierarchy",
+        name: "Colonial Slavery",
         terms: [
-          { term: "Peninsulares", definition: "Spanish-born colonists who held the highest social status in colonial society and monopolized top government and church positions in the Americas." },
-          { term: "Criollos", definition: "People of Spanish descent born in the Americas; lower in status than peninsulares despite often equal wealth; they would later lead Latin American independence movements." },
-          { term: "Mestizos", definition: "People of mixed Spanish and Native heritage who grew to be the largest population group in colonial society, occupying a middle tier between Spanish elites and Indigenous peoples." },
-          { term: "Castas", definition: "General term for people of mixed racial ancestry in the Spanish colonial racial classification system; dozens of specific categories determined one's legal rights and social standing." },
+          { term: "Middle Passage", definition: "Brutal transatlantic voyage bringing enslaved Africans to the Americas; millions died from disease, violence, and dehydration — the most horrific leg of the triangular trade." },
+          { term: "Slave Codes", definition: "Colonial laws defining enslaved people as chattel property with no rights; stripped them of family, freedom of movement, and legal personhood — enshrined in Virginia law by the 1660s." },
+          { term: "Chattel Slavery", definition: "System treating enslaved people as inheritable personal property; distinguished American slavery from earlier forms by making it permanent, hereditary, and race-based." },
+          { term: "Stono Rebellion", definition: "1739 South Carolina uprising of 20 enslaved Africans marching toward Spanish Florida; its suppression led to even harsher slave codes and restrictions on Black assembly." },
         ],
       },
       {
         name: "Native Social Organization",
         terms: [
-          { term: "Tribe", definition: "Basic unit of Native American social and political organization, typically sharing a common territory, language, kinship network, and cultural practices." },
-          { term: "Clan", definition: "Kinship group within a tribe tracing descent from a common ancestor; regulates marriage, social obligations, and ceremonial responsibilities." },
-          { term: "Moiety", definition: "Division of a society into two complementary halves that regulate marriage patterns, ceremonial roles, and social reciprocity between groups." },
-          { term: "Extended Family", definition: "The core social and economic unit in most Native societies, in which grandparents, parents, children, and cousins lived, farmed, hunted, and raised children cooperatively." },
+          { term: "Matrilineal Descent", definition: "System in which lineage and clan membership pass through the mother's line; practiced by the Iroquois and many Southeastern nations — women held significant social and political power." },
+          { term: "Two-Spirit", definition: "Tradition recognized in many Native cultures acknowledging people who embody both masculine and feminine spiritual qualities; often held specialized ceremonial and social roles." },
+          { term: "Division of Labor", definition: "Gendered allocation of tasks in Native societies; women typically managed farming, food, and home life; men handled hunting, warfare, and long-distance trade — both roles essential and respected." },
+          { term: "Extended Family", definition: "Core social and economic unit in most Native societies; grandparents, parents, children, and cousins lived and worked cooperatively — contrasting with the nuclear family ideal of European settlers." },
         ],
       },
       {
-        name: "Gender in Native Societies",
+        name: "Spanish Colonial Hierarchy",
         terms: [
-          { term: "Matrilineal Descent", definition: "System in which lineage, clan membership, and property pass through the mother's line; practiced by the Iroquois and many other Eastern and Southeastern nations." },
-          { term: "Patrilineal Descent", definition: "System in which lineage and property pass through the father's line; common among many Southwestern and Plains peoples." },
-          { term: "Two-Spirit", definition: "A tradition recognized in many Native cultures acknowledging people who embody both masculine and feminine spiritual qualities; often held specialized ceremonial roles." },
-          { term: "Division of Labor", definition: "Gendered allocation of tasks in Native societies; typically women managed farming, food processing, and home life while men handled hunting, warfare, and long-distance trade." },
+          { term: "Peninsulares", definition: "Spanish-born colonists who monopolized the highest government and Church positions in the Americas; their status over American-born Spaniards would eventually fuel independence movements." },
+          { term: "Criollos", definition: "People of Spanish descent born in the Americas; despite often equal wealth, ranked below peninsulares — their frustrated ambitions would drive Latin American independence in the early 1800s." },
+          { term: "Mestizos", definition: "People of mixed Spanish and Native heritage who grew to be the largest colonial population group; occupied a middle tier in the rigid racial hierarchy of Spanish colonial society." },
+          { term: "Castas", definition: "Spanish colonial racial classification system with dozens of categories based on ancestry; one's casta determined legal rights, tax obligations, and social standing." },
         ],
       },
       {
-        name: "Key Figures Crossing Social Boundaries",
+        name: "Gender and Class in Colonial Society",
         terms: [
-          { term: "La Malinche", definition: "Nahua woman who served as translator and strategic advisor to Hernán Cortés; her role as cultural intermediary was crucial to the conquest and remains historically controversial." },
-          { term: "Bartolomé de las Casas", definition: "Spanish priest who witnessed and documented Spanish atrocities against Indigenous peoples, becoming the most prominent advocate for Native rights in the 16th century." },
-          { term: "Tlaxcalan Allies", definition: "Indigenous peoples of Tlaxcala who allied with Cortés against the Aztec Empire; their military support was arguably the decisive factor in the Spanish conquest of Tenochtitlán." },
-          { term: "Native Converts", definition: "Indigenous peoples who adopted Christianity — sometimes voluntarily, often under coercion — and frequently served as cultural intermediaries and translators in colonial society." },
+          { term: "Indentured Servants", definition: "Workers who traded years of labor for Atlantic passage; many were young English men who hoped to eventually own land — their vulnerability to exploitation contributed to Bacon's Rebellion." },
+          { term: "Republican Motherhood (origins)", definition: "Proto-feminist ideals emerging even in colonial times; literacy campaigns for women in New England and Quaker gender equality planted seeds for later arguments about women's civic roles." },
+          { term: "La Malinche", definition: "Nahua woman who served as translator and advisor to Cortés; her role as cultural intermediary was decisive in the conquest — and she became a symbol of both collaboration and victimhood in Mexican memory." },
+          { term: "Coverture", definition: "English legal doctrine under which a married woman's legal identity merged into her husband's; she could not own property, sign contracts, or sue — the legal basis of colonial women's subordination." },
         ],
       },
     ],
   },
+  // ── Unit 3: Revolution & Early Republic ─────────────────────────────────
   {
-    id: "unit-2",
-    unit: 2,
-    title: "Colonial America",
-    subject: "APUSH",
-    groups: [
-      {
-        name: "New England Colonies",
-        terms: [
-          { term: "Mayflower Compact", definition: "1620 agreement among Pilgrim settlers establishing self-governance in Plymouth, an early precedent for democratic rule." },
-          { term: "Puritans", definition: "English Calvinist settlers who founded Massachusetts Bay Colony seeking to reform the Church of England and build a godly community." },
-          { term: "Salem Witch Trials", definition: "1692 crisis in Massachusetts in which 20 people were executed after mass hysteria led to accusations of witchcraft." },
-          { term: "Town Meetings", definition: "New England practice of direct democratic governance where colonists gathered to debate and vote on local laws and issues." },
-        ],
-      },
-      {
-        name: "Southern Colonies",
-        terms: [
-          { term: "Jamestown", definition: "First permanent English settlement in America (1607), founded in Virginia and nearly destroyed by disease and starvation." },
-          { term: "Tobacco Economy", definition: "Virginia's plantation-based economy centered on tobacco, which drove demand for cheap labor including enslaved Africans." },
-          { term: "Indentured Servants", definition: "Workers who traded several years of labor for passage to the colonies; a key labor source before slavery expanded." },
-          { term: "Bacon's Rebellion", definition: "1676 armed uprising in Virginia led by Nathaniel Bacon against the colonial government, driven by frontier grievances and economic inequality." },
-        ],
-      },
-      {
-        name: "Colonial Conflicts",
-        terms: [
-          { term: "King Philip's War", definition: "1675–1676 conflict between New England colonists and a Native alliance led by Metacom, one of the bloodiest per-capita wars in American history." },
-          { term: "Pueblo Revolt", definition: "1680 uprising in which Pueblo peoples expelled Spanish colonizers from New Mexico for 12 years in response to forced labor and religious suppression." },
-          { term: "Stono Rebellion", definition: "1739 slave revolt in South Carolina in which enslaved Africans marched toward Spanish Florida seeking freedom, the largest slave uprising in colonial America." },
-          { term: "Pequot War", definition: "1636–1638 conflict between English colonists and the Pequot tribe in Connecticut, resulting in the near-destruction of the Pequot people." },
-        ],
-      },
-      {
-        name: "Middle Colonies",
-        terms: [
-          { term: "William Penn", definition: "Quaker founder of Pennsylvania who established a colony based on religious tolerance and fair dealings with Native Americans." },
-          { term: "Quakers", definition: "Religious group (Society of Friends) who settled Pennsylvania; known for pacifism, equality, and early opposition to slavery." },
-          { term: "New Amsterdam", definition: "Dutch colonial settlement on Manhattan Island, captured by England in 1664 and renamed New York." },
-          { term: "Patroon System", definition: "Dutch colonial land-grant system giving large estates to wealthy landlords who brought settlers to farm the land in New Netherland." },
-        ],
-      },
-    ],
-  },
-  {
-    id: "unit-2-2",
-    unit: 2,
-    puzzle: 2,
-    title: "Colonial America",
-    subject: "APUSH",
-    groups: [
-      {
-        name: "Colonial Economy",
-        terms: [
-          { term: "Mercantilism", definition: "Economic theory that colonies exist to enrich the mother country by providing raw materials and buying finished goods; guided British colonial policy." },
-          { term: "Navigation Acts", definition: "Series of British laws requiring colonial trade to pass through English ships and ports, benefiting British merchants at colonial expense." },
-          { term: "Triangular Trade", definition: "Three-way Atlantic trade network linking the Americas, Europe, and Africa; colonists traded raw goods for manufactured items and enslaved people." },
-          { term: "Salutary Neglect", definition: "Unofficial British policy of loosely enforcing trade laws in the colonies, allowing them to develop economically with little interference." },
-        ],
-      },
-      {
-        name: "The Great Awakening",
-        terms: [
-          { term: "Jonathan Edwards", definition: "Puritan minister who led the Great Awakening with fiery sermons like 'Sinners in the Hands of an Angry God,' emphasizing human sinfulness and God's power." },
-          { term: "George Whitefield", definition: "Charismatic English preacher who toured the colonies in the 1730s–40s, drawing massive crowds and helping ignite the Great Awakening." },
-          { term: "New Lights", definition: "Supporters of the Great Awakening who embraced emotional, revivalist religion and challenged the authority of established churches." },
-          { term: "Enlightenment", definition: "18th-century intellectual movement emphasizing reason, science, and individual rights; influenced American founders like Jefferson, Franklin, and Madison." },
-        ],
-      },
-      {
-        name: "Types of Colonies",
-        terms: [
-          { term: "Proprietary Colony", definition: "Colony granted by the king to a private individual or group who governed it, such as Pennsylvania (Penn) and Maryland (Calvert)." },
-          { term: "Royal Colony", definition: "Colony under direct control of the English crown, governed by a royal governor appointed by the king; Virginia became the first in 1624." },
-          { term: "Charter Colony", definition: "Colony governed by a royal charter giving colonists significant self-rule; Connecticut and Rhode Island operated this way." },
-          { term: "Dominion of New England", definition: "1686–1689 attempt by King James II to consolidate New England colonies under a single royal governor, eliminating their assemblies; ended with the Glorious Revolution." },
-        ],
-      },
-      {
-        name: "Slavery in Colonial America",
-        terms: [
-          { term: "Middle Passage", definition: "Brutal transatlantic voyage that brought enslaved Africans to the Americas; millions died from disease, violence, and starvation in overcrowded ships." },
-          { term: "Slave Codes", definition: "Colonial laws that stripped enslaved people of all legal rights, defined slavery as a lifelong hereditary condition, and tightly controlled their daily lives." },
-          { term: "Chattel Slavery", definition: "System in which enslaved people were treated as personal property that could be bought, sold, and inherited, with no legal rights whatsoever." },
-          { term: "African Diaspora", definition: "Forced dispersal of millions of African people across the Atlantic world through the slave trade, creating diverse African-descended communities in the Americas." },
-        ],
-      },
-    ],
-  },
-  {
-    id: "unit-3",
+    id: "unit-3-nat",
     unit: 3,
+    puzzle: 1,
+    theme: { code: "NAT", name: "American and National Identity" },
     title: "Revolution & Early Republic",
     subject: "APUSH",
     groups: [
       {
-        name: "Causes of Revolution",
+        name: "Revolutionary Ideals",
         terms: [
-          { term: "Stamp Act", definition: "1765 British tax on printed materials in the colonies, provoking widespread protest under the slogan 'no taxation without representation.'" },
-          { term: "Boston Massacre", definition: "1770 confrontation in which British soldiers fired on a crowd of colonists, killing five and inflaming anti-British sentiment." },
-          { term: "Intolerable Acts", definition: "1774 British laws punishing Massachusetts after the Boston Tea Party, which united the colonies against British authority." },
-          { term: "Common Sense", definition: "1776 pamphlet by Thomas Paine arguing for American independence from Britain, widely read and hugely influential in shifting colonial opinion." },
+          { term: "Common Sense", definition: "Thomas Paine's 1776 pamphlet arguing for independence from Britain in plain language; shifted colonial opinion decisively toward separation." },
+          { term: "Declaration of Independence", definition: "1776 document asserting that all men are created equal with unalienable rights to life, liberty, and the pursuit of happiness; justified revolution in enlightenment terms." },
+          { term: "Natural Rights", definition: "Enlightenment concept that people are born with inherent rights that no government can take away; cornerstone of revolutionary ideology drawn from Locke." },
+          { term: "Popular Sovereignty", definition: "Principle that government derives its just powers from the consent of the governed; used to justify independence and shape republican constitutions." },
         ],
       },
       {
-        name: "Revolutionary War",
+        name: "Federalist vs. Anti-Federalist",
         terms: [
-          { term: "Valley Forge", definition: "Harsh 1777–1778 winter encampment of Washington's Continental Army; soldiers endured extreme cold and starvation but emerged more disciplined." },
-          { term: "Saratoga", definition: "1777 American victory over British forces in New York that convinced France to enter the war as an American ally." },
-          { term: "Yorktown", definition: "1781 siege where American and French forces trapped British General Cornwallis, effectively ending the Revolutionary War." },
-          { term: "Treaty of Paris 1783", definition: "Peace agreement ending the Revolutionary War in which Britain recognized American independence and ceded territory east of the Mississippi River." },
+          { term: "Federalists", definition: "Faction led by Hamilton and Madison that supported ratifying the Constitution and favored a strong central government over state sovereignty." },
+          { term: "Anti-Federalists", definition: "Opponents of ratification who feared tyranny from a strong central government; demanded a Bill of Rights before they would support the Constitution." },
+          { term: "The Federalist Papers", definition: "85 essays written by Hamilton, Madison, and Jay under the pseudonym 'Publius' to persuade New York to ratify the Constitution." },
+          { term: "Bill of Rights", definition: "First ten amendments to the Constitution (1791) guaranteeing freedoms of speech, religion, press, and due process; the Anti-Federalists' key demand." },
         ],
       },
       {
-        name: "Founding Documents",
+        name: "First Party System",
         terms: [
-          { term: "Declaration of Independence", definition: "1776 document proclaiming American independence from Britain and asserting natural rights including life, liberty, and the pursuit of happiness." },
-          { term: "Articles of Confederation", definition: "America's first national constitution (1781–1789), which created a weak central government unable to tax or regulate commerce." },
-          { term: "Constitution", definition: "1787 document establishing the current U.S. government with three branches and a system of checks and balances." },
-          { term: "Bill of Rights", definition: "First ten amendments to the Constitution (1791), guaranteeing individual freedoms such as speech, religion, and due process." },
+          { term: "Democratic-Republicans", definition: "Party founded by Jefferson and Madison opposing Federalist policies; favored agrarian democracy, states' rights, and a strict reading of the Constitution." },
+          { term: "Revolution of 1800", definition: "Peaceful transfer of power from Federalist Adams to Democratic-Republican Jefferson; proved the Constitution could survive partisan conflict." },
+          { term: "Alien & Sedition Acts", definition: "1798 Federalist laws criminalizing criticism of the government and targeting immigrants; rallied opposition and helped Jefferson win in 1800." },
+          { term: "Virginia & Kentucky Resolutions", definition: "Jefferson and Madison's 1798–99 resolutions arguing states could nullify unconstitutional federal laws; laid groundwork for later nullification debates." },
         ],
       },
       {
-        name: "Early Republic Debates",
+        name: "Republican Civic Values",
         terms: [
-          { term: "Federalists", definition: "Political faction led by Hamilton and Adams who favored a strong central government and ratification of the Constitution." },
-          { term: "Anti-Federalists", definition: "Opponents of the Constitution who feared centralized power and demanded a Bill of Rights to protect individual liberties." },
-          { term: "XYZ Affair", definition: "1797 diplomatic scandal in which French agents demanded bribes from U.S. diplomats, sparking an undeclared naval war with France." },
-          { term: "Alien & Sedition Acts", definition: "1798 laws that made it illegal to criticize the government and restricted immigration; seen by opponents as unconstitutional violations of free speech." },
+          { term: "Republican Motherhood", definition: "Post-Revolution ideal that women's civic role was to raise virtuous, patriotic sons; justified expanding women's education while keeping them out of formal politics." },
+          { term: "Civic Virtue", definition: "Belief that citizens must sacrifice personal interest for the public good; seen as essential to sustaining a republic and preventing tyranny." },
+          { term: "Separation of Church and State", definition: "Principle embedded in the First Amendment keeping government from establishing or interfering with religion; a break from European state churches." },
+          { term: "Washington's Farewell Address", definition: "1796 speech warning against political factions, sectionalism, and permanent foreign alliances; defined American republican ideals for generations." },
         ],
       },
     ],
   },
   {
-    id: "unit-3-2",
+    id: "unit-3-wxt",
     unit: 3,
     puzzle: 2,
+    theme: { code: "WXT", name: "Work, Exchange, and Technology" },
     title: "Revolution & Early Republic",
     subject: "APUSH",
     groups: [
       {
-        name: "Founding Fathers",
+        name: "Hamilton's Economic Program",
         terms: [
-          { term: "George Washington", definition: "Commander of the Continental Army and first U.S. President; set key precedents including the two-term limit and civilian control of the military." },
-          { term: "Thomas Jefferson", definition: "Author of the Declaration of Independence and third U.S. President; championed agrarian democracy, states' rights, and religious freedom." },
-          { term: "James Madison", definition: "'Father of the Constitution' who drafted the Virginia Plan and the Bill of Rights; fourth U.S. President during the War of 1812." },
-          { term: "John Adams", definition: "First Vice President and second U.S. President; a Federalist who navigated foreign crises and lost reelection to Jefferson in the 'Revolution of 1800.'" },
+          { term: "Report on Manufactures", definition: "Hamilton's 1791 proposal to use tariffs and subsidies to build American industry; Congress rejected it but it anticipated 19th-century industrial policy." },
+          { term: "Assumption of Debt", definition: "Hamilton's plan for the federal government to absorb all state Revolutionary War debts, making creditors loyal to the national government." },
+          { term: "National Bank", definition: "Hamilton's federally chartered Bank of the United States (1791) to stabilize currency and manage government finances; opposed by Jefferson as unconstitutional." },
+          { term: "Protective Tariff", definition: "Tax on imports designed to make foreign goods more expensive and encourage Americans to buy domestically produced goods." },
         ],
       },
       {
-        name: "Hamilton's Economic Plan",
+        name: "Agrarian Economy",
         terms: [
-          { term: "National Bank", definition: "Hamilton's proposal for a federally chartered bank to stabilize currency and manage government finances; controversial but upheld in McCulloch v. Maryland (1819)." },
-          { term: "Assumption of Debt", definition: "Hamilton's plan for the federal government to take over states' Revolutionary War debts, binding states more closely to the national government." },
-          { term: "Protective Tariff", definition: "Tax on imported goods designed to shield American manufacturers from foreign competition; central to Hamilton's vision for an industrial economy." },
-          { term: "Whiskey Rebellion", definition: "1794 uprising by western Pennsylvania farmers against a federal excise tax on whiskey; Washington's use of troops demonstrated federal authority under the new Constitution." },
+          { term: "Yeoman Farmers", definition: "Independent small landowners who Jefferson idealized as the backbone of republican democracy; contrasted with Hamilton's vision of industrial capitalism." },
+          { term: "Whiskey Rebellion", definition: "1794 western Pennsylvania uprising against Hamilton's excise tax on whiskey; Washington's forceful response demonstrated federal authority." },
+          { term: "Land Ordinance of 1785", definition: "Law surveying western lands into townships and sections for sale; funded public education and enabled orderly westward expansion." },
+          { term: "Debt Peonage", definition: "Cycle of debt trapping poor farmers and laborers in perpetual servitude to creditors; a persistent feature of the early American economy, especially in the South." },
         ],
       },
       {
-        name: "Early Foreign Policy",
+        name: "Trade and Commerce",
         terms: [
-          { term: "Jay's Treaty", definition: "1794 agreement with Britain resolving lingering Revolutionary War disputes; criticized as too favorable to Britain and bitterly opposed by Democratic-Republicans." },
-          { term: "Pinckney's Treaty", definition: "1795 agreement with Spain granting Americans navigation rights on the Mississippi River and access to the port of New Orleans." },
-          { term: "Proclamation of Neutrality", definition: "Washington's 1793 declaration that the U.S. would not take sides in the war between France and Britain, establishing a precedent for American neutrality." },
-          { term: "Washington's Farewell Address", definition: "1796 speech warning against permanent foreign alliances and political factions; shaped American foreign policy for over a century." },
+          { term: "Navigation Acts", definition: "British laws requiring colonial trade to flow through Britain; their enforcement after 1763 outraged colonists who had long evaded them." },
+          { term: "Pinckney's Treaty", definition: "1795 agreement with Spain granting Americans the right to navigate the Mississippi River and use New Orleans as a port — essential for western farmers." },
+          { term: "Jay's Treaty", definition: "1794 agreement with Britain resolving post-war trade disputes; gave U.S. merchants access to British West Indian ports but angered many Americans." },
+          { term: "Non-Importation Agreements", definition: "Colonial boycotts of British goods in protest of tax acts; effective economic pressure that helped force repeal of the Townshend Acts." },
         ],
       },
       {
-        name: "Post-Revolution Society",
+        name: "Post-War Economic Crises",
         terms: [
-          { term: "Republican Motherhood", definition: "Post-Revolution ideal that women's role was to raise virtuous, patriotic citizens; expanded women's access to education while keeping them in the domestic sphere." },
-          { term: "Northwest Ordinance", definition: "1787 law governing settlement of the Northwest Territory; established a path to statehood and banned slavery north of the Ohio River." },
-          { term: "Gradual Emancipation", definition: "Post-Revolution process in northern states of slowly freeing enslaved people over time; did not apply to the South, deepening the sectional divide over slavery." },
-          { term: "Land Ordinance of 1785", definition: "Law dividing western lands into townships for organized sale, funding public education and enabling orderly settlement of the frontier." },
+          { term: "Shays' Rebellion", definition: "1786–87 Massachusetts uprising of indebted farmers who closed courts to stop foreclosures; alarmed elites and accelerated calls for a stronger national government." },
+          { term: "Currency Crisis", definition: "Post-Revolution chaos as states printed worthless paper money to pay debts; creditors suffered and trade was disrupted, highlighting the Articles' weakness." },
+          { term: "Interstate Commerce Disputes", definition: "Conflicts between states over tariffs and trade routes under the Articles of Confederation; showed the need for federal regulation of commerce." },
+          { term: "Annapolis Convention", definition: "1786 meeting of five states to discuss commercial disputes; led to the call for the Constitutional Convention after realizing reform required broader action." },
         ],
       },
     ],
   },
   {
-    id: "unit-4",
+    id: "unit-3-geo",
+    unit: 3,
+    puzzle: 3,
+    theme: { code: "GEO", name: "Geography and the Environment" },
+    title: "Revolution & Early Republic",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Revolutionary War Turning Points",
+        terms: [
+          { term: "Lexington and Concord", definition: "April 1775 battles that opened the Revolutionary War when British troops marched to seize colonial weapons and were met with armed resistance." },
+          { term: "Saratoga", definition: "1777 American victory in upstate New York that convinced France to enter the war as an American ally — the war's decisive turning point." },
+          { term: "Valley Forge", definition: "Brutal 1777–78 winter camp in Pennsylvania where Washington's army nearly collapsed from cold and starvation but emerged as a more disciplined force." },
+          { term: "Yorktown", definition: "1781 Virginia siege where American and French forces trapped Cornwallis's British army, effectively ending major combat in the Revolutionary War." },
+        ],
+      },
+      {
+        name: "Western Lands and Expansion",
+        terms: [
+          { term: "Northwest Ordinance", definition: "1787 law organizing the territory north of the Ohio River into future states; banned slavery there and established a model for admitting new states." },
+          { term: "Proclamation Line of 1763", definition: "British order forbidding colonists from settling west of the Appalachians; deeply resented and widely ignored, stoking colonial resentment." },
+          { term: "Land Speculation", definition: "Buying large tracts of western land cheaply to sell at profit; a major occupation of early American elites and a source of conflict with Native peoples." },
+          { term: "Ohio River Valley", definition: "Fertile contested region between the Appalachians and Mississippi; fought over by Britain, France, Native nations, and American settlers throughout the 18th century." },
+        ],
+      },
+      {
+        name: "Treaty Boundaries",
+        terms: [
+          { term: "Treaty of Paris 1783", definition: "Ended the Revolutionary War; Britain recognized American independence and ceded all land east of the Mississippi River, doubling the new nation's territory." },
+          { term: "Mississippi River", definition: "Western boundary of the U.S. after 1783; Pinckney's Treaty (1795) secured American navigation rights, vital for western farmers to ship goods to market." },
+          { term: "Great Lakes Border", definition: "Northern boundary with British Canada set by the Treaty of Paris; remained contested until the Rush-Bagot Agreement (1817) demilitarized the lakes." },
+          { term: "Spanish Florida", definition: "Territory bordering the young U.S. to the south; Spain controlled it and blocked American access to Gulf ports until Pinckney's Treaty resolved disputes." },
+        ],
+      },
+      {
+        name: "Native Land and Conflict",
+        terms: [
+          { term: "Battle of Fallen Timbers", definition: "1794 U.S. victory over a Native confederacy in Ohio that broke Native resistance in the Northwest Territory and opened the region to American settlement." },
+          { term: "Treaty of Greenville", definition: "1795 treaty in which defeated Native nations ceded most of Ohio and Indiana to the United States after Fallen Timbers." },
+          { term: "Native Confederacy", definition: "Alliance of Great Lakes and Ohio Valley tribes who united to resist American expansion in the 1780s–90s, supported covertly by Britain from Canadian forts." },
+          { term: "Proclamation of 1763", definition: "British attempt to prevent colonial-Native conflict by banning settlement west of the Appalachians; failed to stop settlers and angered both colonists and Native peoples." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-3-mig",
+    unit: 3,
+    puzzle: 4,
+    theme: { code: "MIG", name: "Migration and Settlement" },
+    title: "Revolution & Early Republic",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Loyalist Exodus",
+        terms: [
+          { term: "Loyalists", definition: "Colonists who remained loyal to Britain; roughly 20% of the population, many fled to Canada, Britain, or the Caribbean after the Revolution." },
+          { term: "Confiscation Acts", definition: "State laws seizing Loyalist property after independence; drove tens of thousands of Loyalists to flee the new United States." },
+          { term: "Black Loyalists", definition: "Enslaved people who answered British offers of freedom in exchange for fighting for the Crown; roughly 15,000 evacuated to Nova Scotia, Britain, and Sierra Leone." },
+          { term: "Tory Diaspora", definition: "Mass emigration of roughly 80,000 American Loyalists after the Revolution, reshaping the demographics of Canada and the British Caribbean." },
+        ],
+      },
+      {
+        name: "Westward Movement",
+        terms: [
+          { term: "Boone's Wilderness Road", definition: "Daniel Boone's 1775 trail through the Cumberland Gap into Kentucky; opened the trans-Appalachian West to tens of thousands of settlers." },
+          { term: "Cumberland Gap", definition: "Natural mountain pass through the Appalachians that became the main gateway for settlers moving into Kentucky and Tennessee." },
+          { term: "Squatters", definition: "Settlers who occupied and farmed land they did not legally own; constant pressure on western frontier, often ahead of official surveys and treaties." },
+          { term: "Land Companies", definition: "Speculative firms like the Ohio Company that bought western land grants and recruited settlers; drove expansion but frequently clashed with Native peoples." },
+        ],
+      },
+      {
+        name: "Immigrant Communities",
+        terms: [
+          { term: "Scots-Irish", definition: "Protestant immigrants from Ulster, Ireland, who settled heavily in the Appalachian backcountry; noted for fierce independence and resistance to authority." },
+          { term: "German Immigrants", definition: "Largest non-English immigrant group; settled densely in Pennsylvania and the mid-Atlantic, maintaining German language and culture into the 19th century." },
+          { term: "Indentured Servants", definition: "Immigrants who exchanged years of labor for Atlantic passage; the system declined after the Revolution as wages rose and free labor became more available." },
+          { term: "Free Black Communities", definition: "Grew in northern cities after gradual emancipation; established churches, mutual aid societies, and schools as the foundation of African American civic life." },
+        ],
+      },
+      {
+        name: "Forced Migration and Slavery",
+        terms: [
+          { term: "Domestic Slave Trade", definition: "Sale and forced relocation of enslaved people within the U.S.; intensified after 1808 when international slave imports were banned, separating hundreds of thousands of families." },
+          { term: "Gradual Emancipation", definition: "Northern state laws freeing enslaved people incrementally over decades; by 1804 all states north of Delaware had passed some form of emancipation." },
+          { term: "Three-Fifths Compromise", definition: "Constitutional provision counting enslaved people as three-fifths of a person for apportionment; gave slaveholding states disproportionate political power." },
+          { term: "Northwest Ordinance Slavery Ban", definition: "Prohibition of slavery in the Northwest Territory (Ohio, Indiana, Illinois, Michigan, Wisconsin) — the first federal limit on slavery's expansion." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-3-pce",
+    unit: 3,
+    puzzle: 5,
+    theme: { code: "PCE", name: "Politics and Civic Engagement" },
+    title: "Revolution & Early Republic",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Constitutional Debates",
+        terms: [
+          { term: "Constitutional Convention", definition: "1787 Philadelphia meeting of 55 delegates that replaced the Articles of Confederation with the current Constitution." },
+          { term: "Great Compromise", definition: "Agreement creating a bicameral Congress with equal state representation in the Senate and population-based representation in the House." },
+          { term: "Three-Fifths Compromise", definition: "Agreement counting enslaved people as three-fifths of a person for congressional apportionment and taxation — a concession to slaveholding states." },
+          { term: "Checks and Balances", definition: "Constitutional design giving each branch of government powers to limit the others, preventing any one branch from accumulating unchecked power." },
+        ],
+      },
+      {
+        name: "Washington's Presidency",
+        terms: [
+          { term: "Precedent", definition: "Washington's conscious effort to establish norms for the presidency — two-term limit, cabinet governance, civilian supremacy — that shaped the office permanently." },
+          { term: "Cabinet", definition: "Group of department heads advising the president; Washington established the practice by consulting Hamilton (Treasury), Jefferson (State), and Knox (War)." },
+          { term: "Neutrality Proclamation", definition: "Washington's 1793 declaration keeping the U.S. out of the Anglo-French war, establishing the precedent that the president could define foreign policy." },
+          { term: "Whiskey Rebellion Response", definition: "Washington personally led 13,000 troops to suppress the 1794 rebellion, demonstrating that the federal government could enforce its laws within the states." },
+        ],
+      },
+      {
+        name: "Jeffersonian Democracy",
+        terms: [
+          { term: "Jefferson's Inauguration", definition: "1801 peaceful transfer of power from Federalists to Democratic-Republicans; Jefferson declared 'we are all republicans, we are all federalists.'" },
+          { term: "Marbury v. Madison", definition: "1803 Supreme Court case in which Marshall established judicial review — the power of courts to strike down unconstitutional laws." },
+          { term: "Midnight Judges", definition: "Federalist judges Adams appointed in his final hours as president; Jefferson refused to deliver their commissions, triggering Marbury v. Madison." },
+          { term: "Strict Construction", definition: "Jefferson's view that the federal government could only do what the Constitution explicitly permitted; opposed Hamilton's 'loose construction' of federal power." },
+        ],
+      },
+      {
+        name: "Taxation and Rebellion",
+        terms: [
+          { term: "No Taxation Without Representation", definition: "Colonial slogan protesting British taxes imposed without colonial legislative consent; became a foundational principle of American self-governance." },
+          { term: "Stamp Act Congress", definition: "1765 meeting of delegates from nine colonies to coordinate opposition to the Stamp Act; an early step toward united colonial political action." },
+          { term: "Sons of Liberty", definition: "Radical patriot network that organized protests, boycotts, and intimidation of tax collectors across the colonies; Samuel Adams was a key leader." },
+          { term: "Shays' Rebellion", definition: "1786 uprising of indebted Massachusetts farmers; its suppression revealed the Articles' weakness and galvanized support for the Constitutional Convention." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-3-wor",
+    unit: 3,
+    puzzle: 6,
+    theme: { code: "WOR", name: "America in the World" },
+    title: "Revolution & Early Republic",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Foreign Alliances in the Revolution",
+        terms: [
+          { term: "French Alliance", definition: "1778 military alliance with France following Saratoga; French troops, naval power, and money proved essential to ultimate American victory." },
+          { term: "Marquis de Lafayette", definition: "French noble who volunteered to fight for American independence, linking the Revolution to broader Enlightenment ideals in Europe." },
+          { term: "Spanish Intervention", definition: "Spain entered the war against Britain in 1779, opening a second front in the Caribbean and Gulf Coast that stretched British military resources." },
+          { term: "Baron von Steuben", definition: "Prussian officer who drilled Washington's army at Valley Forge into a disciplined fighting force, transforming the Continental Army's effectiveness." },
+        ],
+      },
+      {
+        name: "Early Republic Foreign Crises",
+        terms: [
+          { term: "XYZ Affair", definition: "1797 French demand for bribes before diplomatic talks; outraged Americans and sparked the undeclared Quasi-War with France (1798–1800)." },
+          { term: "Quasi-War", definition: "Undeclared naval conflict with France (1798–1800) following the XYZ Affair; ended with the Convention of 1800 restoring peace." },
+          { term: "Barbary Pirates", definition: "North African states that attacked American merchant ships and demanded tribute; Jefferson refused to pay and sent the Navy — the first U.S. overseas military action." },
+          { term: "Impressment", definition: "British practice of seizing American sailors and forcing them into the Royal Navy; a persistent grievance that contributed to the War of 1812." },
+        ],
+      },
+      {
+        name: "Diplomacy and Treaties",
+        terms: [
+          { term: "Treaty of Paris 1783", definition: "Ended the Revolutionary War; Britain recognized U.S. independence and ceded all lands east of the Mississippi, a stunning diplomatic victory." },
+          { term: "Jay's Treaty", definition: "1794 agreement resolving post-war disputes with Britain and securing trade rights; bitterly criticized as too favorable to Britain but kept peace." },
+          { term: "Pinckney's Treaty", definition: "1795 agreement with Spain securing American navigation rights on the Mississippi and access to New Orleans — essential for western trade." },
+          { term: "Convention of 1800", definition: "Agreement ending the Quasi-War with France and releasing the U.S. from the 1778 alliance; Jefferson used it to avoid European entanglements." },
+        ],
+      },
+      {
+        name: "Neutrality and Foreign Policy Principles",
+        terms: [
+          { term: "Neutrality Proclamation", definition: "Washington's 1793 declaration of U.S. neutrality in the Anglo-French war; set the precedent of staying out of European conflicts." },
+          { term: "Washington's Farewell Address", definition: "1796 warning against permanent alliances with foreign nations and political factions at home; guided U.S. foreign policy for over a century." },
+          { term: "Monroe Doctrine (origins)", definition: "Rooted in the early republic's desire to stay free of European power politics; fully articulated by Monroe in 1823 declaring the Western Hemisphere off-limits to European colonization." },
+          { term: "Freedom of the Seas", definition: "American insistence on the right to trade with all nations without interference; constantly challenged by Britain and France during the Napoleonic Wars." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-3-arc",
+    unit: 3,
+    puzzle: 7,
+    theme: { code: "ARC", name: "American and Regional Culture" },
+    title: "Revolution & Early Republic",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Enlightenment and Religion",
+        terms: [
+          { term: "Deism", definition: "Enlightenment belief that God created the universe but does not intervene in it; embraced by Jefferson, Franklin, and other founders who rejected orthodox Christianity." },
+          { term: "First Great Awakening", definition: "1730s–40s religious revival emphasizing personal conversion and emotional faith; democratized religion and encouraged questioning of authority, indirectly fueling the Revolution." },
+          { term: "Disestablishment", definition: "Process of separating church from state; Virginia's 1786 Statute for Religious Freedom, written by Jefferson, became a model for the First Amendment." },
+          { term: "Rationalism", definition: "Enlightenment faith that human reason — not scripture — could discover truth and guide society; shaped the Declaration of Independence and constitutional design." },
+        ],
+      },
+      {
+        name: "Revolutionary Print Culture",
+        terms: [
+          { term: "The Federalist Papers", definition: "85 essays by Hamilton, Madison, and Jay explaining and defending the Constitution; the most important work of American political theory." },
+          { term: "Common Sense", definition: "Thomas Paine's 1776 bestselling pamphlet arguing for independence in plain, forceful language accessible to ordinary colonists." },
+          { term: "Newspapers", definition: "Colonial and early republic newspapers spread political ideas rapidly; the patriot press was a key tool for organizing resistance and shaping public opinion." },
+          { term: "Pamphlet Culture", definition: "Explosion of cheap printed political arguments in the Revolution era; enabled colonists to debate independence, constitutions, and rights in a public sphere." },
+        ],
+      },
+      {
+        name: "Regional Cultures",
+        terms: [
+          { term: "New England Town Meeting", definition: "Local direct-democracy tradition in which all male citizens gathered to vote on community matters; a model of participatory republican government." },
+          { term: "Southern Gentry", definition: "Wealthy planter class that dominated Virginia and Carolina society; shaped by tobacco and rice agriculture, enslaved labor, and English aristocratic ideals." },
+          { term: "Backcountry Culture", definition: "Rugged Scots-Irish settler culture in the Appalachian backcountry; fiercely independent, resistant to eastern elites, and prone to conflict with both Native peoples and colonial governments." },
+          { term: "Philadelphia", definition: "Largest city in colonial America and center of the early republic; hosted the Continental Congress, Constitutional Convention, and served as the first national capital." },
+        ],
+      },
+      {
+        name: "Art and Architecture of the Republic",
+        terms: [
+          { term: "Neoclassicism", definition: "Architectural and artistic style modeled on ancient Greece and Rome; used by Jefferson and others to express republican virtue — the Capitol and Monticello are key examples." },
+          { term: "Gilbert Stuart", definition: "Portrait painter whose iconic unfinished portrait of Washington became the defining image of the first president, reproduced on the dollar bill." },
+          { term: "Phillis Wheatley", definition: "Enslaved African American poet who published the first book by a Black American (1773); her work challenged slavery by demonstrating Black intellectual achievement." },
+          { term: "Federal Style Architecture", definition: "Post-Revolution American architectural style blending neoclassical symmetry with local materials; expressed the new nation's aspirations to order, reason, and permanence." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-3-soc",
+    unit: 3,
+    puzzle: 8,
+    theme: { code: "SOC", name: "Social Structures" },
+    title: "Revolution & Early Republic",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Slavery and Freedom",
+        terms: [
+          { term: "Abolitionism (early)", definition: "Post-Revolution movement demanding an end to slavery; strongest in New England and Pennsylvania where Quakers and evangelicals organized the first antislavery societies." },
+          { term: "Gradual Emancipation", definition: "Northern state laws freeing enslaved people incrementally; by 1804 every state north of Delaware had passed some form, but freedom often came only after years more servitude." },
+          { term: "Slave Codes", definition: "Southern laws tightly controlling enslaved people's lives — restricting movement, assembly, literacy, and self-defense; tightened after the Revolution as slavery expanded." },
+          { term: "Free Black Population", definition: "Grew dramatically in the North and upper South after the Revolution; established churches, schools, and mutual aid societies despite legal discrimination." },
+        ],
+      },
+      {
+        name: "Women in the Early Republic",
+        terms: [
+          { term: "Republican Motherhood", definition: "Ideology that women's highest civic duty was raising virtuous republican sons; justified educating women but confined their political role to the domestic sphere." },
+          { term: "Abigail Adams", definition: "Wrote 'Remember the Ladies' to her husband John in 1776, asking that the new republic's laws protect women; a proto-feminist voice within the founding generation." },
+          { term: "Coverture", definition: "Legal doctrine under which a married woman's legal identity was absorbed into her husband's; she could not own property, sign contracts, or vote." },
+          { term: "Female Academies", definition: "New schools for women founded in the early republic to train republican mothers; institutions like the Philadelphia Young Ladies' Academy expanded women's education." },
+        ],
+      },
+      {
+        name: "Class and Social Hierarchy",
+        terms: [
+          { term: "Gentry Class", definition: "Wealthy landowning elite who dominated colonial and early republic politics; expected deference from lower classes and saw themselves as natural leaders." },
+          { term: "Yeoman Farmers", definition: "Independent small farmers who were the majority of free white Americans; Jefferson idealized them as the backbone of republican democracy." },
+          { term: "Artisans", definition: "Skilled craftsmen — printers, shoemakers, carpenters — who formed an urban middle class; politically active and often radicalized by revolutionary ideology." },
+          { term: "Indentured Servitude (decline)", definition: "System of bonded labor faded after the Revolution as wages rose and free workers became available; replaced by wage labor in the North and expanded slavery in the South." },
+        ],
+      },
+      {
+        name: "Native American Societies",
+        terms: [
+          { term: "Iroquois Confederacy (post-Revolution)", definition: "Shattered by the Revolution; most nations had sided with Britain, and the 1783 treaty abandoned them — their lands were opened to massive American settlement." },
+          { term: "Treaty of Greenville", definition: "1795 treaty in which Native nations ceded most of Ohio after defeat at Fallen Timbers; accelerated the dispossession of the Ohio Valley." },
+          { term: "Civilization Policy", definition: "Federal program urging Native nations to adopt farming, private property, and Christianity — framed as benevolent assimilation but designed to free up land for settlers." },
+          { term: "Tecumseh's Confederacy (origins)", definition: "Shawnee leader Tecumseh began building a pan-Native alliance in the early 1800s to halt American expansion; culminated in the War of 1812." },
+        ],
+      },
+    ],
+  },
+  // ── Unit 4: Jacksonian Era & Market Revolution ───────────────────────────
+  {
+    id: "unit-4-nat",
     unit: 4,
+    puzzle: 1,
+    theme: { code: "NAT", name: "American and National Identity" },
     title: "Jacksonian Era & Market Revolution",
     subject: "APUSH",
     groups: [
-      {
-        name: "Market Revolution",
-        terms: [
-          { term: "Erie Canal", definition: "1825 artificial waterway linking the Great Lakes to New York City, dramatically cutting shipping costs and boosting western settlement." },
-          { term: "Lowell Mills", definition: "Massachusetts textile factories that employed young women workers, pioneering industrial labor practices in early America." },
-          { term: "Cotton Gin", definition: "1793 machine invented by Eli Whitney that rapidly separated cotton fibers from seeds, expanding cotton production and demand for enslaved labor." },
-          { term: "Interchangeable Parts", definition: "Manufacturing method using standardized, identical components that allowed mass production and easy repair of goods." },
-        ],
-      },
       {
         name: "Jacksonian Democracy",
         terms: [
-          { term: "Indian Removal Act", definition: "1830 law signed by President Jackson authorizing the forced relocation of Native American tribes from the Southeast to west of the Mississippi." },
-          { term: "Nullification Crisis", definition: "1832–1833 standoff in which South Carolina claimed the right to void a federal tariff, threatening secession; Jackson responded forcefully." },
-          { term: "Spoils System", definition: "Practice of rewarding political supporters with government jobs; expanded under Jackson and later called 'patronage.'" },
-          { term: "Bank War", definition: "Jackson's campaign against the Second Bank of the United States, which he saw as a tool of the wealthy elite; he vetoed its recharter in 1832." },
+          { term: "Andrew Jackson", definition: "7th U.S. president (1829–1837); championed the 'common man,' expanded white male democracy, destroyed the National Bank, and forcibly removed Native peoples." },
+          { term: "Spoils System", definition: "Jackson's practice of rewarding loyal political supporters with government jobs; he saw it as democratic, critics called it corrupt." },
+          { term: "Universal White Male Suffrage", definition: "By the 1830s most states dropped property requirements for voting, extending the franchise to all white men — but not women, Black people, or Native peoples." },
+          { term: "Democratic Party", definition: "Party founded by Jackson and Van Buren in the 1820s–30s, championing states' rights, limited government, and the interests of farmers and laborers over bankers and elites." },
         ],
       },
       {
-        name: "Reform Movements",
+        name: "American Identity and Destiny",
         terms: [
-          { term: "Temperance Movement", definition: "19th-century campaign to reduce or eliminate alcohol consumption, often led by women and linked to broader moral reform efforts." },
-          { term: "Seneca Falls Convention", definition: "1848 women's rights gathering in New York that produced the Declaration of Sentiments demanding equal rights, including the right to vote." },
-          { term: "Abolitionism", definition: "Movement demanding the immediate end to slavery, led by figures like Frederick Douglass, William Lloyd Garrison, and Harriet Tubman." },
-          { term: "Horace Mann", definition: "Massachusetts education reformer who championed public schooling and teacher training in the 1830s–40s, expanding access to education." },
+          { term: "Manifest Destiny", definition: "Belief that the United States was divinely ordained to expand across the continent to the Pacific; justified territorial conquest and displacement of Native peoples and Mexicans." },
+          { term: "American Exceptionalism", definition: "Conviction that the United States had a unique, God-given mission to spread democracy and liberty; used to justify both reform at home and expansion abroad." },
+          { term: "Transcendentalism", definition: "Intellectual movement led by Emerson and Thoreau celebrating individual conscience, nature, and self-reliance as the essence of American identity." },
+          { term: "Second Great Awakening", definition: "Early 19th-century religious revival stressing personal salvation and moral reform; reshaped American culture and energized reform movements including abolition and temperance." },
         ],
       },
       {
-        name: "Expansion & Sectionalism",
+        name: "Nativism and Immigration",
         terms: [
-          { term: "Louisiana Purchase", definition: "1803 land deal in which the U.S. bought roughly 828,000 square miles from France, doubling the size of the country." },
-          { term: "Missouri Compromise", definition: "1820 agreement admitting Missouri as a slave state and Maine as a free state, banning slavery north of 36°30' in the Louisiana Territory." },
-          { term: "Monroe Doctrine", definition: "1823 foreign policy statement declaring the Western Hemisphere off-limits to further European colonization, asserting U.S. dominance in the Americas." },
-          { term: "Manifest Destiny", definition: "19th-century belief that American expansion across the continent to the Pacific was inevitable, justified, and divinely ordained." },
+          { term: "Nativism", definition: "Anti-immigrant ideology claiming native-born (white Protestant) Americans were superior to Catholic Irish and German newcomers; led to the Know-Nothing Party." },
+          { term: "Know-Nothing Party", definition: "1850s nativist political party that opposed Catholic immigration and demanded longer naturalization periods; briefly a major force before collapsing over slavery." },
+          { term: "Irish Immigration", definition: "Mass arrival of 1.5 million Irish Catholics fleeing the Famine (1845–52); faced intense discrimination but transformed northern cities and Democratic Party politics." },
+          { term: "German Immigration", definition: "Roughly one million Germans arrived in the 1840s–50s fleeing revolution and poverty; settled heavily in the Midwest and brought liberal political ideas and labor organizing." },
+        ],
+      },
+      {
+        name: "Reform and Moral Identity",
+        terms: [
+          { term: "Abolitionism", definition: "Movement demanding the immediate end of slavery on moral grounds; led by Garrison, Douglass, and Tubman — defined the era's fiercest debate over American identity and values." },
+          { term: "Temperance Movement", definition: "Campaign to ban alcohol, framed as a moral crusade to protect families; the era's largest reform movement and dominated by evangelical Protestant women." },
+          { term: "Seneca Falls Convention", definition: "1848 gathering in New York that produced the Declaration of Sentiments demanding equal rights for women; launched the organized women's rights movement." },
+          { term: "Declaration of Sentiments", definition: "Document drafted at Seneca Falls modeled on the Declaration of Independence, asserting that 'all men and women are created equal' and demanding women's suffrage." },
         ],
       },
     ],
   },
   {
-    id: "unit-4-2",
+    id: "unit-4-wxt",
     unit: 4,
     puzzle: 2,
+    theme: { code: "WXT", name: "Work, Exchange, and Technology" },
     title: "Jacksonian Era & Market Revolution",
     subject: "APUSH",
     groups: [
       {
-        name: "Antebellum Culture",
+        name: "Industrial Takeoff",
         terms: [
-          { term: "Second Great Awakening", definition: "Early 19th-century religious revival emphasizing personal salvation and social reform; inspired abolition, temperance, and women's rights movements." },
-          { term: "Transcendentalism", definition: "Philosophical movement led by Emerson and Thoreau stressing individual conscience, the spiritual power of nature, and rejection of materialism." },
-          { term: "Utopian Communities", definition: "Experimental communities like Brook Farm and the Oneida Community that attempted to build ideal societies based on shared values and cooperative labor." },
-          { term: "Nativism", definition: "Anti-immigrant sentiment targeting Catholic Irish and German newcomers; led to the formation of the Know-Nothing Party in the 1840s–50s." },
+          { term: "Lowell Mills", definition: "Massachusetts textile factories that recruited young farm women as workers; the first large-scale American industrial labor system, complete with company boarding houses." },
+          { term: "Interchangeable Parts", definition: "Eli Whitney's manufacturing innovation using standardized identical components; enabled mass production and transformed American industry." },
+          { term: "Cotton Gin", definition: "Eli Whitney's 1793 machine that rapidly separated cotton fibers from seeds; made cotton enormously profitable and massively expanded demand for enslaved labor." },
+          { term: "Waltham System", definition: "Factory model pioneered at Waltham, MA, that brought all stages of textile production under one roof with a largely female workforce; spread across New England." },
         ],
       },
       {
         name: "Transportation Revolution",
         terms: [
-          { term: "National Road", definition: "First major federally funded highway stretching from Maryland to Illinois; stimulated westward migration and interstate commerce." },
-          { term: "Steamboats", definition: "Steam-powered riverboats that dramatically cut travel time on American rivers, integrating the inland economy and enabling rapid westward trade." },
-          { term: "Railroads", definition: "Expanding rail network of the 1830s–50s that transformed transportation, linked distant markets, and accelerated industrialization." },
-          { term: "Turnpikes", definition: "Privately built toll roads that improved overland travel and commerce in the early 19th century, often funded by state-chartered companies." },
+          { term: "Erie Canal", definition: "1825 canal linking the Great Lakes to the Hudson River and New York City; slashed shipping costs, made NYC the commercial capital, and opened the Midwest to settlement." },
+          { term: "Steamboats", definition: "Steam-powered vessels that revolutionized river travel; Robert Fulton's 1807 Clermont cut trip times and freight costs, knitting the interior economy together." },
+          { term: "Railroads", definition: "Expanding rail network of the 1830s–50s that surpassed canals, linked distant markets, and became the era's defining technology of economic integration." },
+          { term: "National Road", definition: "First federally funded highway (1811), stretching eventually from Maryland to Illinois; an early example of internal improvements sparking debate over federal power." },
         ],
       },
       {
-        name: "Westward Expansion",
+        name: "King Cotton and Slave Labor",
         terms: [
-          { term: "Texas Annexation", definition: "1845 admission of Texas to the Union after its independence from Mexico; escalated tensions that led directly to the Mexican-American War." },
-          { term: "Oregon Trail", definition: "2,000-mile overland route used by hundreds of thousands of settlers migrating to the Pacific Northwest between the 1840s and 1860s." },
-          { term: "Mexican-American War", definition: "1846–1848 conflict triggered by the Texas border dispute; the U.S. victory resulted in Mexico ceding nearly half its territory." },
-          { term: "Treaty of Guadalupe Hidalgo", definition: "1848 peace treaty ending the Mexican-American War; Mexico ceded present-day California, New Mexico, Arizona, Nevada, Utah, and Colorado to the U.S." },
+          { term: "Cotton Gin", definition: "Eli Whitney's 1793 invention that made cotton processing fast and cheap; the resulting cotton boom made the South dependent on enslaved labor and shaped the antebellum economy." },
+          { term: "Plantation System", definition: "Agricultural economy organized around large cotton (or tobacco/sugar) plantations worked by enslaved people; dominated the South and generated enormous wealth for planters." },
+          { term: "Domestic Slave Trade", definition: "Sale and forced relocation of enslaved people within the U.S. after the 1808 ban on importing enslaved Africans; separated hundreds of thousands of families." },
+          { term: "King Cotton", definition: "Phrase expressing the South's belief that its cotton exports were so essential to the world economy that no power would dare challenge slavery; proved disastrously wrong during the Civil War." },
         ],
       },
       {
-        name: "Antebellum Slavery",
+        name: "Banking and Finance",
         terms: [
-          { term: "Underground Railroad", definition: "Network of secret routes and safe houses that helped enslaved people escape to freedom in the North and Canada, aided by 'conductors' like Harriet Tubman." },
-          { term: "Harriet Tubman", definition: "Escaped enslaved woman who made 13 missions to rescue approximately 70 people via the Underground Railroad; later served as a Union spy during the Civil War." },
-          { term: "Nat Turner's Rebellion", definition: "1831 Virginia slave revolt that killed 55 white people; led to harsher slave codes across the South and suppression of abolitionist literature." },
-          { term: "Slave Auctions", definition: "Public sales at which enslaved people were bought and sold, often separating families; a central symbol of slavery's brutality targeted by abolitionists." },
+          { term: "Second Bank of the United States", definition: "National bank chartered in 1816 to stabilize currency and credit; Jackson vetoed its recharter in 1832, calling it a corrupt tool of the wealthy." },
+          { term: "Bank War", definition: "Jackson's campaign to destroy the Second Bank; his veto message cast it as a battle of the common man against entrenched privilege and shaped American populist politics." },
+          { term: "Pet Banks", definition: "State banks Jackson deposited federal funds in after destroying the Second Bank; their loose lending fueled land speculation and contributed to the Panic of 1837." },
+          { term: "Panic of 1837", definition: "Severe economic depression triggered by Jackson's bank policies and land speculation; banks failed, unemployment soared, and Van Buren's presidency was crippled." },
         ],
       },
     ],
   },
   {
-    id: "unit-5",
+    id: "unit-4-geo",
+    unit: 4,
+    puzzle: 3,
+    theme: { code: "GEO", name: "Geography and the Environment" },
+    title: "Jacksonian Era & Market Revolution",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Westward Expansion Routes",
+        terms: [
+          { term: "Oregon Trail", definition: "2,000-mile overland route from Missouri to the Pacific Northwest; used by over 400,000 settlers between the 1840s and 1860s." },
+          { term: "Santa Fe Trail", definition: "Commercial route from Missouri to Santa Fe, New Mexico; opened American trade with the Spanish Southwest and later guided the Mexican-American War." },
+          { term: "Erie Canal", definition: "Artificial waterway completed in 1825 connecting the Great Lakes to the Hudson River; opened the Midwest to settlement and made New York City the nation's commercial hub." },
+          { term: "Cumberland Gap", definition: "Mountain pass through the Appalachians used by settlers moving into Kentucky and Tennessee; Daniel Boone's Wilderness Road ran through it." },
+        ],
+      },
+      {
+        name: "Texas and the Southwest",
+        terms: [
+          { term: "Texas Annexation", definition: "1845 U.S. annexation of the Republic of Texas after its independence from Mexico; Mexico refused to recognize it, directly triggering the Mexican-American War." },
+          { term: "Mexican-American War", definition: "1846–1848 war fought after the U.S. annexed Texas; ended with Mexico ceding 525,000 square miles — present-day California, the Southwest, and Great Basin." },
+          { term: "Treaty of Guadalupe Hidalgo", definition: "1848 peace treaty ending the Mexican-American War; the U.S. paid $15 million for half of Mexico's territory — California, New Mexico, Arizona, Nevada, Utah, Colorado." },
+          { term: "Manifest Destiny", definition: "Ideology holding that American continental expansion was God-given and inevitable; the driving force behind Texas annexation, the Oregon settlement, and the war with Mexico." },
+        ],
+      },
+      {
+        name: "Native Removal and the South",
+        terms: [
+          { term: "Indian Removal Act", definition: "1830 law authorizing the forced relocation of the Five Civilized Tribes from the Southeast to Indian Territory (present-day Oklahoma) west of the Mississippi." },
+          { term: "Trail of Tears", definition: "1838–39 forced march of 16,000 Cherokee to Oklahoma in which roughly 4,000 died of cold, hunger, and disease — the most infamous result of Indian Removal." },
+          { term: "Five Civilized Tribes", definition: "Cherokee, Choctaw, Chickasaw, Creek, and Seminole nations that had adopted many European customs; forcibly removed regardless under the Indian Removal Act." },
+          { term: "Worcester v. Georgia", definition: "1832 Supreme Court ruling that Georgia had no jurisdiction over Cherokee lands; Jackson ignored it, reportedly saying 'Marshall has made his decision; now let him enforce it.'" },
+        ],
+      },
+      {
+        name: "Sectionalism and Geography",
+        terms: [
+          { term: "Missouri Compromise", definition: "1820 agreement admitting Missouri (slave) and Maine (free) and drawing the 36°30' line across the Louisiana Territory to separate slave and free zones." },
+          { term: "36°30' Line", definition: "Geographical boundary set by the Missouri Compromise dividing the Louisiana Territory into slave (south) and free (north) zones; repealed by the Kansas-Nebraska Act in 1854." },
+          { term: "Cotton Belt", definition: "Region stretching across the Deep South where climate and soil conditions made cotton king; the economic and social heart of the slaveholding South." },
+          { term: "Free Soil Territory", definition: "Concept that new western territories should be kept free of slavery; debated fiercely as expansion raised the question of whether slavery would spread or be contained." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-4-mig",
+    unit: 4,
+    puzzle: 4,
+    theme: { code: "MIG", name: "Migration and Settlement" },
+    title: "Jacksonian Era & Market Revolution",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "The Great Migration West",
+        terms: [
+          { term: "Oregon Trail", definition: "The era's great overland migration route; settlers traveled six months by wagon from Missouri to Oregon, driven by land hunger and Manifest Destiny." },
+          { term: "Manifest Destiny", definition: "Belief that Providence destined Americans to spread across the continent; the ideological engine behind the era's mass westward migration and territorial conquest." },
+          { term: "Homesteaders", definition: "Settlers who claimed western land under promises of cheap or free land; faced harsh conditions, isolation, and conflict with Native peoples and Mexican communities." },
+          { term: "Texas Settlers", definition: "American settlers invited into Mexican Texas in the 1820s by empresarios like Stephen Austin; by 1835 outnumbered Tejanos and launched the Texas Revolution." },
+        ],
+      },
+      {
+        name: "Immigrant Waves",
+        terms: [
+          { term: "Irish Immigration", definition: "1.5 million Irish Catholics arrived during the Famine years (1845–52); crowded into northern cities, faced brutal discrimination, and reshaped urban America." },
+          { term: "German Immigration", definition: "One million Germans arrived in the 1840s–50s; settled in Midwest cities like Cincinnati and Milwaukee, bringing skilled labor, political liberalism, and beer culture." },
+          { term: "Nativism", definition: "Violent anti-immigrant backlash against Catholic newcomers; sparked riots, church burnings, and the Know-Nothing Party — a recurring pattern in American history." },
+          { term: "Chain Migration", definition: "Process in which earlier immigrants write home about opportunities, encouraging family and neighbors to follow; explains the dense ethnic clustering in 19th-century American cities." },
+        ],
+      },
+      {
+        name: "Forced Removal of Native Peoples",
+        terms: [
+          { term: "Indian Removal Act", definition: "1830 law forcing the Five Civilized Tribes off their southeastern homelands and into 'Indian Territory' west of the Mississippi." },
+          { term: "Trail of Tears", definition: "Forced 1838–39 march of 16,000 Cherokee to Oklahoma; roughly 4,000 died — a deliberate act of ethnic cleansing to open Native lands to white settlers." },
+          { term: "Bureau of Indian Affairs", definition: "Federal agency established in 1824 to manage U.S. relations with Native nations; in practice administered removal, reservation confinement, and forced assimilation." },
+          { term: "Seminole Wars", definition: "Series of Florida conflicts (1817–58) as Seminole people resisted removal; the longest and most expensive Indian wars in U.S. history — some Seminoles never surrendered." },
+        ],
+      },
+      {
+        name: "The Underground Railroad",
+        terms: [
+          { term: "Underground Railroad", definition: "Network of secret routes and safe houses helping enslaved people escape North; operated by both Black and white abolitionists across hundreds of miles." },
+          { term: "Harriet Tubman", definition: "Escaped enslaved woman who returned South 13 times to free approximately 70 people; called 'Moses' by those she led to freedom." },
+          { term: "Frederick Douglass", definition: "Escaped enslaved man who became the era's most powerful abolitionist speaker and writer; his autobiography exposed the brutality of slavery to northern audiences." },
+          { term: "Fugitive Slave Act (1793)", definition: "Required northern states to return escaped enslaved people to their owners; bitterly resented in the North and routinely defied — foreshadowing the 1850 version that inflamed the sectional crisis." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-4-pce",
+    unit: 4,
+    puzzle: 5,
+    theme: { code: "PCE", name: "Politics and Civic Engagement" },
+    title: "Jacksonian Era & Market Revolution",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Jackson's Presidency",
+        terms: [
+          { term: "Andrew Jackson", definition: "7th president; transformed the presidency into a populist institution, pioneered mass party politics, defied the Supreme Court, and destroyed the national bank." },
+          { term: "Nullification Crisis", definition: "1832–33 showdown when South Carolina declared a federal tariff null and void; Jackson threatened force and Congress passed a compromise tariff, asserting federal supremacy." },
+          { term: "Bank War", definition: "Jackson's destruction of the Second Bank of the United States; his 1832 veto message framed it as a war between the common people and a corrupt moneyed aristocracy." },
+          { term: "Spoils System", definition: "Replacing government officials with loyal party members; Jackson expanded this practice dramatically, cementing the link between party loyalty and government employment." },
+        ],
+      },
+      {
+        name: "Second Party System",
+        terms: [
+          { term: "Whig Party", definition: "Party formed in the 1830s to oppose 'King Andrew' Jackson; favored the American System of tariffs, banks, and internal improvements; included Clay, Webster, and Lincoln." },
+          { term: "Democratic Party", definition: "Jackson's party: pro-states' rights, anti-bank, anti-tariff; built a coalition of Southern planters, northern workers, and western farmers." },
+          { term: "Henry Clay", definition: "Whig leader who championed the American System of protective tariffs, a national bank, and federally funded internal improvements to modernize the economy." },
+          { term: "American System", definition: "Henry Clay's economic program combining a national bank, protective tariffs, and federally funded roads and canals to unify and strengthen the American economy." },
+        ],
+      },
+      {
+        name: "Reform Politics",
+        terms: [
+          { term: "Abolitionism", definition: "Movement demanding the immediate, unconditional end of slavery; William Lloyd Garrison's Liberator and Frederick Douglass's oratory radicalized northern opinion." },
+          { term: "William Lloyd Garrison", definition: "Editor of The Liberator and founder of the American Anti-Slavery Society; his uncompromising demand for immediate abolition made him the era's most controversial reformer." },
+          { term: "Seneca Falls Convention", definition: "1848 women's rights convention; produced the Declaration of Sentiments and launched organized political activism for women's suffrage and equal rights." },
+          { term: "Liberty Party", definition: "First antislavery political party (1840); ran James Birney for president and pioneered the strategy of using electoral politics to fight slavery." },
+        ],
+      },
+      {
+        name: "States' Rights vs. Federal Power",
+        terms: [
+          { term: "Nullification", definition: "Theory that states could void federal laws they deemed unconstitutional; articulated by Calhoun in the South Carolina Exposition, tested in the Nullification Crisis." },
+          { term: "John C. Calhoun", definition: "South Carolina senator and champion of states' rights and slavery; developed the nullification doctrine and later argued slavery was a 'positive good.'" },
+          { term: "Missouri Compromise", definition: "1820 congressional deal drawing the 36°30' line; demonstrated that sectional conflict over slavery could be managed politically — but not resolved." },
+          { term: "Worcester v. Georgia", definition: "1832 ruling affirming Cherokee sovereignty; Jackson's refusal to enforce it showed that federal power could be selectively applied, undermining the rule of law." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-4-wor",
+    unit: 4,
+    puzzle: 6,
+    theme: { code: "WOR", name: "America in the World" },
+    title: "Jacksonian Era & Market Revolution",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Monroe Doctrine and Hemispheric Power",
+        terms: [
+          { term: "Monroe Doctrine", definition: "1823 declaration that the Western Hemisphere was closed to further European colonization and that any attempt to extend European power would be seen as a threat." },
+          { term: "Roosevelt Corollary (roots)", definition: "The Monroe Doctrine's implicit claim of U.S. police power in the Americas; not yet fully articulated but already embedded in the era's expansionist thinking." },
+          { term: "Pan-Americanism", definition: "Ideal of solidarity among Western Hemisphere nations; Henry Clay promoted it through the Congress of Panama (1826) as a way to extend American commercial influence." },
+          { term: "Cuban and Latin American Trade", definition: "Growing American commercial ties with newly independent Latin American republics in the 1820s–40s; the Monroe Doctrine protected these markets from European competition." },
+        ],
+      },
+      {
+        name: "Expansion and War with Mexico",
+        terms: [
+          { term: "Texas Revolution", definition: "1835–36 revolt by American settlers in Mexican Texas; resulted in the Republic of Texas, which the U.S. later annexed, provoking war with Mexico." },
+          { term: "Mexican-American War", definition: "1846–1848 war that Polk provoked to seize the Southwest; critics including Lincoln and Thoreau called it an unjust war of aggression against a weaker neighbor." },
+          { term: "Manifest Destiny", definition: "The belief that God willed American expansion to the Pacific; used to justify war with Mexico and the seizure of half its territory as the nation's inevitable destiny." },
+          { term: "Wilmot Proviso", definition: "1846 proposal to ban slavery from any territory acquired from Mexico; passed the House but failed in the Senate, intensifying the sectional crisis over slavery's expansion." },
+        ],
+      },
+      {
+        name: "Trade and Commerce Abroad",
+        terms: [
+          { term: "China Trade", definition: "Lucrative American merchant trade with China in the early 19th century; American ships carried furs, silver, and opium to China and returned with silk and tea." },
+          { term: "Pacific Whaling", definition: "American whaling industry that dominated Pacific waters and opened U.S. interest in Pacific islands and Asia; the economic precursor to later Pacific expansion." },
+          { term: "Clipper Ships", definition: "Fast American sailing ships built to maximize cargo speed; dominated global trade routes in the 1840s–50s before steam power made them obsolete." },
+          { term: "Most Favored Nation Status", definition: "Trade agreements giving each signatory the best terms offered to any other country; the U.S. used these treaties to expand commercial access in Europe and Asia." },
+        ],
+      },
+      {
+        name: "War of 1812 Legacy",
+        terms: [
+          { term: "War of 1812", definition: "Conflict with Britain over impressment and western expansion; ended in a draw at Ghent (1814) but produced an intense surge of American nationalism." },
+          { term: "Battle of New Orleans", definition: "Jackson's January 1815 victory (fought after the peace treaty was signed); made him a national hero and launched his political career." },
+          { term: "Era of Good Feelings", definition: "1816–24 period of one-party Republican rule following the war; masked growing sectional tensions under a surface of national unity." },
+          { term: "Rush-Bagot Agreement", definition: "1817 agreement demilitarizing the Great Lakes border with Canada; a model of peaceful dispute resolution and the beginning of the 'undefended border.'" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-4-arc",
+    unit: 4,
+    puzzle: 7,
+    theme: { code: "ARC", name: "American and Regional Culture" },
+    title: "Jacksonian Era & Market Revolution",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Second Great Awakening",
+        terms: [
+          { term: "Second Great Awakening", definition: "Massive Protestant revival of the 1820s–40s emphasizing emotional conversion, personal responsibility, and social reform; the cultural engine of the antebellum reform era." },
+          { term: "Charles Finney", definition: "The era's most famous revivalist preacher; his 'new measures' (protracted meetings, the anxious bench) made conversion dramatic and immediate in the Burned-Over District." },
+          { term: "Burned-Over District", definition: "Western New York region swept repeatedly by religious revivals; birthplace of Mormonism, Adventism, Spiritualism, and dozens of reform movements — so 'burned over' by revival fire." },
+          { term: "Camp Meetings", definition: "Outdoor revival gatherings lasting several days that drew thousands; the Second Great Awakening's defining ritual, mixing intense preaching, singing, and conversion experiences." },
+        ],
+      },
+      {
+        name: "Literary and Intellectual Culture",
+        terms: [
+          { term: "Transcendentalism", definition: "Philosophy championed by Emerson and Thoreau holding that truth comes through individual intuition and nature rather than institutions or tradition; defined New England intellectual life." },
+          { term: "Ralph Waldo Emerson", definition: "Transcendentalist essayist and lecturer; his 'Self-Reliance' and 'The American Scholar' called for an original American culture independent of Europe." },
+          { term: "Henry David Thoreau", definition: "Transcendentalist who lived at Walden Pond and wrote Civil Disobedience; argued individuals must resist unjust laws — foundational for later civil rights movements." },
+          { term: "American Renaissance", definition: "Explosion of great American literature in the 1840s–50s: Hawthorne, Melville, Whitman, Poe, and Stowe all published masterworks in a single decade." },
+        ],
+      },
+      {
+        name: "Utopian Communities",
+        terms: [
+          { term: "Brook Farm", definition: "Transcendentalist commune in Massachusetts (1841–47) where intellectuals attempted cooperative living and labor; a famous experiment in utopian idealism that ultimately failed." },
+          { term: "Oneida Community", definition: "New York religious commune founded by John Humphrey Noyes practicing 'complex marriage' and communal property; financially successful through silverware manufacturing." },
+          { term: "Shakers", definition: "Celibate religious community known for spare, elegant furniture and communal living; at their 1840s peak had 6,000 members in 18 communities across the Northeast." },
+          { term: "Mormon Church", definition: "Founded by Joseph Smith in the Burned-Over District (1830); faced intense persecution for polygamy and communalism, driving the church's migration to Utah under Brigham Young." },
+        ],
+      },
+      {
+        name: "Antebellum Popular Culture",
+        terms: [
+          { term: "Penny Press", definition: "Cheap mass-circulation newspapers launched in the 1830s (New York Sun, Herald); reached working-class readers for the first time and created a national shared information culture." },
+          { term: "Minstrel Shows", definition: "Popular entertainment featuring white performers in blackface mocking African Americans; spread racist stereotypes nationally and revealed the depth of white racial anxiety." },
+          { term: "Lyceum Movement", definition: "Network of public lecture halls and debate societies that spread knowledge and ideas to ordinary Americans; featured speakers like Emerson, Douglass, and Webster." },
+          { term: "Uncle Tom's Cabin", definition: "Harriet Beecher Stowe's 1852 bestselling novel depicting slavery's cruelty; sold 300,000 copies in its first year and turned millions of northerners against slavery." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-4-soc",
+    unit: 4,
+    puzzle: 8,
+    theme: { code: "SOC", name: "Social Structures" },
+    title: "Jacksonian Era & Market Revolution",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Slavery and Resistance",
+        terms: [
+          { term: "Nat Turner's Rebellion", definition: "1831 Virginia slave revolt; 55 white people killed before suppression. Led to brutal reprisals, tighter slave codes, and suppression of abolitionist mail in the South." },
+          { term: "Frederick Douglass", definition: "The era's most powerful abolitionist voice; his 1845 Narrative exposed slavery's brutality and demolished claims that enslaved people were inferior or content." },
+          { term: "Underground Railroad", definition: "Network of routes and safe houses that helped enslaved people escape North; Harriet Tubman made 13 missions south rescuing approximately 70 people." },
+          { term: "Slave Codes", definition: "Laws controlling enslaved people's lives — banning literacy, restricting movement, legalizing brutal punishment; tightened dramatically after Nat Turner's Rebellion." },
+        ],
+      },
+      {
+        name: "Women's Rights",
+        terms: [
+          { term: "Seneca Falls Convention", definition: "1848 women's rights gathering that produced the Declaration of Sentiments demanding equal rights including suffrage; the founding event of the organized women's rights movement." },
+          { term: "Declaration of Sentiments", definition: "Document drafted by Elizabeth Cady Stanton at Seneca Falls, modeled on the Declaration of Independence; declared all men and women equal and demanded women's right to vote." },
+          { term: "Elizabeth Cady Stanton", definition: "Primary author of the Declaration of Sentiments and lifelong women's rights activist; co-organized Seneca Falls and co-founded the National Woman Suffrage Association." },
+          { term: "Cult of Domesticity", definition: "Ideology confining middle-class women to the home as moral guardians of the family; created the 'separate spheres' doctrine that women's rights activists fought against." },
+        ],
+      },
+      {
+        name: "Labor and the Working Class",
+        terms: [
+          { term: "Lowell Mill Girls", definition: "Young farm women recruited to work in Lowell textile factories; lived in company boarding houses and organized some of the first labor strikes in American history." },
+          { term: "Lowell Strikes", definition: "1830s–40s labor actions by Lowell mill women protesting wage cuts and speedups; early demonstrations that industrial workers — even young women — would organize and resist." },
+          { term: "Journeymen's Unions", definition: "Early craft unions of skilled workers like shoemakers and printers; fought for the 10-hour workday and higher wages in the era's first sustained labor movement." },
+          { term: "Commonwealth v. Hunt", definition: "1842 Massachusetts Supreme Court ruling that labor unions were legal; the first major legal recognition that workers had the right to organize and strike." },
+        ],
+      },
+      {
+        name: "Class and Social Reform",
+        terms: [
+          { term: "Second Great Awakening", definition: "Religious revival that drove the era's reform movements; the belief that personal and social sin could be conquered energized abolitionists, temperance crusaders, and prison reformers." },
+          { term: "Temperance Movement", definition: "The era's largest reform movement; framed alcohol as the cause of poverty, domestic violence, and moral decay — a working-class family issue as much as a middle-class crusade." },
+          { term: "Horace Mann", definition: "Massachusetts education reformer who created the first state board of education (1837) and championed universal public schooling as the foundation of a democratic society." },
+          { term: "Prison Reform", definition: "Movement led by Dorothea Dix and others to replace brutal punishment with rehabilitation; established the first institutions for the mentally ill as a humane alternative to jails." },
+        ],
+      },
+    ],
+  },
+  // ── Unit 5: Civil War & Reconstruction ──────────────────────────────────
+  {
+    id: "unit-5-nat",
     unit: 5,
+    puzzle: 1,
+    theme: { code: "NAT", name: "American and National Identity" },
     title: "Civil War & Reconstruction",
     subject: "APUSH",
     groups: [
       {
-        name: "Causes of the Civil War",
+        name: "What the War Was About",
         terms: [
-          { term: "Kansas-Nebraska Act", definition: "1854 law allowing settlers of new territories to vote on whether to allow slavery, effectively repealing the Missouri Compromise." },
-          { term: "Dred Scott", definition: "Enslaved man who sued for his freedom; the 1857 Supreme Court ruling declared Black people were not citizens and Congress could not ban slavery in the territories." },
-          { term: "John Brown's Raid", definition: "1859 armed assault on Harpers Ferry, Virginia by abolitionist John Brown attempting to spark a slave revolt; he was captured and executed." },
-          { term: "Bleeding Kansas", definition: "1854–1861 wave of violent conflict between pro-slavery and antislavery settlers in Kansas following the Kansas-Nebraska Act." },
+          { term: "Emancipation Proclamation", definition: "Lincoln's January 1, 1863 executive order freeing enslaved people in Confederate states; transformed the war's purpose from preserving the Union to destroying slavery." },
+          { term: "Lost Cause Myth", definition: "Post-war Southern ideology romanticizing the Confederacy and claiming the Civil War was about states' rights, not slavery; shaped public memory for generations." },
+          { term: "Confederate States of America", definition: "Government formed by 11 seceding Southern states in 1861; its constitution explicitly protected slavery as a cornerstone of the new nation." },
+          { term: "Cornerstone Speech", definition: "Confederate VP Alexander Stephens' 1861 declaration that slavery — not states' rights — was the 'cornerstone' of the Confederacy; demolishes Lost Cause revisionism." },
         ],
       },
       {
-        name: "Civil War Battles",
+        name: "Black Freedom and Citizenship",
         terms: [
-          { term: "Gettysburg", definition: "July 1863 battle in Pennsylvania; the Union victory ended the Confederacy's last major northern invasion and was a turning point of the war." },
-          { term: "Antietam", definition: "September 1862 battle in Maryland; the bloodiest single day in U.S. history; Union victory gave Lincoln cover to issue the Emancipation Proclamation." },
-          { term: "Fort Sumter", definition: "April 1861 Confederate attack on a Union fort in South Carolina that started the Civil War." },
-          { term: "Vicksburg", definition: "July 1863 Union siege of a Mississippi River fortress; its fall gave the Union control of the river and split the Confederacy in two." },
+          { term: "13th Amendment", definition: "1865 constitutional amendment abolishing slavery in the United States — the legal end of the institution after 246 years on American soil." },
+          { term: "14th Amendment", definition: "1868 amendment granting birthright citizenship and equal protection under the law; overturned Dred Scott and became the foundation of modern civil rights law." },
+          { term: "15th Amendment", definition: "1870 amendment prohibiting denial of the vote on account of race; enabled Black men to vote during Reconstruction before being systematically stripped of that right." },
+          { term: "Freedmen's Bureau", definition: "Federal agency (1865–72) providing food, legal aid, and education to formerly enslaved people; established hundreds of schools including what became Howard University." },
         ],
       },
       {
-        name: "Reconstruction Amendments",
+        name: "Lincoln's Vision",
         terms: [
-          { term: "13th Amendment", definition: "1865 constitutional amendment abolishing slavery throughout the United States." },
-          { term: "14th Amendment", definition: "1868 constitutional amendment granting citizenship to all persons born in the U.S. and guaranteeing equal protection under the law." },
-          { term: "15th Amendment", definition: "1870 constitutional amendment prohibiting states from denying the right to vote based on race, color, or previous condition of servitude." },
-          { term: "Civil Rights Act 1866", definition: "First federal law to define citizenship and affirm that all citizens are equally protected by the law, later reinforced by the 14th Amendment." },
+          { term: "Abraham Lincoln", definition: "16th president who held the Union together through the Civil War; his 1863 Gettysburg Address redefined the nation as 'conceived in liberty and dedicated to the proposition that all men are created equal.'" },
+          { term: "Gettysburg Address", definition: "Lincoln's November 1863 speech dedicating a battlefield cemetery; 272 words that recast the war as a test of whether democratic self-government could survive." },
+          { term: "Second Inaugural Address", definition: "Lincoln's March 1865 speech urging 'malice toward none' in reconstruction; called for healing the nation without vengeance toward the South." },
+          { term: "Lincoln's 10% Plan", definition: "Lenient Reconstruction proposal allowing Southern states back when 10% of their 1860 voters swore loyalty; rejected by Radical Republicans as too forgiving." },
         ],
       },
       {
-        name: "Key Figures",
+        name: "The Collapse of Reconstruction",
         terms: [
-          { term: "Abraham Lincoln", definition: "16th U.S. President who led the nation through the Civil War, issued the Emancipation Proclamation, and was assassinated in 1865." },
-          { term: "Frederick Douglass", definition: "Escaped enslaved man who became a leading abolitionist speaker and writer, advocating for Black equality before and after the Civil War." },
-          { term: "Ulysses S. Grant", definition: "Union general who led the Army to victory in the Civil War; later served two terms as president during Reconstruction." },
-          { term: "Robert E. Lee", definition: "Commander of the Confederate Army of Northern Virginia and the Confederacy's greatest general; surrendered at Appomattox in 1865." },
+          { term: "Compromise of 1877", definition: "Secret deal giving Rutherford Hayes the presidency in exchange for withdrawing federal troops from the South; ended Reconstruction and abandoned Black Southerners to white supremacy." },
+          { term: "Redeemer Democrats", definition: "White Southern Democrats who 'redeemed' Southern governments from Republican Reconstruction by disenfranchising Black voters through violence, fraud, and legal tricks." },
+          { term: "Plessy v. Ferguson", definition: "1896 Supreme Court ruling upholding 'separate but equal' racial segregation; legitimized Jim Crow and wasn't overturned until Brown v. Board in 1954." },
+          { term: "Jim Crow Laws", definition: "Southern state and local laws enforcing racial segregation in all public life after Reconstruction; created a system of legal apartheid that lasted until the 1960s." },
         ],
       },
     ],
   },
   {
-    id: "unit-5-2",
+    id: "unit-5-wxt",
     unit: 5,
     puzzle: 2,
+    theme: { code: "WXT", name: "Work, Exchange, and Technology" },
     title: "Civil War & Reconstruction",
     subject: "APUSH",
     groups: [
       {
-        name: "Civil War Policies",
+        name: "Union War Economy",
         terms: [
-          { term: "Emancipation Proclamation", definition: "Lincoln's 1863 executive order declaring enslaved people in Confederate states 'forever free,' transforming the war into a fight against slavery." },
-          { term: "Conscription Acts", definition: "Civil War draft laws passed by both the Union and Confederacy; the Union's 1863 draft sparked violent riots in New York City by working-class men who could not buy exemptions." },
-          { term: "Copperheads", definition: "Northern Democrats who opposed the Civil War and called for a negotiated peace with the Confederacy; Lincoln's administration suppressed some of their activities." },
-          { term: "Total War", definition: "Military strategy used by Union General Sherman targeting civilian infrastructure and morale to break the South's will and ability to fight." },
+          { term: "Morrill Tariff", definition: "1861 high protective tariff that funded the Union war effort and pleased Northern manufacturers; established high tariffs as Republican economic policy for decades." },
+          { term: "National Banking Acts", definition: "1863–64 laws creating a national currency and federally chartered banks; ended the chaos of hundreds of different state bank notes and modernized American finance." },
+          { term: "Pacific Railroad Act", definition: "1862 law authorizing the transcontinental railroad; gave railroad companies massive land grants and government bonds, transforming the western economy." },
+          { term: "Greenbacks", definition: "Paper currency issued by the Union to finance the war; not backed by gold, which caused inflation — and a post-war political fight over whether to keep them in circulation." },
         ],
       },
       {
-        name: "Reconstruction Plans",
+        name: "Labor After Emancipation",
         terms: [
-          { term: "Lincoln's 10% Plan", definition: "Lincoln's lenient Reconstruction proposal allowing a Southern state to rejoin the Union when 10% of its 1860 voters swore loyalty and accepted emancipation." },
-          { term: "Radical Republicans", definition: "Congressional faction demanding harsh Reconstruction terms, full protection of Black civil rights, and punishment of Confederate leaders." },
-          { term: "Freedmen's Bureau", definition: "Federal agency (1865–1872) providing food, education, and legal assistance to formerly enslaved people and poor white Southerners after the Civil War." },
-          { term: "Wade-Davis Bill", definition: "1864 Radical Republican Reconstruction plan requiring 50% of a state's voters to swear loyalty before readmission; passed Congress but was pocket-vetoed by Lincoln." },
+          { term: "Sharecropping", definition: "System in which freedpeople and poor whites farmed land owned by planters in exchange for a share of the crop; high interest and debt kept workers trapped in poverty." },
+          { term: "Crop Lien System", definition: "Arrangement in which merchants extended credit to sharecroppers secured by the future crop; chronic debt kept Black Southerners economically enslaved long after legal emancipation." },
+          { term: "Black Codes", definition: "Southern laws passed in 1865–66 restricting Black people's freedom to move, work, or refuse labor contracts; designed to recreate slavery-like conditions after emancipation." },
+          { term: "Freedmen's Bureau Labor Contracts", definition: "Contracts the Bureau supervised between freedpeople and planters; meant to ensure fair pay but often enforced terms that kept Black workers in exploitative arrangements." },
         ],
       },
       {
-        name: "Resistance to Reconstruction",
+        name: "Industrialization and the War",
         terms: [
-          { term: "Carpetbaggers", definition: "Derogatory term for Northerners who moved to the South after the Civil War, often to participate in Reconstruction governments or business opportunities." },
-          { term: "Scalawags", definition: "Derogatory term for white Southerners who supported the Republican Party during Reconstruction, viewed as traitors by former Confederates." },
-          { term: "Ku Klux Klan", definition: "Terrorist organization founded in 1865 that used violence and intimidation against Black Southerners and white Republicans to undermine Reconstruction." },
-          { term: "Black Codes", definition: "Laws passed by Southern states after the Civil War to restrict the freedom of Black people and maintain a cheap agricultural labor force close to enslavement." },
+          { term: "Total War", definition: "Union strategy under Grant and Sherman of destroying Confederate economic infrastructure — railroads, farms, factories — to break Southern capacity to fight." },
+          { term: "Sherman's March to the Sea", definition: "Union General Sherman's 1864 campaign burning a 60-mile-wide swath through Georgia; destroyed Confederate supply lines and broke civilian morale." },
+          { term: "Ironclads", definition: "Steam-powered armored warships like the Monitor and Virginia (Merrimack); made wooden navies obsolete and transformed naval warfare permanently." },
+          { term: "Railroads in the Civil War", definition: "The Union's superior railroad network allowed rapid troop movements and supply; the Confederacy's limited rail capacity was a fatal strategic weakness." },
         ],
       },
       {
-        name: "End of Reconstruction",
+        name: "Reconstruction Era Economy",
         terms: [
-          { term: "Compromise of 1877", definition: "Backroom deal settling the disputed 1876 election; Hayes became president in exchange for withdrawing federal troops from the South, effectively ending Reconstruction." },
-          { term: "Sharecropping", definition: "System in which formerly enslaved people farmed land owned by whites in exchange for a share of the crop; kept Black Southerners in a cycle of debt and poverty." },
-          { term: "Redeemer Democrats", definition: "White Southern Democrats who 'redeemed' Southern states from Republican Reconstruction governments by disenfranchising Black voters and restoring white supremacy." },
-          { term: "Poll Taxes", definition: "Fees required to vote, used after Reconstruction to prevent poor Black Southerners from participating in elections; banned in federal elections by the 24th Amendment (1964)." },
+          { term: "Homestead Act", definition: "1862 law granting 160 acres of western land to settlers who farmed it for five years; opened the Great Plains to millions of settlers but mostly benefited white families." },
+          { term: "Transcontinental Railroad", definition: "Completed in 1869 linking the coasts; built largely by Chinese and Irish immigrant labor, it transformed western settlement, trade, and Native displacement." },
+          { term: "Panic of 1873", definition: "Economic depression triggered by railroad overbuilding and bank collapses; devastated Reconstruction governments and shifted political attention away from Black civil rights." },
+          { term: "Forty Acres and a Mule", definition: "Promise made to freedpeople that they would receive land confiscated from Confederate planters; rescinded by Andrew Johnson, leaving freedpeople without economic independence." },
         ],
       },
     ],
   },
   {
-    id: "unit-6",
+    id: "unit-5-geo",
+    unit: 5,
+    puzzle: 3,
+    theme: { code: "GEO", name: "Geography and the Environment" },
+    title: "Civil War & Reconstruction",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Key Battles and Campaigns",
+        terms: [
+          { term: "Fort Sumter", definition: "Confederate bombardment of a Union fort in Charleston, SC harbor on April 12, 1861; the first shots of the Civil War, forcing Lincoln to respond militarily." },
+          { term: "Antietam", definition: "September 17, 1862 battle in Maryland — the bloodiest single day in American history (22,000 casualties); Union 'victory' gave Lincoln the moment to issue the Emancipation Proclamation." },
+          { term: "Gettysburg", definition: "July 1–3, 1863 battle in Pennsylvania; the Union repelled Pickett's Charge and ended the Confederacy's last major northern invasion — the war's decisive turning point." },
+          { term: "Vicksburg", definition: "Union siege ending July 4, 1863; capturing this Mississippi River fortress gave the Union control of the river, splitting the Confederacy and fulfilling the Anaconda Plan." },
+        ],
+      },
+      {
+        name: "Military Strategy and Geography",
+        terms: [
+          { term: "Anaconda Plan", definition: "Union strategy to blockade Southern ports, control the Mississippi River, and strangle the Confederacy economically rather than invading by land." },
+          { term: "Naval Blockade", definition: "Union effort to seal Confederate ports from foreign trade; by 1865 severely limited Southern access to weapons, medicine, and manufactured goods." },
+          { term: "Appomattox Court House", definition: "Virginia village where Lee surrendered to Grant on April 9, 1865; effectively ended the Civil War and became a symbol of reconciliation." },
+          { term: "Sherman's March to the Sea", definition: "1864 campaign cutting a 300-mile path of destruction from Atlanta to Savannah; demonstrated that the Union could destroy the South's ability to sustain the war." },
+        ],
+      },
+      {
+        name: "Border States and the West",
+        terms: [
+          { term: "Border States", definition: "Slave states (Missouri, Kentucky, Maryland, Delaware) that did not secede; Lincoln used careful political maneuvering to keep them in the Union." },
+          { term: "West Virginia", definition: "Broke away from Virginia in 1863 when western Virginians refused to secede; admitted as a free state, demonstrating how geography and slavery divided even individual states." },
+          { term: "Battle of Glorieta Pass", definition: "1862 Union victory in New Mexico that stopped a Confederate attempt to capture the Southwest and its gold routes to California; the 'Gettysburg of the West.'" },
+          { term: "Sand Creek Massacre", definition: "1864 slaughter of 150–200 Cheyenne and Arapaho people by Colorado militia; while the Civil War consumed the nation, violence against Native peoples on the Plains intensified." },
+        ],
+      },
+      {
+        name: "Reconstruction's Landscape",
+        terms: [
+          { term: "Freedmen's Bureau", definition: "Federal agency that set up offices across the South to provide food, education, and legal aid; its presence gave freedpeople a brief taste of federal protection." },
+          { term: "Sea Islands Experiment", definition: "Union-occupied South Carolina islands where freedpeople farmed abandoned plantations during the war; the first large-scale experiment in Black land ownership — ended after the war." },
+          { term: "Port Royal Experiment", definition: "1861 Union occupation of coastal South Carolina where freedpeople and Northern teachers tested Black freedom and self-sufficiency; proved freedpeople could manage their own affairs." },
+          { term: "Homestead Act", definition: "1862 law offering 160 acres of public land in the West; designed to spread free labor across the continent — shaped postwar migration and western development." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-5-mig",
+    unit: 5,
+    puzzle: 4,
+    theme: { code: "MIG", name: "Migration and Settlement" },
+    title: "Civil War & Reconstruction",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Freedpeople on the Move",
+        terms: [
+          { term: "Contraband Camps", definition: "Settlements where enslaved people who escaped to Union lines during the war were held; over 500,000 'contrabands' created a refugee crisis that forced emancipation onto the agenda." },
+          { term: "Forty Acres and a Mule", definition: "Promise of land redistribution to freedpeople that was rescinded by Andrew Johnson; without land, most freedpeople had no choice but to work for their former enslavers." },
+          { term: "Exodusters", definition: "40,000 Black Southerners who migrated to Kansas in 1879 fleeing Reconstruction's collapse; the first major post-war Black migration, led by Benjamin 'Pap' Singleton." },
+          { term: "Freedmen's Bureau", definition: "Federal agency that tried to manage the massive displacement of four million formerly enslaved people; helped reunite families separated by the slave trade." },
+        ],
+      },
+      {
+        name: "Transcontinental Railroad and Western Settlement",
+        terms: [
+          { term: "Transcontinental Railroad", definition: "Completed 1869; the Central Pacific (Chinese workers west to east) and Union Pacific (Irish workers east to west) met at Promontory Summit, Utah." },
+          { term: "Chinese Exclusion Act (context)", definition: "The massive Chinese immigrant workforce that built the Central Pacific railroad faced intense racism; their exploitation set the stage for the 1882 Chinese Exclusion Act." },
+          { term: "Homestead Act", definition: "1862 law granting 160 acres of federal land to settlers; drove massive westward migration after the war, especially by freed Black families and European immigrants." },
+          { term: "Sodbusters", definition: "Great Plains homesteaders who broke tough prairie sod to farm; faced grasshopper plagues, drought, and isolation — many failed and returned East or moved to cities." },
+        ],
+      },
+      {
+        name: "Native Displacement",
+        terms: [
+          { term: "Indian Wars", definition: "Series of conflicts (1860s–90s) between the U.S. Army and Plains nations as settlers poured into Native lands; ended Native military resistance and confined tribes to reservations." },
+          { term: "Sand Creek Massacre", definition: "November 1864 slaughter of 150–200 peaceful Cheyenne and Arapaho by Colorado militia; sparked outrage among some in Congress but accelerated settler pressure on the Plains." },
+          { term: "Plains Nations", definition: "Lakota, Comanche, Cheyenne, Arapaho, and others whose buffalo-based cultures were destroyed by railroad construction, buffalo hunters, and the U.S. Army in the postwar decades." },
+          { term: "Reservation System", definition: "Federal policy confining Native peoples to limited territories; reservations were typically on land deemed worthless — until valuable resources were found on them." },
+        ],
+      },
+      {
+        name: "Immigration During the Civil War Era",
+        terms: [
+          { term: "Irish Immigrants", definition: "Heavily recruited for Union Army service (often right off the boat); the Irish Brigade suffered enormous casualties and resented being used as cannon fodder." },
+          { term: "German-Americans", definition: "Large German immigrant community strongly antislavery; the 'Forty-Eighters' who fled Germany after the 1848 revolution brought liberal politics and military expertise to the Union." },
+          { term: "New York Draft Riots", definition: "July 1863 uprising by mostly Irish working-class men against the federal draft; targeted Black New Yorkers, killed over 100 people, and revealed class and racial tensions in the North." },
+          { term: "Buffalo Soldiers", definition: "Black Union Army veterans who became the 9th and 10th Cavalry regiments after the war; fought in the Indian Wars and earned their name from Plains nations they were sent to fight." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-5-pce",
+    unit: 5,
+    puzzle: 5,
+    theme: { code: "PCE", name: "Politics and Civic Engagement" },
+    title: "Civil War & Reconstruction",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Road to Secession",
+        terms: [
+          { term: "Kansas-Nebraska Act", definition: "1854 law allowing settlers to vote on slavery in new territories, effectively repealing the Missouri Compromise and reigniting the sectional crisis." },
+          { term: "Bleeding Kansas", definition: "1854–61 guerrilla war between pro-slavery and antislavery settlers in Kansas; a preview of the Civil War and proof that compromise on slavery was no longer possible." },
+          { term: "Dred Scott v. Sandford", definition: "1857 Supreme Court ruling that Black people were not citizens and Congress could not ban slavery in any territory; electrified the antislavery movement and destroyed moderate compromise." },
+          { term: "Election of 1860", definition: "Lincoln won with no Southern electoral votes; South Carolina seceded before his inauguration, arguing Republican rule meant the destruction of their way of life." },
+        ],
+      },
+      {
+        name: "Lincoln and Congress",
+        terms: [
+          { term: "Radical Republicans", definition: "Congressional faction demanding full racial equality and harsh terms for the South; clashed with both Lincoln and Johnson over the pace and terms of Reconstruction." },
+          { term: "Wade-Davis Bill", definition: "1864 Radical Republican plan requiring 50% of voters to swear loyalty before readmission; Lincoln pocket-vetoed it, triggering a public break with congressional Republicans." },
+          { term: "Tenure of Office Act", definition: "1867 law forbidding the president from removing cabinet members without Senate approval; Johnson's violation by firing Secretary Stanton triggered his impeachment." },
+          { term: "Impeachment of Andrew Johnson", definition: "1868 House vote to impeach Johnson for violating the Tenure of Office Act; acquitted by one vote in the Senate — the first presidential impeachment in U.S. history." },
+        ],
+      },
+      {
+        name: "Reconstruction Governments",
+        terms: [
+          { term: "Military Reconstruction Act", definition: "1867 law dividing the South into five military districts under Army command; required states to ratify the 14th Amendment and allow Black male suffrage for readmission." },
+          { term: "Carpetbaggers", definition: "Derogatory name for Northerners who moved South to participate in Reconstruction politics; many were idealistic reformers, teachers, and veterans, not corrupt opportunists." },
+          { term: "Scalawags", definition: "Derogatory name for white Southern Republicans; included Unionists, small farmers, and moderates who saw Reconstruction as an opportunity for economic development." },
+          { term: "Hiram Revels", definition: "Mississippi Republican who became the first Black U.S. senator in 1870, filling the seat Jefferson Davis had vacated when he became Confederate president." },
+        ],
+      },
+      {
+        name: "Suppression of Black Rights",
+        terms: [
+          { term: "Ku Klux Klan", definition: "Terrorist organization founded in 1865 by Confederate veterans; used murder, arson, and intimidation to destroy Reconstruction governments and drive Black voters from the polls." },
+          { term: "Ku Klux Klan Acts", definition: "1870–71 federal laws giving the president power to use the Army against Klan terrorism; briefly effective but enforcement collapsed as Northern will faded." },
+          { term: "Compromise of 1877", definition: "Secret deal ending the disputed 1876 election; Hayes got the presidency, the South got home rule — and Black Southerners lost federal protection." },
+          { term: "Poll Taxes and Literacy Tests", definition: "Post-Reconstruction tools to disenfranchise Black voters without explicitly mentioning race; upheld by the Supreme Court and not fully abolished until the Voting Rights Act of 1965." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-5-wor",
+    unit: 5,
+    puzzle: 6,
+    theme: { code: "WOR", name: "America in the World" },
+    title: "Civil War & Reconstruction",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Diplomacy of the Civil War",
+        terms: [
+          { term: "King Cotton Diplomacy", definition: "Confederate strategy of withholding cotton exports to pressure Britain and France into recognizing the Confederacy; failed because Britain found cotton elsewhere and opposed slavery." },
+          { term: "British Neutrality", definition: "Britain officially stayed neutral despite Confederate pressure; Emancipation made it politically impossible for the British public to support the slaveholding side." },
+          { term: "Trent Affair", definition: "1861 diplomatic crisis when a Union warship seized two Confederate diplomats from a British ship; Britain threatened war and Lincoln backed down, releasing the men." },
+          { term: "CSS Alabama", definition: "Confederate commerce raider built in Britain that sank 65 Union merchant ships; the U.S. later won $15 million in damages from Britain for allowing its construction." },
+        ],
+      },
+      {
+        name: "Post-War Expansionism",
+        terms: [
+          { term: "Alaska Purchase", definition: "Secretary Seward's 1867 purchase of Alaska from Russia for $7.2 million ('Seward's Folly'); mocked at the time but proved enormously valuable for resources and strategic position." },
+          { term: "Seward's Expansionism", definition: "Secretary of State William Seward envisioned a U.S. empire spanning the hemisphere; bought Alaska and the Midway Islands and sought Caribbean bases — a preview of 1890s imperialism." },
+          { term: "Monroe Doctrine Enforcement", definition: "After the Civil War, Seward pressured France to withdraw from Mexico, where Napoleon III had installed Emperor Maximilian; the Monroe Doctrine was enforced with renewed vigor." },
+          { term: "Midway Islands", definition: "Pacific atoll annexed in 1867 as a coaling station for transoceanic ships; the first U.S. territory outside North America and a step toward Pacific empire." },
+        ],
+      },
+      {
+        name: "Black Soldiers in the Civil War",
+        terms: [
+          { term: "54th Massachusetts Infantry", definition: "Most famous Black Union regiment; its assault on Fort Wagner, SC in July 1863 (immortalized in the film Glory) proved Black soldiers' courage and helped recruit 180,000 more." },
+          { term: "United States Colored Troops", definition: "180,000 Black men who served in the Union Army; fought in over 400 engagements and suffered disproportionate casualties, often used in the most dangerous assaults." },
+          { term: "Fort Pillow Massacre", definition: "April 1864 slaughter of surrendering Black Union soldiers by Confederate troops under Nathan Bedford Forrest; inflamed Northern opinion and stiffened Black soldiers' resolve." },
+          { term: "Emancipation Proclamation", definition: "Beyond freeing enslaved people in Confederate states, it authorized the enlistment of Black men into the Union Army — transforming the war's military and moral character." },
+        ],
+      },
+      {
+        name: "The Confederacy and the World",
+        terms: [
+          { term: "Confederate Constitution", definition: "Explicitly protected slavery and limited central government power; showed the Confederacy was fighting for state sovereignty over slavery, not abstract states' rights." },
+          { term: "French Intervention in Mexico", definition: "Napoleon III installed Maximilian as Mexican emperor during the Civil War; the U.S. invoked the Monroe Doctrine and pressured France to withdraw after the war ended." },
+          { term: "Blockade Runners", definition: "Fast Confederate ships that slipped through the Union naval blockade bringing in European weapons and supplies; their capture increasingly strangled the Confederate war economy." },
+          { term: "Confederate Diplomats in Europe", definition: "Commissioners Mason and Slidell lobbied for British and French recognition; failed because Britain needed good relations with the Union more than Southern cotton." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-5-arc",
+    unit: 5,
+    puzzle: 7,
+    theme: { code: "ARC", name: "American and Regional Culture" },
+    title: "Civil War & Reconstruction",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Literature and Propaganda",
+        terms: [
+          { term: "Uncle Tom's Cabin", definition: "Harriet Beecher Stowe's 1852 novel depicting slavery's horror; sold 300,000 copies in year one and turned Northern public opinion against slavery more than any political speech." },
+          { term: "Frederick Douglass's Narrative", definition: "1845 autobiography exposing slavery's brutality through eyewitness testimony; the most widely read slave narrative, it demolished pro-slavery arguments with lived experience." },
+          { term: "Southern Fire-Eaters", definition: "Radical pro-slavery Southern writers and politicians who celebrated slavery as a 'positive good' and demanded its expansion; men like John C. Calhoun shaped Confederate ideology." },
+          { term: "Walt Whitman", definition: "Poet who worked as a hospital volunteer during the war and wrote Drum-Taps (1865); his poetry mourned the dead and grappled with the meaning of the national trauma." },
+        ],
+      },
+      {
+        name: "Religion and the Civil War",
+        terms: [
+          { term: "Northern Churches and Abolition", definition: "Methodist, Baptist, and Presbyterian denominations split over slavery in the 1830s–40s; Northern churches became pillars of the abolitionist movement." },
+          { term: "Southern Theology of Slavery", definition: "Southern ministers argued the Bible explicitly endorsed slavery; used scripture to morally justify the institution and sustain Confederate morale." },
+          { term: "Black Churches", definition: "African American churches that became the foundation of Black community life; during Reconstruction, they were the primary institutions organizing Black political participation." },
+          { term: "Spirituals", definition: "African American religious songs created under slavery; encoded messages of resistance and hope, and became the musical foundation of later gospel, blues, and jazz." },
+        ],
+      },
+      {
+        name: "Memory and Monument",
+        terms: [
+          { term: "Lost Cause Myth", definition: "Post-war Southern narrative recasting the Confederacy as a noble, doomed cause fighting for honor rather than slavery; spread through monuments, textbooks, and the United Daughters of the Confederacy." },
+          { term: "Memorial Day", definition: "Holiday originating when formerly enslaved people in Charleston, SC honored Union dead in 1865; later nationalized and contested between North and South over whose sacrifices to honor." },
+          { term: "Confederate Monuments", definition: "Most built not right after the war but during the Jim Crow era (1890s–1920s) and Civil Rights era (1950s–60s) as explicit statements of white supremacy, not just lost grief." },
+          { term: "Gettysburg Address", definition: "Lincoln's 272-word speech redefining the war as a test of democratic self-government; became the most quoted definition of American identity — 'government of the people, by the people, for the people.'" },
+        ],
+      },
+      {
+        name: "Photography and New Media",
+        terms: [
+          { term: "Mathew Brady", definition: "Photographer who documented the Civil War with unflinching images of battlefield dead; his galleries brought the war's horror to Northern civilians for the first time." },
+          { term: "Illustrated Newspapers", definition: "Publications like Harper's Weekly and Frank Leslie's Illustrated Newspaper brought wood-engraved battle scenes to mass audiences; shaped Northern public opinion throughout the war." },
+          { term: "Telegraph", definition: "Allowed real-time communication of battlefield news; Lincoln used the War Department telegraph office obsessively to monitor campaigns — transformed how wars were commanded and reported." },
+          { term: "Carte de Visite", definition: "Small photographic portrait cards exchanged between soldiers and families; by 1865 over 300 million had been produced — the first mass-market photograph format, binding the nation together through shared images." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-5-soc",
+    unit: 5,
+    puzzle: 8,
+    theme: { code: "SOC", name: "Social Structures" },
+    title: "Civil War & Reconstruction",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Slavery and Emancipation",
+        terms: [
+          { term: "Emancipation Proclamation", definition: "Freed enslaved people in Confederate states on January 1, 1863; didn't immediately free anyone but destroyed slavery as a war aim — the South could not win without it surviving." },
+          { term: "13th Amendment", definition: "Ratified December 1865; abolished slavery everywhere in the United States — including the border states Lincoln's proclamation had not covered." },
+          { term: "Black Codes", definition: "Laws passed by Southern states in 1865–66 restricting Black people's movement, labor contracts, and rights; designed to recreate slavery-like conditions and triggered Military Reconstruction." },
+          { term: "Sharecropping", definition: "Labor system that replaced slavery; freedpeople and poor whites farmed land they didn't own, surrendering half their crop to landlords — debt and crop liens kept them permanently poor." },
+        ],
+      },
+      {
+        name: "Women in the Civil War Era",
+        terms: [
+          { term: "Clara Barton", definition: "Civil War nurse who organized medical supplies for the front; later founded the American Red Cross — the war transformed nursing from an informal role to a respected profession." },
+          { term: "Harriet Tubman", definition: "Led a Union Army raid on the Combahee River (1863) freeing 700 enslaved people; served as a spy, scout, and nurse in addition to her Underground Railroad work." },
+          { term: "Women in the Workforce", definition: "The war drew women into nursing, factory work, and government clerical jobs; demonstrated women's capacity for public roles — but most were pushed back into domestic life after the war." },
+          { term: "Elizabeth Cady Stanton and Susan B. Anthony", definition: "Suffragists who supported the war but were then told women's suffrage must wait; their betrayal by Republican men who gave the vote to Black men but not women radicalized the women's movement." },
+        ],
+      },
+      {
+        name: "Class and Race in the North",
+        terms: [
+          { term: "New York Draft Riots", definition: "July 1863 working-class uprising against the draft's $300 commutation fee that let rich men buy their way out; rioters targeted Black New Yorkers, killing over 100." },
+          { term: "Copperheads", definition: "Northern Peace Democrats who opposed the war; many were working-class men who feared economic competition from freed Black workers and resented a rich man's war fought by the poor." },
+          { term: "Contraband Camps", definition: "Refugee settlements for enslaved people who fled to Union lines; overcrowded, disease-ridden, and underfunded — a preview of the federal government's half-hearted commitment to Black welfare." },
+          { term: "54th Massachusetts Infantry", definition: "First Black regiment from a free state; its assault on Fort Wagner demonstrated that Black men would fight and die for freedom, reshaping Northern attitudes about Black citizenship." },
+        ],
+      },
+      {
+        name: "Reconstruction's Social Revolution",
+        terms: [
+          { term: "Black Political Participation", definition: "During Reconstruction, Black men voted and held office across the South; 16 Black men served in Congress and hundreds in state legislatures — then were stripped of these rights after 1877." },
+          { term: "Freedmen's Bureau Schools", definition: "Hundreds of schools established by the Bureau and northern missionaries; by 1870 over 250,000 Black students enrolled — an extraordinary burst of educational opportunity violently suppressed after Reconstruction." },
+          { term: "Ku Klux Klan", definition: "Terrorist organization that systematically murdered Black officeholders, teachers, and voters; its violence destroyed Reconstruction governments and proved that without federal force, Black rights could not survive." },
+          { term: "Plessy v. Ferguson", definition: "1896 Supreme Court ruling that 'separate but equal' facilities were constitutional; the legal cornerstone of Jim Crow that stood until Brown v. Board of Education in 1954." },
+        ],
+      },
+    ],
+  },
+  // ── Unit 6: Gilded Age & Progressive Era ────────────────────────────────
+  {
+    id: "unit-6-nat",
     unit: 6,
+    puzzle: 1,
+    theme: { code: "NAT", name: "American and National Identity" },
     title: "Gilded Age & Progressive Era",
     subject: "APUSH",
     groups: [
       {
-        name: "Industrialists",
+        name: "Gilded Age Ideology",
         terms: [
-          { term: "Andrew Carnegie", definition: "Steel magnate who built one of the largest fortunes in American history through vertical integration and later gave away most of his wealth." },
-          { term: "John D. Rockefeller", definition: "Oil magnate who used horizontal integration to control the Standard Oil monopoly, dominating the American petroleum industry." },
-          { term: "J.P. Morgan", definition: "Powerful banker and financier who reorganized railroads, created U.S. Steel, and bailed out the federal government during financial crises." },
-          { term: "Cornelius Vanderbilt", definition: "Railroad and shipping tycoon who built one of the largest railroad networks in the country after the Civil War." },
+          { term: "Social Darwinism", definition: "Application of Darwin's survival of the fittest to society; used by men like Herbert Spencer to argue that wealth inequality was natural and government aid to the poor was counterproductive." },
+          { term: "Gospel of Wealth", definition: "Andrew Carnegie's 1889 essay arguing the rich had a duty to give their wealth to public benefit; justified vast inequality while deflecting demands for workers' fair wages." },
+          { term: "Horatio Alger Myth", definition: "Popular stories of poor boys rising to wealth through hard work and virtue; created the myth of a meritocratic America while obscuring the role of class, race, and luck." },
+          { term: "Laissez-Faire", definition: "Economic doctrine that government should not regulate business; dominant Gilded Age ideology used to block labor laws, safety regulations, and antitrust enforcement." },
+        ],
+      },
+      {
+        name: "Progressive Identity",
+        terms: [
+          { term: "Progressivism", definition: "Early 20th-century reform movement believing government could and should fix the problems of industrial capitalism — corruption, inequality, unsafe products, and urban poverty." },
+          { term: "Muckrakers", definition: "Investigative journalists who exposed corporate greed and political corruption; Roosevelt coined the term from Bunyan's Pilgrim's Progress to describe their relentless digging." },
+          { term: "Theodore Roosevelt", definition: "26th president who defined Progressive identity: trust-busting, consumer protection, conservation, and the 'Square Deal' — government as honest broker between capital and labor." },
+          { term: "New Nationalism", definition: "Roosevelt's 1910 program calling for strong federal regulation of big business, graduated income tax, and a welfare state; more radical than his Square Deal." },
+        ],
+      },
+      {
+        name: "Racial Identity and Exclusion",
+        terms: [
+          { term: "Chinese Exclusion Act", definition: "1882 law banning Chinese laborers from immigrating; the first federal law excluding a group by race — set the template for later restrictive immigration policy." },
+          { term: "Plessy v. Ferguson", definition: "1896 Supreme Court ruling upholding 'separate but equal' Jim Crow laws; gave constitutional cover to racial segregation in all aspects of public life." },
+          { term: "Booker T. Washington", definition: "Black leader who advocated economic self-sufficiency and vocational training over direct political agitation; his Atlanta Compromise (1895) accepted segregation in exchange for economic opportunity." },
+          { term: "W.E.B. Du Bois", definition: "Black intellectual who rejected Washington's accommodation; demanded full civil and political rights immediately, co-founded the NAACP, and coined the concept of 'double consciousness.'" },
+        ],
+      },
+      {
+        name: "Women's Civic Identity",
+        terms: [
+          { term: "19th Amendment", definition: "Ratified in 1920 after 72 years of activism; granted women the right to vote — the Progressive Era's most sweeping expansion of American democracy." },
+          { term: "Jane Addams", definition: "Co-founder of Hull House and leading Progressive; won the Nobel Peace Prize (1931) for her settlement house work and antiwar activism — defined women's public civic role." },
+          { term: "National American Woman Suffrage Association", definition: "Major suffrage organization formed in 1890 combining two rival groups; led the state-by-state and federal campaign that finally won the 19th Amendment." },
+          { term: "Triangle Shirtwaist Fire", definition: "1911 New York fire killing 146 garment workers, mostly young immigrant women; galvanized the labor and suffrage movements and led to landmark workplace safety laws." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-6-wxt",
+    unit: 6,
+    puzzle: 2,
+    theme: { code: "WXT", name: "Work, Exchange, and Technology" },
+    title: "Gilded Age & Progressive Era",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Industrial Titans",
+        terms: [
+          { term: "Andrew Carnegie", definition: "Steel magnate who used vertical integration to control every stage of steel production from mines to railroads; gave away $350 million and wrote the Gospel of Wealth." },
+          { term: "John D. Rockefeller", definition: "Founded Standard Oil and used horizontal integration to control 90% of U.S. oil refining; forced smaller companies out through secret railroad rebates and price wars." },
+          { term: "J.P. Morgan", definition: "Banker who reorganized railroads and created U.S. Steel (the first billion-dollar corporation); his 1907 personal bailout of the banking system revealed dangerous private concentration of financial power." },
+          { term: "Cornelius Vanderbilt", definition: "Railroad magnate who consolidated eastern trunk lines after the Civil War; his New York Central illustrated how railroad monopolies could charge farmers and shippers extortionate rates." },
+        ],
+      },
+      {
+        name: "Monopoly and Regulation",
+        terms: [
+          { term: "Trusts", definition: "Business arrangements in which multiple companies transferred control to a single board of trustees, creating monopoly power; Standard Oil pioneered the model." },
+          { term: "Sherman Antitrust Act", definition: "1890 law prohibiting combinations in restraint of trade; initially used against labor unions more than corporations, until Roosevelt revived it for trust-busting." },
+          { term: "Interstate Commerce Commission", definition: "Created by the Interstate Commerce Act (1887) to regulate railroad rates; the first federal regulatory agency, though initially weak — strengthened by the Hepburn Act (1906)." },
+          { term: "Clayton Antitrust Act", definition: "1914 law strengthening antitrust enforcement, explicitly exempting labor unions from antitrust prosecution, and banning certain anti-competitive practices." },
+        ],
+      },
+      {
+        name: "Labor Conflict",
+        terms: [
+          { term: "Knights of Labor", definition: "First major national union (peak 1886), open to all workers regardless of skill, race, or gender; collapsed after being blamed for the Haymarket Affair." },
+          { term: "AFL", definition: "American Federation of Labor; focused on skilled craft workers and 'bread and butter' issues — wages, hours, conditions — rather than radical political change. Led by Samuel Gompers." },
+          { term: "Pullman Strike", definition: "1894 nationwide railroad strike called by Eugene Debs's ARU after Pullman cut wages but not rent; Cleveland used a federal injunction and Army troops to crush it." },
+          { term: "Triangle Shirtwaist Fire", definition: "1911 fire killing 146 garment workers trapped behind locked doors; proved that voluntary corporate responsibility was insufficient and led directly to factory safety legislation." },
+        ],
+      },
+      {
+        name: "Technology and the Economy",
+        terms: [
+          { term: "Railroads", definition: "The Gilded Age's defining industry; 35,000 miles of track in 1865 grew to 200,000 by 1900, knitting the national market together and making industrial capitalism possible." },
+          { term: "Steel", definition: "The Bessemer process made cheap mass production of steel possible from the 1870s; Carnegie's Carnegie Steel supplied the rails, bridges, and skyscrapers of industrial America." },
+          { term: "Electricity", definition: "Edison's light bulb (1879) and AC power systems (Tesla/Westinghouse) transformed factories, homes, and cities; enabled the second industrial revolution." },
+          { term: "Scientific Management", definition: "Frederick Taylor's system of breaking factory work into timed, measured tasks to maximize efficiency; increased output but reduced workers to machine-like components." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-6-geo",
+    unit: 6,
+    puzzle: 3,
+    theme: { code: "GEO", name: "Geography and the Environment" },
+    title: "Gilded Age & Progressive Era",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Closing the Frontier",
+        terms: [
+          { term: "Turner Thesis", definition: "Frederick Jackson Turner's 1893 argument that the frontier shaped American democracy and individualism; warned that its closing in 1890 threatened America's defining character." },
+          { term: "Homestead Act", definition: "1862 law granting 160 free acres to settlers; brought millions to the Great Plains but 160 acres was insufficient for dry-land farming — most homesteaders eventually failed." },
+          { term: "Barbed Wire", definition: "Patented in 1873, it allowed cheap fencing of the open range; ended the cattle drives and the era of the cowboy, transforming the Plains into a patchwork of farms." },
+          { term: "Wounded Knee Massacre", definition: "December 1890 U.S. Army slaughter of 250–300 Lakota men, women, and children; the last major armed conflict of the Indian Wars and the final act of continental conquest." },
+        ],
+      },
+      {
+        name: "Conservation Movement",
+        terms: [
+          { term: "Theodore Roosevelt", definition: "Set aside 230 million acres of federal land — national parks, forests, and monuments; the most consequential conservationist president in U.S. history." },
+          { term: "John Muir", definition: "Naturalist and founder of the Sierra Club who lobbied for Yosemite and wilderness preservation; his preservationist vision clashed with Gifford Pinchot's utilitarian conservation." },
+          { term: "Gifford Pinchot", definition: "First chief of the U.S. Forest Service; championed 'wise use' conservation — managing resources for sustainable human benefit rather than preserving wilderness for its own sake." },
+          { term: "Hetch Hetchy Controversy", definition: "Muir's failed campaign to stop a dam in Yosemite's Hetch Hetchy Valley; the 1913 decision to flood the valley represented a victory for utilitarian conservation over preservation." },
+        ],
+      },
+      {
+        name: "Urbanization",
+        terms: [
+          { term: "Tenements", definition: "Cramped, poorly lit apartment buildings housing immigrant and working-class families; Jacob Riis's How the Other Half Lives shocked Americans with photos of New York's Lower East Side conditions." },
+          { term: "Hull House", definition: "Jane Addams's 1889 Chicago settlement house; provided childcare, English classes, job training, and legal aid to immigrants while training a generation of social workers and Progressive reformers." },
+          { term: "Skyscrapers", definition: "Steel-frame buildings enabled by Bessemer steel and elevators; transformed American cities upward from the 1880s and symbolized industrial capitalism's ambition." },
+          { term: "Political Machines", definition: "Urban political organizations like Tammany Hall that traded jobs, services, and favors for immigrant votes; corrupt but functional — provided welfare the government didn't." },
+        ],
+      },
+      {
+        name: "American Empire",
+        terms: [
+          { term: "Spanish-American War", definition: "1898 war fought in Cuba and the Philippines; the U.S. emerged with an overseas empire — Puerto Rico, Guam, and the Philippines — and a new role as a Pacific power." },
+          { term: "Panama Canal", definition: "Roosevelt's most ambitious project (completed 1914); the U.S. engineered Panamanian independence from Colombia, then built the canal connecting the Atlantic and Pacific." },
+          { term: "Hawaii", definition: "Annexed in 1898 after American sugar planters overthrew Queen Liliuokalani with U.S. military support; provided a Pacific naval base and launched American empire in the Pacific." },
+          { term: "Philippines", definition: "Ceded by Spain in 1898; Filipino independence fighters who had fought Spain now fought the U.S. in a brutal three-year war (1899–1902) that killed 200,000+ Filipinos." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-6-mig",
+    unit: 6,
+    puzzle: 4,
+    theme: { code: "MIG", name: "Migration and Settlement" },
+    title: "Gilded Age & Progressive Era",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "New Immigration",
+        terms: [
+          { term: "New Immigrants", definition: "Post-1880 wave from Southern and Eastern Europe (Italians, Poles, Jews, Greeks, Slavs); spoke different languages, practiced Catholicism or Judaism, and faced intense nativist hostility." },
+          { term: "Ellis Island", definition: "New York harbor immigration station (1892–1954) that processed 12 million immigrants; the gateway to America for most of the New Immigration wave." },
+          { term: "Steerage", definition: "Cheapest ocean passage in the lowest decks of ships; conditions were squalid and disease-ridden, but millions endured it to reach America." },
+          { term: "Padrone System", definition: "Labor broker network that exploited Italian immigrants by charging fees to find them jobs; an example of how ethnic communities were both supported and exploited by their own middlemen." },
+        ],
+      },
+      {
+        name: "Asian Immigration and Exclusion",
+        terms: [
+          { term: "Chinese Exclusion Act", definition: "1882 law banning Chinese laborers; the first race-based immigration ban, renewed in 1892 and made permanent in 1902 — not repealed until 1943." },
+          { term: "Angel Island", definition: "San Francisco Bay immigration station where Asian immigrants (mainly Chinese) were detained for days to months while their eligibility was investigated under the Exclusion Act." },
+          { term: "Gentleman's Agreement", definition: "1907 informal deal in which Japan agreed to stop issuing passports to laborers emigrating to the U.S. in exchange for Roosevelt's promise to end school segregation in San Francisco." },
+          { term: "Anti-Japanese Sentiment", definition: "West Coast hostility toward Japanese immigrants driven by economic competition and racism; led to alien land laws barring Japanese from owning property and foreshadowed WWII internment." },
+        ],
+      },
+      {
+        name: "The Great Plains",
+        terms: [
+          { term: "Exodusters", definition: "40,000 Black Southerners who fled Reconstruction's collapse for Kansas in 1879; among the first to test the Homestead Act's promise of free land and a fresh start." },
+          { term: "Sodbusters", definition: "Great Plains homesteaders who broke tough sod to farm wheat; faced grasshopper plagues, drought, railroad gouging, and isolation — the hardship that fueled the Populist movement." },
+          { term: "Cattle Drives", definition: "Long drives of Texas Longhorn cattle north to railroad towns like Abilene; the iconic era of the cowboy (roughly 1867–85) ended when barbed wire fenced the open range." },
+          { term: "Dawes Act", definition: "1887 law breaking up tribal reservation land into individual allotments; destroyed Native communal land ownership and transferred 90 million acres to white settlers and corporations." },
+        ],
+      },
+      {
+        name: "Urban Ethnic Communities",
+        terms: [
+          { term: "Settlement Houses", definition: "Community centers in immigrant neighborhoods offering education, childcare, and social services; Hull House (Chicago) and Henry Street Settlement (New York) were the most famous." },
+          { term: "Chinatown", definition: "Segregated urban enclave where Chinese immigrants clustered for mutual protection and community; developed rich cultural and economic institutions despite — and because of — discrimination." },
+          { term: "Little Italy", definition: "Italian immigrant neighborhood found in most major American cities; Catholicism, mutual aid societies, and family networks sustained community identity across generations." },
+          { term: "Jewish Lower East Side", definition: "Dense Manhattan immigrant neighborhood housing hundreds of thousands of Eastern European Jews; produced a rich Yiddish press, labor movement, and intellectual culture." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-6-pce",
+    unit: 6,
+    puzzle: 5,
+    theme: { code: "PCE", name: "Politics and Civic Engagement" },
+    title: "Gilded Age & Progressive Era",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Gilded Age Politics",
+        terms: [
+          { term: "Spoils System", definition: "Patronage appointments rewarding party loyalty over competence; the source of massive federal corruption — and the target of civil service reformers." },
+          { term: "Pendleton Civil Service Act", definition: "1883 law creating a merit-based civil service for some federal jobs; passed after President Garfield was assassinated by a disappointed office-seeker." },
+          { term: "Political Machines", definition: "Urban Democratic organizations like New York's Tammany Hall that delivered votes through patronage, contracts, and favors; corrupt but provided real services to immigrant communities." },
+          { term: "Gilded Age Presidents", definition: "Hayes, Garfield, Arthur, Cleveland, Harrison, McKinley — largely weak executives dominated by Congress; defined more by political stalemate and corruption than policy achievement." },
+        ],
+      },
+      {
+        name: "Populist Movement",
+        terms: [
+          { term: "Farmers' Alliance", definition: "1880s cooperative movement of indebted farmers demanding railroad regulation, a graduated income tax, and government-owned storage facilities; the mass base of Populism." },
+          { term: "Populist Party", definition: "People's Party (1892) representing farmers and workers; demanded government ownership of railroads, direct election of senators, secret ballot, and silver coinage." },
+          { term: "William Jennings Bryan", definition: "Three-time Democratic presidential candidate; his 1896 'Cross of Gold' speech demanded silver coinage to relieve farm debt — his defeat ended agrarian Populism as a major force." },
+          { term: "Cross of Gold Speech", definition: "Bryan's 1896 Democratic convention address attacking the gold standard on behalf of indebted farmers: 'You shall not crucify mankind upon a cross of gold.'" },
         ],
       },
       {
         name: "Progressive Reforms",
         terms: [
-          { term: "Pure Food & Drug Act", definition: "1906 law requiring honest labeling of food and medicine, sparked in part by Upton Sinclair's exposé of the meatpacking industry." },
-          { term: "19th Amendment", definition: "1920 constitutional amendment granting women the right to vote, the culmination of decades of suffrage activism." },
-          { term: "Initiative & Referendum", definition: "Progressive-era reforms allowing citizens to propose laws (initiative) and vote directly on legislation (referendum), bypassing state legislatures." },
-          { term: "Sherman Antitrust Act", definition: "1890 law prohibiting business monopolies and practices that restrained trade, used to break up trusts under Presidents Cleveland and Roosevelt." },
-        ],
-      },
-      {
-        name: "Labor Movement",
-        terms: [
-          { term: "AFL", definition: "American Federation of Labor; craft union founded by Samuel Gompers in 1886, focused on skilled workers' wages and conditions rather than radical reform." },
-          { term: "Pullman Strike", definition: "1894 national railroad strike led by Eugene Debs that paralyzed rail traffic until President Cleveland sent federal troops to break it." },
-          { term: "Haymarket Affair", definition: "1886 Chicago labor rally that turned violent when a bomb exploded killing police officers, severely damaging the labor movement's public image." },
-          { term: "Knights of Labor", definition: "Early national labor union open to all workers regardless of skill, race, or gender; declined sharply after the Haymarket Affair." },
-        ],
-      },
-      {
-        name: "Immigration & Urbanization",
-        terms: [
-          { term: "Ellis Island", definition: "Federal immigration station in New York Harbor that processed millions of European immigrants entering the U.S. between 1892 and 1954." },
-          { term: "Settlement Houses", definition: "Neighborhood community centers like Jane Addams's Hull House that provided social services to urban immigrants and the poor." },
-          { term: "Tenements", definition: "Overcrowded, poorly maintained apartment buildings housing working-class and immigrant families in American cities in the late 19th century." },
-          { term: "Chinese Exclusion Act", definition: "1882 federal law barring Chinese laborers from entering the U.S., the first major law restricting immigration by nationality." },
-        ],
-      },
-    ],
-  },
-  {
-    id: "unit-6-2",
-    unit: 6,
-    puzzle: 2,
-    title: "Gilded Age & Progressive Era",
-    subject: "APUSH",
-    groups: [
-      {
-        name: "Populist Movement",
-        terms: [
-          { term: "Farmers' Alliance", definition: "Late 19th-century organization of farmers advocating cooperative economics and government regulation of railroads; a precursor to the Populist Party." },
-          { term: "Populist Party", definition: "Third party founded in 1892 representing farmers and workers; demanded government ownership of railroads, a graduated income tax, and direct election of senators." },
-          { term: "William Jennings Bryan", definition: "Democratic and Populist politician famous for his 'Cross of Gold' speech advocating silver coinage to help debtors; ran for president three times without winning." },
-          { term: "Free Silver", definition: "Populist demand for unlimited coinage of silver to expand the money supply and ease debt burdens on farmers; the movement collapsed after Bryan lost in 1896." },
-        ],
-      },
-      {
-        name: "American Imperialism",
-        terms: [
-          { term: "Spanish-American War", definition: "1898 war in which the U.S. defeated Spain and gained control of Cuba, Puerto Rico, Guam, and the Philippines; marked the U.S. emergence as a global power." },
-          { term: "Yellow Journalism", definition: "Sensationalist newspaper reporting by Hearst and Pulitzer that exaggerated Spanish atrocities in Cuba, stoking public demand for war." },
-          { term: "Rough Riders", definition: "Volunteer cavalry regiment co-led by Theodore Roosevelt in Cuba during the Spanish-American War; his charge up San Juan Hill made him a national hero." },
-          { term: "USS Maine", definition: "U.S. battleship that exploded in Havana Harbor in 1898; blamed on Spain by the yellow press, the incident helped trigger the Spanish-American War." },
+          { term: "17th Amendment", definition: "1913 amendment providing for direct election of U.S. senators, ending their selection by state legislatures — a Progressive victory against corporate control of government." },
+          { term: "Initiative and Referendum", definition: "Progressive democracy tools allowing voters to propose laws (initiative) and approve or reject legislation directly (referendum), bypassing bought legislatures." },
+          { term: "Recall", definition: "Progressive reform allowing voters to remove elected officials before their term ends; part of the direct democracy toolkit aimed at making government more responsive to the people." },
+          { term: "Pure Food and Drug Act", definition: "1906 law requiring honest labeling and banning adulterated food and drugs; passed after The Jungle and muckraker exposes — the first major federal consumer protection law." },
         ],
       },
       {
         name: "Progressive Presidents",
         terms: [
-          { term: "Theodore Roosevelt", definition: "26th President known for trust-busting, conservation, and the Square Deal; expanded federal power to regulate business and protect consumers and natural resources." },
-          { term: "Woodrow Wilson", definition: "28th President whose 'New Freedom' agenda created the Federal Reserve, Clayton Antitrust Act, and Federal Trade Commission to curb corporate power." },
-          { term: "Square Deal", definition: "Roosevelt's domestic program balancing the interests of business, labor, and the public through consumer protections, labor regulation, and conservation." },
-          { term: "New Freedom", definition: "Wilson's 1912 campaign platform favoring competition over regulation, calling for banking reform, lower tariffs, and breaking up monopolies rather than supervising them." },
+          { term: "Theodore Roosevelt", definition: "Trust-buster who filed 44 antitrust suits, mediated the 1902 coal strike, created the FDA's predecessor, and conserved 230 million acres; redefined presidential power." },
+          { term: "Woodrow Wilson", definition: "28th president whose 'New Freedom' created the Federal Reserve (1913), Federal Trade Commission, and Clayton Antitrust Act — preferred breaking up monopolies to regulating them." },
+          { term: "Square Deal", definition: "Roosevelt's 1904 program for balancing corporate power, labor rights, and consumer protection — a 'square deal' for all Americans rather than special treatment for the wealthy." },
+          { term: "New Freedom", definition: "Wilson's 1912 campaign vision: restore competition rather than regulate monopoly; lower tariffs, reform banking, and trust-bust — contrasted with Roosevelt's New Nationalism." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-6-wor",
+    unit: 6,
+    puzzle: 6,
+    theme: { code: "WOR", name: "America in the World" },
+    title: "Gilded Age & Progressive Era",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Roots of Imperialism",
+        terms: [
+          { term: "Alfred Thayer Mahan", definition: "Naval theorist whose The Influence of Sea Power Upon History (1890) argued the U.S. needed a powerful navy and overseas bases to be a great power; inspired Roosevelt and imperial policy." },
+          { term: "Josiah Strong", definition: "Protestant minister whose Our Country (1885) argued Anglo-Saxon Americans had a God-given duty to spread civilization and Christianity; provided religious justification for empire." },
+          { term: "Manifest Destiny (global)", definition: "Gilded Age imperialists extended the old continental idea overseas: America's destiny now included the Pacific, the Caribbean, and Asia — not just the American West." },
+          { term: "Social Darwinism", definition: "Applied to nations as well as individuals; imperialists argued stronger nations had a natural right — even duty — to dominate weaker ones as part of racial and civilizational progress." },
         ],
       },
       {
-        name: "Muckrakers",
+        name: "Spanish-American War",
         terms: [
-          { term: "Jacob Riis", definition: "Journalist and photographer whose book How the Other Half Lives (1890) exposed the squalid living conditions in New York City tenements, shocking middle-class readers." },
-          { term: "Ida Tarbell", definition: "Investigative journalist whose exposé of Standard Oil's monopolistic practices helped lead to its Supreme Court-ordered breakup in 1911." },
-          { term: "Lincoln Steffens", definition: "Muckraking journalist who exposed political corruption in American cities in The Shame of the Cities (1904), fueling Progressive-era reform." },
-          { term: "Upton Sinclair", definition: "Author of The Jungle (1906), a novel exposing unsanitary conditions in the meatpacking industry; helped pass the Pure Food and Drug Act." },
+          { term: "USS Maine", definition: "U.S. battleship that exploded in Havana Harbor in February 1898; yellow press blamed Spain and inflamed public opinion — 'Remember the Maine!' became the rallying cry for war." },
+          { term: "Yellow Journalism", definition: "Sensationalist reporting by Hearst's New York Journal and Pulitzer's New York World; exaggerated Spanish atrocities in Cuba to sell papers and whip up support for war." },
+          { term: "Spanish-American War", definition: "100-day war in 1898; the U.S. destroyed Spain's Pacific fleet at Manila Bay, invaded Cuba and Puerto Rico, and emerged with an overseas empire spanning the Caribbean and Pacific." },
+          { term: "Rough Riders", definition: "Roosevelt's volunteer cavalry regiment whose charge up Kettle/San Juan Hill in Cuba made him a national hero and launched his political career toward the presidency." },
+        ],
+      },
+      {
+        name: "Empire and Its Critics",
+        terms: [
+          { term: "Philippines Annexation", definition: "After defeating Spain, the U.S. bought the Philippines for $20 million; Filipino nationalists who had fought Spain now fought the U.S. in a three-year war killing 200,000+ Filipinos." },
+          { term: "Anti-Imperialist League", definition: "Organization including Mark Twain, Andrew Carnegie, and Jane Addams that opposed annexing the Philippines; argued empire violated American democracy and self-determination principles." },
+          { term: "Platt Amendment", definition: "1901 condition imposed on Cuba limiting its sovereignty, giving the U.S. the right to intervene, and leasing Guantánamo Bay; made Cuba a de facto U.S. protectorate." },
+          { term: "Insular Cases", definition: "Supreme Court rulings deciding that the Constitution did not fully apply in U.S. territories; allowed the U.S. to hold an empire without granting constitutional rights to its subjects." },
+        ],
+      },
+      {
+        name: "Roosevelt's World",
+        terms: [
+          { term: "Roosevelt Corollary", definition: "1904 addition to the Monroe Doctrine asserting the U.S. right to intervene in Latin American nations unable to maintain order; used to justify occupations of Haiti, Nicaragua, and the Dominican Republic." },
+          { term: "Big Stick Diplomacy", definition: "Roosevelt's foreign policy motto ('speak softly and carry a big stick'); used military threat and intervention to enforce American interests in Latin America and Asia." },
+          { term: "Panama Canal", definition: "Roosevelt engineered Panamanian independence from Colombia and began the canal (completed 1914); linked the Atlantic and Pacific and made U.S. naval power truly global." },
+          { term: "Portsmouth Treaty", definition: "Roosevelt mediated the 1905 Russo-Japanese War peace settlement, winning the Nobel Peace Prize; demonstrated U.S. emergence as a great-power diplomatic player." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-6-arc",
+    unit: 6,
+    puzzle: 7,
+    theme: { code: "ARC", name: "American and Regional Culture" },
+    title: "Gilded Age & Progressive Era",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Muckrakers and Reform Literature",
+        terms: [
+          { term: "Jacob Riis", definition: "How the Other Half Lives (1890) used photographs and prose to expose New York tenement conditions; shocked middle-class readers and triggered housing reform." },
+          { term: "Ida Tarbell", definition: "Her 19-part McClure's exposé of Standard Oil (1902–04) showed how Rockefeller crushed competition through secret railroad rebates; helped break up Standard Oil in 1911." },
+          { term: "Upton Sinclair", definition: "The Jungle (1906) described Chicago meatpacking conditions so vividly that Roosevelt read it over breakfast and immediately pushed for food safety legislation." },
+          { term: "Lincoln Steffens", definition: "The Shame of the Cities (1904) exposed systematic corruption in St. Louis, Minneapolis, and Pittsburgh; showed urban machine politics was a national disease, not local aberration." },
+        ],
+      },
+      {
+        name: "Arts and Architecture",
+        terms: [
+          { term: "Chicago School of Architecture", definition: "Pioneered the steel-frame skyscraper in the 1880s–90s; architects like Louis Sullivan and Daniel Burnham transformed American cities with tall buildings and the 'form follows function' aesthetic." },
+          { term: "Ashcan School", definition: "Realist painters led by Robert Henri who depicted gritty urban life — tenements, saloons, laundry alleys — rejecting genteel academic art for the raw energy of industrial America." },
+          { term: "World's Columbian Exposition", definition: "1893 Chicago World's Fair showcasing American industrial and cultural achievement; the 'White City' introduced millions to neoclassical architecture, electricity, and the Ferris wheel." },
+          { term: "Vaudeville", definition: "Popular variety entertainment featuring comedy, song, dance, and novelty acts; the era's dominant mass entertainment before film, reaching all classes and ethnic groups." },
+        ],
+      },
+      {
+        name: "African American Culture",
+        terms: [
+          { term: "Booker T. Washington", definition: "Tuskegee Institute founder who championed vocational education and economic self-reliance; his 1895 Atlanta Compromise accepted segregation in exchange for white tolerance of Black economic progress." },
+          { term: "W.E.B. Du Bois", definition: "First Black Harvard PhD; his The Souls of Black Folk (1903) challenged Washington's accommodation and demanded full civil rights — coined 'double consciousness' to describe the Black American experience." },
+          { term: "NAACP", definition: "National Association for the Advancement of Colored People, founded in 1909 by Du Bois and white progressives; used legal challenges and public advocacy to fight lynching and segregation." },
+          { term: "Ragtime", definition: "Syncopated piano music pioneered by Scott Joplin in the 1890s–1900s; the era's most popular new sound, blending Black musical innovation with mainstream commercial appeal." },
+        ],
+      },
+      {
+        name: "Native American Culture Under Pressure",
+        terms: [
+          { term: "Dawes Act", definition: "1887 law allotting reservation land to individuals to assimilate Native peoples into American farming culture; destroyed communal land ownership and transferred 90 million acres to whites." },
+          { term: "Carlisle Indian School", definition: "Federal boarding school founded 1879 with the mission to 'kill the Indian, save the man'; children were forbidden to speak their languages or practice their cultures." },
+          { term: "Ghost Dance", definition: "Spiritual movement spreading through Plains nations in 1890 promising the return of the buffalo and dead warriors; the U.S. Army's suppression at Wounded Knee ended it." },
+          { term: "Wounded Knee Massacre", definition: "December 1890 killing of 250–300 Lakota by the 7th Cavalry; the final military conquest of Native America, ending in the same South Dakota soil where the Ghost Dance had flourished." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-6-soc",
+    unit: 6,
+    puzzle: 8,
+    theme: { code: "SOC", name: "Social Structures" },
+    title: "Gilded Age & Progressive Era",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Class and Inequality",
+        terms: [
+          { term: "Robber Barons", definition: "Derogatory term for Gilded Age industrialists like Carnegie, Rockefeller, and Morgan; critics charged their fortunes were built through exploitation of workers and corrupt deals." },
+          { term: "Gospel of Wealth", definition: "Carnegie's argument that the rich had a duty to use surplus wealth for public benefit; built libraries and concert halls while paying workers poverty wages and crushing strikes." },
+          { term: "Social Darwinism", definition: "Ideology holding that wealth inequality was natural and government intervention harmful; used to oppose unions, safety regulations, and aid to the poor as interference with natural selection." },
+          { term: "Gilded Age Inequality", definition: "By 1890, the top 1% of Americans owned more wealth than the bottom 99% combined; the era's defining social fact and the engine driving Populist and Progressive reform demands." },
+        ],
+      },
+      {
+        name: "Women and Reform",
+        terms: [
+          { term: "Jane Addams", definition: "Hull House co-founder who combined social work with political activism; fought child labor, lobbied for factory safety laws, and won the Nobel Peace Prize — the era's most influential woman." },
+          { term: "Florence Kelley", definition: "Socialist reformer at Hull House who led the National Consumers League; her investigative work on sweatshop conditions drove child labor laws and the 10-hour workday for women." },
+          { term: "Triangle Shirtwaist Fire", definition: "1911 New York factory fire killing 146 young immigrant women workers; doors were locked to prevent theft — the outrage it generated produced 36 new labor laws in New York alone." },
+          { term: "Temperance and Suffrage", definition: "The two great women's movements of the era; WCTU leader Frances Willard linked temperance to suffrage, arguing women needed the vote to protect their families from alcohol and industrial exploitation." },
+        ],
+      },
+      {
+        name: "Race and Jim Crow",
+        terms: [
+          { term: "Jim Crow Laws", definition: "State and local laws enforcing racial segregation across the South in transportation, schools, restaurants, and all public spaces; upheld by Plessy v. Ferguson." },
+          { term: "Lynching", definition: "Extrajudicial murder of Black men (and occasionally women) by white mobs; over 4,000 documented between 1877 and 1950, used to terrorize Black communities and enforce white supremacy." },
+          { term: "Ida B. Wells", definition: "Journalist and activist who documented lynching statistics and challenged the myth that victims were criminals; her anti-lynching crusade made her one of the era's most courageous reformers." },
+          { term: "Plessy v. Ferguson", definition: "1896 Supreme Court ruling making 'separate but equal' constitutional; gave legal sanction to Jim Crow and wasn't reversed until Brown v. Board of Education in 1954." },
+        ],
+      },
+      {
+        name: "Labor and the Working Class",
+        terms: [
+          { term: "Haymarket Affair", definition: "May 1886 Chicago labor rally that turned violent when a bomb killed police; eight anarchists convicted on thin evidence — the backlash set back the labor movement and 8-hour day campaign." },
+          { term: "Homestead Strike", definition: "1892 Carnegie Steel strike broken by 300 Pinkerton guards and the National Guard; Carnegie's personal reputation never recovered, revealing the gap between his philanthropy and his labor practices." },
+          { term: "Eugene Debs", definition: "Socialist leader who organized the ARU and led the Pullman Strike; jailed for defying a federal injunction, he ran for president five times — including once from prison — as a Socialist." },
+          { term: "IWW", definition: "Industrial Workers of the World ('Wobblies'); radical union founded 1905 organizing all workers regardless of skill, race, or gender; unlike the AFL, sought to overthrow capitalism itself." },
         ],
       },
     ],
@@ -1576,91 +2607,371 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+  // ── Unit 9: Reagan Era to Present ───────────────────────────────────────
   {
-    id: "unit-9",
+    id: "unit-9-nat",
     unit: 9,
+    puzzle: 1,
+    theme: { code: "NAT", name: "American and National Identity" },
     title: "Reagan Era to Present",
     subject: "APUSH",
     groups: [
       {
-        name: "Reagan Revolution",
+        name: "Conservative Identity",
         terms: [
-          { term: "Reaganomics", definition: "President Reagan's economic policy combining tax cuts, deregulation, and reduced domestic spending, based on supply-side theory." },
-          { term: "Supply-Side Economics", definition: "Theory that cutting taxes for businesses and the wealthy stimulates investment and job creation, benefiting all economic levels ('trickle-down')." },
-          { term: "Iran-Contra Affair", definition: "1986–1987 scandal in which Reagan administration officials secretly sold weapons to Iran and used the proceeds to illegally fund Nicaraguan rebels." },
-          { term: "Cold War Escalation", definition: "Reagan's massive military buildup and aggressive anti-Soviet rhetoric in the 1980s, designed to pressure the USSR economically and diplomatically into collapse." },
+          { term: "Reagan Revolution", definition: "The rightward shift in American politics beginning in 1980; Reagan's coalition united free-market conservatives, social traditionalists, and Cold War hawks against the liberal New Deal order." },
+          { term: "Moral Majority", definition: "Jerry Falwell's 1979 organization mobilizing evangelical Christians as a Republican voting bloc; helped define American conservatism around cultural issues like abortion and school prayer." },
+          { term: "Religious Right", definition: "Coalition of conservative evangelical and Catholic voters who aligned with the Republican Party from the late 1970s; made abortion, gay rights, and school prayer central political issues." },
+          { term: "Culture Wars", definition: "Ongoing political conflict since the 1980s over values, identity, and morality — abortion, LGBTQ rights, gun control, immigration, and the meaning of American nationhood." },
         ],
       },
       {
-        name: "End of the Cold War",
+        name: "Civil Rights Continued",
         terms: [
-          { term: "Fall of Berlin Wall", definition: "November 9, 1989 event when East Germany opened its borders and crowds tore down the wall dividing Berlin, symbolizing the collapse of communist Europe." },
-          { term: "Soviet Collapse", definition: "1991 dissolution of the Soviet Union into 15 independent republics, ending the Cold War and leaving the U.S. as the world's sole superpower." },
-          { term: "Gulf War", definition: "1990–1991 U.S.-led coalition war that expelled Iraqi forces from Kuwait after Saddam Hussein's invasion, demonstrating U.S. military dominance in the post-Cold War era." },
-          { term: "NAFTA", definition: "North American Free Trade Agreement (1994) eliminating trade barriers between the U.S., Canada, and Mexico; debated for its effect on American manufacturing jobs." },
+          { term: "Black Lives Matter", definition: "Movement founded in 2013 after Trayvon Martin's killer was acquitted; galvanized by police killings of Black Americans and George Floyd's murder in 2020 — the largest protest movement in U.S. history." },
+          { term: "Obergefell v. Hodges", definition: "2015 Supreme Court ruling legalizing same-sex marriage nationwide; the culmination of decades of LGBTQ rights activism and a landmark in American civil rights history." },
+          { term: "Americans with Disabilities Act", definition: "1990 law prohibiting discrimination against people with disabilities in employment, public accommodations, and transportation; the most sweeping civil rights law since 1964." },
+          { term: "#MeToo Movement", definition: "2017 viral campaign exposing the pervasiveness of sexual harassment and assault; toppled powerful men across industries and sparked a national reckoning with gender inequality." },
         ],
       },
       {
-        name: "Post-9/11 America",
+        name: "Post-9/11 Identity",
         terms: [
-          { term: "USA PATRIOT Act", definition: "2001 law expanding government surveillance powers in response to the 9/11 attacks, controversial for its impact on civil liberties." },
-          { term: "War in Afghanistan", definition: "U.S.-led military campaign begun in October 2001 to dismantle Al-Qaeda and remove the Taliban government that harbored them." },
-          { term: "Iraq War", definition: "2003 U.S.-led invasion of Iraq to remove Saddam Hussein, justified by claims of weapons of mass destruction that were not found; led to prolonged occupation." },
-          { term: "Department of Homeland Security", definition: "Cabinet agency created in 2002 to coordinate domestic anti-terrorism efforts, combining 22 federal agencies under one department." },
+          { term: "September 11, 2001", definition: "Al-Qaeda hijackings destroyed the World Trade Center and struck the Pentagon, killing 2,977 people; transformed American foreign policy, civil liberties, and national identity." },
+          { term: "Islamophobia", definition: "Surge in anti-Muslim prejudice and hate crimes following 9/11; targeted Arab Americans and Muslim communities regardless of citizenship — a pattern echoing earlier wartime discrimination." },
+          { term: "USA PATRIOT Act", definition: "2001 law dramatically expanding government surveillance powers; debated as a necessary security tool versus a dangerous erosion of civil liberties and Fourth Amendment rights." },
+          { term: "War on Terror", definition: "Bush administration's framing of post-9/11 policy as a global, open-ended conflict against terrorism; justified military action in Afghanistan, Iraq, and beyond." },
         ],
       },
       {
-        name: "Contemporary Issues",
+        name: "Demographic Change and Identity",
         terms: [
-          { term: "Great Recession", definition: "2007–2009 severe economic downturn triggered by the collapse of the housing market and subprime mortgage crisis; worst crisis since the Great Depression." },
-          { term: "Tea Party Movement", definition: "Conservative grassroots political movement that emerged around 2009 opposing the stimulus package, healthcare reform, and federal spending." },
-          { term: "Affordable Care Act", definition: "2010 healthcare reform law ('Obamacare') expanding health insurance coverage through Medicaid expansion and regulated insurance marketplaces." },
-          { term: "Black Lives Matter", definition: "Movement founded in 2013 to protest police violence against Black Americans and systemic racism; gained renewed prominence after George Floyd's murder in 2020." },
+          { term: "Immigration Reform and Control Act", definition: "1986 Reagan-era law granting amnesty to 3 million undocumented immigrants while promising — but failing — to enforce employer sanctions against hiring undocumented workers." },
+          { term: "DACA", definition: "Obama's 2012 executive order shielding 800,000 undocumented immigrants brought as children ('Dreamers') from deportation; a flashpoint in the immigration identity debate." },
+          { term: "Browning of America", definition: "Demographic shift making the U.S. increasingly non-white; Census projections showing a majority-minority nation by 2045 fueled both multicultural celebration and white nationalist backlash." },
+          { term: "Multiculturalism", definition: "Political and educational philosophy celebrating America's racial and ethnic diversity rather than demanding assimilation; contested in the culture wars as a threat to a unified national identity." },
         ],
       },
     ],
   },
   {
-    id: "unit-9-2",
+    id: "unit-9-wxt",
     unit: 9,
     puzzle: 2,
+    theme: { code: "WXT", name: "Work, Exchange, and Technology" },
     title: "Reagan Era to Present",
     subject: "APUSH",
     groups: [
       {
-        name: "Reagan Era Social Issues",
+        name: "Reaganomics",
         terms: [
-          { term: "Moral Majority", definition: "Conservative political organization founded by Jerry Falwell Sr. in 1979 that mobilized evangelical Christians as a voting bloc for Reagan and the Republican Party." },
-          { term: "War on Drugs", definition: "Reagan-era federal campaign escalating drug enforcement and mandatory minimum sentences; critics argued it disproportionately targeted minority communities." },
-          { term: "AIDS Crisis", definition: "1980s epidemic initially affecting gay men and intravenous drug users; the Reagan administration faced intense criticism for its slow public health response as tens of thousands died." },
-          { term: "Religious Right", definition: "Broad coalition of conservative Christian voters and organizations that aligned with the Republican Party beginning in the late 1970s, shaping the culture wars of the 1980s–90s." },
+          { term: "Reaganomics", definition: "Reagan's economic program of supply-side tax cuts, deregulation, and domestic spending cuts; reduced top income tax rate from 70% to 28% and tripled the national debt." },
+          { term: "Supply-Side Economics", definition: "Theory that cutting taxes on the wealthy and businesses stimulates investment that 'trickles down' to workers; the economic foundation of Republican fiscal policy since Reagan." },
+          { term: "Deregulation", definition: "Reagan's rollback of federal regulations on banking, airlines, telecommunications, and energy; unleashed economic dynamism but also enabled the S&L crisis and later Wall Street excesses." },
+          { term: "Air Traffic Controllers Strike", definition: "1981 PATCO strike that Reagan broke by firing 11,000 striking workers; signaled that government would no longer support organized labor and accelerated union decline." },
         ],
       },
       {
-        name: "Clinton Administration",
+        name: "Globalization and Trade",
         terms: [
-          { term: "Welfare Reform Act", definition: "1996 law replacing the federal welfare guarantee with block grants to states and imposing work requirements and time limits on recipients." },
-          { term: "Government Shutdown", definition: "1995–1996 budget standoff between Clinton and the Republican Congress led by Newt Gingrich that shut down the federal government twice." },
-          { term: "DOMA", definition: "Defense of Marriage Act (1996); federal law defining marriage as between a man and a woman, later struck down by the Supreme Court in United States v. Windsor (2013)." },
-          { term: "Clinton Impeachment", definition: "1998 House impeachment of President Clinton on charges of perjury and obstruction related to the Monica Lewinsky scandal; the Senate voted to acquit him." },
+          { term: "NAFTA", definition: "1994 free trade agreement eliminating tariffs among the U.S., Canada, and Mexico; boosted trade and lowered consumer prices but contributed to the loss of 700,000+ U.S. manufacturing jobs." },
+          { term: "Deindustrialization", definition: "Decline of American manufacturing from the 1970s onward as factories moved to lower-wage countries; devastated the Rust Belt and fueled working-class anger that reshaped politics." },
+          { term: "WTO", definition: "World Trade Organization (1995) enforcing global trade rules; integrating China into the world economy accelerated U.S. manufacturing losses and fed populist backlash." },
+          { term: "Rust Belt", definition: "Former industrial heartland (Ohio, Michigan, Pennsylvania, Wisconsin) hollowed out by deindustrialization; its economic decline drove the political realignment of white working-class voters." },
         ],
       },
       {
-        name: "Post-Cold War Foreign Policy",
+        name: "The Digital Revolution",
         terms: [
-          { term: "Somalia Intervention", definition: "1993 U.S. humanitarian mission in Somalia that ended in the 'Black Hawk Down' battle, killing 18 U.S. soldiers and leading to a hasty withdrawal." },
-          { term: "Bosnia Intervention", definition: "1995 U.S.-led NATO airstrikes that ended the Bosnian War and produced the Dayton Accords, halting ethnic cleansing in the former Yugoslavia." },
-          { term: "Kosovo Bombing", definition: "1999 NATO air campaign against Serbia to stop the ethnic cleansing of Albanians in Kosovo; the first major NATO military action without UN Security Council authorization." },
-          { term: "Rwandan Genocide", definition: "1994 mass killing of approximately 800,000 Tutsis in Rwanda; the Clinton administration's decision not to intervene remains a defining moral failure of U.S. foreign policy." },
+          { term: "Internet", definition: "Commercialized in the early 1990s, it transformed every aspect of the economy — creating trillion-dollar companies, disrupting established industries, and reshaping how Americans work and live." },
+          { term: "Dot-Com Bubble", definition: "Late 1990s stock market speculation in internet companies; the 2000 crash wiped out $5 trillion in market value but left behind a transformed digital infrastructure." },
+          { term: "Gig Economy", definition: "Post-2008 shift toward contract and freelance work facilitated by apps like Uber and TaskRabbit; expanded flexibility while stripping workers of benefits, job security, and labor protections." },
+          { term: "Automation", definition: "Replacement of human labor by machines and software; eliminated millions of manufacturing and clerical jobs — a deeper cause of working-class economic anxiety than trade alone." },
         ],
       },
       {
-        name: "Obama Era",
+        name: "Financial Crisis and Recovery",
         terms: [
-          { term: "American Recovery Act", definition: "2009 economic stimulus package of $787 billion responding to the Great Recession; included infrastructure spending, tax cuts, and aid to states." },
-          { term: "Dodd-Frank Act", definition: "2010 financial reform law creating new regulations on banks and Wall Street to prevent a repeat of the 2008 financial crisis." },
-          { term: "DACA", definition: "Deferred Action for Childhood Arrivals (2012); executive order protecting undocumented immigrants brought to the U.S. as children from deportation." },
-          { term: "Citizens United", definition: "2010 Supreme Court ruling that corporations and other groups can spend unlimited money in elections as a form of free speech, dramatically reshaping campaign finance." },
+          { term: "Great Recession", definition: "2007–2009 financial crisis triggered by the collapse of subprime mortgage-backed securities; worst economic downturn since the Great Depression, wiping out $13 trillion in household wealth." },
+          { term: "TARP", definition: "Troubled Asset Relief Program (2008); $700 billion bank bailout passed by Congress to prevent financial system collapse — bailed out Wall Street while millions lost homes, fueling public fury." },
+          { term: "Dodd-Frank Act", definition: "2010 financial reform law creating the Consumer Financial Protection Bureau and new bank regulations; significantly strengthened oversight but critics said it didn't go far enough." },
+          { term: "American Recovery and Reinvestment Act", definition: "Obama's 2009 $787 billion stimulus package combining tax cuts, infrastructure spending, and aid to states; economists credit it with ending the recession, though recovery was slow." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-9-geo",
+    unit: 9,
+    puzzle: 3,
+    theme: { code: "GEO", name: "Geography and the Environment" },
+    title: "Reagan Era to Present",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Environmental Policy",
+        terms: [
+          { term: "EPA Under Attack", definition: "Reagan slashed the EPA's budget and staff, appointed anti-regulation officials, and rolled back clean air and water rules; set the template for Republican deregulatory environmental policy." },
+          { term: "Kyoto Protocol", definition: "1997 international climate agreement setting binding emissions reduction targets; the U.S. Senate refused to ratify it and Bush withdrew in 2001, isolating America on climate." },
+          { term: "Paris Climate Agreement", definition: "2015 accord committing nearly every nation to emissions reductions; Obama joined, Trump withdrew in 2017, Biden rejoined in 2021 — a symbol of partisan environmental whiplash." },
+          { term: "Hurricane Katrina", definition: "2005 hurricane that devastated New Orleans; the government's disastrous response exposed racial and class inequalities in disaster preparedness and became a symbol of federal incompetence." },
+        ],
+      },
+      {
+        name: "Sunbelt and Urban Shift",
+        terms: [
+          { term: "Sunbelt", definition: "Southern and western states (Florida, Texas, Arizona, California) that boomed from the 1970s onward due to air conditioning, defense spending, and migration from the Rust Belt." },
+          { term: "White Flight", definition: "Post-WWII and ongoing exodus of white middle-class families from cities to suburbs; deepened racial and economic segregation and drained cities of tax base and resources." },
+          { term: "Gentrification", definition: "Reinvestment in urban neighborhoods that raised property values and displaced lower-income and minority residents; reshaped American cities while intensifying inequality." },
+          { term: "Rust Belt Decline", definition: "Deindustrialization hollowed out Great Lakes and mid-Atlantic cities; Detroit, Cleveland, and Pittsburgh lost half their populations as factories closed and jobs moved South or abroad." },
+        ],
+      },
+      {
+        name: "Wars and Geography",
+        terms: [
+          { term: "Gulf War", definition: "1990–91 U.S.-led coalition expelled Iraq from Kuwait in 100 hours of ground combat; demonstrated American military dominance but left Saddam in power — unfinished business that led to 2003." },
+          { term: "War in Afghanistan", definition: "Began October 2001 to destroy Al-Qaeda and oust the Taliban; became America's longest war (20 years), ending with the Taliban's return to power in August 2021." },
+          { term: "Iraq War", definition: "2003 invasion justified by false WMD claims; toppled Saddam but created a power vacuum, insurgency, and sectarian civil war that destabilized the region and cost 4,500 American lives." },
+          { term: "ISIS", definition: "Islamic State that emerged from the Iraq War's chaos; seized large swaths of Iraq and Syria in 2014, requiring a new U.S. military campaign and revealing the lasting consequences of the 2003 invasion." },
+        ],
+      },
+      {
+        name: "Border and Immigration Geography",
+        terms: [
+          { term: "Border Wall", definition: "Barrier along the U.S.-Mexico border expanded under multiple administrations; Trump made its construction a defining promise and symbol of nativist immigration politics." },
+          { term: "Undocumented Immigration", definition: "An estimated 11 million undocumented people live in the U.S., most from Latin America; their presence and legal status has been the era's most divisive domestic political issue." },
+          { term: "Family Separation Policy", definition: "Trump administration's 2018 'zero tolerance' policy separating migrant children from parents at the border; produced images of children in cages that sparked national and international outrage." },
+          { term: "Sanctuary Cities", definition: "Cities that limit cooperation with federal immigration enforcement; became flashpoints in the immigration debate as localities asserted authority against federal policy." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-9-mig",
+    unit: 9,
+    puzzle: 4,
+    theme: { code: "MIG", name: "Migration and Settlement" },
+    title: "Reagan Era to Present",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Latin American Immigration",
+        terms: [
+          { term: "Immigration Reform and Control Act", definition: "1986 law granting amnesty to 3 million undocumented immigrants — the largest legalization in U.S. history — while attempting to deter future illegal entry through employer sanctions." },
+          { term: "Central American Refugees", definition: "Surge of asylum seekers from Guatemala, Honduras, and El Salvador fleeing gang violence and poverty; their arrival sparked the 2018 family separation crisis and ongoing political battles over asylum law." },
+          { term: "DACA", definition: "Obama's 2012 executive program protecting roughly 800,000 'Dreamers' — undocumented immigrants brought as children — from deportation; repeatedly threatened by courts and Republican administrations." },
+          { term: "Latinx Population Growth", definition: "Latinos became the largest U.S. minority group in 2003; by 2020 comprising 18.7% of the population — transforming politics, culture, and the economy across the country." },
+        ],
+      },
+      {
+        name: "Refugee and Asylum Policy",
+        terms: [
+          { term: "Vietnamese Refugees", definition: "Over 800,000 Vietnamese refugees resettled in the U.S. after 1975; established communities across the country and became a model of refugee integration despite initial hostility." },
+          { term: "Cuban Immigration", definition: "Multiple waves from Cuba — the 1959 revolution elite, 1980 Mariel boatlift, and 1990s balseros; Cuban Americans concentrated in South Florida became a powerful conservative voting bloc." },
+          { term: "Haitian Refugees", definition: "Waves of Haitian asylum seekers intercepted at sea and turned back; their differential treatment compared to Cuban refugees revealed racial double standards in U.S. asylum policy." },
+          { term: "Syrian Refugee Crisis", definition: "Obama admitted 10,000 Syrian refugees in 2016; Trump suspended the refugee program after taking office, using national security fears to drastically limit refugee admissions." },
+        ],
+      },
+      {
+        name: "Internal Migration",
+        terms: [
+          { term: "Sunbelt Migration", definition: "Massive population shift from the Northeast and Midwest to the South and West from the 1970s onward; reshaped the Electoral College, giving Sun Belt states more political power." },
+          { term: "Reverse Great Migration", definition: "From the 1970s onward, millions of Black Americans began moving back to the South attracted by economic opportunity and lower costs; reversed a 60-year northward migration pattern." },
+          { term: "Suburban Sprawl", definition: "Post-WWII and continuing spread of low-density housing developments around cities; automobile-dependent, racially segregated, and environmentally costly — the dominant American settlement pattern." },
+          { term: "Rural Depopulation", definition: "Continuing decline of small towns and rural areas as agriculture mechanized and young people left for cities; fueled economic despair and political resentment that reshaped partisan alignment." },
+        ],
+      },
+      {
+        name: "Undocumented Immigration",
+        terms: [
+          { term: "Operation Wetback (legacy)", definition: "The 1954 mass deportation's legacy informed later enforcement debates; its methods were cited as a model and condemned as a human rights violation in modern immigration policy fights." },
+          { term: "Undocumented Immigration", definition: "Estimated 11 million undocumented people in the U.S.; their labor is essential to agriculture, construction, and service industries while their status remains a flashpoint for political conflict." },
+          { term: "Border Patrol Expansion", definition: "Dramatic growth of the Border Patrol from 4,000 agents in 1994 to over 20,000 by 2020; militarization of the border channeled migrants into more dangerous desert crossing routes, increasing deaths." },
+          { term: "Dreamers", definition: "Young undocumented immigrants brought to the U.S. as children who grew up American in every way except legal status; their fight for citizenship became the human face of the immigration debate." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-9-pce",
+    unit: 9,
+    puzzle: 5,
+    theme: { code: "PCE", name: "Politics and Civic Engagement" },
+    title: "Reagan Era to Present",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Reagan and the Republican Revolution",
+        terms: [
+          { term: "Reagan Revolution", definition: "Reagan's 1980 victory ended 50 years of New Deal Democratic dominance; his coalition of economic conservatives, social traditionalists, and Cold Warriors reshaped both parties." },
+          { term: "Contract with America", definition: "Newt Gingrich's 1994 platform committing Republicans to specific legislative goals; helped Republicans win the House for the first time in 40 years, launching the 'Republican Revolution.'" },
+          { term: "Newt Gingrich", definition: "Speaker of the House whose confrontational style transformed congressional politics; his strategy of treating opponents as enemies rather than rivals poisoned bipartisan cooperation." },
+          { term: "Gridlock", definition: "Political paralysis caused by divided government and increasing partisan polarization; became the defining feature of American governance from the 1990s onward." },
+        ],
+      },
+      {
+        name: "Clinton and the Third Way",
+        terms: [
+          { term: "Third Way", definition: "Clinton's centrist Democratic philosophy accepting market economics while preserving a social safety net; moved the Democratic Party right on crime, welfare, and trade." },
+          { term: "Welfare Reform Act", definition: "1996 Clinton law replacing the federal welfare entitlement with block grants and work requirements; reduced welfare rolls but critics argued it abandoned the poorest Americans." },
+          { term: "Clinton Impeachment", definition: "1998 House impeachment on perjury charges related to the Lewinsky affair; acquitted by the Senate — the second presidential impeachment, demonstrating how partisan impeachment had become." },
+          { term: "Don't Ask Don't Tell", definition: "Clinton's 1993 compromise allowing gay people to serve in the military if they concealed their sexuality; repealed in 2011 under Obama as attitudes toward LGBTQ equality shifted." },
+        ],
+      },
+      {
+        name: "Bush, Obama, and Polarization",
+        terms: [
+          { term: "Bush v. Gore", definition: "2000 Supreme Court decision stopping the Florida recount and handing the presidency to George W. Bush; the most controversial judicial intervention in American electoral history." },
+          { term: "Tea Party Movement", definition: "2009–10 conservative grassroots movement opposing Obama's stimulus and healthcare law; elected 40 House Republicans in 2010 and radicalized the GOP base against compromise." },
+          { term: "Affordable Care Act", definition: "Obama's 2010 healthcare law extending coverage to 20 million Americans; the most significant domestic legislation since Medicare — and the most polarizing, passing without a single Republican vote." },
+          { term: "Citizens United", definition: "2010 Supreme Court ruling that corporate and union political spending is protected speech; unleashed unlimited 'dark money' into American elections and deepened the influence of the wealthy." },
+        ],
+      },
+      {
+        name: "Trump Era and After",
+        terms: [
+          { term: "Trump's Election (2016)", definition: "Donald Trump defeated Hillary Clinton by winning Rust Belt states that had been Democratic for decades; his victory was driven by white working-class voters angry at globalization and demographic change." },
+          { term: "January 6th Insurrection", definition: "January 6, 2021 assault on the U.S. Capitol by supporters of Trump attempting to stop certification of Biden's election; the most serious attack on American democratic institutions in modern history." },
+          { term: "First Trump Impeachment", definition: "2019 House impeachment for withholding military aid to Ukraine to pressure it into investigating political rival Joe Biden; acquitted by the Senate along party lines." },
+          { term: "Second Trump Impeachment", definition: "2021 House impeachment for inciting the January 6th insurrection; the Senate acquitted again — the first president impeached twice, marking the depth of constitutional crisis." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-9-wor",
+    unit: 9,
+    puzzle: 6,
+    theme: { code: "WOR", name: "America in the World" },
+    title: "Reagan Era to Present",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "End of the Cold War",
+        terms: [
+          { term: "Reagan Doctrine", definition: "Policy of arming anti-communist rebels worldwide — in Afghanistan, Nicaragua, Angola, and elsewhere; contributed to Soviet overextension while enabling human rights abuses." },
+          { term: "Iran-Contra Affair", definition: "1986 Reagan administration scandal: officials secretly sold weapons to Iran (violating an arms embargo) and funneled profits to Nicaraguan Contras (violating a congressional ban)." },
+          { term: "Fall of the Berlin Wall", definition: "November 9, 1989; East Germany opened its borders and crowds demolished the wall — the iconic moment of communist Europe's collapse and the Cold War's end." },
+          { term: "Soviet Collapse", definition: "December 1991 dissolution of the USSR into 15 independent republics; ended the Cold War and left the U.S. as the sole superpower — a 'unipolar moment' that lasted until the 2000s." },
+        ],
+      },
+      {
+        name: "Post-Cold War Interventions",
+        terms: [
+          { term: "Gulf War", definition: "1990–91 U.S.-led coalition expelled Iraq from Kuwait; demonstrated American military dominance and established the model of multilateral intervention with UN authorization." },
+          { term: "Somalia Intervention", definition: "1993 humanitarian mission ended in the 'Black Hawk Down' firefight killing 18 U.S. soldiers; made Clinton and Congress reluctant to intervene in Rwanda's genocide the following year." },
+          { term: "Rwandan Genocide", definition: "1994 slaughter of 800,000 Tutsis in 100 days while the U.S. and UN stood aside; Clinton later called his failure to act the greatest regret of his presidency." },
+          { term: "NATO Expansion", definition: "Clinton's decision to admit former Warsaw Pact nations into NATO angered Russia and, critics argue, planted the seeds of the hostility that led to Russia's 2022 invasion of Ukraine." },
+        ],
+      },
+      {
+        name: "War on Terror",
+        terms: [
+          { term: "September 11, 2001", definition: "Al-Qaeda attacks killing 2,977 people transformed American foreign policy; justified military action in Afghanistan, Iraq, and beyond — and surveillance and detention policies that violated civil liberties." },
+          { term: "War in Afghanistan", definition: "America's longest war (2001–2021); toppled the Taliban quickly but failed to build a stable Afghan state — ended with the Taliban's return to power two weeks after U.S. withdrawal." },
+          { term: "Iraq War", definition: "2003 invasion based on false WMD intelligence; toppled Saddam Hussein but ignited a sectarian civil war, created ISIS, and cost 4,500 American and 200,000+ Iraqi lives." },
+          { term: "Abu Ghraib", definition: "2003–04 U.S. military prisoner abuse scandal in Iraq; photos of soldiers torturing detainees shocked the world, damaged American credibility, and fueled anti-American sentiment globally." },
+        ],
+      },
+      {
+        name: "America in a Multipolar World",
+        terms: [
+          { term: "China's Rise", definition: "China's explosive economic growth made it the world's second-largest economy by 2010; its military buildup and assertiveness in the Pacific challenged U.S. primacy and defined 21st-century geopolitics." },
+          { term: "Paris Climate Agreement", definition: "2015 global climate accord: Obama joined, Trump withdrew, Biden rejoined — the climate fight became a test of whether the U.S. could sustain long-term international commitments." },
+          { term: "Obama's 'Pivot to Asia'", definition: "Strategic shift emphasizing the Pacific over the Middle East; deployed more forces to Asia, strengthened alliances with Japan and Australia, and confronted China's South China Sea expansion." },
+          { term: "Russia and Ukraine", definition: "Russia's 2014 annexation of Crimea and 2022 full invasion challenged the post-Cold War order; Biden led NATO in supporting Ukraine with weapons and sanctions — the most serious Europe crisis since WWII." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-9-arc",
+    unit: 9,
+    puzzle: 7,
+    theme: { code: "ARC", name: "American and Regional Culture" },
+    title: "Reagan Era to Present",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Culture Wars",
+        terms: [
+          { term: "Culture Wars", definition: "Ongoing conflict since the 1980s between traditionalist and progressive values over abortion, LGBTQ rights, school curriculum, immigration, and the meaning of American identity." },
+          { term: "Roe v. Wade", definition: "1973 Supreme Court ruling establishing abortion rights; its 2022 overturning by Dobbs v. Jackson reignited the culture war and transformed American electoral politics." },
+          { term: "Dobbs v. Jackson", definition: "2022 Supreme Court ruling overturning Roe v. Wade and returning abortion regulation to states; the most consequential rollback of an established constitutional right in American history." },
+          { term: "Gay Marriage", definition: "Legalized nationwide by Obergefell v. Hodges (2015); the speed of the cultural shift — from criminal in many states to constitutional right in decades — reshaped how Americans think about civil rights." },
+        ],
+      },
+      {
+        name: "Media and Technology Culture",
+        terms: [
+          { term: "Cable News", definition: "CNN (1980), Fox News (1996), and MSNBC created 24-hour partisan news cycles; Fox's conservative audience built a parallel information ecosystem that deepened political polarization." },
+          { term: "Social Media", definition: "Facebook, Twitter, and YouTube transformed political communication; democratized information sharing while enabling misinformation, foreign interference, and political radicalization." },
+          { term: "Hip-Hop", definition: "Music genre originating in 1970s Black and Latino New York that became the world's most popular music; addressed police brutality, inequality, and Black identity decades before mainstream politics caught up." },
+          { term: "Fox News Effect", definition: "Research showing Fox News moved its viewers significantly rightward; its combination of entertainment and partisan politics created a conservative media ecosystem that shaped Republican politics." },
+        ],
+      },
+      {
+        name: "Literature and Memory",
+        terms: [
+          { term: "Toni Morrison", definition: "Nobel Prize-winning novelist (Beloved, Song of Solomon) who centered Black experience and trauma in the American literary canon; her work forced reckoning with slavery's legacy." },
+          { term: "1619 Project", definition: "New York Times Magazine (2019) reframing American history around slavery's founding role; sparked intense debate over how to teach history and became a culture war flashpoint." },
+          { term: "Vietnam War Memory", definition: "The war's contested legacy — was it noble sacrifice or criminal folly? — shaped every subsequent American military intervention and divided the country for decades." },
+          { term: "9/11 Memorial", definition: "Built on the World Trade Center site; its design choices (reflecting pools, names of victims) embodied debates about how to honor loss without glorifying violence or erasing complexity." },
+        ],
+      },
+      {
+        name: "Music and Counterculture",
+        terms: [
+          { term: "AIDS Crisis Cultural Response", definition: "The epidemic produced an explosion of activism, art, and advocacy — ACT UP's protests, the AIDS Memorial Quilt, and Angels in America forced AIDS out of silence into the center of American culture." },
+          { term: "Grunge", definition: "Seattle-born rock movement (Nirvana, Pearl Jam) capturing early 1990s disillusionment; its rejection of 1980s excess expressed the cultural mood of a generation that came of age as the Reagan era ended." },
+          { term: "Hamilton (Musical)", definition: "Lin-Manuel Miranda's 2015 hip-hop musical about the Founding Fathers performed by a non-white cast; sparked debate about who gets to claim American history and identity." },
+          { term: "Black Lives Matter Cultural Impact", definition: "Beyond protests, BLM sparked the removal of Confederate monuments, diversification of corporate boards, and a wave of anti-racist publishing — the most sweeping cultural reckoning with race since the 1960s." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "unit-9-soc",
+    unit: 9,
+    puzzle: 8,
+    theme: { code: "SOC", name: "Social Structures" },
+    title: "Reagan Era to Present",
+    subject: "APUSH",
+    groups: [
+      {
+        name: "Inequality and Class",
+        terms: [
+          { term: "Reaganomics", definition: "Reagan's tax cuts and deregulation accelerated income inequality; the top 1%'s share of income doubled between 1980 and 2000 while real wages for workers stagnated." },
+          { term: "Deindustrialization", definition: "Factory closures in the Rust Belt eliminated millions of good-paying union jobs; devastated working-class communities and drove the opioid crisis, suicide rates, and political anger." },
+          { term: "Great Recession", definition: "The 2008 crash disproportionately devastated Black and Latino families who lost homes; recovery benefited the wealthy far more than working people, widening the wealth gap further." },
+          { term: "Occupy Wall Street", definition: "2011 protest movement against economic inequality, coining 'We are the 99%'; briefly occupied Zuccotti Park and sparked national conversation about wealth concentration, though it achieved no specific policy changes." },
+        ],
+      },
+      {
+        name: "LGBTQ Rights",
+        terms: [
+          { term: "AIDS Crisis", definition: "1980s epidemic decimating the gay community; Reagan's silence for years while tens of thousands died radicalized LGBTQ activists and built the movement that achieved marriage equality decades later." },
+          { term: "Don't Ask Don't Tell", definition: "Clinton's 1993 compromise barring openly gay service members; repealed in 2011 under Obama after years of military testimony that it harmed unit cohesion without improving readiness." },
+          { term: "Obergefell v. Hodges", definition: "2015 ruling legalizing same-sex marriage in all 50 states; the culmination of a 40-year legal and social transformation from criminalization to constitutional protection." },
+          { term: "Transgender Rights", definition: "The next front of LGBTQ civil rights; battles over military service, bathroom access, and healthcare have made transgender Americans the new focus of culture war politics." },
+        ],
+      },
+      {
+        name: "Race in Contemporary America",
+        terms: [
+          { term: "War on Drugs", definition: "Reagan's escalation of drug enforcement produced mass incarceration; Black Americans were arrested and imprisoned at 5–10 times the rate of whites for equivalent drug use." },
+          { term: "Mass Incarceration", definition: "U.S. prison population quintupled from 1980 to 2008, reaching 2.3 million; driven by mandatory minimums, the war on drugs, and sentencing disparities that fell overwhelmingly on Black and Latino men." },
+          { term: "Black Lives Matter", definition: "Emerged in 2013 to protest the killing of Black Americans by police; the 2020 George Floyd protests were the largest in American history, forcing a national reckoning with structural racism." },
+          { term: "Systemic Racism", definition: "Concept that racial inequality is embedded in institutions and policies, not just individual prejudice; became the central framework for understanding racial disparities in the 2020 reckoning." },
+        ],
+      },
+      {
+        name: "Women in the Era",
+        terms: [
+          { term: "Glass Ceiling", definition: "Metaphor for invisible barriers preventing women from reaching top leadership positions; remains partially intact — women are still underrepresented in Congress, C-suites, and the judiciary." },
+          { term: "#MeToo Movement", definition: "2017 viral campaign exposing sexual harassment's pervasiveness across industries; toppled dozens of powerful men but also sparked debates about due process and the limits of social media justice." },
+          { term: "Women in the Military", definition: "All combat positions opened to women in 2015; by 2020 women made up 17% of the military — a transformation that would have seemed impossible to previous generations." },
+          { term: "Roe v. Wade Overturned", definition: "Dobbs v. Jackson (2022) eliminated the constitutional right to abortion; immediately triggered abortion bans in 13 states and energized women as a political force in subsequent elections." },
         ],
       },
     ],

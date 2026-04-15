@@ -54,7 +54,10 @@
 
 - Added hint system to `ConnectionsGame.tsx`: 2 hints per puzzle, each reveals one unsolved category name; button shows hints remaining and disables when exhausted
 - Game-over study list now shuffles term order so the answer groupings aren't visible from position
-- Replaced Unit 7's 2 generic puzzles with 8 AP-themed puzzles (NAT → SOC), covering WWI, Roaring 20s, and the Great Depression — 128 new terms total
-- Unit 7 themed puzzle breakdown: NAT (identity/dissent/Harlem/Prohibition), WXT (economic mobilization/consumer economy/Depression collapse/New Deal finance), GEO (Dust Bowl/New Deal dams/WWI geography/Depression cities), MIG (Great Migration/immigration restriction/Dust Bowl migration/anti-immigrant hysteria), PCE (Wilson/1920s GOP/FDR/New Deal opposition), WOR (WWI entry/Versailles/AEF/isolationism), ARC (Jazz Age/Harlem Renaissance/Lost Generation/cultural conflicts), SOC (race/women/labor/New Deal social programs)
+- Converted Units 3, 4, 5, 6, and 9 from 2 generic puzzles to 8 AP-themed puzzles each (NAT → SOC), covering all AP History themes
+- Key terms intentionally repeated across themed puzzles within a unit when central to multiple themes (e.g., Manifest Destiny in Unit 4 appears in NAT, GEO, MIG, WOR)
+- Merged Unit 2 (Colonial America) into Unit 1 — rewrote all 8 Unit 1 puzzles to blend pre-contact Native / exploration content (1491–1607) with colonial America content (1607–1754) under each AP theme; Unit 2 now shows as Coming Soon
+- Unit 1 title updated to "Native Peoples, Contact & Colonial America"
+- All 9 active APUSH units (1, 3–9) now have 8 AP-themed puzzles — 64 puzzles, 1024 terms total
 
-**Next:** Convert Units 2–6 and 9 to AP-themed format; AP Bio / AP Lang subject pages; shuffle button; mobile polish
+**Next:** AP Bio / AP Lang subject pages; shuffle button; mobile polish; difficulty coloring

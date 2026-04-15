@@ -1,7 +1,7 @@
 # Developer Handoff — PYT Games
 
 **Last updated:** 2026-04-13  
-**Status:** Active development — Units 1, 7, and 8 have 8 themed puzzles each; Units 2–6 and 9 have 2 generic puzzles each; AP Bio / AP Lang coming soon
+**Status:** Active development — Units 1, 3–9 have 8 AP-themed puzzles each; Unit 2 removed (merged into Unit 1); AP Bio / AP Lang coming soon
 
 ---
 
@@ -108,15 +108,15 @@ The landing page renders a 3-column grid of units 1–9. Any unit number present
 
 | Unit | Title | Puzzles | Format |
 |------|-------|---------|--------|
-| 1 | Natives, Contact & Exploration | 8 | AP Themed (NAT–SOC) |
-| 2 | Colonial America | 2 | Generic |
-| 3 | Revolution & Early Republic | 2 | Generic |
-| 4 | Jacksonian Era & Market Revolution | 2 | Generic |
-| 5 | Civil War & Reconstruction | 2 | Generic |
-| 6 | Gilded Age & Progressive Era | 2 | Generic |
+| 1 | Native Peoples, Contact & Colonial America | 8 | AP Themed (NAT–SOC) — covers 1491–1754 |
+| 2 | *(Coming Soon — merged into Unit 1)* | — | — |
+| 3 | Revolution & Early Republic | 8 | AP Themed (NAT–SOC) |
+| 4 | Jacksonian Era & Market Revolution | 8 | AP Themed (NAT–SOC) |
+| 5 | Civil War & Reconstruction | 8 | AP Themed (NAT–SOC) |
+| 6 | Gilded Age & Progressive Era | 8 | AP Themed (NAT–SOC) |
 | 7 | WWI, Roaring 20s & Great Depression | 8 | AP Themed (NAT–SOC) |
 | 8 | Cold War & Civil Rights | 8 | AP Themed (NAT–SOC) |
-| 9 | Reagan Era to Present | 2 | Generic |
+| 9 | Reagan Era to Present | 8 | AP Themed (NAT–SOC) |
 
 **AP Themes** (used in themed units): NAT · WXT · GEO · MIG · PCE · WOR · ARC · SOC
 
@@ -137,7 +137,7 @@ The landing page renders a 3-column grid of units 1–9. Any unit number present
 
 ## Known gaps / next steps
 
-- **Remaining themed units** — Units 2–6 and 9 still use 2 generic puzzles; convert to 8 AP-themed puzzles
+- **All units themed** — All active units (1, 3–9) now have 8 AP-themed puzzles; Unit 2 is merged into Unit 1 and shows as Coming Soon
 - **AP Bio / AP Lang** subject pages don't exist yet — splash shows them as Coming Soon
 - **No shuffle button** — terms are shuffled once on load; players can't reshuffle mid-game
 - **No streak/history** — win/loss per session isn't tracked beyond puzzle completion in localStorage
