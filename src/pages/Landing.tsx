@@ -11,7 +11,7 @@ const activeUnits = new Set(gameSets.map((g) => g.unit));
 const units = Array.from({ length: TOTAL_UNITS }, (_, i) => ({
   number: i + 1,
   active: activeUnits.has(i + 1),
-}));
+})).filter(({ number }) => number !== 2);
 
 const LEVELS = [
   { min: 0, label: "Rookie",     emoji: "🌱" },
@@ -115,10 +115,10 @@ const Landing = () => {
                   <span className="absolute top-2 right-2 text-[#0F4D92] text-xs">✓</span>
                 )}
                 <span className={cn("text-2xl font-bold", done ? "text-[#0F4D92]" : active ? "text-foreground" : "text-muted-foreground")}>
-                  {number}
+                  {number === 1 ? "1 & 2" : number}
                 </span>
                 <span className={cn("mt-1 text-xs", active ? "text-muted-foreground" : "text-muted-foreground/70")}>
-                  Unit {number}
+                  {number === 1 ? "Units 1 & 2" : `Unit ${number}`}
                 </span>
                 {!active && (
                   <span className="mt-2 rounded-full bg-muted px-2 py-0.5 text-[10px] font-medium text-muted-foreground">
