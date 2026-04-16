@@ -24,7 +24,6 @@ export interface GameSet {
 }
 
 export const gameSets: GameSet[] = [
-  // ── Unit 1: Native Peoples, Contact & Colonial America (1491–1754) ────────
   {
     id: "unit-1-nat",
     unit: 1,
@@ -71,6 +70,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-1-wxt",
     unit: 1,
@@ -117,6 +117,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-1-geo",
     unit: 1,
@@ -163,6 +164,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-1-mig",
     unit: 1,
@@ -209,6 +211,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-1-pce",
     unit: 1,
@@ -255,6 +258,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-1-wor",
     unit: 1,
@@ -301,6 +305,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-1-arc",
     unit: 1,
@@ -347,6 +352,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-1-soc",
     unit: 1,
@@ -393,7 +399,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
-  // ── Unit 3: Revolution & Early Republic ─────────────────────────────────
+
   {
     id: "unit-3-nat",
     unit: 3,
@@ -440,6 +446,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-3-wxt",
     unit: 3,
@@ -486,6 +493,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-3-geo",
     unit: 3,
@@ -532,6 +540,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-3-mig",
     unit: 3,
@@ -578,6 +587,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-3-pce",
     unit: 3,
@@ -624,6 +634,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-3-wor",
     unit: 3,
@@ -670,6 +681,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-3-arc",
     unit: 3,
@@ -716,6 +728,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-3-soc",
     unit: 3,
@@ -762,7 +775,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
-  // ── Unit 4: Jacksonian Era & Market Revolution ───────────────────────────
+
   {
     id: "unit-4-nat",
     unit: 4,
@@ -809,6 +822,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-4-wxt",
     unit: 4,
@@ -855,6 +869,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-4-geo",
     unit: 4,
@@ -901,6 +916,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-4-mig",
     unit: 4,
@@ -947,6 +963,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-4-pce",
     unit: 4,
@@ -993,6 +1010,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-4-wor",
     unit: 4,
@@ -1039,6 +1057,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-4-arc",
     unit: 4,
@@ -1085,6 +1104,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-4-soc",
     unit: 4,
@@ -1131,7 +1151,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
-  // ── Unit 5: Civil War & Reconstruction ──────────────────────────────────
+
   {
     id: "unit-5-nat",
     unit: 5,
@@ -1178,6 +1198,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-5-wxt",
     unit: 5,
@@ -1224,6 +1245,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-5-geo",
     unit: 5,
@@ -1270,6 +1292,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-5-mig",
     unit: 5,
@@ -1316,6 +1339,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-5-pce",
     unit: 5,
@@ -1362,6 +1386,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-5-wor",
     unit: 5,
@@ -1408,6 +1433,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-5-arc",
     unit: 5,
@@ -1454,6 +1480,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-5-soc",
     unit: 5,
@@ -1500,7 +1527,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
-  // ── Unit 6: Gilded Age & Progressive Era ────────────────────────────────
+
   {
     id: "unit-6-nat",
     unit: 6,
@@ -1547,6 +1574,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-6-wxt",
     unit: 6,
@@ -1593,6 +1621,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-6-geo",
     unit: 6,
@@ -1639,6 +1668,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-6-mig",
     unit: 6,
@@ -1685,6 +1715,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-6-pce",
     unit: 6,
@@ -1731,6 +1762,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-6-wor",
     unit: 6,
@@ -1777,6 +1809,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-6-arc",
     unit: 6,
@@ -1823,6 +1856,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-6-soc",
     unit: 6,
@@ -1869,7 +1903,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
-  // ── Unit 7: WWI, Roaring 20s & Great Depression ─────────────────────────
+
   {
     id: "unit-7-nat",
     unit: 7,
@@ -1916,6 +1950,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-7-wxt",
     unit: 7,
@@ -1962,6 +1997,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-7-geo",
     unit: 7,
@@ -2008,6 +2044,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-7-mig",
     unit: 7,
@@ -2054,6 +2091,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-7-pce",
     unit: 7,
@@ -2100,6 +2138,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-7-wor",
     unit: 7,
@@ -2146,6 +2185,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-7-arc",
     unit: 7,
@@ -2192,6 +2232,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-7-soc",
     unit: 7,
@@ -2238,7 +2279,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
-  // ── Unit 8: Cold War & Civil Rights ─────────────────────────────────────
+
   {
     id: "unit-8-nat",
     unit: 8,
@@ -2285,6 +2326,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-8-wxt",
     unit: 8,
@@ -2331,6 +2373,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-8-geo",
     unit: 8,
@@ -2377,6 +2420,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-8-mig",
     unit: 8,
@@ -2423,6 +2467,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-8-pce",
     unit: 8,
@@ -2469,6 +2514,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-8-wor",
     unit: 8,
@@ -2515,6 +2561,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-8-arc",
     unit: 8,
@@ -2561,6 +2608,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-8-soc",
     unit: 8,
@@ -2607,7 +2655,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
-  // ── Unit 9: Reagan Era to Present ───────────────────────────────────────
+
   {
     id: "unit-9-nat",
     unit: 9,
@@ -2654,6 +2702,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-9-wxt",
     unit: 9,
@@ -2700,6 +2749,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-9-geo",
     unit: 9,
@@ -2746,6 +2796,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-9-mig",
     unit: 9,
@@ -2792,6 +2843,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-9-pce",
     unit: 9,
@@ -2838,6 +2890,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-9-wor",
     unit: 9,
@@ -2884,6 +2937,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-9-arc",
     unit: 9,
@@ -2930,6 +2984,7 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
   {
     id: "unit-9-soc",
     unit: 9,
@@ -2976,14 +3031,606 @@ export const gameSets: GameSet[] = [
       },
     ],
   },
+
+  {
+    id: "phil-unit-1-identity",
+    unit: 1, puzzle: 1,
+    theme: { code: "IDENTITY", name: "Identity" },
+    title: "Being Human",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Theories of Personal Identity",
+        terms: [
+          { term: "Memory Theory", definition: "Locke's view that personal identity is constituted by psychological continuity — you are the same person as your past self if you have continuous memories connecting you." },
+          { term: "Bundle Theory", definition: "Hume's claim that the self is nothing but a bundle of perceptions; there is no underlying unified substance beyond our experiences." },
+          { term: "Biological Continuity", definition: "The view that personal identity persists through the continuous existence of the same living organism — your body, not your mind, makes you who you are over time." },
+          { term: "Narrative Identity", definition: "Ricoeur's idea that selfhood is constructed through the stories we tell about our lives; we are the authors of our own ongoing life narratives." },
+        ],
+      },
+      {
+        name: "Philosophers of Personal Identity",
+        terms: [
+          { term: "Locke", definition: "17th-century empiricist who argued personal identity rests on psychological continuity, particularly memory — a person is whoever remembers doing past actions." },
+          { term: "Hume", definition: "Scottish empiricist who denied a substantial self; in the Treatise he describes the self as merely a 'bundle of perceptions' with no underlying unity." },
+          { term: "Parfit", definition: "20th-century philosopher who argued personal identity is not what matters; psychological continuity without uniqueness may be sufficient for what we care about." },
+          { term: "Ricoeur", definition: "French philosopher who developed narrative identity — the idea that the self is constituted through the temporal structure of stories we tell about ourselves." },
+        ],
+      },
+      {
+        name: "Identity Thought Experiments",
+        terms: [
+          { term: "Ship of Theseus", definition: "Ancient puzzle asking whether a ship that has every plank replaced remains the same ship; raises the question of what makes anything persist through change." },
+          { term: "Fission Case", definition: "Thought experiment in which one person's brain is divided between two bodies; challenges theories requiring personal identity to be one-to-one." },
+          { term: "Brain Transplant", definition: "Thought experiment asking whether you follow your brain or your body if the two are separated; tests whether mind or body is the ground of personal identity." },
+          { term: "Teleporter Paradox", definition: "Parfit's thought experiment about being disassembled and reassembled elsewhere; asks whether the resulting person is genuinely you or merely a perfect copy." },
+        ],
+      },
+      {
+        name: "Identity Concepts",
+        terms: [
+          { term: "Numerical Identity", definition: "Being exactly the same individual entity — not merely similar but literally one and the same thing across time or contexts." },
+          { term: "Qualitative Identity", definition: "Sharing all the same properties or characteristics — two things can be qualitatively identical without being numerically identical." },
+          { term: "Psychological Continuity", definition: "Overlapping chains of memory, personality, intentions, and beliefs that connect a person's past and present selves across time." },
+          { term: "Persistence Conditions", definition: "The criteria that must be met for an entity to continue to exist through time as the same thing — the core question in the metaphysics of identity." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-1-other",
+    unit: 1, puzzle: 2,
+    theme: { code: "OTHER", name: "The Self and the Other" },
+    title: "Being Human",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Theories of Other Minds",
+        terms: [
+          { term: "Argument by Analogy", definition: "Inference that others have minds because they behave as we do, and we know our own behavior is caused by mental states — J.S. Mill's classic solution to the problem of other minds." },
+          { term: "Behaviorism", definition: "The view that mental states just are behavioral dispositions; if someone behaves as if in pain, they are in pain — which dissolves the problem of other minds." },
+          { term: "Theory Theory", definition: "The view that we understand others by applying a folk psychological theory about how mental states cause behavior — we are all intuitive psychologists." },
+          { term: "Simulation Theory", definition: "The view that we understand others by mentally simulating their perspective — using our own mind as a model for theirs rather than applying explicit theory." },
+        ],
+      },
+      {
+        name: "Key Thinkers on Self and Other",
+        terms: [
+          { term: "Levinas", definition: "French-Jewish philosopher who argued ethics begins with the encounter with the Other's face — a call to responsibility that precedes all philosophy and cannot be reduced to knowledge." },
+          { term: "Buber", definition: "Jewish philosopher who distinguished I-Thou relations (genuine mutual encounter) from I-It relations (treating others as objects or means)." },
+          { term: "Hegel", definition: "German idealist who argued self-consciousness requires recognition from another — the self only becomes aware of itself through the Other's gaze and acknowledgment." },
+          { term: "Sartre", definition: "French existentialist who argued 'hell is other people' — others threaten our freedom by objectifying us through the Look, turning subjects into objects." },
+        ],
+      },
+      {
+        name: "Concepts of Intersubjectivity",
+        terms: [
+          { term: "Intersubjectivity", definition: "The shared or mutual dimension of experience between subjects; the philosophical basis for communication, empathy, and the possibility of a shared world." },
+          { term: "Alterity", definition: "The quality of being radically 'other'; Levinas uses it to describe the Other's irreducible difference that resists being fully grasped or assimilated." },
+          { term: "The Look", definition: "Sartre's concept that being seen by another transforms us from subject to object — the Other's gaze threatens our freedom and self-definition." },
+          { term: "Recognition", definition: "Hegel's concept that self-consciousness and freedom develop through mutual acknowledgment; without recognition from others, genuine selfhood is impossible." },
+        ],
+      },
+      {
+        name: "Modes of Relation",
+        terms: [
+          { term: "I-Thou", definition: "Buber's term for a genuine, direct, mutual encounter between two persons in which both are treated as ends — the fullest form of human relation." },
+          { term: "I-It", definition: "Buber's term for a relation in which one treats another as an object, tool, or means — the dominant mode of modern technological and commercial society." },
+          { term: "Master-Slave Dialectic", definition: "Hegel's account of two self-consciousnesses struggling for recognition; the master dominates but becomes dependent, while the slave finds freedom through labor." },
+          { term: "Empathy", definition: "The capacity to understand or feel what another is experiencing — a central concept in phenomenology, ethics of care, and theories of moral motivation." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-1-consciousness",
+    unit: 1, puzzle: 3,
+    theme: { code: "CONSCIOUSNESS", name: "Consciousness" },
+    title: "Being Human",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Theories of Mind",
+        terms: [
+          { term: "Substance Dualism", definition: "Descartes' view that mind and body are two fundamentally distinct substances — thinking substance (res cogitans) and extended substance (res extensa)." },
+          { term: "Physicalism", definition: "The view that consciousness is entirely physical — all mental states are brain states; nothing exists beyond the material world." },
+          { term: "Functionalism", definition: "The view that mental states are defined by their functional roles in a causal system — what matters is the causal role, not the physical substrate." },
+          { term: "Property Dualism", definition: "The view that there is only one physical substance but it has irreducible phenomenal properties — mental properties are real but not separate substances." },
+        ],
+      },
+      {
+        name: "Key Thinkers on Consciousness",
+        terms: [
+          { term: "Descartes", definition: "17th-century rationalist whose cogito established mind as the one certainty; his substance dualism created the mind-body problem that still drives philosophy of mind." },
+          { term: "Chalmers", definition: "Contemporary philosopher who coined 'the hard problem of consciousness' — the challenge of explaining why physical processes give rise to subjective experience at all." },
+          { term: "Nagel", definition: "Author of 'What Is It Like to Be a Bat?' arguing that subjective experience has an irreducibly first-person character that objective science cannot capture." },
+          { term: "Dennett", definition: "Philosopher who defends materialism about consciousness; argues phenomenal experience is a construct of the brain and there are no qualia in the problematic sense." },
+        ],
+      },
+      {
+        name: "Key Concepts",
+        terms: [
+          { term: "Qualia", definition: "The subjective, phenomenal qualities of experience — the redness of red, the painfulness of pain; what it is like to be in a particular mental state." },
+          { term: "Hard Problem", definition: "Chalmers' term for the challenge of explaining why and how physical brain processes give rise to subjective experience — why there is something it is like to be conscious." },
+          { term: "Intentionality", definition: "The property of mental states of being about or directed toward something — the mind's capacity to represent objects and states of affairs in the world." },
+          { term: "Phenomenal Consciousness", definition: "The subjective, experiential aspect of consciousness — there being something it is like to be in a given mental state, as opposed to merely processing information." },
+        ],
+      },
+      {
+        name: "Consciousness Thought Experiments",
+        terms: [
+          { term: "Mary's Room", definition: "Jackson's thought experiment: a scientist knows all physical facts about color but has never seen red — does she learn something new on first seeing it? Argues for qualia." },
+          { term: "Chinese Room", definition: "Searle's argument that a computer following rules to manipulate symbols doesn't understand language — syntax alone is not sufficient for genuine semantics or consciousness." },
+          { term: "Philosophical Zombie", definition: "Chalmers' thought experiment: a being physically identical to a human but with no inner experience — used to argue consciousness cannot be reduced to physical processes." },
+          { term: "What Is It Like to Be a Bat?", definition: "Nagel's thought experiment arguing that the subjective character of bat echolocation cannot be captured by any objective physical description — consciousness resists reductionism." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-1-personhood",
+    unit: 1, puzzle: 4,
+    theme: { code: "PERSONHOOD", name: "Personhood" },
+    title: "Being Human",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Criteria of Personhood",
+        terms: [
+          { term: "Rationality", definition: "Kant's criterion — a person is a being capable of rational thought and autonomous moral reasoning; the basis of human dignity and the categorical imperative." },
+          { term: "Self-awareness", definition: "The capacity to recognize oneself as a distinct individual persisting through time; often proposed as necessary for personhood and full moral status." },
+          { term: "Sentience", definition: "The capacity to have subjective experiences, especially to feel pleasure and pain; Singer's key criterion for moral considerability — not species membership." },
+          { term: "Autonomy", definition: "The capacity to govern oneself according to one's own rational principles — central to Kantian ethics and liberal theories of rights and dignity." },
+        ],
+      },
+      {
+        name: "Key Thinkers on Personhood",
+        terms: [
+          { term: "Kant", definition: "Argued persons have dignity because they are rational, autonomous ends in themselves — the Categorical Imperative demands we never treat persons merely as means." },
+          { term: "Singer", definition: "Utilitarian philosopher who argues sentience, not species membership, is the criterion for moral consideration — extending moral status to animals, challenging speciesism." },
+          { term: "Warren", definition: "Philosopher who argued full personhood requires consciousness, reasoning, self-motivated activity, communication, and self-awareness — not merely being biologically human." },
+          { term: "Tooley", definition: "Argued a being has a serious right to life only if it desires its own continued existence — used to challenge absolute prohibitions on abortion and infanticide." },
+        ],
+      },
+      {
+        name: "Moral Status Concepts",
+        terms: [
+          { term: "Moral Considerability", definition: "The property of being an entity whose interests must be taken into account in moral reasoning — the threshold for membership in the moral community." },
+          { term: "Speciesism", definition: "Singer's term for the unjustified privileging of members of one's own species — analogous to racism or sexism in treating species membership as morally decisive." },
+          { term: "Marginal Cases", definition: "Argument that if we grant full moral status to humans who lack rationality (infants, severely cognitively disabled), consistency requires extending it to similar animals." },
+          { term: "Moral Patients", definition: "Beings that can be wronged and whose interests must be considered, but who cannot themselves be held morally responsible — may include animals and future persons." },
+        ],
+      },
+      {
+        name: "Personhood Debates",
+        terms: [
+          { term: "Abortion", definition: "Debate about whether a fetus has personhood and moral status; hinges on when rational, sentient, or self-aware capacities begin and what grounds the right to life." },
+          { term: "Animal Rights", definition: "Debate about whether non-human animals qualify as persons or moral patients deserving rights — challenged by speciesism arguments and expanded notions of moral consideration." },
+          { term: "AI Personhood", definition: "Question of whether sufficiently intelligent artificial systems could qualify as persons with moral status and legal rights — tests functionalist criteria of personhood." },
+          { term: "End-of-Life Ethics", definition: "Debates about personhood in cases of persistent vegetative state or severe dementia — when, if ever, does personhood cease and what moral obligations follow?" },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-1-freedom",
+    unit: 1, puzzle: 5,
+    theme: { code: "FREEDOM", name: "Freedom" },
+    title: "Being Human",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Positions on Free Will",
+        terms: [
+          { term: "Hard Determinism", definition: "The view that all events including human choices are causally determined by prior causes, and therefore free will and moral responsibility are illusions." },
+          { term: "Libertarianism (Free Will)", definition: "The view that humans possess genuine free will that is not fully determined by prior causes — often associated with agent causation or quantum indeterminism." },
+          { term: "Compatibilism", definition: "The view that free will and determinism are compatible — freedom means acting according to one's own desires without coercion, not acting without causes." },
+          { term: "Hard Incompatibilism", definition: "The view that free will is incompatible with both determinism and indeterminism — genuine free will is metaphysically impossible on any account." },
+        ],
+      },
+      {
+        name: "Key Thinkers on Freedom",
+        terms: [
+          { term: "Hume", definition: "Argued for compatibilism — freedom is acting from one's own character and desires without external constraint; causation and freedom are not in conflict." },
+          { term: "Kant", definition: "Distinguished the phenomenal (causally determined) self from the noumenal self; argued true freedom is autonomy — rational self-legislation independent of inclination." },
+          { term: "Sartre", definition: "Existentialist who argued humans are 'condemned to be free' — we are radically free and cannot escape responsibility for our choices; bad faith denies this freedom." },
+          { term: "Frankfurt", definition: "Contemporary philosopher who distinguished first-order from second-order desires — freedom is having the will you want to have; his cases challenge the role of alternative possibilities." },
+        ],
+      },
+      {
+        name: "Freedom Concepts",
+        terms: [
+          { term: "Determinism", definition: "The thesis that every event, including every human choice, is the necessary consequence of prior causes governed by natural laws — leaves no room for uncaused action." },
+          { term: "Moral Responsibility", definition: "The condition of being appropriately subject to blame or praise for one's actions — presupposes some degree of freedom or control over what one does." },
+          { term: "Bad Faith", definition: "Sartre's concept of self-deception — denying one's own freedom by pretending one has no choice, as a flight from the anxiety and burden of radical responsibility." },
+          { term: "Causal Necessity", definition: "The idea that causes necessitate their effects under natural law; if all human actions are causally necessitated, the central question is whether freedom is still possible." },
+        ],
+      },
+      {
+        name: "Types of Freedom",
+        terms: [
+          { term: "Negative Freedom", definition: "Isaiah Berlin's conception: freedom from external interference or coercion — the absence of obstacles imposed by other persons or institutions." },
+          { term: "Positive Freedom", definition: "Berlin's contrasting conception: freedom to act and realize one's potential — requires capacities and resources, not merely absence of external constraint." },
+          { term: "Political Freedom", definition: "Freedom within civil society — rights of speech, assembly, belief, and participation in governance; the central concern of liberal political philosophy." },
+          { term: "Existential Freedom", definition: "Sartre's radical conception: consciousness is inherently free — we are always free to interpret and respond to our situation, however constrained by circumstances." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-1-humannature",
+    unit: 1, puzzle: 6,
+    theme: { code: "HUMANNATURE", name: "Human Nature" },
+    title: "Being Human",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Conceptions of Human Nature",
+        terms: [
+          { term: "Blank Slate", definition: "Locke's tabula rasa — the mind at birth is empty, shaped entirely by experience; there are no innate ideas, and human nature is formed by environment." },
+          { term: "Noble Savage", definition: "Rousseau's idea that humans in a state of nature are naturally good, peaceful, and free; it is civilization and private property that corrupt us." },
+          { term: "Rational Animal", definition: "Aristotle's definition of the human being — our nature is to exercise reason and live in political community; we flourish by actualizing this rational capacity." },
+          { term: "Homo Economicus", definition: "The model of humans as rational self-interested maximizers; influential in economics and social theory — criticized as a reductive distortion of human nature." },
+        ],
+      },
+      {
+        name: "Key Thinkers on Human Nature",
+        terms: [
+          { term: "Hobbes", definition: "Argued humans are naturally competitive, fearful, and selfish; without the state, life is 'solitary, poor, nasty, brutish, and short.'" },
+          { term: "Rousseau", definition: "Argued natural humans are compassionate and free; society, inequality, and private property corrupt an originally good nature." },
+          { term: "Locke", definition: "Argued humans are naturally free, rational, and equal; the state of nature is relatively peaceful, grounding natural rights to life, liberty, and property." },
+          { term: "Aristotle", definition: "Argued humans are by nature social and political animals who can only flourish in community; virtue is the actualization of our rational nature." },
+        ],
+      },
+      {
+        name: "Debates About Human Nature",
+        terms: [
+          { term: "Nature vs Nurture", definition: "Debate over whether human traits and behaviors are primarily determined by genetics (nature) or by environment and experience (nurture) — most contemporary thinkers see interaction." },
+          { term: "Essentialism", definition: "The view that humans have a fixed essential nature — a set of properties defining what it is to be human — often criticized by existentialists and feminists." },
+          { term: "Social Constructivism", definition: "The view that human nature, identity, and behavior are largely constructed by social, cultural, and historical forces rather than fixed by biology." },
+          { term: "Evolutionary Psychology", definition: "The field arguing that human psychology reflects adaptations to ancestral environments — human nature is the product of natural selection, not blank slate or divine design." },
+        ],
+      },
+      {
+        name: "Political Implications of Human Nature",
+        terms: [
+          { term: "State of Nature", definition: "Hobbes, Locke, and Rousseau's thought experiment describing life before civil society — each theorist's account of natural humans grounds a different political philosophy." },
+          { term: "Social Contract", definition: "The hypothetical agreement by which individuals consent to give up some freedoms in exchange for the protections and benefits of organized political society." },
+          { term: "Natural Rights", definition: "Rights held by all humans by nature, not created by governments — Locke's life, liberty, and property; the foundation of liberal political theory." },
+          { term: "Civil Society", definition: "The organized social and political order that emerges from or replaces the state of nature — the framework within which human nature is expressed and constrained." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-2-1",
+    unit: 2, puzzle: 1,
+    title: "Epistemology",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Theories of Knowledge",
+        terms: [
+          { term: "Empiricism", definition: "The view that all knowledge originates in sensory experience; associated with Locke, Berkeley, and Hume — the tradition that shaped British philosophy." },
+          { term: "Rationalism", definition: "The view that reason, independent of sensory experience, is the primary source of knowledge; associated with Descartes, Spinoza, and Leibniz." },
+          { term: "Pragmatism", definition: "The view that the meaning and truth of ideas lies in their practical consequences; associated with Peirce, James, and Dewey — truth is what works." },
+          { term: "Kant's Synthesis", definition: "Kant's claim that knowledge is a joint product of sensory experience and a priori mental categories — neither pure reason nor pure experience alone is sufficient." },
+        ],
+      },
+      {
+        name: "Key Epistemologists",
+        terms: [
+          { term: "Plato", definition: "Argued genuine knowledge (episteme) is of eternal, unchanging Forms — not of the changing sensory world; knowledge requires reason, not mere perception." },
+          { term: "Descartes", definition: "Used systematic doubt to find indubitable foundations for knowledge; his cogito ('I think, therefore I am') became the starting point for modern epistemology." },
+          { term: "Hume", definition: "Argued all knowledge comes from impressions and ideas; distinguished matters of fact (contingent) from relations of ideas (necessary) — Hume's Fork." },
+          { term: "Kant", definition: "Synthesized rationalism and empiricism; argued the mind actively structures experience through a priori categories of space, time, causality, and substance." },
+        ],
+      },
+      {
+        name: "Types of Knowledge",
+        terms: [
+          { term: "A Priori", definition: "Knowledge that can be known independently of experience — necessary and universal; includes mathematical truths and logical necessities." },
+          { term: "A Posteriori", definition: "Knowledge that depends on sensory experience for its justification — contingent truths about the world; e.g., empirical facts about nature." },
+          { term: "Propositional Knowledge", definition: "Knowledge-that — knowing facts expressed as propositions (e.g., knowing that Paris is in France); the main focus of traditional epistemology." },
+          { term: "Procedural Knowledge", definition: "Knowledge-how — knowing how to perform a skill (e.g., riding a bike); not fully reducible to propositional knowledge and raises questions about tacit knowledge." },
+        ],
+      },
+      {
+        name: "Theories of Justification",
+        terms: [
+          { term: "Foundationalism", definition: "The view that justified beliefs rest on a foundation of basic beliefs that are self-justifying or non-inferentially justified — stopping the regress of justification." },
+          { term: "Coherentism", definition: "The view that beliefs are justified by their coherence with each other within a web of belief — no beliefs are basic; justification is holistic." },
+          { term: "Reliabilism", definition: "The view that a belief is justified if it is produced by a reliable cognitive process — one that tends to produce true beliefs in normal conditions." },
+          { term: "Internalism", definition: "The view that justifying factors must be accessible to the believer's own reflection — justification depends on what is internal to the believer's mind." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-3-1",
+    unit: 3, puzzle: 1,
+    title: "Ethics",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Consequentialist Theories",
+        terms: [
+          { term: "Utilitarianism", definition: "The view that right actions are those producing the greatest happiness for the greatest number; associated with Bentham (act) and Mill (refined with higher/lower pleasures)." },
+          { term: "Hedonism", definition: "The view that pleasure is the only intrinsic good and pain the only intrinsic evil — the value theory underlying classical Benthamite utilitarianism." },
+          { term: "Preference Utilitarianism", definition: "Singer's version of utilitarianism: the right action maximizes satisfaction of preferences, not just pleasure — importantly, extends consideration to non-human animals." },
+          { term: "Rule Consequentialism", definition: "The view that we should follow rules whose general acceptance would produce the best consequences — attempts to avoid the counterintuitive results of act utilitarianism." },
+        ],
+      },
+      {
+        name: "Deontological Theories",
+        terms: [
+          { term: "Kantian Ethics", definition: "Ethics based on universal rational principles — the Categorical Imperative demands we act only on maxims we could will to be universal laws for all rational beings." },
+          { term: "Natural Law", definition: "The view that moral norms are derived from human nature and reason; associated with Aquinas — what is morally right accords with our natural ends and rational purpose." },
+          { term: "Divine Command Theory", definition: "The view that moral obligations are determined by God's commands — something is right because God commands it, wrong because God forbids it." },
+          { term: "Rights-Based Ethics", definition: "The view that certain actions are intrinsically right or wrong because they respect or violate fundamental rights — independent of consequences." },
+        ],
+      },
+      {
+        name: "Virtue Ethics",
+        terms: [
+          { term: "Aristotelian Virtue Ethics", definition: "Ethical theory centered on character — the virtuous person habitually chooses the mean between extremes and acts from virtue for its own sake, aiming at flourishing." },
+          { term: "Eudaimonia", definition: "Aristotle's term for human flourishing — not mere pleasure, but the active exercise of the soul in accordance with virtue over a complete and well-lived life." },
+          { term: "The Golden Mean", definition: "Aristotle's principle that virtues are means between extremes of excess and deficiency — courage is the mean between cowardice and recklessness." },
+          { term: "Care Ethics", definition: "Feminist ethical theory (Gilligan, Noddings) emphasizing relationships, context, and caring responsibility over abstract universal rules — morality is personal, not impersonal." },
+        ],
+      },
+      {
+        name: "Key Ethicists",
+        terms: [
+          { term: "Kant", definition: "Prussian philosopher who grounded morality in reason — the Categorical Imperative; persons must always be treated as ends in themselves, never merely as means." },
+          { term: "Mill", definition: "Utilitarian philosopher who argued for the greatest happiness principle; distinguished higher (intellectual) from lower (bodily) pleasures as qualitatively different." },
+          { term: "Aristotle", definition: "Greek philosopher who founded virtue ethics; argued morality is about developing excellent character that enables a flourishing life within a political community." },
+          { term: "Hume", definition: "Argued morality is based on sentiment, not reason — reason alone cannot motivate action; moral judgments express feelings of approval or disapproval, not discovered facts." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-4-1",
+    unit: 4, puzzle: 1,
+    title: "Philosophy of Religion",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Classical Arguments for God",
+        terms: [
+          { term: "Ontological Argument", definition: "A priori argument claiming God's existence follows from the very concept of God as the greatest conceivable being — existence is a necessary perfection." },
+          { term: "Cosmological Argument", definition: "A posteriori argument that the existence of the universe requires a first cause or necessary being — God as the ultimate explanation for why anything exists." },
+          { term: "Teleological Argument", definition: "Argument from design — the order, complexity, and apparent purpose of the natural world suggest an intelligent designer; classically formulated by Paley." },
+          { term: "Moral Argument", definition: "Argument that the existence of objective moral facts requires God as their source and guarantor — without God, morality would be merely subjective or groundless." },
+        ],
+      },
+      {
+        name: "Key Thinkers on Arguments for God",
+        terms: [
+          { term: "Anselm", definition: "11th-century philosopher who formulated the classical ontological argument — God is 'that than which nothing greater can be conceived,' and such a being must exist." },
+          { term: "Aquinas", definition: "Medieval theologian who formulated the Five Ways — cosmological arguments from motion, causation, contingency, degrees of perfection, and teleology." },
+          { term: "Paley", definition: "18th-century theologian who revived the teleological argument with the watchmaker analogy — a watch implies a watchmaker; so the universe's complexity implies a designer." },
+          { term: "Plantinga", definition: "Contemporary philosopher who developed modal versions of the ontological argument and reformed epistemology — belief in God can be properly basic without argument." },
+        ],
+      },
+      {
+        name: "Forms of the Cosmological Argument",
+        terms: [
+          { term: "Kalam Argument", definition: "Everything that begins to exist has a cause; the universe began to exist; therefore the universe has a cause — associated with al-Ghazali and William Lane Craig." },
+          { term: "First Cause Argument", definition: "Aquinas' argument that the chain of efficient causes cannot regress infinitely — there must be an uncaused first cause, which we call God." },
+          { term: "Contingency Argument", definition: "Leibniz's argument that contingent things (which might not have existed) require explanation in something necessary — God as the necessary being grounding all existence." },
+          { term: "Argument from Motion", definition: "Aquinas' first way: everything in motion is moved by something else; there cannot be an infinite regress of movers; so there must be an Unmoved Mover — God." },
+        ],
+      },
+      {
+        name: "Religious Epistemology",
+        terms: [
+          { term: "Natural Theology", definition: "Attempting to establish truths about God through reason and observation alone, without appeal to scripture or revelation — Aquinas and Paley as exemplars." },
+          { term: "Revealed Theology", definition: "Knowledge of God derived from sacred scriptures and religious tradition — revelation as a source of knowledge distinct from and potentially complementary to reason." },
+          { term: "Reformed Epistemology", definition: "Plantinga's view that belief in God can be 'properly basic' — rational without requiring argument or evidence, analogous to belief in other minds or the past." },
+          { term: "Faith and Reason", definition: "The question of the relationship between religious belief and rational inquiry — are they compatible, complementary, in tension, or necessarily in conflict?" },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-5-1",
+    unit: 5, puzzle: 1,
+    title: "Philosophy of Science",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Methods of Science",
+        terms: [
+          { term: "Induction", definition: "Reasoning from particular observations to general conclusions — the basis of empirical science; challenged by Hume's problem of induction." },
+          { term: "Hypothetico-Deductive Method", definition: "Scientific method of generating testable predictions from hypotheses and checking them against observations — the dominant account of how science tests theories." },
+          { term: "Abduction", definition: "Inference to the best explanation — reasoning to the hypothesis that would best explain the observed evidence; the basis of much scientific theorizing." },
+          { term: "Falsifiability", definition: "Popper's criterion: a theory is scientific if there is some possible observation that would count as evidence against it — theories that explain everything explain nothing." },
+        ],
+      },
+      {
+        name: "Key Philosophers of Science",
+        terms: [
+          { term: "Popper", definition: "Argued science is distinguished from pseudoscience by falsifiability — good theories make bold, testable predictions that could in principle be proved wrong." },
+          { term: "Kuhn", definition: "Argued science progresses through paradigm shifts — periods of normal science (puzzle-solving) are punctuated by crises that overthrow and replace dominant frameworks." },
+          { term: "Lakatos", definition: "Proposed research programs as the proper unit of scientific appraisal — programs have a hard core protected by a belt of auxiliary hypotheses that can be adjusted." },
+          { term: "Feyerabend", definition: "Radical philosopher who argued there is no single scientific method — 'anything goes'; science is no more inherently rational than other traditions of knowledge." },
+        ],
+      },
+      {
+        name: "Core Concepts",
+        terms: [
+          { term: "Paradigm", definition: "Kuhn's term for the framework of assumptions, methods, and standards shared by a scientific community — the background against which normal science operates." },
+          { term: "Demarcation Problem", definition: "The problem of distinguishing science from pseudoscience or non-science — what criteria separate genuinely scientific claims from non-scientific ones?" },
+          { term: "Underdetermination", definition: "The thesis that evidence always underdetermines theory — more than one theory is compatible with any given body of evidence; theory choice involves judgment beyond evidence." },
+          { term: "Theory-ladenness", definition: "Hanson's argument that all observation is interpreted through theoretical assumptions — there is no pure, theory-neutral observation language in science." },
+        ],
+      },
+      {
+        name: "Problems of Induction and Evidence",
+        terms: [
+          { term: "Problem of Induction", definition: "Hume's challenge: past regularities give us no logical guarantee of future regularities — inductive reasoning cannot be rationally justified by induction without circularity." },
+          { term: "Hume's Fork", definition: "Distinction between relations of ideas (a priori, necessary) and matters of fact (a posteriori, contingent) — any claim is one or the other; nothing else is genuinely meaningful." },
+          { term: "Grue Paradox", definition: "Goodman's puzzle: emeralds are 'grue' (green before time T, blue after) — why is 'green' a better inductive projection than 'grue'? Challenges the logic of induction." },
+          { term: "Pessimistic Meta-Induction", definition: "The argument that because past successful scientific theories were later shown to be false, we should expect current theories to be false too — undermines scientific realism." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-6-1",
+    unit: 6, puzzle: 1,
+    title: "Political Philosophy",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Theories of Political Authority",
+        terms: [
+          { term: "Social Contract Theory", definition: "The view that political authority is legitimate only if it rests on an agreement (actual or hypothetical) among those subject to it — Hobbes, Locke, Rousseau, Rawls." },
+          { term: "Divine Right of Kings", definition: "The doctrine that monarchs derive their authority directly from God and are not accountable to any earthly power — rejected by social contract theorists." },
+          { term: "Anarchism", definition: "The political philosophy rejecting all coercive authority; advocates voluntary cooperation and self-organization without state or hierarchy." },
+          { term: "Republicanism", definition: "The view that legitimate government requires freedom from domination (not merely non-interference), rule of law, and civic participation." },
+        ],
+      },
+      {
+        name: "Key Political Philosophers",
+        terms: [
+          { term: "Hobbes", definition: "Argued that without a powerful sovereign, life is 'solitary, poor, nasty, brutish, and short' — rational individuals contract to create an absolute authority to escape the state of war." },
+          { term: "Locke", definition: "Argued government derives authority from the consent of the governed; natural rights to life, liberty, and property set strict limits on legitimate government power." },
+          { term: "Rousseau", definition: "Argued legitimate government expresses the General Will — the common good; popular sovereignty is the only legitimate basis for political authority." },
+          { term: "Rawls", definition: "Devised the veil of ignorance to derive just principles; argued for equal basic liberties and the difference principle — inequalities are just only if they benefit the worst-off." },
+        ],
+      },
+      {
+        name: "Concepts of Justice",
+        terms: [
+          { term: "Distributive Justice", definition: "Concerns the fair distribution of goods, opportunities, and burdens across society — includes debates between equality, merit, need, and entitlement as principles." },
+          { term: "Procedural Justice", definition: "The view that justice consists in fair procedures rather than particular outcomes — a just process produces just results whatever they are." },
+          { term: "Retributive Justice", definition: "The view that wrongdoers deserve punishment proportional to their crimes — justice requires that wrongdoing be met with appropriate sanction." },
+          { term: "Restorative Justice", definition: "The view that justice should aim to repair harm, restore relationships, and reintegrate offenders into the community — not simply punish." },
+        ],
+      },
+      {
+        name: "Social Contract Concepts",
+        terms: [
+          { term: "State of Nature", definition: "The hypothetical condition before civil society — Hobbes sees it as a war of all against all; Locke as relatively peaceful; Rousseau as a happy primitive condition." },
+          { term: "General Will", definition: "Rousseau's concept of the common interest of the community as a whole — distinct from the 'will of all' (the sum of individual self-interests)." },
+          { term: "Consent of the Governed", definition: "Locke's principle that legitimate authority requires the agreement of those subject to it — the basis of democratic legitimacy and the right to revolution." },
+          { term: "Natural Rights", definition: "Rights held by all persons by nature, not granted by governments — Locke's life, liberty, and property; inalienable and the basis of limits on state power." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-7-1",
+    unit: 7, puzzle: 1,
+    title: "Social Philosophy",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Theories of Society",
+        terms: [
+          { term: "Marxism", definition: "Theory that society is structured by class conflict driven by economic relations; the ruling class ideology maintains dominance — workers must overthrow capitalism." },
+          { term: "Functionalism", definition: "Sociological theory viewing society as a system of interrelated parts each serving a function to maintain social stability — associated with Durkheim and Parsons." },
+          { term: "Conflict Theory", definition: "Sociological perspective focusing on competition and inequality as fundamental features of social life — groups compete for power, resources, and status." },
+          { term: "Social Constructivism", definition: "The view that social reality — including gender, race, and institutions — is constructed through shared social practices and beliefs, not given by nature." },
+        ],
+      },
+      {
+        name: "Key Thinkers in Social Philosophy",
+        terms: [
+          { term: "Marx", definition: "Argued that the economic base (relations of production) determines the ideological superstructure; history is the story of class struggle; capitalism must be transcended." },
+          { term: "Foucault", definition: "Analyzed how power operates through knowledge, discourse, and institutions — power is diffuse and productive, not just repressive; disciplines produce 'docile bodies.'" },
+          { term: "Bourdieu", definition: "Developed concepts of habitus, field, and capital to analyze how social structures are reproduced through everyday practice and the pursuit of cultural distinction." },
+          { term: "Butler", definition: "Feminist philosopher who argued gender is not a natural category but a performance — repeatedly enacted through stylized acts within socially enforced norms." },
+        ],
+      },
+      {
+        name: "Concepts of Power and Ideology",
+        terms: [
+          { term: "Hegemony", definition: "Gramsci's concept of cultural dominance — the ruling class maintains power not just by force but by making its worldview seem natural, inevitable, and common-sense." },
+          { term: "Power/Knowledge", definition: "Foucault's thesis that power and knowledge are inseparable — regimes of knowledge legitimize relations of power; 'truth' is produced within power relations." },
+          { term: "Ideology", definition: "Marx's concept of the ideas that serve ruling class interests by justifying the existing social order — 'the ruling ideas of every epoch are the ideas of the ruling class.'" },
+          { term: "False Consciousness", definition: "Marx's concept that workers fail to recognize their own exploitation because ideology obscures the true nature of their social and economic situation." },
+        ],
+      },
+      {
+        name: "Forms of Oppression",
+        terms: [
+          { term: "Alienation", definition: "Marx's concept of workers' estrangement from their labor, its products, other workers, and their own humanity — a consequence of treating labor as a commodity under capitalism." },
+          { term: "Exploitation", definition: "Marx's concept that capitalists extract surplus value from workers — paying less than the value workers produce and keeping the difference as profit." },
+          { term: "Marginalization", definition: "Young's concept of being expelled from full participation in social and political life — a key form of oppression beyond economic exploitation." },
+          { term: "Systemic Racism", definition: "Racism embedded in social institutions, policies, and cultural norms that produces racial inequality without requiring individual racist intent." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "phil-unit-8-1",
+    unit: 8, puzzle: 1,
+    title: "Aesthetics",
+    subject: "IB Philosophy",
+    groups: [
+      {
+        name: "Theories of Art",
+        terms: [
+          { term: "Mimesis", definition: "Plato and Aristotle's view that art is imitation of reality — representation is central to art's nature; Plato criticized it as twice removed from truth." },
+          { term: "Expression Theory", definition: "The view (Collingwood, Tolstoy) that art is the expression of emotion — genuine art communicates the artist's inner experience to the audience." },
+          { term: "Institutional Theory", definition: "Dickie's view that art is whatever the 'artworld' — a network of institutions, critics, and practices — designates as a candidate for appreciation." },
+          { term: "Formalism", definition: "The view (Bell, Fry) that what makes something art is its formal properties — significant form that produces a distinctly aesthetic emotion independent of content." },
+        ],
+      },
+      {
+        name: "Key Aestheticians",
+        terms: [
+          { term: "Plato", definition: "Argued art is imitation twice removed from reality (Forms → objects → representations) and morally dangerous; proposed banning poets from the Republic." },
+          { term: "Hegel", definition: "Argued art is a sensuous presentation of Spirit — art, religion, and philosophy are three forms of the Absolute's self-expression; art is the lowest of the three." },
+          { term: "Dickie", definition: "Developed the institutional theory of art — an artifact is a work of art if someone acting on behalf of the artworld has conferred upon it the status of candidate for appreciation." },
+          { term: "Tolstoy", definition: "Argued genuine art is the sincere expression and transmission of emotion — if an artist successfully infects audiences with their feelings, it is art; otherwise it is counterfeit." },
+        ],
+      },
+      {
+        name: "Aesthetic Concepts",
+        terms: [
+          { term: "Beauty", definition: "A positive aesthetic property provoking pleasure through perception — philosophically contested: is beauty in the object, in the response, or in a relation between them?" },
+          { term: "The Sublime", definition: "Burke and Kant's concept of aesthetic experience involving grandeur or power that exceeds our comprehension — produces a mixture of awe, terror, and ultimately pleasure." },
+          { term: "Aesthetic Experience", definition: "A distinctive mode of engaging with objects — characterized by disinterested attention, heightened perception, and intrinsic (non-instrumental) value." },
+          { term: "Disinterestedness", definition: "Kant's criterion for genuine aesthetic response — not motivated by personal desire, ownership, or practical interest in the object; purely contemplative appreciation." },
+        ],
+      },
+      {
+        name: "Defining Art",
+        terms: [
+          { term: "Artworld", definition: "Danto and Dickie's concept — the social institution of artists, critics, curators, and audiences that confers art status; determines what counts as art historically." },
+          { term: "Open Concept of Art", definition: "Weitz's argument (following Wittgenstein) that 'art' cannot be defined by necessary and sufficient conditions — it is an open concept with family resemblances." },
+          { term: "Anti-essentialism", definition: "The rejection of the view that art has an essential nature — art is too diverse and historically changing to be captured by any single necessary definition." },
+          { term: "Aesthetic Properties", definition: "Properties that ground aesthetic judgments — formal properties (balance, rhythm) and expressive properties (elegance, sadness); the object of aesthetic attention." },
+        ],
+      },
+    ],
+  },
+
 ];
 
-export function getGameByUnit(unit: number): GameSet | undefined {
-  return gameSets.find((g) => g.unit === unit);
+export function getGameByUnit(unit: number, subject?: string): GameSet | undefined {
+  return gameSets.find((g) => g.unit === unit && (!subject || g.subject === subject));
 }
 
-export function getGamesByUnit(unit: number): GameSet[] {
+export function getGamesByUnit(unit: number, subject?: string): GameSet[] {
   return gameSets
-    .filter((g) => g.unit === unit)
+    .filter((g) => g.unit === unit && (!subject || g.subject === subject))
     .sort((a, b) => (a.puzzle ?? 1) - (b.puzzle ?? 1));
 }
