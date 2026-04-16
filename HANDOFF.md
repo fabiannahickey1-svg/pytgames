@@ -1,7 +1,7 @@
 # Developer Handoff — PYT Games
 
-**Last updated:** 2026-04-15  
-**Status:** Active development — Units 1, 3–9 have 8 AP-themed puzzles each; Unit 2 removed/merged into Unit 1; Unit 1 landing card shows "1 & 2"; content audit to reduce to 4 puzzles/unit is pending; AP Bio / AP Lang coming soon
+**Last updated:** 2026-04-16  
+**Status:** Active development — APUSH (Units 1, 3–9, 8 themed puzzles each) + IB Philosophy (20 puzzles across 8 themes) both live; AP Bio / AP Lang coming soon
 
 ---
 
@@ -35,9 +35,9 @@ GITHUB_TOKEN=your_token   # stored in .env, never committed
 src/
   App.tsx                         # Router setup, providers
   data/
-    gameSets.ts                   # All game content lives here
+    gameSets.ts                   # All game content (APUSH + IB Philosophy)
   lib/
-    progress.ts                   # localStorage helpers for puzzle/unit completion
+    progress.ts                   # Per-subject localStorage helpers
   components/
     ConnectionsGame.tsx           # Game state machine + UI
     GameTile.tsx                  # Selectable term tile
@@ -45,25 +45,31 @@ src/
     ui/                           # shadcn/ui primitives (don't edit)
   pages/
     Splash.tsx                    # / — class picker (home page)
-    Landing.tsx                   # /apush — unit selector grid with mastery bar
-    PuzzlePicker.tsx              # /unit/:unit — puzzle selector per unit
-    Index.tsx                     # /unit/:unit/:puzzle — game page
+    Landing.tsx                   # /apush — APUSH unit grid with mastery bar
+    PhilosophyLanding.tsx         # /philosophy — IB Philosophy theme grid
+    PuzzlePicker.tsx              # puzzle selector (subject-aware via URL)
+    Index.tsx                     # game page (subject-aware via URL)
 ```
 
-**Routing:** React Router v6. Four real routes:
+**Routing:** React Router v6. Subject prefix determines which data is loaded — `PuzzlePicker` and `Index` detect subject from `location.pathname`.
 
 | Path | Page | Purpose |
 |------|------|---------|
 | `/` | `Splash.tsx` | Home — "Pick Your Class" |
 | `/apush` | `Landing.tsx` | APUSH unit grid |
-| `/unit/:unit` | `PuzzlePicker.tsx` | Puzzle selector for a unit (auto-skips if only 1 puzzle) |
-| `/unit/:unit/:puzzle` | `Index.tsx` | Game for a specific puzzle |
+| `/unit/:unit` | `PuzzlePicker.tsx` | APUSH puzzle selector |
+| `/unit/:unit/:puzzle` | `Index.tsx` | APUSH game |
+| `/philosophy` | `PhilosophyLanding.tsx` | IB Philosophy theme grid |
+| `/philosophy/unit/:unit` | `PuzzlePicker.tsx` | Philosophy puzzle selector |
+| `/philosophy/unit/:unit/:puzzle` | `Index.tsx` | Philosophy game |
 
-To add a new subject (e.g. AP Bio), add a route in `App.tsx` and a new landing page, then set `active: true` for that subject in `Splash.tsx`.
+To add a new subject: create a landing page, add routes in `App.tsx`, activate the card in `Splash.tsx`, add content to `gameSets.ts` with the correct `subject` field.
 
 **State:** All game state is local to `ConnectionsGame` — no global store, no persistence between sessions.
 
-**Styling:** Tailwind CSS with custom design tokens (`game-tile`, `game-tile-selected`, `game-correct`) defined in `tailwind.config.ts`. shadcn/ui handles base components. Color palette is grayscale + Yale Blue (`#0F4D92`) as the sole accent. Fonts: Quicksand (UI) + Playfair Display (hero title).
+**Progress tracking:** `progress.ts` uses separate localStorage keys per subject (`pyt-apush-puzzles`, `pyt-ib-philosophy-puzzles`). All functions accept an optional `subject` param defaulting to `"APUSH"`.
+
+**Styling:** Tailwind CSS + shadcn/ui. APUSH accent: Yale Blue `#0F4D92`. IB Philosophy accent: purple `#6B3FA0`. Fonts: Quicksand (UI) + Playfair Display (hero title).
 
 ---
 
@@ -98,18 +104,14 @@ interface GameSet {
 }
 ```
 
-The landing page renders a 3-column grid of units 1–9. Any unit number present in `gameSets` is automatically marked active and clickable.
+The APUSH landing page renders a 3-column grid of units 1–9 (Unit 2 hidden — merged into Unit 1). The Philosophy landing page renders a 2-column grid of 8 themes.
 
-**Progress tracking** lives in `src/lib/progress.ts` and uses two localStorage helpers:
-- `pyt-apush-puzzles` — array of `"unit-puzzle"` strings (e.g. `"1-2"`) for individually completed puzzles
-- `getCompletedUnits()` — derives which unit numbers have every puzzle finished (used by the mastery bar)
-
-### Current content
+### APUSH content
 
 | Unit | Title | Puzzles | Format |
 |------|-------|---------|--------|
 | 1 | Native Peoples, Contact & Colonial America | 8 | AP Themed (NAT–SOC) — covers 1491–1754 |
-| 2 | *(Coming Soon — merged into Unit 1)* | — | — |
+| 2 | *(merged into Unit 1)* | — | — |
 | 3 | Revolution & Early Republic | 8 | AP Themed (NAT–SOC) |
 | 4 | Jacksonian Era & Market Revolution | 8 | AP Themed (NAT–SOC) |
 | 5 | Civil War & Reconstruction | 8 | AP Themed (NAT–SOC) |
@@ -118,7 +120,20 @@ The landing page renders a 3-column grid of units 1–9. Any unit number present
 | 8 | Cold War & Civil Rights | 8 | AP Themed (NAT–SOC) |
 | 9 | Reagan Era to Present | 8 | AP Themed (NAT–SOC) |
 
-**AP Themes** (used in themed units): NAT · WXT · GEO · MIG · PCE · WOR · ARC · SOC
+**AP Themes**: NAT · WXT · GEO · MIG · PCE · WOR · ARC · SOC
+
+### IB Philosophy content
+
+| Unit | Theme | Puzzles |
+|------|-------|---------|
+| 1 | Being Human (core) | 6 — one per sub-theme: Identity, The Self and the Other, Consciousness, Personhood, Freedom, Human Nature |
+| 2 | Epistemology | 1 |
+| 3 | Ethics | 1 |
+| 4 | Philosophy of Religion | 1 |
+| 5 | Philosophy of Science | 1 |
+| 6 | Political Philosophy | 1 |
+| 7 | Social Philosophy | 1 |
+| 8 | Aesthetics | 1 |
 
 ---
 

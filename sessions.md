@@ -69,3 +69,17 @@
 - Attempted content audit to reduce from 1024 → ~512 terms (4 puzzles/unit instead of 8); not yet completed
 
 **Next:** Complete content audit and reduce to 4 focused puzzles per unit; AP Bio / AP Lang subject pages; shuffle button; mobile polish
+
+## 2026-04-16 — Session 7
+
+- Added IB Philosophy as a fully active subject with purple accent (#6B3FA0)
+- Unit 1 (Being Human / core theme): 6 puzzles, one per sub-theme — Identity, The Self and the Other, Consciousness, Personhood, Freedom, Human Nature; each puzzle uses the theme code system (e.g. IDENTITY, OTHER, CONSCIOUSNESS)
+- Units 2–8: 1 puzzle each — Epistemology, Ethics, Philosophy of Religion, Philosophy of Science, Political Philosophy, Social Philosophy, Aesthetics
+- New `PhilosophyLanding.tsx` at `/philosophy` — 2-column theme grid, mastery levels (Curious → Inquirer → Dialectician → Logician → Sophist → Philosopher)
+- `PuzzlePicker.tsx` and `Index.tsx` made subject-aware via URL path detection (`/philosophy` prefix)
+- `progress.ts` updated with per-subject localStorage keys (`pyt-ib-philosophy-puzzles` vs `pyt-apush-puzzles`)
+- `getGamesByUnit` updated to accept optional subject param — prevents unit number collisions between subjects
+- IB Phil card activated on the splash page (3rd slot, previously AP Bio Coming Soon)
+- App.tsx: added `/philosophy`, `/philosophy/unit/:unit`, `/philosophy/unit/:unit/:puzzle` routes
+
+**Next:** AP Bio / AP Lang subject pages; shuffle button; mobile polish; APUSH content audit
