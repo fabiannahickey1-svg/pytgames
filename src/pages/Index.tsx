@@ -15,9 +15,10 @@ const Index = () => {
   const [resetKey, setResetKey] = useState(0);
 
   const isPhilosophy = location.pathname.startsWith("/philosophy");
-  const subject = isPhilosophy ? "IB Philosophy" : "APUSH";
-  const subjectBase = isPhilosophy ? "/philosophy" : "/apush";
-  const unitBase = isPhilosophy ? "/philosophy/unit" : "/unit";
+  const isEnvSci = location.pathname.startsWith("/envsci");
+  const subject = isPhilosophy ? "IB Philosophy" : isEnvSci ? "Env Science" : "APUSH";
+  const subjectBase = isPhilosophy ? "/philosophy" : isEnvSci ? "/envsci" : "/apush";
+  const unitBase = isPhilosophy ? "/philosophy/unit" : isEnvSci ? "/envsci/unit" : "/unit";
 
   const puzzles = getGamesByUnit(unitNum, subject);
   const currentGame = puzzles.find((p) => (p.puzzle ?? 1) === puzzleNum);

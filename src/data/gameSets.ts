@@ -3623,6 +3623,1706 @@ export const gameSets: GameSet[] = [
     ],
   },
 
+  // ── ENVIRONMENTAL SCIENCE ──────────────────────────────────────────
+
+  // Unit 1 · Living World: Ecosystems
+  {
+    id: "envsci-unit-1-1",
+    unit: 1,
+    puzzle: 1,
+    title: "Living World: Ecosystems",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Nitrogen Cycle Processes",
+        terms: [
+          { term: "Nitrogen Fixation", definition: "Conversion of atmospheric N₂ into ammonia (NH₃) or related compounds by bacteria or lightning; makes nitrogen available to plants." },
+          { term: "Nitrification", definition: "Bacterial process that converts ammonia (NH₃) into nitrites and then into nitrates (NO₃⁻), the form plants can absorb." },
+          { term: "Denitrification", definition: "Bacterial process that converts nitrates back into nitrogen gas (N₂), returning nitrogen to the atmosphere and completing the cycle." },
+          { term: "Ammonification", definition: "Decomposition of organic nitrogen (dead organisms, waste) back into ammonia (NH₃) by decomposer bacteria and fungi." },
+        ],
+      },
+      {
+        name: "Ecological Succession",
+        terms: [
+          { term: "Primary Succession", definition: "Colonization of bare, lifeless substrate (lava, rock) where no soil exists; the slowest type of succession." },
+          { term: "Secondary Succession", definition: "Re-establishment of a community where vegetation was destroyed but soil remains; faster than primary succession." },
+          { term: "Pioneer Species", definition: "First organisms to colonize bare or disturbed land; hardy species (lichens, mosses) that begin soil formation and change conditions for other species." },
+          { term: "Climax Community", definition: "The stable, mature community at the end of ecological succession that remains relatively unchanged over time in the absence of disturbance." },
+        ],
+      },
+      {
+        name: "Laws of Energy Flow",
+        terms: [
+          { term: "10% Rule", definition: "Approximately 10% of the energy stored in one trophic level is transferred to the next; the rest is lost primarily as heat." },
+          { term: "1st Law of Thermodynamics", definition: "Energy cannot be created or destroyed, only transformed from one form to another; total energy in a closed system is constant." },
+          { term: "2nd Law of Thermodynamics", definition: "Every energy transfer increases entropy; usable energy decreases as heat is lost with each transformation — no conversion is 100% efficient." },
+          { term: "Energy Pyramid", definition: "Diagram showing the amount of energy at each trophic level; the base (producers) holds the most energy; each level is ~10% of the one below." },
+        ],
+      },
+      {
+        name: "Feeding Strategy Types",
+        terms: [
+          { term: "Autotroph", definition: "An organism that produces its own organic compounds from inorganic sources using sunlight (photosynthesis) or chemicals (chemosynthesis); a producer." },
+          { term: "Heterotroph", definition: "An organism that cannot produce its own food and must consume other organisms for energy and nutrients; a consumer." },
+          { term: "Decomposer", definition: "An organism (bacteria, fungi) that breaks down dead organic matter into simpler inorganic compounds, recycling nutrients back into the ecosystem." },
+          { term: "Detritivore", definition: "An organism that feeds on detritus (dead organic material and animal waste), such as earthworms, millipedes, and dung beetles." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "envsci-unit-1-2",
+    unit: 1,
+    puzzle: 2,
+    title: "Living World: Ecosystems",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Open Ocean Zones",
+        terms: [
+          { term: "Abyssal Zone", definition: "The deepest ocean zone (4,000–6,000 m); characterized by extreme pressure, total darkness, and near-freezing temperatures." },
+          { term: "Bathyal Zone", definition: "The mid-ocean zone (200–4,000 m); no light penetrates, high pressure; home to many deep-sea creatures." },
+          { term: "Benthic Zone", definition: "The bottom layer of any body of water, including sediment and substrate; inhabited by bottom-dwelling organisms (benthos)." },
+          { term: "Pelagic Zone", definition: "The open-ocean zone away from the shore and bottom; the largest aquatic habitat on Earth, subdivided by depth." },
+        ],
+      },
+      {
+        name: "Freshwater Lake Zones",
+        terms: [
+          { term: "Limnetic Zone", definition: "The open-water zone of a lake, away from shore, where sunlight still penetrates; primary zone of photosynthesis and plankton." },
+          { term: "Littoral Zone", definition: "The shallow, near-shore zone of a lake; sunlight reaches the bottom, supporting rooted aquatic plants and diverse organisms." },
+          { term: "Euphotic Zone", definition: "The upper layer of water (lake or ocean) that receives enough sunlight for photosynthesis to occur; depth varies with water clarity." },
+          { term: "Profundal Zone", definition: "The deep, dark bottom zone of a lake where light does not penetrate; low oxygen, cold temperature, dominated by decomposers." },
+        ],
+      },
+      {
+        name: "Coastal & Wetland Ecosystems",
+        terms: [
+          { term: "Coral Reef", definition: "Marine ecosystem built from calcium carbonate skeletons of coral polyps; among the most biodiverse ecosystems on Earth, found in warm shallow waters." },
+          { term: "Estuary", definition: "Coastal area where freshwater from rivers meets and mixes with saltwater from the ocean; highly productive and serves as nursery habitat." },
+          { term: "Delta", definition: "A landform at the mouth of a river where it meets a body of water, depositing sediment; often forms fan-shaped wetland and marsh areas." },
+          { term: "Wetlands", definition: "Land areas saturated with water (permanently or seasonally); include marshes, swamps, and bogs; filter pollutants and reduce flooding." },
+        ],
+      },
+      {
+        name: "Aquatic Water Properties",
+        terms: [
+          { term: "Brackish Water", definition: "Water with salinity between freshwater and seawater (0.5–30 ppt); found in estuaries and coastal marshes; fewer species than either extreme." },
+          { term: "Salinity", definition: "The concentration of dissolved salts in water; a key abiotic factor that determines what organisms can survive in an aquatic ecosystem." },
+          { term: "Turbidity", definition: "The cloudiness of water caused by suspended particles (sediment, algae); high turbidity reduces light penetration and limits photosynthesis." },
+          { term: "Upwelling", definition: "The movement of cold, nutrient-rich deep water to the ocean surface, often driven by wind; supports extremely high biological productivity." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "envsci-unit-1-3",
+    unit: 1,
+    puzzle: 3,
+    title: "Living World: Ecosystems",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Species Interactions",
+        terms: [
+          { term: "Mutualism", definition: "A symbiotic relationship in which both species benefit (e.g., bees pollinating flowers, clownfish living among sea anemones)." },
+          { term: "Commensalism", definition: "A symbiotic relationship in which one species benefits and the other is neither helped nor harmed (e.g., barnacles on a whale)." },
+          { term: "Parasitism", definition: "A symbiotic relationship in which one organism (parasite) benefits at the expense of the host, harming but usually not immediately killing it." },
+          { term: "Competitive Exclusion", definition: "The principle that two species competing for the same limiting resources in the same niche cannot stably coexist; one will eventually outcompete the other." },
+        ],
+      },
+      {
+        name: "Ecosystem Productivity Measures",
+        terms: [
+          { term: "Gross Primary Productivity (GPP)", definition: "The total rate at which producers capture and store energy through photosynthesis or chemosynthesis, before any is used for their own respiration." },
+          { term: "Net Primary Productivity (NPP)", definition: "The energy stored by producers after subtracting their own cellular respiration; NPP = GPP − Respiration; energy available to consumers." },
+          { term: "Biomass", definition: "The total mass of living or recently living organisms in a given area or trophic level, usually expressed as dry weight per unit area." },
+          { term: "Trophic Level", definition: "A feeding level in a food chain or food web; producers occupy level 1, primary consumers level 2, secondary consumers level 3, and so on." },
+        ],
+      },
+      {
+        name: "Carbon & Energy Processes",
+        terms: [
+          { term: "Photosynthesis", definition: "The process by which producers convert CO₂ and water into glucose and oxygen using sunlight energy; 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂." },
+          { term: "Aerobic Respiration", definition: "The process of breaking down glucose using oxygen to release energy (ATP); produces CO₂ and water as byproducts; occurs in most living cells." },
+          { term: "Chemosynthesis", definition: "The process by which organisms (certain bacteria) convert inorganic compounds (e.g., H₂S) into organic matter without sunlight; occurs at hydrothermal vents." },
+          { term: "Carbon Sink", definition: "Any reservoir that absorbs more carbon than it releases (e.g., forests, soils, oceans); slows the buildup of CO₂ in the atmosphere." },
+        ],
+      },
+      {
+        name: "Niche & Competition Concepts",
+        terms: [
+          { term: "Niche", definition: "The role and position a species occupies in its environment — all biotic and abiotic conditions and resources it needs to survive and reproduce." },
+          { term: "Fundamental Niche", definition: "The full range of conditions and resources a species could theoretically use in the absence of competition or other limiting factors." },
+          { term: "Realized Niche", definition: "The actual conditions and resources a species uses in nature, limited by competition, predation, and other interactions; narrower than the fundamental niche." },
+          { term: "Resource Partitioning", definition: "The process by which competing species use the environment in different ways (different times, places, or food) to reduce direct competition and coexist." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "envsci-unit-1-4",
+    unit: 1,
+    puzzle: 4,
+    title: "Living World: Ecosystems",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Forest & Vegetation Types",
+        terms: [
+          { term: "Biome", definition: "A large geographic region characterized by a specific climate, soil type, and dominant community of plants and animals (e.g., tundra, desert, rainforest)." },
+          { term: "Deciduous", definition: "Describes trees that shed their leaves seasonally (typically in autumn); adapted to temperate climates with cold winters." },
+          { term: "Coniferous Evergreen Trees", definition: "Needle-leaved trees that retain their foliage year-round; dominate boreal/taiga biomes; adapted to cold, dry conditions." },
+          { term: "Broadleaf Evergreen Plants/Trees", definition: "Plants that retain large, broad leaves year-round; characteristic of tropical and subtropical rainforests with warm, wet climates." },
+        ],
+      },
+      {
+        name: "Ecologically Important Species Types",
+        terms: [
+          { term: "Keystone Species", definition: "A species that has a disproportionately large effect on its ecosystem relative to its abundance; its removal causes dramatic ecosystem change." },
+          { term: "Indicator Species", definition: "A species whose presence, absence, or condition reflects the overall health and quality of the broader ecosystem (e.g., lichens for air quality)." },
+          { term: "Native Species", definition: "A species that naturally occurs and has evolved in a specific geographic region; part of the historic ecosystem without human introduction." },
+          { term: "Endemic Species", definition: "A species found exclusively in one particular geographic area and nowhere else on Earth; often vulnerable to extinction due to limited range." },
+        ],
+      },
+      {
+        name: "Lake Nutrient Status",
+        terms: [
+          { term: "Eutrophic Lake", definition: "A nutrient-rich lake with abundant algae and plant growth; high productivity at the surface but low dissolved oxygen in deep water due to decomposition." },
+          { term: "Oligotrophic", definition: "Describes a body of water with low nutrient levels and low productivity; typically clear, deep, and high in dissolved oxygen." },
+          { term: "Cultural Eutrophication", definition: "Human-accelerated eutrophication caused by nutrient runoff (nitrogen, phosphorus) from agriculture, sewage, and urban areas into water bodies." },
+          { term: "Phytoplankton", definition: "Microscopic photosynthetic organisms (algae, cyanobacteria) floating in water; the base of most aquatic food webs and responsible for ~50% of Earth's O₂." },
+        ],
+      },
+      {
+        name: "Abiotic Factors",
+        terms: [
+          { term: "Climate", definition: "The long-term pattern of weather conditions in a region, including average temperature, precipitation, and seasonal variation; determines biome type." },
+          { term: "Latitude", definition: "Distance north or south of the equator (measured in degrees); strongly influences temperature and solar radiation, driving biome distribution." },
+          { term: "Topography", definition: "The physical features of a land surface, including elevation, slope, and landforms; influences local climate, water flow, and soil development." },
+          { term: "Permafrost", definition: "Permanently frozen subsoil found in Arctic and subarctic regions; limits plant root depth and water drainage; vulnerable to thawing with climate change." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "envsci-unit-1-5",
+    unit: 1,
+    puzzle: 5,
+    title: "Living World: Ecosystems",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Water Cycle Processes",
+        terms: [
+          { term: "Transpiration", definition: "The process by which water is absorbed by plant roots, moves through the plant, and evaporates from leaf surfaces; a major part of the water cycle." },
+          { term: "Runoff", definition: "Water that flows over the land surface into streams and rivers rather than soaking into the ground; carries nutrients, sediments, and pollutants." },
+          { term: "Watershed", definition: "A land area that drains into a common body of water (stream, river, lake); also called a drainage basin; the basic unit for water resource management." },
+          { term: "Reservoir", definition: "A natural or human-made lake used to store water; also refers to any large pool of a substance in a biogeochemical cycle (e.g., the ocean as a carbon reservoir)." },
+        ],
+      },
+      {
+        name: "Consumer Types by Diet",
+        terms: [
+          { term: "Herbivore", definition: "An animal that eats only plants or algae; a primary consumer occupying the second trophic level (e.g., deer, caterpillars, manatees)." },
+          { term: "Carnivore", definition: "An animal that eats only other animals; occupies the third trophic level or higher as a secondary or tertiary consumer (e.g., wolves, sharks)." },
+          { term: "Omnivore", definition: "An animal that eats both plants and animals; flexible diet allows survival across trophic levels (e.g., bears, raccoons, humans)." },
+          { term: "Scavenger", definition: "An animal that feeds on the carcasses or dead organic material of organisms it did not kill; plays a key role in nutrient cycling (e.g., vultures, hyenas)." },
+        ],
+      },
+      {
+        name: "Ecological Tolerance & Limits",
+        terms: [
+          { term: "Limiting Factor", definition: "Any abiotic or biotic resource or condition that restricts the growth, abundance, or distribution of an organism or population." },
+          { term: "Range of Tolerance", definition: "The range of abiotic conditions (temperature, pH, salinity, etc.) within which an organism can survive; organisms thrive in the optimal range." },
+          { term: "Resilience", definition: "The ability of an ecosystem to recover and return to its original state after a disturbance; more resilient ecosystems bounce back faster." },
+          { term: "Biotic Potential", definition: "The maximum reproductive rate of a species under ideal conditions with unlimited resources; the theoretical upper limit of population growth." },
+        ],
+      },
+      {
+        name: "Aquatic Habitats & Life",
+        terms: [
+          { term: "Nekton", definition: "Aquatic organisms that actively swim and move through the water column, independent of currents (e.g., fish, whales, squid, sea turtles)." },
+          { term: "Zooplankton", definition: "Tiny aquatic animals and other heterotrophs that drift with water currents; primary consumers in aquatic food webs that feed on phytoplankton." },
+          { term: "Riparian Habitat", definition: "The land and vegetation along the banks of a river or stream; provides habitat for many species and filters runoff before it enters the waterway." },
+          { term: "Floodplain", definition: "The flat, low-lying land adjacent to a river that is subject to periodic flooding; highly fertile and important for biodiversity and flood control." },
+        ],
+      },
+    ],
+  },
+
+  // ── UNIT 2 · Living World: Biodiversity ─────────────────────────────
+
+  // 2.1 Measuring Biodiversity
+  {
+    id: "envsci-unit-2-1",
+    unit: 2,
+    puzzle: 1,
+    title: "Living World: Biodiversity",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Three Levels of Biodiversity",
+        terms: [
+          { term: "Genetic Diversity", definition: "The variety of genes and alleles within a species or population; high genetic diversity improves adaptability and long-term evolutionary potential." },
+          { term: "Species Diversity", definition: "The variety of species in an ecosystem, incorporating both how many species (richness) and how evenly they are distributed (evenness)." },
+          { term: "Ecosystem Diversity", definition: "The variety of different ecosystems, habitats, and ecological communities within a region; one of three core levels of biodiversity." },
+          { term: "Biodiversity Hotspot", definition: "A region with an exceptionally high concentration of endemic species that is under significant threat from habitat loss; 36 recognized globally." },
+        ],
+      },
+      {
+        name: "Species Diversity Metrics",
+        terms: [
+          { term: "Species Richness", definition: "The total number of different species present in an area; a simple count regardless of relative abundance." },
+          { term: "Species Evenness", definition: "How equally individuals are distributed among species in a community; high evenness means no single species dominates." },
+          { term: "Indicator Species", definition: "A species whose presence, absence, or health reflects the overall condition of the broader ecosystem (e.g., frogs for water quality)." },
+          { term: "Ecological Tolerance", definition: "The range of environmental conditions under which a species can survive and reproduce; wide tolerance = generalist, narrow tolerance = specialist." },
+        ],
+      },
+      {
+        name: "Types of Extinction",
+        terms: [
+          { term: "Background Extinction", definition: "The normal, low-level rate of species loss throughout Earth's history (~1–5 species/year); the baseline against which mass extinctions are measured." },
+          { term: "Local Extinction", definition: "Disappearance of a species from one specific geographic area while it persists elsewhere; also called extirpation." },
+          { term: "Global Extinction", definition: "The complete, irreversible disappearance of a species from all locations on Earth." },
+          { term: "Mass Extinction", definition: "A rapid, widespread event eliminating a large percentage of species in geologically short time; Earth has experienced five; scientists warn of a sixth driven by humans." },
+        ],
+      },
+      {
+        name: "Ecologically Important Species",
+        terms: [
+          { term: "Keystone Species", definition: "A species with a disproportionately large effect on ecosystem structure relative to its abundance; its removal causes dramatic cascade effects." },
+          { term: "Foundation Species", definition: "A species that creates and defines habitat structure used by many others (e.g., kelp, coral, beavers); loss destabilizes the entire community." },
+          { term: "Endemic Species", definition: "A species found exclusively in one specific geographic area and nowhere else on Earth; especially vulnerable to localized threats." },
+          { term: "Range of Tolerance", definition: "The full span of abiotic conditions (temperature, salinity, pH) within which an organism can survive; performance is best at the optimum." },
+        ],
+      },
+    ],
+  },
+
+  // 2.2 Species, Evolution & Genetics
+  {
+    id: "envsci-unit-2-2",
+    unit: 2,
+    puzzle: 2,
+    title: "Living World: Biodiversity",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Genetic Mechanisms in Small Populations",
+        terms: [
+          { term: "Genetic Drift", definition: "Random changes in allele frequencies due to chance events; has the greatest effect in small, isolated populations." },
+          { term: "Founder Effect", definition: "Loss of genetic variation when a small group establishes a new isolated population; the founders' limited gene pool shapes all future generations." },
+          { term: "Population Bottleneck", definition: "A severe, sudden reduction in population size that drastically reduces genetic diversity; survivors have a narrow, unrepresentative gene pool." },
+          { term: "Reproductive Isolation", definition: "The inability of populations to interbreed successfully; a key barrier that leads to divergence and eventually speciation." },
+        ],
+      },
+      {
+        name: "Evolutionary Processes",
+        terms: [
+          { term: "Speciation", definition: "The evolutionary formation of new, distinct species; typically requires reproductive isolation followed by divergent natural selection over time." },
+          { term: "Adaptation", definition: "A heritable trait that increases an organism's fitness in its environment; shaped by natural selection acting on genetic variation." },
+          { term: "Coevolution", definition: "The reciprocal evolutionary change in two or more species that interact closely (e.g., flowers and pollinators, predators and prey)." },
+          { term: "Natural Selection", definition: "The process by which individuals with favorable heritable traits survive and reproduce more successfully, passing those traits to future generations." },
+        ],
+      },
+      {
+        name: "Species by Niche Breadth",
+        terms: [
+          { term: "Generalist Species", definition: "A species with a broad niche that tolerates diverse conditions and exploits many resources (e.g., raccoon, rat); resilient to environmental change." },
+          { term: "Specialist Species", definition: "A species with a narrow niche requiring specific conditions or food sources (e.g., giant panda, koala); more vulnerable to habitat loss." },
+          { term: "Fundamental Niche", definition: "The full range of conditions a species could theoretically use in the absence of competition or other limiting biotic factors." },
+          { term: "Realized Niche", definition: "The actual range of conditions a species uses in nature, constrained by competition, predation, and other interactions; narrower than the fundamental niche." },
+        ],
+      },
+      {
+        name: "Species Interactions",
+        terms: [
+          { term: "Mutualism", definition: "A symbiotic relationship in which both species benefit (e.g., bees and flowers, mycorrhizal fungi and plant roots)." },
+          { term: "Commensalism", definition: "A symbiotic relationship in which one species benefits and the other is unaffected (e.g., barnacles on a whale)." },
+          { term: "Parasitism", definition: "A relationship where one organism (the parasite) benefits at the expense of the host, which is harmed but usually not immediately killed." },
+          { term: "Competitive Exclusion", definition: "The principle that two species competing for identical limiting resources cannot stably coexist; one will outcompete and eliminate the other locally." },
+        ],
+      },
+    ],
+  },
+
+  // 2.3 Threats to Biodiversity
+  {
+    id: "envsci-unit-2-3",
+    unit: 2,
+    puzzle: 3,
+    title: "Living World: Biodiversity",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Habitat Destruction",
+        terms: [
+          { term: "Habitat Fragmentation", definition: "The breaking up of continuous habitat into smaller isolated patches; reduces biodiversity, population size, and gene flow between populations." },
+          { term: "Habitat Island", definition: "An isolated patch of suitable habitat surrounded by inhospitable terrain; supports fewer species than a continuous habitat of the same total area." },
+          { term: "Edge Effect", definition: "Changes in species composition, microclimate, and biodiversity at the boundary between two habitats; increases as fragmentation creates more edge." },
+          { term: "Deforestation", definition: "Large-scale removal of forests for agriculture, development, or logging; the primary driver of terrestrial habitat loss and biodiversity decline worldwide." },
+        ],
+      },
+      {
+        name: "Direct Exploitation & Overuse",
+        terms: [
+          { term: "Poaching", definition: "Illegal hunting, trapping, or harvesting of wildlife; a major driver of decline for high-value species such as elephants, rhinos, and tigers." },
+          { term: "Overgrazing", definition: "Excessive livestock grazing beyond the land's carrying capacity; degrades plant cover, compacts soil, accelerates erosion, and reduces biodiversity." },
+          { term: "Old-Growth Forests", definition: "Ancient, unlogged forests with complex structure, old trees, and high biodiversity; irreplaceable and disproportionately threatened by commercial logging." },
+          { term: "Biomagnification", definition: "Increasing concentration of a persistent toxin (e.g., DDT, mercury) at each successive trophic level; apex predators receive the highest and most harmful doses." },
+        ],
+      },
+      {
+        name: "Population-Level Consequences",
+        terms: [
+          { term: "Population Bottleneck", definition: "A severe reduction in population size caused by habitat loss or overexploitation; sharply reduces genetic diversity and extinction risk rises." },
+          { term: "Local Extinction", definition: "Disappearance of a species from a specific area due to habitat loss, hunting, or competition while it survives elsewhere." },
+          { term: "Global Extinction", definition: "The irreversible loss of a species from the entire planet; permanent and accelerating due to human-driven habitat loss and exploitation." },
+          { term: "Endemic Species", definition: "Species restricted to one geographic area; highly vulnerable because habitat destruction in that single location means global extinction." },
+        ],
+      },
+      {
+        name: "Ecological Disruption Concepts",
+        terms: [
+          { term: "Colonization", definition: "Arrival and establishment of a species in a new area; invasive colonization by non-native species can displace natives and reduce biodiversity." },
+          { term: "Cultural Eutrophication", definition: "Human-accelerated nutrient enrichment of water bodies from agricultural runoff and sewage; triggers algal blooms, oxygen depletion, and biodiversity loss." },
+          { term: "Ecological Tolerance", definition: "The range of conditions a species can endure; species with narrow tolerances are most vulnerable to habitat alteration and pollution." },
+          { term: "Indicator Species", definition: "A species whose decline warns of broader ecosystem degradation; loss of indicator species often precedes wider biodiversity collapse." },
+        ],
+      },
+    ],
+  },
+
+  // 2.4 Conservation Strategies & Protected Lands
+  {
+    id: "envsci-unit-2-4",
+    unit: 2,
+    puzzle: 4,
+    title: "Living World: Biodiversity",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "On-the-Ground Conservation Tools",
+        terms: [
+          { term: "Habitat Corridors", definition: "Strips of land connecting isolated habitat patches; allow species to disperse, interbreed, and recolonize, reducing the damage of fragmentation." },
+          { term: "Buffer Zone", definition: "A transitional area surrounding a core protected zone that limits disruptive human activity; reduces edge effects and pressure on the protected core." },
+          { term: "Ecological Restoration", definition: "Actively assisting the recovery of a degraded ecosystem toward its natural structure, function, and biodiversity." },
+          { term: "MPAs (Marine Protected Areas)", definition: "Ocean zones where fishing, drilling, and other extractive activities are restricted to protect marine biodiversity and allow stocks to recover." },
+        ],
+      },
+      {
+        name: "U.S. Protected Land Categories",
+        terms: [
+          { term: "National Park", definition: "Federal land managed solely for conservation and public enjoyment by the National Park Service; no commercial resource extraction allowed." },
+          { term: "National Forest", definition: "Federal land managed for multiple uses (timber, grazing, recreation, wildlife) by the U.S. Forest Service; not as strictly protected as parks." },
+          { term: "National Wildlife Refuge (NWR)", definition: "Federal land managed primarily for wildlife conservation by the U.S. Fish and Wildlife Service; some recreational uses permitted." },
+          { term: "Multiple-Use Land", definition: "Public land managed for simultaneous uses including grazing, mining, energy, recreation, and conservation; managed by the Bureau of Land Management." },
+        ],
+      },
+      {
+        name: "Biodiversity Conservation Concepts",
+        terms: [
+          { term: "Biodiversity Hotspot", definition: "A region with exceptional concentrations of endemic species facing severe habitat loss; protecting hotspots gives the greatest return on conservation investment." },
+          { term: "Precautionary Principle", definition: "The policy of taking protective action against potential environmental harm even before scientific certainty is established." },
+          { term: "Intrinsic/Existence Value", definition: "The value of a species or ecosystem independent of human use; the ethical position that nature deserves protection for its own sake." },
+          { term: "Ecotourism", definition: "Environmentally responsible travel to natural areas that funds conservation and supports local economies; creates direct economic incentives to protect biodiversity." },
+        ],
+      },
+      {
+        name: "Ecosystem Services Worth Protecting",
+        terms: [
+          { term: "Carbon Sink", definition: "Any reservoir (forest, ocean, soil) that absorbs more carbon than it releases; protecting these areas mitigates climate change and supports biodiversity." },
+          { term: "Watershed", definition: "A drainage basin where all land and water drain to a common outlet; healthy watersheds filter water, prevent floods, and support diverse species." },
+          { term: "Wetlands", definition: "Water-saturated ecosystems (marshes, swamps, bogs) that filter pollutants, absorb floodwaters, store carbon, and support exceptional biodiversity." },
+          { term: "Riparian Habitat", definition: "Vegetated land along rivers and streams that provides wildlife corridors, filters runoff, prevents erosion, and supports high species diversity." },
+        ],
+      },
+    ],
+  },
+
+  // 2.5 Conservation Laws, Policy & Economics
+  {
+    id: "envsci-unit-2-5",
+    unit: 2,
+    puzzle: 5,
+    title: "Living World: Biodiversity",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "U.S. Federal Conservation Agencies",
+        terms: [
+          { term: "U.S. Fish and Wildlife Service", definition: "Federal agency that manages fish, wildlife, and their habitats; administers the Endangered Species Act and national wildlife refuges." },
+          { term: "U.S. Forest Service", definition: "USDA agency managing national forests and grasslands for multiple uses: timber, recreation, watershed protection, and wildlife habitat." },
+          { term: "U.S. Bureau of Land Management", definition: "Agency overseeing more public land than any other; manages grazing, mining, energy development, recreation, and conservation on federal lands." },
+          { term: "U.S. National Park Service", definition: "Agency that preserves national parks, monuments, and historic sites; mission is to conserve resources unimpaired for future generations." },
+        ],
+      },
+      {
+        name: "Conservation Laws & Treaties",
+        terms: [
+          { term: "CITES", definition: "Convention on International Trade in Endangered Species; international treaty that controls and bans trade in threatened plants and animals to prevent extinction." },
+          { term: "U.S. Endangered Species Act", definition: "Landmark U.S. law protecting listed threatened and endangered species and their critical habitats; prohibits take (killing, harming, or harassing) of listed species." },
+          { term: "Marine Mammal Protection Act", definition: "U.S. law prohibiting the take and import of marine mammals; protects whales, dolphins, seals, and manatees in U.S. waters." },
+          { term: "Environmental Protection Agency (EPA)", definition: "U.S. federal agency created in 1970 to protect human health and the environment by writing and enforcing environmental regulations." },
+        ],
+      },
+      {
+        name: "Policy & Ethical Frameworks",
+        terms: [
+          { term: "Precautionary Principle", definition: "When an action risks harm to the environment or health, precautionary measures should be taken even without full scientific proof of harm." },
+          { term: "Intrinsic/Existence Value", definition: "The belief that all species have inherent worth regardless of utility to humans; a core ethical argument for biodiversity conservation." },
+          { term: "Ecotourism", definition: "Nature-based tourism that financially supports conservation and local communities; aligns economic incentives with biodiversity protection." },
+          { term: "Multiple-Use Land", definition: "A management philosophy that attempts to balance conservation with economic activities like logging, grazing, and mining on public lands." },
+        ],
+      },
+      {
+        name: "Monitoring Biodiversity Health",
+        terms: [
+          { term: "Indicator Species", definition: "Species used to assess ecosystem health; their decline is an early warning of broader biodiversity problems requiring policy response." },
+          { term: "Keystone Species", definition: "Species whose protection is legally and ecologically critical; loss disproportionately destabilizes ecosystems even at low population numbers." },
+          { term: "Endemic Species", definition: "Species found only in one place; their presence in a region signals conservation priority and is tracked to measure protection effectiveness." },
+          { term: "Ecological Restoration", definition: "Measurable return of ecosystem structure and function; a key outcome used to evaluate the success of conservation policies and protected areas." },
+        ],
+      },
+    ],
+  },
+
+  // ── UNIT 3 · Populations ─────────────────────────────────────────────
+
+  // 3.1 Population Growth Models
+  {
+    id: "envsci-unit-3-1",
+    unit: 3,
+    puzzle: 1,
+    title: "Populations",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Growth Curve Types",
+        terms: [
+          { term: "Exponential Growth (J-curve)", definition: "Unrestricted population growth when resources are unlimited; produces a J-shaped curve as the rate of growth accelerates over time." },
+          { term: "Logistic Growth (S-curve)", definition: "Population growth that slows as it approaches carrying capacity due to resource limitations; produces an S-shaped curve." },
+          { term: "Population Overshoot", definition: "When a population temporarily exceeds the carrying capacity of its environment, consuming resources faster than they can be replenished; often followed by a crash." },
+          { term: "Carrying Capacity (K)", definition: "The maximum population size an environment can sustainably support given available food, water, space, and other resources." },
+        ],
+      },
+      {
+        name: "Growth Rate Measurements",
+        terms: [
+          { term: "Intrinsic Rate of Increase (r)", definition: "The maximum per capita rate of population growth under ideal conditions; the difference between per capita birth rate and death rate." },
+          { term: "Biotic Potential", definition: "The theoretical maximum reproductive rate of a species under ideal, unlimited conditions; the upper ceiling on population growth." },
+          { term: "Growth Rate", definition: "The net change in population size per unit time; calculated as (births + immigration) − (deaths + emigration)." },
+          { term: "Rule of 70", definition: "A formula to estimate population doubling time: 70 ÷ annual growth rate (%) = approximate years to double; illustrates the power of compound growth." },
+        ],
+      },
+      {
+        name: "Population Distribution",
+        terms: [
+          { term: "Population Density", definition: "The number of individuals per unit area or volume; affects competition, disease transmission, predator–prey dynamics, and resource availability." },
+          { term: "Population Dispersion", definition: "The spatial pattern of individuals within a habitat: clumped (most common), uniform, or random; reflects resource distribution and social behavior." },
+          { term: "Immigration", definition: "The movement of individuals into a population or geographic area from another; adds individuals and increases population size." },
+          { term: "Emigration", definition: "The movement of individuals out of a population or geographic area; removes individuals and decreases local population size." },
+        ],
+      },
+      {
+        name: "Life History Strategies",
+        terms: [
+          { term: "K-strategist", definition: "A species that produces few offspring with high parental investment; long-lived and adapted to stable, near-capacity environments (e.g., elephants, whales, humans)." },
+          { term: "r-strategist", definition: "A species that produces many offspring with little parental investment; short-lived and thrives in unstable, variable environments (e.g., insects, bacteria, dandelions)." },
+          { term: "Survivorship Curves (Type I, II, III)", definition: "Graphs of age-specific survival: Type I (most die old — humans), Type II (constant mortality — birds), Type III (most die young — fish, plants)." },
+          { term: "Sustainable Yield", definition: "The maximum amount of a renewable resource that can be harvested without reducing its ability to regenerate; the threshold for sustainable use." },
+        ],
+      },
+    ],
+  },
+
+  // 3.2 Population Regulation
+  {
+    id: "envsci-unit-3-2",
+    unit: 3,
+    puzzle: 2,
+    title: "Populations",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "How Populations Are Controlled",
+        terms: [
+          { term: "Density-Dependent Pop. Control", definition: "Limiting factors whose effect intensifies as population density increases (e.g., disease spreads faster, competition for food increases, predation rises)." },
+          { term: "Density-Independent Pop. Control", definition: "Limiting factors that affect a population regardless of its density (e.g., natural disasters, extreme cold, drought, volcanic eruptions)." },
+          { term: "Carrying Capacity (K)", definition: "The environmental ceiling for population size; set by resource availability and acts as the equilibrium point for logistic growth." },
+          { term: "Limiting Factor", definition: "Any resource or condition (food, water, space, light, predation) that restricts the growth, abundance, or distribution of a population." },
+        ],
+      },
+      {
+        name: "Population Instability",
+        terms: [
+          { term: "Population Overshoot", definition: "Exceeding carrying capacity due to a lag in the response of limiting factors; resources are depleted before population growth slows, leading to a crash." },
+          { term: "Demographic Bottleneck", definition: "A severe reduction in population size that distorts age structure and reduces genetic diversity; slows recovery and increases extinction risk." },
+          { term: "Biotic Potential", definition: "The maximum reproductive capacity driving population growth; when biotic potential far exceeds environmental resistance, overshoot becomes likely." },
+          { term: "Intrinsic Rate of Increase (r)", definition: "The per capita growth rate under ideal conditions; populations with high r rebound quickly from crashes but are also prone to overshoot." },
+        ],
+      },
+      {
+        name: "Reproductive & Survival Strategies",
+        terms: [
+          { term: "K-strategist", definition: "Species with low r that invest heavily in offspring and persist near K; populations recover slowly from disturbance but rarely overshoot." },
+          { term: "r-strategist", definition: "Species with high r that reproduce rapidly; prone to boom-bust cycles — rapid overshoot followed by crashes when resources collapse." },
+          { term: "Survivorship Curves (Type I, II, III)", definition: "Age-survival graphs that reveal which life stages face highest mortality; critical for identifying where population regulation acts most strongly." },
+          { term: "Replacement-Level Fertility", definition: "The total fertility rate (~2.1 in developed nations) at which a population exactly replaces itself; below this, long-term population decline follows." },
+        ],
+      },
+      {
+        name: "Key Population Metrics",
+        terms: [
+          { term: "Population Density", definition: "Number of individuals per unit area; triggers density-dependent controls — high density accelerates disease, competition, and predation." },
+          { term: "Population Dispersion", definition: "The spatial arrangement of individuals: clumped, uniform, or random; clumped dispersion amplifies density-dependent effects in resource-rich patches." },
+          { term: "Crude Birth Rate", definition: "Number of live births per 1,000 people per year; the primary driver of upward population pressure against carrying capacity." },
+          { term: "Crude Death Rate (CDR)", definition: "Number of deaths per 1,000 people per year; along with birth rate, determines whether a population is growing, stable, or declining." },
+        ],
+      },
+    ],
+  },
+
+  // 3.3 Human Population Demographics
+  {
+    id: "envsci-unit-3-3",
+    unit: 3,
+    puzzle: 3,
+    title: "Populations",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Vital Statistics",
+        terms: [
+          { term: "Crude Birth Rate", definition: "Number of live births per 1,000 people per year; high in developing countries; falls as women gain education, rights, and healthcare access." },
+          { term: "Crude Death Rate (CDR)", definition: "Number of deaths per 1,000 people per year; declines with improved medicine and sanitation; one driver of the demographic transition." },
+          { term: "Total Fertility Rate (TFR)", definition: "The average number of children a woman is expected to have over her lifetime; the single most important predictor of long-term population growth." },
+          { term: "Infant Mortality Rate", definition: "Deaths of infants under 1 year old per 1,000 live births; a sensitive measure of healthcare quality, nutrition, and development level." },
+        ],
+      },
+      {
+        name: "Population Structure Tools",
+        terms: [
+          { term: "Age Structure Diagram", definition: "A population pyramid showing distribution by age and sex; a wide base indicates rapid growth; a narrow base signals declining or stable population." },
+          { term: "Baby Boom", definition: "The sharp rise in birth rates after WWII (1946–1964 in the U.S.); created a large demographic cohort with lasting economic and environmental impacts." },
+          { term: "Demographic Transition", definition: "A four-stage model showing how birth and death rates both fall as a country industrializes; ultimately leads to slow or zero population growth." },
+          { term: "Replacement-Level Fertility", definition: "A TFR of ~2.1 at which a population exactly replaces itself; countries consistently below this level (e.g., Japan, Germany) face aging populations." },
+        ],
+      },
+      {
+        name: "Migration & Movement",
+        terms: [
+          { term: "Immigration", definition: "Movement of people into a country or region; can increase population size, alter age structure, and offset low birth rates in developed nations." },
+          { term: "Emigration", definition: "Movement of people out of a country or region; can relieve population pressure in densely populated developing nations." },
+          { term: "Population Density", definition: "Number of people per unit area; high-density regions strain water supplies, housing, transportation, and food systems." },
+          { term: "Growth Rate", definition: "Annual net population change as a percentage; driven by the balance of births, deaths, immigration, and emigration." },
+        ],
+      },
+      {
+        name: "Economic Development Indicators",
+        terms: [
+          { term: "Gross Domestic Product (GDP)", definition: "The total monetary value of goods and services produced in a country per year; used to classify nations and measure economic capacity to address environmental issues." },
+          { term: "Per Capita", definition: "Per person; GDP per capita divides total output by population to measure average living standard and per-person environmental impact." },
+          { term: "Developed Country", definition: "A high-income, industrialized nation with low birth rates, high life expectancy, advanced infrastructure, and high per capita resource consumption." },
+          { term: "Developing Country", definition: "A lower-income nation typically experiencing rapid population growth, higher birth rates, lower life expectancy, and less-developed infrastructure." },
+        ],
+      },
+    ],
+  },
+
+  // 3.4 Development, Policy & Sustainability
+  {
+    id: "envsci-unit-3-4",
+    unit: 3,
+    puzzle: 4,
+    title: "Populations",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Levels of Development",
+        terms: [
+          { term: "More Developed Country (MDC)", definition: "A high-income, post-industrial nation with low birth/death rates, aging population, high HDI, and high per capita energy and resource use." },
+          { term: "Less Developed Country (LDC)", definition: "A lower-income nation with high birth rates, young age structure, lower HDI, and rapidly growing population; home to most future global population growth." },
+          { term: "Affluence", definition: "A high standard of living and material wealth; affluence drives higher per capita resource consumption and environmental impact (I = P × A × T)." },
+          { term: "Gross Domestic Product (GDP)", definition: "A nation's total economic output per year; used to classify development level and to estimate capacity to invest in environmental protection." },
+        ],
+      },
+      {
+        name: "Resources & Economic Tools",
+        terms: [
+          { term: "Nonrenewable Resource", definition: "A resource that cannot be replenished on a human timescale once consumed (e.g., fossil fuels, minerals); extraction is inherently finite." },
+          { term: "Sustainable Yield", definition: "Maximum harvest of a renewable resource without impairing its ability to regenerate; the cornerstone of sustainable forestry, fisheries, and water management." },
+          { term: "Per Capita", definition: "Per person; per capita consumption reveals how much of the environmental burden falls on individuals vs. population size or economic growth." },
+          { term: "Subsidies", definition: "Government financial support (payments, tax breaks) for industries or products; fossil fuel subsidies can distort markets and discourage sustainable alternatives." },
+        ],
+      },
+      {
+        name: "Population Policy",
+        terms: [
+          { term: "Family Planning", definition: "Programs providing access to contraception, reproductive health education, and maternal care; the most effective voluntary strategy for slowing population growth." },
+          { term: "Total fertility Rate (TFR)", definition: "Average children per woman; TFR falls reliably with increased access to education (especially for women), family planning, and economic development." },
+          { term: "Demographic Transition", definition: "The model predicting that as countries develop, birth and death rates both fall, leading to slower population growth and eventually stabilization." },
+          { term: "Replacement-Level Fertility", definition: "TFR of ~2.1; nations consistently below this face workforce shortages and social security strain as their populations age." },
+        ],
+      },
+      {
+        name: "Human Impact on Population Dynamics",
+        terms: [
+          { term: "Anthropogenic", definition: "Caused by human activity; anthropogenic drivers (pollution, habitat loss, climate change) alter carrying capacities for both wildlife and human populations." },
+          { term: "Population Overshoot", definition: "When human consumption exceeds Earth's regenerative capacity; linked to resource depletion, ecosystem degradation, and long-term decline in carrying capacity." },
+          { term: "Rule of 70", definition: "70 ÷ annual growth rate (%) = approximate doubling time; demonstrates how even modest growth rates compound rapidly over decades." },
+          { term: "Baby Boom", definition: "A period of elevated birth rates (post-WWII U.S.); the resulting demographic bulge drives resource demand, healthcare costs, and social security pressure as it ages." },
+        ],
+      },
+    ],
+  },
+
+  // ── UNIT 4 · Earth Systems & Resources ──────────────────────────────
+
+  // 4.1 Plate Tectonics & Earth Structure
+  {
+    id: "envsci-unit-4-1",
+    unit: 4,
+    puzzle: 1,
+    title: "Earth Systems & Resources",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Earth's Structural Layers",
+        terms: [
+          { term: "Lithosphere", definition: "Earth's rigid outer shell, composed of the crust and upper mantle; broken into tectonic plates that move on the underlying asthenosphere." },
+          { term: "Asthenosphere", definition: "The semi-fluid, partially molten layer of the upper mantle just below the lithosphere; its plasticity allows tectonic plates to move." },
+          { term: "Mantle", definition: "Earth's thick middle layer between the crust and core; composed mostly of silicate rock; the source of magma that drives volcanic activity." },
+          { term: "Hot Spot", definition: "A stationary plume of magma rising through the mantle that creates volcanic activity; as a plate moves over it, a chain of volcanic islands forms (e.g., Hawaii)." },
+        ],
+      },
+      {
+        name: "Plate Boundary Types",
+        terms: [
+          { term: "Convergent Plate Boundary", definition: "Where two tectonic plates move toward each other; creates mountain ranges, ocean trenches, and subduction zones; associated with earthquakes and volcanoes." },
+          { term: "Divergent Plate Boundary", definition: "Where two tectonic plates move apart; creates mid-ocean ridges, rift valleys, and new oceanic crust through sea floor spreading." },
+          { term: "Transform Fault", definition: "A plate boundary where two plates slide horizontally past each other; causes significant earthquakes (e.g., the San Andreas Fault)." },
+          { term: "Subduction", definition: "The process where a denser oceanic plate slides beneath a less-dense plate at a convergent boundary; creates deep trenches, volcanic arcs, and earthquakes." },
+        ],
+      },
+      {
+        name: "Tectonic Features",
+        terms: [
+          { term: "Tectonic Plate", definition: "One of Earth's large, rigid pieces of lithosphere that moves on the asthenosphere; their interactions drive earthquakes, volcanoes, and mountain building." },
+          { term: "Ring of Fire", definition: "A zone circling the Pacific Ocean where a large number of earthquakes and volcanic eruptions occur; associated with subduction of Pacific plates." },
+          { term: "Rift Valley", definition: "A low-lying landform created where diverging tectonic plates pull apart; may eventually become an ocean basin (e.g., East African Rift)." },
+          { term: "Island Arc", definition: "A curved chain of volcanic islands formed when an oceanic plate subducts beneath another plate, generating magma that erupts above sea level." },
+        ],
+      },
+      {
+        name: "Rocks & Surface Processes",
+        terms: [
+          { term: "Igneous Rock", definition: "Rock formed from the cooling and solidification of magma (underground) or lava (at the surface); examples include granite and basalt." },
+          { term: "Metamorphic Rock", definition: "Rock transformed by intense heat and/or pressure without melting; examples include marble (from limestone) and slate (from shale)." },
+          { term: "Weathering", definition: "The physical and chemical breakdown of rock into smaller particles at or near Earth's surface; the first step in soil formation." },
+          { term: "Erosion", definition: "The removal and transport of weathered rock and soil particles by water, wind, ice, or gravity; can degrade land and deposit sediment downstream." },
+        ],
+      },
+    ],
+  },
+
+  // 4.2 Atmosphere & Climate Systems
+  {
+    id: "envsci-unit-4-2",
+    unit: 4,
+    puzzle: 2,
+    title: "Earth Systems & Resources",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Atmospheric Layers",
+        terms: [
+          { term: "Troposphere", definition: "The lowest atmospheric layer (0–12 km); contains 75% of atmospheric mass and all weather; temperature decreases with altitude." },
+          { term: "Mesosphere", definition: "The atmospheric layer from ~50–85 km; the coldest layer; where most meteors burn up before reaching Earth's surface." },
+          { term: "Thermosphere", definition: "The layer from ~85–600 km; absorbs high-energy solar radiation causing extreme temperatures; home to the auroras and the International Space Station." },
+          { term: "Exosphere", definition: "The outermost fringe of Earth's atmosphere; very thin gases extend thousands of km into space; where most satellites orbit." },
+        ],
+      },
+      {
+        name: "Global Wind Drivers",
+        terms: [
+          { term: "Convection Cell", definition: "A circular atmospheric pattern where warm air rises, cools and flows outward at altitude, sinks, and flows back along the surface; drives global wind belts." },
+          { term: "Coriolis Effect", definition: "The deflection of winds and ocean currents caused by Earth's rotation; deflects air to the right in the Northern Hemisphere, left in the Southern Hemisphere." },
+          { term: "Jet Stream", definition: "Narrow bands of fast-moving air near the top of the troposphere; influence the paths of storms, weather systems, and precipitation patterns globally." },
+          { term: "Global Wind Patterns", definition: "The large-scale circulation of air around Earth, organized into belts (trade winds, westerlies, polar easterlies) driven by differential solar heating and Coriolis deflection." },
+        ],
+      },
+      {
+        name: "Ocean–Atmosphere Interactions",
+        terms: [
+          { term: "El Niño (ENSO)", definition: "A periodic warming of central and eastern Pacific Ocean surface temperatures that disrupts normal trade winds and shifts precipitation patterns globally." },
+          { term: "La Niña", definition: "The opposite phase of ENSO; cooler-than-normal Pacific surface temperatures that amplify trade winds and intensify drought in some regions and flooding in others." },
+          { term: "Sea Surface Temperature (SST)", definition: "The temperature of the uppermost ocean layer; drives evaporation, storm intensity, and climate patterns; a key indicator for ENSO and climate change monitoring." },
+          { term: "Upwelling", definition: "The wind-driven movement of cold, nutrient-rich deep water to the ocean surface; suppressed during El Niño events, reducing fishery productivity." },
+        ],
+      },
+      {
+        name: "Precipitation & Wind Patterns",
+        terms: [
+          { term: "Trade Winds", definition: "Steady, reliable winds blowing from subtropical high-pressure zones toward the equatorial low; named for their historical use by sailing trade ships." },
+          { term: "Prevailing Winds", definition: "The dominant wind direction in a region, determined by pressure belts and Coriolis deflection; strongly influence precipitation and temperature patterns." },
+          { term: "Rain Shadow Effect", definition: "The dry area on the leeward (downwind) side of a mountain; moist air rises and drops precipitation on the windward side, leaving the leeward side dry." },
+          { term: "Currents", definition: "Large-scale movements of ocean water driven by wind, temperature, and salinity differences; regulate climate by redistributing heat around the planet." },
+        ],
+      },
+    ],
+  },
+
+  // 4.3 Soil Systems
+  {
+    id: "envsci-unit-4-3",
+    unit: 4,
+    puzzle: 3,
+    title: "Earth Systems & Resources",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Soil Composition",
+        terms: [
+          { term: "Humus", definition: "The dark, stable organic component of soil formed from the decomposition of plant and animal matter; improves soil structure, water retention, and fertility." },
+          { term: "Parent Material", definition: "The underlying geological material (bedrock or sediment) from which soil develops through weathering and organic accumulation over thousands of years." },
+          { term: "Loam", definition: "Soil with a roughly equal mix of sand, silt, and clay; considered ideal for agriculture because it drains well while retaining sufficient moisture and nutrients." },
+          { term: "Soil Texture", definition: "The relative proportions of sand, silt, and clay particles in soil; determines drainage, aeration, nutrient retention, and suitability for different uses." },
+        ],
+      },
+      {
+        name: "Soil Physical Properties",
+        terms: [
+          { term: "Permeability", definition: "The ability of soil or rock to transmit water; high permeability (sandy soils) allows rapid drainage; low permeability (clay soils) leads to waterlogging." },
+          { term: "Porosity", definition: "The percentage of soil or rock volume made up of open pore spaces; high porosity allows more water and air storage, supporting roots and soil organisms." },
+          { term: "Water Holding Capacity", definition: "The amount of water soil can retain against gravity after excess drains away; critical for plant survival, especially between rain events." },
+          { term: "Soil Fertility", definition: "The ability of soil to supply essential nutrients (N, P, K, and micronutrients) in plant-available forms; determined by organic matter, pH, and mineral content." },
+        ],
+      },
+      {
+        name: "Soil Profile & Horizons",
+        terms: [
+          { term: "Soil Profile", definition: "A vertical cross-section of soil from surface to bedrock, showing distinct horizontal layers (horizons) that reflect the history of soil formation." },
+          { term: "Soil Horizons (O, A, B, C)", definition: "Distinct layers in a soil profile: O = organic litter, A = topsoil (most fertile), B = subsoil (accumulation zone), C = weathered parent material." },
+          { term: "Zone of Illuviation", definition: "The B horizon, where minerals and organic matter leached from the upper horizons accumulate; often enriched in clay, iron oxides, and carbonates." },
+          { term: "Weathering", definition: "The physical and chemical breakdown of parent material that initiates soil formation; determines mineral content and soil texture over time." },
+        ],
+      },
+      {
+        name: "Soil–Water Zones",
+        terms: [
+          { term: "Zone of Aeration", definition: "The unsaturated soil zone above the water table where pore spaces contain both air and water; the root zone for most terrestrial plants." },
+          { term: "Zone of Saturation", definition: "The zone below the water table where all pore spaces are completely filled with water; the location of groundwater stored in aquifers." },
+          { term: "Infiltration", definition: "The downward movement of surface water into soil; rate depends on soil texture, porosity, and whether the soil is already saturated." },
+          { term: "Soil Texture Triangle", definition: "A triangular diagram used to classify soil type based on the percentages of sand, silt, and clay; the standard tool for determining loam, clay, sandy loam, etc." },
+        ],
+      },
+    ],
+  },
+
+  // 4.4 Water & Groundwater Systems
+  {
+    id: "envsci-unit-4-4",
+    unit: 4,
+    puzzle: 4,
+    title: "Earth Systems & Resources",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Groundwater Storage",
+        terms: [
+          { term: "Aquifer", definition: "An underground layer of permeable rock, sediment, or soil that stores and transmits groundwater; the source of water for wells and springs." },
+          { term: "Groundwater", definition: "Water stored underground in the saturated zone of soil and rock; fed by infiltration; accounts for about 30% of Earth's freshwater." },
+          { term: "Natural Recharge", definition: "The process by which precipitation and surface water percolate through soil to replenish an aquifer; recharge rates are often much slower than extraction rates." },
+          { term: "Zone of Saturation", definition: "The underground zone where all pore spaces are filled with water; the upper boundary is the water table; the location of groundwater reserves." },
+        ],
+      },
+      {
+        name: "Water Movement Through Land",
+        terms: [
+          { term: "Infiltration", definition: "The movement of surface water down through soil into groundwater; reduced by compaction, impervious surfaces, and saturated soil." },
+          { term: "Watershed", definition: "An area of land that drains into a common body of water; the fundamental unit for managing water resources and tracking pollution sources." },
+          { term: "Erosion", definition: "The transport of soil and rock by water, wind, or ice; degrades land productivity, silts up waterways, and reduces aquifer recharge." },
+          { term: "Permeability", definition: "The rate at which water moves through soil or rock; determines how quickly recharge occurs and how well an aquifer can store and yield water." },
+        ],
+      },
+      {
+        name: "Ocean Circulation & Movement",
+        terms: [
+          { term: "Currents", definition: "Large-scale, continuous movements of ocean water driven by wind, temperature, and salinity; redistribute heat globally and influence regional climates." },
+          { term: "Upwelling", definition: "The rising of cold, nutrient-rich water from ocean depths to the surface; drives some of the world's most productive fisheries along coastlines." },
+          { term: "Sea Floor Spreading", definition: "The process where new oceanic crust is created at divergent boundaries as magma wells up; drives plate movement and shapes ocean basin depth and circulation." },
+          { term: "Convection Cell", definition: "Circular movement of water (or air) driven by density differences from heating and cooling; drives deep ocean circulation (thermohaline circulation)." },
+        ],
+      },
+      {
+        name: "Soil–Water Storage Properties",
+        terms: [
+          { term: "Zone of Aeration", definition: "The unsaturated zone above the water table; stores some water in pore spaces but also contains air; the zone through which recharge water passes." },
+          { term: "Porosity", definition: "The percentage of open pore space in soil or rock; high porosity allows more water storage and faster recharge of aquifers." },
+          { term: "Water Holding Capacity", definition: "The volume of water soil can hold against gravity; critical for recharge dynamics — low capacity means water moves quickly to the water table." },
+          { term: "Loam", definition: "Soil with balanced sand, silt, and clay; moderate permeability and water holding capacity make it ideal for both agriculture and steady aquifer recharge." },
+        ],
+      },
+    ],
+  },
+
+  // ── UNIT 5 · Land & Water Use ────────────────────────────────────────
+
+  // 5.1 Agriculture & Food Production
+  {
+    id: "envsci-unit-5-1",
+    unit: 5,
+    puzzle: 1,
+    title: "Land & Water Use",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Agricultural Systems",
+        terms: [
+          { term: "Industrialized Agriculture", definition: "Large-scale farming using machinery, synthetic fertilizers, pesticides, and high-yield varieties; produces large quantities but carries significant environmental costs." },
+          { term: "Monoculture", definition: "Growing a single crop species across a large area; efficient and high-yield but depletes soil nutrients, increases erosion risk, and is highly vulnerable to pests and disease." },
+          { term: "Subsistence Farming", definition: "Growing crops primarily to feed one's own family with little or no surplus; common in developing countries; low-tech and low environmental impact per acre." },
+          { term: "Traditional Agriculture", definition: "Low-input farming relying on human labor, animal power, and simple tools; lower yields than industrialized methods but minimal fossil fuel use and chemical inputs." },
+        ],
+      },
+      {
+        name: "Irrigation Methods",
+        terms: [
+          { term: "Drip Irrigation", definition: "Delivers water directly to plant roots through small tubes; the most water-efficient irrigation method; minimizes evaporation, runoff, and soil salinization." },
+          { term: "Furrow Irrigation", definition: "Water flows by gravity through channels between crop rows; simple and inexpensive but water-inefficient and promotes runoff and salinization." },
+          { term: "Spray Irrigation", definition: "Overhead sprinkler systems distribute water across fields; more efficient than furrow irrigation but loses water to evaporation and can promote fungal disease." },
+          { term: "Salinization", definition: "The buildup of salts in soil from evaporation of irrigation water; reduces soil fertility over time and can permanently render farmland unproductive." },
+        ],
+      },
+      {
+        name: "Nutritional Challenges",
+        terms: [
+          { term: "Malnutrition", definition: "A condition caused by an insufficient, excessive, or unbalanced diet; encompasses both undernutrition and overnutrition; affects billions worldwide." },
+          { term: "Undernutrition", definition: "Insufficient intake of calories and/or essential nutrients; leads to stunted growth, weakened immunity, and increased susceptibility to disease." },
+          { term: "Overnutrition", definition: "Excessive food intake, particularly of calories and unhealthy foods; leads to obesity, diabetes, and cardiovascular disease; increasingly common globally." },
+          { term: "Kwashiorkor", definition: "Severe protein malnutrition most common in young children; causes swollen abdomen, muscle wasting, skin lesions, and impaired development." },
+        ],
+      },
+      {
+        name: "Industrialized Food System Issues",
+        terms: [
+          { term: "CAFOs", definition: "Concentrated Animal Feeding Operations; large industrial facilities housing thousands of animals in confined spaces; highly efficient but generate massive waste, pollution, and antibiotic resistance." },
+          { term: "Factory Farming", definition: "Intensive industrialized animal agriculture in CAFOs; raises serious concerns about animal welfare, water pollution from waste, and the spread of antibiotic-resistant bacteria." },
+          { term: "Famine", definition: "A severe, widespread food shortage resulting in mass malnutrition and starvation; caused by drought, conflict, crop failure, or distribution failures." },
+          { term: "Food Security", definition: "The condition in which all people at all times have physical, social, and economic access to sufficient, safe, and nutritious food to maintain a healthy life." },
+        ],
+      },
+    ],
+  },
+
+  // 5.2 Fishing, Forestry & Mining
+  {
+    id: "envsci-unit-5-2",
+    unit: 5,
+    puzzle: 2,
+    title: "Land & Water Use",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Commercial Fishing Methods",
+        terms: [
+          { term: "Bottom Trawling", definition: "Dragging weighted nets across the seafloor to catch fish; extremely destructive to benthic habitat structure and generates very high by-catch." },
+          { term: "Gill Netting", definition: "Mesh nets suspended vertically in the water column that trap fish by their gills; can entangle non-target species including dolphins, sea turtles, and seabirds." },
+          { term: "Long-Line Fishing", definition: "Setting lines of hundreds to thousands of baited hooks extending miles to catch open-ocean species; significant by-catch of sharks, seabirds, and sea turtles." },
+          { term: "Purse-Seine Fishing", definition: "Encircling an entire fish school with a large net, then closing the bottom like a drawstring purse; highly efficient but can accidentally capture non-target species." },
+        ],
+      },
+      {
+        name: "Mining Methods",
+        terms: [
+          { term: "Open-Pit Mining", definition: "Excavating a large open hole to extract ore near the surface; cheaper than underground mining but causes massive land disturbance, erosion, and habitat loss." },
+          { term: "Subsurface Mining", definition: "Extracting minerals through underground tunnels; less surface disturbance than open-pit but risks cave-ins, flooding, and toxic gas exposure for workers." },
+          { term: "Strip Mining", definition: "Removing overlying rock and soil (overburden) in strips to expose shallow ore or coal seams; devastates surface ecosystems and produces large waste piles." },
+          { term: "Mountaintop Removal", definition: "Blasting away mountain summits to access coal seams below; destroys entire ecosystems, buries streams under debris, and contaminates water supplies." },
+        ],
+      },
+      {
+        name: "Forestry Practices",
+        terms: [
+          { term: "Clear Cutting", definition: "Removing all trees from an area at once; maximizes short-term timber yield but destroys habitat, causes severe erosion, and eliminates wildlife diversity." },
+          { term: "Selective Cutting", definition: "Removing only mature, damaged, or specific trees while leaving others; less disruptive than clear cutting; can support sustainable timber production." },
+          { term: "Strip Cutting", definition: "Clear-cutting in alternating narrow strips to allow natural regeneration from adjacent uncut forest; a compromise between yield and ecological recovery." },
+          { term: "Second-Growth Forests", definition: "Forests that regrow after logging or clearing; typically less structurally complex and biodiverse than old-growth forests but still valuable ecologically." },
+        ],
+      },
+      {
+        name: "Overexploitation & Waste",
+        terms: [
+          { term: "Overfishing", definition: "Harvesting fish faster than populations can reproduce; leads to stock collapse; affects most of the world's major fisheries and threatens marine food webs." },
+          { term: "By-catch", definition: "Non-target species accidentally caught and typically discarded dead during commercial fishing; a major driver of marine biodiversity loss." },
+          { term: "Tailings", definition: "Waste rock and processed material remaining after ore extraction; often contain toxic heavy metals and acid-generating minerals that can contaminate soil and water." },
+          { term: "Overburden", definition: "The rock and soil removed to expose ore in surface mining; disposal creates massive waste piles that alter drainage patterns and bury wildlife habitat." },
+        ],
+      },
+    ],
+  },
+
+  // 5.3 Sustainable Land Use
+  {
+    id: "envsci-unit-5-3",
+    unit: 5,
+    puzzle: 3,
+    title: "Land & Water Use",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Sustainable Farming Techniques",
+        terms: [
+          { term: "Crop Rotation", definition: "Alternating different crops in the same field each season; restores soil nutrients, breaks pest and disease cycles, and reduces dependence on synthetic fertilizers." },
+          { term: "Contour Farming", definition: "Plowing and planting along the contour lines of slopes rather than up and down; reduces runoff velocity and dramatically decreases soil erosion." },
+          { term: "Conservation-Tillage Farming", definition: "Minimizing soil disturbance by leaving crop residue on fields; reduces erosion, retains moisture, improves soil structure, and stores more carbon." },
+          { term: "No-till Agriculture", definition: "Planting crops without plowing; preserves soil structure and organisms, reduces erosion, retains carbon, and cuts fuel costs — at the cost of increased herbicide use." },
+        ],
+      },
+      {
+        name: "Alternative Agricultural Methods",
+        terms: [
+          { term: "Agroforestry", definition: "Integrating trees with crops and/or livestock on the same land; improves soil health, provides shade and windbreaks, increases biodiversity, and sequesters carbon." },
+          { term: "Polyculture", definition: "Growing multiple crop species together in the same space; mimics natural ecosystems, reduces pest pressure, improves soil health, and increases resilience." },
+          { term: "Organic Farming", definition: "Agriculture without synthetic pesticides or fertilizers; uses natural inputs, crop rotation, composting, and biological pest control to maintain soil health." },
+          { term: "Integrated Pest Management (IPM)", definition: "A strategy combining biological, cultural, physical, and chemical methods to control pests while minimizing pesticide use, cost, and environmental harm." },
+        ],
+      },
+      {
+        name: "Sustainable Resource Management",
+        terms: [
+          { term: "Sustainable Forestry", definition: "Harvesting timber at rates that allow forests to regenerate naturally; maintains biodiversity, watershed function, carbon storage, and long-term timber supply." },
+          { term: "Rotational Grazing", definition: "Moving livestock between pastures on a schedule to allow vegetation recovery; prevents overgrazing, maintains soil health, and sustains grassland biodiversity." },
+          { term: "Shelterbelts", definition: "Rows of trees or shrubs planted alongside fields to reduce wind speed, prevent wind erosion, protect crops, and provide wildlife corridors (windbreaks)." },
+          { term: "Seed Bank", definition: "A facility that stores seeds of diverse crop and wild plant varieties; preserves genetic diversity against crop failures, disease, climate change, and extinction." },
+        ],
+      },
+      {
+        name: "Land Use & Policy Concepts",
+        terms: [
+          { term: "Sustainable Agriculture", definition: "Farming that maintains long-term soil fertility, biodiversity, water quality, and productivity without depleting natural resources or harming future generations." },
+          { term: "Green Revolution", definition: "Mid-20th-century transformation of agriculture through high-yield crop varieties, irrigation expansion, and synthetic fertilizers; dramatically increased food production but raised environmental concerns." },
+          { term: "Ecological Footprint", definition: "A measure of the land and water area required to produce the resources a person or population consumes and to absorb the resulting waste; tracks sustainability." },
+          { term: "Tragedy of the Commons", definition: "The overexploitation of shared, unregulated resources because individuals acting in self-interest deplete the resource to the detriment of everyone (e.g., overfishing, overgrazing)." },
+        ],
+      },
+    ],
+  },
+
+  // ── UNIT 6 · Energy Resources & Consumption ─────────────────────────
+
+  // 6.1 Fossil Fuels
+  {
+    id: "envsci-unit-6-1",
+    unit: 6,
+    puzzle: 1,
+    title: "Energy Resources & Consumption",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Coal Types (Lowest → Highest Quality)",
+        terms: [
+          { term: "Peat", definition: "Partially decomposed organic matter; the first stage of coal formation; high moisture, low energy content; used as fuel in some regions (e.g., Ireland, Russia)." },
+          { term: "Lignite", definition: "The lowest-grade, softest coal; high moisture content and low carbon; produces the most pollution per unit of energy; also called brown coal." },
+          { term: "Bituminous Coal", definition: "The most abundant and widely used coal; moderate to high carbon content; primary fuel for electricity generation and steel (coke) production." },
+          { term: "Anthracite Coal", definition: "The highest-grade, hardest coal; greatest carbon content and energy output; burns cleanest of all coal types but is the least abundant." },
+        ],
+      },
+      {
+        name: "Oil & Gas Fundamentals",
+        terms: [
+          { term: "Crude Oil", definition: "Raw, unrefined petroleum extracted from underground reservoirs; refined into gasoline, diesel, jet fuel, heating oil, and petrochemicals." },
+          { term: "Natural Gas", definition: "A fossil fuel composed primarily of methane (CH₄); the cleanest-burning fossil fuel; used for heating, electricity generation, and industrial processes." },
+          { term: "Hydrocarbons", definition: "Organic compounds composed only of hydrogen and carbon; the chemical building blocks of all fossil fuels — coal, oil, and natural gas." },
+          { term: "Fossil Fuels", definition: "Fuels formed from the compressed, heated remains of ancient organisms over millions of years; include coal, oil, and natural gas; nonrenewable on a human timescale." },
+        ],
+      },
+      {
+        name: "Unconventional Fossil Fuels",
+        terms: [
+          { term: "Hydraulic Fracturing (Fracking)", definition: "Injecting high-pressure fluid into rock to fracture it and release trapped natural gas or oil; controversial due to water use, potential groundwater contamination, and induced earthquakes." },
+          { term: "Oil Sands (Tar Sands)", definition: "Deposits of sand or clay saturated with heavy crude oil (bitumen); require energy-intensive strip mining and processing; major source in Alberta, Canada." },
+          { term: "Oil Shale", definition: "Sedimentary rock containing kerogen, a solid organic material that can be converted to oil by heating; large global deposits but very energy-intensive to process." },
+          { term: "Shale Oil", definition: "Liquid petroleum extracted from shale rock formations using hydraulic fracturing; drove the U.S. energy boom after 2010 and made the U.S. the world's top oil producer." },
+        ],
+      },
+      {
+        name: "Oil Industry Concepts",
+        terms: [
+          { term: "Fractional Distillation", definition: "The refinery process of separating crude oil into its component products (gasoline, diesel, jet fuel, kerosene) based on their different boiling points." },
+          { term: "Petrochemicals", definition: "Chemical products derived from petroleum or natural gas; the raw materials for plastics, synthetic fertilizers, pesticides, pharmaceuticals, and synthetic fibers." },
+          { term: "Peak Oil", definition: "The point at which global oil production reaches its maximum rate and begins to permanently decline; debate continues over whether it has occurred or is imminent." },
+          { term: "OPEC", definition: "Organization of the Petroleum Exporting Countries; a cartel of major oil-producing nations that coordinates production levels to influence global oil prices and revenues." },
+        ],
+      },
+    ],
+  },
+
+  // 6.2 Nuclear Energy
+  {
+    id: "envsci-unit-6-2",
+    unit: 6,
+    puzzle: 2,
+    title: "Energy Resources & Consumption",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Nuclear Processes",
+        terms: [
+          { term: "Nuclear Fission", definition: "Splitting a heavy atomic nucleus (e.g., Uranium-235) into smaller fragments, releasing enormous energy; the process powering all commercial nuclear reactors." },
+          { term: "Nuclear Fusion", definition: "Joining two light nuclei (e.g., hydrogen isotopes) to form a heavier nucleus, releasing even more energy than fission; powers the sun but not yet commercially viable on Earth." },
+          { term: "Radioactive Decay", definition: "The spontaneous emission of radiation from an unstable atomic nucleus as it transforms into a more stable form; produces alpha, beta, or gamma radiation." },
+          { term: "Chain Reaction", definition: "A self-sustaining sequence of fission events in which neutrons released from one split nucleus trigger additional fissions; controlled in reactors, uncontrolled in bombs." },
+        ],
+      },
+      {
+        name: "Nuclear Reactor Components",
+        terms: [
+          { term: "Fuel Rod", definition: "Metal tubes containing nuclear fuel pellets (usually enriched uranium) that undergo fission inside a reactor core; must be replaced when depleted." },
+          { term: "Control Rod", definition: "Rods made of neutron-absorbing material (boron, cadmium) inserted into a reactor to slow or stop the chain reaction by absorbing neutrons." },
+          { term: "Light Water Nuclear Reactor", definition: "The most common nuclear reactor type; uses ordinary (light) water as both coolant and moderator to sustain and control the fission chain reaction." },
+          { term: "Breeder Nuclear Fission Reactor", definition: "A reactor that produces more fissile material than it consumes by converting non-fissile isotopes; extends fuel supply but increases proliferation risk." },
+        ],
+      },
+      {
+        name: "Radioactivity Concepts",
+        terms: [
+          { term: "Isotope", definition: "Atoms of the same element with the same number of protons but different numbers of neutrons; some isotopes are radioactive (e.g., Carbon-14, Uranium-235, Iodine-131)." },
+          { term: "Uranium-235", definition: "The fissile isotope of uranium used as fuel in most nuclear reactors; makes up only 0.7% of natural uranium and must be enriched to ~3–5% for reactor use." },
+          { term: "Gamma Rays", definition: "High-energy electromagnetic radiation emitted during radioactive decay; the most penetrating form of ionizing radiation; requires dense shielding such as lead or thick concrete." },
+          { term: "Radiation", definition: "Energy emitted as electromagnetic waves or particles from radioactive atoms; ionizing radiation carries enough energy to remove electrons from atoms and damage DNA." },
+        ],
+      },
+      {
+        name: "Nuclear Waste & Challenges",
+        terms: [
+          { term: "High-Level Radioactive Waste", definition: "Highly radioactive spent nuclear fuel and weapons materials; remains dangerous for tens of thousands of years; requires deep geological disposal." },
+          { term: "Low-Level Radioactive Waste", definition: "Mildly radioactive materials (contaminated clothing, tools, medical equipment) from nuclear plants and hospitals; less hazardous but still requires regulated disposal." },
+          { term: "Decommissioning", definition: "The safe shutdown, decontamination, and dismantling of a nuclear plant at the end of its operational life; a decades-long, expensive process." },
+          { term: "Estimated Reserves", definition: "The total calculated quantity of a nonrenewable resource (coal, oil, uranium) including known deposits and predicted undiscovered quantities; uncertain by nature." },
+        ],
+      },
+    ],
+  },
+
+  // 6.3 Renewable Energy
+  {
+    id: "envsci-unit-6-3",
+    unit: 6,
+    puzzle: 3,
+    title: "Energy Resources & Consumption",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Solar Energy Technologies",
+        terms: [
+          { term: "Photovoltaic Cells (PV)", definition: "Semiconductor devices that convert sunlight directly into electricity; used in rooftop solar panels and utility-scale solar farms; costs have fallen dramatically." },
+          { term: "Active Solar Heating System", definition: "Uses mechanical equipment — pumps, fans, and solar collectors — to capture solar energy and actively distribute heat for water or space heating." },
+          { term: "Passive Solar Heating System", definition: "Building design that uses orientation, large south-facing windows, and thermal mass to naturally collect and store solar heat without any mechanical systems." },
+          { term: "Solar Power Tower", definition: "A concentrating solar power (CSP) system using a field of mirrors (heliostats) to focus sunlight onto a central tower, producing steam to drive a turbine." },
+        ],
+      },
+      {
+        name: "Other Renewable Sources",
+        terms: [
+          { term: "Wind Turbine", definition: "A device that converts the kinetic energy of wind into electricity through rotating blades connected to a generator; the fastest-growing global energy source." },
+          { term: "Hydroelectric Power", definition: "Electricity generated by capturing the energy of flowing or falling water through a dam or run-of-river system; the largest source of renewable electricity worldwide." },
+          { term: "Geothermal Energy", definition: "Heat energy from the Earth's interior used to generate electricity in geothermal plants or directly for heating buildings; reliable and available 24/7." },
+          { term: "Tidal Energy", definition: "Electricity generated by harnessing the predictable rise and fall of ocean tides; limited to coastal areas with large tidal ranges but extremely reliable." },
+        ],
+      },
+      {
+        name: "Biofuels",
+        terms: [
+          { term: "Biomass Energy", definition: "Energy derived from burning or chemically converting biological materials (wood, crop waste, manure); the oldest energy source; carbon-neutral only if sustainably managed." },
+          { term: "Biofuel", definition: "Liquid or gas fuel produced from biological materials; a renewable substitute for petroleum fuels; includes ethanol and biodiesel." },
+          { term: "Ethanol", definition: "Alcohol fuel produced by fermenting sugars from corn, sugarcane, or switchgrass; blended with gasoline (E10, E85) in the U.S. to reduce petroleum dependence." },
+          { term: "Biodiesel", definition: "Fuel made from vegetable oils, animal fats, or recycled cooking grease; can be used in diesel engines with little modification; lower emissions than petroleum diesel." },
+        ],
+      },
+      {
+        name: "Energy Resource Concepts",
+        terms: [
+          { term: "Renewable Energy", definition: "Energy from sources naturally replenished on a human timescale — sun, wind, water, geothermal heat, and biomass; key to reducing fossil fuel dependence." },
+          { term: "Nonrenewable Energy", definition: "Energy from finite sources that cannot be replenished on a human timescale — coal, oil, natural gas, and nuclear; supply about 80% of current global energy." },
+          { term: "Hydrogen Fuel Cell", definition: "A device that generates electricity through the electrochemical reaction of hydrogen and oxygen; emits only water vapor; a promising clean energy carrier." },
+          { term: "CAFE Standards", definition: "Corporate Average Fuel Economy standards; U.S. regulations requiring automakers to meet fleet-wide fuel efficiency targets, driving development of more efficient and electric vehicles." },
+        ],
+      },
+    ],
+  },
+
+  // 6.4 Energy Efficiency & Conservation
+  {
+    id: "envsci-unit-6-4",
+    unit: 6,
+    puzzle: 4,
+    title: "Energy Resources & Consumption",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Lighting Efficiency",
+        terms: [
+          { term: "LED Lightbulb", definition: "Light-emitting diode bulb; uses 75–80% less energy than incandescent and lasts 25× longer; now the most energy-efficient and cost-effective common lighting technology." },
+          { term: "Compact Fluorescent Light Bulb (CFL)", definition: "Uses ~75% less energy than incandescent; lasts 10× longer; contains small amounts of mercury requiring special disposal; largely superseded by LEDs." },
+          { term: "Incandescent Bulb", definition: "Traditional bulb using a heated tungsten filament; converts only ~10% of energy to light, wasting 90% as heat; being phased out globally in favor of efficient alternatives." },
+          { term: "Energy Efficiency", definition: "Using less energy to accomplish the same task; improvements in efficiency reduce costs and emissions without sacrificing service; often the cheapest clean energy option." },
+        ],
+      },
+      {
+        name: "Green Building Technologies",
+        terms: [
+          { term: "LEED Program", definition: "Leadership in Energy and Environmental Design; a green building certification rating buildings on energy use, water efficiency, materials, site, and indoor air quality." },
+          { term: "Green Roof", definition: "A roof partially or fully covered with vegetation and growing medium; insulates the building, reduces stormwater runoff, mitigates urban heat island effect, and provides habitat." },
+          { term: "Weather Stripping", definition: "Sealing material applied around doors and windows to prevent air infiltration; one of the cheapest and most effective ways to reduce heating and cooling energy use." },
+          { term: "Multi-Paned Windows", definition: "Windows with two or three glass panes separated by insulating gas; significantly reduce heat loss in winter and heat gain in summer compared to single-pane windows." },
+        ],
+      },
+      {
+        name: "Efficient Vehicle Technologies",
+        terms: [
+          { term: "Hybrid Vehicle", definition: "Uses both a gasoline engine and an electric motor; battery charged by regenerative braking; significantly more fuel-efficient than conventional vehicles in city driving." },
+          { term: "Plug-In Hybrid Vehicle", definition: "A hybrid that can also be charged from an external electrical outlet; can operate on electricity alone for short trips, dramatically reducing gasoline use." },
+          { term: "Battery Electric Vehicle (BEV)", definition: "A vehicle powered entirely by electricity stored in rechargeable batteries; zero tailpipe emissions; range and charging infrastructure availability are the main adoption barriers." },
+          { term: "Cogeneration", definition: "Simultaneously generating electricity and capturing waste heat for heating or industrial use (combined heat and power); raises total energy efficiency from ~35% to ~80%." },
+        ],
+      },
+      {
+        name: "Energy Conservation Measures",
+        terms: [
+          { term: "Energy Conservation", definition: "Reducing total energy consumption by changing behavior or eliminating unnecessary use; considered the cheapest, fastest way to reduce carbon emissions and energy costs." },
+          { term: "Geothermal Heat Pump", definition: "Uses stable underground temperatures to heat buildings in winter and cool them in summer; 3–5× more efficient than conventional HVAC systems; works anywhere." },
+          { term: "Tankless Hot Water Heater", definition: "Heats water on demand rather than maintaining a full tank; uses 24–34% less energy than conventional storage water heaters; eliminates standby heat loss." },
+          { term: "Low-Quality Energy", definition: "Energy that is diffuse, low-temperature, or otherwise less useful for doing work (e.g., waste heat); high-quality energy (electricity, combustion) degrades to low-quality with use." },
+        ],
+      },
+    ],
+  },
+
+  // 7.1 Air Pollutants & Sources
+  {
+    id: "envsci-unit-7-1",
+    unit: 7,
+    puzzle: 1,
+    title: "Atmospheric Pollution",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Combustion Pollutants",
+        terms: [
+          { term: "Carbon Monoxide", definition: "Colorless, odorless gas produced by incomplete combustion; binds to hemoglobin and reduces blood's oxygen-carrying capacity; major vehicle emission." },
+          { term: "Sulfur Dioxide", definition: "Gas released when sulfur-containing fossil fuels (especially coal) are burned; irritates airways and is a precursor to acid rain and sulfate particulates." },
+          { term: "Nitrogen Dioxide", definition: "Reddish-brown gas from high-temperature combustion in vehicles and power plants; reacts in sunlight to form smog; irritates lung tissue." },
+          { term: "Particulate Matter", definition: "Tiny solid or liquid particles suspended in air; PM2.5 penetrates deep into lungs, causing cardiovascular and respiratory disease; from combustion, dust, and smoke." },
+        ],
+      },
+      {
+        name: "Pollution Sources",
+        terms: [
+          { term: "Point Source Pollution", definition: "Air pollution that comes from a single, identifiable location such as a smokestack or exhaust pipe; easier to regulate than non-point sources." },
+          { term: "Non-Point Source Pollution", definition: "Air pollution that comes from many diffuse sources — agricultural dust, vehicle exhaust across a city, wildfire smoke; harder to regulate or control." },
+          { term: "Stationary Source", definition: "Fixed, immobile pollution source like a power plant, factory, or refinery; regulated under the Clean Air Act through emissions permits and technology standards." },
+          { term: "Mobile Source", definition: "Moving source of air pollution — cars, trucks, planes, ships; collectively the largest contributor to urban air pollution in developed countries." },
+        ],
+      },
+      {
+        name: "Health Effects",
+        terms: [
+          { term: "Respiratory Irritation", definition: "Inflammation and damage to the airways and lung tissue caused by exposure to ozone, particulates, sulfur dioxide, or other air pollutants." },
+          { term: "Cardiovascular Disease", definition: "Long-term exposure to fine particulate matter and other air pollutants increases risk of heart attack, stroke, and artery hardening." },
+          { term: "Lung Cancer", definition: "Chronic exposure to air pollutants including particulate matter, benzene, and radon significantly increases the risk of malignant lung tumors." },
+          { term: "Asthma", definition: "Chronic inflammatory airway condition triggered or worsened by air pollutants including ozone, particulates, and sulfur dioxide; affects hundreds of millions worldwide." },
+        ],
+      },
+      {
+        name: "Pollution Control Technology",
+        terms: [
+          { term: "Catalytic Converter", definition: "Device in vehicle exhaust systems that converts CO, NOx, and unburned hydrocarbons into less harmful CO₂, N₂, and water using platinum/palladium catalysts." },
+          { term: "Scrubber", definition: "Industrial pollution control device that removes SO₂ and particulates from power plant exhaust by passing gases through water or a chemical spray before emission." },
+          { term: "Electrostatic Precipitator", definition: "Device that removes fly ash and particulates from industrial exhaust by giving particles an electric charge and collecting them on oppositely charged plates." },
+          { term: "Clean Air Act", definition: "U.S. federal law (1970, amended 1990) that authorizes EPA to set and enforce air quality standards for six criteria pollutants and regulate emissions from major sources." },
+        ],
+      },
+    ],
+  },
+
+  // 7.2 Smog & Ozone
+  {
+    id: "envsci-unit-7-2",
+    unit: 7,
+    puzzle: 2,
+    title: "Atmospheric Pollution",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Photochemical Smog Formation",
+        terms: [
+          { term: "Volatile Organic Compounds (VOCs)", definition: "Carbon-containing gases from vehicle exhaust, industrial solvents, and vegetation; react with NOx in sunlight to form ozone and photochemical smog." },
+          { term: "Nitrogen Oxides (NOx)", definition: "Gases produced by high-temperature combustion; react with VOCs in sunlight to form ground-level ozone and photochemical smog; also cause acid rain." },
+          { term: "Temperature Inversion", definition: "Atmospheric condition where warm air traps cooler polluted air near the ground, preventing dispersion; greatly intensifies smog episodes in cities like Los Angeles." },
+          { term: "PAN", definition: "Peroxyacetyl nitrate; a secondary pollutant formed in photochemical smog from VOC-NOx reactions; a powerful lung irritant and eye irritant at low concentrations." },
+        ],
+      },
+      {
+        name: "Stratospheric Ozone",
+        terms: [
+          { term: "Stratosphere", definition: "Layer of Earth's atmosphere 12–50 km above the surface; contains the ozone layer that absorbs harmful UV-B and UV-C radiation from the sun." },
+          { term: "Ozone Layer", definition: "Region of the stratosphere with high ozone (O₃) concentration; absorbs 97–99% of the sun's high-frequency UV radiation, protecting life at Earth's surface." },
+          { term: "Ozone Hole", definition: "Seasonal thinning of the stratospheric ozone layer over Antarctica (and to lesser extent the Arctic); caused by halogen-containing pollutants; monitored since the 1980s." },
+          { term: "UV-B Radiation", definition: "Medium-wavelength ultraviolet radiation partially blocked by the ozone layer; increased UV-B from ozone depletion causes skin cancer, cataracts, and harm to phytoplankton." },
+        ],
+      },
+      {
+        name: "Ozone-Depleting Substances",
+        terms: [
+          { term: "Chlorofluorocarbons (CFCs)", definition: "Synthetic compounds once used in refrigerants, aerosols, and foam; release chlorine in the stratosphere, which catalytically destroys thousands of ozone molecules per atom." },
+          { term: "Halons", definition: "Bromine-containing compounds used in fire suppression systems; extremely potent ozone depletors — one bromine atom destroys ~40× more ozone than one chlorine atom." },
+          { term: "Methyl Bromide", definition: "Agricultural fumigant and ozone-depleting substance; releases bromine in the stratosphere; its production and use has been largely phased out under the Montreal Protocol." },
+          { term: "Montreal Protocol", definition: "1987 international treaty phasing out production and use of ozone-depleting substances; considered the most successful global environmental agreement; ozone layer is slowly recovering." },
+        ],
+      },
+      {
+        name: "Ground-Level Ozone Effects",
+        terms: [
+          { term: "Ground-Level Ozone", definition: "A secondary pollutant formed when VOCs and NOx react in sunlight; a key component of photochemical smog; damages lung tissue, reduces crop yields, and harms ecosystems." },
+          { term: "Troposphere", definition: "Lowest layer of the atmosphere (0–12 km); where weather occurs and humans live; ground-level ozone here is a harmful pollutant, not a protective shield." },
+          { term: "Air Quality Index (AQI)", definition: "EPA scale from 0–500 measuring daily air quality; values above 100 are unhealthy for sensitive groups; accounts for ozone, particulates, CO, SO₂, and NO₂ levels." },
+          { term: "Smog Alert", definition: "Public health warning issued when ground-level ozone or particulate levels exceed safe thresholds; advises sensitive populations to limit outdoor activity." },
+        ],
+      },
+    ],
+  },
+
+  // 7.3 Acid Deposition & Indoor Air Pollution
+  {
+    id: "envsci-unit-7-3",
+    unit: 7,
+    puzzle: 3,
+    title: "Atmospheric Pollution",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Acid Deposition Causes",
+        terms: [
+          { term: "Acid Deposition", definition: "The wet or dry deposit of acidic compounds (H₂SO₄, HNO₃) from the atmosphere onto Earth's surface; also called acid rain when in liquid form." },
+          { term: "Wet Deposition", definition: "Acid precipitation in the form of rain, snow, sleet, or fog; forms when SO₂ and NOx dissolve in atmospheric water to form sulfuric and nitric acid." },
+          { term: "Dry Deposition", definition: "Acidic gases and particles settling on surfaces without precipitation; can then be washed into ecosystems by rain; especially damaging to building materials." },
+          { term: "pH Scale", definition: "Logarithmic scale 0–14 measuring acidity; natural rain is pH ~5.6 due to CO₂; acid rain typically pH 4–4.5; a drop of one unit = 10× more acidic." },
+        ],
+      },
+      {
+        name: "Effects of Acid Rain",
+        terms: [
+          { term: "Lake Acidification", definition: "Lowering of lake pH by acid deposition; destroys fish, amphibians, and aquatic invertebrates; Adirondack and Scandinavian lakes were severely affected in the 20th century." },
+          { term: "Soil Leaching", definition: "Acid deposition strips essential nutrients (calcium, magnesium) from soil and releases toxic aluminum into soil water, weakening trees and making them vulnerable to disease." },
+          { term: "Forest Decline", definition: "Widespread dieback of trees, especially at high elevations, caused by acid deposition stripping nutrients from soil and needles; documented in the Appalachians and Black Forest." },
+          { term: "Cultural Eutrophication", definition: "Excessive nutrient enrichment of water bodies from human activities — nitrogen from acid deposition contributes to this by fertilizing coastal and freshwater ecosystems." },
+        ],
+      },
+      {
+        name: "Indoor Air Pollutants",
+        terms: [
+          { term: "Radon", definition: "Naturally occurring radioactive gas from uranium decay in soil and rock; seeps into buildings through foundations; the second leading cause of lung cancer in the U.S." },
+          { term: "Carbon Monoxide (Indoor)", definition: "Produced by faulty gas stoves, heaters, and vehicles in garages; colorless, odorless; binds to hemoglobin; leading cause of accidental poisoning deaths in the U.S." },
+          { term: "Asbestos", definition: "Fibrous silicate mineral once used in insulation and fireproofing; microscopic fibers, when inhaled, cause mesothelioma and asbestosis; banned in most countries." },
+          { term: "Formaldehyde", definition: "VOC off-gassed by pressed wood products, carpets, and adhesives in buildings; causes eye and throat irritation; classified as a human carcinogen by IARC." },
+        ],
+      },
+      {
+        name: "Indoor Pollution Sources",
+        terms: [
+          { term: "Secondhand Smoke", definition: "Tobacco smoke in indoor environments containing hundreds of toxic and carcinogenic compounds; major source of indoor PM2.5 and VOCs; causes cancer and heart disease in non-smokers." },
+          { term: "Sick Building Syndrome", definition: "Condition where building occupants experience acute health effects linked to time spent inside; caused by poor ventilation, mold, VOCs, and other indoor pollutants." },
+          { term: "Volatile Organic Compounds (Indoor)", definition: "Carbon-containing gases emitted by paints, cleaning products, furniture, and building materials; many are carcinogenic; indoor concentrations often 2–5× higher than outdoors." },
+          { term: "Biological Contaminants", definition: "Indoor air pollutants including mold spores, dust mites, pet dander, and bacteria; thrive in poorly ventilated, damp buildings; trigger allergies and asthma." },
+        ],
+      },
+    ],
+  },
+
+  // 8.1 Water Pollution Sources & Quality
+  {
+    id: "envsci-unit-8-1",
+    unit: 8,
+    puzzle: 1,
+    title: "Aquatic & Terrestrial Pollution",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Types of Water Pollutants",
+        terms: [
+          { term: "Pathogens", definition: "Disease-causing organisms including bacteria, viruses, and protozoa that enter water through untreated sewage and animal waste; cause cholera, typhoid, and dysentery." },
+          { term: "Nutrients (Water)", definition: "Nitrogen and phosphorus compounds from fertilizers and sewage; the primary drivers of eutrophication in lakes, rivers, and coastal zones." },
+          { term: "Toxic Chemicals", definition: "Industrial pollutants including pesticides, solvents, and heavy metals that persist in the environment and bioaccumulate in food chains; regulated under CERCLA and RCRA." },
+          { term: "Sediment", definition: "Soil particles eroded into waterways by agriculture and construction; increases turbidity, smothers aquatic habitats, and carries attached nutrients and pesticides." },
+        ],
+      },
+      {
+        name: "Sources of Water Pollution",
+        terms: [
+          { term: "Agricultural Runoff", definition: "The largest source of water pollution in the U.S.; carries excess nitrogen, phosphorus, pesticides, and sediment from farms into streams and groundwater." },
+          { term: "Industrial Discharge", definition: "Release of chemical, thermal, or toxic pollutants from factories and processing plants into water bodies; regulated under NPDES permits from the Clean Water Act." },
+          { term: "Combined Sewer Overflow", definition: "Release of untreated sewage mixed with stormwater during heavy rain when systems exceed capacity; a major source of pathogens and nutrient pollution in urban waterways." },
+          { term: "Urban Stormwater", definition: "Rainwater running off paved surfaces picks up oil, pet waste, fertilizers, and litter; enters waterways through storm drains without treatment." },
+        ],
+      },
+      {
+        name: "Water Quality Indicators",
+        terms: [
+          { term: "Dissolved Oxygen (DO)", definition: "Amount of O₂ dissolved in water; healthy streams have 7–9 mg/L; values below 5 mg/L stress fish; near zero creates hypoxic dead zones." },
+          { term: "Biological Oxygen Demand (BOD)", definition: "Measure of organic pollution; the amount of O₂ microbes need to decompose organic matter in water; high BOD indicates heavy organic pollution and low dissolved oxygen." },
+          { term: "Turbidity", definition: "Cloudiness of water caused by suspended particles; reduces light penetration for aquatic plants; high turbidity indicates erosion, algal growth, or pollution." },
+          { term: "Coliform Bacteria", definition: "Indicator organisms for fecal contamination in water; their presence signals potential pathogen contamination; used to assess drinking water and recreational water safety." },
+        ],
+      },
+      {
+        name: "Waterborne Diseases",
+        terms: [
+          { term: "Cholera", definition: "Severe diarrheal disease caused by Vibrio cholerae in contaminated water; can be fatal through dehydration; major risk in areas without clean water or sanitation infrastructure." },
+          { term: "Typhoid Fever", definition: "Bacterial infection from Salmonella typhi in contaminated water or food; causes high fever and intestinal damage; controlled by water treatment and sanitation." },
+          { term: "Giardia", definition: "Protozoan parasite in untreated water causing diarrheal illness; survives in cold, clear streams; resistant to chlorine but removed by filtration in water treatment." },
+          { term: "Dysentery", definition: "Intestinal infection causing severe bloody diarrhea from bacteria or amoeba in contaminated water; a major cause of child mortality in developing countries." },
+        ],
+      },
+    ],
+  },
+
+  // 8.2 Aquatic Pollution & Eutrophication
+  {
+    id: "envsci-unit-8-2",
+    unit: 8,
+    puzzle: 2,
+    title: "Aquatic & Terrestrial Pollution",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Eutrophication Sequence",
+        terms: [
+          { term: "Nutrient Loading", definition: "Input of excess nitrogen and phosphorus into water bodies from fertilizers, sewage, and runoff; the trigger that sets off the eutrophication process." },
+          { term: "Algal Bloom", definition: "Rapid proliferation of algae or cyanobacteria fueled by excess nutrients; blocks sunlight from submerged plants and sets up oxygen depletion when the bloom dies and decomposes." },
+          { term: "Oxygen Depletion", definition: "Decomposers consume oxygen breaking down dead algae; dissolved oxygen crashes below levels fish and bottom-dwelling invertebrates need to survive." },
+          { term: "Cultural Eutrophication", definition: "Human-accelerated eutrophication through excess nutrient inputs from agriculture, sewage, and urban runoff; far faster and more severe than natural eutrophication." },
+        ],
+      },
+      {
+        name: "Dead Zones",
+        terms: [
+          { term: "Hypoxia", definition: "Condition of critically low dissolved oxygen (<2 mg/L) in water; creates dead zones where most fish and invertebrates cannot survive; triggered by decomposition of algal blooms." },
+          { term: "Dead Zone", definition: "Area of ocean or lake with oxygen too depleted to support most aquatic life; over 400 exist worldwide; size fluctuates seasonally with nutrient input." },
+          { term: "Gulf of Mexico Dead Zone", definition: "The largest U.S. dead zone; caused by nitrogen runoff from Midwest corn and soybean farms draining down the Mississippi River; can exceed 20,000 km² in summer." },
+          { term: "Harmful Algal Bloom (HAB)", definition: "Bloom of toxic algae or cyanobacteria producing poisons harmful to fish, wildlife, and humans; includes red tides from dinoflagellates and blue-green algae in freshwater." },
+        ],
+      },
+      {
+        name: "Ocean Pollution",
+        terms: [
+          { term: "Plastic Pollution", definition: "Non-biodegradable plastic debris in marine environments; harms wildlife through entanglement and ingestion; photodegrades into microplastics that enter food chains." },
+          { term: "Microplastics", definition: "Plastic particles smaller than 5 mm from degradation of larger plastics, synthetic clothing fibers, and cosmetics; found throughout oceans, freshwater, and in organisms worldwide." },
+          { term: "Ocean Acidification", definition: "Lowering of ocean pH as seawater absorbs excess atmospheric CO₂ forming carbonic acid; impairs shell and skeleton formation in mollusks, corals, and other calcifying organisms." },
+          { term: "Thermal Pollution", definition: "Release of heated water from power plant cooling into waterways; reduces dissolved oxygen, disrupts aquatic ecosystems, and kills temperature-sensitive species near discharge points." },
+        ],
+      },
+      {
+        name: "Bioaccumulation & Spills",
+        terms: [
+          { term: "Bioaccumulation", definition: "Build-up of a toxin in an organism's tissues faster than it is excreted; fat-soluble pollutants like DDT, PCBs, and mercury bioaccumulate in fatty tissue." },
+          { term: "Biomagnification", definition: "Increase in toxin concentration at each successive trophic level; top predators receive the highest doses — eagles, tuna, and orcas have the highest PCB and mercury burdens." },
+          { term: "Oil Spill", definition: "Accidental release of petroleum into aquatic environments; coats seabirds and marine mammals, smothers benthic habitats, and can persist in sediments for decades." },
+          { term: "Persistent Organic Pollutants (POPs)", definition: "Toxic chemicals that resist environmental degradation, bioaccumulate in food chains, and travel globally; includes DDT, PCBs, and dioxins; regulated by the Stockholm Convention." },
+        ],
+      },
+    ],
+  },
+
+  // 8.3 Solid & Hazardous Waste
+  {
+    id: "envsci-unit-8-3",
+    unit: 8,
+    puzzle: 3,
+    title: "Aquatic & Terrestrial Pollution",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Types of Solid Waste",
+        terms: [
+          { term: "Municipal Solid Waste (MSW)", definition: "Everyday trash from homes, businesses, schools, and institutions; Americans generate ~4–5 lbs per person per day; largest categories are food waste, paper, and plastics." },
+          { term: "Electronic Waste (E-Waste)", definition: "Discarded computers, phones, and electronics; the fastest-growing waste stream; contains valuable recoverable metals and toxic substances including lead, cadmium, and mercury." },
+          { term: "Industrial Solid Waste", definition: "Waste from manufacturing, mining, and industrial processes; far greater in volume than municipal solid waste; includes slag, ash, sludge, and chemical byproducts." },
+          { term: "Agricultural Waste", definition: "Crop residues, animal manure, pesticide containers, and farm byproducts; manure lagoon failures and feedlot runoff are major sources of water and air pollution." },
+        ],
+      },
+      {
+        name: "Waste Disposal Methods",
+        terms: [
+          { term: "Sanitary Landfill", definition: "Engineered facility for solid waste disposal with clay and plastic liners to prevent leachate, leachate collection systems, and methane capture; the primary disposal method in the U.S." },
+          { term: "Incineration", definition: "Burning solid waste at high temperatures to reduce volume by ~90%; can generate electricity but produces ash with concentrated toxic metals and air pollutants including dioxins." },
+          { term: "Composting", definition: "Biological decomposition of organic waste into stable humus; diverts food and yard waste from landfills; produces useful soil amendment; reduces methane generation." },
+          { term: "Open Dump", definition: "Uncontrolled waste disposal site without liners or management; contaminates groundwater, produces methane and odors, harbors pests; banned in the U.S. but common in lower-income countries." },
+        ],
+      },
+      {
+        name: "Hazardous Waste Law",
+        terms: [
+          { term: "RCRA", definition: "Resource Conservation and Recovery Act; U.S. law governing hazardous waste from cradle to grave — generation, transport, treatment, storage, and disposal." },
+          { term: "CERCLA (Superfund)", definition: "Comprehensive Environmental Response, Compensation, and Liability Act; authorizes EPA to clean up contaminated sites and forces polluters to pay for remediation." },
+          { term: "Love Canal", definition: "Neighborhood in Niagara Falls, NY built over a chemical waste dump; high rates of cancer and birth defects among residents catalyzed CERCLA legislation in 1980." },
+          { term: "Brownfield", definition: "Abandoned or underused industrial or commercial property complicated by real or potential contamination; can be cleaned up and redeveloped for new use." },
+        ],
+      },
+      {
+        name: "Waste Reduction Hierarchy",
+        terms: [
+          { term: "Source Reduction", definition: "Preventing waste before it is created by using less material, designing longer-lasting products, and eliminating unnecessary packaging; the most preferred waste management strategy." },
+          { term: "Reuse", definition: "Using products or materials multiple times before discarding; reduces resource consumption and waste generation without the energy cost of recycling or manufacturing." },
+          { term: "Recycling", definition: "Processing used materials into new products; reduces raw material extraction, energy use, and landfill volume; effectiveness depends on collection systems and market demand." },
+          { term: "Integrated Waste Management", definition: "Using a mix of strategies — source reduction, reuse, recycling, composting, and landfilling — to manage a community's solid waste as sustainably and cost-effectively as possible." },
+        ],
+      },
+    ],
+  },
+
+  // 8.4 Remediation & Pollution Law
+  {
+    id: "envsci-unit-8-4",
+    unit: 8,
+    puzzle: 4,
+    title: "Aquatic & Terrestrial Pollution",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Water Quality Laws",
+        terms: [
+          { term: "Clean Water Act", definition: "1972 U.S. law establishing water quality standards; regulates point source discharges through NPDES permits; set the goal of making all U.S. waters swimmable and fishable." },
+          { term: "Safe Drinking Water Act", definition: "U.S. law setting EPA maximum contaminant levels for pollutants in public water supplies; requires treatment, monitoring, and consumer notification of violations." },
+          { term: "NPDES Permit", definition: "National Pollutant Discharge Elimination System permit required for any facility releasing pollutants into U.S. waterways; specifies allowable pollutant types, amounts, and monitoring." },
+          { term: "Maximum Contaminant Level (MCL)", definition: "EPA's enforceable limit for a specific contaminant in public drinking water; set as close to the health-based goal as is feasible given cost and available treatment technology." },
+        ],
+      },
+      {
+        name: "Remediation Techniques",
+        terms: [
+          { term: "Bioremediation", definition: "Use of microorganisms — bacteria, fungi, or algae — to break down or neutralize pollutants in contaminated soil and groundwater; cost-effective and minimally disruptive." },
+          { term: "Phytoremediation", definition: "Use of plants to absorb, degrade, or immobilize contaminants; sunflowers absorb uranium; Indian mustard takes up lead and cadmium; willows treat contaminated groundwater." },
+          { term: "Pump and Treat", definition: "Groundwater remediation method that pumps contaminated water to the surface for treatment before reinjection or disposal; common at Superfund sites but slow and expensive." },
+          { term: "Capping", definition: "Covering a contaminated site with impermeable material to prevent rainwater infiltration and contaminant migration to groundwater; contains but does not eliminate the contamination." },
+        ],
+      },
+      {
+        name: "Pollution Prevention",
+        terms: [
+          { term: "Best Management Practices (BMPs)", definition: "Procedures that reduce nonpoint source pollution from agriculture, construction, and urban runoff; include vegetated buffer strips, cover crops, and sediment fences." },
+          { term: "Integrated Pest Management (IPM)", definition: "Pest control strategy minimizing pesticide use through biological controls, crop rotation, and targeted chemical application only when needed; reduces agricultural water contamination." },
+          { term: "Green Chemistry", definition: "Design of chemical products and processes that reduce or eliminate hazardous substances; prevents pollution at the source rather than treating it after the fact." },
+          { term: "Pollution Prevention Act", definition: "1990 U.S. law establishing source reduction as the preferred environmental protection strategy; pollution hierarchy: prevention > recycling > treatment > disposal." },
+        ],
+      },
+      {
+        name: "Toxicology Concepts",
+        terms: [
+          { term: "Risk Assessment", definition: "Scientific process evaluating the probability and severity of harm from pollutant exposure; identifies hazard, assesses dose-response, estimates exposure, and characterizes risk." },
+          { term: "LD50", definition: "Lethal dose that kills 50% of a test population; used to compare acute toxicity of chemicals; lower LD50 = more toxic; does not capture chronic or sub-lethal effects." },
+          { term: "Dose-Response Relationship", definition: "The relationship between the amount of a toxin an organism is exposed to and the severity of the effect; fundamental concept in toxicology — 'the dose makes the poison.'" },
+          { term: "Indicator Species", definition: "Species whose presence or absence signals environmental conditions; mayflies, stoneflies, and caddisflies indicate clean water; their disappearance signals aquatic pollution." },
+        ],
+      },
+    ],
+  },
+
+  // 9.1 Greenhouse Effect & Climate Drivers
+  {
+    id: "envsci-unit-9-1",
+    unit: 9,
+    puzzle: 1,
+    title: "Global Change",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Greenhouse Gases",
+        terms: [
+          { term: "Carbon Dioxide (CO₂)", definition: "Primary anthropogenic greenhouse gas from fossil fuel combustion, deforestation, and cement production; atmospheric concentration has risen from 280 ppm pre-industrial to over 420 ppm today." },
+          { term: "Methane (CH₄)", definition: "Potent GHG ~80× more powerful than CO₂ over 20 years; emitted by livestock digestion, landfills, rice paddies, and natural gas leaks; second-largest contributor to climate change." },
+          { term: "Nitrous Oxide (N₂O)", definition: "Greenhouse gas ~265× more potent than CO₂ over 100 years; primarily from agricultural soils and synthetic fertilizers; also depletes stratospheric ozone." },
+          { term: "Water Vapor", definition: "The most abundant greenhouse gas; amplifies warming from other GHGs through positive feedback — warmer air holds more water vapor, trapping additional heat and causing further warming." },
+        ],
+      },
+      {
+        name: "Greenhouse Effect Mechanism",
+        terms: [
+          { term: "Greenhouse Effect", definition: "Natural process by which atmospheric gases trap infrared radiation re-emitted from Earth's surface, keeping the planet ~33°C warmer than it would otherwise be." },
+          { term: "Enhanced Greenhouse Effect", definition: "Human-caused intensification of the natural greenhouse effect through GHG emissions; responsible for the observed global warming trend since the Industrial Revolution." },
+          { term: "Radiative Forcing", definition: "Measure of the influence a factor has on Earth's energy balance; positive forcing warms the planet; CO₂ has the highest positive radiative forcing of any human-caused factor." },
+          { term: "Carbon Cycle", definition: "Biogeochemical cycling of carbon through the atmosphere, biosphere, oceans, and lithosphere; human disruption of this cycle — burning fossil fuels and deforestation — drives climate change." },
+        ],
+      },
+      {
+        name: "Climate Change Evidence",
+        terms: [
+          { term: "Global Average Temperature", definition: "Has increased ~1.1°C above pre-industrial levels; the last decade was the warmest on record; warming is unequivocal per all major scientific bodies including the IPCC." },
+          { term: "Ice Core Data", definition: "Records of past climate preserved in polar ice; trapped air bubbles show CO₂ and temperature over 800,000 years; tight correlation between CO₂ and temperature confirms the greenhouse effect." },
+          { term: "Sea Level Rise", definition: "Global average sea level has risen ~20 cm since 1900 from thermal expansion of seawater and melting ice; rate is accelerating and threatens coastal communities worldwide." },
+          { term: "Arctic Sea Ice Loss", definition: "Arctic summer sea ice has declined ~13% per decade since 1979; the Arctic is warming 3× faster than the global average due to the ice-albedo positive feedback loop." },
+        ],
+      },
+      {
+        name: "Natural Climate Drivers",
+        terms: [
+          { term: "Albedo", definition: "Fraction of solar energy reflected by a surface; ice and snow have high albedo (~0.9); dark ocean and forests have low albedo; melting ice reduces albedo, amplifying warming." },
+          { term: "Milankovitch Cycles", definition: "Natural variations in Earth's orbital shape, axial tilt, and wobble over tens of thousands of years; drive ice ages but cannot explain the current rapid warming trend." },
+          { term: "Volcanic Eruptions", definition: "Can cause short-term cooling by injecting SO₂ into the stratosphere, forming reflective sulfate aerosols; natural cooling effect is temporary (1–3 years)." },
+          { term: "Solar Output", definition: "Variation in energy emitted by the sun; has been flat or slightly declining since 1980 while Earth has continued warming, ruling out solar activity as the cause of recent climate change." },
+        ],
+      },
+    ],
+  },
+
+  // 9.2 Impacts of Climate Change
+  {
+    id: "envsci-unit-9-2",
+    unit: 9,
+    puzzle: 2,
+    title: "Global Change",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Atmospheric & Weather Impacts",
+        terms: [
+          { term: "Extreme Heat Events", definition: "More frequent and intense heat waves as average temperatures rise; increased mortality from heat stress, especially for elderly, outdoor workers, and urban residents." },
+          { term: "Intensified Hurricanes", definition: "Warmer ocean temperatures provide more energy to tropical storms, increasing peak intensity, rainfall rates, and storm surge — even if total storm frequency changes little." },
+          { term: "Shifting Precipitation", definition: "Climate change alters where and when rain falls; wet regions trend wetter, dry regions drier; disrupts agriculture and freshwater supplies worldwide." },
+          { term: "Wildfire Season Expansion", definition: "Higher temperatures, earlier snowmelt, and drier conditions extend wildfire season globally; fire frequency and severity have increased dramatically in western North America and Australia." },
+        ],
+      },
+      {
+        name: "Ocean & Ice Impacts",
+        terms: [
+          { term: "Coral Bleaching", definition: "When ocean temperatures exceed normal by ~1°C for weeks, corals expel their symbiotic algae (zooxanthellae) and turn white; prolonged bleaching kills the coral and collapses reef ecosystems." },
+          { term: "Glacial Retreat", definition: "Mountain glaciers worldwide are shrinking rapidly; threatens freshwater supplies for billions in Asia and South America who depend on glacial meltwater during dry seasons." },
+          { term: "Permafrost Thaw", definition: "Warming Arctic thaws permafrost, releasing stored methane and CO₂ frozen for millennia; a powerful positive feedback loop that accelerates warming beyond what GHG emissions alone would cause." },
+          { term: "Sea Level Rise Acceleration", definition: "Rate of sea level rise has doubled since 1993; driven by thermal expansion, Greenland melt, and Antarctic ice loss; threatens low-lying nations, coastal cities, and island nations." },
+        ],
+      },
+      {
+        name: "Ecosystem Impacts",
+        terms: [
+          { term: "Species Range Shifts", definition: "Species moving poleward and to higher elevations as habitats warm; those unable to migrate fast enough face local extinction; disrupts ecological communities and food webs." },
+          { term: "Phenological Changes", definition: "Shifts in timing of biological events — earlier spring flowering, bird migration, insect emergence; mismatches between interdependent species can collapse pollination and predator-prey relationships." },
+          { term: "Habitat Loss (Climate)", definition: "Climate change shrinks or eliminates thermally suitable habitat for species, compounding threats from deforestation and fragmentation; mountain-top species and polar species face total habitat loss." },
+          { term: "Dead Zone Expansion", definition: "Warmer water holds less dissolved oxygen; combined with eutrophication, climate change expands hypoxic dead zones in coastal and open ocean waters." },
+        ],
+      },
+      {
+        name: "Human Impacts",
+        terms: [
+          { term: "Food Security Threats", definition: "Changes in precipitation, temperature, and extreme weather reduce crop yields in many regions; climate change threatens to reverse decades of progress in reducing global hunger." },
+          { term: "Climate Refugees", definition: "People displaced by sea level rise, extreme weather, drought, or resource conflict driven by climate change; potentially hundreds of millions by 2050." },
+          { term: "Disease Range Expansion", definition: "Warmer temperatures expand the range of vector-borne diseases like malaria, dengue fever, and Lyme disease into previously too-cold regions." },
+          { term: "Economic Costs of Climate Change", definition: "Climate change imposes growing costs through disaster damages, health impacts, infrastructure stress, and agricultural losses; projected to significantly reduce global GDP by 2100 without mitigation." },
+        ],
+      },
+    ],
+  },
+
+  // 9.3 Feedback Loops & Tipping Points
+  {
+    id: "envsci-unit-9-3",
+    unit: 9,
+    puzzle: 3,
+    title: "Global Change",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Positive Feedback Loops",
+        terms: [
+          { term: "Ice-Albedo Feedback", definition: "As ice and snow melt, darker land and ocean surfaces are exposed, absorbing more solar energy, causing more warming and more melting — a self-reinforcing cycle." },
+          { term: "Water Vapor Feedback", definition: "Warmer air holds more water vapor, which is itself a greenhouse gas; the additional water vapor amplifies warming from CO₂ and other GHGs, roughly doubling the initial effect." },
+          { term: "Permafrost-Methane Feedback", definition: "Thawing permafrost releases stored methane and CO₂, causing additional warming that thaws more permafrost, releasing more greenhouse gases in a dangerous runaway loop." },
+          { term: "Forest Dieback Feedback", definition: "As climate warming and drought stress forests, tree death releases stored carbon, reduces evapotranspiration, and lowers the land's ability to absorb CO₂, amplifying warming further." },
+        ],
+      },
+      {
+        name: "Negative Feedback Loops",
+        terms: [
+          { term: "Blackbody Radiation Feedback", definition: "As Earth warms, it emits more infrared radiation to space; this Planck feedback is the primary thermostatic stabilizer that prevents runaway warming." },
+          { term: "Increased Chemical Weathering", definition: "Warmer, wetter climates accelerate weathering of silicate rocks, which consumes CO₂ over geological timescales; a slow negative feedback operating over millions of years." },
+          { term: "Stomatal Regulation", definition: "Higher CO₂ causes some plants to partially close stomata, reducing water loss; may slightly increase plant growth and carbon uptake — a weak negative feedback." },
+          { term: "Ocean Carbon Uptake", definition: "Oceans absorb ~25% of annual CO₂ emissions; as CO₂ increases, the partial pressure gradient drives more absorption — a negative feedback, though it is slowing as oceans warm and acidify." },
+        ],
+      },
+      {
+        name: "Climate Tipping Points",
+        terms: [
+          { term: "Tipping Point", definition: "A threshold in the climate system beyond which a change becomes self-sustaining and largely irreversible; passing a tipping point can trigger rapid, large-scale shifts regardless of future emissions." },
+          { term: "Greenland Ice Sheet", definition: "Crossing a warming threshold could trigger irreversible melting of the Greenland Ice Sheet, contributing up to 7 meters of sea level rise over centuries even if warming later stabilizes." },
+          { term: "Amazon Dieback", definition: "Deforestation combined with climate-driven drought could push the Amazon rainforest past a tipping point, converting vast areas to savanna and releasing billions of tons of stored carbon." },
+          { term: "AMOC Weakening", definition: "Atlantic Meridional Overturning Circulation is slowing due to freshwater from melting ice; collapse would dramatically alter climate in Europe and disrupt rainfall patterns in the tropics." },
+        ],
+      },
+      {
+        name: "Carbon Sinks",
+        terms: [
+          { term: "Ocean Carbon Sink", definition: "Oceans absorb ~25% of annual human CO₂ emissions through physical dissolution and biological uptake; absorption is slowing as oceans warm and acidify, reducing their buffering capacity." },
+          { term: "Terrestrial Carbon Sink", definition: "Land ecosystems absorb ~30% of annual CO₂ emissions through plant photosynthesis and soil carbon storage; tropical forests are the largest terrestrial sinks." },
+          { term: "Permafrost Carbon Store", definition: "Frozen Arctic soils contain roughly twice as much carbon as is currently in the atmosphere; thawing converts this massive store from a sink to a carbon source." },
+          { term: "Blue Carbon", definition: "Carbon stored in coastal ecosystems — mangroves, seagrasses, and salt marshes; per-area carbon storage rivals tropical rainforests; rapidly lost to development and coastal degradation." },
+        ],
+      },
+    ],
+  },
+
+  // 9.4 Climate Change Solutions
+  {
+    id: "envsci-unit-9-4",
+    unit: 9,
+    puzzle: 4,
+    title: "Global Change",
+    subject: "Env Science",
+    groups: [
+      {
+        name: "Mitigation Policies",
+        terms: [
+          { term: "Carbon Tax", definition: "Economic policy placing a price on CO₂ emissions, making fossil fuels more expensive and incentivizing a shift to clean energy; considered one of the most cost-effective climate policies." },
+          { term: "Cap and Trade", definition: "Emissions trading system setting a firm total limit on GHG emissions with tradeable permits; creates a market incentive to reduce emissions at the lowest possible cost." },
+          { term: "Paris Agreement", definition: "2015 international climate accord committing nearly all nations to limit warming to well below 2°C above pre-industrial levels through nationally determined emission reduction plans." },
+          { term: "Carbon Neutrality", definition: "State of achieving net-zero CO₂ emissions by balancing emissions released with carbon removed from the atmosphere; many nations and corporations have pledged carbon neutrality by mid-century." },
+        ],
+      },
+      {
+        name: "Adaptation Strategies",
+        terms: [
+          { term: "Managed Retreat", definition: "Planned relocation of communities and infrastructure away from climate-vulnerable coastlines and floodplains; increasingly necessary as sea levels rise but politically and economically difficult." },
+          { term: "Drought-Resistant Crops", definition: "Crop varieties engineered or bred to maintain yields under reduced water availability; critical for food security in regions projected to face more frequent and severe droughts." },
+          { term: "Urban Heat Island Mitigation", definition: "Strategies reducing extreme heat in cities — green roofs, urban trees, reflective surfaces, and less asphalt; protects human health and reduces energy demand for cooling." },
+          { term: "Coastal Defense Infrastructure", definition: "Hard or soft engineering structures including seawalls, living shorelines, and restored wetlands that protect coastlines from sea level rise and intensifying storm surge." },
+        ],
+      },
+      {
+        name: "Carbon Sequestration",
+        terms: [
+          { term: "Carbon Capture and Storage (CCS)", definition: "Technology capturing CO₂ from power plant or industrial exhaust and storing it in underground geological formations; may be essential for decarbonizing industries that cannot fully electrify." },
+          { term: "Reforestation", definition: "Replanting trees on previously forested land to restore forest cover and recapture atmospheric carbon; one of the cheapest carbon removal options with major co-benefits for biodiversity." },
+          { term: "Biochar", definition: "Charcoal produced from biomass pyrolysis and applied to soil; stable for hundreds to thousands of years; sequesters carbon and improves soil fertility and water retention." },
+          { term: "Direct Air Capture (DAC)", definition: "Technology using chemical processes to remove CO₂ directly from the atmosphere; currently expensive and energy-intensive but may be necessary alongside emission reductions to meet climate goals." },
+        ],
+      },
+      {
+        name: "International Climate Frameworks",
+        terms: [
+          { term: "IPCC", definition: "Intergovernmental Panel on Climate Change; scientific body reviewing and synthesizing global climate research; Assessment Reports provide the scientific foundation for international climate policy." },
+          { term: "UNFCCC", definition: "United Nations Framework Convention on Climate Change; 1992 treaty establishing the framework for international climate negotiations; parent treaty of both the Kyoto Protocol and Paris Agreement." },
+          { term: "Kyoto Protocol", definition: "1997 climate treaty binding developed nations to reduce GHG emissions below 1990 levels; first international agreement with binding targets; largely superseded by the Paris Agreement." },
+          { term: "Nationally Determined Contributions (NDCs)", definition: "Climate action plans each country submits under the Paris Agreement; specify emission reduction targets and adaptation measures; reviewed and strengthened on a 5-year cycle." },
+        ],
+      },
+    ],
+  },
+
 ];
 
 export function getGameByUnit(unit: number, subject?: string): GameSet | undefined {

@@ -22,19 +22,19 @@ const subjects = [
     accentDark: "#4a2d7a",
   },
   {
-    label: "AP Bio",
-    description: "AP Biology",
-    path: "/apbio",
-    active: false,
-    units: null,
-    accent: "#888888",
-    accentLight: "#f2f2f2",
-    accentDark: "#444444",
+    label: "Env Sci",
+    description: "AP / IB Environmental Science",
+    path: "/envsci",
+    active: true,
+    units: 9,
+    accent: "#2D7A4F",
+    accentLight: "#e8f5ee",
+    accentDark: "#1a5235",
   },
 ];
 
 const HOW_TO_PLAY = [
-  { title: "Pick a Class", desc: "Choose the AP class you're studying" },
+  { title: "Pick a Class", desc: "Choose the class you're studying" },
   { title: "Group the Terms", desc: "Find 4 terms that share a connection" },
   { title: "Master It", desc: "Solve all 4 groups to level up" },
 ];
