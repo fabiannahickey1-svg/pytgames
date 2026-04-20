@@ -8,6 +8,10 @@ import Landing from "./pages/Landing.tsx";
 import PhilosophyLanding from "./pages/PhilosophyLanding.tsx";
 import EnvSciLanding from "./pages/EnvSciLanding.tsx";
 import EnvSciUnitPage from "./pages/EnvSciUnitPage.tsx";
+import APWorldLanding from "./pages/APWorldLanding.tsx";
+import APWorldUnitPage from "./pages/APWorldUnitPage.tsx";
+import APGovLanding from "./pages/APGovLanding.tsx";
+import APGovUnitPage from "./pages/APGovUnitPage.tsx";
 import PuzzlePicker from "./pages/PuzzlePicker.tsx";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
@@ -31,6 +35,12 @@ const App = () => (
           <Route path="/envsci" element={<EnvSciLanding />} />
           <Route path="/envsci/unit/:unit" element={<EnvSciUnitPage />} />
           <Route path="/envsci/unit/:unit/:puzzle" element={<Index />} />
+          <Route path="/apworld" element={<APWorldLanding />} />
+          <Route path="/apworld/unit/:unit" element={<APWorldUnitPage />} />
+          <Route path="/apworld/unit/:unit/:puzzle" element={<Index />} />
+          <Route path="/apgov" element={<APGovLanding />} />
+          <Route path="/apgov/unit/:unit" element={<APGovUnitPage />} />
+          <Route path="/apgov/unit/:unit/:puzzle" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

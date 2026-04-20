@@ -16,9 +16,11 @@ const Index = () => {
 
   const isPhilosophy = location.pathname.startsWith("/philosophy");
   const isEnvSci = location.pathname.startsWith("/envsci");
-  const subject = isPhilosophy ? "IB Philosophy" : isEnvSci ? "Env Science" : "APUSH";
-  const subjectBase = isPhilosophy ? "/philosophy" : isEnvSci ? "/envsci" : "/apush";
-  const unitBase = isPhilosophy ? "/philosophy/unit" : isEnvSci ? "/envsci/unit" : "/unit";
+  const isAPWorld = location.pathname.startsWith("/apworld");
+  const isAPGov = location.pathname.startsWith("/apgov");
+  const subject = isPhilosophy ? "IB Philosophy" : isEnvSci ? "Env Science" : isAPWorld ? "AP World" : isAPGov ? "AP Gov" : "APUSH";
+  const subjectBase = isPhilosophy ? "/philosophy" : isEnvSci ? "/envsci" : isAPWorld ? "/apworld" : isAPGov ? "/apgov" : "/apush";
+  const unitBase = isPhilosophy ? "/philosophy/unit" : isEnvSci ? "/envsci/unit" : isAPWorld ? "/apworld/unit" : isAPGov ? "/apgov/unit" : "/unit";
 
   const puzzles = getGamesByUnit(unitNum, subject);
   const currentGame = puzzles.find((p) => (p.puzzle ?? 1) === puzzleNum);

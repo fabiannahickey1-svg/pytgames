@@ -31,6 +31,26 @@ const subjects = [
     accentLight: "#e8f5ee",
     accentDark: "#1a5235",
   },
+  {
+    label: "AP World",
+    description: "AP World History",
+    path: "/apworld",
+    active: true,
+    units: 9,
+    accent: "#8B1A1A",
+    accentLight: "#f9eded",
+    accentDark: "#5c1010",
+  },
+  {
+    label: "AP Gov",
+    description: "AP US Government & Politics",
+    path: "/apgov",
+    active: true,
+    units: 5,
+    accent: "#0D5C63",
+    accentLight: "#e6f4f5",
+    accentDark: "#073d43",
+  },
 ];
 
 const HOW_TO_PLAY = [
@@ -117,7 +137,7 @@ const Splash = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-3 gap-4">
           {subjects.map(({ label, description, path, active, units, accent, accentLight, accentDark }, i) => (
             <button
               key={label}
@@ -130,28 +150,28 @@ const Splash = () => {
                 aspectRatio: "1 / 1",
               }}
               className={[
-                "animate-fade-in flex flex-col items-center justify-center gap-3 rounded-2xl border p-6 text-center transition-all duration-200 w-full",
+                "animate-fade-in flex flex-col items-center justify-center gap-2 rounded-2xl border p-5 text-center transition-all duration-200 w-full",
                 active
                   ? "cursor-pointer hover:shadow-2xl hover:-translate-y-2 active:scale-[0.97]"
                   : "cursor-not-allowed opacity-50",
               ].join(" ")}
             >
               <p
-                className="text-3xl font-black leading-none"
+                className="text-2xl font-black leading-none"
                 style={{ color: active ? accentDark : "#999" }}
               >
                 {label}
               </p>
-              <p className="text-sm text-muted-foreground">{description}</p>
+              <p className="text-xs text-muted-foreground">{description}</p>
               {active ? (
                 <span
-                  className="rounded-full px-5 py-2 text-sm font-bold"
+                  className="rounded-full px-4 py-1.5 text-xs font-bold"
                   style={{ backgroundColor: accent, color: "#fff" }}
                 >
                   {units} Units →
                 </span>
               ) : (
-                <span className="rounded-full bg-muted px-4 py-2 text-xs font-semibold text-muted-foreground">
+                <span className="rounded-full bg-muted px-3 py-1.5 text-xs font-semibold text-muted-foreground">
                   Coming Soon
                 </span>
               )}

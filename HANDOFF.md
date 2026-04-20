@@ -1,7 +1,7 @@
 # Developer Handoff — PYT Games
 
 **Last updated:** 2026-04-16  
-**Status:** Active development — APUSH (Units 1, 3–9, 8 themed puzzles each) + IB Philosophy (20 puzzles across 8 themes) both live; AP Bio / AP Lang coming soon
+**Status:** Active development — APUSH (Units 1, 3–9, 8 themed puzzles each) + IB Philosophy (20 puzzles across 8 themes) + Environmental Science (all 9 units, 29 puzzles) all live; AP Bio / AP Lang coming soon
 
 ---
 
@@ -35,7 +35,7 @@ GITHUB_TOKEN=your_token   # stored in .env, never committed
 src/
   App.tsx                         # Router setup, providers
   data/
-    gameSets.ts                   # All game content (APUSH + IB Philosophy)
+    gameSets.ts                   # All game content (APUSH + IB Philosophy + Env Science)
   lib/
     progress.ts                   # Per-subject localStorage helpers
   components/
@@ -47,7 +47,9 @@ src/
     Splash.tsx                    # / — class picker (home page)
     Landing.tsx                   # /apush — APUSH unit grid with mastery bar
     PhilosophyLanding.tsx         # /philosophy — IB Philosophy theme grid
-    PuzzlePicker.tsx              # puzzle selector (subject-aware via URL)
+    EnvSciLanding.tsx             # /envsci — Env Science unit grid with mastery bar
+    EnvSciUnitPage.tsx            # /envsci/unit/:unit — subtopic picker (Env Sci only)
+    PuzzlePicker.tsx              # puzzle selector (APUSH + Philosophy)
     Index.tsx                     # game page (subject-aware via URL)
 ```
 
@@ -62,20 +64,23 @@ src/
 | `/philosophy` | `PhilosophyLanding.tsx` | IB Philosophy theme grid |
 | `/philosophy/unit/:unit` | `PuzzlePicker.tsx` | Philosophy puzzle selector |
 | `/philosophy/unit/:unit/:puzzle` | `Index.tsx` | Philosophy game |
+| `/envsci` | `EnvSciLanding.tsx` | Env Science unit grid |
+| `/envsci/unit/:unit` | `EnvSciUnitPage.tsx` | Env Sci subtopic picker (3-level nav) |
+| `/envsci/unit/:unit/:puzzle` | `Index.tsx` | Env Science game |
 
-To add a new subject: create a landing page, add routes in `App.tsx`, activate the card in `Splash.tsx`, add content to `gameSets.ts` with the correct `subject` field.
+**Env Science uses 3-level navigation** (subject → unit → subtopic) unlike APUSH/Philosophy which use 2 levels. `EnvSciUnitPage.tsx` handles the middle level. To add a new subject: create a landing page, add routes in `App.tsx`, activate the card in `Splash.tsx`, add content to `gameSets.ts` with the correct `subject` field.
 
 **State:** All game state is local to `ConnectionsGame` — no global store, no persistence between sessions.
 
-**Progress tracking:** `progress.ts` uses separate localStorage keys per subject (`pyt-apush-puzzles`, `pyt-ib-philosophy-puzzles`). All functions accept an optional `subject` param defaulting to `"APUSH"`.
+**Progress tracking:** `progress.ts` uses separate localStorage keys per subject (`pyt-apush-puzzles`, `pyt-ib-philosophy-puzzles`, `pyt-env-science-puzzles`). All functions accept an optional `subject` param defaulting to `"APUSH"`.
 
-**Styling:** Tailwind CSS + shadcn/ui. APUSH accent: Yale Blue `#0F4D92`. IB Philosophy accent: purple `#6B3FA0`. Fonts: Quicksand (UI) + Playfair Display (hero title).
+**Styling:** Tailwind CSS + shadcn/ui. APUSH accent: Yale Blue `#0F4D92`. IB Philosophy accent: purple `#6B3FA0`. Env Science accent: forest green `#2D7A4F`. Fonts: Quicksand (UI) + Playfair Display (hero title).
 
 ---
 
 ## Game content
 
-All content is in [`src/data/gameSets.ts`](src/data/gameSets.ts) as a typed array of `GameSet` objects.
+All content is in [src/data/gameSets.ts](src/data/gameSets.ts) as a typed array of `GameSet` objects.
 
 ```ts
 interface GameTerm {
@@ -104,7 +109,7 @@ interface GameSet {
 }
 ```
 
-The APUSH landing page renders a 3-column grid of units 1–9 (Unit 2 hidden — merged into Unit 1). The Philosophy landing page renders a 2-column grid of 8 themes.
+The APUSH landing page renders a 3-column grid of units 1–9 (Unit 2 hidden — merged into Unit 1). The Philosophy landing page renders a 2-column grid of 8 themes. The Env Science landing page renders a full-width list of 9 units; clicking a unit opens `EnvSciUnitPage` showing subtopic cards.
 
 ### APUSH content
 
@@ -135,6 +140,24 @@ The APUSH landing page renders a 3-column grid of units 1–9 (Unit 2 hidden —
 | 7 | Social Philosophy | 1 |
 | 8 | Aesthetics | 1 |
 
+### Environmental Science content
+
+For AP & IB Environmental Science. Uses N.X subtopic naming (e.g. 1.1, 1.2).
+
+| Unit | Title | Subtopics | Puzzles |
+|------|-------|-----------|---------|
+| 1 | Living World: Ecosystems | 1.1–1.5 | 5 |
+| 2 | Living World: Biodiversity | 2.1–2.5 | 5 |
+| 3 | Populations | 3.1–3.4 | 4 |
+| 4 | Earth Systems & Resources | 4.1–4.4 | 4 |
+| 5 | Land & Water Use | 5.1–5.3 | 3 |
+| 6 | Energy Resources & Consumption | 6.1–6.4 | 4 |
+| 7 | Atmospheric Pollution | 7.1–7.3 | 3 |
+| 8 | Aquatic & Terrestrial Pollution | 8.1–8.4 | 4 |
+| 9 | Global Change | 9.1–9.4 | 4 |
+
+**Total: 36 puzzles, 576 terms** across all 9 units.
+
 ---
 
 ## Game rules (implemented)
@@ -152,7 +175,7 @@ The APUSH landing page renders a 3-column grid of units 1–9 (Unit 2 hidden —
 
 ## Known gaps / next steps
 
-- **All units themed** — All active units (1, 3–9) now have 8 AP-themed puzzles; Unit 2 is merged into Unit 1 and shows as Coming Soon
+- **All APUSH units themed** — All active units (1, 3–9) now have 8 AP-themed puzzles; Unit 2 is merged into Unit 1 and shows as Coming Soon
 - **AP Bio / AP Lang** subject pages don't exist yet — splash shows them as Coming Soon
 - **No shuffle button** — terms are shuffled once on load; players can't reshuffle mid-game
 - **No streak/history** — win/loss per session isn't tracked beyond puzzle completion in localStorage

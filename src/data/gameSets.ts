@@ -5323,6 +5323,2486 @@ export const gameSets: GameSet[] = [
     ],
   },
 
+
+  // ─── AP WORLD HISTORY ───────────────────────────────────────────────────────
+
+  // Unit 1 · The Global Tapestry (c. 1200–1450)
+
+  {
+    id: "apworld-unit-1-gov",
+    unit: 1,
+    puzzle: 1,
+    theme: { code: "GOV", name: "Governance" },
+    title: "The Global Tapestry",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Song Dynasty China",
+        terms: [
+          { term: "Scholar Gentry", definition: "The educated elite in Song China who earned their status through civil service exams based on Confucian classics; replaced the old aristocracy as the dominant class and filled government positions." },
+          { term: "Neo-Confucianism", definition: "A revival of Confucian thought blending Buddhist and Daoist elements; the official ideology of Song China that emphasized social hierarchy, filial piety, and moral cultivation; spread to Korea, Japan, and Vietnam." },
+          { term: "Grand Canal", definition: "Massive waterway connecting northern and southern China; maintained and expanded by the Song to move grain, troops, and goods across the empire; a key tool of imperial economic integration." },
+          { term: "Song Taizu", definition: "Founder and first emperor of the Song Dynasty (r. 960–976); reunified China after decades of fragmentation; prioritized civil governance over military power and elevated the scholar-gentry class." },
+        ],
+      },
+      {
+        name: "Mongol Empire",
+        terms: [
+          { term: "Genghis Khan", definition: "Founder of the Mongol Empire (r. 1206–1227); unified Mongol and Turkic tribes on the steppe; launched devastating conquests that created the largest contiguous land empire in history." },
+          { term: "Khanates", definition: "The four regional divisions of the Mongol Empire after Genghis Khan's death — the Golden Horde, Ilkhanate, Chagatai Khanate, and Yuan Dynasty — each ruled by a descendant of Genghis." },
+          { term: "Pax Mongolica", definition: "The 'Mongol Peace' — a period of relative stability across Eurasia (c. 1270–1350) enforced by Mongol rule; facilitated long-distance Silk Road trade, diplomatic exchange, and the spread of goods and disease." },
+          { term: "Yuan Dynasty", definition: "Mongol-ruled dynasty of China (1271–1368) founded by Kublai Khan; maintained Chinese bureaucratic structures but reserved top posts for Mongols and foreigners; hosted Marco Polo." },
+        ],
+      },
+      {
+        name: "Japanese Feudalism",
+        terms: [
+          { term: "Shogunate", definition: "The military government of Japan in which the shogun held real political and military power while the emperor served as a ceremonial figurehead; first established by Yoritomo Minamoto in 1185." },
+          { term: "Daimyo", definition: "Powerful regional feudal lords in Japan who controlled large agricultural estates and commanded armies of samurai; often exercised authority independently of the central shogunate." },
+          { term: "Bakufu", definition: "Literally 'tent government' — the military administration of the shogunate; governed Japan in place of the imperial court; the term reflects the military origins of Japanese feudal rule." },
+          { term: "Yoritomo Minamoto", definition: "Founder of the Kamakura Shogunate (1185) and Japan's first shogun; established the precedent of military rule that defined Japanese governance for centuries; sidelined the imperial court." },
+        ],
+      },
+      {
+        name: "Medieval European Order",
+        terms: [
+          { term: "Vassal / Fief", definition: "Core elements of European feudalism: a vassal swore loyalty and military service to a lord in exchange for a fief (land grant); these personal bonds of obligation structured medieval political life." },
+          { term: "Manor", definition: "The self-sufficient agricultural estate at the center of European feudal society; lords and serfs lived and worked on the manor; defined social and economic relationships in medieval Europe." },
+          { term: "Magna Carta", definition: "1215 English charter forced on King John by rebellious barons; limited royal power and established that the king was subject to the law; an early precedent for constitutional governance and individual rights." },
+          { term: "Common Law", definition: "System of English law built on court precedent and custom rather than written codes; developed under royal courts from the 12th century; formed the foundation of legal systems across England and its later colonies." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-1-cdi",
+    unit: 1,
+    puzzle: 2,
+    theme: { code: "CDI", name: "Cultural Developments & Interactions" },
+    title: "The Global Tapestry",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Islamic Institutions",
+        terms: [
+          { term: "5 Pillars", definition: "The five core obligations of Islam: shahada (declaration of faith), salat (daily prayer), zakat (almsgiving), sawm (fasting during Ramadan), and hajj (pilgrimage to Mecca); defines Muslim practice worldwide." },
+          { term: "Caliph", definition: "The political and religious leader of the Islamic community (umma); claimed succession from the Prophet Muhammad; caliphs ruled empires stretching from Spain to Central Asia." },
+          { term: "Sufi", definition: "Members of Islamic mystical orders who emphasized personal devotion, poetry, and direct experience of God over formal doctrine; critical agents in spreading Islam peacefully into sub-Saharan Africa, Central Asia, and Southeast Asia." },
+          { term: "Shari'a", definition: "Islamic law derived from the Quran and Hadith; governs religious practice, personal conduct, family relations, and in many Islamic states, civil and criminal matters; applied across the dar al-Islam." },
+        ],
+      },
+      {
+        name: "Religious Divisions & Conflict",
+        terms: [
+          { term: "Sunni", definition: "The majority branch of Islam (~85% of Muslims); accepts the first four caliphs as legitimate successors to Muhammad; dominant in most of the Middle East, South Asia, and Africa." },
+          { term: "Shi'ite", definition: "The minority branch of Islam; believes leadership should have passed through Ali (Muhammad's cousin); a source of ongoing sectarian conflict with Sunnis; dominant in Persia/modern Iran." },
+          { term: "Crusades", definition: "Series of religiously motivated wars (1096–1291) launched by European Christians to recapture the Holy Land from Muslim control; intensified cultural exchange between Europe and the Islamic world while deepening religious hostility." },
+          { term: "Heresy", definition: "Beliefs that deviated from official Catholic Church doctrine; the medieval Church vigorously prosecuted heretics through inquisitions; used to enforce religious conformity and suppress dissent in Europe." },
+        ],
+      },
+      {
+        name: "East Asian Belief Systems",
+        terms: [
+          { term: "Zen Buddhism", definition: "Japanese school of Mahayana Buddhism (Chan in China) emphasizing meditation, mindfulness, and direct insight over scripture study; profoundly influenced samurai culture, Japanese arts, and architecture." },
+          { term: "Shinto", definition: "The indigenous religion of Japan centered on reverence for nature spirits (kami) and ancestral worship; coexisted and blended with Buddhism in Japan; closely tied to imperial legitimacy." },
+          { term: "Monasticism", definition: "The practice of withdrawing from secular life to live in religious community; Christian monasteries in Europe and Buddhist monasteries in Asia both preserved scholarship, spread religion, and served as economic centers." },
+          { term: "Scholasticism", definition: "The dominant intellectual method of medieval European universities; sought to reconcile Christian theology with classical Greek philosophy (especially Aristotle); associated with thinkers like Thomas Aquinas." },
+        ],
+      },
+      {
+        name: "African Religious Traditions",
+        terms: [
+          { term: "Animism", definition: "The belief that natural objects, forces, and the universe itself possess spiritual essence; widespread indigenous practice in sub-Saharan Africa and the Americas; often coexisted with or absorbed elements of Islam and Christianity." },
+          { term: "Coptic", definition: "The ancient Christian church of Egypt and Ethiopia; one of the world's oldest Christian communities; maintained a distinct liturgy and theology separate from both Roman Catholicism and Eastern Orthodoxy." },
+          { term: "Pantheism", definition: "The belief that the divine is identical with the universe and present in all things; influenced various African and South Asian religious traditions; contrasts with the personal God of Abrahamic religions." },
+          { term: "Matrilineal", definition: "Tracing descent, inheritance, and social identity through the mother's line; practiced in many West and Central African societies including Bantu-speaking peoples; shaped family structure, property rights, and political succession." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-1-sio",
+    unit: 1,
+    puzzle: 3,
+    theme: { code: "SOC + ECN", name: "Society, Trade & Labor" },
+    title: "The Global Tapestry",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Social Hierarchies",
+        terms: [
+          { term: "Aristocracy", definition: "A hereditary ruling class that held political, military, and economic power by virtue of noble birth; dominant in medieval Europe and early Japan before being partially displaced by merit-based systems in Song China." },
+          { term: "Serfs", definition: "Peasants legally bound to the land under European feudalism; owed labor and fees to their lord; could not leave the manor without permission; formed the economic base of the feudal system." },
+          { term: "Footbinding", definition: "The practice in Song Dynasty China of tightly wrapping young girls' feet to restrict growth; considered a mark of beauty and high social status; limited women's mobility and reinforced patriarchal control over women's lives." },
+          { term: "Patriarchy", definition: "A social system in which men hold primary power in political, economic, and family life; reinforced across Afro-Eurasian societies through religion, law, and custom during the post-classical period." },
+        ],
+      },
+      {
+        name: "Trade Technologies",
+        terms: [
+          { term: "Dhow Ships", definition: "Traditional Arab sailing vessels with triangular lateen sails; the primary trading ships of the Indian Ocean network; used monsoon winds to sail reliably between East Africa, Arabia, India, and Southeast Asia." },
+          { term: "Lateen Sail", definition: "A triangular sail rigged to allow ships to sail into the wind, not just with it; adopted across the Mediterranean and Indian Ocean; a key navigational technology enabling long-distance maritime trade." },
+          { term: "Caravan", definition: "An organized group of merchants and pack animals traveling overland together for safety; essential to trans-Saharan and Silk Road trade; caravanserais (roadside inns) supported their long journeys." },
+          { term: "Qanat System", definition: "A Persian-invented network of underground channels that transported water from mountain aquifers to arid lowland settlements; enabled farming in dry regions of the Middle East and Central Asia." },
+        ],
+      },
+      {
+        name: "West African Commerce",
+        terms: [
+          { term: "Mansa", definition: "Royal title meaning 'king of kings' in the Mali Empire; most famously held by Mansa Musa (r. 1312–1337), whose extravagant pilgrimage to Mecca displayed Mali's enormous gold wealth to the world." },
+          { term: "Timbuktu", definition: "A major city in the Mali Empire at the crossroads of trans-Saharan trade and Islamic scholarship; home to the Sankore Mosque and university; drew merchants, scholars, and pilgrims from across Afro-Eurasia." },
+          { term: "Swahili", definition: "A Bantu-Arabic language and culture of the East African coast; Swahili city-states such as Kilwa and Mombasa served as key hubs connecting East African goods (gold, ivory) to the broader Indian Ocean trade network." },
+          { term: "Berbers", definition: "Indigenous North African people who served as key intermediaries in trans-Saharan trade; many converted to Islam and played a crucial role in spreading the religion and Arabic culture into sub-Saharan Africa." },
+        ],
+      },
+      {
+        name: "Labor & Production",
+        terms: [
+          { term: "Specialization of Labor", definition: "The process by which individuals focus on producing specific goods or services rather than being self-sufficient; made possible by agricultural surplus; gave rise to artisan classes, trade, and urban centers across the post-classical world." },
+          { term: "Artisan", definition: "A skilled craftsperson who produces goods by hand; central to premodern economies; organized into guilds in Europe and similar associations in Islamic cities; produced textiles, metalwork, and ceramics for local and long-distance trade." },
+          { term: "Guilds", definition: "Associations of artisans or merchants in medieval Europe that controlled production standards, trained apprentices, and regulated trade in specific crafts; similar merchant associations existed in Islamic cities." },
+          { term: "Corvée", definition: "A system of unpaid labor owed to a ruler or lord; used extensively across Afro-Eurasia — in China, Egypt, and France — to build infrastructure like roads, canals, and palaces without monetary compensation." },
+        ],
+      },
+    ],
+  },
+
+
+  // Unit 2 · Networks of Exchange (c. 1200–1450)
+
+  {
+    id: "apworld-unit-2-ecn",
+    unit: 2,
+    puzzle: 1,
+    theme: { code: "ECN", name: "Economic Systems" },
+    title: "Networks of Exchange",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Mongols & the Silk Roads",
+        terms: [
+          { term: "Marco Polo", definition: "Venetian merchant who traveled to China via the Silk Roads (c. 1271–1295) and served at Kublai Khan's court; his accounts introduced European readers to Asia's wealth and helped spark demand for direct trade routes." },
+          { term: "Kublai Khan", definition: "Mongol ruler of China (r. 1260–1294) and founder of the Yuan Dynasty; welcomed foreign merchants and diplomats; his court at Khanbaliq (Beijing) was the eastern terminus of the Silk Road network." },
+          { term: "Yam System", definition: "The Mongol Empire's network of horse-relay postal stations stretching across Eurasia; enabled rapid communication and troop movements; also used by merchants and diplomats, underpinning the commercial connections of the Pax Mongolica." },
+          { term: "Golden Horde", definition: "Mongol khanate that ruled the western Eurasian steppe (c. 1242–1502); controlled overland routes connecting China to Eastern Europe; taxed merchant caravans and acted as a key link in the Silk Road system." },
+        ],
+      },
+      {
+        name: "Indian Ocean Port Cities",
+        terms: [
+          { term: "Mogadishu", definition: "A major Swahili city-state on the Somali coast; prospered as a hub on Indian Ocean trade routes connecting East Africa to Arabia and India; its wealth was documented by the traveler Ibn Battuta in the 14th century." },
+          { term: "Mombasa", definition: "Strategic Swahili port on the Kenyan coast; a key node linking East African goods — ivory, gold, and enslaved people — to merchants trading across the Indian Ocean network." },
+          { term: "Kilwa", definition: "Prosperous Swahili city-state on the Tanzanian coast; controlled the gold trade from inland Zimbabwe to the Indian Ocean; considered one of the most splendid cities in the world by Ibn Battuta." },
+          { term: "Calicut", definition: "Major port on India's Malabar (southwest) coast; the center of the global pepper trade and a hub where Arab, Indian, and East African merchants exchanged goods; the first Indian city reached by Vasco da Gama in 1498." },
+        ],
+      },
+      {
+        name: "Commodities of Exchange",
+        terms: [
+          { term: "Silk", definition: "Luxury textile produced exclusively in China; gave overland Eurasian trade routes their name; transported westward and used as currency, diplomatic gift, and the most coveted commodity across Afro-Eurasia." },
+          { term: "Spices", definition: "High-value goods — pepper, cloves, cinnamon, nutmeg — from South and Southeast Asia; used to preserve food, mask spoilage, and display wealth; their enormous price in Europe drove the search for direct sea routes to Asia." },
+          { term: "Salt", definition: "Essential mineral for food preservation and bodily function; one of the most traded commodities across the Sahara (exchanged weight-for-weight with gold); also critical in South Asian and East Asian economies." },
+          { term: "Cotton Textiles", definition: "Indian cotton cloth was among the most traded goods in the Indian Ocean world for centuries; exchanged for East African gold, Southeast Asian spices, and Arabian horses; India dominated global textile production into the modern era." },
+        ],
+      },
+      {
+        name: "Facilitating Long-Distance Trade",
+        terms: [
+          { term: "Caravanserai", definition: "Government-sponsored inns and trading posts built along overland trade routes; provided food, water, shelter, and stabling for merchants and animals; concentrated commerce, news, and travelers at regular intervals." },
+          { term: "Bills of Exchange", definition: "Financial instruments developed by Islamic and later Italian merchants allowing the transfer of credit across vast distances without physically moving coins; reduced the risk of robbery and enabled far larger commercial transactions." },
+          { term: "Diasporic Communities", definition: "Permanent settlements of foreign merchants living abroad (Arab traders in India, Indian traders in Southeast Asia, Chinese traders in Java); maintained cultural identity while facilitating trust-based trade through shared language and legal systems." },
+          { term: "Monsoon Navigation", definition: "The seasonal reversal of Indian Ocean winds that made round-trip sailing predictable and reliable; merchants sailed with the summer monsoon toward Southeast Asia and returned on the winter monsoon; the ecological engine of Indian Ocean trade." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-2-cdi",
+    unit: 2,
+    puzzle: 2,
+    theme: { code: "CDI", name: "Cultural Developments & Interactions" },
+    title: "Networks of Exchange",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Islamic Religious Concepts",
+        terms: [
+          { term: "Hadith", definition: "The collected sayings and reported deeds of the Prophet Muhammad; second only to the Quran as a source of Islamic law; used by scholars to derive rulings on trade ethics, daily conduct, and community governance." },
+          { term: "Ka'aba", definition: "The cube-shaped shrine at the center of the Grand Mosque in Mecca; Islam's most sacred site; circumambulating it seven times is a required ritual of the hajj — the pilgrimage that drew Muslims from across Afro-Eurasia together each year." },
+          { term: "Imam", definition: "In Sunni Islam, the leader of communal prayer; in Shi'a Islam, a divinely guided descendant of Ali who leads the Muslim community; imams spread Islamic doctrine through mosques, schools, and trade communities." },
+          { term: "Jihad", definition: "Arabic for 'struggle'; in Islamic theology refers both to an inner spiritual struggle to live righteously AND an outward effort to defend or spread the Muslim community; the concept was used to justify both religious devotion and military expansion." },
+        ],
+      },
+      {
+        name: "Islamic Political Roles",
+        terms: [
+          { term: "Sultan", definition: "A political ruler in the Islamic world wielding secular authority; emerged as caliphs became figureheads; sultans governed major powers including the Delhi Sultanate, the Mamluk Sultanate, and later the Ottoman Empire." },
+          { term: "Vizier", definition: "The chief minister or administrator of an Islamic ruler; managed day-to-day governance, finances, and diplomacy; the Abbasid viziers often held real power while the caliph served a ceremonial role." },
+          { term: "Sheikh", definition: "An Arabic title for a tribal elder, religious scholar, or Sufi order leader; sheikhs commanded loyalty in Bedouin tribes, mosque communities, and mystical orders; a flexible term indicating spiritual and social authority." },
+          { term: "Bedouin", definition: "Nomadic Arab pastoralists of the Arabian Peninsula and North Africa; served as caravan guides, traders, and warriors; their intimate knowledge of desert terrain made them indispensable to overland commerce in the Islamic world." },
+        ],
+      },
+      {
+        name: "Buddhism Along Trade Routes",
+        terms: [
+          { term: "Mahayana Buddhism", definition: "The 'Greater Vehicle' school of Buddhism; spread from India via the Silk Roads to China, Korea, Japan, and Vietnam; emphasizes the bodhisattva ideal of compassionately delaying personal enlightenment to help all beings reach liberation." },
+          { term: "Theravada Buddhism", definition: "The 'Doctrine of the Elders' — the oldest surviving Buddhist school; spread from Sri Lanka to mainland Southeast Asia via maritime trade routes; emphasizes monastic discipline and the individual monk's path to nirvana." },
+          { term: "Bodhisattva", definition: "In Mahayana Buddhism, an enlightened being who delays entering nirvana in order to help all sentient beings achieve liberation; bodhisattvas like Guanyin became objects of widespread popular devotion across East and Southeast Asia." },
+          { term: "Sikhism", definition: "A monotheistic religion founded in the Punjab (c. late 15th century) by Guru Nanak; emerged from the contact and spiritual blending of Hindu and Islamic traditions in South Asia; emphasizes equality, service, and direct devotion to God." },
+        ],
+      },
+      {
+        name: "Disease Along Trade Routes",
+        terms: [
+          { term: "Black Death", definition: "The catastrophic plague pandemic (c. 1346–1353) that traveled westward along Mongol trade routes from Central Asia to Europe and the Middle East; killed an estimated 30–50% of Europe's population and comparable proportions across Afro-Eurasia." },
+          { term: "Bubonic Plague", definition: "The bacterial disease (Yersinia pestis) transmitted by fleas on rodents; moved rapidly along the Silk Roads facilitated by the Pax Mongolica; the most lethal pandemic in recorded history by proportion of population killed." },
+          { term: "Demographic Decline", definition: "The massive drop in population caused by plague and other trade-spread diseases; triggered labor shortages, social upheaval, economic disruption, and the collapse of established political orders across Afro-Eurasia." },
+          { term: "Quarantine", definition: "The practice of isolating potentially infected people or ships to prevent disease spread; developed in Venice (from Italian 'quarantina,' forty days); an early public health intervention born directly from the experience of trade-carried plague." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-2-env",
+    unit: 2,
+    puzzle: 3,
+    theme: { code: "ENV + TEC", name: "Environment, Migration & Technology" },
+    title: "Networks of Exchange",
+    subject: "AP World",
+    groups: [
+      {
+        name: "African Environmental Geography",
+        terms: [
+          { term: "Savanna", definition: "The vast tropical grassland belt of sub-Saharan Africa south of the Sahara; supported large pastoral and farming populations; the ecological zone where trans-Saharan and East African trade networks converged." },
+          { term: "Deforestation", definition: "Large-scale clearing of forests for agriculture and fuel; a consequence of population growth and agricultural expansion across Afro-Eurasia; caused soil erosion, disrupted water cycles, and reshaped local environments." },
+          { term: "Desertification", definition: "The process by which fertile or semi-arid land becomes desert; accelerated by overgrazing, deforestation, and climate shifts; the expansion of the Sahara over centuries forced population migrations and altered trans-Saharan trade routes." },
+          { term: "Slash and Burn", definition: "Agricultural technique of cutting and burning vegetation to clear land and temporarily enrich soil with ash; widely used by Bantu-speaking farming communities as they migrated across sub-Saharan Africa, leaving a lasting environmental mark." },
+        ],
+      },
+      {
+        name: "Migrating Peoples of Afro-Eurasia",
+        terms: [
+          { term: "Bantu", definition: "A large family of related languages and the peoples who speak them; Bantu-speaking farmers migrated from West Africa across sub-Saharan Africa over millennia, spreading ironworking, agriculture, and Bantu languages; ancestors of most sub-Saharan Africans today." },
+          { term: "Huns", definition: "Nomadic steppe warriors from Central Asia whose westward migrations (c. 4th–5th century CE) pushed Germanic peoples into the Roman Empire, accelerating its collapse; a powerful example of how steppe nomad movements reshaped settled civilizations." },
+          { term: "Pastoralism", definition: "An economy based on herding domesticated animals rather than cultivating crops; common in Eurasian steppes, the Arabian Peninsula, and African savannas; pastoral peoples were vital intermediaries who connected distant regions through their seasonal migrations." },
+          { term: "Diaspora", definition: "The dispersal of a people from their original homeland into new regions; trade diasporas — communities of merchants living permanently abroad — were essential to long-distance commerce, maintaining cultural identity while building cross-cultural economic networks." },
+        ],
+      },
+      {
+        name: "Foundations of Complex Society",
+        terms: [
+          { term: "Paleolithic Era", definition: "The 'Old Stone Age' (to c. 10,000 BCE) when humans lived as nomadic hunter-gatherers; characterized by the development of stone tools, language, art, and the migration of Homo sapiens across the globe — the baseline from which all later civilizations developed." },
+          { term: "Neolithic Revolution", definition: "The transition from nomadic hunting-gathering to settled agriculture (c. 10,000 BCE in the Middle East); produced food surpluses, population growth, specialization of labor, and eventually cities, states, and trade — the foundational transformation of human history." },
+          { term: "Theocracy", definition: "A government in which religious and political authority are fused and rulers claim divine sanction; common in early civilizations from Egypt to Mesopotamia to Mesoamerica; provided ideological legitimacy for rulers who demanded obedience as God's representatives on earth." },
+          { term: "Tribute", definition: "Payments of goods, labor, or currency extracted from subordinate peoples by a dominant power; a fundamental mechanism of empire that transferred wealth from periphery to center; operated alongside — and often controlled — long-distance trade networks." },
+        ],
+      },
+      {
+        name: "Technology Transfer via Trade",
+        terms: [
+          { term: "Gunpowder", definition: "Invented in China (c. 9th century CE); spread westward through the Islamic world to Europe via Silk Road connections; transformed warfare through cannons and firearms, eventually giving European states a decisive military advantage globally." },
+          { term: "Compass", definition: "Magnetic navigation device invented in China; transmitted to Arab sailors and then European navigators via trade contacts; allowed determination of direction without celestial cues, revolutionizing maritime navigation and enabling the Age of Exploration." },
+          { term: "Paper", definition: "Invented in China (c. 105 CE); spread to the Islamic world after the Battle of Talas (751 CE) and triggered the Islamic Golden Age of scholarship; reached Europe via Islamic Spain; transforming record-keeping, governance, and intellectual life everywhere it spread." },
+          { term: "Stirrup", definition: "Metal foot support for horseback riders; originated in Central Asia and spread across Eurasia via pastoral and trade networks; enabled stable mounted combat, gave cavalry a decisive advantage, and reshaped the military and social structures of medieval societies worldwide." },
+        ],
+      },
+    ],
+  },
+
+
+  // Unit 3 · Land-Based Empires (c. 1450–1750)
+
+  {
+    id: "apworld-unit-3-gov",
+    unit: 3,
+    puzzle: 1,
+    theme: { code: "GOV", name: "Governance" },
+    title: "Land-Based Empires",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Ottoman Empire",
+        terms: [
+          { term: "Janissaries", definition: "Elite infantry soldiers of the Ottoman Empire; recruited as boys from Christian families through the devshirme system; converted to Islam, educated in Ottoman service, and became among the most feared soldiers in the early modern world." },
+          { term: "Devshirme", definition: "The Ottoman practice of recruiting young Christian boys from the Balkans for imperial service; converts were trained as soldiers (Janissaries) or administrators; gave talented men social mobility while also separating them entirely from their home communities." },
+          { term: "Mehmet II", definition: "Ottoman sultan (r. 1451–1481) known as 'the Conqueror'; captured Constantinople in 1453, ending the Byzantine Empire; renamed the city Istanbul and made it his capital; transformed the Ottoman state into a dominant world power straddling Europe and Asia." },
+          { term: "Suleiman I", definition: "'Suleiman the Magnificent' (r. 1520–1566); ruled at the height of Ottoman power; expanded the empire deep into Europe, North Africa, and the Middle East; known for legal reforms (earning him the title 'Lawgiver') and patronage of the arts and architecture." },
+        ],
+      },
+      {
+        name: "Mughal Empire",
+        terms: [
+          { term: "Akbar", definition: "The greatest Mughal emperor (r. 1556–1605); expanded the empire across most of the Indian subcontinent; renowned for religious tolerance toward Hindus — abolishing jizya and welcoming scholars of all faiths — and for administrative reforms that held a diverse empire together." },
+          { term: "Zamindars", definition: "Local landlords in the Mughal Empire who collected taxes from peasants on behalf of the state, retaining a portion as payment; a crucial administrative link between the imperial government and India's rural agricultural communities." },
+          { term: "Grand Wazir", definition: "The chief minister of the Mughal (and Ottoman) empire; managed day-to-day governance, finances, and military operations; the most powerful official below the emperor and sometimes the true power behind the throne." },
+          { term: "Jizya", definition: "A tax levied on non-Muslims (dhimmis) living under Islamic rule; justified as payment for the state's protection and exemption from military service; Akbar abolished it to improve Hindu-Muslim relations; Aurangzeb's reinstatement of it helped trigger Mughal decline." },
+        ],
+      },
+      {
+        name: "Ming / Qing China",
+        terms: [
+          { term: "Zheng He", definition: "Chinese Muslim admiral who led seven enormous naval expeditions (1405–1433) from Ming China to Southeast Asia, India, Arabia, and East Africa; demonstrated China's maritime capability; the voyages were halted after his death, leaving oceanic exploration to European powers." },
+          { term: "Manchus", definition: "People from Manchuria who overthrew the Ming dynasty and founded the Qing dynasty (1644–1912); imposed the queue hairstyle on Han Chinese as a sign of submission; built the last and largest Chinese imperial dynasty, ruling until 1912." },
+          { term: "Banners", definition: "The eight military-administrative divisions of the Manchu state; each banner was a self-contained unit with its own troops, land, and leadership; Banner armies were the military backbone of Qing conquest and ongoing imperial control." },
+          { term: "Dyarchy", definition: "The Qing system of dual governance pairing most administrative positions with both a Manchu and a Han Chinese official; allowed the Manchu minority to maintain power while harnessing Han bureaucratic expertise; a pragmatic solution to ruling a population 100× larger than the conquerors." },
+        ],
+      },
+      {
+        name: "Tokugawa Japan",
+        terms: [
+          { term: "Tokugawa Ieyasu", definition: "Founder of the Tokugawa Shogunate (1603) who unified Japan after a century of civil war; established the capital at Edo (modern Tokyo); his policies of rigid social control and political stability defined Japan for 250 years." },
+          { term: "Ronin", definition: "Masterless samurai in Tokugawa Japan whose lords had died, been dispossessed, or lost their domains; a social problem in an era of enforced peace when military skills had no outlet; some became teachers, artists, or outlaws." },
+          { term: "Sankin-kotai", definition: "The Tokugawa 'alternate attendance' system requiring daimyo to spend alternating years at the Edo shogunal court; kept lords under surveillance, drained their wealth on travel expenses, and enriched merchants along the highways — a clever mechanism of political control." },
+          { term: "Sakoku", definition: "Japan's near-total isolation policy (c. 1635–1853); limited foreign trade strictly to Dutch and Chinese merchants at Nagasaki; blocked the spread of Christianity and Western political ideas; Japan developed distinctively in isolation until Commodore Perry's arrival forced it open in 1853." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-3-cdi",
+    unit: 3,
+    puzzle: 2,
+    theme: { code: "CDI", name: "Cultural Developments & Interactions" },
+    title: "Land-Based Empires",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Mughal Cultural Achievement",
+        terms: [
+          { term: "Taj Mahal", definition: "Magnificent white marble mausoleum built by Mughal Emperor Shah Jahan (1632–1653) for his wife Mumtaz Mahal in Agra; a UNESCO World Heritage Site that blends Persian, Islamic, and Indian architectural traditions; the supreme symbol of Mughal artistic and imperial achievement." },
+          { term: "Red Fort", definition: "Vast red sandstone palace-fortress built by Shah Jahan in Delhi (completed 1648); the symbolic heart of Mughal imperial power where emperors received foreign ambassadors and celebrated festivals; continued as a seat of power until the British exiled the last Mughal in 1857." },
+          { term: "Din-i-Ilahi", definition: "Akbar's attempt to create a syncretic personal religion blending elements of Islam, Hinduism, Zoroastrianism, and Christianity; intended to unite his diverse empire spiritually; won few converts but epitomized Mughal religious curiosity and tolerance at its height." },
+          { term: "Nur Jahan", definition: "Empress of the Mughal Empire (effectively r. 1611–1627) as wife of the opium-dependent Jahangir; issued imperial edicts, oversaw military campaigns, controlled court appointments, and dominated foreign trade; one of the most powerful women in Mughal history." },
+        ],
+      },
+      {
+        name: "Religious Minorities in Empires",
+        terms: [
+          { term: "Millet System", definition: "The Ottoman practice of governing religious minorities (Christians, Jews, Armenians) as semi-autonomous communities under their own religious leaders; allowed minorities to maintain their faith, laws, and institutions in exchange for loyalty and tax payments." },
+          { term: "Dhimmi", definition: "A non-Muslim 'protected person' living under Islamic rule; dhimmis (Jews, Christians, Zoroastrians) had protected status but paid the jizya and faced some legal restrictions; the dhimmi framework allowed multi-religious Islamic empires to function across centuries." },
+          { term: "Converso", definition: "A Spanish Jew or Muslim who converted to Christianity — often under coercion — following the Reconquista; many were suspected of secretly continuing their original faith; persecution by the Spanish Inquisition drove thousands of conversos to flee to the more tolerant Ottoman Empire." },
+          { term: "Sephardic Diaspora", definition: "The dispersal of Jews expelled from Spain by the Edict of Expulsion in 1492; many resettled in the Ottoman Empire, which welcomed them for their languages, financial networks, and medical skills; established flourishing communities in Istanbul, Salonica, and North Africa." },
+        ],
+      },
+      {
+        name: "European Missionaries in Asia",
+        terms: [
+          { term: "Francis Xavier", definition: "Spanish Jesuit missionary (1506–1552) who brought Christianity to Goa (India), Malacca, and Japan; converted thousands and reported back to Rome about Asian cultures; his missions exemplified both the ambition of European religious expansion and its limits in East Asia." },
+          { term: "Ricci", definition: "Matteo Ricci — Italian Jesuit (1552–1610) who mastered Chinese, produced the first Chinese-language world map, and gained access to the Ming imperial court; shared European astronomy and mathematics while promoting Christianity; exemplified the Jesuit strategy of adapting to local culture to win converts." },
+          { term: "Macao / Canton", definition: "Macao = Portuguese trading enclave on the South China coast (leased 1557), used as a base for Jesuit missions; Canton (Guangzhou) = the sole Chinese port later opened to Western merchants under the Canton System; together they represent China's tightly managed and restricted engagement with European powers." },
+          { term: "Kabuki", definition: "Highly stylized Japanese theatrical form that emerged in the early Tokugawa period; featured elaborate costumes, makeup, and dramatic stories drawn from history and everyday life; initially performed by women, later restricted to all-male troupes; became the dominant popular entertainment of Edo-period urban Japan." },
+        ],
+      },
+      {
+        name: "Ming-Qing Transition",
+        terms: [
+          { term: "White Lotus", definition: "A Chinese Buddhist secret society promising salvation and the restoration of the Han-ruled Ming dynasty; periodically led peasant rebellions against corrupt or foreign rule; the White Lotus Rebellion (1796–1804) signaled Qing decline and the weakness of dynastic control over rural China." },
+          { term: "Jurchen", definition: "The Tungusic-speaking people of Manchuria who became the Manchus; their earlier Jin dynasty had conquered northern China in the 12th century; their Qing successors in 1644 accomplished what no previous conquest dynasty had — ruling all of China for nearly three centuries." },
+          { term: "Grand Council", definition: "The Qing emperor's inner advisory cabinet, established by the Yongzheng Emperor (c. 1729); operated in secret and bypassed the formal bureaucracy; concentrated decision-making power directly in the emperor's hands; became the nerve center of late Qing governance." },
+          { term: "Beijing", definition: "China's imperial capital since the Ming Emperor Yongle moved the court there in 1421; home of the Forbidden City — the vast palace complex symbolizing the emperor's divine authority; under the Qing, Beijing remained the political center of the world's most populous empire." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-3-ecn",
+    unit: 3,
+    puzzle: 3,
+    theme: { code: "GOV + ECN", name: "Expansion, Trade & Society" },
+    title: "Land-Based Empires",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Safavid Empire",
+        terms: [
+          { term: "Shah Abbas I", definition: "The greatest Safavid ruler (r. 1588–1629); reformed the military, built a new capital at Isfahan, expanded the silk trade with Europe, and drove the Ottomans out of Azerbaijan; made the Safavid Empire a major power in the early modern Middle East and a rival of both the Ottomans and the Mughals." },
+          { term: "Isfahan", definition: "Capital of the Safavid Empire, rebuilt by Shah Abbas I as one of the world's most magnificent cities; home to grand mosques, covered bazaars, and the Naqsh-e Jahan Square; a center of Persian art, architecture, and commerce that attracted European merchants and diplomats." },
+          { term: "Twelver Shia Islam", definition: "The branch of Shia Islam that recognizes twelve imams descended from Ali; made the official religion of Persia by the Safavids in the early 16th century; permanently divided the Islamic world along sectarian lines and defined the enduring Sunni (Ottoman) vs. Shia (Safavid/Iranian) divide." },
+          { term: "Silk Industry", definition: "The Safavid Empire's most valuable export commodity; Shah Abbas I developed royal silk workshops, redirected trade away from Ottoman-controlled routes, and used Armenian Christian merchants as commercial intermediaries; silk revenues funded military campaigns and the lavish Safavid court." },
+        ],
+      },
+      {
+        name: "Russian Expansion",
+        terms: [
+          { term: "Ivan the Terrible", definition: "First officially crowned Tsar of Russia (r. 1547–1584); centralized power by destroying the boyar nobility; conquered the Tatar khanates of Kazan and Astrakhan; his brutal autocratic style and expansion eastward established patterns of Russian imperial rule that persisted for centuries." },
+          { term: "Cossacks", definition: "Militarized communities of free frontiersmen on the Russian and Ukrainian steppes; served as cavalry for the tsars; led Russia's rapid expansion across Siberia; simultaneously agents of imperial expansion and a source of periodic popular rebellions against the tsar." },
+          { term: "Siberian Expansion", definition: "Russia's rapid advance across the vast Siberian landmass between 1580 and 1640, reaching the Pacific Ocean; driven primarily by the lucrative fur trade; Russia subjugated dozens of indigenous peoples and established a Eurasian land empire as large as any in the world." },
+          { term: "Serfdom", definition: "The binding of Russian peasants to the land under noble control; intensified in the 16th–17th centuries to fund military expansion and reward the nobility; Russia's serf system grew harsher as Western European serfdom declined; a form of near-slavery that was not abolished until 1861." },
+        ],
+      },
+      {
+        name: "The Global Silver Trade",
+        terms: [
+          { term: "Potosí", definition: "Spanish colonial silver mining city in modern Bolivia; the Cerro Rico mountain produced over half the world's silver output in the 16th–17th centuries; indigenous peoples labored under the brutal mita system to extract it; Potosí silver connected the Americas to global trade networks for the first time." },
+          { term: "Manila Galleons", definition: "Spanish ships that sailed annually between Acapulco (Mexico) and Manila (Philippines) from 1565 to 1815; carried vast quantities of American silver to Asia in exchange for Chinese silk, porcelain, and spices; created the first direct, sustained trade route linking the Americas to Asia." },
+          { term: "Ming China's Silver Demand", definition: "The Ming dynasty's switch to a silver-based tax system created enormous demand for imported silver; this demand pulled Spanish American silver westward across the Pacific and Atlantic simultaneously; China's hunger for silver was a primary engine of the first truly global economy." },
+          { term: "Price Revolution", definition: "The dramatic, sustained rise in prices across Europe in the 16th–17th centuries; caused partly by the massive flood of Spanish American silver, which increased the money supply; disrupted existing social hierarchies, undermined fixed-income nobles and peasants, and contributed to widespread social unrest." },
+        ],
+      },
+      {
+        name: "Women & Imperial Courts",
+        terms: [
+          { term: "Harem", definition: "The secluded women's quarters in Ottoman and Mughal palaces; housed the sultan's or emperor's wives, concubines, enslaved women, and their children; contrary to popular myth, powerful harem women — especially the valide sultan (queen mother) — could exercise enormous political influence over imperial affairs." },
+          { term: "Roxelana", definition: "Enslaved Ukrainian woman (c. 1502–1558) who became the legal wife and closest advisor of Suleiman I; broke centuries of Ottoman tradition by marrying the sultan; used her position to influence succession politics and ensure her son Selim II became sultan; an extraordinary example of agency within imperial structures." },
+          { term: "Purdah", definition: "The South Asian and Islamic practice of secluding women from unrelated men, through physical barriers (screens, separate rooms) or veiling in public; practiced most strictly among elite classes in Mughal India; shaped women's access to education, commerce, and public religious life." },
+          { term: "Concubinage", definition: "The institution by which emperors and sultans maintained secondary female partners without formal marriage; concubines who bore sons could gain enormous influence over imperial succession; practiced systematically across the Ottoman, Mughal, and Chinese imperial courts as part of dynastic reproduction strategies." },
+        ],
+      },
+    ],
+  },
+
+
+  // Unit 4 · Transoceanic Interconnections (c. 1450–1750)
+
+  {
+    id: "apworld-unit-4-tec",
+    unit: 4,
+    puzzle: 1,
+    theme: { code: "TEC + GOV", name: "Exploration & Colonial Governance" },
+    title: "Transoceanic Interconnections",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Portuguese Sea Routes",
+        terms: [
+          { term: "Prince Henry", definition: "Prince Henry the Navigator (1394–1460); Portuguese royal who funded and organized systematic exploration down the West African coast; established a navigation school; his investment in ships, maps, and sailors launched Portugal's maritime empire and the Age of Exploration." },
+          { term: "Dias", definition: "Bartolomeu Dias (c. 1450–1500); Portuguese navigator who in 1488 became the first European to round the Cape of Good Hope at the southern tip of Africa; proved a sea route to Asia was possible; opened the door for da Gama's voyage to India ten years later." },
+          { term: "Da Gama", definition: "Vasco da Gama (c. 1460–1524); Portuguese explorer who in 1498 became the first European to reach India by sea; his voyage around Africa to Calicut broke the Arab monopoly on the spice trade and inaugurated Portugal's Indian Ocean empire." },
+          { term: "Caravels", definition: "Small, highly maneuverable Portuguese sailing ships combining lateen sails (for sailing into the wind) with a shallow draft; superior design for coastal exploration and ocean voyaging; the primary vessel of Portuguese exploration along Africa and into the Indian Ocean." },
+        ],
+      },
+      {
+        name: "Spanish Conquest of the Americas",
+        terms: [
+          { term: "Cortes", definition: "Hernán Cortés (1485–1547); Spanish conquistador who overthrew the Aztec Empire (1519–1521); used indigenous alliances (especially the Tlaxcalans), firearms, horses, and epidemic smallpox to topple Montezuma II's empire of millions with just a few hundred men." },
+          { term: "Pizarro", definition: "Francisco Pizarro (c. 1471–1541); Spanish conquistador who conquered the Inca Empire (1532–1533); captured and executed the Inca emperor Atahualpa despite a ransom of gold; exploited Inca civil war and epidemic disease to bring down the largest empire in the Americas." },
+          { term: "Conquistadors", definition: "Spanish soldier-adventurers who led the conquest of the Americas in the 16th century; motivated by gold, glory, and the spread of Christianity; operated under royal license but at personal financial risk; destroyed or fundamentally altered every major indigenous civilization they encountered." },
+          { term: "Montezuma", definition: "Montezuma II (r. 1502–1520); ruler of the Aztec Triple Alliance at the time of Cortés's arrival; initially received the Spanish as guests; taken hostage by Cortés; his death — by Spanish execution or indigenous stoning — symbolizes the catastrophic end of Aztec civilization." },
+        ],
+      },
+      {
+        name: "Colonial Governance",
+        terms: [
+          { term: "Viceroys", definition: "Royal representatives appointed by the Spanish Crown to govern colonial territories (New Spain, Peru); wielded sweeping authority as the king's proxy — administering justice, collecting taxes, commanding armies, and overseeing the Church across vast American territories." },
+          { term: "Encomienda", definition: "Spanish colonial labor system granting colonists the right to demand labor or tribute from indigenous people in a defined area; in theory obligated colonists to protect and Christianize them; in practice it was a system of forced labor that decimated indigenous communities." },
+          { term: "Treaty of Tordesillas", definition: "1494 papal agreement dividing the non-European world between Spain and Portugal along a line of longitude; Spain received everything west of the line (most of the Americas); Portugal received everything east (Africa, Asia, and Brazil); brokered by Pope Alexander VI." },
+          { term: "De Las Casas", definition: "Bartolomé de las Casas (1484–1566); Spanish Dominican friar who became the most vocal advocate for indigenous rights; his writings documented Spanish atrocities in graphic detail; lobbied the Crown for legal protections; helped pass the New Laws of 1542 limiting indigenous enslavement." },
+        ],
+      },
+      {
+        name: "Commerce of Empire",
+        terms: [
+          { term: "Mercantilism", definition: "Economic theory holding that a state's wealth depends on accumulating gold and silver by maximizing exports and minimizing imports; colonies existed to enrich the mother country by supplying raw materials and buying finished goods; guided Spanish, Portuguese, Dutch, and English colonial policy." },
+          { term: "Joint Stock Co.", definition: "A business structure pooling capital from multiple investors who share both risks and profits; enabled wealthy Europeans to fund expensive long-distance voyages; the Dutch East India Company (VOC) and British East India Company grew so powerful they governed entire territories." },
+          { term: "Commercial Revolution", definition: "The transformation of European economies from the 14th to 18th centuries, marked by the growth of long-distance trade, banking, credit instruments, and market economies; created the commercial infrastructure that financed exploration and eventually led to the Industrial Revolution." },
+          { term: "Malacca", definition: "Strategic port city on the Strait of Malacca in Southeast Asia; the critical chokepoint of the spice trade between the Indian Ocean and South China Sea; seized by the Portuguese in 1511 to monopolize the spice trade; later taken by the Dutch in 1641 to break that monopoly." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-4-env",
+    unit: 4,
+    puzzle: 2,
+    theme: { code: "ENV", name: "The Columbian Exchange" },
+    title: "Transoceanic Interconnections",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Crops: Americas to Old World",
+        terms: [
+          { term: "Potato", definition: "Andean root crop introduced to Europe after 1492; transformed European diets by providing reliable high-calorie yields on poor soils; enabled population growth across Europe; its devastating failure during the Irish Famine (1845) exposed how dependent entire populations had become on this single American crop." },
+          { term: "Maize", definition: "Corn — staple grain domesticated in Mesoamerica; spread across Europe, Africa, and Asia via the Columbian Exchange; became a dietary staple across sub-Saharan Africa in particular; its high caloric yield per acre supported population growth across multiple continents simultaneously." },
+          { term: "Tomato", definition: "Native to the Andes; slow to be accepted in Europe (initially thought poisonous); eventually transformed Italian, Spanish, and global cuisines in ways now considered 'traditional'; a quintessential example of how the Columbian Exchange permanently reshaped Old World food culture." },
+          { term: "Tobacco", definition: "Native American plant adopted by European smokers in the 16th century; created a massive addictive consumer market; became the first profitable cash crop of Virginia and the Chesapeake colonies; drove the early demand for enslaved labor on American plantations." },
+        ],
+      },
+      {
+        name: "Old World to the Americas",
+        terms: [
+          { term: "Horse", definition: "Reintroduced to the Americas by Spanish conquistadors (wild horses had been extinct in the Americas for 10,000 years); transformed warfare and hunting for Plains peoples (Comanche, Lakota); gave Spanish cavalry a decisive military edge over Aztec and Inca foot soldiers." },
+          { term: "Sugar", definition: "Old World crop transplanted to Caribbean and Brazilian plantations; required intensive cultivation that drove the Atlantic slave trade; made plantation owners fabulously wealthy; by the 18th century sugar was the most profitable and most traded commodity in the Atlantic world." },
+          { term: "Cattle", definition: "European livestock introduced to the Americas; thrived on American grasslands and transformed the ecology of the pampas and Great Plains; cattle ranching became central to colonial economies and gave rise to distinct cowboy/gaucho cultures across the Americas." },
+          { term: "Wheat", definition: "European staple grain transplanted to the Americas; became the primary bread grain of colonial settlements; massive deforestation occurred as colonists cleared land for wheat fields; its introduction displaced indigenous food systems and enabled permanent, large-scale European agricultural settlement." },
+        ],
+      },
+      {
+        name: "Disease & Demographic Collapse",
+        terms: [
+          { term: "Smallpox", definition: "The most devastating Old World disease introduced to the Americas; indigenous populations had zero immunity; spread in advance of conquistadors, killing millions before Europeans arrived in force; a key reason tiny Spanish forces were able to topple empires of millions within decades." },
+          { term: "Valley of Mexico", definition: "The densely populated highland basin where Tenochtitlán stood; home to millions before the conquest; suffered catastrophic population collapse after 1519 due to smallpox and successive epidemic waves; transformed within decades from the most densely settled region in the Americas into a depopulated colonial landscape." },
+          { term: "Epidemic Disease", definition: "The introduction of Old World diseases — smallpox, measles, typhus, influenza — to populations with no prior exposure or immunological defenses; caused the most devastating demographic collapse in human history, estimated to have killed 50–90% of the indigenous American population within a century of contact." },
+          { term: "Population Decline", definition: "The catastrophic loss of indigenous American life following European contact — the greatest demographic disaster in world history; reduced indigenous populations from an estimated 50–100 million in 1491 to perhaps 5–10 million by 1600; fundamentally reshaped colonial labor systems, driving the Atlantic slave trade." },
+        ],
+      },
+      {
+        name: "Colonial Social Hierarchy",
+        terms: [
+          { term: "Peninsulares", definition: "Colonists born in Spain (or Portugal) who lived in the Americas; occupied the highest rung of colonial society; monopolized top positions in church, government, and military; resented by American-born elites who considered themselves equally qualified." },
+          { term: "Creoles", definition: "People of full European descent born in the Americas; wealthy, educated, and growing in American identity; excluded from top colonial offices because they weren't Iberian-born; resentment of Peninsulares monopolizing power became a driving force behind the Latin American independence movements of the early 1800s." },
+          { term: "Mestizos", definition: "People of mixed European and indigenous ancestry; the fastest-growing social group in colonial Latin America; occupied an ambiguous middle position in the colonial racial hierarchy; eventually became the demographic majority across Mexico and much of Central America." },
+          { term: "Mulattoes", definition: "People of mixed European and African ancestry in colonial Latin America and the Caribbean; occupied a distinct layer in colonial racial hierarchies; free mulattoes could own property; their legal status varied considerably across different colonial systems but was always below full Europeans." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-4-sio",
+    unit: 4,
+    puzzle: 3,
+    theme: { code: "SIO + TEC", name: "Atlantic World & Pre-Columbian Civilizations" },
+    title: "Transoceanic Interconnections",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Atlantic Slave Trade",
+        terms: [
+          { term: "Middle Passage", definition: "The horrific transatlantic crossing endured by enslaved Africans packed into ships under conditions of extreme overcrowding, disease, and violence; lasted 3–12 weeks; mortality rates of 10–20% were common; approximately 12.5 million Africans were transported to the Americas between 1500 and 1867." },
+          { term: "Triangle Trade", definition: "The three-legged Atlantic trading system: manufactured European goods sailed to West Africa → enslaved Africans were shipped to the Americas (Middle Passage) → plantation products (sugar, tobacco, cotton) returned to Europe; connected three continents in a profitable but brutally exploitative commercial network." },
+          { term: "Chattel Slavery", definition: "The legal system treating enslaved people as moveable property (chattel) with no legal rights; could be bought, sold, inherited, and punished at will; the form of slavery developed in the Americas was distinguished by its hereditary, race-based nature and its absolute legal dehumanization of enslaved people." },
+          { term: "Plantation Economy", definition: "Agricultural system based on large estates producing cash crops (sugar, tobacco, cotton, indigo) for export using enslaved labor; dominated the economies of the Caribbean, Brazil, and the American South; generated enormous wealth for European elites while creating conditions of extreme exploitation and cultural destruction." },
+        ],
+      },
+      {
+        name: "Pre-Columbian Civilizations",
+        terms: [
+          { term: "Tenochtitlán", definition: "The spectacular island capital of the Aztec Empire built in Lake Texcoco (founded c. 1325); by 1500 it held 200,000–300,000 people — larger than any European city; built on chinampas (floating gardens) with an elaborate system of causeways; destroyed by Cortés in 1521 and replaced by Mexico City." },
+          { term: "Cuzco", definition: "The sacred capital of the Inca Empire in the Andes (modern Peru); laid out in the shape of a puma; home to the Qorikancha (Temple of the Sun) sheathed in gold; the political, religious, and administrative heart of an empire stretching 2,500 miles along the Pacific coast." },
+          { term: "Andean Highlands", definition: "The mountainous spine of western South America where the Inca Empire developed; extreme altitude, dramatic terrain, and diverse microclimates posed enormous challenges that the Incas overcame through terrace farming, llama herding, and their extraordinary road and quipu systems." },
+          { term: "Machu Picchu", definition: "Inca royal estate and ceremonial center built c. 1450 high in the Andes above the Urubamba River; a masterpiece of Inca engineering with precisely fitted stone construction requiring no mortar; abandoned after the Spanish conquest; rediscovered by Hiram Bingham in 1911; the iconic symbol of Inca civilization." },
+        ],
+      },
+      {
+        name: "Inca Administration & Technology",
+        terms: [
+          { term: "Curacas", definition: "Local Andean lords who administered indigenous communities on behalf of the Inca state; served as key intermediaries between the imperial government and local populations; the Spanish colonial system later co-opted cooperative curacas to help collect tribute and manage labor drafts from Andean communities." },
+          { term: "Metallurgy", definition: "The science and craft of working metals; Andean peoples developed sophisticated techniques for gold, silver, copper, and bronze working; spectacular Inca metalwork served ritual and display purposes; Spanish lust for Andean precious metals drove both the conquest and the global silver trade that followed." },
+          { term: "Inca", definition: "The title of the divine ruler of Tawantinsuyu (the Inca Empire); considered the son of Inti (the Sun God); the living embodiment of Inca political, military, and religious authority; the capture and ransom execution of the Inca Atahualpa by Pizarro decapitated the entire imperial system simultaneously." },
+          { term: "Road System", definition: "The Qhapaq Ñan — the Inca's 25,000-mile royal road network; stretched from Colombia to Chile through some of the world's most extreme terrain; included suspension bridges, relay stations, and storehouses; enabled rapid movement of armies, goods, and quipu messages across the Andean empire." },
+        ],
+      },
+      {
+        name: "Exploration Continues",
+        terms: [
+          { term: "Magellan", definition: "Ferdinand Magellan (c. 1480–1521); Portuguese explorer sailing for Spain who led the first expedition to circumnavigate the globe (1519–1522); killed in the Philippines, but his crew completed the voyage; proved the Pacific Ocean was far wider than imagined and permanently reshaped European geographic understanding." },
+          { term: "Cartier", definition: "Jacques Cartier (1491–1557); French explorer who made three voyages to northeastern North America (1534–1542); sailed up the St. Lawrence River; claimed the region for France; his voyages laid the foundation for French colonization of Canada, though he never found the Northwest Passage he sought." },
+          { term: "Maritime", definition: "Relating to the sea, seafaring, and naval technology; European maritime expansion in the 15th–17th centuries transformed global trade, established colonial empires, and connected the world's major civilizations for the first time; mastery of maritime technology was the single most important factor in European global dominance." },
+          { term: "Northwest Passage", definition: "The long-sought sea route through Arctic waters north of North America connecting the Atlantic to the Pacific; sought by explorers from Cartier to Hudson to Frobisher; its elusive search drove much of northern European exploration of North America; not successfully navigated until Roald Amundsen in 1903–1906." },
+        ],
+      },
+    ],
+  },
+
+
+  // Unit 5 · Revolutions (c. 1750–1900)
+
+  {
+    id: "apworld-unit-5-gov",
+    unit: 5,
+    puzzle: 1,
+    theme: { code: "GOV", name: "Age of Political Revolutions" },
+    title: "Revolutions",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Reign of Terror",
+        terms: [
+          { term: "Bastille", definition: "Medieval Paris fortress and royal prison stormed by a Parisian mob on July 14, 1789 — the opening act of the French Revolution; its fall symbolized the collapse of royal authority and launched the revolutionary era; July 14 remains France's national holiday (Bastille Day)." },
+          { term: "Jacobins", definition: "The most radical political club of the French Revolution; dominated the National Convention from 1793; pushed for the execution of Louis XVI and directed the Reign of Terror; named for their meeting place at a Dominican (Jacobin) convent in Paris." },
+          { term: "Committee of Public Safety", definition: "Twelve-member emergency government that effectively ruled France during the Reign of Terror (1793–1794); directed the wars against foreign monarchies, suppressed internal rebellions, and oversaw the execution of more than 17,000 people declared enemies of the Revolution." },
+          { term: "Robespierre", definition: "Maximilien Robespierre (1758–1794); radical Jacobin lawyer who dominated the Committee of Public Safety; justified mass executions in the name of 'virtue and the Republic'; the face of the Terror; ironically arrested and guillotined in the Thermidorian Reaction of July 1794." },
+        ],
+      },
+      {
+        name: "Napoleon's Legacy",
+        terms: [
+          { term: "Napoleonic Code", definition: "Napoleon's comprehensive 1804 legal code that standardized French law; established equality before the law, guaranteed property rights, and enshrined religious tolerance; exported across Europe through Napoleon's conquests; still forms the basis of civil law in France, Louisiana, and Quebec." },
+          { term: "Continental System", definition: "Napoleon's 1806 economic blockade forbidding European nations from trading with Britain; designed to strangle the British economy; instead it devastated European commerce, alienated Napoleon's allies (including Russia), and contributed significantly to his eventual downfall." },
+          { term: "Waterloo", definition: "The June 18, 1815 battle in Belgium where Napoleon was decisively defeated by the Duke of Wellington and Prussian forces; ended Napoleon's final return to power (the Hundred Days); sent him to permanent exile on St. Helena; 'meeting one's Waterloo' entered language as a phrase for decisive defeat." },
+          { term: "Congress of Vienna", definition: "1814–1815 conference of European powers that redrew the post-Napoleonic map of Europe; dominated by Metternich, Castlereagh, and Tsar Alexander I; restored conservative monarchies, established the 'balance of power,' and created the Concert of Europe to collectively suppress future revolutions." },
+        ],
+      },
+      {
+        name: "Latin American Independence",
+        terms: [
+          { term: "Simon Bolivar", definition: "'El Libertador' (1783–1830); Venezuelan-born Creole who liberated much of South America from Spanish rule; led armies across the continent; dreamed of a unified Latin American republic ('Gran Colombia'); his vision collapsed under regional rivalries and he died disillusioned, calling Latin America 'ungovernable.'" },
+          { term: "Jose San Martin", definition: "Argentine liberator (1778–1850) who led independence movements in Argentina, Chile, and Peru; famously crossed the Andes with his army in 1817 to liberate Chile; coordinated with Bolivar to finish off Spanish resistance; a pragmatic military strategist who stepped aside once liberation was achieved." },
+          { term: "Toussaint", definition: "Toussaint Louverture (c. 1743–1803); formerly enslaved Haitian leader who organized the only successful large-scale slave rebellion in history; helped establish Haiti as the first Black republic in the Western Hemisphere (1804); arrested by Napoleon through deception and died in a French prison." },
+          { term: "Miguel Hidalgo", definition: "Mexican Catholic priest whose 1810 'Grito de Dolores' (Cry of Dolores) launched Mexico's war for independence; rallied mestizo and indigenous followers against Spanish colonial rule; captured and executed in 1811, but became the founding father of Mexican independence and national identity." },
+        ],
+      },
+      {
+        name: "Conservative Order",
+        terms: [
+          { term: "Metternich", definition: "Klemens von Metternich (1773–1859); Austrian Foreign Minister and architect of the conservative post-Napoleonic order; dominated the Congress of Vienna; dedicated to suppressing liberalism and nationalism across Europe through the Concert of Europe; forced into exile by the revolutions of 1848." },
+          { term: "Louis XVI", definition: "King of France (r. 1774–1792) at the onset of the Revolution; well-intentioned but weak and indecisive; called the Estates-General in 1789 to address France's bankruptcy; events quickly escaped his control; guillotined in January 1793, making France's break with monarchy definitive." },
+          { term: "Legitimacy", definition: "The principle championed at the Congress of Vienna that pre-revolutionary dynasties had an inherent right to their thrones; used to justify restoring Old Regime monarchies across Europe; a direct counter to the revolutionary doctrine of popular sovereignty." },
+          { term: "Conservatism", definition: "Political ideology emerging in direct reaction to the French Revolution; associated with Edmund Burke's defense of tradition, gradual change, and established institutions; argued society is an organic whole not to be redesigned by abstract theory; became the dominant counter-revolutionary ideology of 19th-century Europe." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-5-ecn",
+    unit: 5,
+    puzzle: 2,
+    theme: { code: "ECN + SIO", name: "Industrialization & New Ideologies" },
+    title: "Revolutions",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Industrial Transformation",
+        terms: [
+          { term: "Cottage Industry", definition: "Pre-industrial production system in which merchants supplied raw materials to rural families who manufactured goods at home; the 'putting-out' system connected household labor to capitalist markets; replaced by centralized factory production during the Industrial Revolution." },
+          { term: "Factory System", definition: "The new industrial model concentrating workers, machinery, and capital in large centralized buildings; powered by coal and steam; produced goods faster and cheaper than cottage industries; transformed labor into waged work, created the industrial working class, and fundamentally reshaped urban landscapes." },
+          { term: "Proletariat", definition: "Karl Marx's term for the industrial working class — people who own no means of production and must sell their labor for wages; concentrated in factories and slums; Marx argued their shared exploitation would drive them to revolutionary consciousness and eventual overthrow of capitalism." },
+          { term: "Trade Unions", definition: "Associations of workers organized to collectively bargain for better wages, hours, and conditions; banned in Britain until 1824; grew rapidly through the 19th century; became the primary vehicle for working-class political and economic power; forerunners of the modern labor movement." },
+        ],
+      },
+      {
+        name: "Socialist Critique",
+        terms: [
+          { term: "Socialism", definition: "Economic and political ideology holding that the means of production should be owned collectively rather than by private individuals; emerged as a critique of industrial capitalism's brutal inequalities; ranged from democratic reform to revolutionary Marxism; one of the 19th century's most transformative ideological forces." },
+          { term: "Marxism", definition: "The political and economic theories of Karl Marx and Friedrich Engels; argued that history is driven by class struggle over the means of production and that capitalism would inevitably be overthrown by a proletarian revolution, giving way to a communist, classless society." },
+          { term: "Class Struggle", definition: "Marx's central historical concept: the conflict between classes with opposing economic interests — slave owners vs. slaves, lords vs. serfs, bourgeoisie vs. proletariat — is the engine of all historical change; the resolution of the capitalist class struggle would usher in communism." },
+          { term: "Communist Manifesto", definition: "Pamphlet written by Marx and Engels in 1848; opened with 'A specter is haunting Europe'; analyzed capitalism's inherent contradictions, called for international working-class solidarity, and ended 'Workers of the world, unite!'; one of the most influential and widely read political documents in history." },
+        ],
+      },
+      {
+        name: "Political Ideologies",
+        terms: [
+          { term: "Nationalism", definition: "The belief that people sharing language, culture, and history constitute a 'nation' deserving political self-determination; the 19th century's most powerful political force; fueled the revolutions of 1848, the unifications of Germany and Italy, and the eventual collapse of multinational empires." },
+          { term: "Liberalism", definition: "19th-century ideology favoring constitutional government, individual rights, free markets, and the rule of law; associated with the rising middle class; in this period, liberals valued economic freedom (laissez-faire) as much as political rights — distinct from modern American usage of the word." },
+          { term: "Otto v. Bismarck", definition: "Prussian chancellor (1815–1898) who unified Germany through 'blood and iron' — three calculated wars against Denmark, Austria, and France (1864–1871); created the German Empire under Prussian leadership; pioneered social insurance legislation (healthcare, pensions) to undercut socialist appeal among workers." },
+          { term: "Intervention", definition: "The practice of European powers using military force to suppress revolutions in other states and restore conservative order; authorized by the Concert of Europe; deployed by Austria and Russia to crush liberal and nationalist uprisings in Spain, Italy, and Eastern Europe throughout the 1820s–1840s." },
+        ],
+      },
+      {
+        name: "Culture & Society",
+        terms: [
+          { term: "Romanticism", definition: "Cultural movement of the late 18th–19th centuries reacting against Enlightenment rationalism; celebrated emotion, nature, the exotic, individual genius, and the medieval past; produced major literature (Shelley, Byron), music (Beethoven, Chopin), and art; politically linked to nationalism and revolutionary enthusiasm." },
+          { term: "Realism", definition: "Mid-19th century artistic movement depicting everyday life and social conditions without idealization; a reaction against Romanticism; associated with novelists who exposed the gritty realities of industrial society; writers like Dickens and Flaubert used fiction to critique class inequality and social hypocrisy." },
+          { term: "Charles Dickens", definition: "English novelist (1812–1870) whose work vividly depicted poverty and suffering in industrial Britain; Oliver Twist, Hard Times, and Great Expectations exposed child labor, debtors' prisons, and urban misery; his fiction shaped public opinion and directly contributed to Victorian social reform legislation." },
+          { term: "Mass Society", definition: "The new social order produced by industrialization and urbanization; characterized by mass production, mass consumption, cheap mass media (newspapers), public education, and mass politics; created new forms of collective identity and cultural standardization — the world most modern people inhabit today." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-5-cdi",
+    unit: 5,
+    puzzle: 3,
+    theme: { code: "CDI", name: "Enlightenment, Science & Reform" },
+    title: "Revolutions",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Enlightenment Ideas",
+        terms: [
+          { term: "Natural Rights", definition: "Enlightenment concept (Locke, Rousseau) that humans possess inherent rights — to life, liberty, and property — that no government can legitimately remove; formed the philosophical bedrock of the American Declaration of Independence and the French Declaration of the Rights of Man." },
+          { term: "Separation of Powers", definition: "Montesquieu's political theory dividing government authority among legislative, executive, and judicial branches to prevent tyranny; adopted in the U.S. Constitution (1787) and copied worldwide; a defining principle of Enlightenment political philosophy and modern constitutional democracy." },
+          { term: "Laissez-Faire", definition: "French for 'let do' — the economic principle that governments should not interfere in markets, which self-regulate through competition; associated with Adam Smith's Wealth of Nations (1776); became the dominant economic ideology justifying industrial capitalism while leaving workers with minimal legal protections." },
+          { term: "Enlightened Absolutism", definition: "A form of 18th-century monarchy in which rulers (Frederick the Great of Prussia, Catherine the Great of Russia, Joseph II of Austria) applied Enlightenment principles — rational law, religious tolerance, promoted education — while keeping absolute power firmly in their own hands." },
+        ],
+      },
+      {
+        name: "Scientific Revolution",
+        terms: [
+          { term: "Louis Pasteur", definition: "French chemist (1822–1895) who established germ theory — proving that microorganisms cause disease rather than 'miasma'; pioneered pasteurization and vaccines for rabies and anthrax; transformed medicine and public health; his discoveries helped dramatically reduce mortality in industrial cities." },
+          { term: "Charles Darwin", definition: "English naturalist (1809–1882) whose On the Origin of Species (1859) proposed that all species evolved through natural selection; challenged religious accounts of creation; transformed biology, anthropology, psychology, and eventually ethics; the most influential scientific idea of the modern era." },
+          { term: "Natural Selection", definition: "Darwin's mechanism for evolution: organisms with traits better suited to their environment survive, reproduce, and pass those traits to offspring; accumulated over millions of generations, this produces new species; the central and most powerful explanatory principle in all of biology." },
+          { term: "Social Darwinism", definition: "The misapplication of Darwin's biological theory to human societies; claimed that inequality, racial hierarchy, and imperial conquest reflected the 'natural' selection of fitter peoples; used to justify industrial capitalism, racism, and European imperialism; scientifically discredited but politically enormously influential." },
+        ],
+      },
+      {
+        name: "Women's Rights Movement",
+        terms: [
+          { term: "Suffragists", definition: "Activists who campaigned for women's right to vote; organized in Britain (Pankhurst's Women's Social and Political Union) and the United States (National Woman Suffrage Association); faced imprisonment and violent opposition; won the vote in the U.S. (1920) and Britain (1918 for older women; 1928 for full equality)." },
+          { term: "Wollstonecraft", definition: "Mary Wollstonecraft (1759–1797); English author of A Vindication of the Rights of Woman (1792); argued that women's apparent intellectual inferiority was the product of denied education, not nature; one of the earliest and most powerful feminist texts; a foundational voice of the women's rights movement." },
+          { term: "Seneca Falls Convention", definition: "The first women's rights convention in the United States (1848, Seneca Falls, New York); produced the Declaration of Sentiments modeled on the Declaration of Independence, declaring 'all men and women are created equal'; launched the American suffrage movement and broadened demands for women's rights." },
+          { term: "Emmeline Pankhurst", definition: "British suffragette leader (1858–1928); founded the militant Women's Social and Political Union (WSPU) in 1903; adopted radical tactics — hunger strikes, property destruction, and mass demonstrations; her campaign and women's crucial service during WWI together secured British women the vote in 1918." },
+        ],
+      },
+      {
+        name: "Constitutional Milestones",
+        terms: [
+          { term: "Glorious Revolution", definition: "The 1688 English revolution in which Parliament deposed the Catholic King James II and installed William III and Mary II on the condition they accept parliamentary supremacy; a largely bloodless revolution that established constitutional monarchy and became a model for later revolutionaries." },
+          { term: "English Bill of Rights", definition: "1689 document following the Glorious Revolution; established parliamentary sovereignty, regular elections, freedom of speech in Parliament, and prohibited the monarch from maintaining an army without parliamentary consent; a landmark constitutional document that directly influenced the American Bill of Rights." },
+          { term: "Estates-General", definition: "The French representative assembly of the three estates (clergy, nobility, and commoners); not convened since 1614; called by Louis XVI in 1789 to address France's bankruptcy; the Third Estate's refusal to accept traditional voting rules and its transformation into the National Assembly launched the Revolution." },
+          { term: "Declaration of Rights of Man", definition: "1789 French revolutionary document asserting the natural and inalienable rights of all male citizens — liberty, property, security, and resistance to oppression; declared sovereignty rests with the nation not the king; directly influenced by Enlightenment thought and the American Declaration of Independence." },
+        ],
+      },
+    ],
+  },
+
+
+  // Unit 6 · Consequences of Industrialization (c. 1750–1900)
+
+  {
+    id: "apworld-unit-6-gov1",
+    unit: 6,
+    puzzle: 1,
+    theme: { code: "GOV", name: "Imperial Conquest & Control" },
+    title: "Consequences of Industrialization",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Scramble for Africa",
+        terms: [
+          { term: "Berlin Conference", definition: "1884–1885 gathering of European powers in Berlin to formalize the rules for colonizing Africa; no African representatives were present; established 'effective occupation' as the standard for territorial claims; dramatically accelerated the partition of the continent." },
+          { term: "Cecil Rhodes", definition: "British imperialist (1853–1902) who made a fortune in South African diamond and gold mining (De Beers); served as Prime Minister of the Cape Colony; dreamed of a British empire stretching from 'Cape to Cairo'; his name is synonymous with the ruthless ambition of Victorian imperialism." },
+          { term: "David Livingstone", definition: "Scottish missionary and explorer (1813–1873) whose journeys through central Africa mapped the continent for Europeans; advocated ending the Arab slave trade by opening Africa to Christianity and commerce; his disappearance prompted Henry Stanley's famous search." },
+          { term: "Scramble for Africa", definition: "The rapid colonization of nearly the entire African continent by European powers between 1881 and 1914; in just three decades Europeans went from controlling 10% to 90% of Africa; driven by competition for raw materials, strategic routes, and national prestige." },
+        ],
+      },
+      {
+        name: "Governing the Colonies",
+        terms: [
+          { term: "Indirect Rule", definition: "British colonial system (developed by Lord Lugard in Nigeria) governing through existing local chiefs and rulers; cheaper than direct rule; maintained indigenous structures while making them instruments of colonial policy; left local hierarchies intact but stripped them of real authority." },
+          { term: "Direct Rule", definition: "Colonial system (most associated with France) replacing indigenous rulers with European administrators; gave colonizers tighter control and faster extraction; tended to destroy pre-existing political structures and was more expensive but more thorough." },
+          { term: "Assimilation", definition: "French colonial ideology holding that colonized peoples should adopt French language, culture, and values to become equal French citizens; promised but rarely delivered equality; in practice reserved for a tiny Westernized elite while the vast majority remained colonial subjects." },
+          { term: "Association", definition: "A more pragmatic French colonial policy (replacing assimilation in the early 20th century) acknowledging that full Frenchification was impossible; allowed colonized peoples to maintain some cultural practices while accepting French political authority; less culturally destructive but still exploitative." },
+        ],
+      },
+      {
+        name: "China & Unequal Treaties",
+        terms: [
+          { term: "Lin Zexu", definition: "Chinese imperial commissioner (1785–1850) sent to Canton to suppress the opium trade; confiscated and destroyed over 20,000 chests of British opium in 1839; his defiance triggered the First Opium War; wrote a letter to Queen Victoria appealing to moral principles — she never replied." },
+          { term: "Opium War", definition: "Two conflicts between Britain and China (First: 1839–1842; Second: 1856–1860) triggered by China's attempt to stop British opium smuggling; China's military defeat exposed the catastrophic weakness of the Qing dynasty and forced the signing of humiliating unequal treaties." },
+          { term: "Treaty of Tianjin", definition: "Unequal treaty (1858) ending the Second Opium War; forced China to open additional treaty ports, allow Christian missionaries throughout the interior, legalize opium importation, and grant foreigners the right to travel freely; deepened China's national humiliation." },
+          { term: "Hong Kong", definition: "Island ceded to Britain in the Treaty of Nanjing (1842) after the First Opium War; developed into one of Britain's most profitable colonial ports and a major commercial hub; became a symbol of China's 'century of humiliation'; returned to China in 1997." },
+        ],
+      },
+      {
+        name: "Japan's Rapid Modernization",
+        terms: [
+          { term: "Matthew Perry", definition: "U.S. Navy Commodore who in 1853 sailed armored warships into Tokyo Bay and demanded Japan open itself to American trade; his 'gunboat diplomacy' forced Japan to sign the Convention of Kanagawa (1854); ended two centuries of Japanese isolation and triggered a national crisis over modernization." },
+          { term: "Meiji Restoration", definition: "1868 political revolution that restored direct imperial rule under Emperor Meiji and ended the Tokugawa Shogunate; launched Japan's deliberate, state-directed transformation from feudal society to modern industrial nation; the most successful non-Western response to 19th-century imperialism." },
+          { term: "Meiji Constitution", definition: "Japan's 1889 constitution modeled partly on the Prussian model; created a parliament (Diet) while preserving strong imperial authority; symbolized Japan's adoption of Western political forms as a defensive strategy against Western imperialism; remained in force until 1947." },
+          { term: "Zaibatsu", definition: "Large family-controlled industrial and financial conglomerates (Mitsui, Mitsubishi, Sumitomo) that dominated the Japanese economy from the Meiji period onward; state-funded and state-directed engines of rapid industrialization; Japan's equivalent of Western trusts and later a driver of military expansion." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-6-gov2",
+    unit: 6,
+    puzzle: 2,
+    theme: { code: "GOV + SIO", name: "Resistance, Reform & Competition" },
+    title: "Consequences of Industrialization",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Resistance to Colonial Rule",
+        terms: [
+          { term: "Boers", definition: "Afrikaner settlers of Dutch descent in South Africa who clashed repeatedly with British expansion; fought the First and Second Boer Wars (1880–81; 1899–1902) to preserve their republics; the British use of concentration camps in the Second Boer War killed tens of thousands of Afrikaner civilians and became an international scandal." },
+          { term: "Zulu", definition: "African nation in southeastern Africa whose army defeated a British force at the Battle of Isandlwana (1879) — one of the most stunning reversals of European military power during the entire colonial era; ultimately overcome by superior firepower; their resistance became a symbol of African agency against colonialism." },
+          { term: "Sepoy Mutiny", definition: "1857 uprising of Indian soldiers (sepoys) in the British East India Company's army; began over cartridges rumored to be greased with beef and pork fat, offensive to Hindu and Muslim soldiers; spread into a broader rebellion; after suppression, the British Crown dissolved the Company and took direct control — creating the British Raj." },
+          { term: "Battle of Adwa", definition: "1896 Ethiopian military victory over invading Italian forces under Emperor Menelik II; the first decisive defeat of a European colonial army by an African nation in the modern era; preserved Ethiopia's independence; inspired anti-colonial nationalists across Africa and the African diaspora for generations." },
+        ],
+      },
+      {
+        name: "China's Internal Struggles",
+        terms: [
+          { term: "Taiping Rebellion", definition: "Catastrophic civil war (1850–1864) led by Hong Xiuquan, who claimed to be Jesus's Chinese brother; combined Protestant-influenced theology with anti-Qing nationalism; mobilized millions of followers; caused an estimated 20–30 million deaths — the bloodiest civil war in history — and fatally weakened the Qing dynasty." },
+          { term: "Boxer Rebellion", definition: "1899–1901 Chinese nationalist uprising by the 'Righteous and Harmonious Fists' targeting foreign missionaries and businesses; besieged foreign legations in Beijing for 55 days; crushed by an eight-nation military coalition; the resulting Boxer Protocol imposed 450 million taels in reparations on China." },
+          { term: "100 Days Reform", definition: "1898 reform movement in which the young Emperor Guangxu attempted rapid Meiji-style modernization of China's government, military, and education; lasted just 103 days before the conservative Empress Dowager Cixi staged a coup, imprisoned the emperor, and reversed the reforms." },
+          { term: "Sun Yat Sen", definition: "Chinese revolutionary (1866–1925) and founding father of the Republic of China; organized the Xinhai Revolution (1911) that overthrew the Qing dynasty; articulated the Three Principles of the People (nationalism, democracy, livelihood); revered on both sides of the Taiwan Strait as the father of modern China." },
+        ],
+      },
+      {
+        name: "East Asian Power Shifts",
+        terms: [
+          { term: "Sino-Japanese War", definition: "1894–1895 war between China and Japan over control of Korea; Japan's overwhelming victory exposed Qing military weakness to the world; Japan gained Taiwan and influence over Korea; accelerated the European scramble for spheres of influence in China and intensified Chinese debates over reform." },
+          { term: "Russo-Japanese War", definition: "1904–1905 conflict between Russia and Japan over Manchuria and Korea; Japan's stunning naval and land victories were the first time a non-Western power had defeated a major European empire in the modern era; shocked the Western world and inspired anti-colonial movements from India to Egypt." },
+          { term: "Open Door Policy", definition: "U.S. diplomatic policy (1899–1900) insisting that all nations should have equal trading access to China and that China's territorial integrity should be preserved; opposed the carving of China into exclusive European spheres of influence; reflected American commercial interests without taking on formal colonial responsibilities." },
+          { term: "Extraterritoriality", definition: "The legal right of foreigners in China (and other 'unequal treaty' nations) to be tried under their own nation's laws in their own courts rather than local law; a powerful symbol of sovereignty violation and national humiliation; fueled Chinese nationalism and resentment of foreign power." },
+        ],
+      },
+      {
+        name: "Key Imperial Territories",
+        terms: [
+          { term: "Raj", definition: "The British colonial administration of India (1858–1947); established after the Sepoy Mutiny dissolved the East India Company; 'the jewel in the crown' of the British Empire; provided soldiers, cotton, tea, indigo, and enormous tax revenue; 300 million people governed by a few thousand British administrators." },
+          { term: "Suez Canal", definition: "Artificial waterway connecting the Mediterranean to the Red Sea (opened 1869); halved the sea voyage between Europe and Asia; Britain purchased a controlling stake in 1875; a strategic chokepoint that made Egypt vital to imperial communications; nationalized by Egypt's Nasser in 1956, triggering the last major British imperial crisis." },
+          { term: "Zanzibar", definition: "East African island sultanate off the coast of modern Tanzania; dominated the East African clove and slave trades; became a British protectorate in 1890; site of the shortest war in recorded history — the Anglo-Zanzibar War (1896) lasted between 38 and 45 minutes." },
+          { term: "Congo Free State", definition: "The personal colony of Belgium's King Leopold II (1885–1908); subjected Congolese people to a system of extreme violence and forced rubber extraction; atrocities — including the systematic severing of hands as punishment — killed millions and provoked one of the first modern international human rights campaigns." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-6-sio",
+    unit: 6,
+    puzzle: 3,
+    theme: { code: "SIO + ECN", name: "Consequences of Empire" },
+    title: "Consequences of Industrialization",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Ideology of Empire",
+        terms: [
+          { term: "White Man's Burden", definition: "Phrase from Rudyard Kipling's 1899 poem urging the United States to colonize the Philippines; encapsulated the paternalistic racial ideology that Western colonizers had a civilizing duty toward 'inferior' peoples; used to justify imperialism while masking its economic exploitation and cultural destruction." },
+          { term: "Imperialism", definition: "The policy of extending a nation's power through conquest, colonization, and economic domination; the defining force in global affairs from the 1870s through WWI; industrialized European nations and Japan used military technology and economic power to subjugate most of Africa and Asia." },
+          { term: "Civilizing Mission", definition: "The French imperial ideology (mission civilisatrice) claiming colonization was a noble duty to bring education, medicine, and civilization to 'backward' peoples; a more elaborately idealized version of Britain's 'White Man's Burden'; used to justify conquest while demanding cultural erasure from colonized peoples." },
+          { term: "Scientific Racism", definition: "Pseudo-scientific theories using skull measurements, evolutionary theory, and genetic claims to rank human races hierarchically; provided a seemingly respectable intellectual justification for slavery, colonialism, and genocide; no scientific validity but enormously influential in 19th-century Western thought and policy." },
+        ],
+      },
+      {
+        name: "Labor Under Empire",
+        terms: [
+          { term: "Indentured Labor", definition: "Contract system that moved workers — primarily from India and China — to work on colonial plantations in the Caribbean, Fiji, South Africa, and Natal; workers signed multi-year binding contracts under exploitative conditions; often called 'a new form of slavery' as it replaced chattel slavery after abolition." },
+          { term: "Chinese Coolies", definition: "Chinese contract laborers who built the transcontinental railroad in the U.S., mined gold in California and Australia, and worked plantations across Southeast Asia and the Americas; the word 'coolie' was a racial slur; faced intense discrimination and anti-Chinese exclusion laws in the nations they helped build." },
+          { term: "Forced Labor", definition: "Systems compelling colonized peoples to work on colonial infrastructure and plantations under threat of violence; used extensively across Africa (especially Leopold II's Congo, Portuguese colonies, and French Equatorial Africa); the defining economic mechanism of the most brutal forms of colonial rule." },
+          { term: "Cash Crop Economy", definition: "The colonial transformation of subsistence agricultural systems into export-oriented monocultures growing cotton, rubber, sugar, or cacao for European markets; made colonies economically dependent on single crops, vulnerable to price crashes, and unable to produce sufficient food; a structural legacy that still shapes developing economies." },
+        ],
+      },
+      {
+        name: "Economic Consequences",
+        terms: [
+          { term: "Raw Material Extraction", definition: "The fundamental economic purpose of most colonies: mining minerals, harvesting rubber, and growing export crops for European industries; stripped colonies of resources while leaving them with little industrial capacity of their own; the mechanism by which colonialism transferred wealth from periphery to core." },
+          { term: "Deindustrialization of India", definition: "Britain's deliberate destruction of India's world-leading textile industry by flooding Indian markets with cheap British factory cloth and imposing punitive tariffs; India had produced 25% of global manufacturing output before colonization; the resulting poverty and dependency fueled Indian nationalism." },
+          { term: "Unequal Treaties", definition: "Agreements imposed on weaker nations (China, Japan, Ottoman Empire) under military threat; granted Western nations special trading rights, extraterritoriality, low tariffs, and 'treaty port' enclaves; violated the sovereignty of the weaker party; became powerful symbols of national humiliation driving 20th-century nationalism." },
+          { term: "Economic Dependency", definition: "The structural condition of colonial economies locked into exporting raw materials and importing manufactured goods from the colonial power; prevented industrialization and diversification; perpetuated poverty; the economic legacy of imperialism that continued well after formal independence in the 20th century." },
+        ],
+      },
+      {
+        name: "Social & Cultural Changes",
+        terms: [
+          { term: "Mass Migration", definition: "Large-scale population movements driven by industrialization, colonial labor demands, and famine; millions of Europeans migrated to the Americas and Australia; indentured workers moved within empires; Chinese migrants traveled to Southeast Asia and California; created the multicultural, diasporic world we live in today." },
+          { term: "Urbanization", definition: "The rapid growth of cities as industrialization pulled people off the land; industrial cities grew faster than sanitation, housing, and governance could manage; produced vast slums, epidemic disease, and social tension — but also labor movements, political organizing, and new forms of cultural life." },
+          { term: "Nationalist Movements", definition: "Anti-colonial political movements emerging in colonized societies from the late 19th century; the Indian National Congress (1885), early African nationalism, and Arab nationalism turned Western Enlightenment ideals of liberty and self-determination against the colonial powers that had proclaimed them." },
+          { term: "Missionary Activity", definition: "Christian missionaries followed colonial armies into Africa and Asia, establishing schools, hospitals, and churches; simultaneously disrupted indigenous spiritual and cultural systems while providing the Western education that empowered many future independence leaders; a deeply ambiguous colonial legacy." },
+        ],
+      },
+    ],
+  },
+
+  // ── AP WORLD UNIT 7: Global Conflict ──────────────────────────────────────
+
+  {
+    id: "apworld-unit-7-gov",
+    unit: 7,
+    puzzle: 1,
+    theme: { code: "GOV", name: "States & Ideologies" },
+    title: "Global Conflict",
+    subject: "AP World",
+    groups: [
+      {
+        name: "WWI Causes & Structure",
+        terms: [
+          { term: "Militarism", definition: "The glorification of military power and the arms race between European nations before 1914; Germany, Britain, France, and Austria-Hungary dramatically expanded standing armies and navies in the decades before WWI, making war more likely and more destructive once it began." },
+          { term: "Alliance System", definition: "The interlocking treaty networks that divided Europe into two armed camps before WWI: the Triple Alliance (Germany, Austria-Hungary, Italy) and Triple Entente (France, Russia, Britain); designed to deter war through mutual deterrence, the system instead meant a local conflict in the Balkans instantly became a world war." },
+          { term: "Schlieffen Plan", definition: "Germany's pre-war strategy for fighting a two-front war: rapidly defeat France through Belgium in six weeks, then turn east to fight Russia; the plan required violating Belgian neutrality (drawing Britain into the war) and ultimately failed, producing the stalemate of trench warfare on the Western Front." },
+          { term: "Trench Warfare", definition: "The dominant form of combat on the Western Front; opposing armies dug hundreds of miles of trenches and used artillery, machine guns, and poison gas to repel frontal assaults; produced massive casualties for minimal territorial gain; defined WWI as a war of attrition and industrial slaughter." },
+        ],
+      },
+      {
+        name: "WWI Outcomes",
+        terms: [
+          { term: "Treaty of Versailles", definition: "The 1919 peace treaty ending WWI; blamed Germany solely for the war (War Guilt Clause), imposed massive reparations, stripped Germany of colonies and territory, and severely limited its military; the humiliating terms fueled German resentment and the rise of fascism that led to WWII." },
+          { term: "Mandate System", definition: "League of Nations arrangement giving Britain and France administrative control over former German and Ottoman territories in Africa and the Middle East; officially a temporary trusteeship toward self-government, in practice a continuation of imperial rule that ignored the self-determination promised by Woodrow Wilson." },
+          { term: "Armenian Genocide", definition: "The Ottoman government's systematic extermination of its Armenian Christian minority during WWI (1915–1923); approximately 1–1.5 million Armenians were killed through massacres, death marches, and starvation; recognized as genocide by most historians and many governments; Turkey still disputes the characterization." },
+          { term: "Russian Revolution", definition: "The 1917 revolutions that ended Tsarist rule and brought the Bolsheviks (Communists) to power; triggered by WWI's catastrophic toll on Russian soldiers and civilians; the Bolsheviks made a separate peace with Germany (Treaty of Brest-Litovsk), withdrew Russia from WWI, and launched a communist state that reshaped 20th-century history." },
+        ],
+      },
+      {
+        name: "Interwar Totalitarianism",
+        terms: [
+          { term: "Fascism", definition: "Extreme nationalist, authoritarian political ideology rejecting democracy, liberalism, and communism; celebrated the nation, violence, and a charismatic leader; took power in Italy (Mussolini, 1922) and Germany (Hitler, 1933); blended anti-communism, racial nationalism, and militarism; financed by industrialists fearing socialist revolution." },
+          { term: "Nazism", definition: "Hitler's German variant of fascism (National Socialism); added virulent antisemitism, racial hierarchy, and the goal of German racial empire across Eastern Europe; implemented through totalitarian one-party state, propaganda, terror (Gestapo, SS), and ultimately genocide; defined by the Holocaust's murder of six million Jews." },
+          { term: "Stalinism", definition: "Stalin's brutal totalitarian rule of the Soviet Union (1924–1953); collectivized agriculture (causing famine killing millions), forced rapid industrialization, and eliminated political rivals through show trials, gulags, and mass executions (Great Purge); transformed the USSR into an industrial superpower at enormous human cost." },
+          { term: "Great Depression", definition: "Global economic collapse beginning with the U.S. stock market crash of 1929; spread worldwide through banking failures, trade collapse, and deflationary spirals; caused mass unemployment and poverty; destabilized democracies, empowered fascist movements, and motivated protectionist policies that worsened the crisis." },
+        ],
+      },
+      {
+        name: "WWII & Its Aftermath",
+        terms: [
+          { term: "Holocaust", definition: "Nazi Germany's systematic, state-sponsored murder of six million Jews and millions of others (Roma, disabled people, homosexuals, political opponents); implemented through deportations, concentration camps, and death camps like Auschwitz; the defining atrocity of the 20th century; prompted the concept of crimes against humanity and international human rights law." },
+          { term: "Atomic Bomb", definition: "Nuclear weapons dropped by the United States on Hiroshima (Aug. 6, 1945) and Nagasaki (Aug. 9, 1945), killing 130,000–226,000 people; forced Japan's surrender, ending WWII in the Pacific; inaugurated the nuclear age and the threat of mutually assured destruction that shaped Cold War geopolitics for decades." },
+          { term: "United Nations", definition: "International organization founded in 1945 to replace the failed League of Nations; designed to prevent future wars through collective security, diplomacy, and international law; founded by 51 nations; the Security Council's five permanent members (US, USSR, UK, France, China) each hold veto power; mixed record on conflict prevention but important forum for international diplomacy." },
+          { term: "Nuremberg Trials", definition: "International military tribunal (1945–1946) that prosecuted Nazi leaders for war crimes, crimes against peace, and crimes against humanity; established the precedent that individuals — including government officials — are accountable under international law; foundational moment in international humanitarian law and the concept of genocide." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-7-ecn",
+    unit: 7,
+    puzzle: 2,
+    theme: { code: "ECN + SIO", name: "Economic & Social Upheaval" },
+    title: "Global Conflict",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Colonial Economies Under Stress",
+        terms: [
+          { term: "War Economies", definition: "The total mobilization of national economies for WWI and WWII production; governments took control of industries, rationed consumer goods, and directed resources toward weapons, ammunition, and military logistics; transformed women's roles in the workforce and accelerated state intervention in capitalist economies." },
+          { term: "Reparations", definition: "Financial penalties imposed on Germany by the Treaty of Versailles requiring it to pay for Allied war damages; the astronomical sum (132 billion gold marks) crippled the German economy, caused hyperinflation in the 1920s, and fueled political resentment; economists like Keynes warned they were counterproductive; largely cancelled by the 1930s Great Depression." },
+          { term: "Hyperinflation", definition: "Catastrophic monetary collapse in Weimar Germany (1921–1923) caused by printing money to pay war reparations; prices doubled every few days; middle-class savings were wiped out; people famously needed wheelbarrows of cash to buy bread; traumatized a generation and created political conditions ripe for Hitler's rise." },
+          { term: "New Deal", definition: "F.D. Roosevelt's U.S. economic recovery program (1933–1939) responding to the Great Depression; included banking reforms, public works employment, agricultural subsidies, and social security; did not end the Depression (WWII production did) but established the precedent of large-scale government intervention in the economy." },
+        ],
+      },
+      {
+        name: "Resistance & Nationalism",
+        terms: [
+          { term: "Indian National Congress", definition: "India's main anti-colonial political party, founded 1885; initially sought reform within the British Empire, later demanded full independence; led by Gandhi using nonviolent resistance (satyagraha); Salt March (1930) became a defining moment; achieved independence in 1947 but at the cost of Partition." },
+          { term: "Nonviolent Resistance", definition: "Gandhi's strategy of civil disobedience, boycotts, and mass protests to challenge British colonial rule without violence; drew on Hindu concepts of nonharm (ahimsa) and truth-force (satyagraha); proved politically effective at exposing the moral bankruptcy of imperial violence; influenced Martin Luther King Jr. and global civil rights movements." },
+          { term: "Pan-Africanism", definition: "Political and cultural movement asserting the unity and solidarity of African peoples worldwide; called for African independence from European colonialism and dignity for the African diaspora; key figures included W.E.B. Du Bois and Marcus Garvey; laid the intellectual groundwork for African decolonization movements after WWII." },
+          { term: "Zionism", definition: "Jewish nationalist movement calling for the establishment of a Jewish homeland in Palestine; grew in response to European antisemitism; intensified after the Holocaust; the 1948 founding of Israel fulfilled Zionist goals but displaced hundreds of thousands of Palestinian Arabs, creating the ongoing Israeli-Palestinian conflict." },
+        ],
+      },
+      {
+        name: "Social Change During Conflict",
+        terms: [
+          { term: "Women in WWII", definition: "Mass entry of women into industrial workforces during WWII to replace men at war; Rosie the Riveter symbolized U.S. women in factories and shipyards; Soviet women served as combat pilots and snipers; changed expectations about women's capabilities but many gains were reversed when men returned; accelerated long-term feminist movements." },
+          { term: "Propaganda", definition: "State-controlled mass communication used by all major WWII powers to mobilize civilian populations, dehumanize enemies, and maintain morale; Nazi Germany's Goebbels ran the most sophisticated propaganda apparatus; Soviet socialist realism glorified Stalin; U.S. Hollywood films and posters targeted domestic and foreign audiences." },
+          { term: "Refugees", definition: "Mass displacement of civilian populations by WWI and WWII violence; millions of Jews, Armenians, Poles, and others fled or were expelled; the post-WWI period produced the first international refugee frameworks; post-WWII Europe had 40 million displaced persons; led to the 1951 UN Refugee Convention defining refugee rights." },
+          { term: "Decolonization Pressure", definition: "WWI and WWII fatally weakened European empires' legitimacy; colonies provided troops and resources while being denied self-determination; Wilsonian language of national self-determination inspired colonized peoples; WWII's ideological battle against fascist racism made explicit imperialism intellectually untenable; set the stage for rapid post-1945 decolonization." },
+        ],
+      },
+      {
+        name: "Military Technologies",
+        terms: [
+          { term: "Poison Gas", definition: "Chemical weapons first used at large scale in WWI (chlorine at Ypres, 1915; mustard gas, 1917); caused horrific casualties through choking, blistering, and blinding; prompted the 1925 Geneva Protocol banning chemical weapons in war; psychologically traumatizing even when not lethal; rarely used in WWII but foreshadowed 20th-century WMD proliferation." },
+          { term: "Tank Warfare", definition: "Armored fighting vehicles developed by Britain in WWI to cross no-man's land; decisive in WWII through Germany's Blitzkrieg (lightning war) combining tanks, motorized infantry, and air support to shatter enemy lines; tank battles like Kursk (1943) involved thousands of armored vehicles and transformed ground combat." },
+          { term: "Air Power", definition: "Military aviation transformed warfare from the strategic bombing of civilian cities (London Blitz, Dresden, Tokyo firebombing) to tactical close air support; aircraft carriers replaced battleships as naval warfare's decisive weapon; the atomic bombings of Japan ended the war and demonstrated air power's civilization-ending potential." },
+          { term: "Radar", definition: "Radio detection and ranging technology developed in the 1930s; Britain's radar network was decisive in the 1940 Battle of Britain, giving fighters enough warning to intercept German bombers; transformed naval, aerial, and ground warfare; a key example of science and technology determining military and geopolitical outcomes in the 20th century." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-7-cdi",
+    unit: 7,
+    puzzle: 3,
+    theme: { code: "CDI", name: "Culture & Identity in Conflict" },
+    title: "Global Conflict",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Ideological Clashes",
+        terms: [
+          { term: "Liberal Democracy", definition: "Political system combining elected representative government with individual rights protections, the rule of law, and free markets; championed by Britain, France, and the United States; under severe stress during the 1930s when fascism and communism seemed more economically effective at mobilizing industrial societies." },
+          { term: "Communism", definition: "Political-economic ideology based on Marxist theory calling for collective ownership of production and the abolition of class; took power in Russia (1917), China (1949), and other states; offered an alternative to both capitalism and fascism; its Cold War rivalry with American liberal capitalism shaped global politics for 50 years after WWII." },
+          { term: "Appeasement", definition: "British and French policy of making concessions to Hitler's territorial demands in the late 1930s to avoid war; culminated at Munich (1938) where they gave Hitler the Sudetenland; failed when Germany invaded Poland (1939); subsequently became a byword for the danger of accommodating aggressive dictators." },
+          { term: "Self-Determination", definition: "Woodrow Wilson's principle that peoples should govern themselves and choose their own political futures; applied inconsistently at Versailles (benefiting new European nations but not colonized peoples); inspired anti-colonial nationalists worldwide; became a foundational principle of the UN Charter after WWII." },
+        ],
+      },
+      {
+        name: "Cultural Responses to War",
+        terms: [
+          { term: "Lost Generation", definition: "Term for WWI veterans and the writers/artists who came of age during the war; disillusioned by the gap between patriotic propaganda and the industrial slaughter of trench warfare; produced modernist literature questioning progress and civilization (Hemingway, Remarque's 'All Quiet on the Western Front')." },
+          { term: "Harlem Renaissance", definition: "Flowering of African American art, literature, and music in 1920s–1930s New York; writers like Langston Hughes, Zora Neale Hurston, and artists challenged racist stereotypes and celebrated Black identity; emerged partly because of the Great Migration of African Americans from the South to northern cities during WWI." },
+          { term: "Modernism", definition: "Sweeping cultural movement in literature, art, and architecture rejecting 19th-century traditions; WWI's destruction shattered faith in Western civilization's progress; modernist works (Picasso, Joyce, Stravinsky) used fragmentation, ambiguity, and experimentation to express a fractured, post-war world." },
+          { term: "Negritude", definition: "Intellectual and literary movement among French-speaking African and Caribbean writers and intellectuals in the 1930s–1950s; celebrated African cultural heritage and rejected European assimilation; key figures: Aimé Césaire and Léopold Sédar Senghor; linked Black cultural pride to anti-colonial politics; influenced later Pan-Africanism and African independence movements." },
+        ],
+      },
+      {
+        name: "Genocide & Atrocity",
+        terms: [
+          { term: "Rape of Nanjing", definition: "Japanese military's mass murder and rape of Chinese civilians and POWs in Nanjing (1937–38); an estimated 200,000–300,000 killed and tens of thousands of women raped; emblematic of Japanese imperial brutality in China; still a major source of historical grievance between China and Japan." },
+          { term: "Comfort Women", definition: "Women — primarily Korean, Chinese, and Filipino — forced into sexual slavery by the Japanese military during WWII; an estimated 200,000 women subjected to systematic rape in military brothels; long denied by Japan; a major ongoing issue in Japan's relations with South Korea and China." },
+          { term: "Internment of Japanese Americans", definition: "U.S. government forced 120,000 Japanese Americans into internment camps after Pearl Harbor (1942); driven by racial panic rather than evidence of disloyalty; ruled constitutional in Korematsu v. United States (1944); acknowledged as a grave injustice in 1988 when the U.S. government issued a formal apology and reparations." },
+          { term: "Firebombing of Tokyo", definition: "U.S. Army Air Forces' March 1945 incendiary bombing of Tokyo; killed approximately 80,000–100,000 civilians in a single night — more than either atomic bomb; systematically destroyed Japan's industrial cities; part of a broader campaign of unrestricted aerial bombing of civilian populations that redefined warfare's moral boundaries." },
+        ],
+      },
+      {
+        name: "WWII Alliances & Theaters",
+        terms: [
+          { term: "Allied Powers", definition: "Coalition fighting the Axis in WWII: primarily the United States, Soviet Union, Britain, China, and Free France; ideologically diverse (liberal democracy + communism), united only by opposition to fascism; their wartime cooperation broke down almost immediately into the Cold War." },
+          { term: "Axis Powers", definition: "Germany, Italy, and Japan's WWII alliance; united by fascist/militarist ideology and opposition to the post-WWI order; fought on multiple continents simultaneously — Europe and North Africa (Germany/Italy), Asia and the Pacific (Japan); defeated in 1945 after fighting on three continents for six years." },
+          { term: "D-Day", definition: "Allied amphibious invasion of Nazi-occupied Normandy, France, June 6, 1944; the largest seaborne invasion in history (156,000 troops); opened the Western Front that Germany could not defend simultaneously with the Eastern Front; led directly to Germany's defeat less than a year later." },
+          { term: "Eastern Front", definition: "The war between Nazi Germany and the Soviet Union (1941–1945); the largest and most brutal theater of WWII; approximately 30 million Soviet citizens died; the scale of Soviet sacrifice was decisive in Germany's defeat; established Soviet dominance over Eastern Europe and set up the Cold War's division of the continent." },
+        ],
+      },
+    ],
+  },
+
+  // ── AP WORLD UNIT 8: Cold War & Decolonization ────────────────────────────
+
+  {
+    id: "apworld-unit-8-gov",
+    unit: 8,
+    puzzle: 1,
+    theme: { code: "GOV", name: "Cold War Rivalry" },
+    title: "Cold War & Decolonization",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Cold War Structure",
+        terms: [
+          { term: "Containment", definition: "U.S. Cold War foreign policy doctrine articulated by diplomat George Kennan in 1946; argued that communism must be contained within its current borders through political, economic, and military pressure rather than direct war; guided U.S. policy through the Korean War, Vietnam War, and dozens of covert interventions until the USSR's collapse in 1991." },
+          { term: "Truman Doctrine", definition: "President Truman's 1947 pledge to provide military and economic aid to any nation threatened by communist takeover; initially applied to Greece and Turkey; established the precedent for massive U.S. global intervention during the Cold War; effectively committed the U.S. to supporting any anti-communist government regardless of its democratic credentials." },
+          { term: "Marshall Plan", definition: "U.S. program providing $13 billion in economic aid to rebuild Western European economies after WWII (1948–1952); explicitly designed to prevent communist parties from winning elections in poverty-stricken countries; succeeded in enabling rapid Western European recovery; the Soviet Union refused participation and forbade its satellites to join." },
+          { term: "NATO", definition: "North Atlantic Treaty Organization; U.S.-led military alliance of Western democracies (1949); committed members to mutual defense ('an attack on one is an attack on all'); the Soviet response was the Warsaw Pact (1955); NATO expanded after the Cold War and remains a central pillar of Western security architecture." },
+        ],
+      },
+      {
+        name: "Cold War Crises",
+        terms: [
+          { term: "Korean War", definition: "1950–1953 war in which UN forces (mostly U.S.) defended South Korea against North Korea's Soviet- and Chinese-backed invasion; ended in stalemate at the 38th parallel; killed approximately 36,000 Americans and 3 million Koreans; established the pattern of superpower proxy wars; the armistice of 1953 technically never became a peace treaty." },
+          { term: "Cuban Missile Crisis", definition: "1962 confrontation between the U.S. and USSR after the Soviet Union placed nuclear missiles in Cuba; thirteen days during which nuclear war was genuinely possible; resolved when the USSR removed missiles in exchange for U.S. pledge not to invade Cuba (and secret removal of U.S. missiles from Turkey); the most dangerous moment of the Cold War." },
+          { term: "Berlin Wall", definition: "Barrier built by East Germany in 1961 dividing Berlin; prevented East Germans from fleeing to the West (3.5 million had already left); became the defining symbol of the Iron Curtain dividing free and communist Europe; its fall on November 9, 1989 marked the effective end of the Cold War." },
+          { term: "Vietnam War", definition: "U.S. military intervention in Vietnam (1964–1973) to prevent communist North Vietnam from taking over South Vietnam; longest war in U.S. history; approximately 58,000 Americans and 2 million Vietnamese killed; U.S. withdrew after domestic opposition made the war politically unsustainable; Vietnam unified under communist rule in 1975." },
+        ],
+      },
+      {
+        name: "Soviet Bloc",
+        terms: [
+          { term: "Warsaw Pact", definition: "Soviet-led military alliance of Eastern European communist states (1955–1991); created in direct response to West Germany joining NATO; the USSR used it to justify military interventions in Hungary (1956) and Czechoslovakia (1968) to crush reform movements; dissolved when the communist bloc collapsed in 1989–1991." },
+          { term: "Iron Curtain", definition: "Winston Churchill's 1946 phrase describing the division between Soviet-dominated Eastern Europe and democratic Western Europe; perfectly captured the physical and ideological barrier separating the two blocs; reinforced by the Berlin Wall (1961); the division structured European politics for 45 years." },
+          { term: "Satellite States", definition: "Eastern European nations — Poland, Czechoslovakia, Hungary, Romania, Bulgaria, East Germany, and Albania — under Soviet political and military domination after WWII; nominally independent communist states but their governments were installed or controlled by Moscow; required to follow Soviet foreign policy and ideology." },
+          { term: "Non-Aligned Movement", definition: "Group of nations that refused to join either the U.S. or Soviet blocs during the Cold War; founded at the 1955 Bandung Conference; included India, Yugoslavia, Egypt, Indonesia, and eventually most newly decolonized states; sought to leverage Cold War rivalry for development aid without taking sides; represented the Third World's aspiration for genuine independence." },
+        ],
+      },
+      {
+        name: "Nuclear Arms Race",
+        terms: [
+          { term: "MAD", definition: "Mutually Assured Destruction — the Cold War nuclear deterrence doctrine holding that neither superpower would use nuclear weapons first because doing so would guarantee its own annihilation in a retaliatory strike; paradoxically, the certainty of mutual destruction made nuclear war less likely; the logic that kept the peace for 45 years while making the world hostage to two governments' rationality." },
+          { term: "Space Race", definition: "U.S.-Soviet competition for supremacy in space exploration; a proxy for demonstrating technological and ideological superiority; Soviet milestones: Sputnik (1957, first satellite), Gagarin (1961, first human in space); U.S. response: moon landing (1969); drove enormous government investment in science, technology, and engineering education." },
+          { term: "Détente", definition: "Period of relaxed Cold War tensions in the 1970s; Nixon's diplomacy with the USSR and China (Nixon visits Beijing, 1972); SALT arms limitation treaties; reflected both superpowers' desire to reduce the costs and risks of confrontation; ended with the Soviet invasion of Afghanistan (1979) and Reagan's aggressive anti-communist posture." },
+          { term: "Nuclear Proliferation", definition: "The spread of nuclear weapons beyond the original five nuclear powers (U.S., USSR, UK, France, China); India, Pakistan, Israel (undeclared), and North Korea developed nuclear weapons; the 1968 Nuclear Non-Proliferation Treaty aimed to prevent further spread; ongoing challenge as nuclear weapons remain the ultimate deterrent and the ultimate threat." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-8-cdi",
+    unit: 8,
+    puzzle: 2,
+    theme: { code: "CDI", name: "Decolonization & Independence" },
+    title: "Cold War & Decolonization",
+    subject: "AP World",
+    groups: [
+      {
+        name: "African Independence",
+        terms: [
+          { term: "Negritude", definition: "French-language literary and intellectual movement celebrating African cultural heritage and rejecting European assimilation; developed by Aimé Césaire and Léopold Sédar Senghor; provided the cultural foundation for African political independence movements; insisted that Africa had a valid civilizational tradition Europeans had denied." },
+          { term: "Kwame Nkrumah", definition: "First Prime Minister and President of independent Ghana (1957); pan-Africanist leader who made Ghana the first sub-Saharan African country to gain independence; championed African unity and socialist development; overthrown in 1966 military coup; a towering figure in African decolonization and pan-African thought." },
+          { term: "Mau Mau Uprising", definition: "Kenyan anti-colonial insurgency (1952–1960) against British rule; predominantly Kikuyu fighters fought for land rights and independence; Britain declared a state of emergency, killed 20,000 Kenyans, and detained 150,000 in brutal camps; accelerated British decision to grant Kenyan independence (1963); exposed the violence underlying empire." },
+          { term: "Apartheid", definition: "South Africa's state-enforced system of racial segregation (1948–1994) classifying all people by race and confining Black Africans to bantustans while reserving political rights for whites; sustained by police violence and pass laws; dismantled after international sanctions, internal resistance led by the ANC, and Nelson Mandela's 1994 election." },
+        ],
+      },
+      {
+        name: "Asian Decolonization",
+        terms: [
+          { term: "Partition of India", definition: "1947 division of British India into independent India (Hindu majority) and Pakistan (Muslim majority); accompanied by the largest mass migration in history (10–20 million people) and approximately 200,000–2 million deaths in communal violence; created an enduring India-Pakistan rivalry and three wars; still shapes South Asian geopolitics." },
+          { term: "Ho Chi Minh", definition: "Vietnamese communist revolutionary leader who led resistance against French colonialism, then U.S. military intervention; founded the Democratic Republic of Vietnam (North Vietnam); inspired by both Marxism and Vietnamese nationalism; died in 1969 but the cause he led — Vietnamese reunification under communism — was achieved in 1975." },
+          { term: "Mao Zedong", definition: "Communist revolutionary who founded the People's Republic of China (1949) after defeating Nationalist forces in civil war; ruled until 1976; launched radical campaigns — the Great Leap Forward (1958–62) and Cultural Revolution (1966–76) — that killed tens of millions; simultaneously transformed China into a major industrial and nuclear power." },
+          { term: "Chinese Civil War", definition: "Decades-long conflict between Mao Zedong's Communists and Chiang Kai-shek's Nationalists; paused during WWII to fight Japan; communists won in 1949; Nationalists fled to Taiwan; created the 'Two Chinas' situation that still defines cross-strait tension; transformed the global Cold War by adding a huge communist power in Asia." },
+        ],
+      },
+      {
+        name: "Latin American Cold War",
+        terms: [
+          { term: "Cuban Revolution", definition: "Fidel Castro's 1959 communist revolution overthrew U.S.-backed dictator Batista; Cuba aligned with the Soviet Union; U.S. imposed economic embargo (still in place); the revolution inspired left-wing movements across Latin America and provoked U.S. interventions (Bay of Pigs, 1961) and the Cuban Missile Crisis (1962)." },
+          { term: "CIA Covert Operations", definition: "U.S. Central Intelligence Agency's Cold War interventions in Latin America, Asia, and the Middle East; included overthrowing Iran's Mossadegh (1953), Guatemala's Árbenz (1954), and Chile's Allende (1973); installing or supporting authoritarian regimes to prevent communist governments; revealed the gap between U.S. democratic rhetoric and Cold War realpolitik." },
+          { term: "Liberation Theology", definition: "Catholic theological movement (1960s–80s) that interpreted Jesus's teachings as requiring the Church to work actively for social justice and the liberation of the poor from economic and political oppression; particularly influential in Latin America; condemned by the Vatican under John Paul II but inspired many who joined left-wing movements and revolutionary struggles." },
+          { term: "Banana Republics", definition: "Derisive term for Central American nations (Honduras, Guatemala, El Salvador) whose governments were manipulated by U.S. fruit companies (United Fruit Company) and backed by U.S. military interventions; their economies were structured around single export crops benefiting foreign corporations; a defining example of economic imperialism's political consequences." },
+        ],
+      },
+      {
+        name: "Middle East Decolonization",
+        terms: [
+          { term: "Suez Crisis", definition: "1956 crisis when Egypt's Nasser nationalized the Suez Canal; Britain, France, and Israel invaded; U.S. and USSR both opposed the invasion, forcing humiliating withdrawal; demonstrated that Britain and France were no longer world powers; boosted Arab nationalism; marked the effective end of European colonialism as a global force." },
+          { term: "Pan-Arabism", definition: "Ideology asserting the unity of Arab peoples across national boundaries and calling for Arab political union; championed by Egypt's Nasser; briefly realized in the United Arab Republic (Egypt-Syria, 1958–1961); declined after Arab defeat in the 1967 Six-Day War; gradually superseded by political Islam as the dominant anti-Western ideology." },
+          { term: "Israel-Palestine Conflict", definition: "Ongoing conflict rooted in competing Jewish and Palestinian Arab claims to the same land; Israel established 1948 amid Arab opposition; 1948 Arab-Israeli War expelled 700,000 Palestinians (Nakba); 1967 Six-Day War left Israel occupying West Bank and Gaza; no resolution of two-state vs. one-state questions; central to Middle Eastern and global politics." },
+          { term: "OPEC", definition: "Organization of Petroleum Exporting Countries; founded 1960; Arab members used it as a political weapon in the 1973 oil embargo against nations supporting Israel in the Yom Kippur War; caused global energy crisis, inflation, and recession; demonstrated that formerly colonized nations could wield collective economic power against the West." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-8-sio",
+    unit: 8,
+    puzzle: 3,
+    theme: { code: "SIO + ECN", name: "Society & Economy After Empire" },
+    title: "Cold War & Decolonization",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Development & Modernization",
+        terms: [
+          { term: "Dependency Theory", definition: "Economic theory arguing that developing nations remain poor because the global economic system is structured to benefit wealthy 'core' nations at the expense of peripheral nations; the trade relationship exports raw materials from poor countries and returns expensive manufactured goods; associated with economists like Andre Gunder Frank; challenged modernization theory's optimism." },
+          { term: "Green Revolution", definition: "Post-WWII agricultural transformation using high-yield seed varieties, chemical fertilizers, pesticides, and irrigation to dramatically increase food production; particularly successful in India, Mexico, and the Philippines; prevented mass famine but also increased farmers' dependence on purchased inputs, benefited large farms over small, and caused environmental damage." },
+          { term: "IMF & World Bank", definition: "Bretton Woods institutions (1944) designed to stabilize international finance (IMF) and fund developing nation infrastructure (World Bank); during the Cold War, used to extend Western economic influence in developing nations; their structural adjustment programs (cutting social spending, privatizing industries) in the 1980s-90s were widely criticized for harming the poor." },
+          { term: "Nonalignment & Development", definition: "Leaders of newly independent nations sought economic development without choosing sides in the Cold War; competed for aid from both superpowers; the 1955 Bandung Conference articulated a 'Third World' development agenda; the UN Conference on Trade and Development (UNCTAD) pushed for fairer trade terms; limited success given structural disadvantages." },
+        ],
+      },
+      {
+        name: "Social Movements",
+        terms: [
+          { term: "Civil Rights Movement", definition: "U.S. movement (1950s–1960s) challenging racial segregation and discrimination through nonviolent protest, legal challenges, and political organizing; NAACP, SCLC, SNCC as key organizations; landmark achievements: Brown v. Board (1954), Civil Rights Act (1964), Voting Rights Act (1965); inspired by and influencing global decolonization movements simultaneously." },
+          { term: "Second Wave Feminism", definition: "Global women's rights movement of the 1960s–1980s; expanded beyond suffrage to challenge workplace discrimination, reproductive rights, domestic violence, and cultural sexism; 'The personal is political'; Betty Friedan's 'Feminine Mystique' (1963) in the U.S.; Simone de Beauvoir's 'The Second Sex' in France; produced major legal reforms in Western nations." },
+          { term: "Anti-Apartheid Movement", definition: "Global campaign to end South Africa's apartheid system; ANC's armed and political resistance inside South Africa; international economic boycotts and divestment campaigns; sports and cultural boycotts isolating South Africa; UN sanctions; Nelson Mandela's imprisonment became a global symbol; apartheid ended in 1994 with first democratic elections." },
+          { term: "Student Movements of 1968", definition: "Global wave of student protests in 1968: Paris (student-worker uprising nearly toppled the government), Prague Spring (Czech students and citizens demanding 'socialism with a human face,' crushed by Soviet tanks), Mexico City (student massacre days before Olympics), and U.S. anti-Vietnam War protests; challenged Cold War order from both sides of the Iron Curtain." },
+        ],
+      },
+      {
+        name: "Post-Colonial Challenges",
+        terms: [
+          { term: "Proxy Wars", definition: "Cold War conflicts where the U.S. and USSR supported opposing sides without directly fighting each other; Korea, Vietnam, Angola, Mozambique, Nicaragua, Afghanistan; killed millions of people in developing nations while the superpowers avoided nuclear confrontation; devastated infrastructure and political institutions in the states used as battlegrounds." },
+          { term: "Military Dictatorships", definition: "Military governments that seized power across Latin America, Africa, and Asia during the Cold War, often with U.S. or Soviet support if they aligned with the right superpower; common pattern: coup against elected government → military junta → political repression → economic mismanagement; Chile (Pinochet), Argentina, Brazil, Nigeria, Indonesia as examples." },
+          { term: "Rwandan Genocide", definition: "1994 massacre of approximately 800,000 Tutsi and moderate Hutu by extremist Hutu militias in 100 days; roots in Belgian colonial racial categorization that hardened fluid ethnic identities; international community failed to intervene despite clear warning signs; challenged the post-Holocaust promise of 'never again'; transformed debates about humanitarian intervention." },
+          { term: "Post-Colonial Borders", definition: "African and Asian national borders drawn by European colonizers at the Berlin Conference (1884–85) and other imperial agreements; ignored ethnic, linguistic, and cultural divisions; created states where hostile groups were forced together and where ethnic groups were split across multiple states; a structural cause of post-colonial conflict and instability." },
+        ],
+      },
+      {
+        name: "End of the Cold War",
+        terms: [
+          { term: "Glasnost & Perestroika", definition: "Mikhail Gorbachev's reform programs for the Soviet Union (1986–1991); glasnost ('openness') allowed criticism of the government; perestroika ('restructuring') sought to make the Soviet economy more efficient; instead of saving the USSR, they unleashed demands for democratic freedom and national independence that destroyed it." },
+          { term: "Fall of the Berlin Wall", definition: "November 9, 1989: East Germany opened its borders as the communist government collapsed; jubilant Berliners tore down the wall that had divided the city for 28 years; symbolized the end of the Cold War and triggered German reunification (1990); within two years all Soviet satellite states had transitioned away from communism." },
+          { term: "Dissolution of the USSR", definition: "December 25, 1991: Soviet Union formally dissolved into 15 independent republics; caused by economic stagnation, nationalist movements in Soviet republics, Gorbachev's failed reforms, and the example of peaceful Eastern European revolutions; ended the Cold War but left questions about Russia's role, NATO expansion, and the fate of Soviet nuclear weapons." },
+          { term: "Tiananmen Square", definition: "1989 Chinese pro-democracy protests; hundreds of thousands of students and workers occupied Beijing's central square demanding political reform; ended June 4 when the government deployed tanks, killing hundreds to thousands; China chose economic reform without political liberalization — a path that shaped China's 21st-century development model." },
+        ],
+      },
+    ],
+  },
+
+  // ── AP WORLD UNIT 9: Globalization ────────────────────────────────────────
+
+  {
+    id: "apworld-unit-9-ecn",
+    unit: 9,
+    puzzle: 1,
+    theme: { code: "ECN", name: "Economic Globalization" },
+    title: "Globalization",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Trade & Finance",
+        terms: [
+          { term: "WTO", definition: "World Trade Organization (1995); replaced GATT; sets global rules for international trade and adjudicates trade disputes between nations; promotes free trade by reducing tariffs and other barriers; criticized by developing nations for rules that favor wealthy countries and by anti-globalization activists for undermining labor and environmental standards." },
+          { term: "Neoliberalism", definition: "Economic ideology dominant from the 1980s onward advocating free markets, deregulation, privatization, reduced government spending, and global free trade; championed by Reagan and Thatcher; implemented globally through IMF/World Bank structural adjustment programs; produced economic growth and poverty reduction in some places but also rising inequality and financial crises." },
+          { term: "Global Supply Chains", definition: "Complex international networks through which components and services from multiple countries are assembled into final products; a defining feature of modern globalization; Apple's iPhone contains parts from dozens of countries; allow corporations to arbitrage global differences in labor costs and regulations; made economies highly interdependent and vulnerable to disruption." },
+          { term: "Microfinance", definition: "Small loans to poor entrepreneurs — especially women — in developing nations who lack access to traditional banking; pioneered by Muhammad Yunus and the Grameen Bank in Bangladesh; spread globally as a poverty alleviation strategy; evidence on effectiveness is mixed — beneficial for some borrowers but rarely transforms entire communities out of poverty." },
+        ],
+      },
+      {
+        name: "Technology & Communication",
+        terms: [
+          { term: "Internet", definition: "Global network of interconnected computers developed from ARPANET (U.S. military, 1969); commercialized in the 1990s and transformed into a mass medium; enabled instantaneous global communication, e-commerce, social media, and the knowledge economy; concentrated power in technology corporations; created new forms of surveillance and inequality (digital divide)." },
+          { term: "Green Revolution", definition: "Second phase (1960s–80s): spread of high-yield crops, synthetic fertilizers, and irrigation to South and Southeast Asia; dramatically increased food production, averting feared famines; India became food self-sufficient; but also increased inequality between large and small farmers, chemical pollution of water supplies, and dependence on imported inputs." },
+          { term: "Container Shipping", definition: "Standardization of shipping containers (1950s–60s) revolutionized global trade; a single container can move seamlessly between ship, truck, and train; dramatically reduced shipping costs and time; made global supply chains economically feasible; enabled the offshoring of manufacturing to low-wage countries; one of the unheralded forces behind 20th-century globalization." },
+          { term: "Digital Revolution", definition: "Transformation from analog to digital technologies beginning in the 1980s; personal computers, mobile phones, and the internet changed how people work, communicate, and consume information; created new industries (e-commerce, social media, streaming) while destroying old ones (retail, music, print media); the most rapid technological transformation in human history." },
+        ],
+      },
+      {
+        name: "Inequality & Development",
+        terms: [
+          { term: "Global South", definition: "Term for developing nations — primarily in Africa, Asia, and Latin America — that share a colonial past and ongoing economic disadvantages in the global system; contrasted with the wealthy 'Global North'; the term reflects the political solidarity of formerly colonized nations rather than strict geographic division (Australia is in the south but not the 'Global South')." },
+          { term: "Structural Adjustment", definition: "IMF/World Bank conditions attached to loans for developing nations in financial crisis; required cutting government spending (especially social programs), privatizing state enterprises, deregulating markets, and removing trade barriers; intended to make economies more efficient; often caused immediate poverty and social hardship; widely seen as benefiting creditors over debtor populations." },
+          { term: "BRICS", definition: "Brazil, Russia, India, China, and South Africa — major emerging economies identified as the next global economic powers; China's rise has been most dramatic; the group challenged Western-dominated institutions and sought a multipolar world order; established the New Development Bank as an alternative to the World Bank; internal divisions limit political cohesion." },
+          { term: "Remittances", definition: "Money sent home by migrant workers to their families in developing nations; now exceed foreign aid as a source of income for many developing nations (e.g., Philippines, Mexico, Bangladesh); over $700 billion annually worldwide; support household consumption and education but also create dependency and brain drain as the most skilled workers emigrate." },
+        ],
+      },
+      {
+        name: "Migration & Demographics",
+        terms: [
+          { term: "Economic Migration", definition: "Movement of people across borders in search of better economic opportunities; major flows: Mexico/Central America to United States, North Africa and South Asia to Europe and Gulf states, Southeast Asia to Gulf states; driven by wage differentials between sending and receiving countries; creates economic benefits and political tensions in receiving countries." },
+          { term: "Refugee Crises", definition: "Mass displacement of populations by war, persecution, and famine; major 21st-century crises: Syrian Civil War (5.5 million refugees), Afghan and Iraqi displacement, Rohingya from Myanmar; UN High Commissioner for Refugees (UNHCR) coordinates international response; refugee flows test international law, humanitarian systems, and political tolerance in receiving nations." },
+          { term: "Demographic Transition", definition: "Shift from high birth and death rates to low birth and death rates accompanying economic development; developed nations have aging, slowly growing populations; many developing nations still have youthful, rapidly growing populations; creates pressure for migration from young-heavy to old-heavy countries; shapes long-term economic and geopolitical power." },
+          { term: "Urbanization", definition: "21st-century trend: over half of humanity now lives in cities for the first time in history; megacities (10 million+) like Tokyo, Mumbai, Lagos, and São Paulo; rapid urbanization in Africa and Asia creates infrastructure challenges (housing, sanitation, transport) but also economic opportunity; cities drive innovation and productivity disproportionate to their size." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-9-env",
+    unit: 9,
+    puzzle: 2,
+    theme: { code: "ENV", name: "Environment & Sustainability" },
+    title: "Globalization",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Climate Change",
+        terms: [
+          { term: "Paris Agreement", definition: "2015 international climate accord signed by 196 nations; committed signatories to limit global warming to well below 2°C above pre-industrial levels; each nation sets its own emissions targets (Nationally Determined Contributions); legally binding participation but not legally binding targets; a framework rather than an enforcement mechanism; Trump withdrew the U.S. (later rejoined under Biden)." },
+          { term: "Carbon Emissions", definition: "Release of carbon dioxide and other greenhouse gases from burning fossil fuels, deforestation, and industrial processes; the primary driver of climate change; global emissions have risen dramatically since industrialization; richest nations historically responsible for most cumulative emissions; developing nations argue for the right to industrialize despite climate costs." },
+          { term: "Kyoto Protocol", definition: "1997 international treaty setting binding greenhouse gas reduction targets for developed nations; the U.S. Senate refused to ratify; Canada withdrew in 2011; developing nations (including China and India) exempt; largely failed to reduce global emissions; replaced by the Paris Agreement (2015); demonstrated the difficulty of binding international environmental agreements." },
+          { term: "Deforestation", definition: "Rapid clearing of forests — especially tropical rainforests in the Amazon, Congo Basin, and Southeast Asia — for agriculture, logging, and development; destroys biodiversity and carbon sinks; accounts for approximately 10% of global carbon emissions; often driven by demand for beef, soy, palm oil, and timber from wealthy consuming nations." },
+        ],
+      },
+      {
+        name: "Environmental Movements",
+        terms: [
+          { term: "Green Movement", definition: "Political and social movement advocating environmental protection, sustainability, and the transition away from fossil fuels; originated in 1970s in response to nuclear power, pollution, and resource depletion; Greenpeace, Earth Day (1970), Green parties in European parliaments; evolved into broader advocacy for climate justice and sustainable development." },
+          { term: "Earth Summit", definition: "1992 UN Conference on Environment and Development in Rio de Janeiro; landmark international gathering producing Agenda 21 (sustainable development framework), the Framework Convention on Climate Change, and the Convention on Biological Diversity; established sustainable development as a global policy goal; produced major agreements but weak enforcement." },
+          { term: "Environmental Justice", definition: "Movement recognizing that environmental hazards — pollution, climate impacts, toxic waste — fall disproportionately on poor communities and communities of color both within wealthy nations and globally; developing nations face the worst climate impacts despite contributing least to emissions; demands that environmental policy address racial and economic equity." },
+          { term: "Greta Thunberg", definition: "Swedish climate activist who began school strikes for climate (Fridays for Future) at age 15 in 2018; became the global face of youth climate activism; addressed the UN, COP24, and Davos with uncompromising demands for immediate action; sparked the largest climate protest in history (September 2019, 7.6 million people in 185 countries); symbolizes generational demand for climate action." },
+        ],
+      },
+      {
+        name: "Resource Competition",
+        terms: [
+          { term: "Water Scarcity", definition: "Increasing global water stress as population growth, agriculture, and climate change reduce freshwater availability; 2 billion people lack access to safe drinking water; the Aral Sea — once the world's 4th largest lake — nearly disappeared due to Soviet irrigation projects; future conflicts over water rights predicted in the Middle East, South Asia, and Africa." },
+          { term: "Oil & Geopolitics", definition: "Fossil fuel dominance of global energy systems created deep political entanglement between oil-producing nations (OPEC, Persian Gulf states) and consuming nations; Middle East wars often intertwined with oil access; 'resource curse' — nations with abundant oil often have less democracy and diversified economies; transition to renewables is reshaping these geopolitical relationships." },
+          { term: "Biodiversity Loss", definition: "The sixth mass extinction — the current geological era's species die-off driven by human activity (habitat destruction, pollution, climate change, invasive species); estimated extinction rate 100–1,000 times higher than background rates; loss of ecosystem services (pollination, water purification, climate regulation) threatens human welfare as well as wild species." },
+          { term: "Rare Earth Elements", definition: "Minerals essential for modern electronics, electric vehicles, wind turbines, and military technology (neodymium, lithium, cobalt); China controls roughly 60% of global rare earth mining and processing; creating a new form of resource-based geopolitical leverage; the green energy transition increases demand for these materials, raising concerns about supply chains and environmental impacts of mining." },
+        ],
+      },
+      {
+        name: "Global Health",
+        terms: [
+          { term: "HIV/AIDS", definition: "Global pandemic beginning in the 1980s; killed approximately 40 million people; disproportionately devastated sub-Saharan Africa (where 70% of cases occurred); required massive international response through organizations like UNAIDS and PEPFAR; demonstrated both the speed of global disease transmission and the inequality in access to life-saving antiretroviral drugs." },
+          { term: "COVID-19 Pandemic", definition: "Global pandemic caused by the SARS-CoV-2 coronavirus; originated in Wuhan, China (late 2019); killed 7+ million officially (estimated 15–20 million excess deaths); caused the largest global economic contraction since the Great Depression; accelerated digital transformation; exposed healthcare inequities between nations and vaccine nationalism between rich and poor countries." },
+          { term: "WHO", definition: "World Health Organization; UN specialized agency coordinating international public health; manages global disease surveillance, sets health standards, and coordinates responses to pandemics; criticized for slow response to COVID-19 and deference to China; its authority depends on member-state cooperation and funding; Trump withdrew the U.S. (later rejoined under Biden)." },
+          { term: "Vaccine Nationalism", definition: "Tendency of wealthy nations to prioritize securing vaccines for their own populations before sharing with poorer nations; during COVID-19, wealthy nations purchased far more doses than needed while the Global South faced shortages; COVAX initiative sought to ensure equitable access but was undermined by wealthy-nation hoarding; highlighted global health inequality." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apworld-unit-9-sio",
+    unit: 9,
+    puzzle: 3,
+    theme: { code: "SIO + CDI", name: "Society, Identity & Culture" },
+    title: "Globalization",
+    subject: "AP World",
+    groups: [
+      {
+        name: "Cultural Globalization",
+        terms: [
+          { term: "Americanization", definition: "Global spread of American cultural products, values, and lifestyle — fast food, Hollywood films, pop music, social media, English as the global lingua franca — through market dominance and media power; celebrated as modernization by some, condemned as cultural imperialism by others; drives homogenization while simultaneously generating local resistance and hybrid cultures." },
+          { term: "Cultural Hybridity", definition: "The blending of cultural elements from different traditions to create new, syncretic forms; a defining feature of globalization; examples: Bollywood combining Indian classical dance with Hollywood narrative, K-pop combining Korean performance aesthetics with Western pop production, Afrobeats fusing African rhythms with global electronic music." },
+          { term: "Social Media", definition: "Internet platforms (Facebook, Twitter/X, Instagram, TikTok, WhatsApp) enabling global communication and content sharing; transformed political organizing (Arab Spring), marketing, journalism, and personal identity; concentrated enormous cultural and political power in a few U.S. corporations; accelerated misinformation, political polarization, and mental health crises." },
+          { term: "Global English", definition: "English as the dominant international language of business, science, diplomacy, and digital communication; a legacy of British colonialism and American cultural dominance; enables global communication while marginalizing non-English speakers and threatening linguistic diversity; approximately 1.5 billion people speak English (most as a second language)." },
+        ],
+      },
+      {
+        name: "Political Challenges",
+        terms: [
+          { term: "Terrorism", definition: "Political violence against civilians by non-state actors to coerce governments or populations; al-Qaeda's September 11 attacks (2001) triggered U.S.-led 'War on Terror'; ISIS's 2014 caliphate declaration in Iraq/Syria; attacks across Europe and Africa; the 'War on Terror' killed hundreds of thousands, destabilized multiple nations, and raised civil liberties concerns in democratic states." },
+          { term: "Rise of China", definition: "China's economic transformation since Deng Xiaoping's 1978 reforms; from impoverished agrarian nation to world's second-largest economy; 800 million people lifted from poverty; global manufacturing hub; increasingly assertive foreign policy (South China Sea, Belt and Road Initiative, Taiwan); the defining geopolitical challenge for the 21st century." },
+          { term: "Populism", definition: "Political style presenting politics as a struggle between 'the pure people' and a corrupt elite; appeals across left-right spectrum; right-wing populism (Trump, Orbán, Bolsonaro) emphasizes national sovereignty and anti-immigration; left-wing populism (Chávez, Morales) emphasizes economic inequality; reflects widespread disillusionment with mainstream parties and globalization's unequal benefits." },
+          { term: "Democratic Backsliding", definition: "Erosion of democratic norms, institutions, and practices in formally democratic countries; not sudden coups but gradual: attacking press freedom, politicizing judiciary, restricting civil society, manipulating elections; occurring in Hungary, Turkey, India, Brazil, Philippines, and the United States; Levitsky and Ziblatt's 'How Democracies Die' analyzed the trend." },
+        ],
+      },
+      {
+        name: "Human Rights",
+        terms: [
+          { term: "Universal Declaration of Human Rights", definition: "1948 UN document articulating universal rights of all people regardless of nationality; drafted in response to WWII atrocities; includes civil/political rights (speech, religion, fair trial) and social/economic rights (education, healthcare, work); not legally binding but enormously influential as a moral and legal standard; basis for subsequent human rights treaties." },
+          { term: "International Criminal Court", definition: "Permanent international court (established 2002) prosecuting individuals for war crimes, crimes against humanity, and genocide; over 120 member nations but the U.S., Russia, China, and India are not members; prosecuted leaders from Africa, Balkans, and Middle East; limited by lack of enforcement power (depends on states to arrest suspects); a significant if imperfect step toward international accountability." },
+          { term: "LGBTQ+ Rights", definition: "Global movement for legal equality and social acceptance of LGBTQ+ people; marriage equality legalized across Western Europe and the Americas; dramatic improvement in public acceptance in wealthy nations; simultaneously, criminalization and violence intensified in parts of Africa, the Middle East, and Russia; a sharply contested fault line in global culture wars between liberal and traditional values." },
+          { term: "Women's Rights", definition: "Ongoing global movement for gender equality; major gains in education (women now outnumber men in higher education in many countries) and workforce participation; persistent gaps in pay, political representation, and reproductive rights; intense resistance in conservative societies; the 2017 #MeToo movement revealed sexual harassment's universality; 'honor violence' and female genital mutilation remain serious issues in some regions." },
+        ],
+      },
+      {
+        name: "21st Century Challenges",
+        terms: [
+          { term: "Artificial Intelligence", definition: "Computer systems performing tasks requiring human intelligence; dramatic advances since 2010 in machine learning, natural language processing, and image recognition; transforming medicine, finance, transportation, and warfare; raising concerns about job displacement, algorithmic bias, autonomous weapons, and the concentration of AI capability in a few corporations and governments." },
+          { term: "Belt and Road Initiative", definition: "China's massive global infrastructure investment program (launched 2013); building ports, railways, highways, and digital networks across Asia, Africa, and Europe; over $1 trillion in projects in 140+ countries; generates economic development and Chinese geopolitical influence; critics warn of 'debt trap diplomacy' leaving host nations owing China; the 21st century's most significant geopolitical infrastructure project." },
+          { term: "Multipolar World", definition: "Emerging global order characterized by multiple centers of power — the United States, China, Europe, Russia, India — rather than U.S. unipolar dominance of the 1990s; China's rise and U.S. relative decline are the key drivers; associated with reduced effectiveness of U.S.-built international institutions and growing great-power competition." },
+          { term: "Sustainable Development Goals", definition: "UN's 17 goals (adopted 2015) to achieve by 2030: ending poverty and hunger, achieving quality education and gender equality, clean water and energy, economic growth, reduced inequality, sustainable cities, responsible consumption, climate action, life below water and on land, peace and strong institutions, and global partnership; a global framework but voluntary and unevenly implemented." },
+        ],
+      },
+    ],
+  },
+
+  // ── AP GOV UNIT 1: Foundations of American Democracy ─────────────────────
+
+  {
+    id: "apgov-unit-1-con",
+    unit: 1,
+    puzzle: 1,
+    theme: { code: "CON", name: "Constitutionalism" },
+    title: "Foundations of American Democracy",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Foundational Constitutional Principles",
+        terms: [
+          { term: "Separation of Powers", definition: "Constitutional design dividing government authority among three distinct branches (legislative, executive, judicial) so no single branch holds all power; drawn from Montesquieu's political philosophy; prevents tyranny by requiring cooperation across branches to govern and is reinforced by the system of checks and balances." },
+          { term: "Checks and Balances", definition: "System giving each branch tools to limit the power of the other two; the President can veto legislation, Congress can override vetoes and impeach the President, the Supreme Court can strike down laws as unconstitutional; prevents any single branch from dominating and forces inter-branch compromise." },
+          { term: "Federalism", definition: "Constitutional division of power between the national government and state governments; both levels have their own spheres of authority (enumerated vs. reserved powers); the Supremacy Clause makes federal law supreme when it conflicts with state law; a uniquely American innovation that has evolved dramatically from dual to cooperative federalism." },
+          { term: "Popular Sovereignty", definition: "The principle that legitimate government authority derives from the consent of the governed; 'We the People' in the Constitution's Preamble embodies this idea; government serves at the pleasure of citizens and loses legitimacy if it violates natural rights; the foundational premise of democratic theory underlying the American system." },
+        ],
+      },
+      {
+        name: "Why a New Constitution Was Needed",
+        terms: [
+          { term: "Articles of Confederation", definition: "The first U.S. governing document (1781–1789); deliberately weak central government with no executive, no federal courts, and no power to tax or regulate commerce; each state had one vote regardless of size and unanimous consent was required to amend; its structural failures convinced the Founders a new framework was necessary." },
+          { term: "Shays' Rebellion", definition: "1786–87 armed uprising by Massachusetts farmers crushed by debt and farm foreclosures; the Confederation Congress couldn't fund a military response; alarmed elites nationwide and demonstrated the central government's inability to maintain domestic order; directly accelerated the call for the Constitutional Convention." },
+          { term: "No Taxing Power", definition: "Under the Articles of Confederation, Congress could only request money from states — it had no authority to directly tax citizens; states routinely ignored requisitions; the government couldn't pay Revolutionary War debts or fund a military; the inability to raise revenue was the Articles' most crippling structural flaw and a driving force behind the Constitutional Convention." },
+          { term: "Lack of Commercial Regulation", definition: "The Articles gave Congress no power to regulate interstate or foreign commerce; states taxed each other's goods and competed destructively; foreign nations exploited the chaotic trade situation; Hamilton and Madison saw commercial disorder as a fatal weakness requiring a stronger union to create a unified national market." },
+        ],
+      },
+      {
+        name: "Compromises at the Constitutional Convention",
+        terms: [
+          { term: "Great Compromise", definition: "The 1787 agreement creating a bicameral Congress: the House of Representatives (proportional by population, satisfying large states) and the Senate (equal representation — two senators per state, satisfying small states); broke the Convention's most dangerous deadlock and remains the structural foundation of Congress today." },
+          { term: "Three-Fifths Compromise", definition: "Agreement counting enslaved people as three-fifths of a person for apportioning House seats and direct taxes; gave Southern states far more congressional representation than their free population warranted; deliberately obscured in the Constitution's text; eliminated by the 14th Amendment after the Civil War." },
+          { term: "Electoral College", definition: "Constitutional compromise creating indirect presidential elections; electors (appointed by states, number equal to each state's congressional delegation) formally choose the president; satisfied both large states (population-based weighting) and small states (equal Senate seats); winner-take-all rules adopted by most states focus presidential campaigns on competitive swing states." },
+          { term: "Commerce & Slave Trade Compromise", definition: "Agreement prohibiting Congress from banning the international slave trade until 1808 and requiring a two-thirds supermajority in the Senate for navigation acts (trade regulations); protected Southern interests in both the slave trade and agricultural exports; one of several constitutional accommodations of slavery that delayed reckoning by decades." },
+        ],
+      },
+      {
+        name: "The Ratification Debate",
+        terms: [
+          { term: "Federalists", definition: "Supporters of ratifying the Constitution who argued a stronger central government was necessary for national security, economic stability, and effective governance; led by Hamilton, Madison, and Jay; wrote the Federalist Papers to persuade New York; believed the Constitution's structural design (not a bill of rights) was sufficient to prevent tyranny." },
+          { term: "Anti-Federalists", definition: "Opponents of ratifying the Constitution who feared a powerful central government would destroy states' rights and individual liberty; demanded a Bill of Rights as a condition of ratification; wrote Brutus No. 1 and other essays warning of unchecked federal power; their pressure led directly to the first ten amendments being added immediately after ratification." },
+          { term: "Federalist No. 51", definition: "Madison's defense of the Constitution's separation of powers and federalism; 'Ambition must be made to counteract ambition' — self-interested officials will defend their branch's power, creating structural friction that prevents tyranny; federalism adds another layer by dividing power between national and state governments; a foundational text for understanding constitutional design." },
+          { term: "Brutus No. 1", definition: "Key Anti-Federalist essay (1787) arguing the Constitution would create a tyrannical centralized government; warned that the Necessary and Proper Clause and Supremacy Clause gave unlimited federal power with no meaningful check; demanded a Bill of Rights; argued republics can only function in small, homogeneous communities — directly contested by Federalist Nos. 10 and 51." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-1-lo",
+    unit: 1,
+    puzzle: 2,
+    theme: { code: "LO", name: "Liberty and Order" },
+    title: "Foundations of American Democracy",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "First Amendment Freedoms",
+        terms: [
+          { term: "Free Speech", definition: "First Amendment protection of individual expression from government censorship; not absolute — the Court upholds limits on speech posing a 'clear and present danger' (Schenck), fighting words, obscenity, and true threats; political speech receives the highest protection; one of the most litigated constitutional provisions in American law." },
+          { term: "Establishment Clause", definition: "First Amendment prohibition on the government establishing an official religion or favoring religion over non-religion; applied to states through the 14th Amendment; governs school prayer (Engel v. Vitale), religious displays on public property, and government funding of religious schools; central battleground between religious liberty and church-state separation." },
+          { term: "Free Exercise Clause", definition: "First Amendment protection of the right to practice one's religion without government interference; not absolute — the government can enforce neutral, generally applicable laws even if they burden religious practice (Employment Division v. Smith); but must show a compelling interest to justify laws targeting religion specifically." },
+          { term: "Freedom of the Press", definition: "First Amendment protection of journalism and publication from prior restraint (pre-publication censorship); the Supreme Court has held prior restraint is almost always unconstitutional (Near v. Minnesota; New York Times v. United States — the Pentagon Papers case); the press can be punished after publication but the government almost never can stop publication in advance." },
+        ],
+      },
+      {
+        name: "Rights of the Accused",
+        terms: [
+          { term: "Fourth Amendment", definition: "Protects against unreasonable searches and seizures; requires warrants based on probable cause, supported by oath, describing the place searched and items sought; the exclusionary rule (Mapp v. Ohio, 1961) bars illegally obtained evidence from trial; defines the balance between effective law enforcement and the right to privacy." },
+          { term: "Fifth Amendment", definition: "Guarantees due process, prohibits double jeopardy (being tried twice for the same crime), protects against self-incrimination ('pleading the Fifth'), and requires grand jury indictment for serious crimes; Miranda rights derive from this amendment; the takings clause prohibits government seizing private property without just compensation." },
+          { term: "Sixth Amendment", definition: "Guarantees the right to a speedy and public trial by an impartial jury, the right to be informed of charges, the right to confront witnesses, and the right to an attorney; Gideon v. Wainwright (1963) extended the right to appointed counsel to state felony defendants who cannot afford a lawyer, applying it through the 14th Amendment." },
+          { term: "Selective Incorporation", definition: "The process by which the 14th Amendment's Due Process Clause has been used to apply most Bill of Rights protections to state governments case-by-case; originally the Bill of Rights only constrained the federal government (Barron v. Baltimore, 1833); through incorporation, nearly all First, Fourth, Fifth, Sixth, and Eighth Amendment protections now bind states as well." },
+        ],
+      },
+      {
+        name: "Landmark Civil Liberties Cases",
+        terms: [
+          { term: "Tinker v. Des Moines (1969)", definition: "Students wore black armbands to protest the Vietnam War and were suspended; Supreme Court ruled students do not 'shed their constitutional rights at the schoolhouse gate'; symbolic speech is protected in schools unless it causes 'substantial disruption' to the educational environment; the standard governing student First Amendment rights." },
+          { term: "Engel v. Vitale (1962)", definition: "New York public schools required students to recite a nondenominational prayer composed by the state; Supreme Court ruled this violated the Establishment Clause even though the prayer was voluntary and non-sectarian; established that government-sponsored prayer in public schools is unconstitutional regardless of the prayer's apparent neutrality." },
+          { term: "Miranda v. Arizona (1966)", definition: "Ernesto Miranda confessed without being informed of his rights; Supreme Court ruled suspects must be told of their right to remain silent and their right to an attorney before police interrogation; created the 'Miranda warnings' police must now give upon arrest; grounded in the Fifth Amendment's protection against self-incrimination." },
+          { term: "Gideon v. Wainwright (1963)", definition: "Clarence Gideon was denied a court-appointed attorney in a Florida felony case and had to represent himself; Supreme Court unanimously ruled the Sixth Amendment right to counsel applies to state felony prosecutions through the 14th Amendment; required states to provide attorneys to defendants who cannot afford one — a landmark incorporation case." },
+        ],
+      },
+      {
+        name: "Limits on Civil Liberties",
+        terms: [
+          { term: "Clear and Present Danger", definition: "Standard from Schenck v. United States (1919) allowing government to restrict speech posing an immediate danger; used to uphold WWI-era prosecutions of anti-draft activists; later replaced by the Brandenburg v. Ohio (1969) test requiring speech to incite 'imminent lawless action'; illustrates that constitutional rights exist on a spectrum rather than being absolute." },
+          { term: "Prior Restraint", definition: "Government censorship of expression before it is published or broadcast; considered the most severe First Amendment violation; the Supreme Court struck down prior restraint of the Pentagon Papers (New York Times v. United States, 1971); prior restraint is presumptively unconstitutional and requires an extraordinary government interest to justify — almost never met." },
+          { term: "Police Power", definition: "State governments' broad authority to regulate for the public health, safety, morals, and general welfare; reserved to the states by the 10th Amendment; includes authority to enact criminal laws, quarantine public health threats, regulate buildings, and restrict dangerous behavior; the primary governmental power defining the balance between individual liberty and community order at the state level." },
+          { term: "Due Process", definition: "Both the 5th and 14th Amendments prohibit government from depriving persons of 'life, liberty, or property without due process of law'; procedural due process requires fair procedures before government acts; substantive due process protects certain fundamental rights from government interference regardless of the procedures used; a central battleground in constitutional law across civil liberties and civil rights cases." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-1-prd",
+    unit: 1,
+    puzzle: 3,
+    theme: { code: "PRD", name: "Civic Participation in a Representative Democracy" },
+    title: "Foundations of American Democracy",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Expanding the Franchise",
+        terms: [
+          { term: "15th Amendment", definition: "Ratified 1870; prohibited denying the right to vote based on 'race, color, or previous condition of servitude'; gave African American men the constitutional right to vote after the Civil War; systematically undermined by Jim Crow laws (literacy tests, poll taxes, grandfather clauses, violence) until the Voting Rights Act of 1965 finally provided effective enforcement." },
+          { term: "19th Amendment", definition: "Ratified 1920; guaranteed women the right to vote; culminated a 72-year suffrage movement beginning with the Seneca Falls Convention (1848); the result of decades of organizing by suffragists including Susan B. Anthony and Elizabeth Cady Stanton; roughly doubled the eligible voting population overnight." },
+          { term: "24th Amendment", definition: "Ratified 1964; abolished poll taxes in federal elections; poll taxes were used throughout the South to disenfranchise poor Black (and some white) voters; the amendment eliminated one major Jim Crow tool used to circumvent the 15th Amendment; a key civil rights era reform alongside the Civil Rights and Voting Rights Acts." },
+          { term: "26th Amendment", definition: "Ratified 1971; lowered the voting age from 21 to 18; driven by the argument that 18-year-olds being drafted to fight in Vietnam deserved the right to vote; the most recent constitutional expansion of voting rights; 18–29 year olds remain the age group with the lowest voter turnout despite holding full voting rights." },
+        ],
+      },
+      {
+        name: "Modes of Civic Participation",
+        terms: [
+          { term: "Voting", definition: "The most fundamental form of democratic participation; American voter turnout historically lags other democracies (55–60% in presidential elections, ~40% in midterms); influenced by voter registration requirements, polling place access, and perceived electoral stakes; mobilizing infrequent voters has become a central focus of modern campaigns and civic organizations." },
+          { term: "Political Parties", definition: "Organized groups seeking to win elections and control government by recruiting candidates, raising money, crafting platforms, and mobilizing voters; the two-party system (Democrats and Republicans) dominates American politics due to winner-take-all electoral rules; party identification is the single strongest predictor of individual voting behavior." },
+          { term: "Interest Groups", definition: "Organizations representing shared interests that attempt to influence government policy without directly running for office; distinguished from political parties by their issue focus rather than electoral ambition; includes business associations (Chamber of Commerce), unions (AFL-CIO), professional groups (AMA), and single-issue groups (NRA, ACLU, Sierra Club)." },
+          { term: "Civil Disobedience", definition: "Deliberate, nonviolent violation of unjust laws to draw public attention to injustice and pressure political change; theorized by Thoreau, Gandhi, and Martin Luther King Jr.; the Civil Rights Movement's sit-ins, freedom rides, and marches used civil disobedience to expose racial injustice; requires accepting legal consequences to demonstrate moral seriousness and sincerity of purpose." },
+        ],
+      },
+      {
+        name: "Direct Democracy Mechanisms",
+        terms: [
+          { term: "Initiative", definition: "Process allowing citizens to propose laws or constitutional amendments by gathering a required number of petition signatures; the proposal is placed directly on the ballot for voters to approve or reject, bypassing the legislature entirely; available in 26 states; used for major policy changes on marijuana legalization, minimum wage increases, and abortion rights restrictions or protections." },
+          { term: "Referendum", definition: "A vote by the general public on a question referred to them by a legislature or governing body; can ratify or reject legislative acts; many states require referendums for constitutional amendments or bond measures; differs from an initiative in that it originates with the government rather than citizen petition; a limited form of direct democracy within a representative system." },
+          { term: "Recall", definition: "Process allowing voters to remove an elected official before their term ends; requires gathering petition signatures to trigger a special election; available in 19 states for state officials; high-profile examples include the 2003 California recall of Governor Gray Davis (replaced by Arnold Schwarzenegger); a direct accountability mechanism between elections." },
+          { term: "Town Hall Meeting", definition: "Direct democracy tradition in which citizens gather publicly to discuss community issues and hold elected officials accountable; originated in New England colonial governance; today used as a term for elected officials' public meetings with constituents; a direct form of civic engagement where officials hear from and must respond to the voters they represent." },
+        ],
+      },
+      {
+        name: "Foundations of Democratic Theory",
+        terms: [
+          { term: "Social Contract", definition: "Political philosophy holding that governments derive their authority from an agreement among citizens to surrender some freedoms in exchange for protection and civil order; Locke, Rousseau, and Hobbes articulated competing versions; Jefferson drew on Locke in the Declaration of Independence — government's legitimacy depends on protecting natural rights and can be revoked if it violates them." },
+          { term: "Natural Rights", definition: "Rights that belong to all people by virtue of their humanity, not granted by governments and therefore not legitimately taken away by them; Locke identified life, liberty, and property; Jefferson translated these as 'life, liberty, and the pursuit of happiness'; the premise that government exists to protect pre-existing rights — and loses legitimacy when it violates them — is foundational to American democracy." },
+          { term: "Majority Rule / Minority Rights", definition: "The defining tension of constitutional democracy: the principle that majorities govern is essential to democracy, but minorities retain rights the majority cannot override; the Bill of Rights exists precisely to protect minority rights from majoritarian tyranny; constitutional democracy distinguishes itself from pure democracy by placing rights beyond the reach of majority vote." },
+          { term: "Pluralism", definition: "Theory that democracy functions through competition among many different groups (ethnic, economic, religious, regional) each seeking to influence government; no single group dominates because multiple competing interests check each other in a large republic; contrasted with elite theory (a small ruling class dominates) and hyperpluralism (so many competing groups that governance becomes gridlocked)." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-1-pmi",
+    unit: 1,
+    puzzle: 4,
+    theme: { code: "PMI", name: "Competing Policymaking Interests" },
+    title: "Foundations of American Democracy",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Legislative Policymaking Tools",
+        terms: [
+          { term: "Committee System", definition: "Permanent specialized committees that draft, debate, and revise legislation before it reaches the full chamber floor; committees hold hearings, mark up bills, and decide which proposals advance or die; committee chairs (majority party members) control the legislative agenda; Congress delegates detailed policymaking to these specialized bodies to manage complexity." },
+          { term: "Filibuster", definition: "Senate procedure allowing a senator to delay or block a vote by speaking indefinitely or simply threatening to do so; requires 60 votes (cloture) to end; has no equivalent in the House; gives Senate minorities enormous power to block majority-supported legislation; modified for judicial and executive nominations (the 'nuclear option,' 2013 and 2017) but remains for legislation." },
+          { term: "Bicameralism", definition: "Constitutional requirement for two chambers (House and Senate) to each pass identical versions of a bill before it becomes law; each chamber represents different constituencies (House: population every 2 years; Senate: states, 6-year terms); requires conference committees to reconcile differences; a deliberate structural friction slowing legislation and requiring broad consensus to pass." },
+          { term: "Logrolling", definition: "Legislative vote-trading in which two legislators agree to support each other's bills regardless of independent interest: 'You vote for my dam project and I'll vote for your farm subsidy'; a rational strategy for assembling majority coalitions in a legislature; produces spending packages that serve narrow district interests but can aggregate into broader policy packages." },
+        ],
+      },
+      {
+        name: "Executive Policymaking Tools",
+        terms: [
+          { term: "Executive Order", definition: "Presidential directive carrying the force of law, issued without congressional approval, based on constitutional authority as executive; used for major policy actions — FDR's WWII Japanese American internment, Truman's military desegregation, Obama's DACA; can be overturned by the next president or struck down by courts; a unilateral tool that tests the boundaries of presidential power." },
+          { term: "Veto", definition: "Presidential power to reject legislation passed by Congress; a congressional override requires two-thirds majorities in both chambers; the pocket veto occurs when Congress adjourns within 10 days of presenting a bill the president doesn't sign; a critical check on legislative power and a key source of presidential bargaining leverage even when the veto is only threatened rather than used." },
+          { term: "Signing Statement", definition: "Presidential written declaration accompanying a bill's signing, explaining how the executive branch will interpret and enforce the law; often asserts the president's view that certain provisions are unconstitutional and will not be enforced as written; controversial because presidents use them to effectively nullify parts of legislation without vetoing; not mentioned in the Constitution." },
+          { term: "Regulatory Agency", definition: "Federal bureaucratic body given authority by Congress to create and enforce rules (administrative law) with the force of law; EPA, FDA, FCC, SEC, OSHA as examples; agencies issue regulations filling in the details of broad congressional mandates; expanded dramatically since the New Deal; often the most detailed and consequential policymakers in their policy areas." },
+        ],
+      },
+      {
+        name: "Courts in the Policy System",
+        terms: [
+          { term: "Judicial Review", definition: "Power of courts to declare laws or executive actions unconstitutional and invalidate them; not explicitly in the Constitution but established by Chief Justice Marshall in Marbury v. Madison (1803); gives the judiciary enormous policymaking power by defining the constitutional limits of what government may do; the Supreme Court's ultimate check on the other branches." },
+          { term: "Stare Decisis", definition: "Latin for 'to stand by things decided'; the doctrine of following precedent from prior court decisions; gives law stability and predictability so that legal rights don't change with every new justice; the Supreme Court can overturn precedent (as Brown v. Board overturned Plessy) but does so rarely; ongoing debates about how much weight precedent deserves when it may be wrong." },
+          { term: "Amicus Curiae Brief", definition: "'Friend of the court' brief submitted by interested parties who are not direct litigants; allows interest groups, advocacy organizations, and governments to present arguments and empirical information to the court; the Supreme Court receives hundreds of amicus briefs per major case; gives organized interests a formal avenue to participate in judicial policymaking." },
+          { term: "Class Action Lawsuit", definition: "Lawsuit filed on behalf of a large group of people with similar legal claims; allows many individuals with small individual injuries to aggregate and pursue meaningful litigation; a major tool through which civil rights organizations, environmental groups, and consumer advocates have driven significant policy changes through the courts rather than the legislature." },
+        ],
+      },
+      {
+        name: "Interest Group Influence",
+        terms: [
+          { term: "Iron Triangle", definition: "The stable policy-making alliance among a congressional committee, the relevant executive agency, and the associated interest group; each benefits the others — the committee funds the agency and advances the group's legislation, the agency implements favorable rules, the group provides information and electoral support; historically described domestic policymaking in defense, agriculture, and veterans' affairs." },
+          { term: "Issue Networks", definition: "Looser, more fluid networks of people and organizations sharing policy expertise in a given area, including academics, journalists, think tanks, advocacy groups, and government officials; more open and permeable than iron triangles; better describes modern complex policymaking where many actors engage in ongoing debate rather than a closed three-sided arrangement." },
+          { term: "Lobbying", definition: "Attempts by interest groups to directly influence legislators, regulators, and executive officials; professional lobbyists communicate groups' positions, provide legislative information, help draft bills, and facilitate campaign contributions; protected by the First Amendment right to petition government; regulated by disclosure requirements; the 'revolving door' between government service and lobbying raises concerns about capture and corruption." },
+          { term: "PAC (Political Action Committee)", definition: "Organizations that collect and spend money to elect or defeat candidates; allowed to donate directly to candidates within legal limits; Super PACs (created after Citizens United v. FEC, 2010) can raise unlimited money for independent expenditures but cannot coordinate directly with campaigns; a major mechanism through which interest groups convert economic resources into electoral and political power." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-1-mpa",
+    unit: 1,
+    puzzle: 5,
+    theme: { code: "MPA", name: "Methods of Political Analysis" },
+    title: "Foundations of American Democracy",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Scientific Polling Methods",
+        terms: [
+          { term: "Random Sampling", definition: "The scientific foundation of reliable polling; every member of the target population must have an equal chance of being selected; a random sample of ~1,000 people can accurately represent 330 million Americans; when sampling departs from true randomness (convenience samples, opt-in online polls), results are unreliable regardless of sample size — the 1936 Literary Digest disaster proved this." },
+          { term: "Margin of Error", definition: "Statistical measure of a poll's precision; a poll showing Candidate A at 48% and Candidate B at 46% with a ±3% margin of error means the race is statistically tied; reflects sample size (larger samples produce smaller margins); often misunderstood as meaning the result is wrong within that range rather than expressing the confidence interval around a best estimate." },
+          { term: "Sampling Bias", definition: "Systematic error introduced when polling samples are not truly representative of the target population; the classic example: the 1936 Literary Digest poll predicted Landon would beat FDR in a landslide because it surveyed wealthy magazine subscribers rather than all voters; any non-random selection of respondents introduces potential bias that no amount of weighting fully corrects." },
+          { term: "Push Poll", definition: "Political manipulation disguised as a poll; asks leading questions designed to plant negative information about a candidate rather than measure genuine public opinion ('Would you be more or less likely to vote for X if you knew he was convicted of fraud?'); unethical and not true survey research; used by campaigns to spread opposition research while appearing to conduct objective polling." },
+        ],
+      },
+      {
+        name: "Key Political Science Concepts",
+        terms: [
+          { term: "Political Socialization", definition: "The lifelong process by which individuals acquire political beliefs, values, attitudes, and party identification; family is the most important early agent (children typically adopt parents' party ID); other agents include schools, peers, media, religion, and formative events (generational imprinting from 9/11, 2008 recession, COVID-19 pandemic shapes the political attitudes of young people experiencing them)." },
+          { term: "Political Ideology", definition: "A coherent system of political beliefs and values about government's proper role, economic organization, and social order; American politics maps primarily on a liberal-conservative spectrum; liberals generally favor government action to address inequality and protect civil rights; conservatives generally favor limited government, free markets, and traditional values; many citizens hold mixed or cross-cutting views rather than pure ideological consistency." },
+          { term: "Party Identification", definition: "A sense of psychological attachment to a political party; the strongest single predictor of individual voting behavior; measured on a seven-point scale from strong Democrat to strong Republican with independents who lean each direction in between; has grown more stable and polarized in recent decades; party ID filters how people interpret political information (motivated reasoning)." },
+          { term: "Political Culture", definition: "The widely shared values, beliefs, and attitudes about politics and government that shape how citizens think and behave politically; Americans share a political culture emphasizing individualism, liberty, equality of opportunity, democracy, and civic participation; explains why similar institutions produce different political outcomes in different countries with different political cultures." },
+        ],
+      },
+      {
+        name: "Required Foundational Documents",
+        terms: [
+          { term: "Declaration of Independence", definition: "Thomas Jefferson's 1776 document declaring American independence; articulates Enlightenment natural rights theory: all men are created equal with unalienable rights to life, liberty, and the pursuit of happiness; governments derive just power from the consent of the governed; when government violates natural rights the people have the right to alter or abolish it — a revolutionary principle." },
+          { term: "Federalist No. 10", definition: "Madison's argument that a large republic better controls 'factions' (interest groups) than a small one; in a large republic, so many factions compete that no single faction can dominate and oppress the rest; solved the classical problem that democracies destroy themselves through factional conflict; foundational text for understanding both pluralism and the design rationale of the Constitution." },
+          { term: "Federalist No. 51", definition: "Madison's defense of the Constitution's separation of powers and checks and balances; 'Ambition must be made to counteract ambition' — self-interested officials in each branch will defend their branch's power against the others; federalism adds another layer by dividing power between national and state governments; explains why structural design rather than good character is the Constitution's safeguard against tyranny." },
+          { term: "Brutus No. 1", definition: "1787 Anti-Federalist essay arguing the Constitution would create a tyrannical national government; warned the Necessary and Proper Clause and Supremacy Clause gave the federal government virtually unlimited power that would obliterate state sovereignty and individual liberty; demanded a Bill of Rights; argued republics can only function in small communities; directly contested by Federalist Nos. 10 and 51." },
+        ],
+      },
+      {
+        name: "Interpreting Political Data",
+        terms: [
+          { term: "Correlation vs. Causation", definition: "A correlation is a statistical relationship between two variables that change together; correlation does not establish causation — a third variable may explain both, or the relationship may be coincidental; in political science, education and liberal attitudes are correlated, as are income and Republican voting; properly interpreting causal claims requires ruling out alternative explanations through experimental or quasi-experimental research designs." },
+          { term: "Generational Effects", definition: "Distinctive political attitudes shaped by formative events experienced during one's political coming-of-age (roughly ages 14–24); the Depression-era generation became reliably Democratic; the Reagan era leaned Republican; Millennials shaped by 9/11 and the 2008 recession; distinct from life-cycle effects (people growing more conservative as they age) — generational effects persist as cohorts age rather than fading." },
+          { term: "Exit Polls", definition: "Surveys of voters conducted immediately after leaving polling places; used to project election winners before official results are certified; provide detailed breakdowns of who voted for whom by age, race, income, and education; subject to error when in-person voters differ from mail or early voters; can introduce bias if networks project winners before western polls close, potentially suppressing turnout." },
+          { term: "Approval Ratings", definition: "Public opinion surveys measuring the percentage approving or disapproving of a political figure's job performance; presidential approval is the most closely tracked metric in American politics; strongly correlated with the economy's health, wartime conditions, and partisan polarization; increasingly difficult to move in a polarized environment where most partisans have pre-formed evaluations of the president regardless of performance." },
+        ],
+      },
+    ],
+  },
+
+  // ── AP GOV UNIT 2: Interactions Among Branches ────────────────────────────
+
+  {
+    id: "apgov-unit-2-con",
+    unit: 2,
+    puzzle: 1,
+    theme: { code: "CON", name: "Constitutionalism" },
+    title: "Interactions Among Branches",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Article I Powers of Congress",
+        terms: [
+          { term: "Necessary & Proper Clause", definition: "The 'elastic clause' — grants Congress power to make all laws 'necessary and proper' for carrying out its enumerated powers; basis for vast expansion of federal authority; Hamilton argued for broad interpretation, Jefferson for strict construction; McCulloch v. Maryland (1819) confirmed Congress's broad implied powers under this provision." },
+          { term: "Power of the Purse", definition: "Congress's exclusive authority to tax and appropriate funds; no money can be spent from the Treasury without a congressional appropriation; a primary tool of legislative oversight — Congress can defund programs it dislikes or refuse to fund executive priorities; the most powerful check Congress holds over the executive branch in day-to-day governance." },
+          { term: "Commerce Clause", definition: "Article I authority to regulate commerce 'among the several states'; interpreted narrowly in early decades; dramatically expanded after the New Deal (Wickard v. Filburn, 1942) to cover virtually all economic activity with any interstate effect; the constitutional basis for most federal regulation of business, labor, civil rights, and the environment." },
+          { term: "War Powers", definition: "The Constitution grants Congress the power to declare war, appropriate military funding, and regulate the armed forces; Congress has formally declared war only 11 times; in practice presidents have largely seized war-making through the Commander in Chief clause; the War Powers Resolution (1973) attempted to reassert congressional authority but presidents dispute its constitutionality." },
+        ],
+      },
+      {
+        name: "Formal Presidential Powers (Article II)",
+        terms: [
+          { term: "Commander in Chief", definition: "Constitutional designation of the president as head of the U.S. armed forces; presidents have used this to justify military actions without congressional declarations of war (Korea, Vietnam, Gulf War, Afghanistan, Iraq); the most consequential and contested presidential power in the modern era; the primary basis for presidential claims of broad national security authority." },
+          { term: "Appointment Power", definition: "The president nominates federal judges (including Supreme Court justices), cabinet members, ambassadors, and other senior officials, subject to Senate confirmation; the Senate can and does block nominees; recess appointments temporarily bypass Senate confirmation; the most lasting tool of presidential influence — judicial appointments shape law for decades after a presidency ends." },
+          { term: "Treaty Power", definition: "The president negotiates treaties with foreign nations, but Senate must approve by a two-thirds supermajority; presidents increasingly use executive agreements — which don't require Senate approval and can be reversed by the next president — instead; the treaty power reflects the Constitution's attempt to share foreign policy authority between executive and legislative branches." },
+          { term: "Veto Power", definition: "Presidential authority to reject legislation passed by Congress; Congress can override with two-thirds majorities in both chambers; the pocket veto occurs when Congress adjourns within 10 days of presenting a bill the president doesn't sign; presidents use the veto threat as a bargaining chip even without exercising it; line-item veto was ruled unconstitutional in Clinton v. City of New York (1998)." },
+        ],
+      },
+      {
+        name: "Constitutional Checks Between Branches",
+        terms: [
+          { term: "Senate Confirmation", definition: "Senate's power to approve or reject presidential nominations for federal judges, cabinet officers, and ambassadors; a key check on executive appointment power; Senate Judiciary Committee holds public hearings on Supreme Court nominees; recent norm erosions include refusing to hold hearings on Merrick Garland (2016) and confirming Amy Coney Barrett in 30 days before an election (2020)." },
+          { term: "Impeachment", definition: "The House has the sole power to impeach (formally charge) a president or federal official for 'treason, bribery, or other high crimes and misdemeanors'; the Senate holds the trial with the Chief Justice presiding for presidential impeachments; removal requires two-thirds Senate vote; presidents Johnson, Clinton, and Trump (twice) were impeached but none were removed by Senate conviction." },
+          { term: "Executive Privilege", definition: "Presidential claim of the right to withhold information from Congress and the courts to protect the confidentiality of executive deliberations; not in the Constitution but recognized by the Supreme Court in United States v. Nixon (1974), which also ruled it is not absolute — it must yield to specific, demonstrated need in criminal proceedings." },
+          { term: "Congressional Oversight", definition: "Congress's authority to monitor and investigate the executive branch's implementation of law; conducted through committee hearings, GAO audits, the budget process, and inspector general reports; the primary mechanism for legislative accountability of the executive; constrained by partisan considerations when Congress and the president share the same party." },
+        ],
+      },
+      {
+        name: "The Federal Bureaucracy",
+        terms: [
+          { term: "Cabinet", definition: "The heads of the 15 executive departments (State, Defense, Treasury, Justice, etc.) who advise the president and run major federal agencies; appointed by the president with Senate confirmation; exercise significant discretionary authority implementing law within their policy domains; the primary mechanism of executive branch policymaking in practice." },
+          { term: "Independent Regulatory Agency", definition: "Government bodies operating with some independence from direct presidential control; multi-member boards whose members serve fixed terms and whose removal by the president is limited; Federal Reserve, SEC, FCC, FTC as examples; created to insulate technical regulation from partisan politics; their independence has been increasingly challenged through claims of expansive presidential removal power." },
+          { term: "Bureaucratic Rulemaking", definition: "The administrative process through which executive agencies create legally binding regulations; agencies must publish proposed rules, accept public comment, and provide a rational explanation before finalizing; governed by the Administrative Procedure Act (1946); creates the vast body of administrative law governing most day-to-day federal regulation beyond what Congress explicitly mandates." },
+          { term: "Principal-Agent Problem", definition: "The challenge of ensuring bureaucratic agents (agencies) faithfully implement the goals of their principals (Congress and the president); agencies may develop their own institutional interests, get captured by the industries they regulate, or interpret broad statutory mandates in ways principals didn't intend; addressed through congressional oversight, presidential appointments, and budget control." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-2-lo",
+    unit: 2,
+    puzzle: 2,
+    theme: { code: "LO", name: "Liberty and Order" },
+    title: "Interactions Among Branches",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Judicial Philosophy",
+        terms: [
+          { term: "Judicial Restraint", definition: "Judicial approach in which judges defer to elected legislatures and executive officials rather than substituting their own judgment; holds that unelected judges should be reluctant to overturn democratically enacted laws; emphasizes institutional humility, stability, and the democratic legitimacy of elected branches; associated with conservative judicial philosophy in the modern era." },
+          { term: "Judicial Activism", definition: "Judicial approach in which judges use their power to strike down laws and shape policy, even against the preferences of elected majorities; holds that courts must protect rights that majorities may fail to protect; associated with the Warren Court's civil rights and criminal procedure decisions; the term is often used pejoratively by critics of any judicial ruling they dislike." },
+          { term: "Originalism", definition: "Judicial interpretive theory holding that the Constitution should be interpreted according to its original public meaning at ratification; associated with Justices Scalia and Thomas; argues that 'living constitution' interpretation allows judges to impose their personal values disguised as law; critics argue originalism is inconsistently applied and cannot address genuinely new circumstances." },
+          { term: "Living Constitution", definition: "Judicial interpretive theory holding that constitutional meaning evolves to reflect changing social circumstances and values; allows the Constitution to address situations the Founders couldn't have foreseen (digital privacy, modern weapons); associated with Justices Brennan and Marshall; critics argue it gives unelected judges unchecked power to read their preferences into the Constitution." },
+        ],
+      },
+      {
+        name: "Presidential Power and Civil Liberties",
+        terms: [
+          { term: "War Powers Resolution (1973)", definition: "Congress's attempt to reassert war-making authority after the Vietnam War; requires the president to notify Congress within 48 hours of committing troops abroad and limits military action to 60 days without congressional authorization; every president since Nixon has disputed its constitutionality; largely ineffective in practice but symbolically important as a legislative assertion of constitutional war powers." },
+          { term: "Habeas Corpus", definition: "The legal right of detained persons to challenge the legality of their detention before a court; the Constitution permits suspension only 'in Cases of Rebellion or Invasion when the public Safety may require it'; Lincoln suspended it during the Civil War; Boumediene v. Bush (2008) ruled that Guantanamo detainees had habeas rights under the Constitution — a major limit on executive detention power." },
+          { term: "National Security Surveillance", definition: "Government monitoring of communications for intelligence purposes; the NSA's post-9/11 bulk collection of phone records and internet communications was revealed by Edward Snowden in 2013; balanced against Fourth Amendment privacy rights; Foreign Intelligence Surveillance Act (FISA) and the PATRIOT Act expanded executive surveillance authority; poses ongoing tension between security and liberty." },
+          { term: "Emergency Powers", definition: "Presidential authority to act unilaterally during national emergencies; not explicitly defined in the Constitution; drawn from the Commander in Chief clause, Article II vesting clause, and congressional delegations of authority; invoked for economic crises, natural disasters, and national security threats; subject to judicial review but courts are often reluctant to second-guess executive emergency determinations." },
+        ],
+      },
+      {
+        name: "Congress and Civil Liberties",
+        terms: [
+          { term: "Civil Rights Act of 1964", definition: "Landmark legislation prohibiting discrimination based on race, color, religion, sex, or national origin in employment and public accommodations; passed after defeating a Southern filibuster; demonstrates Congress's power to expand civil rights protections beyond constitutional minimums; enforced by the EEOC; dramatically expanded federal oversight of private conduct in the name of equal liberty." },
+          { term: "Voting Rights Act of 1965", definition: "Congressional legislation prohibiting discriminatory voting practices; required federal pre-clearance before Southern states could change voting laws; dramatically increased Black voter registration and political participation; key pre-clearance provisions invalidated by Shelby County v. Holder (2013) when the Supreme Court struck down the coverage formula as outdated — a major shift in the balance of voting rights enforcement." },
+          { term: "USA PATRIOT Act (2001)", definition: "Post-9/11 legislation dramatically expanding government surveillance and law enforcement authority; authorized roving wiretaps, searches of business records, and surveillance of 'lone wolf' suspects; passed with nearly unanimous bipartisan support weeks after September 11; later revealed to authorize mass collection of phone records; demonstrates how national crisis can accelerate the expansion of executive power at the expense of civil liberties." },
+          { term: "FISA Court", definition: "Foreign Intelligence Surveillance Court; created by FISA (1978); approves surveillance warrants for intelligence gathering on foreign agents operating in the U.S.; operates in complete secrecy; approves the vast majority of government requests; criticized for lacking meaningful adversarial process; its scope expanded by the PATRIOT Act; revealed as authorizing mass domestic data collection through Snowden's 2013 disclosures." },
+        ],
+      },
+      {
+        name: "Landmark Separation of Powers Cases",
+        terms: [
+          { term: "Marbury v. Madison (1803)", definition: "Chief Justice Marshall established judicial review — courts' power to strike down laws as unconstitutional; cleverly did so by ruling against his own party's appointee, framing it as judicial restraint; the foundational case for the entire edifice of American constitutional law; established the Supreme Court as a co-equal branch capable of checking both Congress and the president." },
+          { term: "McCulloch v. Maryland (1819)", definition: "Maryland taxed the Second Bank of the United States; Marshall ruled (1) the Necessary and Proper Clause gives Congress broad implied powers to create the bank, and (2) states cannot tax federal instrumentalities (the power to tax is the power to destroy); established both expansive federal power and federal supremacy over states; the foundational case for the modern scope of congressional authority." },
+          { term: "United States v. Nixon (1974)", definition: "Nixon refused to turn over White House tape recordings to the Watergate special prosecutor; the Supreme Court ruled unanimously that executive privilege is not absolute and must yield to specific demonstrated need in criminal proceedings; Nixon released the tapes and resigned within days; established that no person — including the president — is above the law." },
+          { term: "INS v. Chadha (1983)", definition: "Congress had given itself the power to veto individual executive immigration decisions by a single-chamber resolution; Supreme Court ruled the 'legislative veto' unconstitutional because it allowed Congress to act with legal force without following the constitutional requirements of bicameralism (passing both chambers) and presentment (sending to the president); invalidated hundreds of similar provisions in other laws." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-2-prd",
+    unit: 2,
+    puzzle: 3,
+    theme: { code: "PRD", name: "Civic Participation in a Representative Democracy" },
+    title: "Interactions Among Branches",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Engaging Congress",
+        terms: [
+          { term: "Constituent Service", definition: "The work members of Congress and their staffs do helping constituents navigate federal agencies, secure grants, and resolve problems with government programs; a major activity consuming significant congressional staff time and resources; helps explain the incumbency advantage — members who deliver tangible benefits to voters build durable electoral coalitions regardless of partisan conditions." },
+          { term: "Casework", definition: "Individual assistance that congressional offices provide to constituents dealing with federal agencies — helping a veteran get benefits, a small business navigate regulations, or an immigrant family reunite; politically motivated by the electoral advantage of demonstrating effectiveness; represents a direct, personal form of citizen-government interaction that most voters never see." },
+          { term: "Lobbying Congress", definition: "Organized interest group efforts to influence congressional legislation through personal meetings, providing policy research, drafting bill language, and mobilizing constituent contacts; protected by the First Amendment; lobbyists provide valuable expertise to overworked congressional staffs but raise concerns about unequal access for well-funded interests vs. diffuse public interests." },
+          { term: "Town Hall Meeting", definition: "Public forums where elected officials meet with constituents to explain their positions, take questions, and hear concerns; a key mechanism for maintaining accountability between elections; became highly contentious during debates over the Affordable Care Act (2009–10) and again during the Trump years; represents the most direct form of face-to-face civic engagement between citizens and their representatives." },
+        ],
+      },
+      {
+        name: "Presidential Leadership and Public Opinion",
+        terms: [
+          { term: "Going Public", definition: "Presidential strategy of appealing directly to the public over the heads of Congress to pressure legislators; Theodore Roosevelt's 'bully pulpit'; FDR's radio fireside chats; Reagan's televised addresses; works best when the president has high approval ratings; modern presidents must compete with a fragmented media environment that limits their ability to command national attention." },
+          { term: "Presidential Mandate", definition: "The claim by a newly elected president that their electoral victory represents popular approval for a specific policy agenda; rarely fully supported by evidence (voters choose among candidates for many reasons); a powerful rhetorical device for legitimizing aggressive early legislative action; Reagan claimed a mandate for tax cuts in 1981, Obama for healthcare reform in 2008." },
+          { term: "Rally Around the Flag", definition: "Temporary spike in presidential approval ratings following a national crisis or military action; Americans typically unite behind the president during external threats; George W. Bush's approval jumped from 51% to 90% after 9/11 — the highest ever recorded; the effect is real but short-lived, fading as the crisis recedes and normal partisan divisions reassert themselves." },
+          { term: "Bully Pulpit", definition: "Theodore Roosevelt's term for the president's unique ability to use the office as a platform to shape public opinion, set the national agenda, and advocate for policy; the president commands unmatched media attention; modern communications technology has both amplified the bully pulpit (Twitter, cable news) and fragmented it (audience fragmentation means no speech reaches everyone simultaneously)." },
+        ],
+      },
+      {
+        name: "Interest Groups and the Branches",
+        terms: [
+          { term: "Revolving Door", definition: "The movement of individuals between government positions (congressional staffers, agency officials, White House staff) and private-sector lobbying or industry jobs; those with government experience and connections command high lobbying salaries; raises concerns that officials make decisions with an eye toward future employment; subject to disclosure requirements and cooling-off periods that critics argue are inadequate." },
+          { term: "Campaign Finance", definition: "The money raised and spent to influence elections; regulated by the Federal Election Commission; hard money (donations directly to campaigns) is limited by law; super PACs (post-Citizens United v. FEC, 2010) can raise unlimited money for independent expenditures; the relationship between contributions and legislative behavior operates primarily through access rather than explicit quid pro quo." },
+          { term: "Grassroots Lobbying", definition: "Interest group strategy of mobilizing ordinary citizens to contact their elected officials through calls, emails, petitions, and visits; more effective than professional lobbying when it generates genuine constituent pressure; 'astroturfing' refers to manufactured grassroots campaigns funded by corporations or special interests but disguised as spontaneous citizen action; social media has made mass contact campaigns cheaper and easier." },
+          { term: "Amicus Curiae", definition: "'Friend of the court' brief submitted to the Supreme Court by parties not directly litigating the case; allows interest groups, advocacy organizations, and state governments to present arguments and empirical data; the Court receives hundreds of amicus briefs in major cases; NAACP, ACLU, Chamber of Commerce, and state attorneys general regularly file; a formal channel for organized interests to participate in judicial policymaking." },
+        ],
+      },
+      {
+        name: "Judicial Selection and Public Influence",
+        terms: [
+          { term: "Senate Confirmation Hearings", definition: "Public proceedings where the Senate Judiciary Committee questions presidential nominees to the Supreme Court and federal courts; nominees now routinely decline to answer questions about specific legal issues (the 'Ginsburg rule'); a highly politicized process; hearings give the public and interest groups a visible opportunity to scrutinize who will exercise judicial power for life." },
+          { term: "Judicial Appointment Politics", definition: "Presidents systematically appoint judges who share their ideological and legal views; Reagan and the Federalist Society built a conservative judicial pipeline; Obama and Biden prioritized ideological alignment and demographic diversity; appointments have become more politically contentious as courts increasingly decide major policy questions; a president's judicial appointments may be their most enduring legacy." },
+          { term: "Public Opinion and Courts", definition: "The Supreme Court generally avoids straying far from broad public opinion over long periods — it 'follows the election returns' (Mr. Dooley); major decisions diverging sharply from public opinion (Bush v. Gore, Citizens United) face legitimacy challenges; but the Court can also lead public opinion, as it did in the years before Obergefell v. Hodges legalized same-sex marriage nationwide." },
+          { term: "Litmus Test", definition: "Informal political requirement that a judicial nominee hold a specific position — typically on abortion, gun rights, or affirmative action — as a condition of nomination or confirmation; presidents and senators officially deny applying them but ideological screening is universal in both parties; highlights the tension between treating judicial appointments as political and the norm that judges should be independent of partisan influence." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-2-pmi",
+    unit: 2,
+    puzzle: 4,
+    theme: { code: "PMI", name: "Competing Policymaking Interests" },
+    title: "Interactions Among Branches",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "The Legislative Process",
+        terms: [
+          { term: "Committee Markup", definition: "The stage in the legislative process where a committee meets to propose and vote on amendments to a bill before reporting it to the full chamber; where most substantive legislative drafting happens; committee members trade provisions to build a majority; the markup process determines the final text that the full House or Senate will consider and is largely closed to public view." },
+          { term: "Conference Committee", definition: "Temporary joint House-Senate committee created to reconcile the different versions of a bill passed by each chamber; members appointed by each chamber's leadership; produces a compromise version that both chambers must then pass without further amendment; used less often in recent decades as party leaders negotiate differences directly in leadership-to-leadership negotiations." },
+          { term: "Discharge Petition", definition: "Procedure allowing a majority of House members (218 signatures) to force a bill out of committee and onto the floor over committee leadership's objection; rarely successful because members are reluctant to defy their committee chairs and party leaders; but the credible threat of a discharge petition can pressure committee leadership to act on widely popular legislation." },
+          { term: "Cloture", definition: "Senate procedure to end debate and force a vote on legislation or a nomination; requires 60 votes; the primary mechanism for overcoming a filibuster; cloture filings have increased from under 10 per Congress in the 1970s to over 100 per Congress today, reflecting the filibuster's transformation from a rare tool of last resort into a routine minority veto on legislation." },
+        ],
+      },
+      {
+        name: "Executive Branch Policymaking",
+        terms: [
+          { term: "Regulatory Review (OIRA)", definition: "The Office of Information and Regulatory Affairs within OMB reviews all significant agency rules before publication; presidents use OIRA to impose cost-benefit analysis and policy priorities on agency rulemaking; Reagan created centralized regulatory review as a tool of presidential control over the bureaucracy; a critical but largely invisible mechanism of executive influence over administrative policymaking." },
+          { term: "Executive Agreement", definition: "International agreement made by the president without Senate approval; has the same legal force as a treaty in domestic law but can be reversed by a future president more easily; used far more frequently than treaties — Obama's Paris Climate Agreement and Iran nuclear deal were executive agreements; allows presidents to conduct major foreign policy while bypassing the two-thirds Senate treaty threshold." },
+          { term: "Impoundment", definition: "Presidential refusal to spend money appropriated by Congress; Nixon's extensive use of impoundment to defund liberal programs prompted Congress to pass the Congressional Budget and Impoundment Control Act (1974), which largely eliminated presidential impoundment authority; a decisive assertion of Congress's power of the purse against executive encroachment; presidents may still defer or rescind spending through a formal process." },
+          { term: "Recess Appointment", definition: "Presidential appointment of officials to positions requiring Senate confirmation during a Senate recess, bypassing confirmation; valid for the remainder of the Congress; used by presidents to fill positions when Senate confirmation seems blocked; the Supreme Court limited this power in NLRB v. Noel Canning (2014) by ruling the Senate controls the definition of when it is officially 'in recess.'" },
+        ],
+      },
+      {
+        name: "Congressional-Presidential Relations",
+        terms: [
+          { term: "Divided Government", definition: "The condition in which the presidency and one or both chambers of Congress are controlled by different parties; common in modern American politics (roughly 60% of the time since 1980); can produce legislative gridlock but also forces bipartisan compromise; major legislation is more difficult but not impossible — the Americans with Disabilities Act and welfare reform both passed under divided government." },
+          { term: "Presidential Coattails", definition: "The tendency of a popular presidential candidate to boost the electoral performance of congressional candidates from the same party; 'riding the coattails' of a strong presidential showing; the coattail effect has weakened in recent decades as ticket-splitting has declined and congressional races have nationalized around party brand rather than individual candidate quality." },
+          { term: "Lame Duck", definition: "A president or member of Congress who has lost reelection or is constitutionally barred from serving another term; reduced leverage because other officials need not fear their electoral power; but can sometimes achieve difficult policies precisely because they face no electoral consequences (Nixon's China opening); lame duck congressional sessions sometimes produce bipartisan legislation after elections remove political pressures." },
+          { term: "Veto Bargaining", definition: "The use of the veto threat as a legislative bargaining tool; presidents regularly threaten to veto legislation to extract concessions from Congress even without actually exercising the veto; effective when there are not enough votes to override; shapes legislation before it's even passed as Congress anticipates presidential preferences; the veto's value as a threat often exceeds its value as an action." },
+        ],
+      },
+      {
+        name: "Bureaucratic Control and Accountability",
+        terms: [
+          { term: "Oversight Hearing", definition: "Congressional committee investigation of executive branch programs, agencies, and officials; witnesses can be subpoenaed and documents demanded; mechanisms include GAO investigations, inspector general reports, and confirmation hearings; primarily occurs when Congress is controlled by the opposition party or when scandals emerge; the primary mechanism of legislative accountability for executive branch behavior." },
+          { term: "Inspector General", definition: "Independent watchdog offices within federal agencies responsible for auditing agency spending, detecting fraud and abuse, and reporting findings to both the agency head and Congress; established by the Inspector General Act (1978); a key internal accountability mechanism; Trump's dismissal of multiple inspectors general in 2020 raised constitutional concerns about executive branch self-policing." },
+          { term: "Whistleblower", definition: "A government employee or contractor who exposes waste, fraud, or abuse — or illegal activity — within a federal agency; protected by federal whistleblower protection laws from retaliation; significant whistleblowers include Daniel Ellsberg (Pentagon Papers), Edward Snowden (NSA surveillance), and the anonymous official whose complaint triggered Trump's first impeachment; a critical check on bureaucratic and executive misconduct." },
+          { term: "Senatorial Courtesy", definition: "The informal norm that senators from the president's party must approve judicial and U.S. Attorney nominations from their home state before the Senate will act; gives individual senators significant veto power over nominations within their states; the blue slip system allows home-state senators to delay or block circuit court nominees from their state; reflects the Senate's role as a check on executive appointment power." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-2-mpa",
+    unit: 2,
+    puzzle: 5,
+    theme: { code: "MPA", name: "Methods of Political Analysis" },
+    title: "Interactions Among Branches",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Required Foundational Documents",
+        terms: [
+          { term: "Federalist No. 70", definition: "Hamilton's argument for a single, 'energetic' executive rather than a plural executive or council; one person provides accountability (you know who to blame), decision speed in crisis, unity of command, and protection against faction; contrasts with Anti-Federalist fears that a strong unitary president would become a king; the primary Founding-era defense of strong presidential power." },
+          { term: "Federalist No. 78", definition: "Hamilton's defense of the federal judiciary; argued for life tenure to insulate judges from political pressure, and established the theory of judicial review — courts' power to strike down unconstitutional laws; described the judiciary as the 'least dangerous branch' because it holds neither the purse (Congress) nor the sword (executive); the foundational text for the independent judiciary and judicial review." },
+          { term: "Letter from Birmingham Jail (1963)", definition: "MLK's response to white moderate clergy urging patience with racial injustice; distinguished just from unjust laws using Aquinas and Augustine; defended civil disobedience as a moral obligation in the face of unjust laws; addressed the argument that Black Americans should wait for change through proper legal channels; articulated the moral urgency of civil rights and critiqued the complicity of those who prefer 'a negative peace.'" },
+          { term: "The Federalist Papers", definition: "85 essays written by Hamilton, Madison, and Jay under the pseudonym 'Publius' to advocate ratification of the Constitution; the most systematic explanation of the Constitution's design and theory ever written; Federalist Nos. 10, 51, 70, and 78 are among the required documents for AP Gov; cited regularly by the Supreme Court as evidence of the Founders' intent." },
+        ],
+      },
+      {
+        name: "Measuring Congressional Behavior",
+        terms: [
+          { term: "Incumbency Advantage", definition: "The electoral benefit enjoyed by sitting members of Congress; incumbents win reelection at rates above 90% in the House; advantage derives from name recognition, casework, franking privilege, PAC access, and gerrymandering; makes it difficult to change congressional composition even when voters are broadly dissatisfied with Congress as an institution — the 'I hate Congress but love my member' paradox." },
+          { term: "Party Unity Votes", definition: "Votes in which a majority of one party votes against a majority of the other party; the percentage of party unity votes has increased dramatically since the 1970s as both parties have become more ideologically homogeneous; makes genuine bipartisan legislating rare and party leadership control more complete; reflects and reinforces increased public partisan polarization." },
+          { term: "Presidential Support Score", definition: "Congressional Quarterly's measure of how often each member of Congress votes in accordance with the president's stated position on legislation; members of the president's party score much higher than opposition members; scores can identify reliable partisans, potential swing votes, and the partisan gap in presidential legislative support; useful for predicting which members might cross party lines." },
+          { term: "Cloture Vote Data", definition: "Tracking Senate cloture filings and votes over time reveals the dramatic rise of the filibuster as a routine blocking tool; filings increased from under 10 per Congress in the 1970s to over 100 per Congress after 2010; data shows the filibuster is now used on virtually all major legislation rather than reserved for rare, extreme circumstances; key evidence in debates about Senate reform." },
+        ],
+      },
+      {
+        name: "Analyzing Presidential Power",
+        terms: [
+          { term: "Electoral College Data", definition: "Distribution of electoral votes (538 total, 270 needed to win) across states; winner-take-all rules in 48 states concentrate campaigns in competitive 'swing states'; a candidate can win the popular vote while losing the Electoral College (happened in 2000 and 2016); analyzing electoral vote distributions explains campaign resource allocation and the outsized influence of a small number of states." },
+          { term: "Veto Override Rate", definition: "The percentage of presidential vetoes successfully overridden by two-thirds majorities in both chambers; historically below 10% of all vetoes; demonstrates the veto's extraordinary effectiveness as a legislative check; presidents rarely need to veto legislation because the threat alone shapes what Congress passes; tracking override rates across administrations reveals periods of congressional assertiveness vs. executive dominance." },
+          { term: "Presidential Approval Trends", definition: "Approval ratings over time reveal systematic patterns: first-term honeymoon periods, economic conditions as the strongest predictor, the war rally effect, and second-term declines; data shows approval has become more partisan — the gap between in-party and out-party approval has widened from ~30 points in the 1970s to over 70 points in recent presidencies, making presidential persuasion across party lines nearly impossible." },
+          { term: "Executive Order Frequency", definition: "Historical data on executive orders per administration: FDR issued 3,721; modern presidents issue far fewer but on more consequential topics; raw numbers can mislead since significance varies enormously; tracking executive orders over time shows the shift toward more unilateral presidential action as legislative gridlock has increased and congressional delegation of authority has grown broader." },
+        ],
+      },
+      {
+        name: "Analyzing Supreme Court Behavior",
+        terms: [
+          { term: "Certiorari Rate", definition: "The Supreme Court receives approximately 7,000–8,000 petitions per year and accepts about 60–80 cases (less than 1%); the 'rule of four' requires four justices to vote for cert; the Court prioritizes cases involving circuit court splits on federal law, important constitutional questions, and cases where the federal government is a party; a denied cert petition leaves the lower court ruling in place as binding precedent in that circuit." },
+          { term: "Opinion Alignment Analysis", definition: "Tracking which justices vote together across cases reveals ideological blocs, swing justices, and judicial alliances; the current Court's conservative-liberal divide tracks almost perfectly with the party of the appointing president; the frequency of 5-4 decisions in major cases has increased public perception of the Court as a political rather than legal institution." },
+          { term: "Judicial Ideology Scores", definition: "Political scientists use quantitative measures — Martin-Quinn scores (based on voting patterns) and Judicial Common Space scores (based on appointing president and home-state senator ideology) — to track justice ideology over time; these measures reveal increasing ideological polarization on the Court, 'drift' (some justices moving after appointment), and the growing overlap between judicial philosophy and partisan affiliation." },
+          { term: "Precedent Reversal Rate", definition: "The Supreme Court rarely overturns its own precedents — has done so approximately 145 times since Marbury; analyzing when and why reversals occur reveals ideological patterns; landmark reversals include Brown v. Board (overturning Plessy), Lawrence v. Texas (overturning Bowers), and Dobbs v. Jackson (overturning Roe); the Dobbs reversal intensified debate about when stare decisis should yield to a majority's view that precedent was wrongly decided." },
+        ],
+      },
+    ],
+  },
+
+  // ── AP GOV UNIT 3: Civil Liberties and Civil Rights ───────────────────────
+
+  {
+    id: "apgov-unit-3-con",
+    unit: 3,
+    puzzle: 1,
+    theme: { code: "CON", name: "Constitutionalism" },
+    title: "Civil Liberties and Civil Rights",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Post-Civil War Amendments",
+        terms: [
+          { term: "13th Amendment", definition: "Ratified 1865; abolished slavery and involuntary servitude throughout the United States 'except as punishment for crime'; ended the institution of chattel slavery after the Civil War; does not by itself address the civil rights of formerly enslaved people — that task fell to the 14th and 15th Amendments and later civil rights legislation." },
+          { term: "14th Amendment", definition: "Ratified 1868; the most important post-Civil War amendment; overturned Dred Scott by granting citizenship to all persons born or naturalized in the U.S.; prohibits states from abridging privileges or immunities, depriving persons of due process, or denying equal protection; the constitutional basis for incorporating the Bill of Rights against states and for virtually all modern civil rights litigation." },
+          { term: "15th Amendment", definition: "Ratified 1870; prohibited denying the right to vote based on 'race, color, or previous condition of servitude'; gave African American men the formal constitutional right to vote after the Civil War; systematically evaded through poll taxes, literacy tests, grandfather clauses, and violent intimidation; effectively enforced only after the Voting Rights Act of 1965." },
+          { term: "Dred Scott v. Sandford (1857)", definition: "The Supreme Court ruled that African Americans — enslaved or free — were not citizens and had no standing to sue in federal court; also struck down the Missouri Compromise; widely considered the Court's worst decision; directly contributed to the Civil War; overturned by the 14th Amendment; a cautionary example of how judicial power can be wielded to entrench profound injustice." },
+        ],
+      },
+      {
+        name: "The Incorporation Framework",
+        terms: [
+          { term: "Barron v. Baltimore (1833)", definition: "Chief Justice Marshall ruled that the Bill of Rights constrains only the federal government, not state governments; a property owner whose harbor was ruined by Baltimore's construction had no federal constitutional claim; established the baseline for understanding why incorporation was later necessary; motivated the 14th Amendment's Due Process and Privileges or Immunities Clauses." },
+          { term: "Gitlow v. New York (1925)", definition: "The Court assumed for the first time that First Amendment free speech protections apply to states through the 14th Amendment Due Process Clause; opened the door to selective incorporation of most Bill of Rights provisions against the states over the following decades; the first case suggesting the Bill of Rights could constrain state government action." },
+          { term: "Selective Incorporation", definition: "The case-by-case process through which the Supreme Court has applied most Bill of Rights protections to state governments via the 14th Amendment's Due Process Clause; not all provisions are incorporated — the grand jury indictment (5th Amendment) and civil jury trial (7th Amendment) are not; still ongoing as new cases arise involving unenumerated rights or newly contested provisions." },
+          { term: "Mapp v. Ohio (1961)", definition: "Police searched Dollree Mapp's home without a warrant looking for a bombing suspect; Supreme Court incorporated the Fourth Amendment's exclusionary rule against the states, making illegally obtained evidence inadmissible in state courts; the Warren Court's first major application of the exclusionary rule to states; transformed criminal procedure in state courts across the country." },
+        ],
+      },
+      {
+        name: "Levels of Judicial Scrutiny",
+        terms: [
+          { term: "Rational Basis Test", definition: "The most permissive constitutional standard; the government only needs a legitimate purpose and means rationally related to that purpose; applies to most economic and social legislation and to non-suspect classifications like age or disability; highly deferential to government — laws are rarely struck down under this standard unless no plausible legitimate rationale can be identified." },
+          { term: "Intermediate Scrutiny", definition: "The middle level of constitutional scrutiny; the government must show an important government interest pursued through means substantially related to that interest; applies to sex/gender classifications (Craig v. Boren, 1976) and some other quasi-suspect classifications; more demanding than rational basis but less stringent than strict scrutiny; created to address sex discrimination while allowing some gender-based distinctions to stand." },
+          { term: "Strict Scrutiny", definition: "The most demanding constitutional standard; the government must show a compelling governmental interest pursued through means narrowly tailored to achieve it; applies to laws using suspect classifications (race, national origin) and to laws burdening fundamental rights (voting, travel, privacy); very few laws survive strict scrutiny — the test is described as 'fatal in fact' for most challenged government classifications." },
+          { term: "Suspect Classification", definition: "A category of persons that triggers heightened judicial scrutiny when government uses it to classify people; based on history of discrimination, immutability of the characteristic, political powerlessness, and irrelevance to legitimate governmental purposes; race and national origin are classic suspect classifications (strict scrutiny); sex receives intermediate scrutiny; age and disability receive only rational basis review." },
+        ],
+      },
+      {
+        name: "Segregation, Equality, and the Courts",
+        terms: [
+          { term: "Plessy v. Ferguson (1896)", definition: "Upheld Louisiana's Separate Car Act requiring separate railroad cars for Black and white passengers; established the 'separate but equal' doctrine legitimizing racial segregation in public life; provided constitutional cover for Jim Crow laws across the South; Justice Harlan's lone dissent argued 'our Constitution is color-blind'; overturned by Brown v. Board of Education (1954) after 58 years." },
+          { term: "Brown v. Board of Education (1954)", definition: "Warren Court unanimously ruled racially segregated public schools violate the Equal Protection Clause; overturned Plessy's 'separate but equal' doctrine; found that segregation generates 'a feeling of inferiority' affecting children's educational development; required desegregation 'with all deliberate speed' (Brown II, 1955); triggered massive Southern resistance; required federal enforcement at Little Rock (1957)." },
+          { term: "Shelby County v. Holder (2013)", definition: "Roberts Court struck down the coverage formula of the Voting Rights Act of 1965 — the provision determining which states needed federal pre-clearance before changing voting laws; ruled the formula was based on outdated 1960s–70s data and unconstitutionally infringed state sovereignty; critics argued it gutted the VRA's most effective enforcement mechanism; affected states immediately enacted new voting restrictions." },
+          { term: "Affirmative Action", definition: "Policies giving preference to historically underrepresented groups in education and employment to remedy past discrimination and promote diversity; the Supreme Court allowed holistic race-conscious admissions in Grutter v. Bollinger (2003); prohibited racial quotas in Regents of UC v. Bakke (1978); struck down all race-conscious college admissions in SFFA v. Harvard/UNC (2023), ending race-based affirmative action in higher education." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-3-lo",
+    unit: 3,
+    puzzle: 2,
+    theme: { code: "LO", name: "Liberty and Order" },
+    title: "Civil Liberties and Civil Rights",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "First Amendment — Religion",
+        terms: [
+          { term: "Engel v. Vitale (1962)", definition: "New York public schools required a brief nondenominational prayer composed by the state; Supreme Court ruled the Establishment Clause prohibits government-sponsored prayer in public schools even if brief, voluntary, and nondenominational; one of the most controversial Supreme Court decisions; established the principle that government may not compose prayers for citizens to recite in government institutions." },
+          { term: "Lemon v. Kurtzman (1971)", definition: "Pennsylvania and Rhode Island provided state aid to religious school teachers; Supreme Court struck it down and established the Lemon test: (1) the law must have a secular purpose; (2) its primary effect must neither advance nor inhibit religion; (3) it must not foster excessive government entanglement with religion; widely applied and widely criticized for decades; the Court has moved away from the Lemon test in recent decisions." },
+          { term: "Wisconsin v. Yoder (1972)", definition: "Wisconsin required school attendance until age 16; Amish families claimed compulsory secondary education violated their religious beliefs and way of life; Supreme Court ruled the state's interest in education was insufficient to override the Free Exercise rights of the Amish given their self-sufficient community and centuries-old religious tradition; recognized that compelling state interests sometimes must yield to sincere religious practice." },
+          { term: "Employment Division v. Smith (1990)", definition: "Oregon denied unemployment benefits to Native Americans fired for sacramental peyote use; Supreme Court ruled that neutral, generally applicable laws don't violate the Free Exercise Clause even if they substantially burden religious practice; the resulting backlash prompted Congress to pass the Religious Freedom Restoration Act (1993), restoring a compelling interest test for federal laws substantially burdening religion." },
+        ],
+      },
+      {
+        name: "First Amendment — Speech",
+        terms: [
+          { term: "Schenck v. United States (1919)", definition: "Charles Schenck mailed anti-draft pamphlets during WWI; Justice Holmes introduced the 'clear and present danger' test, upholding Schenck's conviction; the famous 'falsely shouting fire in a crowded theater' line was dicta, not the holding; later cases narrowed this test significantly; illustrates how First Amendment protections have historically contracted during wartime and national emergency." },
+          { term: "Tinker v. Des Moines (1969)", definition: "Students wore black armbands to school protesting the Vietnam War and were suspended; Supreme Court ruled students do not 'shed their constitutional rights at the schoolhouse gate'; symbolic speech is protected in public schools unless it causes 'substantial disruption' to the educational environment; the foundational precedent governing student First Amendment rights in public schools." },
+          { term: "Texas v. Johnson (1989)", definition: "Gregory Lee Johnson burned an American flag in protest at the 1984 Republican National Convention; Supreme Court ruled 5-4 that flag burning is constitutionally protected symbolic speech under the First Amendment; Congress passed Flag Protection Acts twice; both were struck down; one of the most politically controversial First Amendment decisions, demonstrating that the First Amendment protects expression most people find repugnant." },
+          { term: "Brandenburg v. Ohio (1969)", definition: "KKK leader's inflammatory speech at a rally; Supreme Court established the modern speech-protective standard: the government can only punish speech directed to inciting imminent lawless action AND likely to produce such action; replaced the less-protective 'clear and present danger' test; the current legal standard for when government may criminalize incitement to violence." },
+        ],
+      },
+      {
+        name: "Privacy Rights",
+        terms: [
+          { term: "Griswold v. Connecticut (1965)", definition: "Connecticut law prohibited the use of contraceptives even by married couples; Supreme Court struck it down and recognized a constitutional right to privacy located in the 'penumbras and emanations' of the Bill of Rights; the first recognition of a general right to privacy not explicitly stated in the Constitution; the foundation for later decisions protecting reproductive autonomy and same-sex intimate relationships." },
+          { term: "Roe v. Wade (1973)", definition: "Texas criminalized virtually all abortions; Supreme Court extended the privacy right from Griswold to a woman's decision to terminate a pregnancy; established a trimester framework limiting state regulation; the most politically contested Supreme Court decision for 50 years; reaffirmed with modifications in Planned Parenthood v. Casey (1992); overturned by Dobbs v. Jackson Women's Health Organization (2022)." },
+          { term: "Dobbs v. Jackson Women's Health Org. (2022)", definition: "Mississippi banned abortions after 15 weeks; Supreme Court overruled Roe v. Wade and Planned Parenthood v. Casey; held that the Constitution does not protect a right to abortion; returned abortion regulation entirely to the states; triggered immediate bans in multiple states; the most significant reversal of established constitutional precedent since Brown v. Board overturned Plessy." },
+          { term: "Obergefell v. Hodges (2015)", definition: "Supreme Court ruled 5-4 that the 14th Amendment requires states to license and recognize same-sex marriages; found marriage is a fundamental right under both due process and equal protection; Justice Kennedy's majority opinion emphasized dignity and liberty; immediately made same-sex marriage legal nationwide; overturned in part by Dobbs' narrowing of substantive due process but the marriage right remains." },
+        ],
+      },
+      {
+        name: "Rights of the Accused",
+        terms: [
+          { term: "Miranda v. Arizona (1966)", definition: "Ernesto Miranda confessed to rape and kidnapping during police interrogation without being told of his rights; Supreme Court ruled police must inform suspects in custody of their right to remain silent and their right to an attorney before interrogation; 'Miranda warnings' are now universal in American law enforcement; a landmark Warren Court decision protecting Fifth and Sixth Amendment rights in practice." },
+          { term: "Gideon v. Wainwright (1963)", definition: "Clarence Gideon was denied a court-appointed attorney in a Florida felony case and was convicted after representing himself; Supreme Court unanimously incorporated the Sixth Amendment right to counsel against states; required states to provide attorneys to felony defendants who cannot afford one; dramatically changed state criminal justice systems; extended to misdemeanor cases carrying imprisonment in Argersinger v. Hamlin (1972)." },
+          { term: "Exclusionary Rule", definition: "The judicial doctrine that evidence obtained in violation of the Fourth Amendment cannot be used against the defendant in a criminal trial; established in Weeks v. United States (1914) for federal courts; incorporated against states in Mapp v. Ohio (1961); the primary mechanism enforcing Fourth Amendment search and seizure restrictions; subject to exceptions including good faith reliance on a defective warrant." },
+          { term: "Furman v. Georgia (1972)", definition: "Supreme Court struck down existing death penalty laws as arbitrarily applied in violation of the Eighth Amendment's prohibition on cruel and unusual punishment; each of the five majority justices wrote separately, producing no controlling rationale; effectively halted all executions nationwide; states rewrote death penalty statutes with guided discretion; the death penalty was reinstated under revised procedures in Gregg v. Georgia (1976)." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-3-prd",
+    unit: 3,
+    puzzle: 3,
+    theme: { code: "PRD", name: "Civic Participation in a Representative Democracy" },
+    title: "Civil Liberties and Civil Rights",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Civil Rights Movement Tactics",
+        terms: [
+          { term: "Sit-in", definition: "Nonviolent protest tactic in which demonstrators occupy a segregated facility and refuse to leave until served or arrested; the Greensboro Woolworth's sit-in (February 1, 1960) launched the modern sit-in movement that spread to over 50 cities; effective because it disrupted business while forcing authorities to choose between allowing integration and arresting peaceful protesters; directly sparked the formation of SNCC." },
+          { term: "Freedom Riders", definition: "Interracial groups who boarded interstate buses in 1961 to challenge non-enforcement of Supreme Court rulings desegregating interstate travel; met with violent mobs in Anniston and Birmingham, Alabama; the federal government was forced to intervene and ultimately issue Interstate Commerce Commission rules desegregating interstate travel; demonstrated that direct action could expose hypocrisy and force federal enforcement of constitutional rights." },
+          { term: "March on Washington (1963)", definition: "250,000 people gathered at the Lincoln Memorial in August 1963 — the largest civil rights demonstration in American history; MLK delivered the 'I Have a Dream' speech; demanded civil rights legislation and economic justice; helped build political momentum for the Civil Rights Act of 1964; demonstrated the power of peaceful mass demonstration to force national political attention on civil rights demands." },
+          { term: "Selma to Montgomery Marches (1965)", definition: "Three marches demanding voting rights for Black Alabamans; the first march ('Bloody Sunday,' March 7, 1965) ended with police attacking peaceful marchers on the Edmund Pettus Bridge with clubs and tear gas; televised nationally, the violence shocked the country and galvanized support; directly led President Johnson to introduce and Congress to pass the Voting Rights Act of 1965." },
+        ],
+      },
+      {
+        name: "Civil Rights Organizations",
+        terms: [
+          { term: "NAACP", definition: "National Association for the Advancement of Colored People; founded 1909; the oldest and largest civil rights organization; led the litigation strategy culminating in Brown v. Board of Education; the NAACP Legal Defense Fund (led by Thurgood Marshall) litigated dozens of landmark civil rights cases; represents the approach of pursuing civil rights through courts and established legal institutions." },
+          { term: "SCLC", definition: "Southern Christian Leadership Conference; founded by MLK and Black ministers in 1957 following the Montgomery Bus Boycott; used the Black church network as an organizing base; specialized in nonviolent direct action and mass demonstrations; organized the Birmingham campaign (1963) that generated images of police brutality which shocked the nation; organized the March on Washington (1963)." },
+          { term: "SNCC", definition: "Student Nonviolent Coordinating Committee; founded in 1960 by student sit-in veterans; more radical and youth-led than the SCLC; organized intensively in rural Mississippi and Alabama; led Freedom Summer (1964); Stokely Carmichael's 1966 call for 'Black Power' shifted SNCC away from nonviolence and integration toward Black nationalism; represented growing impatience with the pace of change among younger activists." },
+          { term: "CORE", definition: "Congress of Racial Equality; founded 1942; pioneered the sit-in and Freedom Ride tactics later used throughout the civil rights movement; organized the Freedom Rides (1961); in Freedom Summer (1964), CORE volunteers James Chaney, Andrew Goodman, and Michael Schwerner were murdered in Mississippi — their deaths generated national outrage that accelerated congressional action on civil rights." },
+        ],
+      },
+      {
+        name: "Landmark Civil Rights Legislation",
+        terms: [
+          { term: "Civil Rights Act of 1964", definition: "Prohibited discrimination based on race, color, religion, sex, or national origin in employment and public accommodations; created the EEOC to enforce employment discrimination prohibitions; passed after a 60-day Southern Senate filibuster was broken; signed by LBJ; transformed American workplaces and public life; demonstrated that sustained mass movement pressure could overcome entrenched congressional opposition to civil rights reform." },
+          { term: "Voting Rights Act of 1965", definition: "Prohibited discriminatory voting practices and required federal pre-clearance before covered Southern states could change voting laws; dispatched federal registrars to register Black voters; within three years Black voter registration in the South doubled; arguably the most effective civil rights legislation ever enacted; key pre-clearance provisions weakened by Shelby County v. Holder (2013)." },
+          { term: "Fair Housing Act of 1968", definition: "Prohibited discrimination in the sale, rental, and financing of housing based on race, color, national origin, religion, sex, familial status, and disability; passed days after MLK's assassination as a kind of legislative memorial; addressed the de facto residential segregation persisting even after formal discrimination was banned; enforced by HUD; de facto housing segregation persists today despite the law." },
+          { term: "Americans with Disabilities Act (1990)", definition: "Comprehensive legislation prohibiting discrimination against people with disabilities in employment, public accommodations, transportation, and telecommunications; requires reasonable workplace accommodations and public space accessibility; extended the civil rights framework from race and sex to disability; reflects the disability rights movement's successful reframing of disability as a civil rights rather than a purely medical or charitable issue." },
+        ],
+      },
+      {
+        name: "Strategies for Expanding Rights",
+        terms: [
+          { term: "Litigation Strategy", definition: "Pursuing civil rights through strategic lawsuits that build precedent case by case; the NAACP's approach of systematically attacking 'separate but equal' in graduate and professional schools (Sweatt v. Painter, 1950; McLaurin v. Oklahoma, 1950) before the decisive elementary school challenge in Brown; demonstrates how civil rights organizations use courts as a venue for policy change when legislative paths are blocked by hostile majorities." },
+          { term: "Constitutional Amendment Route", definition: "The most permanent route to expanding rights; requires two-thirds of both chambers of Congress and ratification by three-fourths of states; used to abolish slavery (13th), establish equal protection and due process (14th), and expand voting rights (15th, 19th, 24th, 26th Amendments); the demanding threshold ensures that expansions of rights through this route reflect a genuine national supermajority consensus." },
+          { term: "Grassroots Voter Registration", definition: "Organizing politically marginalized communities to exercise formal voting rights they nominally hold; Freedom Summer (1964) brought hundreds of Northern college students to Mississippi to register Black voters despite violent intimidation; the Voter Education Project registered hundreds of thousands across the South; demonstrates that formal legal rights are meaningless without organized political power and physical safety to exercise them." },
+          { term: "Legislative Lobbying for Rights", definition: "Interest groups and social movements pressuring Congress and state legislatures to enact civil rights protections; requires building political coalitions, finding legislative champions, and generating enough visible public pressure to overcome organized opposition; the legislative route can produce broader and more durable protections than court decisions alone, but requires majority support in democratic institutions." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-3-pmi",
+    unit: 3,
+    puzzle: 4,
+    theme: { code: "PMI", name: "Competing Policymaking Interests" },
+    title: "Civil Liberties and Civil Rights",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "School Desegregation Conflicts",
+        terms: [
+          { term: "De Jure vs. De Facto Segregation", definition: "De jure segregation is separation enforced by law (pre-Brown Southern schools); de facto segregation is separation produced by private choices, residential patterns, and economic inequality without legal mandate; courts clearly prohibit de jure segregation but have generally declined to require elimination of de facto segregation; most persistent racial separation in American schools today is de facto and largely beyond judicial remedy." },
+          { term: "Massive Resistance", definition: "Southern states' organized campaign to refuse compliance with Brown v. Board; included Virginia's closure of public schools rather than integrate, the Southern Manifesto signed by 101 congressional members condemning Brown, and George Wallace's 'segregation now, segregation forever' defiance; demonstrated that judicial decisions do not automatically change social reality without political will and executive enforcement." },
+          { term: "Little Rock Crisis (1957)", definition: "Arkansas Governor Orval Faubus used the National Guard to prevent nine Black students from entering Central High School; President Eisenhower reluctantly federalized the National Guard and sent U.S. Army paratroopers to enforce desegregation; demonstrated that federal executive enforcement was sometimes required to implement judicial decisions against state resistance; a defining moment for federal supremacy over state defiance." },
+          { term: "Milliken v. Bradley (1974)", definition: "Detroit sought cross-district busing into suburbs to integrate city schools; Supreme Court 5-4 ruled that cross-district busing remedies are generally unconstitutional unless suburban districts themselves caused the segregation; effectively insulated white suburban schools from desegregation remedies; consolidated school segregation along city-suburban lines that persists today and left urban schools increasingly racially and economically isolated." },
+        ],
+      },
+      {
+        name: "Affirmative Action Battles",
+        terms: [
+          { term: "Regents of UC v. Bakke (1978)", definition: "UC Davis Medical School reserved 16 seats for minority applicants; Justice Powell's controlling opinion struck down rigid racial quotas as a constitutional violation but held that race could be considered as one factor in holistic admissions to achieve diversity; produced decades of legal uncertainty because no rationale commanded a majority; set the terms of the affirmative action debate for 25 years." },
+          { term: "Grutter v. Bollinger (2003)", definition: "University of Michigan Law School's holistic consideration of race to achieve educational diversity was upheld; Justice O'Connor wrote that student body diversity is a compelling interest justifying the narrow consideration of race; predicted racial preferences would no longer be necessary in 25 years; became the controlling affirmative action precedent for 20 years until SFFA v. Harvard/UNC (2023)." },
+          { term: "SFFA v. Harvard & UNC (2023)", definition: "Students for Fair Admissions challenged race-conscious admissions at Harvard and the University of North Carolina; Supreme Court ruled 6-3 that both programs violated the Equal Protection Clause; Chief Justice Roberts held that applicants must be evaluated as individuals, not as members of racial groups; effectively ended race-based affirmative action in college admissions nationwide and triggered immediate changes at universities across the country." },
+          { term: "Disparate Impact vs. Intentional Discrimination", definition: "Courts generally require proof of intentional racial discrimination for constitutional equal protection claims (Washington v. Davis, 1976); but Title VII of the Civil Rights Act allows lawsuits based on disparate impact — policies that have discriminatory effects even without discriminatory intent; the choice between these legal standards has enormous consequences for how much racial inequality can be legally challenged and remedied." },
+        ],
+      },
+      {
+        name: "LGBTQ+ Rights as Civil Rights",
+        terms: [
+          { term: "Romer v. Evans (1996)", definition: "Colorado constitutional amendment prohibited governmental protection of LGBTQ people from discrimination; Supreme Court struck it down as an equal protection violation — a law expressing 'bare desire to harm a politically unpopular group' is not a legitimate governmental interest; the first major Supreme Court ruling in favor of LGBTQ rights; began the Court's trajectory toward recognizing same-sex relationships as constitutionally protected." },
+          { term: "Lawrence v. Texas (2003)", definition: "Texas criminalized same-sex sexual conduct; Supreme Court overruled Bowers v. Hardwick (1986) and struck down the law; recognized that the Constitution protects individuals' autonomy over intimate decisions in their private lives; relied on substantive due process liberty rather than equal protection; set the stage for United States v. Windsor and Obergefell v. Hodges." },
+          { term: "Obergefell v. Hodges (2015)", definition: "Supreme Court ruled 5-4 that the 14th Amendment requires states to license and recognize same-sex marriages; found marriage is a fundamental right under both due process and equal protection clauses; immediately legalized same-sex marriage nationwide; Justice Kennedy's majority opinion emphasized dignity; completed the trajectory of LGBTQ civil rights decisions from Romer (1996) to Lawrence (2003) to Windsor (2013)." },
+          { term: "Bostock v. Clayton County (2020)", definition: "Employees were fired for being gay or transgender; Supreme Court ruled 6-3 that Title VII's prohibition of discrimination 'because of sex' covers sexual orientation and gender identity; Justice Gorsuch wrote for the majority applying strict textual reasoning; dramatically expanded LGBTQ employment protections under existing civil rights law without requiring new legislation; an example of statutory rather than constitutional civil rights expansion." },
+        ],
+      },
+      {
+        name: "Criminal Justice and Civil Rights",
+        terms: [
+          { term: "Terry v. Ohio (1968)", definition: "A police officer stopped and frisked Terry based on suspicious behavior without probable cause; Supreme Court ruled that police can conduct brief investigatory stops and pat-downs for weapons if they have 'reasonable articulable suspicion' of criminal activity — a standard lower than probable cause; the legal basis for stop-and-frisk programs; critics argue the standard has been applied disproportionately to Black and Latino men, creating civil rights concerns." },
+          { term: "Mass Incarceration", definition: "The dramatic rise in the U.S. prison population from approximately 300,000 in 1972 to over 2 million by 2000; driven by mandatory minimum sentencing, three-strikes laws, and aggressive drug enforcement; African Americans are incarcerated at five times the rate of white Americans; Michelle Alexander's 'The New Jim Crow' argued mass incarceration functions as a racial caste system; a central focus of criminal justice reform advocates." },
+          { term: "McCleskey v. Kemp (1987)", definition: "Warren McCleskey presented statistical evidence showing Black defendants in Georgia were significantly more likely to receive the death penalty when the victim was white; Supreme Court ruled the statistical evidence was insufficient to prove intentional discrimination in McCleskey's specific case; established that demonstrating racial disparity through statistics alone is not enough for an equal protection claim in criminal sentencing." },
+          { term: "Voting Rights and Felony Disenfranchisement", definition: "Most states deny voting rights to people with felony convictions — some permanently; approximately 5.2 million Americans are disenfranchised due to felony convictions; because Black Americans are incarcerated at disproportionate rates, felony disenfranchisement has a racially disparate impact on voting rights; the 14th Amendment explicitly allows disenfranchisement for 'participation in rebellion, or other crime' — the only constitutional permission for voter exclusion." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-3-mpa",
+    unit: 3,
+    puzzle: 5,
+    theme: { code: "MPA", name: "Methods of Political Analysis" },
+    title: "Civil Liberties and Civil Rights",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Required Foundational Documents",
+        terms: [
+          { term: "14th Amendment (1868)", definition: "The constitutional foundation of civil rights; grants citizenship to all persons born or naturalized in the U.S.; prohibits states from abridging privileges or immunities, depriving persons of due process, or denying equal protection; overturned Dred Scott; the basis for incorporating the Bill of Rights against states; the constitutional authority for virtually all modern civil rights litigation and anti-discrimination law." },
+          { term: "Letter from Birmingham Jail (1963)", definition: "MLK's response to white moderate clergy urging patience; distinguished just laws (aligned with moral law, uplifting to human personality) from unjust laws (out of harmony with moral law, degrading); defended civil disobedience as a moral obligation; indicted the 'white moderate' who preferred 'negative peace' (absence of tension) to 'positive peace' (presence of justice); a required AP Gov foundational document demonstrating the moral argument for civil rights." },
+          { term: "Brown v. Board of Education (1954)", definition: "Warren Court's unanimous opinion finding racially segregated schools violate equal protection; relied on social science evidence that segregation generates feelings of inferiority damaging children's educational development; did not reach its conclusion on the original understanding of the 14th Amendment but on the importance of education in modern American life; one of the most consequential judicial decisions in U.S. history; required as a foundational document in AP Gov." },
+          { term: "Declaration of Independence", definition: "Jefferson's articulation that 'all men are created equal' with unalienable rights; the moral and philosophical foundation for civil rights claims throughout American history; MLK's 'I Have a Dream' speech explicitly invoked the Declaration as a 'promissory note' to which America had defaulted for its Black citizens; the standard of equality the civil rights movement used to challenge America to live up to its stated founding ideals." },
+        ],
+      },
+      {
+        name: "Reading Civil Rights Cases",
+        terms: [
+          { term: "Holding vs. Dicta", definition: "The holding is the rule of law the court is actually deciding and that becomes binding precedent; dicta (obiter dicta) are statements not necessary to the outcome and carry no precedential weight; Holmes's famous 'falsely shouting fire in a crowded theater' in Schenck was dicta; correctly identifying the holding rather than dicta is essential for accurately understanding what a case means as precedent and how it will govern future cases." },
+          { term: "Plurality Opinion", definition: "A Supreme Court decision where the justices agree on the outcome but no single rationale commands five votes; the controlling opinion under Marks v. United States (1977) is the narrowest grounds for the decision; Bakke (1978) was a plurality — Powell's opinion was controlling even without a majority; makes precedential value difficult to determine and subsequent application uncertain until a majority rationale emerges in a later case." },
+          { term: "Concurrence vs. Dissent", definition: "A concurrence agrees with the majority's outcome but for different or additional reasons; a dissent disagrees with both the outcome and reasoning; concurrences can be significant because the actual controlling rationale may be the narrowest concurrence rather than the majority opinion; dissents can foreshadow future reversals — Harlan's Plessy dissent and Ginsburg's Shelby County dissent both presaged future doctrinal development." },
+          { term: "Constitutional vs. Statutory Claims", definition: "A constitutional claim asserts that a law or government action violates the Constitution; a statutory claim asserts that an action violates a federal statute (law passed by Congress); constitutional rights are harder to override but cover only government action; statutory civil rights (Title VII, ADA, FHA) can cover private conduct and are easier to expand through legislation; most civil rights cases involve statutory claims, not constitutional claims." },
+        ],
+      },
+      {
+        name: "Formal vs. Substantive Equality",
+        terms: [
+          { term: "Formal Equality", definition: "Treating all individuals identically under the law regardless of group membership; the anti-discrimination framework established by the Equal Protection Clause and civil rights legislation; requires that government and (under statutes) private actors not use race, sex, or other protected characteristics in making decisions; the dominant legal framework for civil rights; does not address inequality caused by historical disadvantage or structural factors." },
+          { term: "Substantive Equality", definition: "Looking beyond formal equal treatment to actual outcomes — recognizing that treating unequal groups identically may perpetuate inequality; sometimes requires treating groups differently to achieve genuinely equal results; the philosophical basis for affirmative action and disparate impact analysis; in tension with formal equality; courts have generally embraced formal equality while leaving broader substantive equality goals to political processes." },
+          { term: "Civil Liberties vs. Civil Rights", definition: "Civil liberties are protections of individual freedom against government power — freedoms guaranteed in the Bill of Rights (speech, religion, due process, privacy); civil rights are protections against discrimination based on group membership (race, sex, disability) in both government and private conduct; the two can conflict — a religious employer's First Amendment liberty may conflict with employees' civil rights not to face religion-based workplace discrimination." },
+          { term: "Incorporation and Federalism Tension", definition: "Incorporating the Bill of Rights against states through the 14th Amendment expands individual rights but reduces state autonomy; Anti-Federalists originally valued state variation as a check on central power; the Warren Court's selective incorporation dramatically expanded federal constitutional constraints on state criminal justice and speech regulation; the tension between nationalized rights and state sovereignty remains live in debates about the scope of federal judicial power." },
+        ],
+      },
+      {
+        name: "Analyzing Civil Rights Data",
+        terms: [
+          { term: "Racial Wealth Gap", definition: "Persistent economic disparities between racial groups — the median white family holds approximately 8 times the wealth of the median Black family; produced by historical policies (redlining, exclusion from New Deal programs, discriminatory GI Bill implementation) rather than individual behavior; anti-discrimination law focuses on intentional discrimination rather than wealth redistribution, leaving structural wealth inequality largely unaddressed by legal remedies." },
+          { term: "Voter Turnout Disparities", definition: "Systematic differences in voter participation by race, income, age, and education; lower-income, younger, and less-educated voters turn out at significantly lower rates; Black voter turnout has roughly matched white turnout in recent presidential elections but remains lower in midterms; the gap between the demographic composition of the electorate and the overall population raises questions about who the 'represented' majority actually is." },
+          { term: "Incarceration Rate Disparities", definition: "Black Americans are incarcerated at 5 times the rate of white Americans; Hispanic Americans at nearly twice the rate; data used to argue that the criminal justice system is racially biased (disparate impact) or that disparities reflect differential crime rates produced by socioeconomic inequality; interpreting these statistics requires accounting for confounding variables (poverty, neighborhood, prior record) rather than treating correlation as causation." },
+          { term: "Public Opinion on Civil Liberties", definition: "Survey data consistently shows Americans support civil liberties abstractly (free speech, due process) but often support restrictions for specific unpopular groups; the 'civil liberties paradox' — most people believe in free speech but want to restrict speech they personally find offensive; support for specific liberties varies significantly by partisanship, education level, and which group's rights are in question; polling helps explain when elected officials expand or restrict rights." },
+        ],
+      },
+    ],
+  },
+
+  // ── AP GOV UNIT 4: American Political Ideologies and Beliefs ──────────────
+
+  {
+    id: "apgov-unit-4-con",
+    unit: 4,
+    puzzle: 1,
+    theme: { code: "CON", name: "Constitutionalism" },
+    title: "American Political Ideologies and Beliefs",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Major American Ideologies",
+        terms: [
+          { term: "Liberalism", definition: "Political ideology favoring government action to address economic inequality, protect civil rights, and provide a social safety net; supports market regulation, environmental protection, and expanded civil liberties for marginalized groups; emphasizes positive liberty (freedom from want, not just freedom from government); the dominant ideology of the modern Democratic Party; distinct from classical liberalism in its acceptance of substantial government intervention in the economy." },
+          { term: "Conservatism", definition: "Political ideology favoring limited government intervention in the economy, free markets, traditional social institutions, strong national defense, and individual responsibility; skeptical of rapid social change; supports federalism, lower taxes, and deregulation; emphasizes negative liberty (freedom from government interference); the dominant ideology of the modern Republican Party; combines economic libertarianism with social and cultural traditionalism." },
+          { term: "Libertarianism", definition: "Political ideology combining economic conservatism (free markets, minimal regulation) with social liberalism (individual freedom on personal choices); opposes both economic regulation AND social/moral regulation; 'fiscally conservative and socially liberal'; at odds with social conservatives on drug legalization, same-sex marriage, and criminal justice; influential in Republican economic policy but a distinct ideological strand." },
+          { term: "Progressivism", definition: "Left-liberal ideology calling for more aggressive government action than mainstream liberalism to address economic inequality, climate change, and racial injustice; associated with Medicare for All, Green New Deal, and free college proposals; skeptical of corporate power and incremental change; represents the left flank of the Democratic Party; associated with figures like Bernie Sanders and Alexandria Ocasio-Cortez." },
+        ],
+      },
+      {
+        name: "Core American Political Values",
+        terms: [
+          { term: "Individualism", definition: "Deep American cultural value emphasizing personal responsibility, self-reliance, and suspicion of collective solutions; rooted in frontier mythology, Protestant work ethic, and Lockean natural rights theory; explains American resistance to universal healthcare and strong labor unions compared to other wealthy democracies; shapes both liberal (individual rights from discrimination) and conservative (freedom from government dependency) political thought." },
+          { term: "Equality of Opportunity", definition: "The broadly shared American value that everyone should have a fair chance to succeed regardless of background; contrasted with equality of outcome (reducing gaps in wealth and achievement through redistribution); conservatives emphasize opportunity while opposing redistribution; liberals argue structural barriers make formal opportunity meaningless without addressing unequal starting conditions; the fault line of most domestic policy debates." },
+          { term: "Rule of Law", definition: "The principle that all persons and institutions — including government officials — are subject to publicly promulgated, equally enforced, and independently adjudicated laws; a foundational American value across ideological lines; debates arise about whether laws are actually applied equally across race and class lines and whether rule-of-law norms are endangered by political norm violations." },
+          { term: "Free Enterprise", definition: "The American value of economic freedom — the right to own property, start businesses, and operate in markets with limited government interference; broadly shared across the political spectrum though contested in scope; conservatives embrace it more fully; liberals accept it but argue markets require regulation to prevent exploitation and externalities; a distinctive feature of American political culture compared to other wealthy democracies." },
+        ],
+      },
+      {
+        name: "Political Culture",
+        terms: [
+          { term: "Political Culture", definition: "The widely shared values, beliefs, and attitudes about politics and government that shape how a society thinks and behaves politically; Americans share core values of liberty, equality, democracy, and capitalism despite deep partisan disagreements; political culture explains why American political conflict occurs within a narrower ideological range than many other democracies — no major American party advocates for abolishing capitalism or democracy." },
+          { term: "American Exceptionalism", definition: "The belief that the United States is uniquely positioned among nations — founded on universal ideals rather than ethnic or religious identity, with a special destiny and role in the world; shapes both foreign policy (a duty to spread democracy) and domestic politics (resistance to 'European'-style social programs); critiqued as a rationalization for American power and blindness to domestic failures and historical injustices." },
+          { term: "Political Tolerance", definition: "The willingness to extend rights and freedoms to groups one personally dislikes or disagrees with; a democratic virtue requiring acceptance of minority rights even when majorities disapprove; research shows tolerance is inconsistent — most Americans support abstract rights but prefer restricting them for specific groups they find threatening; tolerance has become politically contested as what counts as 'tolerance' is itself disputed across partisan lines." },
+          { term: "Political Socialization", definition: "The lifelong process through which individuals acquire political beliefs, values, party identification, and civic orientations; family is the most influential early agent; schools, peers, media, and formative events also shape political identity; the process explains why political attitudes tend to be stable over a lifetime while also evolving in response to major events (recessions, wars, social movements)." },
+        ],
+      },
+      {
+        name: "Ideological Dimensions and Cleavages",
+        terms: [
+          { term: "Economic Issues", definition: "Policy questions about the distribution of resources — taxes, spending, regulation, trade, labor; the traditional primary axis of liberal-conservative division (New Deal liberalism vs. free market conservatism); economic ideology is measured on a left-right scale from government-directed economies to pure free markets; working-class economic interests and elite economic interests have historically aligned differently with each party." },
+          { term: "Social/Cultural Issues", definition: "Policy questions about values, identity, and lifestyle — abortion, LGBTQ+ rights, immigration, religion in public life, and racial history; the 'culture wars' since the 1970s have made these as politically determinative as economic issues; Republicans have become more culturally conservative; Democrats more culturally liberal; cultural identity now drives partisan alignment as powerfully as economic interest for many voters." },
+          { term: "Populism", definition: "A political style presenting politics as a struggle between 'the pure people' and a corrupt elite; can be left-wing (Sanders vs. Wall Street billionaires) or right-wing (Trump vs. the 'deep state' and globalist elites); characterized by skepticism of expertise, established institutions, and mainstream parties; associated with economic insecurity and cultural displacement; has reshaped both parties' coalitions in the 21st century." },
+          { term: "Ideological Consistency", definition: "The degree to which an individual's positions across issues align with a coherent liberal or conservative framework; political scientists find ordinary Americans are less ideologically consistent than party elites and activists; many voters hold 'cross-cutting' views (socially conservative but economically liberal, or vice versa); ideological consistency has increased among the activist class and primary voters, driving polarization within parties." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-4-lo",
+    unit: 4,
+    puzzle: 2,
+    theme: { code: "LO", name: "Liberty and Order" },
+    title: "American Political Ideologies and Beliefs",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Security vs. Civil Liberties",
+        terms: [
+          { term: "Civil Libertarian View", definition: "Political position prioritizing individual rights and freedoms over government authority; skeptical of surveillance, expanded law enforcement powers, and restrictions on speech; supports strong Fourth and Fifth Amendment protections; opposes indefinite detention, mass surveillance, and racial profiling; civil libertarian positions cross ideological lines — the ACLU and some libertarian conservatives share many positions while differing on others." },
+          { term: "Law and Order Conservatism", definition: "Political emphasis on strong enforcement of criminal law, deference to police authority, and severe punishment for crime; associated with Nixon's 1968 campaign responding to urban unrest and rising crime rates; peaked in the 1990s with mandatory minimum sentencing and three-strikes laws; contrasts with civil libertarian concerns about over-policing, mass incarceration, and racial disparities in criminal justice." },
+          { term: "National Security State", definition: "The post-WWII expansion of executive power over intelligence, military, and foreign policy; CIA, NSA, Department of Homeland Security, and FISA courts operate with significant secrecy and limited congressional oversight; the PATRIOT Act (2001) dramatically expanded surveillance authority after 9/11 with bipartisan support; poses ongoing tension between national security imperatives and Fourth Amendment privacy rights and due process protections." },
+          { term: "Criminal Justice Reform", definition: "Growing bipartisan movement to reduce mass incarceration, reform mandatory minimum sentencing, address racial disparities, and emphasize rehabilitation alongside punishment; support comes from the left (racial justice, human rights) and the right (fiscal conservatism, libertarianism, faith-based redemption); the First Step Act (2018) was a bipartisan reform bill signed by Trump, demonstrating unusual ideological convergence on criminal justice." },
+        ],
+      },
+      {
+        name: "Religious Liberty and Cultural Conflict",
+        terms: [
+          { term: "Culture Wars", definition: "The politically polarized struggle over fundamental values — abortion, LGBTQ+ rights, immigration, racial history, gender roles, and religion in public life; intensified since the 1970s as the parties realigned along cultural as well as economic lines; drives enormous political mobilization on both sides; transforms elections from contests about policy into battles over national identity and fundamental moral values." },
+          { term: "Moral Traditionalism", definition: "The political belief that society should be organized around traditional moral values — typically derived from religious teaching — including opposition to abortion, same-sex marriage, and liberal sexual norms; a major component of social conservatism; associated with evangelical Christians, traditional Catholics, and Orthodox Jews; a key Republican constituency since the Moral Majority movement and Reagan coalition of the 1980s." },
+          { term: "Religious Liberty Claims", definition: "First Amendment free exercise arguments that religious believers and businesses should not be required to comply with laws that substantially burden their religious practice; invoked by conservative Christians to argue that religious business owners should not have to provide services for same-sex weddings (Masterpiece Cakeshop v. Colorado, 2018); the central tension between religious liberty and anti-discrimination protections for LGBTQ people." },
+          { term: "Church-State Separation", definition: "The Establishment Clause principle that government should not favor or promote religion; liberals favor strict separation; conservatives favor more accommodation of religion in public life (school prayer, religious displays, vouchers for religious schools); the Roberts Court has moved significantly toward greater accommodation of religion in recent decisions (Carson v. Makin, 2022; Kennedy v. Bremerton, 2022)." },
+        ],
+      },
+      {
+        name: "Gun Rights and Gun Control",
+        terms: [
+          { term: "DC v. Heller (2008)", definition: "Supreme Court ruled 5-4 that the Second Amendment protects an individual right to keep firearms at home for self-defense, not just militia-related purposes; overturned the District of Columbia's handgun ban; incorporated against states in McDonald v. Chicago (2010); the most important Second Amendment ruling in American history; established the individual right that gun rights advocates had long claimed but courts had previously rejected." },
+          { term: "NY State Rifle & Pistol Assn. v. Bruen (2022)", definition: "Supreme Court struck down New York's concealed carry permit requirement and established a new historical test for gun regulations — only regulations with a historical analogue from the Founding era or Reconstruction are constitutional; dramatically narrowed the government's ability to regulate firearms; required courts to evaluate gun laws based on historical tradition rather than interest-balancing; the most significant Second Amendment expansion since Heller." },
+          { term: "Gun Control Policy", definition: "Government restrictions on firearm access and use; proposals include universal background checks, waiting periods, assault weapons bans, red flag laws (allowing courts to temporarily remove firearms from people deemed dangerous), and limits on high-capacity magazines; supported more by Democrats and urban voters; opposed by Republicans and rural voters; major mass shootings generate renewed debate but rarely produce comprehensive federal legislation." },
+          { term: "NRA and Gun Lobbying", definition: "The National Rifle Association became one of the most powerful interest groups in American politics through campaign contributions, grassroots mobilization of gun owners, and candidate ratings that made gun rights a Republican litmus test; financial scandals and leadership turmoil weakened the NRA after 2019; other gun rights groups (Gun Owners of America) have grown; gun control advocates (Everytown, Moms Demand Action) have built substantial countervailing organizational capacity." },
+        ],
+      },
+      {
+        name: "Immigration and National Identity",
+        terms: [
+          { term: "Immigration Restrictionism", definition: "Policy positions favoring reduced immigration levels — lower quotas, stricter interior enforcement, border security, and priority for skills-based over family-based immigration; associated with concerns about wage competition, cultural change, national security, and rule of law; became the defining issue of Trump's political movement; supported by a cross-class coalition of non-college-educated white voters who see immigration as a cultural and economic threat." },
+          { term: "Comprehensive Immigration Reform", definition: "Legislation addressing all aspects of immigration policy simultaneously — border security, interior enforcement, a path to legal status for undocumented immigrants, and reform of legal immigration levels and categories; attempted repeatedly in Congress (2006, 2007, 2013) but never passed; a path to citizenship for undocumented immigrants is supported by most Americans in polling but faces intense minority opposition that has blocked legislative action." },
+          { term: "DACA", definition: "Deferred Action for Childhood Arrivals; Obama executive action (2012) protecting approximately 700,000 people who arrived in the U.S. as children from deportation and granting work permits; 'Dreamers' who grew up in the U.S. have broad bipartisan public support; Trump attempted to end DACA; Supreme Court ruled the termination was improperly executed (Regents, 2020); Congress has repeatedly failed to pass permanent legislation protecting Dreamers." },
+          { term: "Nativism", definition: "The political belief that native-born citizens' interests should be prioritized over immigrants, often with an ethnic or racial dimension; a recurrent thread in American political history (Know-Nothing Party in the 1850s, 1920s immigration restriction acts, 1990s California Proposition 187); reemerged as a major political force in Trump's 2016 coalition; distinct from principled policy disagreements about immigration levels in its cultural hostility toward immigrants as a group." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-4-prd",
+    unit: 4,
+    puzzle: 3,
+    theme: { code: "PRD", name: "Civic Participation in a Representative Democracy" },
+    title: "American Political Ideologies and Beliefs",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Political Socialization Agents",
+        terms: [
+          { term: "Family", definition: "The most important agent of political socialization; children typically adopt parents' party identification and general ideological orientation before other socialization agents have much effect; the strength of parental influence varies but most people retain some family political imprint into adulthood; explains the persistence of partisan identity across generations and the difficulty of converting partisans from one party to another." },
+          { term: "Education", definition: "Schools transmit civic values (patriotism, democratic participation, rule of law) and political knowledge; higher levels of education are strongly correlated with more liberal political views in contemporary America, particularly on social issues; college education in particular is associated with liberalization; schools have become a culture war battleground over what history and values to teach — debates over critical race theory, book banning, and civics curriculum." },
+          { term: "Mass Media", definition: "Television, social media, and online news have become major political socialization agents in modern America; media consumption has become ideologically sorted (Fox News vs. MSNBC; conservative vs. liberal podcasts and websites); social media algorithms reinforce existing views through filter bubbles and engagement-maximizing content; media choice is now one of the strongest predictors of political attitudes independent of other demographic factors." },
+          { term: "Peer Groups and Social Networks", definition: "Friends, coworkers, and social circles influence political attitudes through discussion, social pressure, and shared experience; peer influence is strongest during adolescence and young adulthood; residential sorting has made social networks more politically homogeneous — people increasingly live near, work with, and are friends with those who share their political views; social pressure within homogeneous networks reinforces and amplifies political attitudes." },
+        ],
+      },
+      {
+        name: "Generational Political Differences",
+        terms: [
+          { term: "Baby Boomers (1946–1964)", definition: "Shaped by the civil rights movement, Vietnam War, and social upheaval of the 1960s–70s; politically diverse with significant conservative and liberal wings; the most politically dominant generation numerically for decades; initially more Democratic but shifted toward Republicans as they aged and economic concerns became paramount; associated with culture war politics from both the left and right." },
+          { term: "Generation X (1965–1980)", definition: "Politically skeptical, cynical about institutions, and less likely than other generations to identify strongly with either party; came of age during Reagan, Iran-Contra, and the fall of the Soviet Union; a relatively small generation politically overshadowed by Boomers and Millennials; leans slightly Republican but is electorally heterogeneous; often overlooked in generational political analysis despite holding significant leadership positions." },
+          { term: "Millennials (1981–1996)", definition: "Shaped politically by 9/11, the Iraq War, the 2008 financial crisis, and the Obama era; strongly Democratic and progressive on social issues; the most racially and ethnically diverse generation in American history to that point; hold high education levels but carry significant student debt and face housing affordability challenges; skeptical of institutions but politically engaged; the largest generational cohort in the electorate." },
+          { term: "Generation Z (1997–2012)", definition: "Coming of age politically during Trump, COVID-19, racial justice protests, and climate anxiety; the most consistently progressive generation on record; strongly supportive of LGBTQ+ rights, racial equality, and climate action; the first generation to grow up entirely with smartphones and social media; high online political engagement; voting heavily Democratic in early elections; more racially diverse than any previous American generation." },
+        ],
+      },
+      {
+        name: "Political Participation and Efficacy",
+        terms: [
+          { term: "Voter Turnout Trends", definition: "U.S. voter turnout historically lags other wealthy democracies; peaked in the early 1960s (~63% in 1960 presidential election); declined through the 1970s–80s; rebounded significantly (66.8% in 2020, highest since 1900); higher in presidential than midterm elections; strongly correlated with education, income, age, and partisan mobilization; the COVID-19 pandemic dramatically expanded mail voting in 2020, permanently changing how Americans vote." },
+          { term: "Political Efficacy", definition: "The belief that one's political participation can make a meaningful difference; internal efficacy is confidence in one's ability to understand and participate in politics; external efficacy is belief that the political system is responsive to citizen demands; lower among historically marginalized groups who have found the system unresponsive; strongly predictive of participation — people who believe they can make a difference are significantly more likely to try." },
+          { term: "Political Apathy", definition: "Disengagement from political life — not voting, not following news, not contacting officials; concentrated among young, low-income, and poorly educated citizens; driven by feelings of powerlessness, distrust of government, and cynicism about whether participation changes anything; civic education and community organizing attempt to build efficacy and combat apathy; can also represent satisfaction with the status quo among those benefiting from existing arrangements." },
+          { term: "Social Capital", definition: "Robert Putnam's concept of the networks of relationships, norms of reciprocity, and trust that enable collective action in communities; 'bowling alone' — the decline of civic associations (churches, unions, PTAs, bowling leagues) has reduced social capital since the 1960s; communities with high social capital have higher civic participation, better public health outcomes, and lower crime; social media creates 'thin' connections but reduces the 'thick' face-to-face civic relationships that build trust." },
+        ],
+      },
+      {
+        name: "How Public Opinion Forms",
+        terms: [
+          { term: "Framing Effects", definition: "The way an issue is presented dramatically affects how people respond; 'estate tax' vs. 'death tax'; 'undocumented immigrants' vs. 'illegal aliens'; 'pro-choice' vs. 'pro-abortion'; political actors strategically frame issues to activate favorable public associations and attitudes; framing effects demonstrate that public opinion is not fixed but responds to language and context — a core insight for understanding political communication and persuasion." },
+          { term: "Agenda Setting", definition: "The media's power to determine which issues receive public attention and therefore become political priorities; issues covered extensively become public concerns regardless of their objective importance; issues ignored become politically invisible; 'the media doesn't tell you what to think, it tells you what to think about'; internet and cable fragmentation mean different media ecosystems set different agendas for different ideological audiences simultaneously." },
+          { term: "Priming", definition: "The media's ability to influence which considerations people use when evaluating politicians and issues; when media intensively covers the economy, people prime economic performance when rating the president; when crime is covered, people judge politicians on crime; related to agenda setting but focused specifically on how coverage changes the criteria people use for political evaluation rather than just which issues they know about." },
+          { term: "Opinion Leaders", definition: "Individuals who disproportionately influence others' political views — politicians, pastors, celebrities, journalists, union leaders, social media influencers; the two-step flow of communication: information moves from media to opinion leaders, then from opinion leaders to less-engaged followers; political campaigns target opinion leaders to amplify their message through trusted community networks; trust in traditional opinion leaders has declined alongside institutional trust generally." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-4-pmi",
+    unit: 4,
+    puzzle: 4,
+    theme: { code: "PMI", name: "Competing Policymaking Interests" },
+    title: "American Political Ideologies and Beliefs",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Partisan Coalitions Over Time",
+        terms: [
+          { term: "New Deal Coalition", definition: "FDR's Democratic electoral coalition (1932–1968); included urban workers, labor unions, white Southerners, African Americans, Catholics, Jews, and liberal intellectuals; the most dominant coalition in American political history; collapsed as white Southerners left the Democratic Party over civil rights (the 'Southern Strategy') and working-class voters defected over cultural liberalism; its breakup defined modern partisan alignment." },
+          { term: "Reagan Coalition", definition: "Ronald Reagan's Republican electoral coalition (1980–2008); combined business conservatives, anti-tax voters, evangelical Christians, national security hawks, and working-class white ethnic voters ('Reagan Democrats'); transformed American conservatism by merging economic libertarianism, social conservatism, and military strength; the dominant Republican coalition until Tea Party and Trump movements reshuffled the party's class and cultural composition." },
+          { term: "Tea Party Movement", definition: "Grassroots conservative movement emerging in 2009 opposing the Obama stimulus, the ACA, and perceived government overreach; favored fiscal conservatism, constitutional originalism, and anti-establishment politics; elected dozens of members to Congress in 2010's 'wave' election; represented the populist right's rebellion against establishment Republicans; preceded and directly shaped Trump's takeover of the Republican Party." },
+          { term: "MAGA Coalition", definition: "Trump's 'Make America Great Again' political coalition; combines non-college white voters, nationalist conservatives, evangelical Christians, and anti-immigration voters; distinct from the Reagan coalition in its skepticism of free trade, international alliances, and globalization; has reshaped the Republican Party around immigration restriction, economic nationalism, and cultural grievance against urban professional elites; extended the party's reach among Hispanics and working-class voters of all races." },
+        ],
+      },
+      {
+        name: "Ideology and Policy Debates",
+        terms: [
+          { term: "Healthcare Policy Divide", definition: "Liberals favor universal coverage through government programs (Medicare for All) or regulated markets (ACA); conservatives prefer market-based approaches (health savings accounts, deregulation, consumer choice); the Affordable Care Act (2010) represents a liberal market-regulated compromise requiring coverage mandates and subsidies; has remained the central domestic policy battleground; the ACA's Medicaid expansion accepted by most but not all states reflects ongoing federalism conflicts." },
+          { term: "Tax Policy Divide", definition: "Conservatives favor lower taxes — especially on capital and upper incomes — arguing it stimulates investment, growth, and job creation (supply-side economics); liberals favor progressive taxation with higher rates on high incomes and wealth arguing it reduces inequality and funds public goods; the 2017 Tax Cuts and Jobs Act (Republican-only) lowered corporate and individual rates; Democrats reversed some provisions in the Inflation Reduction Act (2022)." },
+          { term: "Climate Policy Divide", definition: "One of the sharpest contemporary partisan divides; liberals see climate change as an urgent crisis requiring major government intervention — carbon taxes, clean energy mandates, international agreements; conservatives are skeptical of both the economic costs of aggressive action and government's role in the energy sector; a relatively recent partisan divide — Nixon created the EPA (1970) and both parties once supported environmental regulation." },
+          { term: "Social Safety Net Debate", definition: "Government programs providing income, healthcare, food, and housing assistance; liberals favor expanding these as rights of citizenship and counters to market inequality; conservatives favor limiting them to control federal spending and prevent dependency; the debate over whether safety net programs reduce poverty or trap people in it has continued since welfare reform in 1996; the size and scope of the safety net is a fundamental ideological dividing line." },
+        ],
+      },
+      {
+        name: "Interest Groups and Ideology",
+        terms: [
+          { term: "Business Lobby", definition: "Organized business interests (Chamber of Commerce, Business Roundtable, industry trade associations) are the most consistently powerful lobbying force in American politics; generally aligned with Republican economic policies but pragmatic — business supported the ACA's individual mandate and favors immigration for labor; the most well-funded and permanently staffed lobbying presence in Washington across all administrations and partisan configurations." },
+          { term: "Labor Unions", definition: "Workers' organizations that collectively bargain for wages, benefits, and conditions; historically the most powerful organized constituency of the Democratic Party (AFL-CIO, SEIU, UAW, Teamsters); union membership declined from 35% of the workforce in 1954 to under 10% today due to deindustrialization, globalization, and legal changes; their decline has reduced working-class political representation in the Democratic coalition and weakened a counterweight to business lobbying." },
+          { term: "Evangelical Political Organizations", definition: "Religious conservative interest groups (Family Research Council, Focus on the Family, Christian Coalition) mobilizing evangelical Christians in Republican politics; became a major political force with Jerry Falwell's Moral Majority (1979) and Reagan's support; central to the Republican coalition on abortion, LGBTQ+ issues, religious liberty, and school prayer; evangelical support (81% for Trump in 2016) has been decisive in Republican presidential victories despite tension between candidates' personal conduct and evangelical values." },
+          { term: "Progressive Advocacy Groups", definition: "Left-leaning advocacy organizations (ACLU, Sierra Club, NAACP, Planned Parenthood, unions) aligned with the Democratic Party; pursue agenda through litigation, lobbying, and electoral mobilization; some have moved left of mainstream Democrats, creating tension within the Democratic coalition; the tension between progressive advocacy groups and party moderates mirrors the tension between Tea Party/MAGA activists and Republican establishment." },
+        ],
+      },
+      {
+        name: "Political Polarization",
+        terms: [
+          { term: "Partisan Polarization", definition: "The growing ideological distance between the Democratic and Republican parties and their supporters; parties have become more internally homogeneous and more hostile to each other; the ideological overlap between moderate Democrats and moderate Republicans that characterized mid-20th century politics has virtually disappeared; affects legislative productivity, judicial appointments, public trust, and democratic stability." },
+          { term: "Affective Polarization", definition: "The intensification of negative feelings toward the opposing party beyond ideological disagreement; Americans increasingly dislike and distrust members of the other party personally, not just politically; see out-party members as threats to the nation rather than simply wrong on policy; measured by 'feeling thermometer' surveys showing dramatically widening in-party vs. out-party ratings; associated with willingness to accept norm-violating behavior by one's own side against the other." },
+          { term: "Political Sorting", definition: "The process by which social identities (race, religion, education level, geography) have become increasingly aligned with partisan identity; once Democrats and Republicans were heterogeneous coalitions with significant ideological diversity; now parties are sorted by education (college vs. non-college), race, religion, and geography (urban vs. rural); sorting makes partisan conflict feel more total because political disagreement aligns with deeper identity differences." },
+          { term: "Legislative Gridlock", definition: "The legislative paralysis produced by divided government, the filibuster, and ideological polarization; Congress has become significantly less productive as polarization has increased; major legislation typically requires unified government or extraordinary bipartisan circumstances; gridlock strengthens the executive branch as presidents act unilaterally (executive orders, regulations) when Congress cannot legislate; a systemic consequence of polarization for democratic governance." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-4-mpa",
+    unit: 4,
+    puzzle: 5,
+    theme: { code: "MPA", name: "Methods of Political Analysis" },
+    title: "American Political Ideologies and Beliefs",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Measuring Ideology and Opinion",
+        terms: [
+          { term: "Feeling Thermometer", definition: "Survey instrument asking respondents to rate their feelings toward political figures, parties, and groups on a 0–100 scale (0 = very cold/unfavorable; 100 = very warm/favorable); a more nuanced measure than approval/disapproval; the standard tool for measuring affective polarization — the gap between in-party and out-party thermometer ratings has widened dramatically since the 1990s, reflecting rising negative partisanship." },
+          { term: "Ideological Self-Identification", definition: "Survey questions asking people to place themselves on an ideological spectrum (very liberal → liberal → moderate → conservative → very conservative); the most commonly used measure of political ideology; national surveys consistently show roughly 25% liberal, 35% conservative, 35% moderate; but a blunt instrument — many self-identified 'moderates' hold strongly partisan views, and the same label means different things to different people across regions and generations." },
+          { term: "Issue Salience", definition: "How important a given issue is to a voter relative to other issues when making voting decisions; voters may agree with a party on more total issues but vote for the other party because their highest-priority issue aligns there; abortion is high-salience for single-issue voters who will cross party lines on it alone; issue salience explains why overall policy agreement doesn't perfectly predict vote choice." },
+          { term: "Cross-Pressured Voter", definition: "A voter whose views across issues align with different parties — economically liberal but socially conservative, or vice versa; in the mid-20th century many voters were cross-pressured and split their tickets; as parties have sorted ideologically, genuinely cross-pressured voters have become fewer and ticket-splitting has declined dramatically; the remaining cross-pressured voters are among the most persuadable in the electorate." },
+        ],
+      },
+      {
+        name: "Key Political Science Datasets",
+        terms: [
+          { term: "Policy Mood", definition: "James Stimson's measure of aggregate public liberalism or conservatism tracked across hundreds of survey questions over time; the public mood moves thermostically — in a direction opposite to the governing party (when Democrats govern liberally, the public mood moves right; when Republicans govern conservatively, it moves left); an important tool for understanding how public opinion responds dynamically to policy change rather than just measuring static preferences." },
+          { term: "Gender Gap", definition: "The systematic difference in political attitudes and vote choice between men and women; women have voted more Democratic than men since the 1980 election; the gap has grown in recent elections, particularly among college-educated women; driven by differences in views on social programs, healthcare, abortion, and national security; one of the most consistent and consequential demographic patterns in American electoral politics." },
+          { term: "Racial Resentment Scale", definition: "A survey measure of attitudes toward racial equality developed by political scientists Kinder and Sanders; consists of questions about work ethic, deserving government assistance, and whether discrimination remains a major barrier; scores strongly predict opposition to policies like affirmative action and welfare even controlling for ideology; controversial but widely used in political science research on the relationship between racial attitudes and policy preferences." },
+          { term: "Ideological Sorting Data", definition: "Survey data tracking the increasing correlation between partisanship and ideology over time; Pew Research found significant ideological overlap between the parties in 1994 (many conservative Democrats and liberal Republicans); by 2024 virtually no overlap remained; tracking this sorting reveals the structural causes of polarization — parties have sorted not just on policy but on race, education, geography, and religion simultaneously." },
+        ],
+      },
+      {
+        name: "Interpreting Political Data",
+        terms: [
+          { term: "Thermostatic Public Opinion", definition: "The empirical pattern in which public opinion moves in a direction opposite to government policy — the public demands less government when liberals are in power and more when conservatives are in power; Stimson's policy mood captures this dynamic; explains why governing parties often lose congressional seats in midterm elections; suggests the public exercises a corrective function in democratic systems even without close attention to specific policies." },
+          { term: "Ecological Fallacy", definition: "The error of drawing conclusions about individuals from aggregate (group-level) data; if a county votes 70% Republican and has high unemployment, you cannot conclude that unemployed individuals are voting Republican — many other individuals in the county also voted Republican; a critical caution when interpreting precinct-level, county-level, or district-level electoral data; requires individual-level survey data to make inferences about individual voter behavior." },
+          { term: "Median Voter Theorem", definition: "Anthony Downs's theoretical prediction that in a two-party system, rational vote-maximizing parties should converge on the policy preferences of the median (middle) voter; predicts centrist policy convergence; in practice, primary elections dominated by ideological activists pull candidates away from the median; nonetheless the theorem shapes how campaigns think about winning persuadable voters in general elections." },
+          { term: "Retrospective Voting", definition: "Voting based on the incumbent's past performance rather than future promises; voters reward the incumbent party when times are good and punish it when times are bad, particularly on the economy; sometimes called 'pocketbook voting'; the simplest and most consistent model of how most voters actually behave; explains why presidential approval ratings track closely with economic conditions and why 'it's the economy, stupid' endures as political wisdom." },
+        ],
+      },
+      {
+        name: "Analyzing Ideology with Documents",
+        terms: [
+          { term: "Federalist No. 10 Revisited", definition: "Madison's argument that factions (interest groups and ideological movements) are inevitable in a free society and cannot be eliminated without destroying liberty; the solution is not to prevent factions but to manage their effects through a large republic where no single faction can dominate; directly relevant to understanding modern political polarization — Madison anticipated intense partisan conflict but designed institutions to channel rather than resolve it." },
+          { term: "Party Platforms", definition: "Official statements of a party's positions and values, adopted at national conventions; a primary source for analyzing ideological change over time; comparison of platforms across decades reveals how dramatically party positions on race, economic policy, trade, and social issues have shifted; platforms serve as signals to voters and activists and as commitments that party leaders are expected to pursue in office." },
+          { term: "Political Speeches as Primary Sources", definition: "Major political speeches (FDR's First Inaugural, Reagan's First Inaugural, MLK's 'I Have a Dream,' Obama's 2004 DNC Keynote) are primary sources for analyzing ideological content and rhetorical strategy; AP Gov analysis requires identifying the speaker's ideological position, intended audience, rhetorical appeals (logos, ethos, pathos), and historical context; the language choices themselves reveal ideological framing." },
+          { term: "Brutus No. 1 Revisited", definition: "The Anti-Federalist essay warning that a large, diverse republic could not maintain democratic self-governance; feared factions would become so numerous and powerful that only a strong central government could manage them — but that strong government would inevitably oppress the people; provides an Anti-Federalist counterpoint to Madison's optimism about managing factions; still relevant to modern debates about whether large democracies can sustain meaningful self-governance." },
+        ],
+      },
+    ],
+  },
+
+  // ── AP GOV UNIT 5: Political Participation ────────────────────────────────
+
+  {
+    id: "apgov-unit-5-con",
+    unit: 5,
+    puzzle: 1,
+    theme: { code: "CON", name: "Constitutionalism" },
+    title: "Political Participation",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Constitutional Election Framework",
+        terms: [
+          { term: "Elections Clause", definition: "Article I, Section 4 grants states primary authority to set the time, place, and manner of federal elections, but Congress can override state regulations; the basis for federal laws like the Voting Rights Act and Help America Vote Act; reflects the Constitution's federalist approach to elections — states administer them but Congress sets the floor of requirements." },
+          { term: "17th Amendment (1913)", definition: "Required direct popular election of U.S. Senators; previously senators were chosen by state legislatures as Madison intended, insulating them from popular pressure; the Progressive Era reform responding to widespread corruption in state legislatures; made senators directly accountable to voters; changed the Senate's character from a body insulated from popular opinion to one more responsive to electoral pressure." },
+          { term: "Electoral College", definition: "Article II mechanism for presidential election; each state receives electors equal to its congressional delegation (House + Senate seats); 538 total electors, 270 needed to win; winner-take-all rules in 48 states concentrate campaigns in competitive states; designed by Framers to filter popular passion through informed electors; has twice in recent memory produced a winner who lost the popular vote (2000, 2016)." },
+          { term: "Congressional Apportionment", definition: "Article I requires a census every 10 years to reapportion the 435 House seats among states based on population; Wesberry v. Sanders (1964) required House districts to be equal in population ('one person, one vote'); drives redistricting battles every decade as states redraw district lines; a fundamental mechanism connecting democratic representation to population change." },
+        ],
+      },
+      {
+        name: "Campaign Finance and the First Amendment",
+        terms: [
+          { term: "Buckley v. Valeo (1976)", definition: "Supreme Court ruled that limiting political expenditures is equivalent to limiting speech; upheld limits on direct contributions to candidates (corruption risk) but struck down limits on independent expenditures (no direct corruption risk); established the foundational principle that money = speech under the First Amendment; every subsequent campaign finance decision builds on this framework." },
+          { term: "Citizens United v. FEC (2010)", definition: "Supreme Court ruled 5-4 that corporations and unions have First Amendment rights to make unlimited independent expenditures in elections; overturned decades of campaign finance restrictions on corporate spending; led directly to the creation of Super PACs; one of the most politically consequential and controversial Supreme Court decisions of the 21st century — Justice Stevens' dissent warned it would 'undermine the integrity of elected institutions.'" },
+          { term: "McCutcheon v. FEC (2014)", definition: "Supreme Court struck down aggregate limits on how much a single donor can give to all federal candidates and party committees combined in a single election cycle; ruled that only quid pro quo corruption — not the general influence of large donors — is a sufficient interest to justify contribution limits; further loosened campaign finance restrictions for wealthy donors who want to give to many candidates simultaneously." },
+          { term: "Super PAC", definition: "Political committees created in the wake of Citizens United that can raise unlimited amounts from corporations, unions, and individuals for independent expenditures supporting or opposing candidates; cannot legally coordinate directly with campaigns; must disclose donors to the FEC; have become the dominant vehicle for large-donor political spending; transformed the campaign finance landscape by creating an outside spending arms race." },
+        ],
+      },
+      {
+        name: "Redistricting and Representation",
+        terms: [
+          { term: "Baker v. Carr (1962)", definition: "Supreme Court ruled that federal courts have jurisdiction to hear legislative apportionment challenges; established that malapportionment is a justiciable question, not a 'political question' courts must avoid; opened the door to the 'one person, one vote' revolution; Justice Frankfurter's famous dissent warned the Court was wading into a 'political thicket' from which it could not extract itself." },
+          { term: "Shaw v. Reno (1993)", definition: "Supreme Court ruled that racial gerrymandering — drawing district lines primarily based on race — can violate the Equal Protection Clause even when the purpose is to create majority-minority districts to increase minority representation; established that district shapes so irregular they can only be explained as racial classification trigger strict scrutiny; created ongoing tension between VRA requirements to create minority districts and equal protection limits on racial classification." },
+          { term: "Rucho v. Common Cause (2019)", definition: "Supreme Court ruled 5-4 that federal courts cannot review partisan gerrymandering claims; held that partisan gerrymandering is a political question beyond federal judicial reach; left regulation of partisan gerrymandering entirely to state courts (which have acted in some states) and state legislatures; several states have since adopted independent redistricting commissions to reduce partisan map-drawing." },
+          { term: "Gerrymandering", definition: "Drawing legislative district lines to advantage one party (partisan gerrymandering) or dilute minority voting power (racial gerrymandering); named after Governor Elbridge Gerry whose 1812 Massachusetts district looked like a salamander; partisan gerrymandering is not reviewable by federal courts (Rucho); racial gerrymandering is constitutionally restricted; independent redistricting commissions in some states attempt to produce fairer maps." },
+        ],
+      },
+      {
+        name: "Voting Rights Law",
+        terms: [
+          { term: "National Voter Registration Act (1993)", definition: "The 'Motor Voter' Act; required states to offer voter registration at motor vehicle agencies, public assistance offices, and disability service offices; made voter registration significantly more accessible for people interacting with government agencies; states must also maintain accurate voter rolls without improper purges; a major expansion of voter registration access that added millions to the rolls." },
+          { term: "Help America Vote Act (2002)", definition: "Federal election reform law passed after the 2000 Florida recount controversy; established minimum standards for voting systems, required provisional ballots for voters whose registration is in question, mandated first-time voters show ID, and created the Election Assistance Commission; modernized many state voting systems; an example of Congress using the Elections Clause to set floor standards for state-administered elections." },
+          { term: "Crawford v. Marion County (2008)", definition: "Supreme Court upheld Indiana's photo voter ID requirement; ruled that states have a legitimate interest in preventing voter fraud sufficient to justify the modest burden of obtaining photo ID; the controlling precedent used by states defending voter ID laws; critics argue documented in-person voter fraud is extremely rare and ID requirements disproportionately burden minority, elderly, low-income, and student voters who are less likely to possess the required documents." },
+          { term: "Brnovich v. DNC (2021)", definition: "Supreme Court upheld two Arizona voting restrictions — disqualifying ballots cast in the wrong precinct, and banning third-party ballot collection; adopted a permissive new framework for evaluating voting restrictions under Section 2 of the VRA; significantly weakened the VRA as a tool for challenging voting restrictions after Shelby County had already gutted pre-clearance; a major shift toward deference to states in voting rights cases." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-5-lo",
+    unit: 5,
+    puzzle: 2,
+    theme: { code: "LO", name: "Liberty and Order" },
+    title: "Political Participation",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Voting Access vs. Election Integrity",
+        terms: [
+          { term: "Voter ID Laws", definition: "Requirements that voters present government-issued photo identification at polling places; proponents argue they prevent impersonation fraud and boost confidence in elections; critics cite studies finding documented in-person voter fraud is extremely rare (a 2014 study found 31 credible cases out of 1 billion votes cast) and that ID requirements disproportionately burden minority, elderly, low-income, and student voters; upheld in Crawford v. Marion County (2008)." },
+          { term: "Voter Roll Purges", definition: "State removal of registered voters from the rolls, ostensibly to maintain accuracy by removing deceased voters and those who have moved; aggressive purges can remove eligible voters shortly before elections; Georgia's program removed over 300,000 registrations in 2018; the National Voter Registration Act sets procedural requirements for purges (notice, waiting periods); a significant source of disenfranchisement when conducted improperly or aggressively." },
+          { term: "Early Voting and Mail Voting", definition: "Mechanisms allowing voters to cast ballots before or without appearing at a polling place on Election Day; expanded dramatically in recent decades; mail voting became dominant in many states during COVID-19 in 2020 (approximately 46% of votes cast by mail); supported by Democrats as expanding access; contested by some Republicans as introducing fraud risk; the subject of significant post-2020 state legislation restricting or expanding these mechanisms." },
+          { term: "Automatic Voter Registration", definition: "System in which eligible citizens are automatically registered to vote when they interact with government agencies (DMV, etc.) unless they opt out; adopted by 20+ states; proponents argue it modernizes the registration system and reduces barriers; maintains voter rolls more accurately; typically implemented by states through administrative action; a major reform increasing registration rates particularly among young and lower-income citizens." },
+        ],
+      },
+      {
+        name: "Money, Speech, and Democracy",
+        terms: [
+          { term: "Hard Money", definition: "Donations made directly to candidates, subject to FEC contribution limits (individuals can give up to $3,300 per candidate per election in 2024); must be disclosed; regulated to prevent direct quid pro quo corruption; the traditional regulated form of campaign contribution; contrasted with independent expenditures (Super PACs) and dark money (501(c)(4)s) that face fewer or no contribution limits." },
+          { term: "Dark Money", definition: "Political spending by 501(c)(4) nonprofit organizations that do not disclose their donors; legally must have a primary purpose other than electoral activity but can spend significantly on elections; not subject to FEC disclosure requirements; has grown from tens of millions in 2010 to hundreds of millions per election cycle; allows billionaires and corporations to influence elections without public attribution; the most opaque form of political money in American democracy." },
+          { term: "Coordination Prohibition", definition: "The legal rule that Super PACs and other outside groups cannot directly coordinate with the candidate campaigns they support; coordination transforms independent expenditures into legally regulated direct contributions; but enforcement is weak — former campaign staff routinely run Super PACs 'independently' supporting their former candidates, share vendor relationships, and communicate through publicly posted memos; widely seen as a legal fiction enabling unlimited outside spending." },
+          { term: "BCRA (McCain-Feingold, 2002)", definition: "Bipartisan Campaign Reform Act; banned unlimited 'soft money' donations to national political parties; restricted 'electioneering communications' — broadcast ads mentioning candidates — in the 60 days before a general election; significantly reduced party soft money and issue advocacy spending; key provisions were gutted by Citizens United (2010), which struck down limits on corporate electioneering communications." },
+        ],
+      },
+      {
+        name: "Electoral Systems and Participation Rights",
+        terms: [
+          { term: "Winner-Take-All (Plurality)", definition: "The American electoral system where the candidate with the most votes wins regardless of whether they have a majority; also called First Past the Post; tends to produce two-party systems (Duverger's Law) because voters fear 'wasting' votes on third parties that cannot win; third-party candidates can be 'spoilers' affecting outcomes without winning (Nader in 2000, Perot in 1992); contrasts with proportional representation used in most democracies." },
+          { term: "Ranked Choice Voting", definition: "Electoral system where voters rank candidates by preference; if no candidate wins a majority in the first round, the last-place candidate is eliminated and those voters' second choices are counted; continues until someone reaches a majority; eliminates the spoiler effect; used in Maine, Alaska, and many cities; a growing reform movement; produces different strategic incentives for candidates who must appeal broadly rather than only to their partisan base." },
+          { term: "Felon Disenfranchisement", definition: "Policies denying voting rights to people with felony convictions; 48 states restrict voting for incarcerated people; many also restrict those on parole or probation; Florida, Iowa, and Kentucky permanently disenfranchise absent individual restoration; approximately 5.2 million Americans disenfranchised; a disproportionate racial impact because of racial disparities in incarceration; states have moved in different directions — Maine and Vermont allow incarcerated people to vote." },
+          { term: "Majority-Minority District", definition: "A legislative district in which racial or ethnic minority voters constitute a majority of the electorate; created under Voting Rights Act to enable minority representation in Congress; has significantly increased Black and Hispanic congressional representation; subject to constitutional challenge under Shaw v. Reno (1993) as racial gerrymandering; the tension between creating minority representation and the Equal Protection Clause's limits on racial classification remains unresolved." },
+        ],
+      },
+      {
+        name: "Representation Rights",
+        terms: [
+          { term: "Descriptive Representation", definition: "The degree to which a legislative body demographically resembles the population it represents — proportional representation by race, sex, ethnicity; Congress has historically been much whiter, more male, and wealthier than the overall population, though diversity has increased; advocates argue descriptive representatives better understand constituents' lived experiences and are more trusted by underrepresented communities; critics argue good representatives can advocate for any constituent." },
+          { term: "Substantive Representation", definition: "Whether legislators actually advance the interests of the groups they represent, regardless of the legislators' own demographics; a white male congressman could provide substantive representation to women and minorities if he supports their policy priorities; the two types can diverge — a minority member might not vote for minority policy interests if party pressures dominate; raises the question of whether descriptive representation is necessary for substantive representation." },
+          { term: "Safe Seat", definition: "A legislative district where one party dominates so consistently that the general election is essentially predetermined; the primary election effectively determines who wins; incumbents in safe seats are primarily accountable to their party's base voters who participate in primaries rather than general election voters; gerrymandering deliberately creates safe seats; safe seats contribute to polarization by insulating incumbents from general-election accountability to the median voter." },
+          { term: "Delegate vs. Trustee Model", definition: "Two theories of legislative representation; the delegate model holds legislators should vote according to constituents' expressed preferences — faithfully transmitting constituent wishes; Edmund Burke's trustee model holds legislators should use their own informed judgment about what is best for constituents and the nation; most legislators use a mix — following constituents closely on salient local issues and exercising more independence on complex national policy questions." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-5-prd",
+    unit: 5,
+    puzzle: 3,
+    theme: { code: "PRD", name: "Civic Participation in a Representative Democracy" },
+    title: "Political Participation",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Political Parties",
+        terms: [
+          { term: "Two-Party System", definition: "The dominance of Democratic and Republican parties in American politics; reinforced by winner-take-all electoral rules (Duverger's Law), ballot access restrictions requiring signature gathering, campaign finance advantages, and voters' strategic fear of wasting votes on unelectable third-party candidates; both parties function as broad coalitions incorporating diverse interests rather than ideologically pure movements." },
+          { term: "Party Realignment", definition: "A fundamental shift in which social groups align with which party, occurring at rare historical moments; the New Deal realignment (1932) built Democratic dominance; the civil rights realignment (1964–1984) moved white Southerners to Republicans and African Americans solidly to Democrats; the ongoing education realignment (2012–present) has moved college-educated voters toward Democrats and non-college voters toward Republicans." },
+          { term: "Third Parties", definition: "Parties outside the dominant two-party system; face structural barriers including winner-take-all elections, ballot access requirements, exclusion from televised debates, and the spoiler dynamic; have included Populists (1890s), Progressives (1912), Reform Party (Perot 1992–96), Libertarians, and the Green Party; third parties sometimes influence outcomes as spoilers and push their issues into the mainstream by threatening to siphon votes." },
+          { term: "Primary Elections", definition: "Intraparty elections determining which candidates advance to the general election; low-turnout primaries are dominated by ideologically intense activists who tend to pull nominees toward their party's ideological base; closed primaries (registered party members only) intensify this effect; incumbents increasingly fear primary challenges from their party's ideological wing more than general election defeat; primaries are the main mechanism through which activists control the nomination process." },
+        ],
+      },
+      {
+        name: "Campaigns and Elections",
+        terms: [
+          { term: "Midterm Elections", definition: "Congressional elections held two years into a presidential term; the president's party almost always loses House seats (average 25 seats and 4 Senate seats); attributed to 'surge and decline' — presidential-year enthusiasm doesn't carry over — and to voters' opportunity to register a midterm verdict on the president; midterms can dramatically reshape congressional power (1994 Republican Revolution, 2006 Democratic wave, 2010 Tea Party, 2018 Democratic House majority)." },
+          { term: "Ground Game vs. Air War", definition: "Two main campaign strategies; the 'ground game' is field organizing — voter registration, door-to-door canvassing, phone banking, and get-out-the-vote operations using detailed voter data; the 'air war' is paid advertising — TV, radio, digital, and social media ads; both matter in competitive elections; modern ground games use sophisticated voter data analytics; digital advertising has largely displaced broadcast TV for reaching younger voters." },
+          { term: "October Surprise", definition: "A significant revelation or event occurring in October of an election year, close enough to the election to affect the outcome without time for recovery or rebuttal; examples include the FBI's October 2016 announcement of renewed Clinton email investigation, the 2005 Access Hollywood tape releasing in early October 2016, and the 1980 Iran hostage release timed for Reagan's inauguration; campaigns maintain opposition research ready to release at strategically optimal moments." },
+          { term: "Microtargeting", definition: "Data-driven campaign strategy using detailed voter files — purchase history, consumer behavior, social media activity, voting history — to identify persuadable voters and customize messages to their specific concerns and values; the Obama 2012 campaign pioneered sophisticated voter data analytics; Cambridge Analytica's 2016 Facebook data harvesting raised concerns about privacy and psychological manipulation; transforms campaigns from broadcast communication to personalized persuasion at scale." },
+        ],
+      },
+      {
+        name: "Interest Groups",
+        terms: [
+          { term: "Political Action Committee (PAC)", definition: "Organization that collects money from members and donates to candidates within FEC contribution limits ($5,000 per candidate per election); most major corporations, unions, and interest groups have traditional PACs; coordinated with campaigns (unlike Super PACs); subject to full FEC disclosure; the traditional regulated vehicle for organized interest group electoral activity; Super PACs have eclipsed traditional PACs in spending importance since Citizens United." },
+          { term: "501(c)(4) Organization", definition: "Tax-exempt 'social welfare' nonprofits that can engage in significant electoral activity without disclosing donors; NRA's Institute for Legislative Action, AARP's advocacy arm, Planned Parenthood Action Fund, and many ideological groups use this structure; the primary source of 'dark money' in politics; must have a primary purpose other than electoral activity but significant election spending is permitted; named for their IRS tax code section." },
+          { term: "Astroturfing", definition: "Manufactured campaigns funded by corporations or wealthy interests but designed to look like spontaneous grassroots citizen action; the term derives from AstroTurf — fake grass; the fossil fuel industry's funding of climate denial citizen front groups is a classic example; social media has made astroturfing easier and more difficult to detect; fundamentally deceptive because it misrepresents the source and breadth of support for a political position." },
+          { term: "Revolving Door", definition: "The movement of individuals between government positions (congressional staff, agency officials, White House advisors) and private sector lobbying or industry jobs; former officials command high lobbying salaries because of relationships and expertise; raises concerns that officials make decisions with an eye toward future employment; regulated by cooling-off periods (typically 1–2 years) that critics argue are inadequate to prevent the conflict of interest from shaping government decisions." },
+        ],
+      },
+      {
+        name: "Media and Political Communication",
+        terms: [
+          { term: "Horse Race Journalism", definition: "Media coverage focused on who is winning or losing in polls and campaign strategy rather than substantive policy differences; treats campaigns like sporting events with odds, momentum, and turning points; criticized for crowding out policy substance; driven by audience preferences for competition narratives and the ease of covering poll numbers vs. complex policy; the rise of prediction markets and polling aggregators has intensified horse race coverage." },
+          { term: "Attack Advertising", definition: "Campaign ads criticizing opponents rather than promoting the candidate; research shows attack ads are more effective at changing voter attitudes than positive ads because negative information carries more psychological weight (negativity bias); used more heavily in the final weeks of close races; Super PAC attack ads allow candidates to maintain 'clean hands' while benefiting from negative messaging — the candidate runs positive ads while the Super PAC attacks." },
+          { term: "Social Media Campaigning", definition: "The use of Twitter/X, Facebook, Instagram, TikTok, and YouTube for political messaging, fundraising, and voter mobilization; dramatically reduced the cost of mass communication and enabled direct candidate-voter communication bypassing traditional media filters; Trump's Twitter use demonstrated social media's ability to set the news agenda; viral moments can reach millions without paid advertising; has enabled small-dollar fundraising at unprecedented scale." },
+          { term: "Filter Bubble", definition: "The phenomenon in which algorithms on social media and news platforms show users content that confirms their existing beliefs, reinforcing their worldview while hiding contrary perspectives; Eli Pariser's concept from 2011; amplified by engagement-maximizing algorithms that prioritize emotionally resonant and outrage-inducing content; contributes to the sense that people live in different information realities; a structural driver of political polarization in the social media era." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-5-pmi",
+    unit: 5,
+    puzzle: 4,
+    theme: { code: "PMI", name: "Competing Policymaking Interests" },
+    title: "Political Participation",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Elections and Policy Outcomes",
+        terms: [
+          { term: "Electoral Mandate", definition: "The claim by a newly elected president or party that their victory represents popular approval for their specific policy agenda; rarely fully justified — voters choose among candidates for many reasons beyond policy agreement; but an effective rhetorical device for legitimizing aggressive early action; the size and circumstances of the victory affect mandate credibility (Reagan's 1980 landslide was more convincing than Clinton's 1992 43% plurality victory)." },
+          { term: "Unified vs. Divided Government", definition: "Unified government (same party controls presidency and both chambers) enables more aggressive policy change; divided government often produces gridlock but sometimes forces bipartisan compromise on major issues; major transformative legislation typically passes under unified government (New Deal, Great Society, Reagan tax cuts, ACA, Trump tax cuts); divided government is the more common condition in modern American politics due to partisan sorting and ticket-splitting's decline." },
+          { term: "Electoral Cycle and Policy", definition: "Politicians' behavior responds to the electoral calendar; presidents pursue ambitious legislation in their first two years (honeymoon period) before midterm losses often end unified government; members of Congress avoid controversial votes in election years; lame duck periods (between election and inauguration) sometimes allow legislation that would be impossible otherwise; the 2-year House cycle creates constant incentives for base mobilization over moderate governance." },
+          { term: "Policy Window", definition: "John Kingdon's theory that three streams must align for new policy to be enacted: a recognized problem, a politically viable solution, and a political moment (crisis, election, shift in opinion) that opens an opportunity; windows are brief and policy entrepreneurs must be ready; elections are major policy windows — the ACA was possible because 2008 produced a Democratic president, 60-vote Senate, and House majority simultaneously." },
+        ],
+      },
+      {
+        name: "Money and Policy",
+        terms: [
+          { term: "Access and Influence", definition: "The primary mechanism through which campaign contributions affect policy; large donors do not typically secure explicit quid pro quo policy commitments (bribery) but do gain access — their phone calls are returned, their meetings are granted, their concerns are heard; access allows donors to communicate their preferences and concerns before decisions are made; a subtler but more pervasive form of money's influence on policy than outright corruption." },
+          { term: "Dark Money Policy Impact", definition: "Anonymous political spending through 501(c)(4) nonprofits allows donors to support candidates and causes without public disclosure; dark money spending has grown from tens of millions in 2010 to over $1 billion in recent election cycles; the anonymity makes it impossible to trace potential connections between donors' financial interests and policy outcomes; prevents voters from evaluating whether their representatives have conflicts of interest." },
+          { term: "Small Dollar Fundraising", definition: "Online fundraising from many small donors (under $200) as an alternative to dependence on major donors; Obama's 2008 campaign pioneered online small-dollar fundraising; Bernie Sanders demonstrated candidates could raise enormous sums from small donors with no single large donor; small-dollar fundraising makes candidates more financially independent of wealthy interests but can empower ideological base activists who give repeatedly and push candidates toward the party's ideological extreme." },
+          { term: "Independent Expenditure Campaigns", definition: "Spending by Super PACs and other outside groups to support or oppose candidates without legal coordination with campaigns; has grown dramatically since Citizens United; outside spending exceeded $3 billion in 2020; often more negative and extreme than official campaign messaging since the candidate maintains plausible deniability; has created a system where candidates' nominal fundraising is dwarfed by outside spending on their behalf." },
+        ],
+      },
+      {
+        name: "Interest Groups and Policy",
+        terms: [
+          { term: "Iron Triangle (Revisited)", definition: "The stable mutually beneficial policy alliance among a congressional committee, the relevant executive agency, and the associated interest group; the committee funds the agency and passes favorable legislation, the agency implements favorable regulations, the interest group provides campaign support, electoral mobilization, and information; still describes policymaking in some areas (defense contracting, agriculture subsidies) but issue networks better describe most modern complex policymaking." },
+          { term: "Lobbying Disclosure", definition: "Federal law (Lobbying Disclosure Act 1995, Honest Leadership Act 2007) requiring lobbyists to register with Congress and disclose their clients, the issues lobbied, and compensation received above a threshold; transparency requirement allowing public scrutiny of who is lobbying whom on what issues; critics argue disclosure is inadequate because it doesn't capture all lobbying activity and doesn't reveal the content of communications." },
+          { term: "Issue Network", definition: "Loose, fluid networks of people and organizations sharing policy expertise in a given area, including academics, journalists, think tanks, advocacy groups, congressional staffers, and agency officials; more open and permeable than iron triangles; anyone with relevant expertise can participate; better describes modern policymaking in complex areas like healthcare, environmental regulation, and financial policy where no closed three-sided alliance can manage the complexity." },
+          { term: "Ballot Measure Strategy", definition: "Interest groups use ballot initiatives and referendums to achieve policy goals that legislatures won't pass, build voter base turnout, and set national agendas; anti-same-sex marriage amendments in 11 states in 2004 boosted conservative turnout; abortion ballot measures in 2022 and 2024 dramatically boosted Democratic turnout; ballot measures transform elections into direct policy referendums and demonstrate that organized interests can make direct democracy a policymaking tool." },
+        ],
+      },
+      {
+        name: "Representation and Responsiveness",
+        terms: [
+          { term: "Constituency Influence", definition: "The empirical finding that legislators' roll-call votes are related to their constituents' policy preferences; stronger for highly salient issues where constituents are paying attention and engaged; weaker for low-salience issues where legislators exercise more discretion; the relationship between constituency opinion and legislator behavior is the empirical foundation for democratic accountability — constituents influence their representatives through elections and monitoring." },
+          { term: "Descriptive vs. Substantive Representation", definition: "Descriptive representation means the legislature demographically mirrors the population (race, sex, class); substantive representation means legislators advance constituents' policy interests regardless of shared demographics; research finds both matter — descriptive representatives are more trusted by their communities and tend to prioritize issues affecting underrepresented groups, but exceptional descriptive representatives can provide substantive representation across demographic differences." },
+          { term: "Pork Barrel Spending", definition: "Government spending directed to specific districts or states primarily to benefit the member of Congress who secured it rather than on national merit; also called 'earmarks'; defended as legitimate constituent service — local infrastructure, university research grants, military base funding; Congress banned earmarks from 2011 to 2021; restored in 2021 with new disclosure requirements; a mechanism through which legislators exchange votes and reward constituents." },
+          { term: "Initiative and Referendum", definition: "Direct democracy mechanisms allowing voters to make policy or constitutional changes directly, bypassing the legislature; used to pass policies legislatures have been unwilling to enact (minimum wage increases, marijuana legalization, abortion protections and restrictions, redistricting reform); sometimes used by well-funded special interests to write favorable policies into law; a significant policymaking venue in the 26 states with these mechanisms." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "apgov-unit-5-mpa",
+    unit: 5,
+    puzzle: 5,
+    theme: { code: "MPA", name: "Methods of Political Analysis" },
+    title: "Political Participation",
+    subject: "AP Gov",
+    groups: [
+      {
+        name: "Electoral Data Analysis",
+        terms: [
+          { term: "Swing State Analysis", definition: "Identification of competitive states where neither party has a reliable structural advantage and where Electoral College outcomes are determined; winner-take-all rules make these states the almost exclusive focus of presidential campaigns in time, money, and candidate visits; the universe of genuine swing states has shrunk as partisan sorting has made most states reliably red or blue — recent elections contested in fewer than 10 states." },
+          { term: "Generic Ballot", definition: "A survey question asking voters which party they prefer to control Congress ('Do you prefer a Democrat or Republican in your congressional district?'); used to predict midterm election outcomes; large generic ballot advantages translate to wave elections; the generic ballot has become a more accurate predictor as congressional races have nationalized around party brand rather than individual candidate quality; measured continuously by polling aggregators throughout the election cycle." },
+          { term: "Turnout Model", definition: "Statistical models predicting which registered voters will actually vote on Election Day; campaigns use individual-level propensity scores (probability a specific voter will turn out) built from past voting history (strongest predictor), party registration, age, and issue engagement; enable campaigns to focus mobilization resources on high-persuasion, high-propensity voters; modern campaigns can model individual voter turnout probability with significant accuracy." },
+          { term: "Precinct-Level Analysis", definition: "Breaking down election results by small geographic units (precincts of typically a few hundred voters) to understand fine-grained voting patterns; reveals how voting behavior varies by neighborhood type (urban/suburban/rural), demographic composition, and local economic conditions; used by campaigns for geographic targeting; spatial analysis reveals the dramatic geographic polarization of American elections — cities deeply Democratic, rural areas deeply Republican, suburbs the contested battleground." },
+        ],
+      },
+      {
+        name: "Predicting Electoral Outcomes",
+        terms: [
+          { term: "Economic Voting Model", definition: "The empirical pattern in which incumbent parties are rewarded when the economy grows and punished when it contracts; GDP growth, unemployment, and consumer confidence in the months before an election are strong predictors of the incumbent party's vote share; 'It's the economy, stupid' (Carville, 1992); works best as an aggregate model — individual voters are often misinformed about economic conditions but aggregate electoral outcomes reflect economic reality." },
+          { term: "Presidential Approval as Predictor", definition: "Presidential approval ratings in October of midterm election years are among the strongest predictors of congressional seat changes; approval below 50% reliably produces significant midterm losses for the president's party; Obama (41% approval) lost 63 House seats in 2010; Trump (41% approval) lost 40 House seats in 2018; data demonstrates the structural relationship between presidential popularity and midterm outcomes regardless of individual candidate quality." },
+          { term: "Retrospective Voting", definition: "Casting votes based on the incumbent's past performance rather than future promises; voters reward the incumbent party when times are good and punish it when times are bad; sometimes called 'pocketbook voting' when focused on personal financial conditions; the most consistent model of how most ordinary voters actually behave; explains why campaigns obsessively track consumer sentiment and economic indicators in the months before elections." },
+          { term: "Median Voter Theorem", definition: "Anthony Downs's theoretical prediction that in a two-party system, vote-maximizing parties should converge on the policy preferences of the median (middle) voter; predicts centrist policy convergence; but primary elections dominated by ideological activists pull candidates away from the median before the general election; nonetheless shapes how campaigns think about winning persuadable voters in the general election without alienating the base." },
+        ],
+      },
+      {
+        name: "Campaign Research Methods",
+        terms: [
+          { term: "Canvassing Experiments", definition: "Randomized controlled trials testing the effectiveness of door-to-door canvassing on voter turnout and persuasion; the gold standard for evaluating campaign tactics; research consistently shows in-person canvassing is the most effective voter contact method; phone banking and direct mail are significantly less effective; social media contact has uncertain effects; evidence-based campaign management has transformed how campaigns allocate limited resources." },
+          { term: "Voter File Analysis", definition: "Databases of registered voters with information on voting history, party registration, consumer behavior, and demographics maintained by parties, campaigns, and commercial data firms; enable campaigns to identify persuadable voters and reliable partisans; used to build turnout models and target canvassing resources; the sophistication of voter data analytics has dramatically improved since Obama's 2012 campaign built its vaunted data operation." },
+          { term: "Focus Groups", definition: "Small-group discussions used by campaigns to test messages, ads, and candidate responses before deployment; qualitative research revealing why voters think what they think, not just what they think; used alongside polling to develop effective messaging strategy; famous focus group-tested political messages include 'death tax' (for estate tax) and 'climate change' (softer than 'global warming'); reveal emotional and associational content of political messages that surveys miss." },
+          { term: "A/B Testing", definition: "Digital campaign technique of randomly showing different groups of users different versions of ads, emails, or web pages to determine which performs better; pioneered by the Obama 2012 digital operation; allows campaigns to optimize fundraising emails (subject line, donation ask amount, imagery) and ad creative in real time based on actual response data; one of the most significant methodological innovations in modern political campaigning." },
+        ],
+      },
+      {
+        name: "Required Documents Applied to Participation",
+        terms: [
+          { term: "Federalist No. 10 and Factions", definition: "Madison's argument that factions (interest groups, parties, movements) are inevitable and cannot be eliminated without destroying liberty; the solution is managing their effects through a large republic where no single faction can dominate; directly applicable to analyzing modern interest group lobbying, campaign finance, and partisan polarization — Madison anticipated intense factional conflict but underestimated how organized money would amplify certain factions over others." },
+          { term: "Citizens United Opinion", definition: "Justice Kennedy's majority opinion that corporations have First Amendment speech rights and that independent political expenditures cannot be constitutionally limited; Justice Stevens' dissent warning it would 'unleash a torrent of corporate money in our elections' and undermine democratic legitimacy; reading both opinions reveals the fundamental tension between First Amendment values and democratic equality that underlies all campaign finance debates — a required analytical exercise in AP Gov." },
+          { term: "Brutus No. 1 and Representation", definition: "The Anti-Federalist argument that a large republic cannot sustain genuine representative democracy because representatives will be too few and too distant from constituents to truly know or reflect their interests; that factions in a large republic will organize and capture government; applies to modern debates about whether money in politics has made Congress more accountable to donors than to constituents — a validation of Brutus's concerns about factional capture." },
+          { term: "Federalist No. 51 and Participation", definition: "Madison's argument that 'ambition must be made to counteract ambition' and that the constitutional structure (separation of powers, federalism) protects liberty through institutional competition; applied to participation, the question is whether institutional safeguards remain adequate when one party controls all three branches; when the constitutional structure alone is insufficient, democratic participation — voting, organizing, petitioning — becomes essential for maintaining the balance the Constitution was designed to create." },
+        ],
+      },
+    ],
+  },
+
 ];
 
 export function getGameByUnit(unit: number, subject?: string): GameSet | undefined {
