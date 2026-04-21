@@ -52,7 +52,7 @@ const About = () => {
               <div className="border-t border-border pt-4">
                 <p className="text-sm font-bold text-foreground">Lily Grodin</p>
                 <p className="mt-0.5 text-sm text-muted-foreground leading-relaxed">
-                  The concept started with Lily Grodin, whose idea sparked the entire project. She leads creative direction and social media, shaping the overall vision behind PYT Games.
+                  The concept started with Lily Grodin, whose idea sparked the entire project. She leads social media.
                 </p>
               </div>
             </div>
