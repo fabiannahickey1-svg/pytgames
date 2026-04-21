@@ -1,9 +1,10 @@
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import { GameSet, GameGroup } from "@/data/gameSets";
 import GameTile from "./GameTile";
 import SolvedGroup from "./SolvedGroup";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { trackEvent } from "@/lib/analytics";
 
 interface ConnectionsGameProps {
   gameSet: GameSet;
@@ -36,6 +37,15 @@ const ConnectionsGame = ({ gameSet, onWin, onNextUnit, onNextUnitLabel, onTryAga
   const [message, setMessage] = useState("");
   const [hintsUsed, setHintsUsed] = useState(0);
   const [hintMessage, setHintMessage] = useState("");
+
+  useEffect(() => {
+    trackEvent("puzzle_start", {
+      subject: gameSet.subject,
+      unit: gameSet.unit,
+      puzzle: gameSet.puzzle ?? 1,
+      puzzle_id: gameSet.id,
+    });
+  }, [gameSet.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // All terms as objects, shuffled once on load
   const shuffledTerms = useMemo<GameTerm[]>(() => {
@@ -82,9 +92,26 @@ const solvedTermStrings = useMemo(
       setSolvedGroups(newSolved);
       setSelected([]);
       setMessage("");
+      trackEvent("group_solved", {
+        subject: gameSet.subject,
+        unit: gameSet.unit,
+        puzzle: gameSet.puzzle ?? 1,
+        puzzle_id: gameSet.id,
+        group_name: match.name,
+        groups_solved: newSolved.length,
+        mistakes_so_far: mistakes,
+      });
       if (newSolved.length === gameSet.groups.length) {
         setWon(true);
         onWin?.();
+        trackEvent("puzzle_complete", {
+          subject: gameSet.subject,
+          unit: gameSet.unit,
+          puzzle: gameSet.puzzle ?? 1,
+          puzzle_id: gameSet.id,
+          mistakes,
+          hints_used: hintsUsed,
+        });
       }
     } else {
       // Check if exactly 3 selected terms belong to any single unsolved group
@@ -107,6 +134,14 @@ const solvedTermStrings = useMemo(
       if (newMistakes >= MAX_MISTAKES) {
         setSelected([]);
         setLost(true);
+        trackEvent("puzzle_fail", {
+          subject: gameSet.subject,
+          unit: gameSet.unit,
+          puzzle: gameSet.puzzle ?? 1,
+          puzzle_id: gameSet.id,
+          groups_solved: solvedGroups.length,
+          hints_used: hintsUsed,
+        });
       }
     }
   };

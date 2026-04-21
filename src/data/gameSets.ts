@@ -7805,6 +7805,922 @@ export const gameSets: GameSet[] = [
 
 ];
 
+// ─── AP Psychology ────────────────────────────────────────────────────────────
+
+const apPsychGameSets: GameSet[] = [
+  // Unit 1 · Puzzle 1 — The Neuron and Neural Firing
+  {
+    id: "appsych-unit-1-neuron",
+    unit: 1,
+    puzzle: 1,
+    theme: { code: "1.3", name: "The Neuron and Neural Firing" },
+    title: "Biological Bases of Behavior",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Parts of a Neuron",
+        terms: [
+          { term: "Dendrites", definition: "Branch-like extensions of a neuron that receive incoming signals from neighboring neurons and carry them toward the cell body." },
+          { term: "Cell Body (Soma)", definition: "The neuron's core that contains the nucleus; integrates signals received from dendrites and determines whether the neuron will fire." },
+          { term: "Axon", definition: "The long, slender projection of a neuron that carries electrical impulses (action potentials) away from the cell body toward other neurons, muscles, or glands." },
+          { term: "Myelin Sheath", definition: "A fatty insulating layer wrapped around the axon of many neurons; speeds up signal transmission and is produced by glial cells." },
+        ],
+      },
+      {
+        name: "Key Neurotransmitters",
+        terms: [
+          { term: "Dopamine", definition: "A neurotransmitter involved in reward, motivation, and motor control; deficits are linked to Parkinson's disease and surpluses to schizophrenia." },
+          { term: "Serotonin", definition: "A neurotransmitter that regulates mood, sleep, and appetite; low levels are associated with depression and are targeted by SSRIs." },
+          { term: "GABA", definition: "The brain's primary inhibitory neurotransmitter; calms neural activity and reduces anxiety — its receptor is the target of alcohol and benzodiazepines." },
+          { term: "Acetylcholine", definition: "A neurotransmitter crucial for muscle activation and memory; deficits in acetylcholine-producing neurons are linked to Alzheimer's disease." },
+        ],
+      },
+      {
+        name: "Neural Firing Concepts",
+        terms: [
+          { term: "Resting Potential", definition: "The stable negative charge (~–70 mV) inside a neuron when it is not firing; maintained by the sodium-potassium pump keeping more positive ions outside the cell." },
+          { term: "Action Potential", definition: "The electrical impulse that travels down an axon when a neuron fires; triggered when depolarization reaches threshold (~–55 mV), causing sodium channels to open." },
+          { term: "Refractory Period", definition: "The brief recovery window after an action potential fires during which the neuron cannot fire again; ensures signals travel in one direction and limits firing rate." },
+          { term: "All-or-Nothing Principle", definition: "A neuron either fires at full strength or not at all — there is no partial action potential; stimulus intensity is encoded by the rate of firing, not the size of each impulse." },
+        ],
+      },
+      {
+        name: "Synaptic Transmission",
+        terms: [
+          { term: "Synapse", definition: "The tiny gap between the terminal buttons of one neuron and the dendrites or cell body of the next; neurotransmitters are released here to carry the signal chemically across." },
+          { term: "Reuptake", definition: "The process by which the sending neuron reabsorbs excess neurotransmitters from the synapse; drugs like SSRIs and cocaine work by blocking this process." },
+          { term: "Agonist", definition: "A drug or chemical that mimics or amplifies a neurotransmitter's effect by binding to and activating its receptor (e.g., heroin mimics endorphins)." },
+          { term: "Antagonist", definition: "A drug or chemical that blocks a neurotransmitter's effect by occupying its receptor without activating it (e.g., Naloxone blocks opioid receptors)." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 1 · Puzzle 2 — The Brain
+  {
+    id: "appsych-unit-1-brain",
+    unit: 1,
+    puzzle: 2,
+    theme: { code: "1.4", name: "The Brain" },
+    title: "Biological Bases of Behavior",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Lobes of the Cerebral Cortex",
+        terms: [
+          { term: "Frontal Lobe", definition: "The brain region behind the forehead; controls higher-order functions like reasoning, planning, impulse control, personality, and voluntary motor movement." },
+          { term: "Parietal Lobe", definition: "Located at the top-rear of the brain; processes sensory information about touch, temperature, pain, and body position (somatosensory cortex)." },
+          { term: "Temporal Lobe", definition: "Located above the ears; involved in hearing, language comprehension (Wernicke's area), and memory formation; houses the auditory cortex." },
+          { term: "Occipital Lobe", definition: "Located at the back of the brain; dedicated almost entirely to visual processing; damage causes visual deficits or blindness despite intact eyes." },
+        ],
+      },
+      {
+        name: "Limbic System Structures",
+        terms: [
+          { term: "Amygdala", definition: "Two almond-shaped clusters deep in the temporal lobes; the brain's emotional alarm center, especially for fear and aggression; involved in storing emotional memories." },
+          { term: "Hippocampus", definition: "A seahorse-shaped structure in the temporal lobe critical for forming new explicit (declarative) memories; damage produces anterograde amnesia." },
+          { term: "Hypothalamus", definition: "A small structure below the thalamus; regulates hunger, thirst, body temperature, sex drive, and the stress response; links the nervous and endocrine systems." },
+          { term: "Thalamus", definition: "The brain's sensory relay station; routes incoming sensory information (except smell) to the appropriate cortical areas for processing." },
+        ],
+      },
+      {
+        name: "Lower Brain Structures",
+        terms: [
+          { term: "Medulla Oblongata", definition: "The lowest brainstem region; controls autonomic survival functions like heart rate, blood pressure, and breathing; also manages swallowing and vomiting reflexes." },
+          { term: "Pons", definition: "A brainstem structure above the medulla that coordinates movement, relays signals between the cerebellum and cortex, and plays a role in sleep and dreaming (REM)." },
+          { term: "Reticular Formation", definition: "A network of neurons running through the brainstem that regulates arousal, alertness, and sleep-wake cycles; damage produces coma." },
+          { term: "Cerebellum", definition: "The 'little brain' at the back of the skull; coordinates voluntary movement, balance, and fine motor skills; also involved in procedural (implicit) memory." },
+        ],
+      },
+      {
+        name: "Brain Research Methods",
+        terms: [
+          { term: "fMRI", definition: "Functional magnetic resonance imaging; tracks blood oxygen levels to create real-time maps of brain activity; reveals which brain regions are active during specific tasks." },
+          { term: "EEG", definition: "Electroencephalogram; records electrical activity across the scalp to measure brain wave patterns; excellent temporal resolution; used to study sleep stages and seizures." },
+          { term: "PET Scan", definition: "Positron emission tomography; detects a radioactive glucose tracer to show which brain areas are metabolically active; used to study brain disorders in real time." },
+          { term: "Lesion Study", definition: "Research that examines the behavioral effects of brain damage; historically the primary method for mapping brain function — e.g., Phineas Gage's frontal lobe damage." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 1 · Puzzle 3 — The Nervous System & Heredity
+  {
+    id: "appsych-unit-1-ns",
+    unit: 1,
+    puzzle: 3,
+    theme: { code: "1.1–1.2", name: "Nervous System & Heredity" },
+    title: "Biological Bases of Behavior",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Divisions of the Nervous System",
+        terms: [
+          { term: "Central Nervous System", definition: "The brain and spinal cord; the body's primary information-processing center that interprets sensory input and coordinates responses." },
+          { term: "Peripheral Nervous System", definition: "All neurons outside the brain and spinal cord; connects the CNS to the body's muscles, organs, and sensory receptors." },
+          { term: "Somatic Nervous System", definition: "The branch of the PNS that controls voluntary skeletal muscle movements and carries sensory information from the body to the CNS." },
+          { term: "Autonomic Nervous System", definition: "The branch of the PNS that controls involuntary functions of internal organs; divided into sympathetic and parasympathetic divisions." },
+        ],
+      },
+      {
+        name: "Sympathetic Nervous System",
+        terms: [
+          { term: "Fight-or-Flight Response", definition: "The sympathetic nervous system's emergency activation: heart rate surges, breathing quickens, digestion halts, and the body mobilizes energy resources to respond to threats." },
+          { term: "Dilated Pupils", definition: "A sympathetic nervous system effect that widens the pupils to let in more light, improving vision during a threat response." },
+          { term: "Epinephrine Release", definition: "The adrenal medulla secretes epinephrine (adrenaline) under sympathetic activation, amplifying the fight-or-flight response throughout the body." },
+          { term: "Inhibited Digestion", definition: "During sympathetic activation, blood is diverted away from the digestive system to skeletal muscles — a key reason chronic stress causes gastrointestinal problems." },
+        ],
+      },
+      {
+        name: "Parasympathetic Nervous System",
+        terms: [
+          { term: "Rest-and-Digest Response", definition: "The parasympathetic system's calming counterbalance to fight-or-flight; slows heart rate, stimulates digestion, and conserves energy once a threat has passed." },
+          { term: "Constricted Pupils", definition: "A parasympathetic effect that narrows the pupils when the body is in a relaxed, low-threat state." },
+          { term: "Decreased Heart Rate", definition: "The parasympathetic nervous system slows the heart rate via the vagus nerve during rest, recovery, or digestion." },
+          { term: "Stimulated Digestion", definition: "Parasympathetic activation promotes saliva production, gastric acid secretion, and intestinal motility — the body prioritizing energy extraction when safe." },
+        ],
+      },
+      {
+        name: "Heredity and Behavior",
+        terms: [
+          { term: "Twin Study", definition: "Research comparing identical (monozygotic) and fraternal (dizygotic) twins to estimate heritability of traits; higher concordance in identical twins suggests genetic influence." },
+          { term: "Heritability", definition: "A statistical estimate (0–1) of how much of the variation in a trait within a population is attributable to genetic differences; describes a population, not an individual." },
+          { term: "Epigenetics", definition: "The study of how environmental factors (stress, diet, toxins) alter gene expression without changing the DNA sequence; explains how nature and nurture interact at the molecular level." },
+          { term: "Gene-Environment Interaction", definition: "The phenomenon where the effect of a gene on a trait depends on the environment; nature via nurture — genes shape which environments we seek out and how we respond to them." },
+        ],
+      },
+    ],
+  },
+];
+
+// ─── AP Psychology Unit 2 ────────────────────────────────────────────────────
+
+const apPsychUnit2GameSets: GameSet[] = [
+  // Unit 2 · Puzzle 1 — Principles of Sensation
+  {
+    id: "appsych-unit-2-sensation",
+    unit: 2,
+    puzzle: 1,
+    theme: { code: "2.1", name: "Principles of Sensation" },
+    title: "Sensation and Perception",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Detection and Thresholds",
+        terms: [
+          { term: "Absolute Threshold", definition: "The minimum stimulus intensity needed for a person to detect a stimulus 50% of the time; varies by sense and individual (e.g., a candle flame seen 30 miles on a dark, clear night)." },
+          { term: "Difference Threshold (JND)", definition: "The minimum change in a stimulus needed to detect a difference between two stimuli 50% of the time; also called the just noticeable difference (JND)." },
+          { term: "Signal Detection Theory", definition: "Framework explaining how we distinguish a faint signal from background noise; detection depends on both sensory ability and psychological factors like expectations, motivation, and fatigue." },
+          { term: "Weber's Law", definition: "The principle that the JND is a constant proportion of the original stimulus intensity — the stronger the stimulus, the larger the change needed to detect a difference." },
+        ],
+      },
+      {
+        name: "Sensory Processing",
+        terms: [
+          { term: "Transduction", definition: "The process by which sensory receptors convert physical stimuli (light, sound, pressure) into neural signals the brain can interpret." },
+          { term: "Sensory Adaptation", definition: "The diminished sensitivity to a constant, unchanging stimulus over time — explains why you stop noticing background noise or a mild odor after a while." },
+          { term: "Bottom-Up Processing", definition: "Perception driven by incoming sensory data; building a perception from raw features up — no prior expectations needed (e.g., reading unfamiliar text)." },
+          { term: "Top-Down Processing", definition: "Perception guided by prior knowledge, context, and expectations — the brain fills in gaps using experience (e.g., reading messy handwriting by context)." },
+        ],
+      },
+      {
+        name: "Attention and Filtering",
+        terms: [
+          { term: "Selective Attention", definition: "The focusing of conscious awareness on a particular stimulus while ignoring others; demonstrated by the cocktail party effect and change blindness studies." },
+          { term: "Inattentional Blindness", definition: "Failure to notice an unexpected stimulus in plain sight when attention is directed elsewhere — famously demonstrated by the 'invisible gorilla' experiment (Simons & Chabris)." },
+          { term: "Change Blindness", definition: "Failure to detect a significant change in a visual scene when the change occurs during a brief interruption; reveals how little of our visual field is actually processed in detail." },
+          { term: "Cocktail Party Effect", definition: "The ability to focus on one conversation in a noisy environment while still noticing your own name or relevant words spoken elsewhere — selective auditory attention in action." },
+        ],
+      },
+      {
+        name: "Sensory Thresholds in Context",
+        terms: [
+          { term: "Subliminal Stimulation", definition: "Stimuli presented below the absolute threshold for conscious awareness; can influence behavior subtly (priming) but cannot compel people to act against their will." },
+          { term: "Priming", definition: "The activation of a concept or association that influences subsequent thoughts or behavior — often happens below conscious awareness after a subliminal or incidental exposure." },
+          { term: "Sensory Deprivation", definition: "The deliberate reduction of stimuli to near zero; studies show the brain becomes hyperactive without sensory input, generating hallucinations, anxiety, and altered perception." },
+          { term: "Psychophysics", definition: "The scientific study of the relationship between physical stimuli and the psychological sensations and perceptions they produce; founded by Fechner and Weber." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 2 · Puzzle 2 — The Visual System
+  {
+    id: "appsych-unit-2-vision",
+    unit: 2,
+    puzzle: 2,
+    theme: { code: "2.3–2.4", name: "The Visual System" },
+    title: "Sensation and Perception",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Structures of the Eye",
+        terms: [
+          { term: "Cornea", definition: "The clear, curved outer surface of the eye that bends (refracts) incoming light; responsible for about 70% of the eye's focusing power." },
+          { term: "Lens", definition: "The flexible structure behind the pupil that fine-tunes focus by changing shape (accommodation) to project a sharp image onto the retina." },
+          { term: "Retina", definition: "The light-sensitive inner lining of the eye containing photoreceptors (rods and cones) that convert light into neural signals sent to the brain via the optic nerve." },
+          { term: "Fovea", definition: "The central pit of the retina packed exclusively with cones; the point of sharpest vision and highest color resolution — where you look when you focus on detail." },
+        ],
+      },
+      {
+        name: "Photoreceptors",
+        terms: [
+          { term: "Rods", definition: "Photoreceptors concentrated in the periphery of the retina; extremely light-sensitive, enabling night and peripheral vision but providing no color information." },
+          { term: "Cones", definition: "Photoreceptors concentrated in the fovea; responsible for color vision and fine detail; require brighter light to function — three types correspond to red, green, and blue wavelengths." },
+          { term: "Bipolar Cells", definition: "Intermediate neurons in the retina that receive signals from photoreceptors and pass them along to ganglion cells on their way out of the eye." },
+          { term: "Ganglion Cells", definition: "The output neurons of the retina whose axons bundle together to form the optic nerve; carry processed visual signals from the retina to the brain." },
+        ],
+      },
+      {
+        name: "Color Vision Theories",
+        terms: [
+          { term: "Trichromatic Theory", definition: "Young-Helmholtz theory: the retina has three types of cones (sensitive to red, green, blue wavelengths); all colors are perceived through their combined activation — explains color mixing." },
+          { term: "Opponent-Process Theory", definition: "Hering's theory: color vision works through opposing pairs (red-green, blue-yellow, black-white); explains afterimages and why you can't perceive 'reddish-green.'" },
+          { term: "Feature Detectors", definition: "Specialized neurons in the visual cortex (discovered by Hubel & Wiesel) that respond only to specific features — edges, angles, motion, or specific orientations of light." },
+          { term: "Afterimage", definition: "A visual image that persists after the stimulus is removed; negative afterimages (opposite colors) support opponent-process theory — stare at red, then see green." },
+        ],
+      },
+      {
+        name: "Visual Pathways",
+        terms: [
+          { term: "Optic Nerve", definition: "The bundle of ganglion cell axons that exits the back of the eye and carries visual information to the brain; creates a blind spot where it leaves the retina." },
+          { term: "Optic Chiasm", definition: "The X-shaped crossing point where half the optic nerve fibers from each eye cross to the opposite hemisphere; allows both hemispheres to receive input from both visual fields." },
+          { term: "Blind Spot", definition: "The area of the retina where the optic nerve exits and there are no photoreceptors; we don't notice it because the brain fills in the gap using surrounding information." },
+          { term: "Visual Cortex", definition: "Located in the occipital lobe; the primary processing center for visual information; organized so that adjacent cortical areas process adjacent areas of the visual field." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 2 · Puzzle 3 — Perceptual Organization
+  {
+    id: "appsych-unit-2-perception",
+    unit: 2,
+    puzzle: 3,
+    theme: { code: "2.2", name: "Perceptual Organization" },
+    title: "Sensation and Perception",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Gestalt Principles",
+        terms: [
+          { term: "Figure-Ground", definition: "The tendency to perceive objects as distinct from their background; the same image can flip (e.g., Rubin's vase — vase vs. two faces) depending on which region is seen as 'figure.'" },
+          { term: "Proximity", definition: "Gestalt principle: elements close together are perceived as belonging to the same group — the basis for visual clustering in design and data visualization." },
+          { term: "Similarity", definition: "Gestalt principle: elements that look alike (same color, shape, size) are perceived as part of the same group, even when they're spatially mixed." },
+          { term: "Closure", definition: "Gestalt principle: we mentally fill in gaps to perceive a complete, whole object — explains why we see a circle even when part of it is missing." },
+        ],
+      },
+      {
+        name: "Depth Perception Cues",
+        terms: [
+          { term: "Binocular Disparity", definition: "The slight difference in images projected on the two retinas due to their different positions; the brain uses this gap to calculate depth — the primary binocular cue." },
+          { term: "Convergence", definition: "A binocular depth cue: the degree to which the eyes turn inward to focus on a near object; greater convergence signals closer distance." },
+          { term: "Linear Perspective", definition: "A monocular depth cue: parallel lines appear to converge in the distance (e.g., railroad tracks meeting at the horizon), signaling depth and distance." },
+          { term: "Interposition", definition: "A monocular depth cue: when one object partially blocks another, the blocking object is perceived as closer; requires no special viewing conditions." },
+        ],
+      },
+      {
+        name: "Perceptual Constancies",
+        terms: [
+          { term: "Size Constancy", definition: "The tendency to perceive an object as the same size despite changes in the size of its retinal image as it moves closer or farther away." },
+          { term: "Shape Constancy", definition: "The tendency to perceive an object as having the same shape even when viewed from different angles (e.g., a door is still rectangular when opened at an angle)." },
+          { term: "Brightness Constancy", definition: "The tendency to perceive an object as equally bright even when lighting conditions change — a white page looks white in dim and bright light." },
+          { term: "Color Constancy", definition: "The tendency to perceive familiar objects as having consistent color despite changes in illumination — a red apple looks red in sunlight and candlelight." },
+        ],
+      },
+      {
+        name: "Perceptual Influences",
+        terms: [
+          { term: "Perceptual Set", definition: "A mental predisposition to perceive things in a certain way based on prior experience, expectations, or context; top-down processing determines what we 'see.'" },
+          { term: "Context Effects", definition: "The influence of surrounding stimuli on perception — the same gray square looks lighter against a dark background and darker against a light background." },
+          { term: "Muller-Lyer Illusion", definition: "Two lines of equal length appear different because of arrow-like fins at their ends; illustrates how depth cues (inward/outward fins suggest corners) override actual line length." },
+          { term: "Phi Phenomenon", definition: "The illusion of movement created by a sequence of stationary lights flashing in rapid succession — the perceptual basis of film, animation, and neon signs." },
+        ],
+      },
+    ],
+  },
+];
+
+// ─── AP Psychology Unit 4 ────────────────────────────────────────────────────
+
+const apPsychUnit4GameSets: GameSet[] = [
+  // Unit 4 · Puzzle 1 — Classical Conditioning
+  {
+    id: "appsych-unit-4-classical",
+    unit: 4,
+    puzzle: 1,
+    theme: { code: "4.1", name: "Classical Conditioning" },
+    title: "Learning",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "CC Components",
+        terms: [
+          { term: "Unconditioned Stimulus (UCS)", definition: "A stimulus that naturally and automatically triggers a response without any prior learning — Pavlov's food, which automatically made dogs salivate." },
+          { term: "Unconditioned Response (UCR)", definition: "The unlearned, natural reaction to an unconditioned stimulus — the dog's automatic salivation in response to food, requiring no training." },
+          { term: "Conditioned Stimulus (CS)", definition: "A previously neutral stimulus that, after repeated pairing with the UCS, comes to trigger the conditioned response on its own — Pavlov's bell after conditioning." },
+          { term: "Conditioned Response (CR)", definition: "The learned reaction to the conditioned stimulus; similar to but often weaker than the UCR — salivating to the bell alone after conditioning." },
+        ],
+      },
+      {
+        name: "CC Processes",
+        terms: [
+          { term: "Acquisition", definition: "The initial stage of learning in which the conditioned response is established; requires repeated pairings of the CS and UCS, with the CS typically preceding the UCS." },
+          { term: "Extinction", definition: "The gradual weakening and disappearance of a conditioned response when the CS is repeatedly presented without the UCS; does not erase the original learning." },
+          { term: "Spontaneous Recovery", definition: "The reappearance of a previously extinguished conditioned response after a rest period, even without re-conditioning; shows the original learning was not erased, just suppressed." },
+          { term: "Higher-Order Conditioning", definition: "A procedure in which a well-established CS is used as the UCS to condition a new CS; e.g., if a bell (CS) triggers salivation, a light paired with the bell can also come to trigger salivation." },
+        ],
+      },
+      {
+        name: "Stimulus Control",
+        terms: [
+          { term: "Stimulus Generalization", definition: "The tendency to respond to stimuli similar to the original CS — Watson's Little Albert feared not just a white rat but also other white furry objects." },
+          { term: "Stimulus Discrimination", definition: "The learned ability to distinguish between the CS and similar stimuli that do not signal the UCS; allows more precise, adaptive responding." },
+          { term: "Conditioned Emotional Response", definition: "An emotional reaction (fear, disgust, joy) that becomes attached to a previously neutral stimulus through classical conditioning — the basis of phobias, brand loyalty, and advertising." },
+          { term: "Phobia Formation", definition: "A conditioned fear response to a specific object or situation; often triggered by a single traumatic pairing (one-trial learning) and maintained by avoidance that prevents extinction." },
+        ],
+      },
+      {
+        name: "CC in Therapy",
+        terms: [
+          { term: "Systematic Desensitization", definition: "A behavior therapy using CC to treat phobias; pairs progressive relaxation with gradual exposure to a feared stimulus (anxiety hierarchy) until the fear response extinguishes." },
+          { term: "Counterconditioning", definition: "Replacing a conditioned response (like fear) with an incompatible response (like relaxation) by pairing the CS with a new UCS; the mechanism behind systematic desensitization." },
+          { term: "Aversion Therapy", definition: "A conditioning technique that pairs an unwanted behavior (e.g., drinking alcohol) with an aversive stimulus (nausea-inducing drug) to create a conditioned aversion; used to treat addictions." },
+          { term: "Flooding", definition: "An exposure therapy technique that immerses a person in the feared stimulus immediately and intensely until anxiety extinguishes; faster but more distressing than systematic desensitization." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 4 · Puzzle 2 — Operant Conditioning
+  {
+    id: "appsych-unit-4-operant",
+    unit: 4,
+    puzzle: 2,
+    theme: { code: "4.2", name: "Operant Conditioning" },
+    title: "Learning",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Types of Reinforcement",
+        terms: [
+          { term: "Positive Reinforcement", definition: "Adding a desirable stimulus after a behavior to increase its frequency — giving a dog a treat for sitting; the most effective long-term tool for behavior change." },
+          { term: "Negative Reinforcement", definition: "Removing an aversive stimulus after a behavior to increase its frequency — buckling your seatbelt stops the annoying beeping; often confused with punishment (which decreases behavior)." },
+          { term: "Primary Reinforcer", definition: "An innately satisfying reinforcer that meets a basic biological need — food, water, warmth, sex; no learning required for it to be rewarding." },
+          { term: "Secondary Reinforcer", definition: "A stimulus that gains reinforcing value through association with a primary reinforcer — money, praise, grades; the foundation of token economies." },
+        ],
+      },
+      {
+        name: "Types of Punishment",
+        terms: [
+          { term: "Positive Punishment", definition: "Adding an aversive stimulus after a behavior to decrease its frequency — getting a speeding ticket; the 'positive' means something is added, not that it feels good." },
+          { term: "Negative Punishment", definition: "Removing a desirable stimulus after a behavior to decrease its frequency — taking away phone privileges after a curfew violation; also called response cost." },
+          { term: "Response Cost", definition: "A form of negative punishment in which a specific reinforcer (e.g., tokens, points, privileges) is taken away contingent on an undesirable behavior; widely used in token economy systems." },
+          { term: "Token Economy", definition: "A behavior modification system using secondary reinforcers (tokens) earned for desired behaviors and exchanged for primary reinforcers; used in classrooms, psychiatric wards, and rehabilitation." },
+        ],
+      },
+      {
+        name: "Schedules of Reinforcement",
+        terms: [
+          { term: "Fixed Ratio (FR)", definition: "Reinforcement after a set number of responses; produces high, steady response rates with a brief pause after each reinforcement — e.g., paid per piece of work." },
+          { term: "Variable Ratio (VR)", definition: "Reinforcement after an unpredictable number of responses; produces the highest, most persistent response rates and greatest resistance to extinction — slot machines, social media likes." },
+          { term: "Fixed Interval (FI)", definition: "Reinforcement for the first response after a fixed time period; produces a scallop pattern — slow responding just after reinforcement, then speeding up as the interval ends (e.g., weekly paycheck)." },
+          { term: "Variable Interval (VI)", definition: "Reinforcement for the first response after varying time periods; produces slow, steady responding with high resistance to extinction — checking email, pop quizzes." },
+        ],
+      },
+      {
+        name: "Operant Techniques and Concepts",
+        terms: [
+          { term: "Shaping", definition: "Reinforcing successive approximations toward a desired behavior; used to teach complex behaviors that would never occur spontaneously — Skinner trained pigeons to play ping-pong this way." },
+          { term: "Chaining", definition: "Linking a sequence of behaviors by reinforcing each step in the chain; used to teach multi-step skills (e.g., getting dressed, assembly-line tasks) by connecting each behavior to the next." },
+          { term: "Discriminative Stimulus", definition: "A stimulus that signals that reinforcement is available for a particular behavior — a green traffic light signals that pressing the gas pedal will be 'reinforced'; triggers operant responding." },
+          { term: "Learned Helplessness", definition: "Seligman's finding that organisms exposed to repeated inescapable aversive events stop trying to escape even when escape becomes possible; a model of depression driven by perceived lack of control." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 4 · Puzzle 3 — Cognitive and Observational Learning
+  {
+    id: "appsych-unit-4-cognitive",
+    unit: 4,
+    puzzle: 3,
+    theme: { code: "4.3", name: "Cognitive and Observational Learning" },
+    title: "Learning",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Bandura's Social Learning Theory",
+        terms: [
+          { term: "Modeling", definition: "Learning by observing and imitating others; Bandura's Bobo doll studies showed children imitated adult aggression even without direct reinforcement." },
+          { term: "Vicarious Reinforcement", definition: "Learning that occurs by observing another person (a model) being reinforced for a behavior; increases the likelihood of imitating that behavior without personal experience." },
+          { term: "Self-Efficacy", definition: "Bandura's term for one's belief in their ability to perform a specific task successfully; a better predictor of achievement than actual ability — high self-efficacy increases persistence and performance." },
+          { term: "Reciprocal Determinism", definition: "Bandura's model in which behavior, personal factors (thoughts, beliefs), and environment continuously influence each other in a bidirectional loop — not just environment → behavior." },
+        ],
+      },
+      {
+        name: "Cognitive Learning",
+        terms: [
+          { term: "Latent Learning", definition: "Learning that occurs without obvious reinforcement and is not immediately expressed in behavior; Tolman demonstrated this by showing rats who explored a maze without reward later navigated it better than naïve rats." },
+          { term: "Cognitive Map", definition: "Tolman's term for a mental representation of the layout of an environment; evidence that organisms learn spatial relationships, not just stimulus-response associations." },
+          { term: "Insight Learning", definition: "The sudden realization of a solution to a problem without trial-and-error; Köhler's chimps had 'aha' moments stacking boxes to reach bananas — evidence of cognitive, not just behavioral, learning." },
+          { term: "Overjustification Effect", definition: "The tendency for extrinsic rewards to undermine intrinsic motivation; when people are paid to do activities they already enjoy, they lose interest once rewards are removed." },
+        ],
+      },
+      {
+        name: "Biological Constraints on Learning",
+        terms: [
+          { term: "Preparedness", definition: "Seligman's concept that organisms are biologically 'prepared' to learn certain associations more easily than others — humans rapidly acquire snake phobias but rarely electricity phobias, despite equal danger." },
+          { term: "Instinctive Drift", definition: "The Brelands' finding that conditioned behaviors tend to drift back toward species-typical instinctive behaviors over time; shows biological limits on what operant conditioning can override." },
+          { term: "Taste Aversion (Garcia Effect)", definition: "A classically conditioned aversion to a food paired with illness; can be learned in a single trial even with a long delay between eating and nausea — violates traditional CC rules, showing biological preparedness." },
+          { term: "Critical Period", definition: "A biologically sensitive window during which a particular type of learning most readily occurs (e.g., language acquisition in childhood, imprinting in birds); learning is difficult or impossible outside this window." },
+        ],
+      },
+      {
+        name: "Applied and Miscellaneous Learning",
+        terms: [
+          { term: "Behavior Modification", definition: "The systematic application of operant conditioning principles to change behavior; uses reinforcement schedules, shaping, and token economies in clinical, educational, and organizational settings." },
+          { term: "Biofeedback", definition: "A technique using electronic monitoring of a normally automatic body function (heart rate, muscle tension) to allow a person to gain voluntary control over it through operant learning." },
+          { term: "Superstitious Behavior", definition: "Skinner's finding that random reinforcement can create the illusion of contingency; pigeons reinforced on a time-based schedule developed idiosyncratic behaviors as if they caused the food." },
+          { term: "Observational Learning Steps", definition: "Bandura's four conditions for modeling: Attention (noticing the model), Retention (remembering), Reproduction (ability to replicate), and Motivation (reason to perform the behavior)." },
+        ],
+      },
+    ],
+  },
+];
+
+// ─── AP Psychology Unit 5 ────────────────────────────────────────────────────
+
+const apPsychUnit5GameSets: GameSet[] = [
+  // Unit 5 · Puzzle 1 — Memory
+  {
+    id: "appsych-unit-5-memory",
+    unit: 5,
+    puzzle: 1,
+    theme: { code: "5.1–5.2", name: "Memory" },
+    title: "Cognitive Psychology",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Memory Stages",
+        terms: [
+          { term: "Sensory Memory", definition: "The immediate, brief recording of sensory information; iconic memory (visual, ~0.5 sec) and echoic memory (auditory, ~3–4 sec); most fades before reaching short-term memory." },
+          { term: "Short-Term Memory (STM)", definition: "Active memory holding about 7±2 items for ~20–30 seconds without rehearsal; the 'workbench' of the mind; displaced by new information or lost through decay." },
+          { term: "Long-Term Memory (LTM)", definition: "Relatively permanent and limitless storage of information; encoded from STM through rehearsal and elaboration; subdivided into explicit and implicit memory." },
+          { term: "Working Memory", definition: "Baddeley's model updating STM: an active system that manipulates and uses information rather than just storing it; includes a phonological loop, visuospatial sketchpad, and central executive." },
+        ],
+      },
+      {
+        name: "Types of Long-Term Memory",
+        terms: [
+          { term: "Explicit (Declarative) Memory", definition: "Conscious, intentional recollection of facts and events; requires effort to retrieve; includes episodic and semantic memory; dependent on the hippocampus." },
+          { term: "Implicit (Procedural) Memory", definition: "Unconscious memory for skills, habits, and conditioned responses; 'knowing how' rather than 'knowing that'; survives hippocampal damage (e.g., H.M. could still learn new skills)." },
+          { term: "Episodic Memory", definition: "The autobiographical record of personally experienced events, including their context (time, place, emotions) — 'what happened to me'; forms the basis of personal identity." },
+          { term: "Semantic Memory", definition: "General world knowledge, facts, and concepts not tied to personal experience — knowing the capital of France or the meaning of 'justice'; relatively resistant to aging." },
+        ],
+      },
+      {
+        name: "Encoding and Retrieval",
+        terms: [
+          { term: "Semantic Encoding", definition: "Encoding the meaning of information; the deepest level of processing (Craik & Lockhart's levels-of-processing model) and the most effective for long-term retention." },
+          { term: "Elaborative Rehearsal", definition: "Linking new information to existing knowledge or generating examples; far more effective for retention than simple maintenance rehearsal (rote repetition)." },
+          { term: "Spacing Effect", definition: "Distributing practice over time (spaced practice) produces better long-term retention than the same amount of massed practice (cramming); one of the most replicated findings in memory research." },
+          { term: "Retrieval Cues", definition: "Stimuli that help access stored memories; context (encoding specificity principle), mood (state-dependent memory), and prior associations all serve as powerful retrieval cues." },
+        ],
+      },
+      {
+        name: "Forgetting",
+        terms: [
+          { term: "Proactive Interference", definition: "Old information disrupts the recall of new information — knowing French interferes with learning Spanish; old memories compete with new ones during retrieval." },
+          { term: "Retroactive Interference", definition: "New information disrupts the recall of old information — learning Spanish makes you forget some French; the newer memory overwrites or blocks access to the older one." },
+          { term: "Source Amnesia", definition: "Correctly recalling information but misattributing where or when it was learned; a key source of false memories and eyewitness errors." },
+          { term: "Misinformation Effect", definition: "Loftus's finding that exposure to misleading post-event information alters memory; leading questions after a witnessed event can create false 'memories' of what occurred." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 5 · Puzzle 2 — Thinking and Problem Solving
+  {
+    id: "appsych-unit-5-thinking",
+    unit: 5,
+    puzzle: 2,
+    theme: { code: "5.3", name: "Thinking and Problem Solving" },
+    title: "Cognitive Psychology",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Problem-Solving Strategies",
+        terms: [
+          { term: "Algorithm", definition: "A methodical, step-by-step procedure that guarantees a correct solution if followed; slow but reliable — e.g., trying every possible combination to crack a lock." },
+          { term: "Heuristic", definition: "A mental shortcut or rule of thumb that allows quick judgments and decisions; faster than algorithms but prone to error — useful when time is short and perfection isn't required." },
+          { term: "Means-End Analysis", definition: "A problem-solving strategy that compares the current state with the goal and selects the action that reduces the gap most; a form of working backward from the goal." },
+          { term: "Insight", definition: "The sudden 'aha!' experience of a solution appearing fully formed after an impasse; associated with a burst of gamma wave activity; cannot be forced — linked to Köhler's chimp studies." },
+        ],
+      },
+      {
+        name: "Cognitive Biases and Heuristics",
+        terms: [
+          { term: "Availability Heuristic", definition: "Estimating the likelihood of events based on how easily examples come to mind; causes overestimation of vivid, recent, or dramatic events (e.g., fearing plane crashes more than car crashes)." },
+          { term: "Representativeness Heuristic", definition: "Judging the probability of something by how well it matches a prototype, ignoring base rates — assuming a quiet bookish person is a librarian rather than a farmer despite farmer being far more common." },
+          { term: "Anchoring Bias", definition: "The tendency to rely too heavily on the first piece of information encountered (the 'anchor') when making estimates; retailers exploit this with inflated 'original' prices." },
+          { term: "Confirmation Bias", definition: "The tendency to search for, interpret, and recall information that confirms one's preexisting beliefs while ignoring contradictory evidence; the most pervasive and dangerous reasoning error." },
+        ],
+      },
+      {
+        name: "Obstacles to Problem Solving",
+        terms: [
+          { term: "Mental Set", definition: "The tendency to approach new problems using strategies that worked for previous, similar problems; efficient when applicable but blocks creative solutions when the old approach doesn't fit." },
+          { term: "Functional Fixedness", definition: "The tendency to perceive objects only in their typical, conventional use; prevents creative problem solving — Duncker's candle problem illustrates this cognitive block." },
+          { term: "Framing Effect", definition: "The way a problem or choice is presented (framed) influences decisions; 'saves 90% of patients' and 'kills 10% of patients' convey identical information but produce different choices." },
+          { term: "Belief Perseverance", definition: "The tendency to cling to one's beliefs even after the evidence supporting them has been discredited; closely related to confirmation bias; updating beliefs requires conscious effort." },
+        ],
+      },
+      {
+        name: "Reasoning and Judgment",
+        terms: [
+          { term: "Overconfidence", definition: "The tendency to be more confident in one's judgments and knowledge than is objectively warranted; affects experts and novices alike; one of the most robust biases in human cognition." },
+          { term: "Hindsight Bias", definition: "The tendency to believe, after learning an outcome, that one 'knew it all along'; makes events seem more predictable in retrospect than they were in prospect; distorts memory of prior uncertainty." },
+          { term: "Fixation", definition: "The inability to see a problem from a new perspective; an impasse state in which prior experience or assumptions block the discovery of a novel solution." },
+          { term: "Incubation", definition: "A period of stepping away from a problem that allows unconscious processing to continue; often precedes sudden insight; explains why solutions sometimes arrive in the shower or during sleep." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 5 · Puzzle 3 — Language and Intelligence
+  {
+    id: "appsych-unit-5-language",
+    unit: 5,
+    puzzle: 3,
+    theme: { code: "5.4–5.5", name: "Language and Intelligence" },
+    title: "Cognitive Psychology",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Language Development",
+        terms: [
+          { term: "Babbling Stage", definition: "Beginning around 4 months, infants produce a variety of sounds from all languages; by ~10 months babbling narrows to the sounds of the infant's native language — early phonetic tuning." },
+          { term: "One-Word Stage", definition: "Around age 1, children use single words (holophrases) to communicate whole ideas — 'milk!' can mean 'I want milk,' 'I spilled milk,' or 'look, milk!'; vocabulary grows rapidly." },
+          { term: "Two-Word Stage", definition: "Around age 2, children begin combining two words ('more milk,' 'daddy go'); telegraphic speech emerges — only the most essential content words, no articles or prepositions." },
+          { term: "Overextension", definition: "Applying a word too broadly — calling all men 'daddy' or all animals 'dog'; a common error in early language development as children generalize from their limited vocabulary." },
+        ],
+      },
+      {
+        name: "Language Theories",
+        terms: [
+          { term: "Language Acquisition Device (LAD)", definition: "Chomsky's proposed innate brain structure that enables children to acquire language naturally and rapidly; explains why children worldwide pass through similar developmental stages without formal instruction." },
+          { term: "Linguistic Relativity (Sapir-Whorf)", definition: "The hypothesis that language shapes thought — the words available in your language influence what you can easily perceive and think about; strong version largely unsupported, weak version has empirical backing." },
+          { term: "Critical Period for Language", definition: "The window in early childhood during which language is most easily acquired; brain plasticity allows native-level fluency; Genie (a feral child) showed severe, permanent language deficits due to isolation past this window." },
+          { term: "Broca's and Wernicke's Areas", definition: "Broca's area (frontal lobe) controls speech production; Wernicke's area (temporal lobe) handles language comprehension; damage to each produces distinct, opposite language disorders (aphasias)." },
+        ],
+      },
+      {
+        name: "Theories of Intelligence",
+        terms: [
+          { term: "Spearman's g Factor", definition: "Charles Spearman's concept of a general intelligence underlying performance on all cognitive tasks; people who score high in one area tend to score high in others, suggesting a common factor." },
+          { term: "Gardner's Multiple Intelligences", definition: "Howard Gardner's theory that intelligence is not a single ability but eight (or more) distinct intelligences: linguistic, logical-mathematical, musical, spatial, bodily-kinesthetic, interpersonal, intrapersonal, and naturalist." },
+          { term: "Sternberg's Triarchic Theory", definition: "Robert Sternberg's model of three intelligences: analytical (academic problem-solving), creative (generating novel ideas), and practical (applying knowledge to real-world situations)." },
+          { term: "Emotional Intelligence (EQ)", definition: "Goleman and Salovey's concept of the ability to perceive, understand, manage, and use emotions effectively; predicts success in relationships and leadership beyond what IQ tests measure." },
+        ],
+      },
+      {
+        name: "IQ Testing Concepts",
+        terms: [
+          { term: "Stanford-Binet Scale", definition: "The first widely used IQ test, adapted from Binet's work by Terman at Stanford; introduced the intelligence quotient (mental age ÷ chronological age × 100); modern version uses deviation IQ scores." },
+          { term: "Flynn Effect", definition: "The documented rise in average IQ scores across generations in industrialized nations throughout the 20th century; attributed to better nutrition, education, and abstract thinking demands of modern life." },
+          { term: "Reliability", definition: "The consistency of a test — it produces the same results across repeated administrations; a necessary but not sufficient condition for test quality (a test can be reliable without being valid)." },
+          { term: "Validity", definition: "The degree to which a test measures what it claims to measure; content validity (covers the domain), predictive validity (predicts real-world outcomes), and construct validity (measures the underlying concept)." },
+        ],
+      },
+    ],
+  },
+];
+
+// ── Assemble puzzles into the correct 5-unit structure ───────────────────────
+// Unit 2 (Cognition): vision → puzzle 1, memory → puzzle 2, thinking → puzzle 3
+apPsychGameSets.push(
+  { ...apPsychUnit2GameSets[1], puzzle: 1, theme: { code: "2.1", name: "The Visual System" } },
+  { ...apPsychUnit5GameSets[0], unit: 2, puzzle: 2, id: "appsych-unit-2-memory",   theme: { code: "2.3–2.7", name: "Memory" } },
+  { ...apPsychUnit5GameSets[1], unit: 2, puzzle: 3, id: "appsych-unit-2-thinking", theme: { code: "2.2",     name: "Thinking and Problem Solving" } },
+);
+
+// Unit 3 (Development and Learning): classical → 1, operant → 2, cognitive/observational → 3
+const unit3ThemeCodes = ["3.7", "3.8", "3.9"];
+apPsychUnit4GameSets.forEach((p, i) =>
+  apPsychGameSets.push({
+    ...p,
+    unit: 3,
+    id: p.id.replace("unit-4", "unit-3"),
+    theme: p.theme ? { ...p.theme, code: unit3ThemeCodes[i] } : p.theme,
+  })
+);
+
+// Not included: sensation principles, perceptual organization, states of consciousness,
+// language/intelligence (these don't map cleanly to a single unit in this 5-unit curriculum)
+
+// ─── AP Psychology Unit 4 ────────────────────────────────────────────────────
+
+const apPsychUnit4bGameSets: GameSet[] = [
+  // Unit 4 · Puzzle 1 — Social Psychology
+  {
+    id: "appsych-unit-4-social",
+    unit: 4,
+    puzzle: 1,
+    theme: { code: "4.1–4.3", name: "Social Psychology" },
+    title: "Social Psychology and Personality",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Attribution Theory",
+        terms: [
+          { term: "Fundamental Attribution Error", definition: "The tendency to overestimate dispositional (character) factors and underestimate situational factors when explaining other people's behavior — assuming someone who cuts you off in traffic is a bad person, not in a hurry." },
+          { term: "Actor-Observer Bias", definition: "We attribute our own behavior to situations ('I was late because of traffic') but others' behavior to their character ('she's always late'); we know our own situational context, not theirs." },
+          { term: "Self-Serving Bias", definition: "The tendency to attribute successes to internal factors (ability, effort) and failures to external factors (bad luck, unfair tests); protects self-esteem but distorts reality." },
+          { term: "Just-World Hypothesis", definition: "The belief that people get what they deserve — victims must have done something to cause their misfortune; used to rationalize inequality and blame victims rather than confront injustice." },
+        ],
+      },
+      {
+        name: "Attitude Change",
+        terms: [
+          { term: "Cognitive Dissonance", definition: "Festinger's theory: discomfort from holding two contradictory cognitions; we reduce it by changing our attitude or behavior — buying an expensive, mediocre item leads us to rate it highly to justify the purchase." },
+          { term: "Central Route Persuasion", definition: "Attitude change through careful analysis of evidence and arguments; produces durable attitude change; requires motivation and ability to process the message; used by people high in need for cognition." },
+          { term: "Peripheral Route Persuasion", definition: "Attitude change based on superficial cues (attractive spokesperson, emotional music, celebrity endorsement) rather than argument quality; produces less durable change; common in advertising." },
+          { term: "Foot-in-the-Door Technique", definition: "A compliance strategy that starts with a small request to gain agreement, then follows with a larger request; people comply with the big ask to remain consistent with their prior behavior." },
+        ],
+      },
+      {
+        name: "Social Influence",
+        terms: [
+          { term: "Conformity (Asch)", definition: "Solomon Asch's line studies showed that people would give obviously wrong answers to match group consensus; ~75% conformed on at least one trial — demonstrating the power of normative social influence." },
+          { term: "Obedience (Milgram)", definition: "Stanley Milgram's shock experiments showed ~65% of participants would administer potentially lethal shocks to a stranger when instructed by an authority figure; demonstrated the situational power of authority." },
+          { term: "Groupthink", definition: "The tendency for tightly knit, cohesive groups to prioritize consensus over critical thinking; dissent is suppressed, leading to poor, overconfident decisions — linked to historical disasters like Bay of Pigs." },
+          { term: "Deindividuation", definition: "The loss of individual identity and restraint in group or crowd situations; anonymity reduces self-awareness and accountability, increasing likelihood of impulsive or antisocial behavior." },
+        ],
+      },
+      {
+        name: "Group Dynamics",
+        terms: [
+          { term: "Social Facilitation", definition: "The tendency to perform well-learned tasks better and novel tasks worse in the presence of others; arousal from an audience enhances dominant (practiced) responses but impairs non-dominant ones." },
+          { term: "Social Loafing", definition: "The tendency to exert less effort when working in a group than alone; people feel less accountable when individual contributions are pooled — counteracted by making individual contributions identifiable." },
+          { term: "Bystander Effect", definition: "The tendency for individuals to be less likely to offer help when others are present; discovered by Latané and Darley after the Kitty Genovese murder; larger crowds produce greater inhibition." },
+          { term: "Diffusion of Responsibility", definition: "The mechanism behind the bystander effect: each person assumes someone else will or already has taken action, diluting each individual's sense of personal responsibility to intervene." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 4 · Puzzle 2 — Personality Theories
+  {
+    id: "appsych-unit-4-personality",
+    unit: 4,
+    puzzle: 2,
+    theme: { code: "4.4–4.5", name: "Personality Theories" },
+    title: "Social Psychology and Personality",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Freud's Psychoanalytic Theory",
+        terms: [
+          { term: "Id", definition: "Freud's term for the unconscious reservoir of primitive drives, wishes, and impulses; operates on the pleasure principle — demands immediate gratification without regard for reality or morality." },
+          { term: "Ego", definition: "The conscious, rational component of personality; operates on the reality principle — mediates between the id's demands and the external world; uses delay and planning to achieve realistic satisfaction." },
+          { term: "Superego", definition: "The internalized moral code and social standards, largely unconscious; produces guilt when violated; the ego must balance between the id's impulses and the superego's moral demands." },
+          { term: "Defense Mechanisms", definition: "Unconscious strategies the ego uses to reduce anxiety by distorting reality; include repression (forgetting threatening material), projection, rationalization, displacement, and reaction formation." },
+        ],
+      },
+      {
+        name: "Humanistic Psychology",
+        terms: [
+          { term: "Self-Actualization", definition: "Maslow's term for the highest human need — realizing one's full potential, creativity, and authenticity; at the peak of his hierarchy; can only be pursued once lower deficiency needs are met." },
+          { term: "Unconditional Positive Regard", definition: "Carl Rogers' concept of accepting and valuing a person fully without judgment or conditions; the core of person-centered therapy; creates psychological safety for growth and self-exploration." },
+          { term: "Self-Concept", definition: "Rogers' term for one's overall perception of oneself — who you think you are; mental health requires congruence between the actual self and the ideal self; therapy helps close this gap." },
+          { term: "Peak Experience", definition: "Maslow's term for transcendent moments of intense joy, wonder, and meaning — often associated with art, nature, love, or achievement; frequent in self-actualizing people." },
+        ],
+      },
+      {
+        name: "Trait Theories",
+        terms: [
+          { term: "Big Five (OCEAN)", definition: "The most widely accepted trait model: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism; derived from factor analysis; cross-culturally consistent; predicts health, job performance, and relationships." },
+          { term: "Factor Analysis", definition: "The statistical technique used to identify clusters of correlated traits; used by Cattell and later researchers to reduce hundreds of personality descriptors to underlying factors like the Big Five." },
+          { term: "Introversion–Extraversion", definition: "One of the Big Five dimensions; introverts prefer low-stimulation environments and internal reflection; extraverts seek external stimulation and social engagement; Eysenck linked it to baseline cortical arousal." },
+          { term: "Neuroticism", definition: "A Big Five trait reflecting emotional instability and negative affect — proneness to anxiety, depression, anger, and moodiness; one of the strongest personality predictors of mental health outcomes." },
+        ],
+      },
+      {
+        name: "Social-Cognitive Theory of Personality",
+        terms: [
+          { term: "Locus of Control", definition: "Rotter's concept: internal locus — belief that you control your own outcomes; external locus — belief that luck, fate, or others control outcomes; internal locus predicts better health, achievement, and well-being." },
+          { term: "Learned Helplessness (Personality)", definition: "Seligman's concept applied to personality: repeated uncontrollable negative events create a stable, global expectation of helplessness — a cognitive style linked to depression and external locus of control." },
+          { term: "Self-Efficacy (Personality)", definition: "Bandura's belief in one's capacity to execute specific behaviors successfully; domain-specific (high math self-efficacy doesn't guarantee high social self-efficacy); the single strongest predictor of performance across domains." },
+          { term: "Person-Situation Controversy", definition: "Mischel's argument that traits predict behavior less reliably than situations; the debate about whether personality is consistent across contexts or shaped primarily by situational factors; modern view: traits × situations interact." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 4 · Puzzle 3 — Motivation and Emotion
+  {
+    id: "appsych-unit-4-motivation",
+    unit: 4,
+    puzzle: 3,
+    theme: { code: "4.6–4.7", name: "Motivation and Emotion" },
+    title: "Social Psychology and Personality",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Theories of Motivation",
+        terms: [
+          { term: "Drive-Reduction Theory", definition: "Hull's theory that physiological needs create drives (tensions) that motivate behavior to restore homeostasis; hunger → drive to eat → tension reduced; works well for biological drives but poorly for curiosity or sensation-seeking." },
+          { term: "Arousal Theory", definition: "People seek an optimal level of arousal — too little leads to boredom, too much to stress; explains sensation-seeking behavior and the Yerkes-Dodson law (moderate arousal optimizes performance)." },
+          { term: "Incentive Theory", definition: "Behavior is motivated by external stimuli (incentives) — we are pulled toward rewards rather than pushed by internal drives; explains motivation for goals beyond biological survival." },
+          { term: "Self-Determination Theory", definition: "Deci and Ryan's theory that people have innate needs for competence, autonomy, and relatedness; intrinsic motivation (doing something for its own sake) produces better outcomes than extrinsic rewards." },
+        ],
+      },
+      {
+        name: "Maslow's Hierarchy of Needs",
+        terms: [
+          { term: "Physiological Needs", definition: "The base of Maslow's pyramid: survival requirements — food, water, warmth, sleep, and sex; must be satisfied before higher needs become motivating." },
+          { term: "Safety Needs", definition: "The second level: security, stability, freedom from fear, and predictable order; motivates behavior when physiological needs are met but safety is threatened." },
+          { term: "Belongingness Needs", definition: "The third level: love, affection, friendship, and social connection; social exclusion (ostracism) is one of the most psychologically painful human experiences, reflecting how fundamental this need is." },
+          { term: "Esteem Needs", definition: "The fourth level: achievement, recognition, status, and self-respect; the need to be competent and respected by others; precedes self-actualization in Maslow's model." },
+        ],
+      },
+      {
+        name: "Theories of Emotion",
+        terms: [
+          { term: "James-Lange Theory", definition: "We feel emotions because we notice our physiological arousal — 'we are afraid because we run, not running because we are afraid'; emotion = perception of bodily change." },
+          { term: "Cannon-Bard Theory", definition: "Physiological arousal and the subjective emotional experience occur simultaneously and independently — the body doesn't need to change first; challenges James-Lange by noting arousal is too slow and non-specific." },
+          { term: "Schachter-Singer Two-Factor Theory", definition: "Emotion = physiological arousal + cognitive label; we notice arousal and then look for a situational explanation — the same arousal can produce different emotions depending on context (misattribution of arousal)." },
+          { term: "Facial Feedback Hypothesis", definition: "Facial expressions don't just reflect emotions — they also influence them; holding a pencil in your teeth (forcing a smile) increases amusement ratings; botox patients report blunted emotions." },
+        ],
+      },
+      {
+        name: "Emotional Expression",
+        terms: [
+          { term: "Universal Emotions", definition: "Ekman's finding that six basic emotions (happiness, sadness, fear, anger, surprise, disgust) are recognized across cultures from facial expressions; evidence for a biological basis of emotional expression." },
+          { term: "Display Rules", definition: "Culturally learned norms governing which emotions are appropriate to express, to whom, and in what situations; explain why emotional expression varies across cultures despite universal underlying emotions." },
+          { term: "Cognitive Appraisal (Lazarus)", definition: "Richard Lazarus's theory that emotion depends on how we interpret (appraise) a situation — the same event can produce fear, excitement, or indifference depending on its perceived meaning and relevance to our goals." },
+          { term: "Emotional Intelligence (EQ)", definition: "The ability to perceive, understand, regulate, and use emotions effectively in oneself and others; Goleman argued EQ predicts success in life better than IQ in many interpersonal domains." },
+        ],
+      },
+    ],
+  },
+];
+
+apPsychGameSets.push(...apPsychUnit4bGameSets);
+
+// ─── AP Psychology Unit 5 ────────────────────────────────────────────────────
+
+const apPsychUnit5bGameSets: GameSet[] = [
+  // Unit 5 · Puzzle 1 — Psychological Disorders
+  {
+    id: "appsych-unit-5-disorders",
+    unit: 5,
+    puzzle: 1,
+    theme: { code: "5.3–5.4", name: "Psychological Disorders" },
+    title: "Mental and Physical Health",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Anxiety and Trauma Disorders",
+        terms: [
+          { term: "Generalized Anxiety Disorder", definition: "Persistent, excessive worry about multiple areas of life for at least 6 months; not triggered by a specific object or situation; accompanied by restlessness, fatigue, and difficulty concentrating." },
+          { term: "Panic Disorder", definition: "Recurrent, unexpected panic attacks — sudden surges of intense fear with physical symptoms (pounding heart, shortness of breath, dizziness) — plus persistent worry about future attacks." },
+          { term: "PTSD", definition: "Post-traumatic stress disorder: intrusive re-experiencing (flashbacks, nightmares), avoidance, negative mood changes, and hyperarousal lasting more than a month after exposure to traumatic events." },
+          { term: "Phobia", definition: "An intense, irrational fear of a specific object or situation that produces immediate anxiety and avoidance behavior disproportionate to the actual danger." },
+        ],
+      },
+      {
+        name: "Mood Disorders",
+        terms: [
+          { term: "Major Depressive Disorder", definition: "At least two weeks of depressed mood or loss of interest, plus five of nine symptoms including sleep changes, appetite changes, fatigue, worthlessness, and suicidal ideation; one of the most prevalent psychiatric conditions." },
+          { term: "Bipolar I Disorder", definition: "Characterized by at least one manic episode (elevated/irritable mood, decreased sleep need, grandiosity, racing thoughts, impulsivity) lasting at least 7 days; formerly called manic-depressive disorder." },
+          { term: "Persistent Depressive Disorder", definition: "Chronically depressed mood for at least 2 years with fewer and less severe symptoms than major depression; formerly called dysthymia; less intense but more enduring than major depressive episodes." },
+          { term: "Seasonal Affective Disorder", definition: "A pattern of major depressive episodes that recur seasonally — typically fall/winter, remitting in spring; linked to reduced sunlight affecting circadian rhythms and serotonin; treated with light therapy." },
+        ],
+      },
+      {
+        name: "Schizophrenia Spectrum",
+        terms: [
+          { term: "Positive Symptoms (Schizophrenia)", definition: "Symptoms that represent an excess or distortion of normal function — hallucinations, delusions, disorganized speech; respond better to antipsychotic medication than negative symptoms." },
+          { term: "Negative Symptoms (Schizophrenia)", definition: "Symptoms reflecting a diminution of normal function — flat affect, alogia (poverty of speech), avolition (lack of motivation), social withdrawal; harder to treat and more predictive of poor outcomes." },
+          { term: "Delusions", definition: "Fixed false beliefs firmly held despite clear contradictory evidence; common types include persecution, grandeur, and reference; a hallmark positive symptom of schizophrenia." },
+          { term: "Hallucinations", definition: "Perceptual experiences without an external stimulus; auditory hallucinations (hearing voices) are most common in schizophrenia; felt as completely real by the person experiencing them." },
+        ],
+      },
+      {
+        name: "Classifying and Understanding Disorders",
+        terms: [
+          { term: "DSM-5", definition: "The Diagnostic and Statistical Manual of Mental Disorders, 5th edition; the APA's classification system providing diagnostic criteria for ~300 disorders; criticized for medicalization of normal behavior and cultural bias." },
+          { term: "Diathesis-Stress Model", definition: "Psychological disorders arise from a biological or psychological predisposition (diathesis) triggered by environmental stressors; explains why not everyone with genetic risk develops a disorder." },
+          { term: "Rosenhan Study", definition: "David Rosenhan's 1973 study 'On Being Sane in Insane Places': pseudopatients faked symptoms to gain admission, then behaved normally — all were diagnosed with real disorders, exposing unreliability of psychiatric labeling." },
+          { term: "Stigma (Mental Health)", definition: "Negative attitudes and discrimination toward people with mental disorders; a major barrier to treatment-seeking; perpetuated by media portrayals linking mental illness with violence." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 5 · Puzzle 2 — Treatment of Psychological Disorders
+  {
+    id: "appsych-unit-5-treatment",
+    unit: 5,
+    puzzle: 2,
+    theme: { code: "5.5", name: "Treatment of Psychological Disorders" },
+    title: "Mental and Physical Health",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Psychodynamic and Humanistic Therapies",
+        terms: [
+          { term: "Psychoanalysis", definition: "Freud's therapeutic approach using free association, dream analysis, and exploration of resistance and transference to bring unconscious conflicts into conscious awareness and achieve insight." },
+          { term: "Free Association", definition: "The core psychoanalytic technique in which the patient reports every thought without censoring; assumes the unconscious reveals itself through the unguarded flow of associations." },
+          { term: "Client-Centered Therapy", definition: "Carl Rogers' humanistic therapy providing unconditional positive regard, empathy, and genuineness to create conditions for growth; trusts the client's capacity for self-directed healing." },
+          { term: "Transference", definition: "The psychoanalytic phenomenon in which a patient unconsciously redirects feelings from important past relationships onto the therapist; analyzing transference reveals core relational patterns." },
+        ],
+      },
+      {
+        name: "Behavioral and Cognitive Therapies",
+        terms: [
+          { term: "Cognitive Behavioral Therapy (CBT)", definition: "The most empirically supported psychotherapy; identifies and challenges distorted automatic thoughts and dysfunctional beliefs, then tests new adaptive cognitions behaviorally; effective for depression, anxiety, and many other disorders." },
+          { term: "Cognitive Restructuring", definition: "The CBT technique of identifying, challenging, and replacing cognitive distortions (catastrophizing, all-or-nothing thinking) with more accurate, balanced appraisals." },
+          { term: "Exposure Therapy", definition: "A behavioral treatment in which patients are confronted with feared stimuli — gradually (systematic desensitization) or all at once (flooding) — until the conditioned fear response extinguishes." },
+          { term: "REBT", definition: "Rational Emotive Behavior Therapy (Ellis): disputes irrational core beliefs ('I must be perfect or I'm worthless') using logical challenges; a forerunner of CBT emphasizing beliefs in emotional disturbance." },
+        ],
+      },
+      {
+        name: "Biomedical Treatments",
+        terms: [
+          { term: "SSRIs", definition: "Selective serotonin reuptake inhibitors (e.g., Prozac, Zoloft): block serotonin reuptake, increasing synaptic serotonin; first-line treatment for depression and anxiety; fewer side effects than older antidepressants." },
+          { term: "Antipsychotics", definition: "Medications (e.g., haloperidol, clozapine) that primarily block dopamine receptors; reduce positive symptoms of schizophrenia; atypical antipsychotics target both dopamine and serotonin with fewer movement side effects." },
+          { term: "Electroconvulsive Therapy (ECT)", definition: "A biomedical treatment for severe, medication-resistant depression in which brief electrical current induces a brain seizure under anesthesia; works faster than antidepressants; side effect is temporary memory loss." },
+          { term: "Lithium", definition: "A mood-stabilizing mineral salt that is the gold-standard treatment for bipolar disorder; prevents both manic and depressive episodes; requires careful blood monitoring due to narrow therapeutic window." },
+        ],
+      },
+      {
+        name: "Therapy Concepts and Effectiveness",
+        terms: [
+          { term: "Meta-Analysis (Therapy Research)", definition: "A statistical method combining results of many studies to estimate overall treatment effectiveness; Smith and Glass's 1977 meta-analysis found psychotherapy significantly more effective than no treatment." },
+          { term: "Therapeutic Alliance", definition: "The quality of the collaborative relationship between therapist and client; one of the strongest predictors of therapy outcome across all modalities — often more important than the specific techniques used." },
+          { term: "Eclectic Approach", definition: "A therapeutic style drawing techniques from multiple theoretical orientations based on the individual client's needs rather than rigidly adhering to one model." },
+          { term: "Deinstitutionalization", definition: "The large-scale movement of psychiatric patients from inpatient hospitals to community settings beginning in the 1960s; driven by antipsychotic medications and civil rights concerns; contributed to both community mental health programs and homelessness." },
+        ],
+      },
+    ],
+  },
+
+  // Unit 5 · Puzzle 3 — Health and Positive Psychology
+  {
+    id: "appsych-unit-5-health",
+    unit: 5,
+    puzzle: 3,
+    theme: { code: "5.1–5.2", name: "Health and Positive Psychology" },
+    title: "Mental and Physical Health",
+    subject: "AP Psych",
+    groups: [
+      {
+        name: "Stress and the Body",
+        terms: [
+          { term: "General Adaptation Syndrome", definition: "Selye's three-stage model of the stress response: Alarm (sympathetic activation), Resistance (sustained coping), Exhaustion (resources depleted, vulnerability to illness); describes how chronic stress damages health." },
+          { term: "Psychoneuroimmunology", definition: "The study of how psychological states — especially stress — affect the immune system via the nervous and endocrine systems; chronic stress suppresses immune function and slows wound healing." },
+          { term: "Cortisol", definition: "The primary stress hormone released by the adrenal cortex; mobilizes energy during stress; chronically elevated cortisol damages the hippocampus, impairs memory, and contributes to illness." },
+          { term: "Type A Personality", definition: "Friedman and Rosenman's pattern of competitive, time-urgent, easily angered behavior; the hostility component is the strongest predictor of cardiovascular disease risk." },
+        ],
+      },
+      {
+        name: "Coping with Stress",
+        terms: [
+          { term: "Problem-Focused Coping", definition: "Addressing stress by tackling the stressor directly — gathering information, making a plan, taking action; most effective when the stressor is controllable." },
+          { term: "Emotion-Focused Coping", definition: "Managing the emotional distress caused by a stressor rather than changing the stressor itself — seeking support, reappraising, accepting; most useful when the stressor is uncontrollable." },
+          { term: "Social Support", definition: "The perceived availability of caring others; one of the strongest predictors of both physical health and psychological resilience; reduces physiological stress responses." },
+          { term: "Hardiness", definition: "Kobasa's personality trait cluster of Commitment (engaging fully), Control (believing one can influence events), and Challenge (seeing stressors as growth opportunities); buffers the health impact of stress." },
+        ],
+      },
+      {
+        name: "Positive Psychology",
+        terms: [
+          { term: "Subjective Well-Being", definition: "Diener's measure of happiness: the combination of frequent positive affect, infrequent negative affect, and high life satisfaction; not determined primarily by wealth — adaptation and social comparison matter more." },
+          { term: "Post-Traumatic Growth", definition: "Positive psychological change — increased personal strength, deeper relationships, new possibilities, appreciation for life — that some people report following highly challenging experiences; coexists with distress." },
+          { term: "Learned Optimism", definition: "Seligman's concept that an optimistic explanatory style (external, unstable, specific attributions for bad events) can be deliberately cultivated; predicts better health, achievement, and resilience." },
+          { term: "Broaden-and-Build Theory", definition: "Fredrickson's theory that positive emotions broaden thought-action repertoires and build lasting personal resources (social, intellectual, physical); positive emotions do more than feel good — they build resilience over time." },
+        ],
+      },
+      {
+        name: "Influences on Health Behavior",
+        terms: [
+          { term: "Health Belief Model", definition: "People adopt health behaviors based on perceived susceptibility to illness, perceived severity, perceived benefits, perceived barriers, and cues to action; explains gaps between health knowledge and actual behavior." },
+          { term: "Stress Inoculation", definition: "A CBT-based technique that teaches cognitive restructuring and coping skills before stressors occur; builds a repertoire of effective responses while arousal is low so they're available when stress hits." },
+          { term: "Mindfulness-Based Stress Reduction", definition: "Jon Kabat-Zinn's structured 8-week program using mindfulness meditation to reduce stress; shown to reduce cortisol, improve immune function, and decrease anxiety and depression in chronic illness." },
+          { term: "Locus of Control (Health)", definition: "Internal health locus — belief that personal behavior determines health outcomes — predicts better health practices; external health locus — belief that luck or powerful others control health — predicts riskier behavior." },
+        ],
+      },
+    ],
+  },
+];
+
+apPsychGameSets.push(...apPsychUnit5bGameSets);
+
+gameSets.push(...apPsychGameSets);
+
 export function getGameByUnit(unit: number, subject?: string): GameSet | undefined {
   return gameSets.find((g) => g.unit === unit && (!subject || g.subject === subject));
 }

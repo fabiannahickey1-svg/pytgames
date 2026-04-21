@@ -18,9 +18,10 @@ const Index = () => {
   const isEnvSci = location.pathname.startsWith("/envsci");
   const isAPWorld = location.pathname.startsWith("/apworld");
   const isAPGov = location.pathname.startsWith("/apgov");
-  const subject = isPhilosophy ? "IB Philosophy" : isEnvSci ? "Env Science" : isAPWorld ? "AP World" : isAPGov ? "AP Gov" : "APUSH";
-  const subjectBase = isPhilosophy ? "/philosophy" : isEnvSci ? "/envsci" : isAPWorld ? "/apworld" : isAPGov ? "/apgov" : "/apush";
-  const unitBase = isPhilosophy ? "/philosophy/unit" : isEnvSci ? "/envsci/unit" : isAPWorld ? "/apworld/unit" : isAPGov ? "/apgov/unit" : "/unit";
+  const isAPPsych = location.pathname.startsWith("/appsych");
+  const subject = isPhilosophy ? "IB Philosophy" : isEnvSci ? "Env Science" : isAPWorld ? "AP World" : isAPGov ? "AP Gov" : isAPPsych ? "AP Psych" : "APUSH";
+  const subjectBase = isPhilosophy ? "/philosophy" : isEnvSci ? "/envsci" : isAPWorld ? "/apworld" : isAPGov ? "/apgov" : isAPPsych ? "/appsych" : "/apush";
+  const unitBase = isPhilosophy ? "/philosophy/unit" : isEnvSci ? "/envsci/unit" : isAPWorld ? "/apworld/unit" : isAPGov ? "/apgov/unit" : isAPPsych ? "/appsych/unit" : "/unit";
 
   const puzzles = getGamesByUnit(unitNum, subject);
   const currentGame = puzzles.find((p) => (p.puzzle ?? 1) === puzzleNum);

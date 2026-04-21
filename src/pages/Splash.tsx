@@ -51,6 +51,16 @@ const subjects = [
     accentLight: "#e6f4f5",
     accentDark: "#073d43",
   },
+  {
+    label: "AP Psych",
+    description: "AP Psychology",
+    path: "/appsych",
+    active: true,
+    units: 5,
+    accent: "#7C3AED",
+    accentLight: "#f3eeff",
+    accentDark: "#5b21b6",
+  },
 ];
 
 const HOW_TO_PLAY = [

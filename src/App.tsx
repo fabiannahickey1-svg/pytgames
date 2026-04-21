@@ -12,9 +12,14 @@ import APWorldLanding from "./pages/APWorldLanding.tsx";
 import APWorldUnitPage from "./pages/APWorldUnitPage.tsx";
 import APGovLanding from "./pages/APGovLanding.tsx";
 import APGovUnitPage from "./pages/APGovUnitPage.tsx";
+import APPsychLanding from "./pages/APPsychLanding.tsx";
+import APPsychUnitPage from "./pages/APPsychUnitPage.tsx";
 import PuzzlePicker from "./pages/PuzzlePicker.tsx";
 import Index from "./pages/Index.tsx";
+import About from "./pages/About.tsx";
+import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import NavMenu from "./components/NavMenu.tsx";
 
 const queryClient = new QueryClient();
 
@@ -24,8 +29,11 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <NavMenu />
         <Routes>
           <Route path="/" element={<Splash />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/apush" element={<Landing />} />
           <Route path="/unit/:unit" element={<PuzzlePicker />} />
           <Route path="/unit/:unit/:puzzle" element={<Index />} />
@@ -41,6 +49,9 @@ const App = () => (
           <Route path="/apgov" element={<APGovLanding />} />
           <Route path="/apgov/unit/:unit" element={<APGovUnitPage />} />
           <Route path="/apgov/unit/:unit/:puzzle" element={<Index />} />
+          <Route path="/appsych" element={<APPsychLanding />} />
+          <Route path="/appsych/unit/:unit" element={<APPsychUnitPage />} />
+          <Route path="/appsych/unit/:unit/:puzzle" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
