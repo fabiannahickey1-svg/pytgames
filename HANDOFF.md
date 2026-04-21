@@ -1,13 +1,13 @@
 # Developer Handoff — PYT Games
 
-**Last updated:** 2026-04-16  
-**Status:** Active development — APUSH (Units 1, 3–9, 8 themed puzzles each) + IB Philosophy (20 puzzles across 8 themes) + Environmental Science (all 9 units, 29 puzzles) all live; AP Bio / AP Lang coming soon
+**Last updated:** 2026-04-20  
+**Status:** Active development — APUSH (Units 1, 3–9, 8 themed puzzles each) + IB Philosophy (20 puzzles across 8 themes) + Environmental Science (all 9 units, 29 puzzles) + AP World History (Units 7–9, 9 puzzles) + AP Gov (all 5 units, 25 puzzles) + AP Psychology (all 5 units, 15 puzzles) all live; AP Bio / AP Lang coming soon
 
 ---
 
 ## What this is
 
-PYT Games is a web-based study game where students group 16 vocab terms into 4 categories. Built for AP exam test prep, starting with APUSH. AP Bio and AP Lang are planned next.
+PYT Games is a web-based study game where students group 16 vocab terms into 4 categories. Built for AP exam test prep. Active subjects: APUSH, IB Philosophy, Environmental Science, AP World History, AP Gov, AP Psychology. AP Bio and AP Lang are planned next.
 
 ---
 
@@ -35,22 +35,32 @@ GITHUB_TOKEN=your_token   # stored in .env, never committed
 src/
   App.tsx                         # Router setup, providers
   data/
-    gameSets.ts                   # All game content (APUSH + IB Philosophy + Env Science)
+    gameSets.ts                   # All game content (APUSH + IB Philosophy + Env Science + AP World + AP Gov + AP Psych)
   lib/
     progress.ts                   # Per-subject localStorage helpers
+    analytics.ts                  # GA4 event tracking helper (trackEvent wrapper)
   components/
     ConnectionsGame.tsx           # Game state machine + UI
     GameTile.tsx                  # Selectable term tile
     SolvedGroup.tsx               # Completed group display
+    NavMenu.tsx                   # Hamburger menu (fixed top-right, all pages)
     ui/                           # shadcn/ui primitives (don't edit)
   pages/
     Splash.tsx                    # / — class picker (home page)
     Landing.tsx                   # /apush — APUSH unit grid with mastery bar
     PhilosophyLanding.tsx         # /philosophy — IB Philosophy theme grid
     EnvSciLanding.tsx             # /envsci — Env Science unit grid with mastery bar
-    EnvSciUnitPage.tsx            # /envsci/unit/:unit — subtopic picker (Env Sci only)
+    EnvSciUnitPage.tsx            # /envsci/unit/:unit — subtopic picker
+    APWorldLanding.tsx            # /apworld — AP World History unit grid
+    APWorldUnitPage.tsx           # /apworld/unit/:unit — puzzle picker
+    APGovLanding.tsx              # /apgov — AP Gov unit grid with mastery bar
+    APGovUnitPage.tsx             # /apgov/unit/:unit — Big Idea puzzle picker
+    APPsychLanding.tsx            # /appsych — AP Psychology unit grid with mastery bar
+    APPsychUnitPage.tsx           # /appsych/unit/:unit — topic puzzle picker
     PuzzlePicker.tsx              # puzzle selector (APUSH + Philosophy)
     Index.tsx                     # game page (subject-aware via URL)
+    About.tsx                     # /about — team and mission
+    Contact.tsx                   # /contact — email + Instagram + TikTok
 ```
 
 **Routing:** React Router v6. Subject prefix determines which data is loaded — `PuzzlePicker` and `Index` detect subject from `location.pathname`.
@@ -67,14 +77,27 @@ src/
 | `/envsci` | `EnvSciLanding.tsx` | Env Science unit grid |
 | `/envsci/unit/:unit` | `EnvSciUnitPage.tsx` | Env Sci subtopic picker (3-level nav) |
 | `/envsci/unit/:unit/:puzzle` | `Index.tsx` | Env Science game |
+| `/apworld` | `APWorldLanding.tsx` | AP World History unit grid |
+| `/apworld/unit/:unit` | `APWorldUnitPage.tsx` | AP World puzzle picker |
+| `/apworld/unit/:unit/:puzzle` | `Index.tsx` | AP World game |
+| `/apgov` | `APGovLanding.tsx` | AP Gov unit grid |
+| `/apgov/unit/:unit` | `APGovUnitPage.tsx` | AP Gov Big Idea puzzle picker |
+| `/apgov/unit/:unit/:puzzle` | `Index.tsx` | AP Gov game |
+| `/appsych` | `APPsychLanding.tsx` | AP Psychology unit grid |
+| `/appsych/unit/:unit` | `APPsychUnitPage.tsx` | AP Psych topic puzzle picker |
+| `/appsych/unit/:unit/:puzzle` | `Index.tsx` | AP Psych game |
+| `/about` | `About.tsx` | About page |
+| `/contact` | `Contact.tsx` | Contact page |
 
-**Env Science uses 3-level navigation** (subject → unit → subtopic) unlike APUSH/Philosophy which use 2 levels. `EnvSciUnitPage.tsx` handles the middle level. To add a new subject: create a landing page, add routes in `App.tsx`, activate the card in `Splash.tsx`, add content to `gameSets.ts` with the correct `subject` field.
+**3-level navigation subjects** (subject → unit → puzzle): Env Science, AP World, AP Gov, AP Psychology. **2-level navigation subjects** (subject → puzzle): APUSH, IB Philosophy. To add a new subject: create a landing page + unit page, add routes in `App.tsx`, activate the card in `Splash.tsx`, add content to `gameSets.ts` with the correct `subject` field, update subject detection in `Index.tsx`.
 
 **State:** All game state is local to `ConnectionsGame` — no global store, no persistence between sessions.
 
 **Progress tracking:** `progress.ts` uses separate localStorage keys per subject (`pyt-apush-puzzles`, `pyt-ib-philosophy-puzzles`, `pyt-env-science-puzzles`). All functions accept an optional `subject` param defaulting to `"APUSH"`.
 
-**Styling:** Tailwind CSS + shadcn/ui. APUSH accent: Yale Blue `#0F4D92`. IB Philosophy accent: purple `#6B3FA0`. Env Science accent: forest green `#2D7A4F`. Fonts: Quicksand (UI) + Playfair Display (hero title).
+**Analytics:** GA4 (G-M1MTBZCT7T) via `src/lib/analytics.ts`. Four custom events fire from `ConnectionsGame.tsx`: `puzzle_start`, `group_solved`, `puzzle_complete` (includes `mistakes` + `hints_used`), `puzzle_fail`. All events include `subject`, `unit`, `puzzle`, and `puzzle_id` params.
+
+**Styling:** Tailwind CSS + shadcn/ui. APUSH accent: Yale Blue `#0F4D92`. IB Philosophy accent: purple `#6B3FA0`. Env Science accent: forest green `#2D7A4F`. AP Psych accent: violet `#7C3AED`. Fonts: Quicksand (UI) + Playfair Display (hero title).
 
 ---
 
@@ -158,6 +181,20 @@ For AP & IB Environmental Science. Uses N.X subtopic naming (e.g. 1.1, 1.2).
 
 **Total: 36 puzzles, 576 terms** across all 9 units.
 
+### AP Psychology content
+
+5-unit redesigned AP Psychology curriculum (2024–25). 3 puzzles per unit = 15 puzzles, 240 terms total. Subject field: `"AP Psych"`. Accent: violet `#7C3AED`.
+
+| Unit | Title | Puzzles | Topics |
+|------|-------|---------|--------|
+| 1 | Biological Bases of Behavior | 3 | The Neuron & Neural Firing (1.3) · The Brain (1.4) · Nervous System & Heredity (1.1–1.2) |
+| 2 | Cognition | 3 | The Visual System (2.1) · Memory (2.3–2.7) · Thinking & Problem Solving (2.2) |
+| 3 | Development and Learning | 3 | Classical Conditioning (3.7) · Operant Conditioning (3.8) · Cognitive & Observational Learning (3.9) |
+| 4 | Social Psychology and Personality | 3 | Social Psychology (4.1–4.3) · Personality Theories (4.4–4.5) · Motivation & Emotion (4.6–4.7) |
+| 5 | Mental and Physical Health | 3 | Psychological Disorders (5.3–5.4) · Treatment (5.5) · Health & Positive Psychology (5.1–5.2) |
+
+**Note:** Unit data for AP Psych is built in modular const arrays (`apPsychGameSets`, `apPsychUnit2GameSets`, etc.) then assembled with unit/id overrides before being pushed into the main `gameSets` array. Unit 3 puzzles are remapped from the unit-4 source data with theme codes corrected to 3.7–3.9.
+
 ---
 
 ## Game rules (implemented)
@@ -176,6 +213,7 @@ For AP & IB Environmental Science. Uses N.X subtopic naming (e.g. 1.1, 1.2).
 ## Known gaps / next steps
 
 - **All APUSH units themed** — All active units (1, 3–9) now have 8 AP-themed puzzles; Unit 2 is merged into Unit 1 and shows as Coming Soon
+- **AP Psych Units 4–5 need more content** — currently 3 puzzles each; developmental psych (3.1–3.6), language (3.5), and intelligence (2.8) aren't yet covered
 - **AP Bio / AP Lang** subject pages don't exist yet — splash shows them as Coming Soon
 - **No shuffle button** — terms are shuffled once on load; players can't reshuffle mid-game
 - **No streak/history** — win/loss per session isn't tracked beyond puzzle completion in localStorage

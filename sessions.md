@@ -83,3 +83,33 @@
 - App.tsx: added `/philosophy`, `/philosophy/unit/:unit`, `/philosophy/unit/:unit/:puzzle` routes
 
 **Next:** AP Bio / AP Lang subject pages; shuffle button; mobile polish; APUSH content audit
+
+## 2026-04-20 — Session 9
+
+- Added AP Psychology as a fully active subject with violet accent (#7C3AED)
+- 5-unit structure matching the redesigned AP Psych curriculum (College Board 2024–25): Biological Bases of Behavior, Cognition, Development and Learning, Social Psychology and Personality, Mental and Physical Health
+- 3 puzzles per unit = 15 puzzles total, 240 terms with definitions
+- New `APPsychLanding.tsx` at `/appsych` — mastery levels Observer → Researcher → Analyst → Therapist → Psychologist → AP Scholar
+- New `APPsychUnitPage.tsx` at `/appsych/unit/:unit` — topic puzzle picker showing theme codes (e.g. 1.3, 2.1–2.7)
+- `Index.tsx` updated to detect `/appsych` prefix; AP Psych card added to Splash (6th subject, "5 Units →")
+- Data architecture: modular const arrays per unit assembled with spread overrides into main `gameSets` — unit 3 puzzles remapped from unit-4 source data with theme codes corrected to 3.7–3.9
+- Added GA4 custom events via `src/lib/analytics.ts`: `puzzle_start`, `group_solved`, `puzzle_complete` (with mistakes + hints_used), `puzzle_fail` — all fire from `ConnectionsGame.tsx` with subject/unit/puzzle context
+- Added global `NavMenu.tsx` component — hamburger (≡) fixed top-right on every page, opens dropdown with Home / About Us / Contact links; closes on outside click and route change
+- Added `/about` page (`About.tsx`) — mission statement, team bios for Fabianna Hickey and Lily Grodin, goal card
+- Added `/contact` page (`Contact.tsx`) — cards for email (pytgames2026@gmail.com), Instagram (@PYTGames), TikTok (@pyt.games)
+
+**Next:** Developmental psych content for Unit 3 (3.1–3.6); language/intelligence puzzles for Unit 2; AP Bio / AP Lang subject pages
+
+## 2026-04-19 — Session 8
+
+- Completed AP World History (Units 7–9) — 9 puzzles total, 3 per unit using GOV/CDI/SIO+ECN themes covering Global Conflict, Cold War & Decolonization, and Globalization
+- Added AP Government & Politics as a fully active subject with dark teal accent (#0D5C63)
+- All 5 AP Gov units, 5 puzzles each = 25 puzzles total; each puzzle maps to a Big Idea (CON, LO, PRD, PMI, MPA)
+- New `APGovLanding.tsx` at `/apgov` — mastery levels Citizen → Delegate → Legislator → Senator → Justice → Chief Justice
+- New `APGovUnitPage.tsx` at `/apgov/unit/:unit` — 3-level nav matching the EnvSci pattern, lists puzzles by Big Idea code + name
+- New `APWorldLanding.tsx` at `/apworld` and `APWorldUnitPage.tsx` at `/apworld/unit/:unit`
+- `Index.tsx` updated to detect `/apgov` and `/apworld` prefixes for subject-aware routing
+- Splash page updated: switched to `grid-cols-3` layout (3×2 grid) to accommodate 5 subjects cleanly; subject cards resized (p-5, text-2xl, square aspect ratio); AP Gov card added
+- App.tsx: added routes for `/apgov`, `/apgov/unit/:unit`, `/apgov/unit/:unit/:puzzle`, `/apworld`, `/apworld/unit/:unit`, `/apworld/unit/:unit/:puzzle`
+
+**Next:** AP Bio / AP Lang subject pages; shuffle button; mobile polish
