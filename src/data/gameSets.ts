@@ -8721,6 +8721,3035 @@ apPsychGameSets.push(...apPsychUnit5bGameSets);
 
 gameSets.push(...apPsychGameSets);
 
+// ── AP BIOLOGY ────────────────────────────────────────────────────────────────
+
+const apBioGameSets: GameSet[] = [
+  // Unit 1 · Chemistry of Life
+  {
+    id: "ap-bio-unit-1-1",
+    unit: 1,
+    puzzle: 1,
+    theme: { code: "ENE", name: "Energetics" },
+    title: "Chemistry of Life",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Energy-Storing Macromolecules",
+        terms: [
+          { term: "Triglyceride", definition: "Lipid composed of glycerol and three fatty acid chains; stores more energy per gram than carbohydrates; used for long-term energy storage." },
+          { term: "Starch", definition: "Polysaccharide made of glucose monomers; primary energy storage molecule in plants." },
+          { term: "Glycogen", definition: "Highly branched polysaccharide stored in animal liver and muscle; rapidly mobilized for quick energy." },
+          { term: "ATP", definition: "Adenosine triphosphate; the cell's primary energy currency; releases energy when the terminal phosphate bond is hydrolyzed." },
+        ],
+      },
+      {
+        name: "Enzyme Reaction Concepts",
+        terms: [
+          { term: "Active Site", definition: "Specific region on an enzyme where the substrate binds; its shape is complementary to the substrate." },
+          { term: "Substrate", definition: "Reactant molecule that binds to an enzyme's active site and is transformed during the reaction." },
+          { term: "Activation Energy", definition: "Minimum energy required to start a chemical reaction; enzymes lower this barrier, speeding up reactions." },
+          { term: "Induced Fit", definition: "Conformational change in an enzyme's active site when the substrate binds, enhancing catalytic efficiency." },
+        ],
+      },
+      {
+        name: "Types of Chemical Bonds",
+        terms: [
+          { term: "Covalent Bond", definition: "Strong bond formed by sharing electron pairs between atoms; found in all organic molecules." },
+          { term: "Ionic Bond", definition: "Electrostatic attraction between oppositely charged ions; easily disrupted by polar solvents like water." },
+          { term: "Hydrogen Bond", definition: "Weak attraction between a partially positive hydrogen and an electronegative atom (O or N); critical in DNA and protein structure." },
+          { term: "Van der Waals Forces", definition: "Weak, transient attractions between nonpolar molecules due to temporary electron fluctuations; important in membrane structure." },
+        ],
+      },
+      {
+        name: "Reaction Types",
+        terms: [
+          { term: "Dehydration Synthesis", definition: "Builds a polymer by removing a water molecule to form a covalent bond between monomers." },
+          { term: "Hydrolysis", definition: "Breaks a polymer by adding water to cleave a covalent bond between monomers." },
+          { term: "Exergonic Reaction", definition: "Releases free energy; products have less free energy than reactants; occurs spontaneously." },
+          { term: "Endergonic Reaction", definition: "Requires energy input; products have more free energy than reactants; not spontaneous on its own." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-1-2",
+    unit: 1,
+    puzzle: 2,
+    theme: { code: "IST", name: "Information Storage & Transmission" },
+    title: "Chemistry of Life",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Protein Structure Levels",
+        terms: [
+          { term: "Primary Structure", definition: "Linear sequence of amino acids in a polypeptide; determined directly by the gene's DNA sequence." },
+          { term: "Secondary Structure", definition: "Local folding into alpha helices or beta sheets; stabilized by hydrogen bonds between backbone atoms." },
+          { term: "Tertiary Structure", definition: "Overall 3D shape of a single polypeptide due to interactions among R groups (hydrophobic, ionic, disulfide, H-bonds)." },
+          { term: "Quaternary Structure", definition: "Functional complex of two or more polypeptide subunits held together by intermolecular forces (e.g., hemoglobin)." },
+        ],
+      },
+      {
+        name: "DNA-Only Features",
+        terms: [
+          { term: "Thymine", definition: "Pyrimidine base found only in DNA; pairs with adenine via two hydrogen bonds." },
+          { term: "Deoxyribose", definition: "Five-carbon sugar in DNA; lacks a hydroxyl group at the 2' carbon, making DNA more stable than RNA." },
+          { term: "Double Helix", definition: "DNA's two antiparallel polynucleotide strands wound around a common axis; discovered by Watson and Crick." },
+          { term: "Antiparallel Strands", definition: "The two DNA strands run in opposite directions — one 5'→3' and one 3'→5' — allowing complementary base pairing." },
+        ],
+      },
+      {
+        name: "Amino Acid R-Group Properties",
+        terms: [
+          { term: "Nonpolar (Hydrophobic)", definition: "R group lacks polarity; tends to cluster in the protein interior away from water, stabilizing tertiary structure." },
+          { term: "Polar (Hydrophilic)", definition: "R group has partial charges; often found on the protein surface in contact with the aqueous environment." },
+          { term: "Positively Charged", definition: "R group carries a positive charge at cellular pH (e.g., lysine, arginine); can form ionic bonds within the protein." },
+          { term: "Negatively Charged", definition: "R group carries a negative charge at cellular pH (e.g., aspartate, glutamate); can form ionic bonds within the protein." },
+        ],
+      },
+      {
+        name: "Nucleic Acid Structure Terms",
+        terms: [
+          { term: "Phosphodiester Bond", definition: "Covalent bond linking the 3' carbon of one nucleotide to the 5' phosphate of the next; forms the sugar-phosphate backbone." },
+          { term: "Complementary Base Pairing", definition: "Specific hydrogen bonding between bases: A pairs with T (or U), and G pairs with C; the rule that allows DNA replication." },
+          { term: "Purine", definition: "Double-ring nitrogenous base; adenine and guanine are purines; always pairs with a pyrimidine." },
+          { term: "Pyrimidine", definition: "Single-ring nitrogenous base; cytosine, thymine, and uracil are pyrimidines; always pairs with a purine." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-1-3",
+    unit: 1,
+    puzzle: 3,
+    theme: { code: "SYI", name: "Systems Interactions" },
+    title: "Chemistry of Life",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Properties of Water",
+        terms: [
+          { term: "Cohesion", definition: "Attraction between water molecules via hydrogen bonds; responsible for surface tension and water's ability to form droplets." },
+          { term: "Adhesion", definition: "Attraction of water to other polar or charged surfaces; enables capillary action and water movement in plants." },
+          { term: "High Specific Heat", definition: "Water requires a large amount of energy to change temperature; stabilizes climate and maintains body temperature in organisms." },
+          { term: "Universal Solvent", definition: "Water's polarity allows it to dissolve ionic compounds and polar molecules, making it essential for biochemical reactions." },
+        ],
+      },
+      {
+        name: "Organic Functional Groups",
+        terms: [
+          { term: "Hydroxyl (-OH)", definition: "Polar group that increases water solubility; found in alcohols and sugars; can form hydrogen bonds." },
+          { term: "Carboxyl (-COOH)", definition: "Acidic group that donates H⁺ to solution; found in amino acids and fatty acids; gives organic acids their properties." },
+          { term: "Amino (-NH₂)", definition: "Basic group that accepts H⁺; found in amino acids and nucleotides; important in protein structure and function." },
+          { term: "Phosphate (-PO₄³⁻)", definition: "Negatively charged group found in ATP, DNA, and phospholipids; central to energy transfer and membrane structure." },
+        ],
+      },
+      {
+        name: "Macromolecule Monomers",
+        terms: [
+          { term: "Amino Acid", definition: "Monomer of proteins; 20 types with unique R groups; joined by peptide bonds via dehydration synthesis." },
+          { term: "Monosaccharide", definition: "Monomer of polysaccharides (e.g., glucose); joined by glycosidic bonds; primary fuel for cellular respiration." },
+          { term: "Nucleotide", definition: "Monomer of nucleic acids; composed of a 5-carbon sugar, phosphate group, and nitrogenous base; joined by phosphodiester bonds." },
+          { term: "Fatty Acid", definition: "Long hydrocarbon chain with a carboxyl group; joined to glycerol in triglycerides by ester bonds; two types: saturated and unsaturated." },
+        ],
+      },
+      {
+        name: "Acid-Base Chemistry",
+        terms: [
+          { term: "Acid", definition: "Proton donor; releases H⁺ ions in solution; lowers pH below 7; disrupts hydrogen bonds in proteins and nucleic acids." },
+          { term: "Base", definition: "Proton acceptor; removes H⁺ from solution; raises pH above 7; also disrupts molecular structures at extreme values." },
+          { term: "Buffer", definition: "Solution that resists pH changes by absorbing or donating H⁺ ions; maintains homeostasis in blood and cells." },
+          { term: "pH Scale", definition: "Logarithmic scale (0–14) measuring hydrogen ion concentration; pH 7 is neutral; each unit represents a 10× change in [H⁺]." },
+        ],
+      },
+    ],
+  },
+  // Unit 2 · Cells
+  {
+    id: "ap-bio-unit-2-1",
+    unit: 2,
+    puzzle: 1,
+    theme: { code: "EVO", name: "Evolution" },
+    title: "Cells",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Evidence for Endosymbiotic Theory",
+        terms: [
+          { term: "Double Membrane", definition: "Mitochondria and chloroplasts have two membranes; the outer membrane came from the host cell engulfing a prokaryote." },
+          { term: "Circular DNA", definition: "Mitochondria and chloroplasts contain circular DNA resembling prokaryotic chromosomes, supporting their bacterial ancestry." },
+          { term: "Binary Fission", definition: "Mitochondria and chloroplasts reproduce by binary fission like bacteria, independently of the host cell cycle." },
+          { term: "70S Ribosomes", definition: "Ribosomes in mitochondria and chloroplasts are 70S (prokaryotic size), not 80S like cytoplasmic eukaryotic ribosomes." },
+        ],
+      },
+      {
+        name: "Prokaryote-Only Features",
+        terms: [
+          { term: "Nucleoid Region", definition: "Area in a prokaryote where DNA is concentrated; not enclosed by a membrane." },
+          { term: "Plasmid", definition: "Small, circular, extrachromosomal DNA in bacteria; can carry genes for antibiotic resistance and be shared between cells." },
+          { term: "Pili", definition: "Short, hair-like projections on bacteria used for attachment to surfaces or DNA transfer during conjugation." },
+          { term: "Peptidoglycan Cell Wall", definition: "Rigid structural layer unique to bacteria; target of many antibiotics; absent in eukaryotes." },
+        ],
+      },
+      {
+        name: "Conserved Features Across All Life",
+        terms: [
+          { term: "Plasma Membrane", definition: "Phospholipid bilayer surrounding all cells; controls what enters and exits; evidence of universal common ancestry." },
+          { term: "DNA", definition: "Genetic material present in all known life; the universality of DNA is strong evidence for a common ancestor." },
+          { term: "Ribosomes", definition: "Present in all cells (prokaryotic and eukaryotic); synthesize proteins from mRNA; highly conserved across all life." },
+          { term: "Cytoplasm", definition: "Aqueous interior present in all cells; site of metabolic reactions; contents differ between prokaryotes and eukaryotes." },
+        ],
+      },
+      {
+        name: "Eukaryote-Only Organelles",
+        terms: [
+          { term: "Nucleus", definition: "Membrane-bound organelle that houses chromosomal DNA; absent in prokaryotes; evolved in early eukaryotes." },
+          { term: "Mitochondria", definition: "Double-membrane organelle for aerobic respiration; believed to have evolved from an engulfed alpha-proteobacterium." },
+          { term: "Endoplasmic Reticulum", definition: "Network of internal membranes for protein and lipid synthesis; unique to eukaryotic cells." },
+          { term: "Golgi Apparatus", definition: "Eukaryotic organelle that processes, modifies, and ships proteins and lipids from the ER to their destinations." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-2-2",
+    unit: 2,
+    puzzle: 2,
+    theme: { code: "ENE", name: "Energetics" },
+    title: "Cells",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Passive Transport (No ATP Required)",
+        terms: [
+          { term: "Simple Diffusion", definition: "Small, nonpolar molecules (e.g., O₂, CO₂) move directly through the lipid bilayer down their concentration gradient." },
+          { term: "Facilitated Diffusion", definition: "Polar or charged molecules cross the membrane via channel or carrier proteins, moving down their concentration gradient without ATP." },
+          { term: "Osmosis", definition: "Net movement of water across a semipermeable membrane from a region of high water potential (low solute) to low water potential (high solute)." },
+          { term: "Ion Channel", definition: "Protein pore that allows specific ions to flow down their electrochemical gradient; gated channels open in response to signals." },
+        ],
+      },
+      {
+        name: "Active Transport (ATP Required)",
+        terms: [
+          { term: "Sodium-Potassium Pump", definition: "Uses 1 ATP to pump 3 Na⁺ out and 2 K⁺ in; maintains the electrochemical gradient essential for nerve and muscle function." },
+          { term: "Endocytosis", definition: "Cell engulfs external material by infolding the plasma membrane to form a vesicle; requires ATP." },
+          { term: "Exocytosis", definition: "Vesicle fuses with the plasma membrane to release contents outside the cell; requires ATP; used for secretion." },
+          { term: "Proton Pump", definition: "Uses ATP to move H⁺ against its concentration gradient; creates an electrochemical gradient used to drive secondary active transport." },
+        ],
+      },
+      {
+        name: "Surface Area to Volume Ratio",
+        terms: [
+          { term: "SA:V Ratio", definition: "As cell size increases, volume grows faster than surface area; limits how efficiently a cell can exchange materials with its environment." },
+          { term: "Microvilli", definition: "Finger-like membrane folds on intestinal cells that increase surface area for nutrient absorption without increasing cell volume." },
+          { term: "Cristae", definition: "Folds of the inner mitochondrial membrane that increase surface area for ATP synthase and the electron transport chain." },
+          { term: "Cell Size Limit", definition: "Cells remain small because large size reduces SA:V ratio, slowing diffusion of nutrients and wastes to/from the cell interior." },
+        ],
+      },
+      {
+        name: "Membrane Structure Components",
+        terms: [
+          { term: "Phospholipid", definition: "Amphipathic molecule with a hydrophilic phosphate head and two hydrophobic fatty acid tails; self-assembles into a bilayer." },
+          { term: "Cholesterol", definition: "Steroid lipid embedded in the membrane; stabilizes fluidity by preventing extremes — too fluid at high temps, too rigid at low temps." },
+          { term: "Integral Protein", definition: "Protein embedded within the lipid bilayer; includes channels, carriers, and pumps that facilitate membrane transport." },
+          { term: "Glycoprotein", definition: "Protein with attached carbohydrate chains on the cell surface; involved in cell recognition, signaling, and immune response." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-2-3",
+    unit: 2,
+    puzzle: 3,
+    theme: { code: "SYI", name: "Systems Interactions" },
+    title: "Cells",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Endomembrane System Components",
+        terms: [
+          { term: "Rough ER", definition: "Endoplasmic reticulum studded with ribosomes; site of synthesis for membrane and secretory proteins." },
+          { term: "Smooth ER", definition: "Endoplasmic reticulum without ribosomes; synthesizes lipids, metabolizes carbohydrates, and detoxifies drugs." },
+          { term: "Golgi Apparatus", definition: "Receives vesicles from the ER, modifies proteins/lipids, and ships them to the membrane, lysosomes, or secretory vesicles." },
+          { term: "Lysosome", definition: "Membrane-bound organelle containing hydrolytic enzymes; digests worn-out organelles (autophagy) and engulfed foreign material." },
+        ],
+      },
+      {
+        name: "Cytoskeleton Components",
+        terms: [
+          { term: "Microfilament", definition: "Thin protein fiber made of actin; involved in cell shape, muscle contraction, and cytokinesis." },
+          { term: "Microtubule", definition: "Hollow tube made of tubulin; forms the mitotic spindle, cilia, flagella, and centrioles; guides vesicle transport." },
+          { term: "Intermediate Filament", definition: "Fibrous protein that provides mechanical strength to cells; anchors the nucleus and connects cells via desmosomes." },
+          { term: "Motor Protein", definition: "Protein (e.g., kinesin, dynein) that uses ATP to move along cytoskeletal tracks and transport organelles or vesicles." },
+        ],
+      },
+      {
+        name: "Cell-Cell Junctions",
+        terms: [
+          { term: "Tight Junction", definition: "Seals adjacent animal cells together to prevent leakage of substances between them (e.g., intestinal epithelium)." },
+          { term: "Desmosome", definition: "Rivet-like junction that anchors adjacent animal cells together via intermediate filaments; resists mechanical stress." },
+          { term: "Gap Junction", definition: "Channel between adjacent animal cells that allows direct passage of ions and small molecules for electrical/chemical communication." },
+          { term: "Plasmodesma", definition: "Cytoplasmic channel connecting adjacent plant cells through the cell wall; allows direct communication and transport." },
+        ],
+      },
+      {
+        name: "Plant vs. Animal Cell Differences",
+        terms: [
+          { term: "Cell Wall", definition: "Rigid cellulose layer outside the plant cell plasma membrane; provides structural support and prevents excessive water uptake." },
+          { term: "Central Vacuole", definition: "Large, water-filled organelle in plant cells; maintains turgor pressure and stores nutrients, pigments, and waste products." },
+          { term: "Chloroplast", definition: "Plant-only organelle (in photosynthetic cells) that converts light energy into chemical energy via photosynthesis." },
+          { term: "Centriole", definition: "Animal-only organelle that organizes the mitotic spindle during cell division; absent in most plant cells." },
+        ],
+      },
+    ],
+  },
+  // Unit 3 · Cellular Energetics
+  {
+    id: "ap-bio-unit-3-1",
+    unit: 3,
+    puzzle: 1,
+    theme: { code: "ENE", name: "Energetics" },
+    title: "Cellular Energetics",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Stages of Cellular Respiration",
+        terms: [
+          { term: "Glycolysis", definition: "Splits one glucose into two pyruvate in the cytoplasm; net yield of 2 ATP and 2 NADH; occurs in both aerobic and anaerobic conditions." },
+          { term: "Pyruvate Oxidation", definition: "Converts each pyruvate to acetyl-CoA in the mitochondrial matrix; releases CO₂ and produces 1 NADH per pyruvate." },
+          { term: "Krebs Cycle", definition: "Completes oxidation of acetyl-CoA in the mitochondrial matrix; yields CO₂, NADH, FADH₂, and ATP per turn; runs twice per glucose." },
+          { term: "Oxidative Phosphorylation", definition: "ETC passes electrons from NADH/FADH₂ to O₂; H⁺ gradient drives ATP synthase; accounts for ~34 of the ~36–38 ATP produced per glucose." },
+        ],
+      },
+      {
+        name: "Photosynthesis Stages",
+        terms: [
+          { term: "Light Reactions", definition: "Occur in thylakoid membranes; capture light energy; split water (releasing O₂); produce ATP and NADPH for the Calvin cycle." },
+          { term: "Calvin Cycle", definition: "Occurs in the stroma; uses ATP and NADPH to fix CO₂ into G3P (glyceraldehyde-3-phosphate); 3 turns fix 3 CO₂ to make 1 G3P." },
+          { term: "Photosystem II", definition: "Absorbs light at 680 nm; splits water to release O₂ and electrons; passes high-energy electrons into the electron transport chain." },
+          { term: "Photosystem I", definition: "Absorbs light at 700 nm; re-energizes electrons from the ETC; reduces NADP⁺ to NADPH for use in the Calvin cycle." },
+        ],
+      },
+      {
+        name: "Electron Carriers",
+        terms: [
+          { term: "NADH", definition: "High-energy electron carrier in cellular respiration; donates electrons to Complex I of the ETC; yields ~2.5 ATP per molecule." },
+          { term: "FADH₂", definition: "Electron carrier produced in the Krebs cycle; donates electrons to Complex II of the ETC; yields ~1.5 ATP per molecule." },
+          { term: "NADPH", definition: "High-energy electron carrier in photosynthesis; produced by Photosystem I; delivers electrons to the Calvin cycle to reduce CO₂." },
+          { term: "Cytochrome c", definition: "Small protein electron carrier on the inner mitochondrial membrane; shuttles electrons between Complex III and Complex IV." },
+        ],
+      },
+      {
+        name: "ATP Synthesis Concepts",
+        terms: [
+          { term: "Chemiosmosis", definition: "H⁺ ions flow down their electrochemical gradient through ATP synthase, driving phosphorylation of ADP to ATP." },
+          { term: "ATP Synthase", definition: "Enzyme complex in mitochondria and chloroplasts; uses the proton gradient to catalyze ATP synthesis from ADP + Pᵢ." },
+          { term: "Substrate-Level Phosphorylation", definition: "Direct transfer of a phosphate group from a substrate to ADP to form ATP; occurs in glycolysis and the Krebs cycle." },
+          { term: "Proton Gradient", definition: "Difference in H⁺ concentration across the inner mitochondrial (or thylakoid) membrane; the potential energy that drives ATP synthesis." },
+        ],
+      },
+    ],
+  },
+  // Unit 4 · Cell Communication and Cell Cycle
+  {
+    id: "ap-bio-unit-4-1",
+    unit: 4,
+    puzzle: 1,
+    theme: { code: "ENE", name: "Energetics" },
+    title: "Cell Communication and Cell Cycle",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Cell Cycle Phases",
+        terms: [
+          { term: "G1 Phase", definition: "First gap phase; cell grows, carries out normal functions, and prepares for DNA replication; longest and most variable phase." },
+          { term: "S Phase", definition: "Synthesis phase; DNA is replicated and each chromosome is duplicated into two identical sister chromatids joined at the centromere." },
+          { term: "G2 Phase", definition: "Second gap phase; cell continues to grow and produce proteins needed for mitosis; G2 checkpoint checks for DNA damage." },
+          { term: "M Phase", definition: "Mitosis + cytokinesis; cell physically divides its duplicated chromosomes and cytoplasm into two daughter cells." },
+        ],
+      },
+      {
+        name: "Energy Molecules in Signaling",
+        terms: [
+          { term: "ATP", definition: "Provides energy for phosphorylation reactions in kinase cascades; also converted to cAMP by adenylyl cyclase during signaling." },
+          { term: "cAMP", definition: "Cyclic AMP; second messenger synthesized from ATP by adenylyl cyclase; activates protein kinase A to amplify a signal." },
+          { term: "GTP", definition: "Powers G-proteins; a G-protein is active when bound to GTP and inactivated when it hydrolyzes GTP to GDP." },
+          { term: "Phosphorylation", definition: "Transfer of a phosphate group from ATP to a target protein by a kinase; alters protein shape and activity to relay a signal." },
+        ],
+      },
+      {
+        name: "Signal Transduction Enzymes",
+        terms: [
+          { term: "Protein Kinase", definition: "Enzyme that transfers a phosphate group from ATP to a target protein, activating or deactivating it as part of a signaling cascade." },
+          { term: "Phosphatase", definition: "Enzyme that removes a phosphate group from a protein; reverses kinase activity and turns off signaling pathways." },
+          { term: "Adenylyl Cyclase", definition: "Membrane enzyme activated by G-proteins; converts ATP to cAMP, initiating a second messenger cascade." },
+          { term: "Phospholipase C", definition: "Membrane enzyme activated by G-proteins; cleaves PIP₂ into IP₃ and DAG, triggering Ca²⁺ release and protein kinase C activation." },
+        ],
+      },
+      {
+        name: "Cell Cycle Regulatory Proteins",
+        terms: [
+          { term: "Cyclin", definition: "Regulatory protein whose concentration rises and falls predictably through the cell cycle; activates CDKs when present." },
+          { term: "CDK", definition: "Cyclin-dependent kinase; drives cell cycle transitions by phosphorylating target proteins; only active when bound to its cyclin partner." },
+          { term: "p53", definition: "Tumor suppressor protein activated by DNA damage; halts the cell cycle at G1 checkpoint or triggers apoptosis if damage is irreparable." },
+          { term: "Rb Protein", definition: "Retinoblastoma tumor suppressor; blocks cell cycle entry by inhibiting transcription factors until phosphorylated by cyclin-CDK complexes." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-4-2",
+    unit: 4,
+    puzzle: 2,
+    theme: { code: "IST", name: "Information Storage & Transmission" },
+    title: "Cell Communication and Cell Cycle",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Types of Cell Signaling",
+        terms: [
+          { term: "Direct Contact", definition: "Cells signal via physical touch; includes gap junctions (animal) and plasmodesmata (plant), or surface receptor-ligand interactions." },
+          { term: "Paracrine Signaling", definition: "Signaling molecules diffuse to nearby target cells; fast and local; examples include neurotransmitters and growth factors." },
+          { term: "Endocrine Signaling", definition: "Hormones travel through the bloodstream to reach distant target cells; slower but long-range communication." },
+          { term: "Autocrine Signaling", definition: "A cell secretes signaling molecules that bind to receptors on itself; common in immune responses and cancer." },
+        ],
+      },
+      {
+        name: "Steps of Signal Transduction",
+        terms: [
+          { term: "Reception", definition: "A signaling molecule (ligand) binds to a specific receptor protein, causing a conformational change that initiates transduction." },
+          { term: "Transduction", definition: "The signal is relayed and amplified through a cascade of molecular changes (often phosphorylation) from the receptor to effector molecules." },
+          { term: "Response", definition: "The final output of signal transduction: altered gene expression, enzyme activity, or cytoskeletal changes in the target cell." },
+          { term: "Signal Amplification", definition: "Each activated protein in a cascade activates many downstream molecules; a single ligand can trigger a massive cellular response." },
+        ],
+      },
+      {
+        name: "Second Messengers",
+        terms: [
+          { term: "cAMP", definition: "Cyclic AMP; produced from ATP by adenylyl cyclase; activates protein kinase A, which phosphorylates many cellular targets." },
+          { term: "IP₃", definition: "Inositol trisphosphate; produced by phospholipase C; binds ER receptors to trigger Ca²⁺ release into the cytoplasm." },
+          { term: "Calcium Ions (Ca²⁺)", definition: "Released from the ER by IP₃; binds calmodulin and other proteins to activate enzymes and amplify signaling." },
+          { term: "DAG", definition: "Diacylglycerol; produced with IP₃ by phospholipase C; remains in the membrane and activates protein kinase C." },
+        ],
+      },
+      {
+        name: "Types of Cell Receptors",
+        terms: [
+          { term: "G-Protein Coupled Receptor", definition: "Membrane receptor that activates a G-protein upon ligand binding; largest family of cell-surface receptors; uses cAMP or IP₃/DAG pathways." },
+          { term: "Receptor Tyrosine Kinase", definition: "Membrane receptor that dimerizes when bound by ligand; phosphorylates tyrosine residues on itself and downstream proteins; activates multiple pathways." },
+          { term: "Ligand-Gated Ion Channel", definition: "Receptor that opens an ion channel upon ligand binding, allowing specific ions to flow and change membrane potential; used at synapses." },
+          { term: "Intracellular Receptor", definition: "Receptor located in the cytoplasm or nucleus; binds hydrophobic ligands (e.g., steroid hormones) that cross the membrane; acts as a transcription factor." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-4-3",
+    unit: 4,
+    puzzle: 3,
+    theme: { code: "SYI", name: "Systems Interactions" },
+    title: "Cell Communication and Cell Cycle",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Stages of Mitosis",
+        terms: [
+          { term: "Prophase", definition: "Chromatin condenses into visible chromosomes; mitotic spindle forms from centrosomes; nuclear envelope breaks down." },
+          { term: "Metaphase", definition: "Chromosomes align at the metaphase plate; spindle checkpoint verifies that all kinetochores are properly attached to spindle fibers." },
+          { term: "Anaphase", definition: "Sister chromatids are pulled to opposite poles as spindle fibers shorten; the cell elongates; begins when cohesin is cleaved." },
+          { term: "Telophase", definition: "Nuclear envelopes re-form around each chromosome set; chromosomes decondense; cytokinesis typically begins." },
+        ],
+      },
+      {
+        name: "Cell Cycle Checkpoints",
+        terms: [
+          { term: "G1 Checkpoint", definition: "Major decision point before DNA replication; checks cell size, nutrient availability, and DNA integrity; controlled by cyclin D-CDK4/6 and Rb." },
+          { term: "G2 Checkpoint", definition: "Ensures DNA replication is complete and undamaged before the cell enters mitosis; involves p53 and repair pathways." },
+          { term: "Spindle Assembly Checkpoint", definition: "Delays anaphase until all chromosomes are properly attached to spindle fibers at both kinetochores; prevents aneuploidy." },
+          { term: "APC/C", definition: "Anaphase-promoting complex; E3 ubiquitin ligase that marks cyclins for degradation, driving the cell out of mitosis." },
+        ],
+      },
+      {
+        name: "Apoptosis",
+        terms: [
+          { term: "Caspase", definition: "Protease activated during apoptosis; cleaves cellular proteins and activates other caspases in a cascade that dismantles the cell." },
+          { term: "Bcl-2", definition: "Anti-apoptotic protein on the outer mitochondrial membrane; promotes cell survival by preventing cytochrome c release." },
+          { term: "Cytochrome c Release", definition: "Leaks from mitochondria during apoptosis when pro-apoptotic signals dominate; activates the caspase cascade (intrinsic pathway)." },
+          { term: "DNA Fragmentation", definition: "Endonucleases cleave nuclear DNA into ~200 bp fragments; a hallmark of apoptosis detectable by gel electrophoresis (ladder pattern)." },
+        ],
+      },
+      {
+        name: "Cancer and Cell Cycle Disruption",
+        terms: [
+          { term: "Proto-Oncogene", definition: "Normal gene that promotes cell division when appropriately activated; becomes an oncogene when mutated to be constitutively active." },
+          { term: "Oncogene", definition: "Mutated proto-oncogene that drives uncontrolled cell proliferation regardless of growth signals; acts as a dominant gain-of-function mutation." },
+          { term: "Tumor Suppressor Gene", definition: "Gene that inhibits cell division or promotes apoptosis; both copies must be lost for cancer to develop (two-hit hypothesis); e.g., p53, Rb." },
+          { term: "Metastasis", definition: "Spread of cancer cells from the primary tumor to distant sites via blood or lymph; requires cells to detach, invade, survive in circulation, and colonize." },
+        ],
+      },
+    ],
+  },
+  // Unit 5 · Heredity
+  {
+    id: "ap-bio-unit-5-1",
+    unit: 5,
+    puzzle: 1,
+    theme: { code: "EVO", name: "Evolution" },
+    title: "Heredity",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Sources of Genetic Variation",
+        terms: [
+          { term: "Crossing Over", definition: "Exchange of DNA segments between non-sister chromatids of homologous chromosomes during prophase I; generates recombinant chromosomes." },
+          { term: "Independent Assortment", definition: "Random orientation of homologous chromosome pairs at metaphase I; produces up to 2²³ unique gamete combinations in humans." },
+          { term: "Random Fertilization", definition: "Any sperm can fertilize any egg; combined with meiotic variation, produces enormous genetic diversity in offspring." },
+          { term: "Mutation", definition: "Heritable change in DNA sequence; ultimate source of new alleles in a population; raw material for natural selection." },
+        ],
+      },
+      {
+        name: "Meiosis I — Unique Events",
+        terms: [
+          { term: "Synapsis", definition: "Pairing of homologous chromosomes during prophase I to form tetrads (bivalents); required for crossing over to occur." },
+          { term: "Chiasmata", definition: "X-shaped connections visible between homologs where crossing over occurred; hold homologs together until anaphase I." },
+          { term: "Tetrad", definition: "Structure formed by a pair of synapsed homologous chromosomes (four chromatids total); present only in meiosis I." },
+          { term: "Reduction Division", definition: "Meiosis I separates homologous chromosomes, reducing the chromosome number from diploid (2n) to haploid (n)." },
+        ],
+      },
+      {
+        name: "Chromosomal Mutations",
+        terms: [
+          { term: "Deletion", definition: "Loss of a chromosomal segment; can eliminate essential genes and often causes severe developmental defects." },
+          { term: "Duplication", definition: "Extra copy of a chromosomal segment; increases gene dosage and can provide raw material for new gene functions over evolutionary time." },
+          { term: "Inversion", definition: "A chromosomal segment is reversed end-to-end; can disrupt gene expression or recombination if it includes a centromere or gene boundary." },
+          { term: "Translocation", definition: "A segment moves to a non-homologous chromosome; can create fusion oncogenes (e.g., Philadelphia chromosome in CML)." },
+        ],
+      },
+      {
+        name: "Nondisjunction Outcomes",
+        terms: [
+          { term: "Nondisjunction", definition: "Failure of chromosomes or chromatids to separate properly during meiosis I or II; produces aneuploid gametes." },
+          { term: "Trisomy", definition: "Three copies of a particular chromosome (2n+1); e.g., trisomy 21 (Down syndrome); caused by nondisjunction." },
+          { term: "Turner Syndrome", definition: "45, X karyotype; monosomy of the X chromosome; results in female phenotype with short stature and infertility." },
+          { term: "Klinefelter Syndrome", definition: "47, XXY karyotype; extra X chromosome in males; caused by nondisjunction; associated with reduced fertility." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-5-2",
+    unit: 5,
+    puzzle: 2,
+    theme: { code: "IST", name: "Information Storage & Transmission" },
+    title: "Heredity",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Mendelian Genetics Vocabulary",
+        terms: [
+          { term: "Dominant Allele", definition: "Allele whose phenotype is expressed whether one or two copies are present; masks the recessive allele in heterozygotes." },
+          { term: "Recessive Allele", definition: "Allele whose phenotype is expressed only when two copies are present (homozygous recessive)." },
+          { term: "Genotype", definition: "The genetic makeup of an organism — the specific combination of alleles at one or more loci." },
+          { term: "Phenotype", definition: "The observable physical or biochemical traits of an organism; the product of genotype interacting with the environment." },
+        ],
+      },
+      {
+        name: "Mendel's Laws",
+        terms: [
+          { term: "Law of Segregation", definition: "The two alleles for each trait separate during gamete formation so that each gamete carries only one allele for that trait." },
+          { term: "Law of Independent Assortment", definition: "Genes on different chromosomes are inherited independently; applies only to unlinked genes." },
+          { term: "Monohybrid Cross", definition: "Cross between individuals differing in one trait; F2 generation shows a 3:1 dominant-to-recessive phenotypic ratio." },
+          { term: "Dihybrid Cross", definition: "Cross between individuals differing in two unlinked traits; F2 generation shows a 9:3:3:1 phenotypic ratio." },
+        ],
+      },
+      {
+        name: "Non-Mendelian Inheritance",
+        terms: [
+          { term: "Incomplete Dominance", definition: "Heterozygote shows an intermediate phenotype between the two homozygotes; e.g., red × white snapdragons produce pink offspring." },
+          { term: "Codominance", definition: "Both alleles are fully and simultaneously expressed in the heterozygote; e.g., blood type AB expresses both A and B antigens." },
+          { term: "Multiple Alleles", definition: "More than two alleles exist for a gene within a population; e.g., ABO blood type has three alleles (Iᴬ, Iᴮ, i)." },
+          { term: "Polygenic Inheritance", definition: "A phenotype is controlled by two or more genes, producing a continuous range of variation; e.g., human height and skin color." },
+        ],
+      },
+      {
+        name: "Sex-Linked Inheritance",
+        terms: [
+          { term: "Sex-Linked Gene", definition: "Gene located on a sex chromosome (usually X); males are more likely to express X-linked recessive traits due to hemizygosity." },
+          { term: "Hemizygous", definition: "Having only one copy of a gene; males (XY) are hemizygous for X-linked genes and always express those alleles." },
+          { term: "X-Inactivation", definition: "Random, permanent inactivation of one X chromosome in each cell of female mammals; forms a Barr body; creates mosaicism." },
+          { term: "Carrier", definition: "Heterozygous individual with one recessive allele who has the dominant phenotype but can transmit the recessive allele to offspring." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-5-3",
+    unit: 5,
+    puzzle: 3,
+    theme: { code: "SYI", name: "Systems Interactions" },
+    title: "Heredity",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Gene Interaction Patterns",
+        terms: [
+          { term: "Epistasis", definition: "One gene masks or modifies the expression of a different gene; alters expected Mendelian ratios (e.g., 9:3:3:1 becomes 9:7 or 12:3:1)." },
+          { term: "Pleiotropy", definition: "One gene affects multiple phenotypic traits; e.g., the sickle-cell allele affects red blood cell shape, oxygen transport, and organ function." },
+          { term: "Linkage", definition: "Genes on the same chromosome tend to be inherited together; the closer they are, the less likely they are separated by crossing over." },
+          { term: "Quantitative Trait", definition: "A trait showing continuous variation produced by multiple genes plus environmental influences; e.g., height, skin color, intelligence." },
+        ],
+      },
+      {
+        name: "Pedigree Inheritance Patterns",
+        terms: [
+          { term: "Autosomal Dominant", definition: "Trait appears in every generation; every affected individual has at least one affected parent; affects males and females equally." },
+          { term: "Autosomal Recessive", definition: "Trait can skip generations; carriers appear unaffected; risk increases when parents are related (consanguinity)." },
+          { term: "X-Linked Recessive", definition: "Affects males more often than females; affected males receive allele from carrier mothers; sons of affected males are unaffected." },
+          { term: "X-Linked Dominant", definition: "Affects both sexes; affected fathers pass trait to all daughters but no sons; twice as many affected females as males." },
+        ],
+      },
+      {
+        name: "Probability Tools in Genetics",
+        terms: [
+          { term: "Punnett Square", definition: "Grid used to predict the genotype and phenotype ratios of offspring from a genetic cross." },
+          { term: "Test Cross", definition: "Cross between an individual showing the dominant phenotype and a homozygous recessive individual to determine whether the dominant individual is homozygous or heterozygous." },
+          { term: "Chi-Square Test", definition: "Statistical test used to determine whether observed genetic ratios differ significantly from expected Mendelian ratios." },
+          { term: "Multiplication Rule", definition: "The probability of two independent events both occurring equals the product of their individual probabilities; used in multi-gene crosses." },
+        ],
+      },
+      {
+        name: "Environment and Phenotype",
+        terms: [
+          { term: "Norm of Reaction", definition: "The range of phenotypes a single genotype can produce across a range of environmental conditions." },
+          { term: "Phenotypic Plasticity", definition: "The ability of one genotype to produce different phenotypes in response to different environmental conditions." },
+          { term: "Epigenetics", definition: "Heritable changes in gene expression that do not involve changes to the DNA sequence; includes DNA methylation and histone modification." },
+          { term: "Penetrance", definition: "The proportion of individuals with a given genotype who actually display the associated phenotype; less than 100% in some conditions." },
+        ],
+      },
+    ],
+  },
+  // Unit 6 · Gene Expression and Regulation
+  {
+    id: "ap-bio-unit-6-1",
+    unit: 6,
+    puzzle: 1,
+    theme: { code: "IST", name: "Information Storage & Transmission" },
+    title: "Gene Expression and Regulation",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "DNA Replication Enzymes",
+        terms: [
+          { term: "Helicase", definition: "Unwinds the double helix by breaking hydrogen bonds between base pairs, creating a replication fork." },
+          { term: "DNA Polymerase", definition: "Synthesizes new DNA strands in the 5'→3' direction by adding complementary nucleotides to an existing 3'-OH; cannot start a new strand." },
+          { term: "Primase", definition: "Synthesizes a short RNA primer that provides the 3'-OH group DNA polymerase needs to begin elongation." },
+          { term: "DNA Ligase", definition: "Joins Okazaki fragments on the lagging strand and seals nicks in the sugar-phosphate backbone after replication." },
+        ],
+      },
+      {
+        name: "Transcription and RNA Processing",
+        terms: [
+          { term: "RNA Polymerase", definition: "Synthesizes mRNA from a DNA template in the 5'→3' direction; binds the promoter and does not require a primer." },
+          { term: "Promoter", definition: "DNA sequence where RNA polymerase (and transcription factors) bind to initiate transcription; includes the TATA box in eukaryotes." },
+          { term: "5' Cap", definition: "Modified guanine nucleotide added to the 5' end of pre-mRNA; protects mRNA from degradation and aids ribosome binding during translation." },
+          { term: "Poly-A Tail", definition: "String of ~200 adenine nucleotides added to the 3' end of pre-mRNA; protects mRNA from degradation and assists in export from the nucleus." },
+        ],
+      },
+      {
+        name: "Translation",
+        terms: [
+          { term: "Codon", definition: "Three-nucleotide sequence on mRNA that specifies one amino acid or a start/stop signal; 64 possible codons encode 20 amino acids (redundant code)." },
+          { term: "Anticodon", definition: "Three-nucleotide sequence on a tRNA molecule complementary to an mRNA codon; brings the correct amino acid to the ribosome." },
+          { term: "Ribosome", definition: "Molecular machine made of rRNA and proteins; has A, P, and E sites; catalyzes peptide bond formation between amino acids during translation." },
+          { term: "Peptide Bond", definition: "Covalent bond linking amino acids in a polypeptide; formed between the carboxyl group of one amino acid and the amino group of the next." },
+        ],
+      },
+      {
+        name: "Gene Regulation",
+        terms: [
+          { term: "Operon", definition: "Prokaryotic unit of gene expression with a shared promoter and operator controlling a cluster of functionally related genes (e.g., lac operon, trp operon)." },
+          { term: "Transcription Factor", definition: "Protein that binds specific DNA sequences or other proteins to activate or repress transcription; essential for eukaryotic gene regulation." },
+          { term: "Enhancer", definition: "Distant DNA regulatory sequence that increases transcription when bound by activator proteins; can be thousands of base pairs from the promoter." },
+          { term: "Chromatin Remodeling", definition: "Changes in histone modification or DNA methylation that alter how tightly DNA is packed; loosens or tightens chromatin to regulate gene access." },
+        ],
+      },
+    ],
+  },
+  // Unit 7 · Natural Selection
+  {
+    id: "ap-bio-unit-7-1",
+    unit: 7,
+    puzzle: 1,
+    theme: { code: "EVO", name: "Evolution" },
+    title: "Natural Selection",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Mechanisms of Evolution",
+        terms: [
+          { term: "Natural Selection", definition: "Differential survival and reproduction of individuals with heritable traits that improve fitness in a given environment." },
+          { term: "Genetic Drift", definition: "Random fluctuations in allele frequencies due to chance; has the greatest effect in small populations; can eliminate alleles." },
+          { term: "Gene Flow", definition: "Movement of alleles between populations via migration; homogenizes allele frequencies and reduces genetic differences between populations." },
+          { term: "Sexual Selection", definition: "Selection based on an individual's ability to obtain mates; drives traits like elaborate plumage, antlers, and courtship behaviors." },
+        ],
+      },
+      {
+        name: "Types of Natural Selection",
+        terms: [
+          { term: "Directional Selection", definition: "Favors one extreme phenotype over others; shifts the population mean toward that extreme; common when environment changes." },
+          { term: "Stabilizing Selection", definition: "Favors intermediate phenotypes; reduces variation around the mean; most common type in stable environments (e.g., human birth weight)." },
+          { term: "Disruptive Selection", definition: "Favors both extreme phenotypes over the intermediate; increases bimodal variation; can drive sympatric speciation." },
+          { term: "Balancing Selection", definition: "Maintains multiple alleles in a population; includes heterozygote advantage (e.g., sickle-cell) and frequency-dependent selection." },
+        ],
+      },
+      {
+        name: "Hardy-Weinberg Equilibrium",
+        terms: [
+          { term: "p + q = 1", definition: "Allele frequencies at a locus must sum to 1; p = frequency of allele A, q = frequency of allele a in the population." },
+          { term: "p² + 2pq + q² = 1", definition: "Expected genotype frequencies under H-W equilibrium; p² = AA (homozygous dominant), 2pq = Aa (heterozygous), q² = aa (homozygous recessive)." },
+          { term: "H-W Conditions", definition: "Five conditions for equilibrium: large population, random mating, no mutation, no gene flow, no natural selection." },
+          { term: "Genetic Equilibrium", definition: "State in which allele and genotype frequencies remain constant across generations; violated when evolutionary forces are acting." },
+        ],
+      },
+      {
+        name: "Types of Speciation",
+        terms: [
+          { term: "Allopatric Speciation", definition: "New species forms when a population is geographically isolated from the parent population; most common mode of speciation." },
+          { term: "Sympatric Speciation", definition: "New species forms within the same geographic area without physical isolation; often occurs via polyploidy in plants or niche differentiation." },
+          { term: "Reproductive Isolation", definition: "Inability of two populations to successfully interbreed; can be prezygotic (before fertilization) or postzygotic (after fertilization)." },
+          { term: "Adaptive Radiation", definition: "Rapid evolution of multiple species from a single common ancestor into different ecological niches; e.g., Darwin's finches, Hawaiian honeycreepers." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-7-2",
+    unit: 7,
+    puzzle: 2,
+    theme: { code: "SYI", name: "Systems Interactions" },
+    title: "Natural Selection",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Phylogenetics Vocabulary",
+        terms: [
+          { term: "Clade", definition: "A monophyletic group consisting of an ancestor and all of its descendants; the fundamental unit of cladistic classification." },
+          { term: "Synapomorphy", definition: "A shared derived character state that defines a clade and is used as evidence that members share a common ancestor." },
+          { term: "Outgroup", definition: "A taxon outside the group being studied; used as a reference to distinguish ancestral traits from derived traits in the ingroup." },
+          { term: "Molecular Clock", definition: "Method of estimating divergence times between lineages based on the rate at which mutations accumulate in a gene over time." },
+        ],
+      },
+      {
+        name: "Evidence for Evolution",
+        terms: [
+          { term: "Homologous Structures", definition: "Anatomically similar structures in different species that share a common ancestral origin; e.g., vertebrate forelimbs (arm, wing, flipper, leg)." },
+          { term: "Analogous Structures", definition: "Structures that serve similar functions in different species but evolved independently (convergent evolution); e.g., wings of birds and insects." },
+          { term: "Vestigial Structures", definition: "Reduced or functionless structures that were functional in an ancestor; e.g., human coccyx, whale pelvis; evidence of descent with modification." },
+          { term: "Molecular Homology", definition: "Sequence similarity in DNA, RNA, or proteins across species; the more similar the sequences, the more recently two species shared a common ancestor." },
+        ],
+      },
+      {
+        name: "Genetic Drift Effects",
+        terms: [
+          { term: "Bottleneck Effect", definition: "Genetic drift caused by a drastic reduction in population size (e.g., disease, disaster); survivors may not represent original allele frequencies." },
+          { term: "Founder Effect", definition: "Genetic drift that occurs when a small group establishes a new population; reduced genetic diversity and higher frequency of rare alleles." },
+          { term: "Inbreeding", definition: "Mating between closely related individuals; increases homozygosity, reduces heterozygosity, and can expose harmful recessive alleles." },
+          { term: "Fixation", definition: "Process by which an allele reaches a frequency of 100% in a population; other alleles at that locus are lost; common via drift in small populations." },
+        ],
+      },
+      {
+        name: "Coevolution and Species Interactions",
+        terms: [
+          { term: "Coevolution", definition: "Reciprocal evolutionary changes in two interacting species, each acting as a selective pressure on the other; e.g., flowers and their pollinators." },
+          { term: "Evolutionary Arms Race", definition: "Escalating cycle of adaptations and counter-adaptations between two species (predator-prey or parasite-host); e.g., cheetah speed and gazelle speed." },
+          { term: "Batesian Mimicry", definition: "A harmless species mimics the warning coloration of a harmful species to deter predators; e.g., viceroy butterfly mimicking the monarch." },
+          { term: "Müllerian Mimicry", definition: "Two or more unpalatable species resemble each other; shared warning coloration benefits all species by reinforcing predator avoidance." },
+        ],
+      },
+    ],
+  },
+  // Unit 8 · Ecology
+  {
+    id: "ap-bio-unit-8-1",
+    unit: 8,
+    puzzle: 1,
+    theme: { code: "EVO", name: "Evolution" },
+    title: "Ecology",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Ecological Succession",
+        terms: [
+          { term: "Primary Succession", definition: "Colonization of bare substrate with no soil (e.g., after a volcanic eruption or glacier retreat); begins with pioneer species." },
+          { term: "Secondary Succession", definition: "Recolonization of a disturbed area where soil remains intact (e.g., after fire or farming); faster than primary succession." },
+          { term: "Pioneer Species", definition: "First organisms to colonize a new or disturbed area; tolerant of harsh conditions; e.g., lichens and mosses in primary succession." },
+          { term: "Climax Community", definition: "Relatively stable, self-sustaining community reached at the end of succession; in equilibrium with local climate conditions." },
+        ],
+      },
+      {
+        name: "Evolutionary Adaptations in Ecology",
+        terms: [
+          { term: "Niche", definition: "The total ecological role of a species — all resources it uses and conditions it tolerates; includes fundamental (potential) and realized (actual) niche." },
+          { term: "Character Displacement", definition: "Divergence in traits between competing species living in the same area; reduces niche overlap and competitive pressure." },
+          { term: "Island Biogeography", definition: "Theory that species richness on islands is determined by a balance between colonization rate (from mainland) and local extinction rate." },
+          { term: "Local Adaptation", definition: "Populations of a species evolve specific traits that improve fitness in their particular local environment; produces variation across a species' range." },
+        ],
+      },
+      {
+        name: "Interspecific Interactions and Coevolution",
+        terms: [
+          { term: "Predation", definition: "+ / − interaction; predator benefits, prey is harmed; drives coevolution of offense traits (speed, venom) and defense traits (camouflage, toxins)." },
+          { term: "Parasitism", definition: "+ / − interaction; parasite benefits at the host's expense without immediately killing it; host-parasite arms races drive immune system evolution." },
+          { term: "Mutualism", definition: "+ / + interaction; both species benefit; often tightly coevolved; e.g., mycorrhizal fungi and plant roots, flowers and pollinators." },
+          { term: "Commensalism", definition: "+ / 0 interaction; one species benefits, the other is neither helped nor harmed; e.g., barnacles on whale skin." },
+        ],
+      },
+      {
+        name: "Biodiversity and Conservation",
+        terms: [
+          { term: "Biodiversity", definition: "Variety of life at the genetic, species, and ecosystem levels; higher biodiversity generally increases ecosystem stability and resilience." },
+          { term: "Habitat Fragmentation", definition: "Breaking of continuous habitat into isolated patches; reduces population size, limits gene flow, and increases extinction risk." },
+          { term: "Invasive Species", definition: "Non-native species that spreads rapidly and disrupts native communities; often lacks natural predators or competitors in new environment." },
+          { term: "Extinction Vortex", definition: "Downward spiral in which small population size, inbreeding, genetic drift, and environmental stochasticity interact to drive a species toward extinction." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-8-2",
+    unit: 8,
+    puzzle: 2,
+    theme: { code: "ENE", name: "Energetics" },
+    title: "Ecology",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Trophic Levels",
+        terms: [
+          { term: "Producer", definition: "Autotroph at the base of the food web; captures energy via photosynthesis or chemosynthesis; e.g., plants, algae, cyanobacteria." },
+          { term: "Primary Consumer", definition: "Herbivore that feeds directly on producers; occupies the second trophic level; e.g., grasshoppers, deer, zooplankton." },
+          { term: "Secondary Consumer", definition: "Carnivore or omnivore that eats primary consumers; occupies the third trophic level; e.g., frogs, small fish, foxes." },
+          { term: "Decomposer", definition: "Organism (fungi, bacteria) that breaks down dead organic matter; releases inorganic nutrients back into the ecosystem; connects all trophic levels." },
+        ],
+      },
+      {
+        name: "Energy Flow Concepts",
+        terms: [
+          { term: "Gross Primary Productivity", definition: "Total rate of photosynthesis (energy fixed) in an ecosystem per unit time; includes energy used by producers for their own respiration." },
+          { term: "Net Primary Productivity", definition: "GPP minus energy lost to plant respiration; the energy available to consumers; determines how much biomass an ecosystem can support." },
+          { term: "10% Rule", definition: "Only approximately 10% of energy at one trophic level is transferred to the next; the rest is lost as heat through cellular respiration." },
+          { term: "Trophic Cascade", definition: "Indirect ecological effects that propagate through a food web when a trophic level is added or removed; e.g., wolf reintroduction in Yellowstone." },
+        ],
+      },
+      {
+        name: "Biogeochemical Cycles",
+        terms: [
+          { term: "Carbon Cycle", definition: "Movement of carbon through the atmosphere, organisms, and geosphere via photosynthesis, respiration, decomposition, and combustion." },
+          { term: "Nitrogen Cycle", definition: "Conversion of N₂ between atmospheric, soil, and biological forms via fixation, nitrification, assimilation, and denitrification; essential for amino acids and nucleotides." },
+          { term: "Phosphorus Cycle", definition: "Movement of phosphorus through rocks, soil, water, and organisms; has no significant atmospheric component; often the limiting nutrient in freshwater ecosystems." },
+          { term: "Water Cycle", definition: "Movement of water through evaporation, transpiration, condensation, precipitation, infiltration, and runoff; drives climate and nutrient transport." },
+        ],
+      },
+      {
+        name: "Nitrogen Cycle Processes",
+        terms: [
+          { term: "Nitrogen Fixation", definition: "Conversion of atmospheric N₂ to NH₃ (ammonia) by nitrogen-fixing bacteria (e.g., Rhizobium in legume root nodules); makes N biologically available." },
+          { term: "Nitrification", definition: "Conversion of NH₃ to NO₂⁻ and then NO₃⁻ by nitrifying bacteria in soil; makes nitrogen available for plant uptake." },
+          { term: "Denitrification", definition: "Conversion of NO₃⁻ back to N₂ gas by denitrifying bacteria in anaerobic conditions; returns nitrogen to the atmosphere." },
+          { term: "Decomposition", definition: "Breakdown of dead organic matter by fungi and bacteria (detritivores); releases bound nutrients as inorganic ions back into soil and water." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-8-3",
+    unit: 8,
+    puzzle: 3,
+    theme: { code: "IST", name: "Information Storage & Transmission" },
+    title: "Ecology",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Animal Communication Signals",
+        terms: [
+          { term: "Pheromone", definition: "Chemical signal released into the environment that affects the behavior or physiology of conspecifics; includes alarm, sex, and trail pheromones." },
+          { term: "Waggle Dance", definition: "Honeybee behavior that encodes the direction (relative to sun) and distance of a food source; transmits foraging information to hivemates." },
+          { term: "Aposematism", definition: "Warning coloration that signals toxicity or danger to predators; e.g., poison dart frogs and monarch butterflies; reduces predation without direct contact." },
+          { term: "Bioluminescence", definition: "Production and emission of light by living organisms; used for communication, mate attraction, predator avoidance, and luring prey." },
+        ],
+      },
+      {
+        name: "Types of Animal Behavior",
+        terms: [
+          { term: "Innate Behavior", definition: "Genetically programmed behavior that appears without prior experience; includes reflexes and fixed action patterns triggered by sign stimuli." },
+          { term: "Learned Behavior", definition: "Behavior modified by experience; includes habituation, classical and operant conditioning, and observational learning." },
+          { term: "Imprinting", definition: "Critical-period learning in which young animals form a strong, lasting attachment to a stimulus (usually a parent); irreversible after the sensitive period." },
+          { term: "Fixed Action Pattern", definition: "Innate, stereotyped sequence of behaviors triggered by a specific sign stimulus; once started, runs to completion regardless of feedback." },
+        ],
+      },
+      {
+        name: "Foraging and Migration",
+        terms: [
+          { term: "Optimal Foraging Theory", definition: "Animals maximize energy gain per unit of foraging time and cost; predicts diet breadth and patch use based on energy efficiency." },
+          { term: "Migration", definition: "Seasonal, long-distance movement of animals between habitats; driven by resource availability and climate; requires complex navigation abilities." },
+          { term: "Circadian Rhythm", definition: "Internal biological clock with approximately 24-hour cycles; regulates daily behaviors like sleep, feeding, and hormone release." },
+          { term: "Orientation and Navigation", definition: "Ability to determine direction and move toward a goal using cues such as the sun, stars, magnetic field, landmarks, and olfaction." },
+        ],
+      },
+      {
+        name: "Social Behavior",
+        terms: [
+          { term: "Kin Selection", definition: "Natural selection that favors altruistic behavior toward genetic relatives; explained by Hamilton's rule: rB > C (r = relatedness, B = benefit, C = cost)." },
+          { term: "Reciprocal Altruism", definition: "Cooperation with non-relatives in which helping is repaid later; requires repeated interactions, individual recognition, and memory." },
+          { term: "Inclusive Fitness", definition: "An individual's total reproductive success, including direct reproduction plus the effect of that individual's actions on the reproduction of relatives." },
+          { term: "Eusociality", definition: "Highest level of social organization with reproductive division of labor; one or few individuals reproduce while others care for young; e.g., bees, ants, naked mole rats." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-bio-unit-8-4",
+    unit: 8,
+    puzzle: 4,
+    theme: { code: "SYI", name: "Systems Interactions" },
+    title: "Ecology",
+    subject: "AP Biology",
+    groups: [
+      {
+        name: "Population Growth Models",
+        terms: [
+          { term: "Exponential Growth", definition: "J-shaped growth curve; population increases at a constant per-capita rate when resources are unlimited; dN/dt = rN." },
+          { term: "Logistic Growth", definition: "S-shaped growth curve; growth rate slows as population approaches carrying capacity K; dN/dt = rN[(K−N)/K]." },
+          { term: "Carrying Capacity (K)", definition: "Maximum population size that an environment can sustainably support given available resources; growth rate approaches zero as N → K." },
+          { term: "r vs K Selection", definition: "r-selected species: small, many offspring, little care, boom-bust populations; K-selected species: large, few offspring, high parental care, stable near K." },
+        ],
+      },
+      {
+        name: "Community Ecology Principles",
+        terms: [
+          { term: "Competitive Exclusion Principle", definition: "Two species competing for identical limiting resources cannot coexist indefinitely; one will eventually eliminate the other locally." },
+          { term: "Niche Partitioning", definition: "Competing species divide resources or habitats to reduce niche overlap, allowing coexistence; e.g., MacArthur's warblers in spruce trees." },
+          { term: "Keystone Species", definition: "Species with a disproportionately large effect on community structure relative to its abundance; its removal causes dramatic changes (e.g., sea otters)." },
+          { term: "Foundation Species", definition: "Dominant species that creates or maintains habitat structure used by many other species; e.g., kelp forests, beaver dams, coral reefs." },
+        ],
+      },
+      {
+        name: "Density-Dependent and Independent Factors",
+        terms: [
+          { term: "Density-Dependent Factor", definition: "Environmental factor whose effect on population growth rate changes with population density; e.g., competition, disease, predation, territorial behavior." },
+          { term: "Density-Independent Factor", definition: "Environmental factor that affects population size regardless of density; e.g., natural disasters, extreme weather, drought." },
+          { term: "Boom-Bust Cycle", definition: "Repeated pattern of rapid exponential population growth followed by a sudden crash; common in r-selected species with limited density-dependent regulation." },
+          { term: "Allee Effect", definition: "Reduced individual fitness at very low population densities due to difficulty finding mates, cooperative hunting, or group defense." },
+        ],
+      },
+      {
+        name: "Ecosystem Stability",
+        terms: [
+          { term: "Species Diversity", definition: "Measure combining species richness (number of species) and relative abundance; higher diversity generally increases ecosystem resilience." },
+          { term: "Resistance", definition: "Ability of an ecosystem to remain unchanged when faced with a disturbance; ecosystems with redundant species tend to be more resistant." },
+          { term: "Resilience", definition: "Ability of an ecosystem to recover and return to its original state after a disturbance; often inversely related to resistance." },
+          { term: "Eutrophication", definition: "Excess nutrient input (especially N and P) into aquatic ecosystems; triggers algal blooms, oxygen depletion (hypoxia), and fish die-offs." },
+        ],
+      },
+    ],
+  },
+];
+
+gameSets.push(...apBioGameSets);
+
+// ── AP EUROPEAN HISTORY ───────────────────────────────────────────────────────
+
+const apEuroGameSets: GameSet[] = [
+  // Unit 1 · Renaissance and Exploration
+  {
+    id: "ap-euro-unit-1-1",
+    unit: 1,
+    puzzle: 1,
+    theme: { code: "INT", name: "Interaction of Europe and the World" },
+    title: "Renaissance and Exploration",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Portuguese Exploration",
+        terms: [
+          { term: "Prince Henry the Navigator", definition: "Portuguese prince who sponsored systematic exploration of Africa's Atlantic coast; established a school of navigation at Sagres." },
+          { term: "Caravel", definition: "Light, maneuverable Portuguese ship with triangular lateen sails; could sail against the wind and navigate shallow coastal waters." },
+          { term: "Vasco da Gama", definition: "Portuguese explorer who reached India by sea in 1498; opened a direct, enormously profitable sea route for the spice trade." },
+          { term: "Cape of Good Hope", definition: "Southern tip of Africa; rounded by Bartolomeu Dias in 1488; a critical milestone in the search for a sea route to Asia." },
+        ],
+      },
+      {
+        name: "Spanish Conquest and Colonization",
+        terms: [
+          { term: "Christopher Columbus", definition: "Genoese explorer sailing for Spain; reached the Caribbean in 1492; opened sustained contact between Europe and the Americas." },
+          { term: "Hernán Cortés", definition: "Spanish conquistador who conquered the Aztec Empire (1519–1521) using indigenous allies, superior weapons, and epidemic disease." },
+          { term: "Encomienda System", definition: "Spanish colonial labor institution granting conquistadors the right to indigenous labor and tribute in exchange for protection and Christian instruction." },
+          { term: "Treaty of Tordesillas", definition: "1494 papal agreement dividing the non-European world between Spain (west) and Portugal (east) along a meridian at 46°W." },
+        ],
+      },
+      {
+        name: "The Columbian Exchange",
+        terms: [
+          { term: "Columbian Exchange", definition: "Transfer of plants, animals, diseases, and ideas between the Old World (Europe, Africa, Asia) and the New World after 1492." },
+          { term: "Smallpox", definition: "Old World disease that devastated indigenous American populations; killed up to 90% in some regions; a decisive factor in European conquest." },
+          { term: "Silver", definition: "Massive quantities extracted from Potosí (Bolivia) and Mexican mines; flooded European markets, causing the Price Revolution and financing the Spanish Empire." },
+          { term: "New World Crops", definition: "Potatoes, maize, tomatoes, and other American plants introduced to Europe; transformed diet and contributed to population growth in the 18th century." },
+        ],
+      },
+      {
+        name: "European Rivalry and Global Trade",
+        terms: [
+          { term: "Mercantilism", definition: "Economic theory that colonies exist to enrich the mother country through resource extraction and trade monopolies; guided European colonial policy." },
+          { term: "Joint-Stock Company", definition: "Business entity in which multiple investors share ownership and risk; allowed pooling of capital for expensive overseas ventures." },
+          { term: "Northwest Passage", definition: "Mythical sea route through North America to Asia sought by English and French explorers; drove much early North American exploration." },
+          { term: "Triangular Trade", definition: "Atlantic trading network linking Europe, Africa, and the Americas; exchanged manufactured goods, enslaved Africans, and New World commodities." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-1-2",
+    unit: 1,
+    puzzle: 2,
+    theme: { code: "ECD", name: "Economic and Commercial Developments" },
+    title: "Renaissance and Exploration",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Italian Banking and Finance",
+        terms: [
+          { term: "Medici Bank", definition: "Florence's dominant banking dynasty; pioneered letters of credit and double-entry bookkeeping; major patrons of Renaissance art and culture." },
+          { term: "Fugger Family", definition: "Augsburg banking dynasty; the most powerful financiers of the early 16th century; lent money to Habsburg emperors and popes." },
+          { term: "Bills of Exchange", definition: "Financial instruments allowing merchants to transfer money across long distances without transporting physical coin; reduced risk of robbery." },
+          { term: "Double-Entry Bookkeeping", definition: "Accounting system recording every transaction as both a debit and credit; allowed complex business operations and accurate profit calculation." },
+        ],
+      },
+      {
+        name: "Trade Networks",
+        terms: [
+          { term: "Hanseatic League", definition: "Alliance of northern European trading cities (led by Lübeck) that dominated Baltic and North Sea commerce from the 13th through 17th centuries." },
+          { term: "Venice", definition: "Dominant Mediterranean trading republic; controlled the overland spice trade to Asia; its commercial power declined after Portuguese sea routes opened." },
+          { term: "Antwerp", definition: "Dominant commercial city of the 16th century; center of Atlantic trade, finance, and commodity exchange; successor to Venice as Europe's commercial hub." },
+          { term: "Spice Trade", definition: "Enormously profitable commerce in pepper, cinnamon, cloves, and other Asian spices; the primary economic motivation for European exploration." },
+        ],
+      },
+      {
+        name: "Commercial Revolution",
+        terms: [
+          { term: "Commercial Revolution", definition: "Expansion of European trade, banking, and capitalism from the 14th through 17th centuries; shifted Europe's economy from subsistence to market-based." },
+          { term: "Putting-Out System", definition: "Proto-industrial cottage industry where merchants supplied raw materials to rural workers who produced goods at home; precursor to factory system." },
+          { term: "Enclosure Movement", definition: "Conversion of common farmland and pastures into private property in England; displaced peasants into cities; increased wool production for textile trade." },
+          { term: "Price Revolution", definition: "Sustained inflation across 16th-century Europe caused by the influx of American silver; disrupted wages, rents, and traditional social relationships." },
+        ],
+      },
+      {
+        name: "Atlantic Economy",
+        terms: [
+          { term: "Atlantic Economy", definition: "New commercial network linking Europe, Africa, and the Americas after 1492; shifted Europe's economic center of gravity from the Mediterranean to the Atlantic." },
+          { term: "Sugar Plantation", definition: "Labor-intensive cash crop system established in the Caribbean and Brazil; drove demand for enslaved African labor; hugely profitable for European merchants." },
+          { term: "Slave Trade", definition: "Forced transportation of approximately 12 million Africans to the Americas; integral to the Atlantic economy; enabled plantation agriculture." },
+          { term: "Chartered Company", definition: "Company granted a royal monopoly to trade in a specific region; e.g., the English East India Company (1600) and Dutch VOC (1602)." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-1-3",
+    unit: 1,
+    puzzle: 3,
+    theme: { code: "CID", name: "Cultural and Intellectual Developments" },
+    title: "Renaissance and Exploration",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Renaissance Humanism",
+        terms: [
+          { term: "Humanism", definition: "Intellectual movement emphasizing the study of classical Greek and Roman texts, human dignity, and secular subjects; the intellectual backbone of the Renaissance." },
+          { term: "Petrarch", definition: "14th-century Italian poet and scholar; 'Father of Humanism'; recovered and promoted classical texts; idealized ancient Rome as a model for his age." },
+          { term: "Civic Humanism", definition: "Florentine humanist tradition linking classical learning to active participation in public life and republican government; associated with Leonardo Bruni." },
+          { term: "Vernacular Literature", definition: "Writing in everyday spoken languages (Italian, French, English) rather than Latin; democratized literature; e.g., Dante's Divine Comedy, Boccaccio's Decameron." },
+        ],
+      },
+      {
+        name: "Renaissance Art",
+        terms: [
+          { term: "Linear Perspective", definition: "Mathematical technique for depicting three-dimensional space on a two-dimensional surface; developed by Brunelleschi; transformed Renaissance painting." },
+          { term: "Leonardo da Vinci", definition: "Florentine Renaissance polymath; Mona Lisa, The Last Supper; embodiment of the 'Renaissance man' skilled in art, science, and engineering." },
+          { term: "Michelangelo", definition: "Florentine sculptor and painter; Sistine Chapel ceiling, David, Pietà; defined the ideals of the High Renaissance through monumental human figures." },
+          { term: "Raphael", definition: "Painter celebrated for idealized beauty and harmony; School of Athens; worked at the Vatican; epitomized the balance and clarity of the High Renaissance." },
+        ],
+      },
+      {
+        name: "Northern Renaissance",
+        terms: [
+          { term: "Erasmus", definition: "Dutch humanist; 'Prince of Humanists'; wrote In Praise of Folly satirizing Church corruption; sought to reform Christianity through classical scholarship." },
+          { term: "Thomas More", definition: "English humanist; wrote Utopia (1516) imagining an ideal society; executed by Henry VIII for refusing to endorse the Act of Supremacy." },
+          { term: "Shakespeare", definition: "English playwright and poet whose works explored human nature, politics, and psychology; influenced by Renaissance humanism; wrote Hamlet, Macbeth, King Lear." },
+          { term: "Christian Humanism", definition: "Northern European blend of classical scholarship and religious reform; sought to purify Christianity by returning to original scriptural texts." },
+        ],
+      },
+      {
+        name: "Renaissance Philosophy and Ideas",
+        terms: [
+          { term: "Neoplatonism", definition: "Revival of Platonic philosophy by Ficino and Pico della Mirandola in Florence; emphasized spiritual ascent, divine love, and the dignity of the human soul." },
+          { term: "Pico della Mirandola", definition: "Florentine philosopher; Oration on the Dignity of Man (1486) argued humans are uniquely free to shape their own nature; a humanist manifesto." },
+          { term: "Niccolò Machiavelli", definition: "Florentine political theorist; The Prince (1513) argued that effective rulers must prioritize power and stability over conventional morality." },
+          { term: "Baldassare Castiglione", definition: "Author of The Book of the Courtier (1528); defined the ideal Renaissance aristocrat as cultured, graceful, and accomplished in both arms and arts." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-1-4",
+    unit: 1,
+    puzzle: 4,
+    theme: { code: "SOP", name: "States and Other Institutions of Power" },
+    title: "Renaissance and Exploration",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Italian City-States",
+        terms: [
+          { term: "Florence", definition: "Medici-dominated banking republic; birthplace of the Renaissance; home of Dante, Petrarch, Leonardo, Michelangelo, and Machiavelli." },
+          { term: "Venice", definition: "Oligarchic merchant republic governed by a Doge and the Council of Ten; controlled a Mediterranean maritime empire; model of stable republican governance." },
+          { term: "Papal States", definition: "Territory in central Italy under the pope's direct temporal rule; the papacy was a major political power as well as religious authority in Renaissance Italy." },
+          { term: "Condottieri", definition: "Professional mercenary commanders who sold their military services to Italian city-states; unreliable but essential to Italian Renaissance warfare." },
+        ],
+      },
+      {
+        name: "New Monarchies",
+        terms: [
+          { term: "Ferdinand and Isabella", definition: "Monarchs who unified Spain through marriage (1469); completed the Reconquista (1492); sponsored Columbus; established the Spanish Inquisition." },
+          { term: "Henry VII", definition: "First Tudor king of England; ended the Wars of the Roses; centralized royal power; rebuilt royal finances; avoided costly foreign wars." },
+          { term: "Louis XI", definition: "French king (r. 1461–1483) called the 'Spider King'; crushed noble opposition; expanded royal territory; strengthened the French monarchy significantly." },
+          { term: "Ivan III", definition: "Grand Prince of Moscow (r. 1462–1505); ended Mongol overlordship; unified Russian principalities; declared himself Tsar; expanded toward the West." },
+        ],
+      },
+      {
+        name: "Habsburg Power",
+        terms: [
+          { term: "Charles V", definition: "Habsburg ruler of Spain, the Holy Roman Empire, and the Americas; the most powerful European ruler of the early 16th century; faced Protestant revolt and Ottoman threat." },
+          { term: "Holy Roman Empire", definition: "Loose confederation of German states nominally ruled by an elected emperor; deeply fragmented after the Reformation; 'neither holy, nor Roman, nor an empire' (Voltaire)." },
+          { term: "Dynastic Marriage", definition: "Key political tool of new monarchies; alliances and territorial expansion achieved through arranged marriages rather than costly wars ('bella gerant alii, tu felix Austria nube')." },
+          { term: "Ottoman Empire", definition: "Major Muslim power that threatened Christian Europe; conquered Constantinople in 1453; expanded into Eastern Europe; blocked overland trade routes to Asia." },
+        ],
+      },
+      {
+        name: "Renaissance Political Theory",
+        terms: [
+          { term: "The Prince", definition: "Machiavelli's 1513 treatise advising rulers to use pragmatism, cunning, and even cruelty to maintain power; broke from medieval Christian political theory." },
+          { term: "Balance of Power", definition: "Diplomatic concept that European peace is maintained when no single state becomes powerful enough to dominate all others; drove shifting alliances in Italy and beyond." },
+          { term: "Italian Wars", definition: "Series of conflicts (1494–1559) in which France, Spain, and the Holy Roman Empire fought over control of Italian city-states; ended Italian political independence." },
+          { term: "Concordat of Bologna", definition: "1516 agreement between Francis I of France and Pope Leo X; gave the French king the right to appoint bishops and abbots, tying the French Church to the monarchy." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-1-5",
+    unit: 1,
+    puzzle: 5,
+    theme: { code: "SCD", name: "Social Organization and Development" },
+    title: "Renaissance and Exploration",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Renaissance Social Hierarchy",
+        terms: [
+          { term: "Three Estates", definition: "Medieval social order dividing society into First Estate (clergy), Second Estate (nobility), and Third Estate (everyone else); basis of European social structure." },
+          { term: "Patronage", definition: "System in which wealthy individuals sponsored artists, scholars, and writers in exchange for prestige and cultural production; central to the Renaissance." },
+          { term: "Bourgeoisie", definition: "Urban merchant and professional class that grew in wealth and influence during the Commercial Revolution; challenged the traditional nobility's social dominance." },
+          { term: "Sprezzatura", definition: "Castiglione's concept of the ideal courtier performing difficult tasks with effortless grace; the affected naturalness that disguised hard work and ambition." },
+        ],
+      },
+      {
+        name: "Women in Renaissance Society",
+        terms: [
+          { term: "Christine de Pizan", definition: "15th-century French-Italian writer; Book of the City of Ladies (1405) defended women's intellectual capabilities and created a symbolic city of virtuous women." },
+          { term: "Querelle des Femmes", definition: "Ongoing literary and philosophical debate about women's nature, virtue, and proper role in society; sparked by misogynistic texts and countered by humanist women." },
+          { term: "Convents", definition: "Provided education, intellectual community, and a degree of autonomy for noblewomen outside of marriage; centers of female artistic and literary production." },
+          { term: "Witchcraft Accusations", definition: "Thousands of individuals (predominantly women) executed for witchcraft in the 15th–17th centuries; linked to social anxiety, religious change, and gender tensions." },
+        ],
+      },
+      {
+        name: "Impact of Exploration on Society",
+        terms: [
+          { term: "Indigenous Depopulation", definition: "Catastrophic collapse of American indigenous populations after European contact; caused primarily by epidemic disease (smallpox); estimated 50–90% death rates." },
+          { term: "African Slavery", definition: "Mass forced migration of enslaved Africans to the Americas to replace collapsed indigenous labor; created racially defined chattel slavery as a new social institution." },
+          { term: "Mestizo", definition: "Person of mixed European and indigenous American ancestry; a new social category created by colonialism; occupied a complex place in the colonial racial hierarchy." },
+          { term: "Social Mobility", definition: "Opportunities for upward movement created by Commercial Revolution wealth; successful merchants could buy noble titles and challenge hereditary social hierarchies." },
+        ],
+      },
+      {
+        name: "Rural Society and Change",
+        terms: [
+          { term: "Serfdom", definition: "System of agricultural bondage tying peasants to the land; declined in Western Europe after the Black Death but intensified in Eastern Europe in the 16th century." },
+          { term: "Enclosure", definition: "Conversion of communal farmland into privately owned pasture in England; displaced peasant farmers; increased agricultural efficiency but created rural poverty." },
+          { term: "Black Death Legacy", definition: "The plague (1347–1351) killed 1/3 of Europe's population; empowered surviving peasants through labor scarcity; disrupted feudal social relations permanently." },
+          { term: "Peasant Revolts", definition: "Uprisings by rural poor against landlords and taxation; e.g., English Peasants' Revolt (1381), German Peasants' War (1524–1525); reflected social tensions of the era." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-1-6",
+    unit: 1,
+    puzzle: 6,
+    theme: { code: "TSI", name: "Technological and Scientific Innovation" },
+    title: "Renaissance and Exploration",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "The Printing Revolution",
+        terms: [
+          { term: "Johannes Gutenberg", definition: "German goldsmith who invented the movable-type printing press c. 1440s; his Gutenberg Bible (c. 1455) launched the print revolution in Europe." },
+          { term: "Movable Type", definition: "Individual reusable letter blocks that can be rearranged to set text; made printing faster and cheaper than hand-copying manuscripts; mass-produced books." },
+          { term: "Incunabula", definition: "Books printed before 1501 (from the 'cradle' of printing); approximately 9 million copies produced in the first 50 years; rapidly spread Renaissance and reform ideas." },
+          { term: "Print Culture", definition: "New intellectual environment created by mass-produced books; standardized language, spread literacy, undermined Church's monopoly on information, enabled Reformation." },
+        ],
+      },
+      {
+        name: "Navigation Technology",
+        terms: [
+          { term: "Astrolabe", definition: "Instrument for measuring the altitude of celestial bodies above the horizon; allowed sailors to determine latitude at sea; essential for deep-ocean navigation." },
+          { term: "Portolan Charts", definition: "Accurate nautical maps of coastlines and harbors developed by Italian and Catalan cartographers; showed compass bearings; essential for Mediterranean and Atlantic navigation." },
+          { term: "Magnetic Compass", definition: "Chinese invention adopted by European sailors; allowed determination of direction without visible stars; enabled navigation in cloudy conditions and open ocean." },
+          { term: "Lateen Sail", definition: "Triangular sail that allowed ships to sail closer to the wind (not just with it); adopted by the Portuguese caravel; critical for Atlantic exploration." },
+        ],
+      },
+      {
+        name: "Military Technology",
+        terms: [
+          { term: "Gunpowder Artillery", definition: "Cannon and siege guns using gunpowder; made medieval stone castles obsolete; allowed centralized states to crush noble strongholds and project power." },
+          { term: "Arquebus", definition: "Early handheld gunpowder firearm; made individual soldiers far more lethal; began to replace knights and transform the social basis of warfare." },
+          { term: "Trace Italienne", definition: "New style of low, angled bastion fortification designed to resist cannon fire; spread across Europe; made siege warfare far more expensive and time-consuming." },
+          { term: "Pike and Shot", definition: "Infantry tactic combining pikemen (to hold off cavalry) and arquebusiers (to fire on the enemy); replaced knight-dominated medieval warfare with disciplined infantry." },
+        ],
+      },
+      {
+        name: "Early Scientific Developments",
+        terms: [
+          { term: "Andreas Vesalius", definition: "Flemish anatomist; De Humani Corporis Fabrica (1543); performed systematic human dissections that corrected centuries of errors in Galen's anatomical texts." },
+          { term: "Copernicus", definition: "Polish astronomer; On the Revolutions of Celestial Spheres (1543); proposed a heliocentric (sun-centered) model of the solar system; launched the Scientific Revolution." },
+          { term: "Ptolemaic System", definition: "Earth-centered model of the cosmos inherited from ancient Greece; endorsed by the Catholic Church; dominant worldview before Copernicus challenged it in 1543." },
+          { term: "Paracelsus", definition: "Swiss physician who challenged Galenic medicine; promoted chemical treatments based on observation; pioneered the idea that specific diseases have specific chemical causes." },
+        ],
+      },
+    ],
+  },
+  // Unit 2 · Age of Reformation
+  {
+    id: "ap-euro-unit-2-1",
+    unit: 2,
+    puzzle: 1,
+    theme: { code: "CID", name: "Cultural and Intellectual Developments" },
+    title: "Age of Reformation",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Luther's Core Theology",
+        terms: [
+          { term: "95 Theses", definition: "Luther's 1517 list of criticisms of Church abuses, especially indulgences; posted in Wittenberg; launched the Protestant Reformation." },
+          { term: "Sola Fide", definition: "Justification by faith alone; Luther's central theological breakthrough; rejected the Catholic teaching that good works contribute to salvation." },
+          { term: "Sola Scriptura", definition: "Scripture alone is the supreme authority in matters of faith; rejected papal decrees and Church tradition as co-equal sources of religious truth." },
+          { term: "Priesthood of All Believers", definition: "All baptized Christians have direct access to God without priestly mediation; undermined the special status of ordained clergy." },
+        ],
+      },
+      {
+        name: "Calvin and Reformed Thought",
+        terms: [
+          { term: "John Calvin", definition: "French-born reformer who established a theocratic model community in Geneva; his systematic theology spread Reformed Protestantism across Europe." },
+          { term: "Predestination", definition: "Calvin's doctrine that God has eternally predetermined who will be saved (the elect) and who will be damned; humans cannot alter this divine decree." },
+          { term: "Institutes of the Christian Religion", definition: "Calvin's comprehensive 1536 theological work; the most systematic and influential Protestant text; became the foundation of Reformed theology." },
+          { term: "Geneva Academy", definition: "Calvin's school for training Reformed ministers; attracted Protestant exiles from across Europe; exported Calvinist ideas to France, Scotland, the Netherlands, and beyond." },
+        ],
+      },
+      {
+        name: "Counter-Reformation Ideas",
+        terms: [
+          { term: "Council of Trent", definition: "Catholic council meeting in three sessions (1545–1563); reaffirmed Catholic doctrine (tradition, transubstantiation, papal authority) while reforming genuine abuses." },
+          { term: "Ignatius of Loyola", definition: "Spanish soldier turned mystic; founded the Society of Jesus (Jesuits) in 1540; emphasized rigorous discipline, education, and absolute obedience to the pope." },
+          { term: "Spiritual Exercises", definition: "Loyola's structured four-week program of meditation, prayer, and self-examination; cornerstone of Jesuit spiritual formation and the Counter-Reformation." },
+          { term: "Index of Forbidden Books", definition: "Church-maintained list of prohibited texts; included works by Copernicus, Erasmus, and many humanists; enforced by the Inquisition to control dangerous ideas." },
+        ],
+      },
+      {
+        name: "Varieties of Protestantism",
+        terms: [
+          { term: "Lutheranism", definition: "Protestant faith based on Luther's theology of sola fide and sola scriptura; strongest in Germany and Scandinavia; retained some Catholic liturgical elements." },
+          { term: "Calvinism", definition: "Reformed Protestantism emphasizing predestination and strict moral discipline; spread to Switzerland, France (Huguenots), the Netherlands, and Scotland (Presbyterians)." },
+          { term: "Anabaptism", definition: "Radical Reformation movement rejecting infant baptism and state churches; persecuted by Catholics and Protestants alike; ancestors of modern Mennonites and Baptists." },
+          { term: "Anglicanism", definition: "English Protestant church established by Henry VIII; retained Catholic bishops and liturgical structure with Protestant theology; the 'via media' between Rome and Geneva." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-2-2",
+    unit: 2,
+    puzzle: 2,
+    theme: { code: "SOP", name: "States and Other Institutions of Power" },
+    title: "Age of Reformation",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "The English Reformation",
+        terms: [
+          { term: "Henry VIII", definition: "English king who broke with Rome in 1534 after Pope Clement VII refused to annul his marriage to Catherine of Aragon; established himself as head of the Church of England." },
+          { term: "Act of Supremacy", definition: "1534 parliamentary act declaring the English monarch the Supreme Head of the Church of England; completed the legal break with Rome." },
+          { term: "Thomas Cromwell", definition: "Henry VIII's chief minister; orchestrated the dissolution of English monasteries (1536–1541); transferred vast Church wealth to the crown and nobility." },
+          { term: "Elizabethan Settlement", definition: "Elizabeth I's moderate Protestant religious compromise (1559); established Calvinist theology with Catholic-style liturgy and bishops; the 'via media.'" },
+        ],
+      },
+      {
+        name: "German Religious Politics",
+        terms: [
+          { term: "Peace of Augsburg", definition: "1555 agreement ending the first phase of German religious wars; established cuius regio, eius religio; gave Lutheran princes official legal standing." },
+          { term: "Cuius Regio, Eius Religio", definition: "Latin principle ('whose realm, his religion') established at Augsburg; each German prince could choose Lutheranism or Catholicism for his territory." },
+          { term: "Schmalkaldic League", definition: "Alliance of Lutheran German princes formed in 1531 to defend against Charles V's Catholic forces; defeated by Charles at the Battle of Mühlberg (1547)." },
+          { term: "Princes' Reformation", definition: "German princes adopted Lutheranism partly to seize Church property and assert independence from the Holy Roman Emperor; politics and theology intertwined." },
+        ],
+      },
+      {
+        name: "Wars of Religion",
+        terms: [
+          { term: "French Wars of Religion", definition: "Series of civil conflicts (1562–1598) between French Catholics and Calvinist Huguenots; marked by massacres including St. Bartholomew's Day (1572)." },
+          { term: "Edict of Nantes", definition: "1598 decree by Henry IV granting French Huguenots limited religious toleration and some political rights; ended the French Wars of Religion." },
+          { term: "Dutch Revolt", definition: "Protestant Dutch provinces rebelled against Spanish Catholic Habsburg rule beginning in 1568; led by William of Orange; resulted in Dutch independence (1648)." },
+          { term: "Thirty Years' War", definition: "Devastating European conflict (1618–1648) beginning as a German religious war; became a struggle for continental power; killed one-third of Germany's population." },
+        ],
+      },
+      {
+        name: "Peace of Westphalia and Its Legacy",
+        terms: [
+          { term: "Peace of Westphalia", definition: "1648 treaties ending the Thirty Years' War; recognized Calvinist Reformed faith; established the modern principle of state sovereignty." },
+          { term: "State Sovereignty", definition: "Westphalian principle that rulers have supreme authority within their own borders and outside powers cannot interfere in a state's domestic affairs." },
+          { term: "Holy Roman Empire Weakened", definition: "Westphalia left over 300 German princes effectively independent; the emperor could no longer dominate German politics; France and Sweden gained territory." },
+          { term: "Religious Pluralism", definition: "Westphalia formally recognized Lutheranism, Calvinism, and Catholicism in the Empire; ended the dream of a religiously unified Christendom in Europe." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-2-3",
+    unit: 2,
+    puzzle: 3,
+    theme: { code: "SCD", name: "Social Organization and Development" },
+    title: "Age of Reformation",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Social Impact of the Reformation",
+        terms: [
+          { term: "Protestant Literacy", definition: "Protestant emphasis on reading the Bible drove expansion of vernacular literacy, primary schools, and Bible translation; raised literacy rates in Protestant regions." },
+          { term: "Clerical Marriage", definition: "Protestant reformers rejected celibacy requirements; Luther married ex-nun Katherine von Bora; created the model of the pastor's household as a social ideal." },
+          { term: "Protestant Work Ethic", definition: "Max Weber's thesis that Calvinist predestination fostered hard work, frugality, and reinvestment of profits as signs of election; contributed to capitalism." },
+          { term: "Confessionalization", definition: "Process by which Protestant and Catholic states used religious uniformity to discipline and consolidate society; strengthened state power and social control." },
+        ],
+      },
+      {
+        name: "Women and the Reformation",
+        terms: [
+          { term: "Katherine von Bora", definition: "Former nun who married Luther in 1525; managed the Luther household; became the model of the ideal Protestant wife, mother, and pastor's companion." },
+          { term: "Convents Dissolved", definition: "Protestant reformers closed convents; eliminated one of the most important institutions for women's education, spiritual life, and relative autonomy." },
+          { term: "Argula von Grumbach", definition: "Bavarian noblewoman who wrote pamphlets defending Luther and challenging Catholic theologians; one of the first women to publish Protestant arguments publicly." },
+          { term: "Good Christian Wife", definition: "Protestant ideal of womanhood as devoted wife, mother, and household manager; replaced the religious life as the highest female vocation." },
+        ],
+      },
+      {
+        name: "Radical Reformation and Popular Religion",
+        terms: [
+          { term: "German Peasants' War", definition: "Massive peasant uprising of 1524–1525 inspired partly by Reformation ideas of Christian equality; Luther condemned it; over 100,000 peasants killed." },
+          { term: "Münster Rebellion", definition: "Anabaptist theocracy established in Münster (1534–1535); implemented polygamy and communal property; crushed by combined Catholic and Lutheran forces." },
+          { term: "Thomas Müntzer", definition: "Radical preacher who linked religious reform to social revolution; led peasant forces in 1525; captured and executed after the battle of Frankenhausen." },
+          { term: "Popular Anticlericalism", definition: "Widespread resentment of corrupt clergy, Church wealth, and clerical privileges among common people; provided fertile ground for the Reformation." },
+        ],
+      },
+      {
+        name: "Counter-Reformation Society",
+        terms: [
+          { term: "Jesuits", definition: "Society of Jesus founded 1540; ran schools across Europe and global missions; the most effective instrument of the Counter-Reformation; stressed obedience and education." },
+          { term: "Catholic Missions", definition: "Jesuit and Franciscan missionaries carried Catholicism to Asia, Africa, and the Americas; Matteo Ricci in China, Francis Xavier in Japan and India." },
+          { term: "Spanish Inquisition", definition: "Church court established in 1478 to enforce Catholic orthodoxy in Spain; used torture and auto-da-fé; targeted conversos, Moriscos, and suspected Protestants." },
+          { term: "Baroque Art", definition: "Counter-Reformation artistic style using dramatic emotion, grandeur, and sensory richness to inspire Catholic devotion; e.g., Bernini's St. Peter's Basilica colonnade." },
+        ],
+      },
+    ],
+  },
+  // Unit 3 · Absolutism and Constitutionalism
+  {
+    id: "ap-euro-unit-3-1",
+    unit: 3,
+    puzzle: 1,
+    theme: { code: "ECD", name: "Economic and Commercial Developments" },
+    title: "Absolutism and Constitutionalism",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Mercantilist Theory and Policy",
+        terms: [
+          { term: "Mercantilism", definition: "Economic theory that national wealth consists of gold and silver; colonies exist to enrich the mother country; exports should exceed imports." },
+          { term: "Jean-Baptiste Colbert", definition: "Louis XIV's finance minister; built up French manufacturing, a royal navy, and overseas colonies; the most influential practitioner of mercantilist policy." },
+          { term: "Protectionism", definition: "Use of tariffs and trade restrictions to shield domestic industries from foreign competition; a key mercantilist tool deployed by Colbert and others." },
+          { term: "Bullionism", definition: "Mercantilist belief that accumulating precious metals (gold and silver) is the ultimate measure and source of national wealth." },
+        ],
+      },
+      {
+        name: "Dutch Commercial Dominance",
+        terms: [
+          { term: "Dutch East India Company", definition: "VOC (1602); world's first publicly traded joint-stock company; dominated Asian spice trade; operated as a near-sovereign commercial empire." },
+          { term: "Amsterdam Exchange Bank", definition: "Founded 1609; stabilized Dutch currency and provided reliable credit; made Amsterdam the financial capital of 17th-century Europe." },
+          { term: "Dutch Golden Age", definition: "17th-century period of Dutch economic, cultural, and military supremacy; built on trade, religious tolerance, and financial innovation." },
+          { term: "Putting-Out System", definition: "Dutch merchants organized rural textile production by supplying raw materials and collecting finished goods; a key element of the Dutch commercial economy." },
+        ],
+      },
+      {
+        name: "War and Economic Rivalry",
+        terms: [
+          { term: "War of Spanish Succession", definition: "Major European conflict (1701–1714) over who would inherit the Spanish throne; ended by the Treaty of Utrecht; curbed French dominance." },
+          { term: "Treaty of Utrecht", definition: "1713 settlement ending the War of Spanish Succession; Britain gained Gibraltar, Nova Scotia, and the asiento (slave trade rights to Spanish colonies)." },
+          { term: "Seven Years' War", definition: "First truly global conflict (1756–1763) fought in Europe, the Americas, India, and at sea; Britain emerged as the dominant colonial power; France lost most of its empire." },
+          { term: "Asiento", definition: "Contract granting Britain the exclusive right to supply enslaved Africans to Spanish colonies in the Americas; won at Utrecht; enormously profitable." },
+        ],
+      },
+      {
+        name: "Revocation and Its Economic Impact",
+        terms: [
+          { term: "Revocation of Edict of Nantes", definition: "Louis XIV's 1685 decision to cancel Huguenot religious freedoms; forced ~200,000 skilled Protestant artisans and merchants to flee France; a major economic self-inflicted wound." },
+          { term: "Huguenot Diaspora", definition: "Flight of French Protestant craftsmen, merchants, and financiers to England, the Dutch Republic, and Prussia after 1685; transferred French skills to rival economies." },
+          { term: "French Debt Crisis", definition: "Louis XIV's endless wars and lavish court at Versailles created a crushing national debt; a structural problem that eventually contributed to the French Revolution." },
+          { term: "Navigation Acts", definition: "English laws requiring colonial trade to be carried in English ships; designed to maximize English profits from empire; challenged by colonial merchants." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-3-2",
+    unit: 3,
+    puzzle: 2,
+    theme: { code: "SOP", name: "States and Other Institutions of Power" },
+    title: "Absolutism and Constitutionalism",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "French Absolutism",
+        terms: [
+          { term: "Louis XIV", definition: "'Sun King' (r. 1643–1715); epitome of absolute monarchy; reportedly declared 'L'état, c'est moi'; built Versailles; made France the dominant European power." },
+          { term: "Divine Right of Kings", definition: "Theory that monarchs derive authority directly from God and are accountable only to God; formulated by Bishop Bossuet; the ideological foundation of absolutism." },
+          { term: "Versailles", definition: "Louis XIV's magnificent palace outside Paris; served to domesticate and distract the French nobility; projected royal grandeur; center of European cultural life." },
+          { term: "Intendants", definition: "Royal officials appointed by the king to govern French provinces; bypassed local noble power; key instrument of Bourbon administrative centralization." },
+        ],
+      },
+      {
+        name: "Eastern Absolutism",
+        terms: [
+          { term: "Peter the Great", definition: "Tsar of Russia (r. 1682–1725); forcibly westernized Russia; built St. Petersburg; expanded to the Baltic; transformed Russia into a major European power." },
+          { term: "Catherine the Great", definition: "Empress of Russia (r. 1762–1796); enlightened despot; expanded Russian territory south and west; corresponded with philosophes but strengthened serfdom." },
+          { term: "Frederick the Great", definition: "King of Prussia (r. 1740–1786); enlightened despot; built a powerful military bureaucratic state; seized Silesia from Austria; made Prussia a great power." },
+          { term: "Maria Theresa", definition: "Habsburg empress (r. 1740–1780); reformed and modernized the Austrian state after losing Silesia; centralized administration; rival to Prussia for German dominance." },
+        ],
+      },
+      {
+        name: "English Constitutionalism",
+        terms: [
+          { term: "English Civil War", definition: "Conflict (1642–1651) between King Charles I (claiming divine right) and Parliament; ended with Charles's execution and establishment of a republic." },
+          { term: "Oliver Cromwell", definition: "Parliamentary military leader who defeated Charles I; became Lord Protector of the Commonwealth; ruled England without a king until his death in 1658." },
+          { term: "Glorious Revolution", definition: "Bloodless 1688 revolution in which Parliament replaced the Catholic James II with the Protestant William of Orange and his wife Mary; established parliamentary supremacy." },
+          { term: "English Bill of Rights", definition: "1689 document limiting royal power; established that Parliament controls taxation and legislation; guaranteed free elections and free speech in Parliament." },
+        ],
+      },
+      {
+        name: "Political Theory",
+        terms: [
+          { term: "Thomas Hobbes", definition: "English philosopher; Leviathan (1651); humans are naturally selfish and violent; need an all-powerful sovereign to prevent chaos; justified strong centralized rule." },
+          { term: "John Locke", definition: "English philosopher; Two Treatises of Government (1689); natural rights to life, liberty, and property; government by consent; right to revolution if government fails." },
+          { term: "Social Contract", definition: "Political theory that legitimate government rests on an agreement between ruler and ruled; challenged divine right; underpinned both Locke and Rousseau." },
+          { term: "Montesquieu", definition: "French philosophe; Spirit of the Laws (1748); admired English system; advocated separation of legislative, executive, and judicial powers; hugely influenced American founders." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-3-3",
+    unit: 3,
+    puzzle: 3,
+    theme: { code: "TSI", name: "Technological and Scientific Innovation" },
+    title: "Absolutism and Constitutionalism",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "The Heliocentric Revolution",
+        terms: [
+          { term: "Galileo Galilei", definition: "Italian astronomer who used the telescope to confirm heliocentrism; discovered Jupiter's moons and phases of Venus; tried by Inquisition for contradicting scripture." },
+          { term: "Johannes Kepler", definition: "German astronomer who discovered that planets move in elliptical orbits; his three laws of planetary motion provided the mathematical basis for Newtonian mechanics." },
+          { term: "Isaac Newton", definition: "English mathematician and physicist; Principia Mathematica (1687); laws of motion and universal gravitation; synthesized the Scientific Revolution into a unified mechanical worldview." },
+          { term: "Mechanical Philosophy", definition: "View that the universe operates like a clockwork machine governed by mathematical laws; replaced Aristotelian and spiritual explanations; backbone of Newtonian science." },
+        ],
+      },
+      {
+        name: "Scientific Method and Philosophy",
+        terms: [
+          { term: "Francis Bacon", definition: "English philosopher; Novum Organum (1620); championed empiricism and inductive reasoning — conclusions should come from observed evidence, not ancient authority." },
+          { term: "René Descartes", definition: "French philosopher and mathematician; Discourse on Method; championed deductive reasoning; 'cogito ergo sum'; applied mathematical analysis to all knowledge." },
+          { term: "Scientific Method", definition: "Systematic approach to knowledge combining observation, hypothesis, controlled experimentation, and peer review; displaced reliance on classical texts and Church authority." },
+          { term: "Robert Boyle", definition: "Anglo-Irish chemist; Sceptical Chymist (1661); helped found modern chemistry; rejected Aristotelian elements; formulated Boyle's Law on gas pressure and volume." },
+        ],
+      },
+      {
+        name: "New Instruments and Institutions",
+        terms: [
+          { term: "Telescope", definition: "Galileo's use of the telescope (1609) revealed Jupiter's moons, the phases of Venus, and sunspots; provided direct empirical evidence for the Copernican heliocentric model." },
+          { term: "Microscope", definition: "Allowed Robert Hooke to discover cells (1665) and Anton van Leeuwenhoek to observe microorganisms; opened an invisible world to scientific investigation." },
+          { term: "Royal Society", definition: "Founded in London in 1660; first major scientific academy; promoted experimental science, published the Philosophical Transactions (1665), the first scientific journal." },
+          { term: "Académie des Sciences", definition: "French state-sponsored scientific academy founded 1666 by Colbert; employed scientists on royal salaries; reflected absolutist patronage of science as a tool of state power." },
+        ],
+      },
+      {
+        name: "Medicine and the Body",
+        terms: [
+          { term: "William Harvey", definition: "English physician; demonstrated the circulation of blood (1628); overturned 1,400 years of Galenic medicine; based conclusions on systematic observation and experiment." },
+          { term: "Anton van Leeuwenhoek", definition: "Dutch microscopist; first to observe and describe bacteria and protozoa ('animalcules'); demonstrated that microorganisms exist in water and the human body." },
+          { term: "Iatromechanism", definition: "Medical philosophy viewing the body as a machine; applied Cartesian mechanical philosophy to anatomy and physiology; challenged ancient humoral theory of disease." },
+          { term: "Humoral Theory Challenged", definition: "Ancient Galenic belief that health depends on balancing four bodily fluids (blood, phlegm, black bile, yellow bile); undermined by Harvey's circulation and Vesalius's anatomy." },
+        ],
+      },
+    ],
+  },
+  // Unit 4 · Scientific, Philosophical, and Political Developments
+  {
+    id: "ap-euro-unit-4-1",
+    unit: 4,
+    puzzle: 1,
+    theme: { code: "CID", name: "Cultural and Intellectual Developments" },
+    title: "Scientific, Philosophical, and Political Developments",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Enlightenment Philosophers",
+        terms: [
+          { term: "Voltaire", definition: "French philosophe; champion of reason, religious toleration, and free speech; Candide (1759) satirized religious fanaticism and optimism; fought the Calas case." },
+          { term: "Jean-Jacques Rousseau", definition: "Swiss-French philosopher; Social Contract (1762); argued sovereignty rests with the people; 'general will'; natural human goodness corrupted by civilization." },
+          { term: "Denis Diderot", definition: "Principal editor of the Encyclopédie; sought to compile all human knowledge and challenge religious authority; corresponded with Catherine the Great." },
+          { term: "Immanuel Kant", definition: "German philosopher; 'What is Enlightenment?' (1784): 'dare to know'; synthesized rationalism and empiricism; argued reason provides moral law (categorical imperative)." },
+        ],
+      },
+      {
+        name: "Core Enlightenment Concepts",
+        terms: [
+          { term: "Natural Law", definition: "Universal moral and political principles discoverable through reason; applicable to government and society; underpinned arguments for rights and reform." },
+          { term: "Progress", definition: "Enlightenment belief that human society can improve through reason, science, and education; a sharp break from cyclical or degenerative views of history." },
+          { term: "Deism", definition: "Enlightenment religious belief in a rational creator God who established natural laws but does not intervene in human affairs; the 'clockmaker' God; rejected revealed religion." },
+          { term: "Toleration", definition: "Philosophical and political principle that differences in religion and opinion should be accepted rather than suppressed; Voltaire and Locke's central demand." },
+        ],
+      },
+      {
+        name: "The Public Sphere",
+        terms: [
+          { term: "Encyclopédie", definition: "28-volume reference work edited by Diderot and d'Alembert (1751–1772); compiled all human knowledge; challenged Church and royal authority through critical analysis." },
+          { term: "Salons", definition: "Gatherings hosted by educated elite women (salonnières) in Paris; brought together philosophes, scientists, and nobles; the social engine of French Enlightenment debate." },
+          { term: "Coffeehouses", definition: "Public spaces where men read newspapers, debated politics, and conducted business; spread Enlightenment ideas across social classes; especially important in England." },
+          { term: "Republic of Letters", definition: "Transnational intellectual community of scholars connected by correspondence and printed works; transcended national and religious boundaries; the Enlightenment's social network." },
+        ],
+      },
+      {
+        name: "Arts and Culture",
+        terms: [
+          { term: "Rococo", definition: "Ornate, playful, and intimate artistic style favored by aristocratic courts in the early 18th century; rejected the grandeur of Baroque; associated with Watteau and Fragonard." },
+          { term: "Neoclassicism", definition: "Artistic and architectural revival of Greek and Roman forms; expressed Enlightenment values of reason, order, and civic virtue; associated with Jacques-Louis David." },
+          { term: "The Novel", definition: "New literary form appealing to the literate middle class; explored individual psychology and social life; e.g., Richardson's Pamela, Defoe's Robinson Crusoe." },
+          { term: "Sensibility", definition: "Cultural and literary movement emphasizing refined emotional feeling and empathy; influenced by Rousseau; bridged Enlightenment rationalism and Romantic emotion." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-4-2",
+    unit: 4,
+    puzzle: 2,
+    theme: { code: "SOP", name: "States and Other Institutions of Power" },
+    title: "Scientific, Philosophical, and Political Developments",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Enlightened Despotism",
+        terms: [
+          { term: "Joseph II of Austria", definition: "The most radical enlightened despot; abolished serfdom, extended religious toleration to all faiths, dissolved monasteries; reforms were too sweeping and were largely reversed after his death." },
+          { term: "Frederick the Great", definition: "King of Prussia (r. 1740–1786); self-described 'first servant of the state'; promoted religious toleration and legal reform while maintaining absolute power and an aggressive foreign policy." },
+          { term: "Catherine the Great", definition: "Russian empress who corresponded with Voltaire and Diderot; issued the Nakaz (Instruction) proposing legal reforms; but strengthened serfdom and Russian autocracy." },
+          { term: "Enlightened Despotism", definition: "Form of absolute monarchy in which rulers applied Enlightenment principles (religious tolerance, legal reform, education) while retaining full personal political power." },
+        ],
+      },
+      {
+        name: "Economic Reform Ideas",
+        terms: [
+          { term: "Physiocrats", definition: "French economic reformers who believed land was the source of all wealth; advocated free trade and minimal government interference; precursors of classical economics." },
+          { term: "Adam Smith", definition: "Scottish economist; Wealth of Nations (1776); argued that free markets and the 'invisible hand' allocate resources more efficiently than mercantilist government intervention." },
+          { term: "Laissez-Faire", definition: "Economic principle that governments should not intervene in markets; let supply and demand regulate prices and production; advocated by physiocrats and Adam Smith." },
+          { term: "Cesare Beccaria", definition: "Italian jurist; On Crimes and Punishments (1764); argued against torture and capital punishment; punishment should be swift, certain, and proportional to the crime." },
+        ],
+      },
+      {
+        name: "French Political Tensions",
+        terms: [
+          { term: "Parlements", definition: "French regional courts with the right to register (or veto) royal edicts; dominated by nobles; consistently blocked Bourbon fiscal reform; helped precipitate the Revolution." },
+          { term: "Ancien Régime", definition: "The 'old order' of pre-Revolutionary France: absolute monarchy, a society divided into privileged estates, and a Church with vast wealth and legal exemptions." },
+          { term: "Estates-General", definition: "France's representative assembly of the three estates; not convened since 1614; Louis XVI called it in 1789 to address the fiscal crisis; its meeting sparked the Revolution." },
+          { term: "Fiscal-Military State", definition: "18th-century European states defined by expanding armies, growing bureaucracies, and heavy tax burdens to fund near-constant warfare; strained social contracts everywhere." },
+        ],
+      },
+      {
+        name: "International Relations",
+        terms: [
+          { term: "Diplomatic Revolution of 1756", definition: "Realignment of European alliances before the Seven Years' War; Austria abandoned its English alliance for France, while Prussia allied with England; upended a century of tradition." },
+          { term: "Balance of Power", definition: "Principle guiding 18th-century European diplomacy; great powers formed shifting coalitions to prevent any single state from achieving continental dominance." },
+          { term: "Partition of Poland", definition: "Austria, Prussia, and Russia carved up Poland in three partitions (1772, 1793, 1795); Poland ceased to exist as an independent state for 123 years." },
+          { term: "Congress of Vienna", definition: "1814–1815 conference of European great powers after Napoleon's defeat; redrawn borders to restore stability; established the Concert of Europe to maintain the new order." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-4-3",
+    unit: 4,
+    puzzle: 3,
+    theme: { code: "SCD", name: "Social Organization and Development" },
+    title: "Scientific, Philosophical, and Political Developments",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Women and the Enlightenment",
+        terms: [
+          { term: "Mary Wollstonecraft", definition: "English writer; A Vindication of the Rights of Woman (1792); argued women's apparent inferiority was caused by lack of education, not nature; early feminist manifesto." },
+          { term: "Salonnières", definition: "Elite women who hosted Parisian salons; facilitated intellectual exchange among philosophes; wielded significant informal cultural power despite exclusion from formal institutions." },
+          { term: "Olympe de Gouges", definition: "French activist; Declaration of the Rights of Woman and the Female Citizen (1791); challenged the male-only definition of universal rights proclaimed by the Revolution." },
+          { term: "Women's Excluded Rights", definition: "Despite Enlightenment language of universal rights, most philosophes excluded women from political participation; revealed the limits of Enlightenment universalism." },
+        ],
+      },
+      {
+        name: "Social Reform",
+        terms: [
+          { term: "Prison Reform", definition: "John Howard's State of the Prisons (1777) exposed horrific conditions; Enlightenment humanitarianism drove campaigns to improve criminal justice and incarceration." },
+          { term: "Abolition of Torture", definition: "Following Beccaria's arguments, many European states abolished judicial torture in the 18th century; a concrete Enlightenment reform of criminal law." },
+          { term: "Poor Relief", definition: "Enlightenment reformers debated how to address poverty; some advocated workhouses, others education; exposed tensions between humanitarianism and social control." },
+          { term: "Abolition Movement", definition: "Enlightenment natural rights arguments fueled early campaigns against the slave trade; Quakers and philosophes argued slavery was incompatible with human dignity." },
+        ],
+      },
+      {
+        name: "Family and Society",
+        terms: [
+          { term: "Childhood as Distinct Phase", definition: "Rousseau's Émile (1762) promoted childhood as a unique stage requiring nurturing and natural learning; transformed ideas about education and child-rearing." },
+          { term: "Affective Family", definition: "Enlightenment ideal of the family based on love and emotional bonds rather than economic calculation; gradually replaced arranged marriage as the cultural norm among the middle class." },
+          { term: "Wet Nursing", definition: "Widespread practice of hiring lower-class women to breastfeed elite infants; criticized by Enlightenment reformers who urged mothers to breastfeed their own children." },
+          { term: "Rising Literacy", definition: "Expansion of schools and cheap printing increased literacy rates across Europe, especially in Protestant regions; created an expanding reading public for Enlightenment works." },
+        ],
+      },
+      {
+        name: "Class and Social Tensions",
+        terms: [
+          { term: "Rising Bourgeoisie", definition: "Middle class of merchants, lawyers, and professionals grew in wealth and ambition during the 18th century; resented aristocratic privilege and legal inequalities." },
+          { term: "Aristocratic Reaction", definition: "European nobles attempted to restrict access to high office and military command to the nobility; heightened social tensions with the ambitious bourgeoisie." },
+          { term: "Proto-Industrialization", definition: "Expansion of rural cottage industries and the putting-out system before factory industrialization; integrated peasant households into market economies." },
+          { term: "Urban Growth", definition: "18th-century population growth and proto-industrialization drove expansion of cities; London and Paris became major metropolises; created new social problems and opportunities." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-4-4",
+    unit: 4,
+    puzzle: 4,
+    theme: { code: "NEI", name: "National and European Identity" },
+    title: "Scientific, Philosophical, and Political Developments",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "European Cosmopolitan Identity",
+        terms: [
+          { term: "French Cultural Hegemony", definition: "French language and culture dominated European aristocratic society in the 18th century; French was the language of diplomacy, courts, and polite conversation across Europe." },
+          { term: "Grand Tour", definition: "Educational journey through France and Italy undertaken by elite young Europeans; spread classical learning and Enlightenment culture; formed a shared transnational aristocratic identity." },
+          { term: "Cosmopolitanism", definition: "Enlightenment ideal that educated Europeans shared a common rational civilization transcending national and religious divisions; a 'citizen of the world' outlook." },
+          { term: "Republic of Letters", definition: "Transnational community of scholars and intellectuals who corresponded across borders; created a shared European intellectual identity that preceded nationalism." },
+        ],
+      },
+      {
+        name: "Religious Identity Transformed",
+        terms: [
+          { term: "Anti-Clericalism", definition: "Criticism of Church power, clerical privilege, and religious superstition; Voltaire's 'Écrasez l'infâme' ('crush the infamous'); challenged the Church's grip on education and public life." },
+          { term: "Secularism", definition: "Growing separation of religious authority from law, government, and education; a defining intellectual trend of the Enlightenment that reshaped European identity." },
+          { term: "Jewish Emancipation", definition: "Enlightenment arguments that Jews were rational human beings deserving equal rights; led to legal emancipation in France (1791) and gradual progress elsewhere." },
+          { term: "Enlightened Toleration", definition: "Policy extending limited legal rights to religious minorities; Joseph II's Edict of Toleration (1781) protected Protestants and Jews in Austria; a partial Enlightenment victory." },
+        ],
+      },
+      {
+        name: "Constructing 'Civilization'",
+        terms: [
+          { term: "Noble Savage", definition: "Rousseau's concept of natural humans uncorrupted by civilization; used to critique European society; raised questions about whether 'progress' was genuine improvement." },
+          { term: "Progress Narrative", definition: "Enlightenment framework presenting European civilization as the pinnacle of human development; used to justify both reform at home and colonial domination abroad." },
+          { term: "Orientalism", definition: "European representation of Asia and the Middle East as exotic, despotic, and inferior; e.g., Montesquieu's Persian Letters; reinforced European identity through contrast with the 'Other.'" },
+          { term: "Natural Rights", definition: "Rights belonging to all humans by reason of their humanity; proclaimed as universal but in practice often restricted to European men; revealed contradictions of Enlightenment thought." },
+        ],
+      },
+      {
+        name: "Seeds of National Identity",
+        terms: [
+          { term: "General Will", definition: "Rousseau's concept of the collective interest of the community as a whole; sovereignty belongs to the people as a collective; a foundation for both democracy and nationalism." },
+          { term: "Popular Sovereignty", definition: "Principle that political authority derives from the people rather than from God or hereditary right; central to both Enlightenment political theory and the French Revolution." },
+          { term: "Vernacular Languages", definition: "Printing press standardized national languages; grammars and dictionaries defined 'proper' French, German, and English; laid groundwork for national linguistic identities." },
+          { term: "National Histories", definition: "Growing scholarly interest in collecting national folklore, myths, and histories; Herder's cultural nationalism; began defining nations as communities of shared culture." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-4-5",
+    unit: 4,
+    puzzle: 5,
+    theme: { code: "TSI", name: "Technological and Scientific Innovation" },
+    title: "Scientific, Philosophical, and Political Developments",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "18th-Century Science",
+        terms: [
+          { term: "Antoine Lavoisier", definition: "French chemist; discovered and named oxygen and hydrogen; formulated the law of conservation of mass; demolished phlogiston theory; 'father of modern chemistry.'" },
+          { term: "Carl Linnaeus", definition: "Swedish naturalist; developed binomial nomenclature (genus and species); Systema Naturae organized all known living organisms; laid foundation for modern taxonomy." },
+          { term: "Georges-Louis Buffon", definition: "French naturalist; Epochs of Nature suggested Earth was far older than 6,000 years; recognized species change over time; a forerunner of evolutionary thought." },
+          { term: "Benjamin Franklin", definition: "American polymath; proved lightning is electricity; invented the lightning rod; his experiments helped bring Enlightenment science to a popular audience." },
+        ],
+      },
+      {
+        name: "Agricultural Revolution",
+        terms: [
+          { term: "Four-Field Crop Rotation", definition: "System replacing the fallow year with nitrogen-fixing crops (turnips, clover); maintained soil fertility and increased yields; spread from the Netherlands across Europe." },
+          { term: "Selective Breeding", definition: "Robert Bakewell and others improved livestock breeds through controlled mating; increased meat and wool yields; applied scientific thinking to animal husbandry." },
+          { term: "Seed Drill", definition: "Jethro Tull's invention (c. 1701) that planted seeds in rows at controlled depth; reduced seed waste and improved germination; one symbol of agricultural improvement." },
+          { term: "Enclosure", definition: "Consolidation of open fields and common land into private farms; increased agricultural efficiency; dispossessed smallholders and drove rural workers into cities." },
+        ],
+      },
+      {
+        name: "Early Industrialization",
+        terms: [
+          { term: "Flying Shuttle", definition: "John Kay's 1733 invention that doubled weaving speed; created a bottleneck in thread supply; stimulated the invention of spinning machines." },
+          { term: "Spinning Jenny", definition: "James Hargreaves's 1764 invention allowing one worker to spin multiple threads simultaneously; dramatically increased yarn output; early step toward mechanized textile production." },
+          { term: "Newcomen Steam Engine", definition: "Thomas Newcomen's 1712 atmospheric engine used to pump water from coal mines; first practical steam engine; paved the way for Watt's improvements." },
+          { term: "Coal Mining Expansion", definition: "Rising demand for fuel and iron drove rapid expansion of coal mining in Britain; stimulated steam engine development and laid the groundwork for the Industrial Revolution." },
+        ],
+      },
+      {
+        name: "Medicine and Public Health",
+        terms: [
+          { term: "Smallpox Inoculation", definition: "Variolation (introducing live smallpox) brought to Europe from the Ottoman Empire c. 1718; Edward Jenner's safer vaccination (1796) using cowpox was a transformative medical breakthrough." },
+          { term: "Lying-In Hospitals", definition: "Institutions providing medical care for poor women giving birth; improved maternal survival but also concentrated infection; early examples of systematic public health provision." },
+          { term: "Population Explosion", definition: "European population roughly doubled in the 18th century; caused by improved nutrition (New World crops), declining plague, and modest medical improvements; drove social and economic change." },
+          { term: "Hospital Reform", definition: "Enlightenment reformers documented filthy hospital conditions; campaigns for cleanliness and better organization reduced death rates; early public health movement." },
+        ],
+      },
+    ],
+  },
+  // Unit 5 · Conflict, Crisis, and Reaction in the Late 18th Century
+  {
+    id: "ap-euro-unit-5-1",
+    unit: 5,
+    puzzle: 1,
+    theme: { code: "ECD", name: "Economic and Commercial Developments" },
+    title: "Conflict, Crisis, and Reaction in the Late 18th Century",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Economic Causes of the French Revolution",
+        terms: [
+          { term: "French Debt Crisis", definition: "Decades of warfare — especially French support for the American Revolution — bankrupted France; interest payments consumed most of the royal budget by 1788." },
+          { term: "Tax Inequality", definition: "The nobility and clergy were largely exempt from taxation; the burden fell entirely on the Third Estate; privileged orders repeatedly blocked reform." },
+          { term: "Harvest Failure of 1788", definition: "Severe crop failure drove bread prices to crisis levels; urban workers spent 80–90% of income on bread; hunger radicalized the Paris crowd in 1789." },
+          { term: "Assignats", definition: "Revolutionary paper currency backed by confiscated Church lands; rapidly devalued through overprinting; caused severe inflation that hurt urban workers." },
+        ],
+      },
+      {
+        name: "Revolutionary Economic Reforms",
+        terms: [
+          { term: "Abolition of Feudal Dues", definition: "August 4, 1789: the National Assembly abolished seigneurial rights, tithes, and noble privileges in a single night; the most sweeping social revolution of the era." },
+          { term: "Nationalization of Church Property", definition: "The National Assembly seized and sold vast Church landholdings to fund the Revolution; created a new class of property-owning peasants and bourgeois." },
+          { term: "Biens Nationaux", definition: "Confiscated Church and émigré properties sold at auction; buyers — primarily the bourgeoisie — acquired a vested interest in defending the Revolution's property settlement." },
+          { term: "Maximum", definition: "Law of General Maximum (1793): Jacobin price controls on grain and other essentials to fight inflation and feed the urban sans-culottes; repealed after Thermidor." },
+        ],
+      },
+      {
+        name: "Napoleonic Economic Policy",
+        terms: [
+          { term: "Bank of France", definition: "Founded by Napoleon in 1800; stabilized the French currency; provided reliable state credit; ended the financial chaos of the Revolutionary decade." },
+          { term: "Napoleonic Code", definition: "1804 civil law code that standardized property rights, contracts, and commercial law across the French Empire; facilitated economic activity and investment." },
+          { term: "Continental System", definition: "Napoleon's 1806 economic blockade intended to strangle British trade; instead damaged French allies' economies, sparked revolts in Spain and Russia, and ultimately failed." },
+          { term: "Metric System", definition: "Napoleon spread the standardized metric system of weights and measures across Europe; simplified trade and administration; one of his most lasting practical legacies." },
+        ],
+      },
+      {
+        name: "British Economic Resilience",
+        terms: [
+          { term: "British Naval Supremacy", definition: "Nelson's victory at Trafalgar (1805) destroyed the Franco-Spanish fleet; secured British trade routes and the ability to enforce its own blockade of Napoleonic Europe." },
+          { term: "Subsidies to Coalitions", definition: "Britain used its commercial and industrial wealth to fund repeated coalitions against Napoleon; paid Austria, Prussia, and Russia to keep fighting." },
+          { term: "Industrial Advantage", definition: "Britain's early industrialization gave it the economic output and financial resources to sustain a 23-year war against France — a contest of industrial vs. agrarian power." },
+          { term: "Louisiana Purchase", definition: "After the failure of his Haitian colony, Napoleon sold the Louisiana Territory to the United States (1803) for 15 million dollars to fund his European wars." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-5-2",
+    unit: 5,
+    puzzle: 2,
+    theme: { code: "CID", name: "Cultural and Intellectual Developments" },
+    title: "Conflict, Crisis, and Reaction in the Late 18th Century",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Revolutionary Ideas",
+        terms: [
+          { term: "Declaration of the Rights of Man", definition: "August 1789: proclaimed liberty, equality, and popular sovereignty; drew on Locke and Rousseau; became the ideological foundation of the Revolution." },
+          { term: "Popular Sovereignty", definition: "The principle that political authority derives from the people, not from God or hereditary right; the Declaration placed sovereignty in the nation, not the king." },
+          { term: "Dechristianization", definition: "Radical 1793–1794 campaign closing churches, renaming streets, and replacing the Christian calendar; Robespierre's Cult of the Supreme Being replaced it briefly." },
+          { term: "Revolutionary Calendar", definition: "New calendar beginning with Year I (1792); months renamed for nature (Thermidor, Brumaire); abolished Sundays; attempted to break from Christian and royal past." },
+        ],
+      },
+      {
+        name: "Counter-Revolutionary Thought",
+        terms: [
+          { term: "Edmund Burke", definition: "Reflections on the Revolution in France (1790): defended tradition, organic society, and gradual reform against abstract reason; founding text of modern conservatism." },
+          { term: "Joseph de Maistre", definition: "Ultramontane French conservative; rejected Enlightenment rationalism; argued that only Church authority and monarchy could prevent social chaos." },
+          { term: "Conservatism", definition: "Political ideology born in reaction to the French Revolution; defends tradition, hierarchy, and organic social change; Burke, Metternich, and de Maistre as founding figures." },
+          { term: "Mary Wollstonecraft's Response", definition: "A Vindication of the Rights of Men (1790): Wollstonecraft replied to Burke, defending the Revolution and challenging his nostalgic defense of aristocratic privilege." },
+        ],
+      },
+      {
+        name: "Romanticism",
+        terms: [
+          { term: "Romanticism", definition: "Artistic and intellectual movement emphasizing emotion, imagination, nature, and the past; a reaction to Enlightenment rationalism and the violence of the Revolutionary era." },
+          { term: "Johann Wolfgang von Goethe", definition: "German Romantic writer; The Sorrows of Young Werther (1774) explored intense emotion and alienation; Faust examined human ambition; shaped German cultural identity." },
+          { term: "William Blake", definition: "English Romantic poet and artist; 'dark Satanic Mills'; initially sympathetic to the Revolution; increasingly critical of industrialization and rationalism." },
+          { term: "Friedrich Schiller", definition: "German poet and playwright; Ode to Joy, William Tell; celebrated freedom and national identity; his works gave voice to Romantic idealism about liberty." },
+        ],
+      },
+      {
+        name: "Revolutionary Culture",
+        terms: [
+          { term: "Festival of the Federation", definition: "July 14, 1790 celebration of the Revolution's first anniversary at the Champ de Mars; mass civic festival replacing religious ceremonies with patriotic ritual." },
+          { term: "La Marseillaise", definition: "Revolutionary war song written 1792; became France's national anthem; powerfully expressed nationalist mobilization and defiance of foreign invasion." },
+          { term: "Cult of the Supreme Being", definition: "Robespierre's state deist religion (1794); replaced both Catholicism and the atheistic Cult of Reason; linked civic virtue to belief in God and the immortality of the soul." },
+          { term: "Marianne", definition: "Female allegorical figure representing the French Republic; appeared on revolutionary posters and coins; embodied liberty and reason; still France's national symbol." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-5-3",
+    unit: 5,
+    puzzle: 3,
+    theme: { code: "SOP", name: "States and Other Institutions of Power" },
+    title: "Conflict, Crisis, and Reaction in the Late 18th Century",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Phases of the French Revolution",
+        terms: [
+          { term: "National Assembly", definition: "Third Estate's self-declaration as a sovereign legislature (1789–1791); wrote the Constitution of 1791; established a constitutional monarchy." },
+          { term: "National Convention", definition: "Radical republican assembly (1792–1795); abolished the monarchy; tried and executed Louis XVI; directed the Reign of Terror; defeated the foreign coalition." },
+          { term: "Directory", definition: "Five-man executive government (1795–1799); corrupt and unstable; ended foreign invasion but failed to solve domestic problems; overthrown by Napoleon in 1799." },
+          { term: "Thermidorian Reaction", definition: "Conservative backlash after Robespierre's execution (July 1794); ended the Terror; released prisoners; dismantled Jacobin institutions; began the Directory period." },
+        ],
+      },
+      {
+        name: "The Terror",
+        terms: [
+          { term: "Committee of Public Safety", definition: "Twelve-man executive committee dominated by Robespierre; directed France's total war effort and the Reign of Terror; the effective government of France 1793–1794." },
+          { term: "Reign of Terror", definition: "September 1793–July 1794: approximately 17,000 officially executed; 40,000 died in prison; targeted real and suspected enemies of the Revolution." },
+          { term: "Maximilien Robespierre", definition: "'The Incorruptible'; dominated the Committee of Public Safety; linked virtue with terror; guillotined on 9 Thermidor (July 27, 1794) by fellow Conventionnels." },
+          { term: "Levée en Masse", definition: "1793 universal military conscription; mobilized the entire French nation for war; created the first truly mass citizen army; transformed the nature of European warfare." },
+        ],
+      },
+      {
+        name: "Napoleon's Rise and Rule",
+        terms: [
+          { term: "18 Brumaire", definition: "Napoleon's coup of November 9, 1799; overthrew the Directory with military force; established the Consulate with Napoleon as First Consul; ended the Revolutionary decade." },
+          { term: "Concordat of 1801", definition: "Napoleon's agreement with Pope Pius VII; restored Catholicism in France; gave Napoleon political legitimacy with the peasantry; ended Revolutionary dechristianization." },
+          { term: "Grand Empire", definition: "Napoleon's vast European domain by 1810; included France, satellite kingdoms ruled by his family, and dependent allied states; spread the Napoleonic Code across the continent." },
+          { term: "Hundred Days", definition: "Napoleon's return from Elba in March 1815; briefly restored rule; defeated by Wellington and Blücher at Waterloo (June 18, 1815); exiled to St. Helena." },
+        ],
+      },
+      {
+        name: "Napoleon's Downfall and the Settlement",
+        terms: [
+          { term: "Peninsular War", definition: "French occupation of Spain (1808–1814) provoked fierce guerrilla resistance; Wellington's British forces supported Spanish; drained French resources — Napoleon's 'Spanish ulcer.'" },
+          { term: "Invasion of Russia", definition: "Napoleon's catastrophic 1812 campaign; the Grande Armée of 600,000 entered Russia; scorched earth policy and winter destroyed it; only 100,000 returned." },
+          { term: "Congress of Vienna", definition: "1814–1815 conference of great powers (Metternich, Castlereagh, Tsar Alexander, Talleyrand); redrawn Europe to restore stability; established conservative order." },
+          { term: "Concert of Europe", definition: "Great power cooperation system established at Vienna; periodic congresses to manage crises; Metternich's mechanism to suppress liberalism and nationalism." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-5-4",
+    unit: 5,
+    puzzle: 4,
+    theme: { code: "SCD", name: "Social Organization and Development" },
+    title: "Conflict, Crisis, and Reaction in the Late 18th Century",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Social Revolution in France",
+        terms: [
+          { term: "Sans-Culottes", definition: "Parisian urban workers and artisans who wore trousers instead of aristocratic breeches; drove the most radical phases of the Revolution; demanded price controls and direct democracy." },
+          { term: "Emancipation of French Jews", definition: "1791: the National Assembly granted full citizenship to Jews; first European state to do so; applied Enlightenment universalism; reversed in some areas under Napoleon." },
+          { term: "Émigré Nobility", definition: "Nobles who fled France during the Revolution; settled in neighboring states; plotted counter-revolution; their property was confiscated and sold as biens nationaux." },
+          { term: "New Propertied Class", definition: "Bourgeois and prosperous peasants who bought confiscated Church and émigré lands; acquired a permanent stake in defending the Revolution's property settlement." },
+        ],
+      },
+      {
+        name: "Women in the Revolutionary Era",
+        terms: [
+          { term: "Women's March on Versailles", definition: "October 5–6, 1789: thousands of Parisian women marched to Versailles demanding bread; forced Louis XVI and the royal family back to Paris; showed women's political power." },
+          { term: "Olympe de Gouges", definition: "Declaration of the Rights of Woman and the Female Citizen (1791); demanded women be included in Revolutionary rights; guillotined in 1793 for opposing the Terror." },
+          { term: "Women's Political Clubs Banned", definition: "October 1793: the Jacobin-dominated Convention banned women's political clubs; excluded women from formal politics despite their role in making the Revolution." },
+          { term: "Napoleonic Code's Gender Limits", definition: "The Code gave women property rights in marriage but defined them as legal minors under their husbands; systematized patriarchy in law across the French Empire." },
+        ],
+      },
+      {
+        name: "Napoleonic Social Order",
+        terms: [
+          { term: "Meritocracy", definition: "Napoleon's 'careers open to talent': promotion based on ability and service rather than birth; attracted ambitious men from across Europe into French armies and administration." },
+          { term: "Legion of Honor", definition: "Order established by Napoleon (1802) to reward distinguished military and civilian service regardless of social origin; embodied the principle of meritocracy." },
+          { term: "Imperial Nobility", definition: "Napoleon created a new hereditary nobility based on military and administrative service; blended revolutionary merit with traditional hierarchy." },
+          { term: "Peasant Proprietors", definition: "The Revolution's redistribution of Church and noble lands created a large class of small landowners; Napoleon's settlement guaranteed their gains; gave him broad rural support." },
+        ],
+      },
+      {
+        name: "Haitian Revolution",
+        terms: [
+          { term: "Saint-Domingue", definition: "France's most profitable Caribbean colony; produced half the world's sugar and coffee; enslaved population of 500,000 revolted in 1791 in history's largest slave uprising." },
+          { term: "Toussaint L'Ouverture", definition: "Former enslaved man who became the military and political leader of the Haitian Revolution; freed enslaved people; defeated French, Spanish, and British forces." },
+          { term: "Haitian Independence", definition: "January 1, 1804: Haiti declared independence; the world's first Black republic and the only nation born of a successful slave revolution; a direct challenge to European colonialism." },
+          { term: "Napoleon's Failure in Haiti", definition: "Napoleon sent an army to reimpose slavery; it was destroyed by Haitian forces and yellow fever; he abandoned American ambitions and sold Louisiana to the United States." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-5-5",
+    unit: 5,
+    puzzle: 5,
+    theme: { code: "NEI", name: "National and European Identity" },
+    title: "Conflict, Crisis, and Reaction in the Late 18th Century",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Revolutionary Nationalism",
+        terms: [
+          { term: "Nation-State", definition: "Political ideal emerging from the Revolution: a state whose citizens share a common identity (language, culture, history) and are sovereign over their own government." },
+          { term: "Revolutionary Wars", definition: "French armies exported Revolutionary ideals (and imposed French rule) across Europe from 1792; created both enthusiasm for liberation and intense nationalist resistance." },
+          { term: "Nationalism", definition: "The idea that peoples sharing culture, language, and history form a natural political community deserving self-government; the Revolution unleashed this force across Europe." },
+          { term: "Fraternity", definition: "Third term of the Revolutionary slogan (Liberté, Égalité, Fraternité); expressed solidarity among citizens of the nation; both inclusive and exclusive of 'outsiders.'" },
+        ],
+      },
+      {
+        name: "Napoleon and European Identity",
+        terms: [
+          { term: "Fichte's Addresses to the German Nation", definition: "1807–1808 lectures urging Germans to unite against French domination; appealed to a shared German language and culture; foundational text of German nationalism." },
+          { term: "Spanish Nationalism", definition: "Fierce guerrilla resistance to Napoleon's occupation; the term 'guerrilla' ('little war') was coined here; demonstrated that nationalism could mobilize entire peoples against occupation." },
+          { term: "Italian National Consciousness", definition: "Napoleon created unified Italian states and spread Revolutionary principles; paradoxically stimulated Italian national consciousness and the Risorgimento movement." },
+          { term: "Pan-European Identity", definition: "Napoleon's Grand Empire briefly created a single legal and administrative framework across much of Europe; Napoleonic Code and metric system as shared European institutions." },
+        ],
+      },
+      {
+        name: "Conservative European Identity",
+        terms: [
+          { term: "Legitimacy Principle", definition: "Metternich's doctrine that European order should rest on the restoration of pre-Revolutionary dynasties; used at Vienna to justify replacing Napoleon's creations." },
+          { term: "Holy Alliance", definition: "1815 pact between Russia, Austria, and Prussia pledging to govern on Christian principles; Tsar Alexander's mystical vision; in practice a vehicle for suppressing liberalism." },
+          { term: "Concert of Europe", definition: "Great power system for managing European affairs through periodic conferences; represented a new sense of collective European identity among conservative monarchies." },
+          { term: "Restoration", definition: "Post-1815 effort to restore legitimate dynasties and pre-Revolutionary social orders; Bourbons returned to France and Spain; attempted to turn back the clock." },
+        ],
+      },
+      {
+        name: "Universal Rights and Their Contradictions",
+        terms: [
+          { term: "Universal Rights vs. Colonial Reality", definition: "The Declaration of the Rights of Man proclaimed universal human rights but France maintained slavery in its colonies until 1794 (and Napoleon reinstated it in 1802)." },
+          { term: "Haitian Challenge to Universalism", definition: "The Haitian Revolution forced Europe to confront whether 'universal' Enlightenment rights applied to enslaved Black people; most Europeans said no." },
+          { term: "Women's Exclusion", definition: "Revolutionary declarations of universal rights explicitly excluded women from political participation; revealed that 'universal' was defined as male." },
+          { term: "Jewish Emancipation's Limits", definition: "France emancipated Jews in 1791 but the rest of Europe did not follow; Napoleon's legal reforms brought partial rights to some but anti-Jewish laws remained widespread." },
+        ],
+      },
+    ],
+  },
+  // Unit 6 · Industrialization and Its Effects
+  {
+    id: "ap-euro-unit-6-1",
+    unit: 6,
+    puzzle: 1,
+    theme: { code: "ECD", name: "Economic and Commercial Developments" },
+    title: "Industrialization and Its Effects",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "The Factory System",
+        terms: [
+          { term: "Factory System", definition: "Concentration of production in centralized factories using machines and wage labor; replaced the putting-out cottage system; transformed work and social life." },
+          { term: "Division of Labor", definition: "Breaking production into specialized repetitive tasks; dramatically increased output (Smith's pin factory example); deskilled workers and made them interchangeable." },
+          { term: "Industrial Capitalism", definition: "Economic system based on private ownership of factories and capital; wage labor; market-determined prices; profit reinvested to expand production." },
+          { term: "Capital Accumulation", definition: "Reinvestment of profits into new machinery and expansion; the engine of industrial growth; required financial institutions to concentrate and deploy wealth." },
+        ],
+      },
+      {
+        name: "Key Industries and Infrastructure",
+        terms: [
+          { term: "Textile Industry", definition: "First fully mechanized industry; cotton mills in Lancashire used spinning jenny, water frame, and power loom; Britain dominated global cloth production." },
+          { term: "Iron and Steel", definition: "Backbone of industrialization; used in machines, railways, and bridges; Bessemer process (1856) made cheap steel; enabled construction on a new scale." },
+          { term: "Railway Expansion", definition: "Steam-powered railways transformed transport, commerce, and perceptions of time and distance; Stephenson's Rocket (1829); railway mania of the 1840s." },
+          { term: "Coal Mining", definition: "Fueled steam engines and ironworks; Britain's vast coal reserves gave it a decisive advantage; dangerous work drove early labor organizing." },
+        ],
+      },
+      {
+        name: "Trade Policy Debates",
+        terms: [
+          { term: "Corn Laws", definition: "British tariffs protecting landowners' grain profits; repealed in 1846 under Peel; triumph of industrial free-trade liberals over the aristocratic landed interest." },
+          { term: "Free Trade", definition: "Removal of tariffs and trade barriers; Britain's dominant economic policy after 1846; favored by manufacturers needing cheap imports and export markets." },
+          { term: "Zollverein", definition: "Prussian-led German Customs Union (1834); eliminated internal tariffs among German states; integrated German economies; laid economic groundwork for political unification." },
+          { term: "Protectionism", definition: "Use of tariffs to shield domestic industries; Germany and France chose this over British free trade; Bismarck's 1879 tariffs protected German iron, steel, and grain." },
+        ],
+      },
+      {
+        name: "Economic Theory",
+        terms: [
+          { term: "Classical Liberalism", definition: "Economic theory of free markets, free trade, and minimal government intervention; Smith, Ricardo, and Mill; ideology of the industrial middle class." },
+          { term: "Malthus", definition: "Thomas Malthus, Essay on Population (1798): population grows geometrically while food grows arithmetically; wages will always fall to subsistence; poverty is inevitable." },
+          { term: "Laissez-Faire", definition: "Government should not interfere in markets; let supply and demand regulate prices and wages; the dominant policy prescription of 19th-century liberal economics." },
+          { term: "Business Cycle", definition: "Recurring pattern of economic boom and bust observed in industrial capitalism; panics of 1825, 1847, 1873; raised questions about stability of market economies." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-6-2",
+    unit: 6,
+    puzzle: 2,
+    theme: { code: "CID", name: "Cultural and Intellectual Developments" },
+    title: "Industrialization and Its Effects",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Socialism and Marxism",
+        terms: [
+          { term: "Karl Marx", definition: "German philosopher; Communist Manifesto (1848), Das Kapital (1867); historical materialism; class struggle drives history; proletarian revolution will replace capitalism." },
+          { term: "Class Struggle", definition: "Marx's concept that history is driven by conflict between economic classes; in industrial capitalism, the bourgeoisie exploits the proletariat; leads to revolution." },
+          { term: "Utopian Socialism", definition: "Owen, Saint-Simon, Fourier: designed ideal cooperative communities; believed good example would inspire social transformation; Marx dismissed them as naive." },
+          { term: "Friedrich Engels", definition: "Marx's collaborator; The Condition of the Working Class in England (1845) documented Manchester industrial misery; co-wrote the Communist Manifesto." },
+        ],
+      },
+      {
+        name: "Political Ideologies",
+        terms: [
+          { term: "Liberalism", definition: "Belief in individual rights, limited government, free trade, and constitutional rule; ideology of the rising bourgeoisie; dominated 19th-century reform movements." },
+          { term: "Conservatism", definition: "Defense of tradition, hierarchy, religion, and gradual change; opposed revolution and rapid reform; Metternich and Burke as founding figures; grew more flexible after 1848." },
+          { term: "Anarchism", definition: "Rejection of all coercive authority — state, Church, and capitalism; Proudhon ('property is theft'), Bakunin; influential in Spain, Italy, and Russia." },
+          { term: "Social Democracy", definition: "Revisionist socialism arguing that workers could achieve justice through democratic reform rather than revolution; Bernstein's 'evolutionary socialism'; dominated labor parties by 1900." },
+        ],
+      },
+      {
+        name: "Realism in the Arts",
+        terms: [
+          { term: "Realism", definition: "Artistic and literary movement depicting everyday life truthfully and unflinchingly; rejected Romantic idealization; showed industrial poverty, class hypocrisy, and social conditions." },
+          { term: "Charles Dickens", definition: "English novelist; Oliver Twist, Hard Times, Bleak House; exposed child labor, debtors' prisons, and industrial misery to a mass readership; shaped public opinion for reform." },
+          { term: "Gustave Courbet", definition: "French Realist painter; The Stone Breakers (1849) depicted laboring peasants with ugly honesty; refused to paint anything he hadn't seen; provocateur and socialist." },
+          { term: "Émile Zola", definition: "French Naturalist novelist; Germinal depicted coal miners' lives with unflinching brutality; used scientific observation to document social conditions; 'J'accuse' in the Dreyfus Affair." },
+        ],
+      },
+      {
+        name: "Positivism and Social Science",
+        terms: [
+          { term: "Auguste Comte", definition: "French philosopher; founder of positivism; argued science, not religion, should govern society; invented sociology; coined the hierarchy of sciences." },
+          { term: "Social Darwinism", definition: "Herbert Spencer's misapplication of Darwin's evolution to human society; 'survival of the fittest' justified inequality, laissez-faire economics, and imperial domination." },
+          { term: "Secularization", definition: "Decline of religious authority and belief as science explained the natural world; Darwin, geology, and biblical criticism challenged the Church's intellectual credibility." },
+          { term: "Positivism", definition: "Philosophical view that valid knowledge comes only from empirical observation and scientific method; dominant intellectual tendency of the 19th century; challenged metaphysics and theology." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-6-3",
+    unit: 6,
+    puzzle: 3,
+    theme: { code: "SOP", name: "States and Other Institutions of Power" },
+    title: "Industrialization and Its Effects",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Liberal Political Reform",
+        terms: [
+          { term: "Reform Act of 1832", definition: "Extended voting rights to the middle class in Britain; eliminated rotten boroughs; first step toward democratization; avoided revolution by accommodating the bourgeoisie." },
+          { term: "Chartism", definition: "British working-class movement (1838–1857) demanding universal male suffrage, secret ballot, and payment for MPs; the People's Charter; failed but its demands were later enacted." },
+          { term: "Second Reform Act", definition: "1867 British law doubling the electorate by extending the vote to urban working-class men; Disraeli's 'leap in the dark'; reflected rising working-class political power." },
+          { term: "Third French Republic", definition: "Established after France's defeat by Prussia in 1870; consolidated as a stable parliamentary republic by the 1880s; embodied liberal principles despite early instability." },
+        ],
+      },
+      {
+        name: "Revolutions of 1848",
+        terms: [
+          { term: "Revolutions of 1848", definition: "'Springtime of Nations': nationalist and liberal revolts swept France, the German states, Austria, Hungary, and Italy; all were suppressed within two years." },
+          { term: "Frankfurt Parliament", definition: "German liberal nationalist assembly (1848–1849); attempted to write a constitution and unify Germany; failed when Frederick William IV rejected the 'crown from the gutter.'" },
+          { term: "Louis-Napoleon Bonaparte", definition: "Elected president of the French Republic (1848); staged a coup in 1851; became Emperor Napoleon III (1852–1870); combined authoritarianism with modernization." },
+          { term: "Failure of 1848", definition: "Revolutions failed because liberal and nationalist goals diverged, armies stayed loyal to monarchs, and peasants feared social radicalism more than they wanted political reform." },
+        ],
+      },
+      {
+        name: "Labor Movements and the State",
+        terms: [
+          { term: "Trade Unions", definition: "Workers' organizations bargaining collectively for wages and conditions; gradually legalized across Europe through the 19th century; backbone of labor movement." },
+          { term: "First International", definition: "International Workingmen's Association (1864); Marx's attempt to unite European labor movements; collapsed over conflict between Marxists and anarchists (Bakunin)." },
+          { term: "Factory Acts", definition: "British legislation limiting working hours and regulating child and female labor; 1833, 1844, 1847 acts; state intervention in the market on humanitarian grounds." },
+          { term: "Bismarck's Social Legislation", definition: "German health (1883), accident (1884), and old-age insurance (1889) laws; world's first welfare state; Bismarck's strategy to undercut socialist appeal." },
+        ],
+      },
+      {
+        name: "Nationalism and Unification",
+        terms: [
+          { term: "Italian Unification", definition: "Risorgimento; Cavour's diplomacy, Garibaldi's military campaigns, and Piedmontese expansion united Italy by 1861; completed with Rome in 1870." },
+          { term: "German Unification", definition: "Bismarck's 'blood and iron' policy; three wars (Danish, Austro-Prussian, Franco-Prussian) united Germany under Prussian leadership; German Empire proclaimed 1871." },
+          { term: "Realpolitik", definition: "Bismarck's pragmatic politics based on practical power rather than ideology or principle; ends justify the means; dominant approach in post-1848 statecraft." },
+          { term: "Nation-State", definition: "Political unit combining national identity (shared culture, language) with sovereign statehood; the dominant political form of the 19th century; built through war and diplomacy." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-6-4",
+    unit: 6,
+    puzzle: 4,
+    theme: { code: "SCD", name: "Social Organization and Development" },
+    title: "Industrialization and Its Effects",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Urbanization and Its Costs",
+        terms: [
+          { term: "Urbanization", definition: "Mass migration from countryside to industrial cities; Manchester's population grew tenfold in 50 years; created new forms of poverty, community, and political consciousness." },
+          { term: "Urban Slums", definition: "Overcrowded, unsanitary neighborhoods surrounding factories; no sewers, clean water, or ventilation; Engels described Manchester's slums as a new circle of hell." },
+          { term: "Cholera Epidemics", definition: "Waves of cholera (1832, 1848, 1854) killed tens of thousands in European cities; John Snow identified contaminated water as the cause; drove public health reform." },
+          { term: "Public Health Reform", definition: "Edwin Chadwick's Sanitary Report (1842) linked poverty and disease to filth; led to Public Health Acts requiring cities to build sewers, clean water, and housing regulations." },
+        ],
+      },
+      {
+        name: "The Working Class",
+        terms: [
+          { term: "Child Labor", definition: "Children as young as five worked in factories and mines for 12–16 hours a day; gradually restricted by Factory Acts (1833, 1842, 1847) after public outcry." },
+          { term: "Women Factory Workers", definition: "Large female workforce in textile factories; paid 50–60% of male wages; domestic service remained the largest employer of working-class women throughout the century." },
+          { term: "Luddism", definition: "1811–1816 movement of skilled English weavers smashing textile machinery; protest against displacement by machines; more complex than simple technophobia — a fight for livelihood." },
+          { term: "Ten Hours Act", definition: "1847 British law limiting the factory workday to 10 hours for women and young persons; effectively limited it for men too; major victory after decades of working-class campaigning." },
+        ],
+      },
+      {
+        name: "The Middle Class",
+        terms: [
+          { term: "Victorian Middle Class", definition: "Industrialists, professionals, and merchants who grew enormously in wealth and numbers; defined the dominant culture of 19th-century Britain; valued work, thrift, and respectability." },
+          { term: "Cult of Domesticity", definition: "Victorian ideal of women as moral guardians of the home — the 'angel in the house'; confined bourgeois women to the private sphere; defined by submissiveness and piety." },
+          { term: "Separate Spheres", definition: "Victorian ideology dividing life into a male public sphere (work, politics) and female private sphere (home, children); idealized but often violated by working-class reality." },
+          { term: "Self-Help", definition: "Samuel Smiles's 1859 bestseller; celebrated individual self-improvement through hard work, thrift, and perseverance; codified middle-class values; sold over 250,000 copies." },
+        ],
+      },
+      {
+        name: "Social Reform Movements",
+        terms: [
+          { term: "Robert Owen", definition: "Welsh industrialist and utopian socialist; New Lanark model factory with good wages, schools, and no child labor; proved workers' welfare was compatible with profit." },
+          { term: "Abolition of Slavery", definition: "British slavery abolished 1833; French re-abolished 1848; driven by evangelical Christianity and Enlightenment rights arguments; planters compensated, not enslaved people." },
+          { term: "Women's Suffrage Movement", definition: "19th-century campaigns for women's right to vote; WSPU founded by Emmeline Pankhurst (1903); used militant tactics; suffrage achieved in Britain in 1918/1928." },
+          { term: "Settlement Houses", definition: "Institutions established by middle-class reformers in working-class neighborhoods (e.g., Toynbee Hall, Hull House); provided education, childcare, and services; model of social work." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-6-5",
+    unit: 6,
+    puzzle: 5,
+    theme: { code: "TSI", name: "Technological and Scientific Innovation" },
+    title: "Industrialization and Its Effects",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Steam Power and Railways",
+        terms: [
+          { term: "James Watt", definition: "Scottish engineer; improved Newcomen's steam engine with a separate condenser (1769); made steam power practical for factories; revolutionized industrial production." },
+          { term: "George Stephenson", definition: "Built the Rocket locomotive and the Liverpool-Manchester Railway (1830); launched the railway age; transformed travel, trade, and the landscape of industrial Britain." },
+          { term: "Railway Mania", definition: "1840s speculative frenzy in British railway investment; thousands of miles of track built; first modern financial bubble; transformed geography and time consciousness." },
+          { term: "Steamship", definition: "Steam-powered ocean vessels transformed Atlantic trade and emigration; Brunel's SS Great Britain (1843); cut crossing times; linked industrial Europe to global markets." },
+        ],
+      },
+      {
+        name: "Darwin and Evolution",
+        terms: [
+          { term: "Charles Darwin", definition: "On the Origin of Species (1859): natural selection drives evolution; all species share common ancestors; most transformative scientific idea of the 19th century." },
+          { term: "Natural Selection", definition: "Darwin's mechanism of evolution: individuals with favorable inherited variations survive and reproduce more; unfavorable variations are eliminated over generations." },
+          { term: "Uniformitarianism", definition: "Geological principle (Lyell) that Earth's features were shaped by slow, uniform processes over vast time; undermined biblical chronology; provided deep time for evolution." },
+          { term: "Social Darwinism", definition: "Herbert Spencer's application of natural selection to human society and races; 'survival of the fittest'; used to justify imperialism, inequality, and laissez-faire capitalism." },
+        ],
+      },
+      {
+        name: "Electricity and the Second Industrial Revolution",
+        terms: [
+          { term: "Michael Faraday", definition: "Discovered electromagnetic induction (1831); foundation of electrical generators and motors; made commercial electricity possible; transformed industry and daily life." },
+          { term: "Second Industrial Revolution", definition: "Phase from 1870s–1914 based on electricity, chemicals, and steel; Germany and the US overtook Britain; new industries: automobiles, telephones, synthetic dyes." },
+          { term: "Telegraph", definition: "Electrical long-distance communication; transatlantic cable (1866); transformed diplomacy, journalism, and commerce; the Victorian internet." },
+          { term: "Thomas Edison", definition: "American inventor of the phonograph and practical light bulb (1879); created the industrial research laboratory; electrified cities; symbolized the Second Industrial Revolution." },
+        ],
+      },
+      {
+        name: "Medicine and Germ Theory",
+        terms: [
+          { term: "Louis Pasteur", definition: "French chemist; proved germ theory of disease; developed pasteurization; created vaccines for anthrax and rabies; transformed medicine from speculation to science." },
+          { term: "Joseph Lister", definition: "British surgeon; introduced antiseptic technique using carbolic acid (1867); applied Pasteur's germ theory to surgery; dramatically reduced post-operative death rates." },
+          { term: "Robert Koch", definition: "German bacteriologist; identified specific bacteria causing tuberculosis (1882) and cholera (1883); confirmed germ theory; founded bacteriology as a scientific discipline." },
+          { term: "Anesthesia", definition: "Ether and chloroform used in surgery from the 1840s; eliminated surgical pain; allowed longer, more complex operations; transformed surgery from a last resort to routine medicine." },
+        ],
+      },
+    ],
+  },
+  // Unit 7 · 19th-Century Perspectives and Political Developments
+  {
+    id: "ap-euro-unit-7-1",
+    unit: 7,
+    puzzle: 1,
+    theme: { code: "INT", name: "Interaction of Europe and the World" },
+    title: "19th-Century Perspectives and Political Developments",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Motivations for New Imperialism",
+        terms: [
+          { term: "Economic Imperialism", definition: "Industrial capitalism's need for raw materials, new markets, and investment outlets drove European expansion after 1870; 'the flag follows trade.'" },
+          { term: "Social Darwinism", definition: "Pseudo-scientific belief in European racial superiority used to justify empire; Kipling's 'white man's burden'; framed conquest as a civilizing mission." },
+          { term: "Strategic Competition", definition: "European powers competed for control of trade routes, coaling stations, and strategic territory; fear of rivals acquiring an advantage drove imperial expansion." },
+          { term: "Missionary Impulse", definition: "Christian missionaries drove into Africa and Asia to convert indigenous peoples; Livingstone's expeditions; served as advance scouts and justification for colonial control." },
+        ],
+      },
+      {
+        name: "Scramble for Africa",
+        terms: [
+          { term: "Berlin Conference", definition: "1884–1885 meeting of European powers that divided Africa among themselves; no Africans invited; established 'effective occupation' as the rule for territorial claims." },
+          { term: "Cecil Rhodes", definition: "British empire-builder in South Africa; diamond magnate (De Beers); dreamed of a Cape-to-Cairo British corridor; emblem of aggressive late-Victorian imperialism." },
+          { term: "King Leopold II", definition: "Belgian king who personally owned the Congo Free State; brutal rubber-extraction regime killed an estimated 10 million Congolese; exposed by E. D. Morel and Roger Casement." },
+          { term: "Battle of Adwa", definition: "1896: Ethiopian forces under Menelik II decisively defeated an Italian army; the only African state to successfully repel European colonization; shocked European powers." },
+        ],
+      },
+      {
+        name: "Asian and Middle Eastern Imperialism",
+        terms: [
+          { term: "British Raj", definition: "Direct British crown rule over India after the 1857 Indian Rebellion ended East India Company rule; 'jewel in the crown'; 300 million subjects; transformed Indian society." },
+          { term: "Opium Wars", definition: "Britain forced China to open ports and accept the opium trade; unequal treaties (1842, 1860); humiliated China; sparked a century of Chinese nationalism and resentment." },
+          { term: "Suez Canal", definition: "Opened 1869; connected Mediterranean to Red Sea; Britain bought controlling shares in 1875; transformed global shipping; became Britain's strategic obsession." },
+          { term: "Russo-Japanese War", definition: "1904–1905; Japan defeated Russia — the first time a non-European power defeated a major European state in modern war; shocked European assumptions of racial superiority." },
+        ],
+      },
+      {
+        name: "Resistance and Anti-Colonialism",
+        terms: [
+          { term: "Indian Rebellion of 1857", definition: "Mass uprising against British East India Company rule; triggered by sepoy soldiers but included peasants and princes; brutally suppressed; led to direct Crown rule." },
+          { term: "Zulu War", definition: "1879: the Zulu kingdom inflicted a stunning defeat on British forces at Isandlwana before eventual British conquest; demonstrated that African armies could fight effectively." },
+          { term: "Anti-Colonial Nationalism", definition: "Educated elites in colonized territories, often trained in European ideas of rights and democracy, began organizing movements for independence; seeds of 20th-century decolonization." },
+          { term: "Boer War", definition: "1899–1902: Britain fought Dutch-descended Boer settlers in South Africa; Britain used concentration camps; international outrage; Pyrrhic British victory." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-7-2",
+    unit: 7,
+    puzzle: 2,
+    theme: { code: "CID", name: "Cultural and Intellectual Developments" },
+    title: "19th-Century Perspectives and Political Developments",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Challenging Enlightenment Rationalism",
+        terms: [
+          { term: "Friedrich Nietzsche", definition: "'God is dead'; will to power; rejected Christian slave morality; the Übermensch as ideal; Beyond Good and Evil; his ideas were later distorted to serve fascism." },
+          { term: "Sigmund Freud", definition: "Founder of psychoanalysis; The Interpretation of Dreams (1900); the unconscious, id, ego, superego; sexuality drives behavior; rationality is a fragile veneer over irrational drives." },
+          { term: "Henri Bergson", definition: "French philosopher; championed intuition over scientific reason; élan vital (life force); challenged positivism; widely influential before World War I." },
+          { term: "Georges Sorel", definition: "Reflections on Violence (1908): argued that irrational myths (like the general strike) drive social movements; celebrated violence as creative force; influenced fascism." },
+        ],
+      },
+      {
+        name: "Modernism in the Arts",
+        terms: [
+          { term: "Impressionism", definition: "Monet, Renoir, Degas: subjective perception, fleeting light and color over objective realism; rejected by the academic establishment; revolutionary from the 1870s." },
+          { term: "Post-Impressionism", definition: "Cézanne, Van Gogh, Gauguin: each developed a highly individual style beyond Impressionism; built the foundations of 20th-century abstract and modern art." },
+          { term: "Expressionism", definition: "Munch, Kirchner: distorted images expressing inner psychological states rather than external reality; The Scream; gave form to the anxiety of modern life." },
+          { term: "Symbolism", definition: "Literary and artistic movement rejecting realism; used symbols and suggestion to evoke emotion and the unconscious; Mallarmé, Verlaine, Yeats; proto-Modernism." },
+        ],
+      },
+      {
+        name: "New Social Science",
+        terms: [
+          { term: "Émile Durkheim", definition: "French sociologist; established sociology as a scientific discipline; studied social cohesion and anomie; Suicide showed individual acts have social causes." },
+          { term: "Max Weber", definition: "German sociologist; The Protestant Ethic and the Spirit of Capitalism; rationalization and bureaucracy as the 'iron cage' of modernity; value-free social science." },
+          { term: "Gustave Le Bon", definition: "The Crowd (1895): argued crowds act irrationally and are susceptible to manipulation; influenced early 20th-century demagogues including Mussolini and Hitler." },
+          { term: "Eugenics", definition: "Francis Galton's theory of selective human breeding to 'improve' hereditary stock; widely accepted across the political spectrum before 1945; led to horrific 20th-century policies." },
+        ],
+      },
+      {
+        name: "Fin de Siècle Culture",
+        terms: [
+          { term: "Fin de Siècle", definition: "French: 'end of the century'; cultural mood of decadence, anxiety, and anticipation of crisis in the 1890s; a sense that European civilization was exhausted or threatened." },
+          { term: "Decadence", definition: "Late 19th-century aesthetic movement celebrating excess, transgression, and art for art's sake; Oscar Wilde, Aubrey Beardsley; a reaction against Victorian morality." },
+          { term: "Degeneration", definition: "Max Nordau's influential theory that European civilization was in biological and cultural decline; widespread anxiety about modern life weakening the race; fed into eugenics." },
+          { term: "New Woman", definition: "Cultural figure of the independent, educated, bicycle-riding, professionally ambitious woman; threatening to traditional gender norms; appeared across European literature and journalism." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-7-3",
+    unit: 7,
+    puzzle: 3,
+    theme: { code: "SOP", name: "States and Other Institutions of Power" },
+    title: "19th-Century Perspectives and Political Developments",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Mass Politics and Democracy",
+        terms: [
+          { term: "Universal Male Suffrage", definition: "Gradual extension of voting rights to all adult men: Germany 1871, France 1875, Britain 1867/1884; transformed politics from elite to mass participation." },
+          { term: "Mass Political Parties", definition: "Socialist, Christian, and nationalist parties organized millions of voters; SPD, French Radicals, British Liberals and Labour; replaced elite parliamentary factions." },
+          { term: "Anarchist Violence", definition: "Anarchist assassinations of Tsar Alexander II (1881), French President Carnot (1894), Empress Elizabeth (1898), and others; 'propaganda of the deed'; created widespread fear." },
+          { term: "Syndicalism", definition: "Radical labor movement using general strikes (not politics) to overthrow capitalism; Sorel and the CGT in France; bypassed parliamentary socialism." },
+        ],
+      },
+      {
+        name: "Liberal Democracies Under Pressure",
+        terms: [
+          { term: "Dreyfus Affair", definition: "1894–1906: French Jewish army captain Alfred Dreyfus falsely convicted of treason; divided France between Dreyfusards and anti-Semitic nationalists; Zola's 'J'accuse'; Republic vindicated." },
+          { term: "New Liberalism", definition: "British Liberal Party shift toward state intervention; Lloyd George and Churchill; old-age pensions (1908), national insurance (1911); responded to socialist challenge." },
+          { term: "Suffragette Movement", definition: "Emmeline Pankhurst's WSPU (1903) used militant tactics — chaining to railings, arson, hunger strikes — to demand women's suffrage; 'deeds not words.'" },
+          { term: "Irish Question", definition: "Demand for Irish Home Rule dominated British politics; Gladstone's failed bills; Ulster Protestant resistance; rising nationalist and unionist militarism after 1910." },
+        ],
+      },
+      {
+        name: "Authoritarian Politics",
+        terms: [
+          { term: "Second German Reich", definition: "Bismarckian constitution (1871): universal male suffrage for the Reichstag but the chancellor was responsible to the Kaiser, not parliament; authoritarian structure with democratic façade." },
+          { term: "Anti-Socialist Laws", definition: "Bismarck's 1878 laws banning the SPD's meetings and publications; failed to destroy socialist movement but drove it underground; repealed by Kaiser Wilhelm II in 1890." },
+          { term: "Habsburg Dual Monarchy", definition: "Austria-Hungary (1867): German and Magyar elites dominated Slavic minorities; constitutional in Austria, semi-feudal in Hungary; inherently unstable multi-ethnic empire." },
+          { term: "Russian Autocracy", definition: "Tsar as absolute ruler; no constitution until the October Manifesto (1905); rapid industrialization without political reform; revolutionary pressure from Marxists and populists." },
+        ],
+      },
+      {
+        name: "Nationalist Tensions",
+        terms: [
+          { term: "Pan-Slavism", definition: "Movement for solidarity among Slavic peoples; Russian-sponsored; threatened Austria-Hungary and the Ottomans; a driver of Balkan crises and ultimately World War I." },
+          { term: "Pan-Germanism", definition: "Aggressive German nationalist movement demanding expansion of German power and territory; antisemitic strands; fed into the belligerent atmosphere before 1914." },
+          { term: "Balkan Nationalism", definition: "Serbian, Bulgarian, Greek, and Romanian nationalism dismembered the Ottoman Empire in Europe; Balkan Wars (1912–1913); made the Balkans the 'powder keg of Europe.'" },
+          { term: "Alliance System", definition: "Triple Alliance (Germany, Austria-Hungary, Italy) vs. Triple Entente (France, Russia, Britain); interlocking obligations that turned a regional crisis into world war in 1914." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-7-4",
+    unit: 7,
+    puzzle: 4,
+    theme: { code: "NEI", name: "National and European Identity" },
+    title: "19th-Century Perspectives and Political Developments",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Forms of Nationalism",
+        terms: [
+          { term: "Liberal Nationalism", definition: "Mazzini's vision: national self-determination linked to individual rights, democracy, and international fraternity; 'Young Italy'; nations as natural communities of free citizens." },
+          { term: "Conservative Nationalism", definition: "Nationalism harnessed to preserve social hierarchy; Bismarck used German nationalism to unify the elite while repressing socialism; 'revolution from above.'" },
+          { term: "Ethnic Nationalism", definition: "Identity based on shared ancestry, language, and culture rather than civic values; exclusive and potentially aggressive; the basis for antisemitism and ethnic cleansing." },
+          { term: "Integral Nationalism", definition: "Extreme form placing the nation above all individual rights; Charles Maurras and Action Française; organicist, antisemitic, and authoritarian; precursor of fascism." },
+        ],
+      },
+      {
+        name: "Antisemitism and Jewish Identity",
+        terms: [
+          { term: "Modern Antisemitism", definition: "Racial rather than religious hatred of Jews; pseudoscientific; Wilhelm Marr coined 'antisemitism' in 1879; Dreyfus Affair in France; pogroms in Russia." },
+          { term: "Pale of Settlement", definition: "Russian zones where Jews were legally required to live; anti-Jewish pogroms (1881–1884, 1903–1906) drove mass emigration to Western Europe and America." },
+          { term: "Theodor Herzl", definition: "Viennese journalist who witnessed the Dreyfus Affair; The Jewish State (1896) argued Jews needed their own nation; organized First Zionist Congress in Basel (1897)." },
+          { term: "Zionism", definition: "Jewish national movement advocating a homeland in Palestine; response to European antisemitism; founded by Herzl; led eventually to the creation of Israel in 1948." },
+        ],
+      },
+      {
+        name: "Imperial Identity",
+        terms: [
+          { term: "White Man's Burden", definition: "Kipling's 1899 poem framing imperialism as a selfless civilizing mission; paternalistic racial ideology portraying colonized peoples as children needing European guidance." },
+          { term: "Civilizing Mission", definition: "French mission civilisatrice: the belief that Europe had a duty to bring literacy, Christianity, and 'civilization' to 'backward' peoples; justified brutal colonial rule." },
+          { term: "Colonial Exhibitions", definition: "World's Fairs displaying colonized peoples as exotic curiosities alongside industrial achievements; constructed European racial superiority; spread imperial ideology to domestic audiences." },
+          { term: "Imperial Feminism", definition: "Some European feminists argued that women's emancipation at home was linked to the civilizing mission abroad; used colonial subjects to define European women as modern and superior." },
+        ],
+      },
+      {
+        name: "Feminism and Women's Identity",
+        terms: [
+          { term: "First-Wave Feminism", definition: "19th-century campaigns for women's legal equality, property rights, access to education, and eventually the vote; built on Enlightenment language of natural rights." },
+          { term: "Married Women's Property Acts", definition: "British legislation (1870, 1882) giving married women the right to own property independently; ended coverture; crucial step in women's legal equality." },
+          { term: "Marie Curie", definition: "Polish-French physicist; discovered polonium and radium; first woman to win a Nobel Prize (1903, Chemistry); first person to win two Nobel Prizes; challenged male scientific monopoly." },
+          { term: "Women's International Networks", definition: "Cross-border feminist organizations (International Council of Women, 1888) coordinated campaigns for suffrage, peace, and social reform; modeled cosmopolitan solidarity." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-7-5",
+    unit: 7,
+    puzzle: 5,
+    theme: { code: "TSI", name: "Technological and Scientific Innovation" },
+    title: "19th-Century Perspectives and Political Developments",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "The Second Industrial Revolution",
+        terms: [
+          { term: "Steel Industry", definition: "Bessemer and open-hearth processes made cheap steel; structural steel enabled skyscrapers, bridges, and railways; Germany and the US overtook Britain in steel production." },
+          { term: "Chemical Industry", definition: "Synthetic dyes, fertilizers, and explosives; Germany dominated; BASF and Bayer; aniline dyes from coal tar; transformed agriculture, medicine, and warfare." },
+          { term: "Electricity", definition: "Edison's light bulb (1879) and Siemens's electric motors transformed industry and cities; electrification replaced steam in factories; Germany led in electrical engineering." },
+          { term: "Automobile", definition: "Benz and Daimler's internal combustion engine vehicles (1880s–1890s); initially a rich person's toy; mass production by Ford in the US sparked a transport revolution." },
+        ],
+      },
+      {
+        name: "Communication and Media",
+        terms: [
+          { term: "Telephone", definition: "Alexander Graham Bell (1876); transformed business communication and personal life; telephone exchanges spread through European cities from the 1880s." },
+          { term: "Radio", definition: "Marconi's wireless telegraphy (1895); transatlantic transmission (1901); transformed communication at sea, in war, and eventually as mass entertainment." },
+          { term: "Mass-Circulation Press", definition: "Cheap newspapers made possible by steam printing, telegraph, and literacy; shaped public opinion; sensationalist 'yellow press' fanned imperial and nationalist sentiment." },
+          { term: "Cinema", definition: "Lumière brothers' first film screenings (1895); new mass entertainment; newsreels created shared visual culture; quickly became a tool of political propaganda." },
+        ],
+      },
+      {
+        name: "Physics Revolutionized",
+        terms: [
+          { term: "Marie Curie", definition: "Discovered radioactivity, polonium, and radium; first woman Nobel laureate (Physics 1903, Chemistry 1911); demonstrated atoms were not indivisible; transformed nuclear physics." },
+          { term: "Max Planck", definition: "Quantum theory (1900): energy is emitted in discrete packets (quanta), not continuously; overturned classical physics; foundation of quantum mechanics." },
+          { term: "Albert Einstein", definition: "Special relativity (1905): E=mc²; space and time are relative, not absolute; overturned Newtonian assumptions; the most transformative scientific idea since Darwin." },
+          { term: "Ernest Rutherford", definition: "Discovered the atomic nucleus (1911); proved the atom is mostly empty space; laid the foundation for nuclear physics and the eventual splitting of the atom." },
+        ],
+      },
+      {
+        name: "Technology and Empire",
+        terms: [
+          { term: "Maxim Gun", definition: "Hiram Maxim's 1884 automatic machine gun; decisive weapon in colonial wars; allowed tiny European forces to slaughter African and Asian armies; 'we have the Maxim gun, and they have not.'" },
+          { term: "Steamship and Railways", definition: "Steam transport penetrated the African interior and linked Asian colonies; railways in India and Africa served both economic extraction and military control." },
+          { term: "Quinine", definition: "Anti-malarial drug derived from cinchona bark; allowed Europeans to survive in tropical Africa; 'the conquest of Africa was made possible by quinine.'" },
+          { term: "Dreadnought", definition: "HMS Dreadnought (1906) made all previous battleships obsolete; triggered an Anglo-German naval arms race; a symbol of technological nationalism and imperial rivalry." },
+        ],
+      },
+    ],
+  },
+  // Unit 8 · 20th-Century Global Conflicts
+  {
+    id: "ap-euro-unit-8-1",
+    unit: 8,
+    puzzle: 1,
+    theme: { code: "INT", name: "Interaction of Europe and the World" },
+    title: "20th-Century Global Conflicts",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "WWI as a Global War",
+        terms: [
+          { term: "Colonial Troops", definition: "Millions of soldiers from India, West Africa, Senegal, Australia, and Canada fought for European powers; their service raised expectations of rights and fueled anti-colonial nationalism." },
+          { term: "Zimmermann Telegram", definition: "Germany's 1917 secret proposal to Mexico to attack the United States; intercepted by British intelligence; helped bring the US into the war on the Allied side." },
+          { term: "US Entry into WWI", definition: "April 1917; Wilson's 'make the world safe for democracy'; fresh American troops and resources tipped the balance; America's first major intervention in European affairs." },
+          { term: "Arab Revolt", definition: "British-backed uprising of Arab peoples against Ottoman rule (1916–1918); T.E. Lawrence ('Lawrence of Arabia'); promises of Arab independence were betrayed at Paris." },
+        ],
+      },
+      {
+        name: "Paris Peace Settlement and Its Failures",
+        terms: [
+          { term: "Wilson's Fourteen Points", definition: "US President's 1918 peace program: self-determination, freedom of the seas, open diplomacy, and a League of Nations; largely ignored by Britain and France at Paris." },
+          { term: "Treaty of Versailles", definition: "1919 peace treaty with Germany; war guilt clause (Article 231); $33 billion in reparations; territorial losses; sowed deep resentment exploited by Hitler." },
+          { term: "League of Nations", definition: "Wilson's proposed international organization to prevent future wars; the US Senate refused to join; lacked enforcement power; failed to stop Japanese, Italian, and German aggression." },
+          { term: "Mandates System", definition: "Former German and Ottoman colonies distributed to Britain and France as 'mandates'; colonialism under a new League of Nations label; betrayed Arab and African expectations." },
+        ],
+      },
+      {
+        name: "WWII's Global Dimensions",
+        terms: [
+          { term: "Operation Barbarossa", definition: "Hitler's June 22, 1941 invasion of the Soviet Union; the largest military campaign in history; killed 27 million Soviet citizens; transformed WWII into a war of annihilation." },
+          { term: "Pacific Theater", definition: "Japan's conquest of Asian empires, Pearl Harbor (December 1941), US entry into WWII; atomic bombs on Hiroshima and Nagasaki ended the war; decolonization accelerated." },
+          { term: "North Africa Campaign", definition: "Rommel's Afrika Korps vs. Montgomery's Eighth Army; El Alamein (1942) was the turning point; Allied victory opened the route to invade Italy." },
+          { term: "Atlantic Charter", definition: "1941 joint declaration by Churchill and Roosevelt proclaiming 'the right of all peoples to choose their own form of government'; implied end of colonialism; anticolonials took note." },
+        ],
+      },
+      {
+        name: "Post-War World Order",
+        terms: [
+          { term: "United Nations", definition: "Founded 1945 to replace the failed League; Security Council with great power veto; Universal Declaration of Human Rights (1948); more durable but still constrained." },
+          { term: "Marshall Plan", definition: "US economic aid ($13 billion, 1948–1952) to rebuild Western European economies; blocked communism; tied Western Europe to America; launched the transatlantic alliance." },
+          { term: "Nuremberg Trials", definition: "International tribunal (1945–1946) trying Nazi war criminals; established the principle of 'crimes against humanity'; individuals responsible even under state orders." },
+          { term: "Decolonization Accelerated", definition: "WWII destroyed European prestige and finances; Atlantic Charter's self-determination language inspired independence movements; India (1947), Indonesia (1949), Africa followed." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-8-2",
+    unit: 8,
+    puzzle: 2,
+    theme: { code: "ECD", name: "Economic and Commercial Developments" },
+    title: "20th-Century Global Conflicts",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "The Great Depression",
+        terms: [
+          { term: "Wall Street Crash", definition: "October 1929 stock market collapse; triggered a global banking crisis as American loans were recalled; the spark that ignited the Great Depression." },
+          { term: "Great Depression", definition: "Global economic collapse (1929–1939); mass unemployment reached 30% in Germany and the US; deflation, bank failures, and collapsing trade destabilized democracies." },
+          { term: "Keynesian Economics", definition: "John Maynard Keynes argued governments should borrow and spend during recessions to stimulate demand; a revolutionary departure from laissez-faire orthodoxy; vindicated by post-WWII policy." },
+          { term: "Smoot-Hawley Tariff", definition: "1930 US tariff that triggered retaliatory trade barriers worldwide; international trade collapsed by 65%; deepened and prolonged the Depression." },
+        ],
+      },
+      {
+        name: "Interwar Economic Crises",
+        terms: [
+          { term: "German Hyperinflation", definition: "1923: Weimar Germany printed money to pay reparations; prices doubled daily; wheelbarrows of cash for bread; destroyed middle-class savings; radicalized politics." },
+          { term: "Reparations", definition: "Versailles demanded Germany pay $33 billion; the Dawes Plan (1924) restructured payments with US loans; Young Plan (1929) further reduced them; bred nationalist fury." },
+          { term: "Dawes Plan", definition: "1924 US-backed agreement restructuring German reparations; provided American loans to stabilize the German currency; created the fragile prosperity of the mid-1920s." },
+          { term: "Great Depression in Germany", definition: "American loans withdrawn after 1929; German unemployment hit 30% by 1932; Weimar Republic unable to respond; mass misery fueled Nazi electoral surge." },
+        ],
+      },
+      {
+        name: "Command and War Economies",
+        terms: [
+          { term: "Soviet Five-Year Plans", definition: "Stalin's forced industrialization (from 1928); collectivization of agriculture; rapid industrial growth at terrible cost; 5–6 million died in the Ukrainian famine (Holodomor)." },
+          { term: "Nazi Economic Policy", definition: "Hitler ended unemployment through rearmament, Autobahn construction, and deficit spending; 'guns before butter'; economic recovery boosted his popularity enormously." },
+          { term: "Autarky", definition: "Economic self-sufficiency; both Nazi Germany and the Soviet Union sought independence from world markets; stockpiled raw materials and built domestic industries for war." },
+          { term: "Wartime Mobilization", definition: "WWII total war economies: women entered factories, rationing enforced, production directed by the state; Britain, Germany, and the US restructured their entire economies for war." },
+        ],
+      },
+      {
+        name: "Post-War Economic Settlement",
+        terms: [
+          { term: "Bretton Woods", definition: "1944 international monetary conference; created the IMF and World Bank; fixed exchange rates backed by the dollar; managed global trade and finance until 1971." },
+          { term: "Marshall Plan", definition: "US economic aid to Western Europe (1948–1952); prevented communist takeovers; required economic cooperation among recipients; accelerated European integration." },
+          { term: "West German Wirtschaftswunder", definition: "'Economic miracle': West Germany rebuilt into Europe's strongest economy by the 1960s; Adenauer and Economics Minister Erhard; social market economy; symbol of democratic capitalism." },
+          { term: "European Economic Community", definition: "EEC (Treaty of Rome, 1957): West Germany, France, Italy, and Benelux created a common market; removed tariffs; the economic foundation of the European Union." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-8-3",
+    unit: 8,
+    puzzle: 3,
+    theme: { code: "CID", name: "Cultural and Intellectual Developments" },
+    title: "20th-Century Global Conflicts",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "WWI's Cultural Trauma",
+        terms: [
+          { term: "Lost Generation", definition: "Writers and intellectuals traumatized by WWI's senseless slaughter; Hemingway, Fitzgerald, Remarque; disillusioned with European civilization, progress, and nationalism." },
+          { term: "Wilfred Owen", definition: "English war poet; 'Dulce et Decorum Est' exposed the horror of gas attacks; contradicted romantic patriotism; killed one week before the Armistice." },
+          { term: "All Quiet on the Western Front", definition: "Erich Maria Remarque's 1929 anti-war novel from a German soldier's perspective; universal message of futility and waste; burned by the Nazis in 1933." },
+          { term: "War Memorials", definition: "Monuments like the Cenotaph and the Tomb of the Unknown Soldier expressed collective grief; transformed public commemoration; 'never again' sentiment shaped interwar culture." },
+        ],
+      },
+      {
+        name: "Modernism",
+        terms: [
+          { term: "Stream of Consciousness", definition: "Literary technique following a character's unfiltered thoughts; James Joyce's Ulysses (1922), Virginia Woolf's Mrs Dalloway; reflected fragmented modern experience." },
+          { term: "Surrealism", definition: "André Breton's 1924 Manifesto; Dalí, Magritte; tapped the unconscious through dream imagery; indebted to Freud; challenged rational reality with the irrational." },
+          { term: "Bauhaus", definition: "German design school (1919–1933); united fine art and functional industrial design; clean modernist aesthetic; closed by the Nazis; its exiled teachers spread modernism globally." },
+          { term: "The Waste Land", definition: "T.S. Eliot's 1922 poem; fragmented, allusive, multilingual; expressed post-war spiritual desolation and cultural disintegration; defining text of literary Modernism." },
+        ],
+      },
+      {
+        name: "Totalitarian Culture",
+        terms: [
+          { term: "Socialist Realism", definition: "Stalin's mandated artistic style from 1932; heroic workers and smiling peasants; optimistic propaganda; deviation was dangerous; crushed genuine Soviet modernism." },
+          { term: "Nazi Propaganda", definition: "Goebbels as Propaganda Minister; book burnings; 'Degenerate Art' exhibitions; Leni Riefenstahl's Triumph of the Will; film and radio as tools of mass manipulation." },
+          { term: "Cult of Personality", definition: "Stalin and Hitler constructed messianic images through posters, speeches, and architecture; total identification of leader with nation; the masses to worship, not think." },
+          { term: "Degenerate Art", definition: "Nazi term for modern art (Expressionism, Dada, abstraction); exhibited mockingly in 1937; artists fled to America; an exodus of European artistic talent." },
+        ],
+      },
+      {
+        name: "Existentialism and Post-War Thought",
+        terms: [
+          { term: "Existentialism", definition: "Post-WWII philosophy (Sartre, Camus, Heidegger): humans must create meaning in an absurd, godless world; absolute freedom entails absolute responsibility; shaped by Holocaust and war." },
+          { term: "Jean-Paul Sartre", definition: "French existentialist; 'existence precedes essence'; Being and Nothingness; Resistance intellectual; argued humans are condemned to be free and bear full moral responsibility." },
+          { term: "Simone de Beauvoir", definition: "The Second Sex (1949): 'one is not born a woman, one becomes one'; existentialist feminism; social construction of gender; foundational text of second-wave feminism." },
+          { term: "Frankfurt School", definition: "Adorno, Horkheimer, Marcuse; Critical Theory; examined how mass culture and capitalism manipulate consciousness; Dialectic of Enlightenment asked how the Holocaust was possible." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-8-4",
+    unit: 8,
+    puzzle: 4,
+    theme: { code: "SOP", name: "States and Other Institutions of Power" },
+    title: "20th-Century Global Conflicts",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "World War I's Political Origins",
+        terms: [
+          { term: "Assassination of Franz Ferdinand", definition: "June 28, 1914: Archduke Franz Ferdinand killed in Sarajevo by Gavrilo Princip (Black Hand); triggered a July Crisis that escalated into world war via the alliance system." },
+          { term: "Schlieffen Plan", definition: "Germany's plan to knock out France quickly in the west before turning to Russia; violated Belgian neutrality; failed at the Marne; produced four years of trench stalemate." },
+          { term: "Total War", definition: "WWI mobilized entire societies: economies directed by governments, women conscripted into factories, propaganda managed opinion; blurred the line between combatant and civilian." },
+          { term: "November Revolution", definition: "November 1918: Germany's defeat triggered revolution; Kaiser Wilhelm II abdicated; Weimar Republic proclaimed; armistice signed; 'stab in the back' myth created by the Right." },
+        ],
+      },
+      {
+        name: "Russian Revolution",
+        terms: [
+          { term: "February Revolution", definition: "March 1917: bread riots and army mutinies toppled Tsar Nicholas II; Provisional Government formed; Russia continued the unpopular war; Lenin returned from exile." },
+          { term: "Bolshevik Revolution", definition: "October/November 1917: Lenin's Bolsheviks seized power from the Provisional Government; 'All power to the soviets'; the first successful Marxist revolution." },
+          { term: "Lenin", definition: "Vladimir Ilyich Ulyanov; professional revolutionary; leader of Bolshevik takeover; created the Soviet state; New Economic Policy; died 1924; succeeded by Stalin." },
+          { term: "Treaty of Brest-Litovsk", definition: "March 1918: Soviet Russia made a separate, humiliating peace with Germany; ceded vast territory including Ukraine and Poland; freed German troops for the Western Front." },
+        ],
+      },
+      {
+        name: "Rise of Totalitarianism",
+        terms: [
+          { term: "Benito Mussolini", definition: "Italian fascist; March on Rome (1922); first fascist dictator; 'Il Duce'; model for Hitler; allied with Germany in WWII; executed by partisans 1945." },
+          { term: "Weimar Republic", definition: "German democracy (1919–1933); born in defeat and humiliation; undermined by hyperinflation, Great Depression, and political extremism; ended when Hitler became chancellor in January 1933." },
+          { term: "Adolf Hitler", definition: "Nazi dictator of Germany (1933–1945); Mein Kampf laid out his program; systematically destroyed democracy; started WWII; organized the Holocaust; suicide April 1945." },
+          { term: "Enabling Act", definition: "March 1933: German parliament voted Hitler dictatorial powers for four years; passed under intimidation; ended German democracy; legal veneer for Nazi tyranny." },
+        ],
+      },
+      {
+        name: "World War II's Politics",
+        terms: [
+          { term: "Appeasement", definition: "British and French policy of conceding Hitler's demands to avoid war; Munich Agreement (1938) gave him Sudetenland; emboldened further aggression; symbol of failed diplomacy." },
+          { term: "Holocaust", definition: "Nazi systematic genocide: 6 million Jews, 500,000 Roma, disabled people, homosexuals, political prisoners killed; death camps (Auschwitz-Birkenau); enabled by bureaucracy and modern technology." },
+          { term: "D-Day", definition: "June 6, 1944: Allied amphibious landings in Normandy; largest seaborne invasion in history; began liberation of Western Europe; combined with Soviet advances, doomed Nazi Germany." },
+          { term: "Yalta Conference", definition: "February 1945: Churchill, Roosevelt, and Stalin divided post-war Europe into spheres of influence; free elections promised for Eastern Europe but not delivered; shaped the Cold War." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-8-5",
+    unit: 8,
+    puzzle: 5,
+    theme: { code: "NEI", name: "National and European Identity" },
+    title: "20th-Century Global Conflicts",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Extreme Nationalism",
+        terms: [
+          { term: "Fascist Identity", definition: "Totalitarian nationalism subordinating the individual to the nation and its leader; glorified violence, militarism, and struggle; defined against internal enemies (Jews, socialists)." },
+          { term: "Volksgemeinschaft", definition: "'People's community': Nazi ideal of a racially unified German nation purged of 'outsiders'; used to justify persecution of Jews, Roma, and others deemed un-German." },
+          { term: "Lebensraum", definition: "'Living space': Nazi doctrine that Germany needed eastern European territory for German colonization; justified invasion of Poland and Soviet Union; genocidal in practice." },
+          { term: "Nuremberg Laws", definition: "1935: stripped German Jews of citizenship; prohibited marriage between Jews and 'Aryans'; first step in systematic legal exclusion culminating in the Holocaust." },
+        ],
+      },
+      {
+        name: "Nazi Racial Ideology",
+        terms: [
+          { term: "Aryan Supremacy", definition: "Nazi pseudo-scientific racial hierarchy placing 'Aryan' (Nordic Germanic) people above all others; Jews, Roma, and Slavs defined as racially inferior or subhuman." },
+          { term: "Final Solution", definition: "Wannsee Conference (January 1942): Nazi decision to systematically exterminate all European Jews; death camps built in occupied Poland; industrialized genocide." },
+          { term: "Kristallnacht", definition: "'Night of Broken Glass' (November 9–10, 1938): coordinated pogrom against German Jews; 7,500 businesses smashed, 30,000 arrested, 267 synagogues burned; open signal of genocide ahead." },
+          { term: "Bystander Nations", definition: "Allied governments knew about the Holocaust from 1942 but prioritized military victory over rescue; refusal of Jewish refugees before the war; moral failure alongside military strategy." },
+        ],
+      },
+      {
+        name: "Anti-Colonial Identity",
+        terms: [
+          { term: "Pan-Africanism", definition: "W.E.B. Du Bois and Marcus Garvey; solidarity of African and diaspora peoples; Paris Peace Conference (1919) petition for African self-determination; foundation of decolonization." },
+          { term: "Négritude", definition: "Aimé Césaire and Léopold Sédar Senghor; French-language literary movement celebrating African cultural identity; rejected European 'civilization'; powerful anti-colonial intellectual force." },
+          { term: "Indian National Congress", definition: "Gandhi's civil disobedience challenged British rule; WWII service raised expectations; independence and partition in 1947; model for decolonization movements worldwide." },
+          { term: "Ho Chi Minh", definition: "Vietnamese communist nationalist; used Wilsonian self-determination language at Paris (1919); decades of anti-French and anti-American resistance; liberation of Vietnam 1975." },
+        ],
+      },
+      {
+        name: "Post-War European Identity",
+        terms: [
+          { term: "Never Again", definition: "Post-Holocaust moral imperative; Nuremberg trials; Universal Declaration of Human Rights (1948); European commitment to human rights as the foundation of a new identity." },
+          { term: "Franco-German Reconciliation", definition: "Adenauer and de Gaulle's 1963 Élysée Treaty; former enemies became the motor of European integration; the most remarkable political transformation of the 20th century." },
+          { term: "European Integration", definition: "Schuman Declaration (1950) proposed pooling French and German coal and steel; ECSC (1951), EEC (1957); economic integration as the path to permanent peace." },
+          { term: "Divided Germany", definition: "Germany split into democratic West (FRG) and communist East (GDR); Berlin Wall (1961); two German states embodied the Cold War division of Europe." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "ap-euro-unit-8-6",
+    unit: 8,
+    puzzle: 6,
+    theme: { code: "TSI", name: "Technological and Scientific Innovation" },
+    title: "20th-Century Global Conflicts",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "WWI Military Technology",
+        terms: [
+          { term: "Poison Gas", definition: "Chlorine (Ypres, 1915) and mustard gas; caused massive casualties and terror; gasmask became the icon of modern industrial warfare; banned by Geneva Protocol (1925)." },
+          { term: "Tank", definition: "British invention first used at the Somme (1916); broke through trench lines; crucial to Allied victory in 1918; transformed ground warfare." },
+          { term: "Unrestricted Submarine Warfare", definition: "German U-boats targeted all shipping to Britain; sank the Lusitania (1915, 1,198 dead); resumed 1917; brought the United States into the war." },
+          { term: "Strategic Bombing", definition: "WWI introduced bombing of civilian targets by Zeppelins and Gotha bombers; a foretaste of WWII; raised the question of the civilian's role in total war." },
+        ],
+      },
+      {
+        name: "WWII Military Technology",
+        terms: [
+          { term: "Blitzkrieg", definition: "'Lightning war': fast-moving combination of tanks, motorized infantry, and close air support; overwhelmed France in six weeks (May–June 1940); a revolution in military tactics." },
+          { term: "Radar", definition: "Britain's Chain Home radar system gave the RAF warning of Luftwaffe attacks; crucial to winning the Battle of Britain (1940); a decisive technological advantage." },
+          { term: "Enigma Decryption", definition: "Alan Turing and Bletchley Park cracked German military codes; gave Allies advance knowledge of operations; estimated to have shortened the war by two years." },
+          { term: "V-2 Rocket", definition: "German ballistic missile; first artificial object to reach space; rained on London from 1944; precursor of both ICBMs and the space race; developed by Wernher von Braun." },
+        ],
+      },
+      {
+        name: "The Nuclear Age",
+        terms: [
+          { term: "Manhattan Project", definition: "US secret program to build an atomic bomb; Los Alamos laboratory; J. Robert Oppenheimer; first successful test (Trinity) July 1945; changed warfare and geopolitics forever." },
+          { term: "Hiroshima and Nagasaki", definition: "Atomic bombs dropped August 6 and 9, 1945; 200,000+ killed instantly; Japan surrendered; opened the nuclear age; debated ever since as military necessity vs. war crime." },
+          { term: "Mutually Assured Destruction", definition: "Nuclear deterrence theory: if both superpowers can survive a first strike and retaliate, neither will attack first; 'balance of terror' prevented direct superpower war." },
+          { term: "Nuclear Arms Race", definition: "USSR tested atomic bomb 1949, hydrogen bomb 1953; both superpowers built thousands of warheads; Eisenhower's 'massive retaliation'; existential threat to human civilization." },
+        ],
+      },
+      {
+        name: "Medicine and Science",
+        terms: [
+          { term: "Penicillin", definition: "Alexander Fleming discovered penicillin (1928); mass-produced for WWII from 1943; transformed treatment of battlefield infections; saved hundreds of thousands of soldiers' lives." },
+          { term: "Jet Engine", definition: "Frank Whittle (UK) and Hans von Ohain (Germany) independently developed jet propulsion; deployed in WWII's final stages; transformed post-war aviation and Cold War military power." },
+          { term: "Medical Ethics Codes", definition: "Nuremberg Code (1947) and Helsinki Declaration: responses to Nazi medical experiments; established informed consent as the foundation of medical research ethics." },
+          { term: "DDT and Public Health", definition: "Insecticide used massively in WWII to control malaria and typhus; saved millions of soldiers' lives; later revealed to devastate ecosystems (Rachel Carson's Silent Spring)." },
+        ],
+      },
+    ],
+  },
+
+  // ── UNIT 9: Cold War and Contemporary Europe ─────────────────────────────
+
+  {
+    id: "ap-euro-unit-9-1",
+    unit: 9,
+    puzzle: 1,
+    theme: { code: "INT", name: "Interaction of Europe and the World" },
+    title: "Cold War and Contemporary Europe — Interaction with the World",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Cold War Architecture",
+        terms: [
+          { term: "NATO", definition: "North Atlantic Treaty Organization (1949): US-led military alliance binding Western democracies together; Article 5's collective defense clause anchored European security for the Cold War's duration." },
+          { term: "Warsaw Pact", definition: "Soviet-led military alliance (1955) of Eastern European satellite states; direct response to West Germany joining NATO; dissolved 1991 as communism collapsed." },
+          { term: "Containment Doctrine", definition: "George Kennan's 1946 strategy adopted by Truman: prevent Soviet expansion through political, economic, and military pressure; shaped US-European relations for 45 years." },
+          { term: "Iron Curtain", definition: "Churchill's 1946 phrase for the political and military divide separating Soviet-dominated Eastern Europe from the democratic West; symbolized Cold War's fundamental division of the continent." },
+        ],
+      },
+      {
+        name: "Proxy Wars and Global Reach",
+        terms: [
+          { term: "Korean War", definition: "1950–53: first hot war of the Cold War; UN (mainly US) forces repelled North Korean/Chinese invasion; ended in armistice at 38th parallel; reinforced Europe's dependence on US protection." },
+          { term: "Vietnam War", definition: "US military intervention (1965–73) to prevent communist takeover of South Vietnam; massive defeat; strengthened anti-war movements in Western Europe and challenged US global leadership." },
+          { term: "Berlin Airlift", definition: "1948–49: US and UK airlifted supplies to West Berlin during Soviet blockade; demonstrated Western resolve; forced Soviets to abandon blockade; made Berlin the Cold War's symbolic flashpoint." },
+          { term: "Cuban Missile Crisis", definition: "1962: Soviet nuclear missiles in Cuba brought superpowers to brink of war; Kennedy-Khrushchev standoff ended in Soviet withdrawal; established hotline, began détente, haunted European strategic thinking." },
+        ],
+      },
+      {
+        name: "Decolonization and Its Aftermath",
+        terms: [
+          { term: "Suez Crisis", definition: "1956: Britain and France colluded with Israel to retake Suez Canal from Nasser's Egypt; US forced humiliating withdrawal; proved European imperial power was over and US/USSR now controlled global affairs." },
+          { term: "Algerian War", definition: "1954–62: brutal independence struggle; over one million dead; de Gaulle's settlement split France, gave Algeria independence; most traumatic decolonization for France, reshaping French politics and identity." },
+          { term: "Decolonization Wave", definition: "1945–1975: Britain, France, Belgium, Portugal surrendered African and Asian empires; Commonwealth replaced Empire; guest workers from former colonies transformed European demographics and identity." },
+          { term: "Nonaligned Movement", definition: "Founded 1961 by Tito, Nehru, Nasser: Global South nations refused to align with either superpower; challenged Europe's Cold War binary; asserted post-colonial sovereignty on the world stage." },
+        ],
+      },
+      {
+        name: "End of Cold War and New World Order",
+        terms: [
+          { term: "Fall of the Berlin Wall", definition: "November 9, 1989: East Germans streamed through checkpoints as communist regime collapsed; most powerful symbol of Cold War's end; united Germany 1990 and reshaped European geopolitics." },
+          { term: "Velvet Revolution", definition: "1989: peaceful democratic revolution in Czechoslovakia; massive protests ousted communist government in weeks; Václav Havel became president; model for non-violent post-communist transition." },
+          { term: "Dissolution of the USSR", definition: "December 1991: Gorbachev resigned, Soviet Union split into 15 independent states; ended Cold War definitively; created power vacuum, new democracies, and unresolved nationalisms across Eurasia." },
+          { term: "NATO Expansion", definition: "Post-1991: NATO admitted former Warsaw Pact states (Poland, Czech Republic, Hungary 1999; Baltic states 2004); deeply alarmed Russia; contributed to tensions culminating in Ukraine crises of 2014 and 2022." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "ap-euro-unit-9-2",
+    unit: 9,
+    puzzle: 2,
+    theme: { code: "ECD", name: "Economic and Commercial Development" },
+    title: "Cold War and Contemporary Europe — Economic Development",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Post-War Economic Recovery",
+        terms: [
+          { term: "Marshall Plan", definition: "US provided $13 billion (1948–52) to rebuild Western European economies; prevented communist exploitation of poverty; integrated West Germany into Western economic system; launched the 'economic miracle' era." },
+          { term: "Wirtschaftswunder", definition: "West Germany's 'economic miracle': from rubble to Europe's largest economy by 1960s; Ludwig Erhard's social market economy combined free markets with welfare safety net; symbolized Western capitalism's superiority." },
+          { term: "Trente Glorieuses", definition: "France's 'Thirty Glorious Years' (1945–75): sustained growth, full employment, rising wages, modernization; state-directed capitalism (dirigisme); transformed France from agricultural to industrial economy." },
+          { term: "Bretton Woods System", definition: "1944 agreement fixing currencies to US dollar; IMF and World Bank created; stable exchange rates enabled post-war trade expansion; collapsed 1971 when Nixon ended dollar-gold convertibility." },
+        ],
+      },
+      {
+        name: "European Economic Integration",
+        terms: [
+          { term: "European Coal and Steel Community", definition: "ECSC (1951): France, West Germany, Italy, Benelux pooled coal and steel industries; Monnet's plan to make Franco-German war economically impossible; founding institution of European integration." },
+          { term: "Treaty of Rome", definition: "1957: created EEC (European Economic Community); established common market, free movement of goods, services, capital, labor among six founding members; foundation of modern European Union." },
+          { term: "Common Agricultural Policy", definition: "CAP (1962): EEC subsidized European farmers; guaranteed prices, protected markets; kept rural populations stable; enormously expensive (40% of EU budget); long-running source of trade disputes with US." },
+          { term: "Single European Act", definition: "1986: committed EEC members to completing single market by 1992; eliminated remaining trade barriers; accelerated integration; paved way for Maastricht Treaty and monetary union." },
+        ],
+      },
+      {
+        name: "Welfare State and Its Challenges",
+        terms: [
+          { term: "Beveridge Report", definition: "1942 British report by William Beveridge: proposed comprehensive welfare state covering 'cradle to grave'; led to NHS (1948), national insurance, family allowances; model for European welfare states." },
+          { term: "National Health Service", definition: "NHS (1948): free universal healthcare for all British citizens; Labour government's landmark achievement; despite Conservative opposition, became untouchable pillar of British society and welfare state model." },
+          { term: "Stagflation Crisis", definition: "1970s: oil shocks produced simultaneous inflation and unemployment, defying Keynesian economics; forced rethinking of welfare state economics; opened door to Thatcher and Reagan's neoliberal revolution." },
+          { term: "Thatcherism", definition: "Margaret Thatcher's economic program (1979–90): privatized state industries, broke trade union power, cut taxes, reduced regulation; transformed British economy; inspired similar reforms across Europe and world." },
+        ],
+      },
+      {
+        name: "Eurozone and Globalization",
+        terms: [
+          { term: "Maastricht Treaty", definition: "1992: created European Union, established path to monetary union, set convergence criteria (debt, inflation) for euro membership; transformed EEC from economic club to political union with common citizenship." },
+          { term: "Euro Launch", definition: "Single European currency launched 1999 (notes/coins 2002); replaced national currencies of 12 (later 19) member states; eliminated exchange rate risk; but removed national monetary policy tools." },
+          { term: "Eurozone Debt Crisis", definition: "2010–15: Greece, Portugal, Ireland, Spain faced sovereign debt crises; austerity conditionality imposed by ECB, IMF, Germany; questioned euro's design; massive political backlash, rise of anti-EU parties." },
+          { term: "Brexit", definition: "2016 UK referendum voted 52% to leave EU; triggered Article 50; UK left EU January 2020; disrupted trade, movement rights; reflected deep tensions between national sovereignty and European integration." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "ap-euro-unit-9-3",
+    unit: 9,
+    puzzle: 3,
+    theme: { code: "CID", name: "Cultural and Intellectual Development" },
+    title: "Cold War and Contemporary Europe — Culture and Thought",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Cold War Cultural Competition",
+        terms: [
+          { term: "Abstract Expressionism (CIA)", definition: "US covertly funded Abstract Expressionism (Pollock, de Kooning) as Cold War propaganda; portrayed Western freedom vs. Soviet Socialist Realism; Congress for Cultural Freedom coordinated cultural offensive in Europe." },
+          { term: "Radio Free Europe", definition: "US-funded (secretly CIA) radio broadcasts to Eastern Europe; carried Western news, culture, jazz; undermined Soviet information monopoly; hugely popular behind Iron Curtain despite jamming attempts." },
+          { term: "Space Race as Culture", definition: "Sputnik (1957) and Apollo 11 (1969) were cultural as well as scientific events; demonstrated each superpower's system's superiority; transformed public attitudes toward science, education, technology." },
+          { term: "Rock and Roll Behind the Iron Curtain", definition: "Western pop music — Elvis, Beatles, Rolling Stones — penetrated Iron Curtain via Radio Free Europe, smuggled tapes; youth culture undermined communist conformism; contributed to 1989 revolutions." },
+        ],
+      },
+      {
+        name: "Existentialism and Post-War Thought",
+        terms: [
+          { term: "Existentialism", definition: "Post-WWII philosophy (Sartre, Camus, de Beauvoir): existence precedes essence; humans create meaning in an absurd world; response to Holocaust's moral vacuum; hugely influential in literature, theater, politics." },
+          { term: "Simone de Beauvoir", definition: "'The Second Sex' (1949): foundational feminist text arguing women are made, not born; challenged biological essentialism; inspired second-wave feminism; applied existentialism to question of women's oppression." },
+          { term: "Frankfurt School", definition: "Critical Theory (Adorno, Horkheimer, Marcuse): analyzed how mass culture and capitalism produce conformism and false consciousness; 'culture industry' concept explained why workers did not revolt; influenced 1968 student movements." },
+          { term: "Structuralism and Post-Structuralism", definition: "French intellectual movements (Lévi-Strauss, Foucault, Derrida, Lacan): analyzed underlying structures of language, power, culture; challenged Enlightenment rationalism; enormously influential in humanities." },
+        ],
+      },
+      {
+        name: "1960s Cultural Revolution",
+        terms: [
+          { term: "May 1968", definition: "French student uprising: Paris paralyzed by protests, barricades, worker strikes; Situationist slogans ('Be realistic, demand the impossible'); de Gaulle survived but France transformed; marked shift to post-materialist politics." },
+          { term: "Second-Wave Feminism", definition: "1960s–80s: moved beyond suffrage to fight workplace discrimination, reproductive rights, domestic violence; Betty Friedan's 'The Feminine Mystique' (1963); consciousness-raising; transformed European family law and politics." },
+          { term: "Gay Liberation Movement", definition: "Post-Stonewall (1969) movement for LGBTQ rights; decriminalization in UK (1967), Netherlands (1811), France (1982, age of consent equalized); marriage equality spreading across Europe by 2000s." },
+          { term: "Postmodernism", definition: "1970s–90s artistic and intellectual movement: rejected grand narratives, embraced fragmentation, irony, pastiche; questioned objective truth; influenced architecture (Centre Pompidou), literature, film; contested Enlightenment legacy." },
+        ],
+      },
+      {
+        name: "Contemporary European Culture",
+        terms: [
+          { term: "Memory Culture", definition: "Post-1989 Europe's reckoning with WWII, Holocaust, colonial pasts; Holocaust memorials, truth commissions, history wars; Germany's 'Vergangenheitsbewältigung' (working through the past) as model." },
+          { term: "Multiculturalism Debate", definition: "Post-colonial immigration transformed European cities; multiculturalism as official policy (UK, Netherlands) then contested; debates over integration, head scarves, parallel societies; Merkel declared multiculturalism 'failed' 2010." },
+          { term: "Populism and Post-Truth", definition: "21st-century rise of populist parties (Le Pen, Orbán, Farage) exploiting social media disinformation; challenged expert authority; 'post-truth' politics disrupted established party systems across Europe." },
+          { term: "European Cinema New Waves", definition: "French Nouvelle Vague (Godard, Truffaut), Italian neorealism, German New Cinema (Fassbinder, Herzog): post-war European directors created distinctive art cinema; challenged Hollywood dominance; state-funded cultural production." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "ap-euro-unit-9-4",
+    unit: 9,
+    puzzle: 4,
+    theme: { code: "SOP", name: "States and Other Institutions of Power" },
+    title: "Cold War and Contemporary Europe — States and Power",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Western Democracy in the Cold War",
+        terms: [
+          { term: "Christian Democracy", definition: "Post-WWII center-right ideology (CDU in Germany, DC in Italy, MRP in France): combined Catholic social teaching, anti-communism, pro-European integration; dominated Western European politics 1945–70s; built welfare state and EEC." },
+          { term: "De Gaulle and the Fifth Republic", definition: "de Gaulle founded Fifth Republic (1958) with strong presidency; pursued independent French foreign policy, developed independent nuclear deterrent, blocked UK from EEC; resigned 1969 after May 1968 weakened authority." },
+          { term: "Adenauer's West Germany", definition: "Konrad Adenauer (Chancellor 1949–63): anchored West Germany in NATO and EEC, pursued Westpolitik, accepted post-war borders, achieved rapid economic recovery; reconciliation with France via 1963 Élysée Treaty." },
+          { term: "Social Democracy", definition: "Western European left accepted capitalism, rejected revolution; Swedish model (Palme) combined free markets with comprehensive welfare; Bad Godesberg Program (1959) — German SPD abandoned Marxism; centre-left governed much of post-war Europe." },
+        ],
+      },
+      {
+        name: "Communist Eastern Europe",
+        terms: [
+          { term: "Satellite States", definition: "Soviet-controlled Eastern European states: Poland, East Germany, Hungary, Romania, Bulgaria, Czechoslovakia; rigged elections, collectivized agriculture, one-party rule; economically integrated via COMECON; military via Warsaw Pact." },
+          { term: "Brezhnev Doctrine", definition: "1968 doctrine: Soviet Union had right to intervene in socialist countries to prevent 'counterrevolution'; justified invasion of Czechoslovakia; limited Eastern European sovereignty until Gorbachev repudiated it in 1989." },
+          { term: "Prague Spring", definition: "1968: Czechoslovak communist reformer Dubček introduced 'socialism with a human face'; Soviet tanks crushed the experiment; crushed hopes for reform communism; radicalized Western European left." },
+          { term: "Solidarity Movement", definition: "Polish trade union Solidarność (1980): 10 million members under Lech Wałęsa; first independent trade union in communist bloc; martial law 1981 suppressed it; went underground, won elections 1989; inspired other revolutions." },
+        ],
+      },
+      {
+        name: "European Integration as Political Project",
+        terms: [
+          { term: "Jean Monnet", definition: "French architect of European integration: designed ECSC, EEC; believed European unity must be built through functional cooperation step by step (functionalism); 'Europe will be built through crises' philosophy proved prophetic." },
+          { term: "Eurosclerosis", definition: "1970s–80s term for EEC stagnation: national vetoes blocked progress; high unemployment, low growth; Thatcher demanded rebate ('I want my money back'); Commission President Delors revived integration with single market program." },
+          { term: "Maastricht and EU", definition: "1992 Maastricht Treaty transformed EEC into European Union: three pillars (market, justice/home affairs, foreign policy); common citizenship; path to euro; controversial ratification revealed public Euroscepticism." },
+          { term: "Democratic Deficit", definition: "Criticism that EU institutions (Commission, Council) lack democratic accountability; European Parliament initially weak and ignored; enlargement increased complexity; fuel for Eurosceptic parties across the political spectrum." },
+        ],
+      },
+      {
+        name: "Post-Cold War European Order",
+        terms: [
+          { term: "German Reunification", definition: "October 1990: East and West Germany merged; Kohl negotiated with Gorbachev (Two Plus Four Treaty); economic union absorbed East's collapsing economy; cost €2 trillion over 20 years; transformed European power balance." },
+          { term: "Yugoslav Wars", definition: "1991–2001: breakup of Yugoslavia produced genocidal wars in Croatia, Bosnia, Kosovo; Srebrenica massacre 1995 (8,000 Bosniak men killed); NATO intervened in Bosnia (1995) and Kosovo (1999); EU and UN coordination failures exposed." },
+          { term: "Eastern Enlargement", definition: "EU admitted 10 new members in 2004 (including Poland, Czech Republic, Hungary, Baltic states); largest expansion in EU history; free movement triggered massive labor migration to UK, Germany; fed populist backlash." },
+          { term: "Euromaidan and Ukraine", definition: "2013–14: Ukrainian protests against Yanukovych's rejection of EU association; Russian annexation of Crimea, war in Donbas; 2022 full-scale Russian invasion; existential challenge to post-Cold War European security order." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "ap-euro-unit-9-5",
+    unit: 9,
+    puzzle: 5,
+    theme: { code: "SCD", name: "Social Organization and Development" },
+    title: "Cold War and Contemporary Europe — Society and Change",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Post-War Social Transformation",
+        terms: [
+          { term: "Baby Boom", definition: "Post-WWII demographic surge (1945–64): rising birth rates across Western Europe; produced large cohorts that transformed education systems, housing, consumer markets, and eventually drove 1960s counterculture." },
+          { term: "Guest Worker Programs", definition: "West Germany (Gastarbeiter), France, UK recruited labor from Southern Europe, Turkey, North Africa, Caribbean (1950s–70s); intended as temporary; workers stayed, families arrived; transformed European ethnicity and culture." },
+          { term: "Women in Post-War Workforce", definition: "WWII labor participation persisted: women entered professional jobs, higher education; equal pay legislation (UK 1970, across EEC); feminism and pill enabled career-family choices; transformed gender relations and family structure." },
+          { term: "Consumer Society", definition: "Post-war affluence created mass consumer culture: cars, televisions, refrigerators, holidays; American cultural influence via Hollywood, Coca-Cola, McDonald's; transformed European daily life and aspirations." },
+        ],
+      },
+      {
+        name: "The Welfare State and Social Policy",
+        terms: [
+          { term: "Universal Education", definition: "Post-war expansion of secondary and university education across Europe; 11-plus and grammar schools (UK); grandes écoles (France); massification of higher education 1960s–70s; created educated professional class, then student protest generation." },
+          { term: "Social Housing", definition: "Post-war European states built millions of council houses, HLMs, Plattenbau; cleared slums, housed working class; by 1970s banlieues and estates became synonym for poverty and marginalization; housing segregation created." },
+          { term: "Demographic Decline", definition: "Post-baby boom European birth rates fell below replacement level; aging populations straining pension and healthcare systems; immigration as controversial solution; EU projected population decline in core states by 2050." },
+          { term: "Disability Rights Movement", definition: "Post-war welfare states provided care but in institutions; disability rights movement (1970s–80s) demanded independent living, accessibility, anti-discrimination law; EU Disability Directives; transformed built environment and employment law." },
+        ],
+      },
+      {
+        name: "Immigration and Multiculturalism",
+        terms: [
+          { term: "Windrush Generation", definition: "Caribbean migrants invited to UK 1948–71 on HMT Empire Windrush and subsequent ships; built NHS and post-war Britain; 2018 Windrush Scandal revealed Home Office wrongly detained and deported legal residents." },
+          { term: "North African Migration to France", definition: "Algerians, Moroccans, Tunisians migrated to France as workers; post-Algerian War, harkis (French-allied Algerians) resettled; banlieue riots 2005; Marine Le Pen's politics built around fears of demographic change." },
+          { term: "European Refugee Crisis", definition: "2015–16: over one million asylum seekers entered EU, mostly Syrian, Afghan, Iraqi; Mediterranean crossings; Merkel's 'Wir schaffen das' (we can manage it); triggered political crisis, boosted Eurosceptic and nativist parties across Europe." },
+          { term: "Integration Debate", definition: "European states debated between assimilation (France: Republican universalism) and multiculturalism (UK, Netherlands); head scarf bans, citizenship tests, 'parallel society' anxieties; intersection of religion, race, national identity." },
+        ],
+      },
+      {
+        name: "Contemporary Social Issues",
+        terms: [
+          { term: "Environmental Movement", definition: "1970s ecology movement: Green parties founded (West German Greens 1980); Chernobyl (1986) galvanized anti-nuclear sentiment; climate change as defining 21st-century European political issue; Greta Thunberg and Fridays for Future." },
+          { term: "LGBTQ Rights Progress", definition: "Dramatic expansion of rights 1970–2020: decriminalization, anti-discrimination laws, civil partnerships, marriage equality; Netherlands first country to legalize same-sex marriage (2001); dramatic contrast with Eastern European resistance." },
+          { term: "Austerity and Inequality", definition: "Post-2008 financial crisis austerity policies cut welfare states; rising inequality, youth unemployment (50%+ in Spain, Greece); Occupy movements, anti-austerity parties (Syriza, Podemos); tested social contract of European welfare capitalism." },
+          { term: "Digital Society", definition: "Internet and smartphones transformed European society: platform economy, social media politics, digital surveillance; GDPR (2018) attempted to regulate data; digital divide between urban/rural, young/old; algorithmic management of work." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "ap-euro-unit-9-6",
+    unit: 9,
+    puzzle: 6,
+    theme: { code: "NEI", name: "National and European Identity" },
+    title: "Cold War and Contemporary Europe — Identity",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Forging European Identity",
+        terms: [
+          { term: "European Project as Identity", definition: "EEC/EU founders (Monnet, Schuman, Adenauer, de Gasperi) promoted European identity as alternative to destructive nationalism; 'Never again' post-Holocaust; European flag, anthem (Beethoven's 9th), passport, Erasmus program." },
+          { term: "Erasmus Programme", definition: "EU student exchange program (1987): millions of young Europeans studied in other EU countries; created 'Erasmus Generation' with transnational European identity; studies show Erasmus alumni more pro-European and more likely to marry across borders." },
+          { term: "Franco-German Reconciliation", definition: "Cornerstone of European identity: de Gaulle–Adenauer 1963 Élysée Treaty; joint textbooks, student exchanges, twin cities; overcame centuries of wars; modeled how former enemies could build shared identity." },
+          { term: "Schengen Area", definition: "1985 agreement (implemented 1995): abolished internal border controls among 26 European states; free movement of people as everyday European identity; contested after 2015 refugee crisis and terrorist attacks." },
+        ],
+      },
+      {
+        name: "Post-Colonial Identity Crises",
+        terms: [
+          { term: "Loss of Empire and Identity", definition: "Britain, France, Netherlands, Belgium, Portugal struggled with post-imperial identity; 'wind of change' (Macmillan); French Algeria as part of France until 1962; decolonization forced redefinition of what these nations were." },
+          { term: "Commonwealth and La Francophonie", definition: "Post-imperial cultural communities: British Commonwealth (54 nations), French La Francophonie; maintained cultural, economic, political ties; provided new identity framework for post-imperial nations; language as soft power." },
+          { term: "Postcolonial Literature", definition: "Writers from former colonies (V.S. Naipaul, Salman Rushdie, Frantz Fanon, Albert Memmi) challenged European self-image; decolonizing the mind; disputed canonical European culture from within; enriched and troubled European identity." },
+          { term: "Postcolonial Reckoning", definition: "21st century: Belgium confronted Congo atrocities, UK debated Empire's legacy, France grappled with Algerian war torture; statue removals, museum repatriation demands; memory wars over colonial past and national identity." },
+        ],
+      },
+      {
+        name: "Nationalism and Euroscepticism",
+        terms: [
+          { term: "Scottish Nationalism", definition: "SNP won 2011 Scottish Parliament majority; 2014 independence referendum: 55% voted to remain in UK; Brexit revival of independence debate; Scots voted 62% Remain; tensions between Scottish European identity and UK sovereignty." },
+          { term: "Catalan Independence Movement", definition: "October 2017 Catalan independence referendum: Spanish government declared illegal; 90% voted yes on 43% turnout; Madrid imposed direct rule; leaders jailed; EU refused to recognize; tested limits of national self-determination within EU." },
+          { term: "Hungarian Illiberalism", definition: "Viktor Orbán's Fidesz (2010–): dismantled constitutional checks, controlled media, restricted NGOs; 'illiberal democracy'; clash with EU over rule of law; nationalist Christian identity vs. EU liberal values; challenged EU's identity." },
+          { term: "Brexit and British Identity", definition: "2016 Leave vote reflected English nationalism, imperial nostalgia, hostility to immigration and Brussels bureaucracy; deep divide: London and Scotland Remain, English towns Leave; exposed fractured British identity." },
+        ],
+      },
+      {
+        name: "Remembrance and Memory Politics",
+        terms: [
+          { term: "Holocaust Memory", definition: "Institutionalization of Holocaust memory: Yad Vashem (1953), Berlin Memorial (2005), International Holocaust Remembrance Day (2005); Germany's 'Erinnerungskultur'; debate over uniqueness vs. comparison; foundation of post-war European moral identity." },
+          { term: "Communist Nostalgia (Ostalgie)", definition: "Post-1989 Eastern European nostalgia for communist-era security, full employment, egalitarianism; 'Ostalgie' in East Germany; fueled by shock therapy's pain; exploited by populist parties claiming to represent 'forgotten' communities." },
+          { term: "European Capital of Culture", definition: "EU program (1985–): cities host year-long cultural events; purpose is building European cultural identity across borders; 2004 expansion included Eastern European cities; tool of soft power and local urban regeneration." },
+          { term: "Memory Wars in Eastern Europe", definition: "Post-1989 contests over communist, Nazi, Soviet-collaboration pasts; Baltic states rehabilitated anti-Soviet resistance fighters accused of war crimes; Poland's historical memory laws; Ukraine's Holodomor recognition; identity through contested history." },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "ap-euro-unit-9-7",
+    unit: 9,
+    puzzle: 7,
+    theme: { code: "TSI", name: "Technology, Science, and Innovation" },
+    title: "Cold War and Contemporary Europe — Technology and Science",
+    subject: "AP Euro",
+    groups: [
+      {
+        name: "Nuclear Age",
+        terms: [
+          { term: "Nuclear Deterrence", definition: "MAD (Mutually Assured Destruction): both superpowers had enough nuclear weapons to survive a first strike and obliterate attacker; paradox of peace through guaranteed annihilation; shaped all Cold War military and diplomatic calculations." },
+          { term: "French Force de Frappe", definition: "France's independent nuclear deterrent developed by de Gaulle; rejected NATO's integrated command; symbolized French sovereignty; 300+ warheads; signaled Europe need not depend entirely on US nuclear umbrella." },
+          { term: "Chernobyl Disaster", definition: "April 1986: Soviet nuclear reactor exploded; radioactive cloud across Europe; 31 immediate deaths, millions exposed; galvanized anti-nuclear movement; Gorbachev later said it accelerated glasnost; exposed Soviet institutional failures." },
+          { term: "Nuclear Disarmament Movements", definition: "Campaign for Nuclear Disarmament (CND): Aldermaston marches (1958); 1980s peace movement, Pershing II deployment protests; millions marched across Europe; Green parties built on anti-nuclear politics; shaped public attitudes." },
+        ],
+      },
+      {
+        name: "Space Race and Big Science",
+        terms: [
+          { term: "Sputnik", definition: "Soviet satellite (October 1957): first artificial Earth satellite; shocked West; demonstrated Soviet rocket capability (same rockets could carry nuclear warheads); triggered US space program, education funding, DARPA; launched space age." },
+          { term: "CERN", definition: "European Organization for Nuclear Research (1954): collaborative European particle physics facility; invented World Wide Web (Tim Berners-Lee, 1989) as information management system; Large Hadron Collider confirmed Higgs Boson (2012); model of pan-European science." },
+          { term: "European Space Agency", definition: "ESA (1975): collaborative European space program; Ariane rocket family; Copernicus Earth observation; Rosetta comet mission; Galileo navigation system; European alternative to US and Soviet/Russian space dominance." },
+          { term: "Apollo's Cultural Impact on Europe", definition: "Moon landing (July 1969) watched by 600 million worldwide; inspired European space ambitions; raised questions about Europe falling behind technologically; accelerated arguments for collaborative European science and technology programs." },
+        ],
+      },
+      {
+        name: "Digital Revolution",
+        terms: [
+          { term: "World Wide Web", definition: "Tim Berners-Lee at CERN proposed WWW 1989, implemented 1991; transformed global communication, commerce, politics; European origin of transformative American-dominated technology; GDPR represents EU regulatory response to Silicon Valley dominance." },
+          { term: "Mobile Revolution", definition: "GSM standard (European invention, 1987): digital mobile telephony standard adopted globally; Nokia (Finland) dominated 1990s–2000s; smartphones (iPhone 2007) then shifted dominance to US; transformed European society and economy." },
+          { term: "Platform Economy", definition: "Google, Amazon, Facebook, Apple (GAFA) dominated European digital markets; EU competition law battles: Google fines (€8bn+), GDPR enforcement, Digital Markets Act (2022); Europe as regulatory superpower even as it lacks tech champions." },
+          { term: "GDPR", definition: "General Data Protection Regulation (2018): EU comprehensive data privacy law; right to be forgotten, data portability, consent requirements; applied globally to companies handling EU citizens' data; 'Brussels Effect' — EU regulations became de facto global standard." },
+        ],
+      },
+      {
+        name: "Climate Science and Green Technology",
+        terms: [
+          { term: "Climate Science Consensus", definition: "IPCC (Intergovernmental Panel on Climate Change, 1988): synthesized global climate research; successive reports confirmed human-caused warming; Kyoto Protocol (1997), Paris Agreement (2015); European states led global climate diplomacy." },
+          { term: "European Green Deal", definition: "EU's 2019 plan to make Europe climate-neutral by 2050; carbon border adjustment mechanism, renewable energy targets, ending combustion engine sales by 2035; most ambitious climate program of any major economy." },
+          { term: "Wind and Solar Energy", definition: "Europe pioneered large-scale renewable energy: Danish wind turbines, German Energiewende; feed-in tariffs drove rapid solar expansion; by 2020s renewables provided 40%+ of EU electricity; transformed energy geopolitics." },
+          { term: "Airbus", definition: "European aircraft consortium (1970): France, Germany, UK, Spain pooled resources to compete with Boeing; technological and industrial success of European cooperation; now world's largest aircraft manufacturer by deliveries; model for European industrial strategy." },
+        ],
+      },
+    ],
+  },
+];
+
+gameSets.push(...apEuroGameSets);
+
 export function getGameByUnit(unit: number, subject?: string): GameSet | undefined {
   return gameSets.find((g) => g.unit === unit && (!subject || g.subject === subject));
 }

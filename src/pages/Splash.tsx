@@ -61,6 +61,26 @@ const subjects = [
     accentLight: "#f3eeff",
     accentDark: "#5b21b6",
   },
+  {
+    label: "AP Bio",
+    description: "AP Biology",
+    path: "/apbio",
+    active: true,
+    units: 8,
+    accent: "#16A34A",
+    accentLight: "#f0fdf4",
+    accentDark: "#15803d",
+  },
+  {
+    label: "AP Euro",
+    description: "AP European History",
+    path: "/apeuro",
+    active: true,
+    units: 9,
+    accent: "#B45309",
+    accentLight: "#FEF3C7",
+    accentDark: "#92400E",
+  },
 ];
 
 const HOW_TO_PLAY = [
