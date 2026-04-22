@@ -1,13 +1,13 @@
 # Developer Handoff — PYT Games
 
-**Last updated:** 2026-04-20  
-**Status:** Active development — APUSH (Units 1, 3–9, 8 themed puzzles each) + IB Philosophy (20 puzzles across 8 themes) + Environmental Science (all 9 units, 29 puzzles) + AP World History (Units 7–9, 9 puzzles) + AP Gov (all 5 units, 25 puzzles) + AP Psychology (all 5 units, 15 puzzles) all live; AP Bio / AP Lang coming soon
+**Last updated:** 2026-04-22  
+**Status:** Active development — APUSH (Units 1, 3–9, 8 themed puzzles each) + IB Philosophy (20 puzzles across 8 themes) + Environmental Science (all 9 units, 29 puzzles) + AP World History (Units 7–9, 9 puzzles) + AP Gov (all 5 units, 25 puzzles) + AP Psychology (all 5 units, 15 puzzles) + AP Biology (all 8 units, 20 puzzles) + AP European History (all 9 units, 45 puzzles) all live; AP Lang coming soon
 
 ---
 
 ## What this is
 
-PYT Games is a web-based study game where students group 16 vocab terms into 4 categories. Built for AP exam test prep. Active subjects: APUSH, IB Philosophy, Environmental Science, AP World History, AP Gov, AP Psychology. AP Bio and AP Lang are planned next.
+PYT Games is a web-based study game where students group 16 vocab terms into 4 categories. Built for AP exam test prep. Active subjects: APUSH, IB Philosophy, Environmental Science, AP World History, AP Gov, AP Psychology, AP Biology, AP European History. AP Lang is planned next.
 
 ---
 
@@ -35,7 +35,7 @@ GITHUB_TOKEN=your_token   # stored in .env, never committed
 src/
   App.tsx                         # Router setup, providers
   data/
-    gameSets.ts                   # All game content (APUSH + IB Philosophy + Env Science + AP World + AP Gov + AP Psych)
+    gameSets.ts                   # All game content (APUSH + IB Philosophy + Env Science + AP World + AP Gov + AP Psych + AP Bio + AP Euro)
   lib/
     progress.ts                   # Per-subject localStorage helpers
     analytics.ts                  # GA4 event tracking helper (trackEvent wrapper)
@@ -57,6 +57,10 @@ src/
     APGovUnitPage.tsx             # /apgov/unit/:unit — Big Idea puzzle picker
     APPsychLanding.tsx            # /appsych — AP Psychology unit grid with mastery bar
     APPsychUnitPage.tsx           # /appsych/unit/:unit — topic puzzle picker
+    APBioLanding.tsx              # /apbio — AP Biology unit grid with mastery bar
+    APBioUnitPage.tsx             # /apbio/unit/:unit — Big Idea puzzle picker
+    APEuroLanding.tsx             # /apeuro — AP European History unit grid with mastery bar
+    APEuroUnitPage.tsx            # /apeuro/unit/:unit — theme puzzle picker
     PuzzlePicker.tsx              # puzzle selector (APUSH + Philosophy)
     Index.tsx                     # game page (subject-aware via URL)
     About.tsx                     # /about — team and mission
@@ -86,10 +90,16 @@ src/
 | `/appsych` | `APPsychLanding.tsx` | AP Psychology unit grid |
 | `/appsych/unit/:unit` | `APPsychUnitPage.tsx` | AP Psych topic puzzle picker |
 | `/appsych/unit/:unit/:puzzle` | `Index.tsx` | AP Psych game |
+| `/apbio` | `APBioLanding.tsx` | AP Biology unit grid |
+| `/apbio/unit/:unit` | `APBioUnitPage.tsx` | AP Bio Big Idea puzzle picker |
+| `/apbio/unit/:unit/:puzzle` | `Index.tsx` | AP Bio game |
+| `/apeuro` | `APEuroLanding.tsx` | AP European History unit grid |
+| `/apeuro/unit/:unit` | `APEuroUnitPage.tsx` | AP Euro theme puzzle picker |
+| `/apeuro/unit/:unit/:puzzle` | `Index.tsx` | AP Euro game |
 | `/about` | `About.tsx` | About page |
 | `/contact` | `Contact.tsx` | Contact page |
 
-**3-level navigation subjects** (subject → unit → puzzle): Env Science, AP World, AP Gov, AP Psychology. **2-level navigation subjects** (subject → puzzle): APUSH, IB Philosophy. To add a new subject: create a landing page + unit page, add routes in `App.tsx`, activate the card in `Splash.tsx`, add content to `gameSets.ts` with the correct `subject` field, update subject detection in `Index.tsx`.
+**3-level navigation subjects** (subject → unit → puzzle): Env Science, AP World, AP Gov, AP Psychology, AP Biology, AP Euro. **2-level navigation subjects** (subject → puzzle): APUSH, IB Philosophy. To add a new subject: create a landing page + unit page, add routes in `App.tsx`, activate the card in `Splash.tsx`, add content to `gameSets.ts` with the correct `subject` field, update subject detection in `Index.tsx`.
 
 **State:** All game state is local to `ConnectionsGame` — no global store, no persistence between sessions.
 
@@ -97,7 +107,7 @@ src/
 
 **Analytics:** GA4 (G-M1MTBZCT7T) via `src/lib/analytics.ts`. Four custom events fire from `ConnectionsGame.tsx`: `puzzle_start`, `group_solved`, `puzzle_complete` (includes `mistakes` + `hints_used`), `puzzle_fail`. All events include `subject`, `unit`, `puzzle`, and `puzzle_id` params.
 
-**Styling:** Tailwind CSS + shadcn/ui. APUSH accent: Yale Blue `#0F4D92`. IB Philosophy accent: purple `#6B3FA0`. Env Science accent: forest green `#2D7A4F`. AP Psych accent: violet `#7C3AED`. Fonts: Quicksand (UI) + Playfair Display (hero title).
+**Styling:** Tailwind CSS + shadcn/ui. APUSH accent: Yale Blue `#0F4D92`. IB Philosophy accent: purple `#6B3FA0`. Env Science accent: forest green `#2D7A4F`. AP Psych accent: violet `#7C3AED`. AP Biology accent: green `#16A34A`. AP Euro accent: amber `#B45309`. Fonts: Quicksand (UI) + Playfair Display (hero title).
 
 ---
 
@@ -195,6 +205,41 @@ For AP & IB Environmental Science. Uses N.X subtopic naming (e.g. 1.1, 1.2).
 
 **Note:** Unit data for AP Psych is built in modular const arrays (`apPsychGameSets`, `apPsychUnit2GameSets`, etc.) then assembled with unit/id overrides before being pushed into the main `gameSets` array. Unit 3 puzzles are remapped from the unit-4 source data with theme codes corrected to 3.7–3.9.
 
+### AP Biology content
+
+8-unit AP Biology curriculum. 20 puzzles total organized by 4 Big Ideas. Subject field: `"AP Biology"`. Accent: green `#16A34A`.
+
+**Big Ideas**: ENE (Energetics) · IST (Information Storage & Transmission) · EVO (Evolution) · SYI (Systems Interactions)
+
+| Unit | Title | Puzzles | Big Ideas |
+|------|-------|---------|-----------|
+| 1 | Chemistry of Life | 3 | ENE · IST · SYI |
+| 2 | Cells | 3 | EVO · ENE · SYI |
+| 3 | Cellular Energetics | 1 | ENE |
+| 4 | Cell Communication and Cell Cycle | 3 | ENE · IST · SYI |
+| 5 | Heredity | 3 | EVO · IST · SYI |
+| 6 | Gene Expression and Regulation | 1 | IST |
+| 7 | Natural Selection | 2 | EVO · SYI |
+| 8 | Ecology | 4 | EVO · ENE · IST · SYI |
+
+### AP European History content
+
+9-unit AP European History curriculum. 45 puzzles total organized by 7 AP Euro themes. Subject field: `"AP Euro"`. Accent: amber `#B45309`.
+
+**AP Euro Themes**: INT (Interaction of Europe and the World) · ECD (Economic and Commercial Development) · CID (Cultural and Intellectual Development) · SOP (States and Other Institutions of Power) · SCD (Social Organization and Development) · NEI (National and European Identity) · TSI (Technology, Science, and Innovation)
+
+| Unit | Title | Puzzles | Themes |
+|------|-------|---------|--------|
+| 1 | Renaissance and Exploration | 6 | INT · ECD · CID · SOP · SCD · NEI |
+| 2 | Age of Reformation | 3 | CID · SOP · NEI |
+| 3 | Absolutism and Constitutionalism | 3 | ECD · SOP · NEI |
+| 4 | Scientific, Philosophical, and Political Developments | 5 | INT · ECD · CID · SOP · TSI |
+| 5 | Conflict, Crisis, and Reaction in the Late 18th Century | 5 | INT · ECD · CID · SOP · NEI |
+| 6 | Industrialization and Its Effects | 5 | ECD · CID · SOP · SCD · TSI |
+| 7 | 19th-Century Perspectives and Political Developments | 5 | INT · ECD · CID · SOP · NEI |
+| 8 | 20th-Century Global Conflicts | 6 | INT · ECD · CID · SOP · NEI · TSI |
+| 9 | Cold War and Contemporary Europe | 7 | INT · ECD · CID · SOP · SCD · NEI · TSI |
+
 ---
 
 ## Game rules (implemented)
@@ -214,7 +259,8 @@ For AP & IB Environmental Science. Uses N.X subtopic naming (e.g. 1.1, 1.2).
 
 - **All APUSH units themed** — All active units (1, 3–9) now have 8 AP-themed puzzles; Unit 2 is merged into Unit 1 and shows as Coming Soon
 - **AP Psych Units 4–5 need more content** — currently 3 puzzles each; developmental psych (3.1–3.6), language (3.5), and intelligence (2.8) aren't yet covered
-- **AP Bio / AP Lang** subject pages don't exist yet — splash shows them as Coming Soon
+- **AP Bio Unit 3 and Unit 6** have only 1 puzzle each (ENE and IST respectively) — could expand if more Big Ideas apply
+- **AP Lang** subject page doesn't exist yet — splash shows it as Coming Soon
 - **No shuffle button** — terms are shuffled once on load; players can't reshuffle mid-game
 - **No streak/history** — win/loss per session isn't tracked beyond puzzle completion in localStorage
 - **Mobile layout** — tile text can overflow on very small screens for long terms

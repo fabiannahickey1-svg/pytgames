@@ -100,6 +100,23 @@
 
 **Next:** Developmental psych content for Unit 3 (3.1–3.6); language/intelligence puzzles for Unit 2; AP Bio / AP Lang subject pages
 
+## 2026-04-22 — Session 10
+
+- Added AP Biology as a fully active subject with green accent (#16A34A)
+- 8-unit structure matching the AP Biology curriculum; 20 puzzles total organized by the 4 Big Ideas: ENE (Energetics), IST (Information Storage & Transmission), EVO (Evolution), SYI (Systems Interactions)
+- New `APBioLanding.tsx` at `/apbio` — mastery levels Organism → Cell → Tissue → Organ → System → Ecosystem → AP Scholar
+- New `APBioUnitPage.tsx` at `/apbio/unit/:unit` — puzzle picker showing Big Idea code and name
+- Added AP European History as a fully active subject with amber accent (#B45309)
+- 9-unit structure matching the AP Euro curriculum; 45 puzzles total organized by 7 AP Euro themes: INT, ECD, CID, SOP, SCD, NEI, TSI
+- New `APEuroLanding.tsx` at `/apeuro` — mastery levels Apprentice → Scholar → Courtier → Diplomat → Statesman → AP Scholar
+- New `APEuroUnitPage.tsx` at `/apeuro/unit/:unit` — puzzle picker showing theme code and name, header reads "Choose a theme to study"
+- `Index.tsx` updated to detect `/apbio` and `/apeuro` prefixes for subject-aware routing
+- `Splash.tsx` updated: AP Bio (8th card) and AP Euro (also active) added to subject picker
+- `App.tsx`: added routes for `/apbio`, `/apbio/unit/:unit`, `/apbio/unit/:unit/:puzzle`, `/apeuro`, `/apeuro/unit/:unit`, `/apeuro/unit/:unit/:puzzle`
+- All 65 new puzzles (20 AP Bio + 45 AP Euro) pushed to GitHub
+
+**Next:** AP Lang; shuffle button; mobile polish; APUSH content audit
+
 ## 2026-04-19 — Session 8
 
 - Completed AP World History (Units 7–9) — 9 puzzles total, 3 per unit using GOV/CDI/SIO+ECN themes covering Global Conflict, Cold War & Decolonization, and Globalization
