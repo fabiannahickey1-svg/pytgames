@@ -18,6 +18,8 @@ import APBioLanding from "./pages/APBioLanding.tsx";
 import APBioUnitPage from "./pages/APBioUnitPage.tsx";
 import APEuroLanding from "./pages/APEuroLanding.tsx";
 import APEuroUnitPage from "./pages/APEuroUnitPage.tsx";
+import APHumanGeoLanding from "./pages/APHumanGeoLanding.tsx";
+import APHumanGeoUnitPage from "./pages/APHumanGeoUnitPage.tsx";
 import PuzzlePicker from "./pages/PuzzlePicker.tsx";
 import Index from "./pages/Index.tsx";
 import About from "./pages/About.tsx";
@@ -62,6 +64,9 @@ const App = () => (
           <Route path="/apeuro" element={<APEuroLanding />} />
           <Route path="/apeuro/unit/:unit" element={<APEuroUnitPage />} />
           <Route path="/apeuro/unit/:unit/:puzzle" element={<Index />} />
+          <Route path="/aphumangeo" element={<APHumanGeoLanding />} />
+          <Route path="/aphumangeo/unit/:unit" element={<APHumanGeoUnitPage />} />
+          <Route path="/aphumangeo/unit/:unit/:puzzle" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

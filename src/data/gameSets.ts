@@ -11750,6 +11750,1042 @@ const apEuroGameSets: GameSet[] = [
 
 gameSets.push(...apEuroGameSets);
 
+const apHumanGeoGameSets: GameSet[] = [
+  // ── Unit 1, Puzzle 1: PSO ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-1-pso",
+    unit: 1,
+    puzzle: 1,
+    theme: { code: "PSO", name: "Patterns and Spatial Organization" },
+    title: "Thinking Geographically",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Thematic Map Types",
+        terms: [
+          { term: "Choropleth Map", definition: "A thematic map that uses shading or color gradients to show how a variable (like population density or income) varies across predefined areas." },
+          { term: "Dot Distribution Map", definition: "A thematic map that uses dots to represent the frequency or location of a specific feature, with each dot standing for a set quantity." },
+          { term: "Isoline Map", definition: "A thematic map that uses lines connecting points of equal value — like elevation contours or isotherms — to reveal spatial patterns across an area." },
+          { term: "Proportional Symbol Map", definition: "A thematic map that uses symbols (usually circles) of varying sizes to represent the quantity of a variable at specific locations." },
+        ],
+      },
+      {
+        name: "Scales of Analysis",
+        terms: [
+          { term: "Local Scale", definition: "The smallest level of geographic analysis, focusing on neighborhoods, cities, or small areas where fine-grained patterns are visible." },
+          { term: "Regional Scale", definition: "A mid-level geographic analysis covering multi-state, multi-country, or continent-sized areas and the patterns within them." },
+          { term: "National Scale", definition: "Geographic analysis at the level of a single country, examining patterns and processes that operate within national boundaries." },
+          { term: "Global Scale", definition: "The broadest level of geographic analysis, encompassing the entire world and processes that operate across all regions simultaneously." },
+        ],
+      },
+      {
+        name: "Types of Regions",
+        terms: [
+          { term: "Formal Region", definition: "An area defined by one or more shared, measurable characteristics that apply uniformly throughout — such as climate, language, or political boundary." },
+          { term: "Functional Region", definition: "An area organized around a central node or focal point to which it is linked by flows of people, goods, or communication (e.g., a metropolitan area)." },
+          { term: "Vernacular Region", definition: "A region defined by the informal perception or mental image that people have of it, based on cultural identity rather than official boundaries (e.g., 'the South')." },
+          { term: "Transition Zone", definition: "A boundary area where characteristics of one region gradually blend into those of an adjacent region, with no sharp dividing line." },
+        ],
+      },
+      {
+        name: "Properties of Spatial Distribution",
+        terms: [
+          { term: "Density", definition: "The number of features (people, buildings, plants) within a given unit of area; a measure of how crowded or sparse a distribution is." },
+          { term: "Concentration", definition: "The degree to which geographic features are clustered together in one area versus spread evenly across a larger space." },
+          { term: "Pattern", definition: "The geometric or visual arrangement of features across space — whether linear, clustered, random, or regular." },
+          { term: "Dispersion", definition: "The extent to which geographic features are spread out across an area, ranging from highly clustered (agglomerated) to widely scattered (dispersed)." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 1, Puzzle 2: IMP ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-1-imp",
+    unit: 1,
+    puzzle: 2,
+    theme: { code: "IMP", name: "Impacts and Interactions" },
+    title: "Thinking Geographically",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Types of Diffusion",
+        terms: [
+          { term: "Relocation Diffusion", definition: "The spread of an idea or innovation as people physically move from one place to another, carrying the cultural trait with them to a new location." },
+          { term: "Contagious Diffusion", definition: "Rapid, widespread spread of a feature through a population in all directions — like a disease moving from person to person regardless of hierarchy." },
+          { term: "Hierarchical Diffusion", definition: "Diffusion that flows from large, powerful places or influential people downward to smaller or less prominent places and people." },
+          { term: "Stimulus Diffusion", definition: "Expansion diffusion in which the underlying idea spreads outward from the hearth but is adapted or reinvented as it enters new cultural contexts." },
+        ],
+      },
+      {
+        name: "Geospatial Technologies",
+        terms: [
+          { term: "GIS", definition: "Geographic Information System — software that stores, analyzes, and displays geographic data in overlapping layers to reveal spatial patterns and relationships." },
+          { term: "GPS", definition: "Global Positioning System — a network of satellites that provides precise location coordinates (latitude, longitude, elevation) to receivers anywhere on Earth." },
+          { term: "Remote Sensing", definition: "Collecting data about Earth's surface without direct physical contact, typically through satellite or aircraft sensors that detect reflected energy." },
+          { term: "Aerial Photography", definition: "Images captured from aircraft or drones to study land use, vegetation, urban form, and environmental change from an overhead perspective." },
+        ],
+      },
+      {
+        name: "Map Projections",
+        terms: [
+          { term: "Mercator", definition: "A cylindrical projection preserving shape and direction (conformal) but greatly distorting the size of landmasses near the poles; historically used for maritime navigation." },
+          { term: "Peters (Gall-Peters)", definition: "A cylindrical equal-area projection that accurately represents relative land sizes but distorts shapes, especially in equatorial and polar regions." },
+          { term: "Robinson", definition: "A compromise projection minimizing overall distortion of both shape and area; neither fully equal-area nor conformal — widely used in atlases." },
+          { term: "Goode's Homolosine", definition: "An interrupted equal-area projection that cuts the oceans to reduce distortion of continental landmasses, resembling a peeled orange." },
+        ],
+      },
+      {
+        name: "Concepts of Spatial Interaction",
+        terms: [
+          { term: "Distance Decay", definition: "The decline in the amount of interaction between two places as the distance between them increases; nearby places interact more than distant ones." },
+          { term: "Friction of Distance", definition: "The impedance or cost imposed by distance on movement and interaction; as distance grows, time, money, and effort required increase, reducing flows." },
+          { term: "Time-Space Compression", definition: "The shrinking of relative distance between places due to improvements in transportation and communication technology, making the world feel 'smaller.'" },
+          { term: "Connectivity", definition: "The degree to which places are linked through transportation networks, communication infrastructure, and flows of goods, people, capital, and ideas." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 1, Puzzle 3: SPS ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-1-sps",
+    unit: 1,
+    puzzle: 3,
+    theme: { code: "SPS", name: "Spatial Processes and Societal Change" },
+    title: "Thinking Geographically",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Reference Map Types",
+        terms: [
+          { term: "Political Map", definition: "A reference map showing human-defined boundaries — countries, states, capitals, and cities — without emphasizing physical terrain." },
+          { term: "Physical Map", definition: "A reference map depicting natural features of Earth's surface: mountains, rivers, plains, lakes, and elevation changes." },
+          { term: "Topographic Map", definition: "A reference map that uses contour lines to represent elevation and the three-dimensional shape of Earth's terrain in two dimensions." },
+          { term: "Road Map", definition: "A reference map displaying transportation networks — highways, roads, and routes — designed to help users navigate between places." },
+        ],
+      },
+      {
+        name: "Ways to Describe Location",
+        terms: [
+          { term: "Absolute Location", definition: "The exact, fixed position of a place on Earth's surface expressed using a coordinate system such as latitude and longitude." },
+          { term: "Relative Location", definition: "A place's position described in relation to other places, landmarks, or regions rather than by a precise numerical coordinate." },
+          { term: "Site", definition: "The internal physical characteristics of a place — its terrain, soil, climate, water availability, and natural resources at that specific spot." },
+          { term: "Situation", definition: "A place's external location relative to surrounding features and other places; its regional context and how accessible it is to the wider world." },
+        ],
+      },
+      {
+        name: "Concepts of Place",
+        terms: [
+          { term: "Sense of Place", definition: "The subjective emotional attachment people develop toward a location based on personal experiences, memories, and cultural associations." },
+          { term: "Placelessness", definition: "The loss of a location's unique geographic character as places become increasingly standardized and homogenized (e.g., identical strip malls across cities)." },
+          { term: "Topophilia", definition: "A strong emotional bond between people and their physical environment or homeland; coined by humanistic geographer Yi-Fu Tuan." },
+          { term: "Cultural Landscape", definition: "The visible imprint of human activity on the natural landscape — the built environment, agriculture patterns, and infrastructure that reflect a society's values." },
+        ],
+      },
+      {
+        name: "Pioneering Geographers",
+        terms: [
+          { term: "Carl Sauer", definition: "Cultural geographer who defined the 'cultural landscape' and championed the study of human-environment interaction; founded the Berkeley School of cultural geography." },
+          { term: "Yi-Fu Tuan", definition: "Humanistic geographer who coined 'topophilia' and explored the emotional and experiential connections between people and their sense of place." },
+          { term: "Waldo Tobler", definition: "Geographer credited with the First Law of Geography: 'everything is related to everything else, but near things are more related than distant things.'" },
+          { term: "Torsten Hägerstrand", definition: "Swedish geographer who pioneered time-space geography and developed the foundational theory of spatial diffusion of innovations." },
+        ],
+      },
+    ],
+  },
+];
+
+gameSets.push(...apHumanGeoGameSets);
+
+const apHumanGeoUnit2GameSets: GameSet[] = [
+  // ── Unit 2, Puzzle 1: PSO ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-2-pso",
+    unit: 2,
+    puzzle: 1,
+    theme: { code: "PSO", name: "Patterns and Spatial Organization" },
+    title: "Population and Migration Patterns",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Vital Rates",
+        terms: [
+          { term: "Crude Birth Rate (CBR)", definition: "The number of live births per 1,000 people in a given population per year; the most basic measure of fertility." },
+          { term: "Crude Death Rate (CDR)", definition: "The number of deaths per 1,000 people in a given population per year; the most basic measure of mortality." },
+          { term: "Total Fertility Rate (TFR)", definition: "The average number of children a woman would have over her lifetime given current age-specific fertility rates; more precise than CBR." },
+          { term: "Natural Increase Rate (NIR)", definition: "The percentage by which a population grows in a year, calculated as CBR minus CDR; does not account for migration." },
+        ],
+      },
+      {
+        name: "Types of Population Density",
+        terms: [
+          { term: "Arithmetic Density", definition: "The total population of a region divided by its total land area; the simplest and most commonly cited population density measure." },
+          { term: "Physiologic Density", definition: "Total population divided by the amount of arable (farmable) land; reveals pressure on productive agricultural land." },
+          { term: "Agricultural Density", definition: "The number of farmers per unit of arable land; lower values indicate more mechanized, efficient agriculture." },
+          { term: "Carrying Capacity", definition: "The maximum population an environment can sustainably support given its available resources, technology, and land." },
+        ],
+      },
+      {
+        name: "Population Composition",
+        terms: [
+          { term: "Age-Sex Pyramid", definition: "A bar graph showing the distribution of a population by age group and sex; its shape reveals growth trends, demographic history, and future challenges." },
+          { term: "Dependency Ratio", definition: "The ratio of people under 15 and over 64 to those aged 15–64; measures the economic burden on the working-age population." },
+          { term: "Sex Ratio", definition: "The number of males per 100 females in a population; imbalances can result from war, selective migration, or son-preference policies." },
+          { term: "Cohort", definition: "A group of people sharing a common demographic characteristic — usually age — studied together over time (e.g., the Baby Boom cohort)." },
+        ],
+      },
+      {
+        name: "Population Distribution Concepts",
+        terms: [
+          { term: "Ecumene", definition: "The permanently inhabited portion of Earth's surface; contrasted with uninhabited areas too cold, dry, steep, or remote for permanent settlement." },
+          { term: "Doubling Time", definition: "The number of years it takes for a population to double at its current growth rate; estimated using the Rule of 70 (70 ÷ NIR)." },
+          { term: "Population Momentum", definition: "The tendency for population to keep growing even after fertility drops to replacement level, because a large base of young people is still entering reproductive age." },
+          { term: "Replacement Level Fertility", definition: "The TFR (~2.1 children per woman) at which a population exactly replaces itself from one generation to the next, assuming no migration." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 2, Puzzle 2: IMP ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-2-imp",
+    unit: 2,
+    puzzle: 2,
+    theme: { code: "IMP", name: "Impacts and Interactions" },
+    title: "Population and Migration Patterns",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Types of Migrants",
+        terms: [
+          { term: "Refugee", definition: "A person forced to flee their country due to war, persecution, or natural disaster who has been granted legal protection under international law (1951 UN Convention)." },
+          { term: "Asylum Seeker", definition: "A person who has fled their country and applied for refugee status in another country, but whose claim has not yet been officially decided." },
+          { term: "Internally Displaced Person (IDP)", definition: "Someone forced from their home by conflict, disaster, or persecution who remains within their own country's borders and has no international legal protection." },
+          { term: "Economic Migrant", definition: "A person who moves voluntarily across borders primarily in search of better economic opportunities — jobs, wages, or standard of living — rather than fleeing persecution." },
+        ],
+      },
+      {
+        name: "Migration Phenomena",
+        terms: [
+          { term: "Brain Drain", definition: "The emigration of highly educated or skilled workers from a developing country to wealthier nations, reducing the origin country's human capital and potential for growth." },
+          { term: "Remittances", definition: "Money sent by migrants back to family members in their home country; a major source of foreign income for many developing nations, often exceeding foreign aid." },
+          { term: "Chain Migration", definition: "The process by which migrants follow earlier migrants from the same origin to the same destination, relying on established social networks to ease the transition." },
+          { term: "Guest Workers", definition: "Migrants who move to a wealthier country temporarily to fill labor shortages, often in low-skill sectors, without full citizenship or residency rights." },
+        ],
+      },
+      {
+        name: "Population Policies",
+        terms: [
+          { term: "Pro-Natalist Policy", definition: "Government measures encouraging higher birth rates through incentives such as baby bonuses, tax breaks, subsidized childcare, and paid parental leave (e.g., France, Singapore)." },
+          { term: "Anti-Natalist Policy", definition: "Government measures aimed at reducing birth rates through family planning education, contraception access, and sometimes financial disincentives (e.g., India, China)." },
+          { term: "One-Child Policy", definition: "China's 1980–2015 policy restricting most urban families to a single child to curb population growth; enforced through fines, social pressure, and sometimes coercion." },
+          { term: "Kerala Model", definition: "India's Kerala state demonstrated that investments in female education and healthcare — not coercive policy — can reduce fertility rates and improve development outcomes." },
+        ],
+      },
+      {
+        name: "Consequences of Demographic Change",
+        terms: [
+          { term: "Aging Population", definition: "A demographic shift where the elderly share of the population grows, straining pension systems, healthcare, and the working-age tax base." },
+          { term: "Youth Bulge", definition: "A condition where a large proportion of the population is young (under 25); associated with economic opportunity if jobs exist, or instability if they do not." },
+          { term: "Urbanization", definition: "The increasing proportion of a country's population living in cities, driven by rural-to-urban migration and natural population growth within urban areas." },
+          { term: "Suburbanization", definition: "The movement of people, businesses, and services from urban cores to surrounding suburbs; reshapes metropolitan population distribution and commuting patterns." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 2, Puzzle 3: SPS ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-2-sps",
+    unit: 2,
+    puzzle: 3,
+    theme: { code: "SPS", name: "Spatial Processes and Societal Change" },
+    title: "Population and Migration Patterns",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Demographic Transition Model Stages",
+        terms: [
+          { term: "DTM Stage 1", definition: "High, fluctuating birth and death rates; near-zero population growth; characteristic of pre-industrial and isolated societies with no access to modern medicine." },
+          { term: "DTM Stage 2", definition: "High birth rates and rapidly falling death rates due to improved sanitation and medicine; rapid population growth; early-industrializing nations (e.g., 19th-century Europe, today's sub-Saharan Africa)." },
+          { term: "DTM Stage 3", definition: "Declining birth rates alongside low death rates; slowing population growth; increasing urbanization and women's education reduce family size (e.g., Brazil, India)." },
+          { term: "DTM Stage 4", definition: "Low birth and death rates; stable or slowly declining population; post-industrial, highly developed nations (e.g., USA, Japan, most of Western Europe)." },
+        ],
+      },
+      {
+        name: "Epidemiological Transition Model Stages",
+        terms: [
+          { term: "Pestilence and Famine", definition: "ETM Stage 1 — high death rates from infectious diseases, famine, and war; very short life expectancy; corresponds to DTM Stage 1." },
+          { term: "Receding Pandemics", definition: "ETM Stage 2 — improvements in sanitation, nutrition, and medicine reduce infectious disease deaths; rising life expectancy; corresponds to DTM Stage 2." },
+          { term: "Degenerative Diseases", definition: "ETM Stage 3 — chronic, lifestyle-related diseases (heart disease, cancer) replace infections as leading causes of death; corresponds to DTM Stage 3." },
+          { term: "Delayed Degenerative Diseases", definition: "ETM Stage 4 — medical advances delay onset of chronic diseases; very high life expectancy; aging populations; corresponds to DTM Stage 4." },
+        ],
+      },
+      {
+        name: "Migration Models and Theories",
+        terms: [
+          { term: "Ravenstein's Laws", definition: "19th-century empirical rules predicting migration patterns: most migrants travel short distances, move in steps toward urban centers, are young adults, and are motivated by economics." },
+          { term: "Gravity Model", definition: "Predicts that migration flows between two places are directly proportional to the size of their populations and inversely proportional to the distance separating them." },
+          { term: "Intervening Opportunity", definition: "Samuel Stouffer's theory that the presence of a closer, comparable destination reduces the attractiveness of a more distant one for migrants." },
+          { term: "Push-Pull Theory", definition: "A framework explaining migration as driven by forces repelling people from their origin (push factors) and forces attracting them to a destination (pull factors)." },
+        ],
+      },
+      {
+        name: "Types of Migration",
+        terms: [
+          { term: "Voluntary Migration", definition: "Movement driven by personal choice — typically for economic, social, or family reasons — rather than by force or coercion." },
+          { term: "Forced Migration", definition: "Involuntary movement compelled by conflict, persecution, environmental disaster, or government action; the migrant has little or no choice." },
+          { term: "Step Migration", definition: "A pattern in which migrants move from rural areas to progressively larger urban centers in stages, rather than relocating directly to a major city." },
+          { term: "Transhumance", definition: "A traditional cyclic migration pattern in which herders and livestock move seasonally between lowland pastures in winter and highland pastures in summer." },
+        ],
+      },
+    ],
+  },
+];
+
+gameSets.push(...apHumanGeoUnit2GameSets);
+
+const apHumanGeoUnit3GameSets: GameSet[] = [
+  // ── Unit 3, Puzzle 1: PSO ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-3-pso",
+    unit: 3,
+    puzzle: 1,
+    theme: { code: "PSO", name: "Patterns and Spatial Organization" },
+    title: "Cultural Patterns and Processes",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Major Language Families",
+        terms: [
+          { term: "Indo-European", definition: "The world's most widely spoken language family, encompassing Romance, Germanic, Slavic, and Indo-Iranian branches; spoken across Europe, the Americas, and South Asia." },
+          { term: "Sino-Tibetan", definition: "The second-largest language family by number of speakers, including Mandarin Chinese, Cantonese, Tibetan, and Burmese; dominant in East and Southeast Asia." },
+          { term: "Afro-Asiatic", definition: "A language family spanning North Africa and the Middle East, including Arabic, Hebrew, Amharic, Somali, and Hausa; one of the world's oldest documented families." },
+          { term: "Niger-Congo", definition: "The largest language family by number of distinct languages, covering most of sub-Saharan Africa and including Swahili, Yoruba, Zulu, and Igbo." },
+        ],
+      },
+      {
+        name: "Core Cultural Concepts",
+        terms: [
+          { term: "Cultural Trait", definition: "A single element of normal practice in a culture — a tool, belief, behavior, or custom — that can be observed and potentially shared across cultures." },
+          { term: "Cultural Complex", definition: "A collection of interrelated cultural traits that form an integrated whole (e.g., the rituals, tools, and social structures surrounding rice farming in East Asia)." },
+          { term: "Cultural Region", definition: "An area where a set of cultural traits and complexes is most cohesive and dominant, defining the character of the place for its inhabitants." },
+          { term: "Cultural Hearth", definition: "The geographic origin point from which a culture, innovation, religion, or language spreads outward via diffusion (e.g., Mesopotamia for writing and agriculture)." },
+        ],
+      },
+      {
+        name: "Language Variety Types",
+        terms: [
+          { term: "Lingua Franca", definition: "A language used as a common means of communication between speakers of different native languages (e.g., English in global business, Swahili in East Africa)." },
+          { term: "Pidgin Language", definition: "A simplified contact language with limited vocabulary that develops when speakers of mutually unintelligible languages need to communicate, typically for trade." },
+          { term: "Creole Language", definition: "A pidgin language that has become the native tongue of a community, gaining complexity, grammar, and a full vocabulary (e.g., Haitian Creole, Louisiana Creole)." },
+          { term: "Dialect", definition: "A regional or social variety of a language distinguished by distinctive vocabulary, grammar, and pronunciation (e.g., American vs. British English)." },
+        ],
+      },
+      {
+        name: "Cultural Frameworks",
+        terms: [
+          { term: "Ethnocentrism", definition: "The practice of judging another culture by the standards and values of one's own culture, often leading to the view that one's culture is superior." },
+          { term: "Cultural Relativism", definition: "The principle that a culture should be understood and evaluated on its own terms, without imposing the standards of another culture as a benchmark." },
+          { term: "Multiculturalism", definition: "A social framework that recognizes and respects the coexistence of multiple distinct cultural groups within a single society without requiring assimilation." },
+          { term: "Cultural Imperialism", definition: "The imposition of one culture's values, behaviors, consumer goods, and media on another culture, often through economic or political dominance." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 3, Puzzle 2: IMP ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-3-imp",
+    unit: 3,
+    puzzle: 2,
+    theme: { code: "IMP", name: "Impacts and Interactions" },
+    title: "Cultural Patterns and Processes",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Universalizing Religions",
+        terms: [
+          { term: "Christianity", definition: "The world's largest universalizing religion (~2.4 billion followers); originated in the Middle East, spread via the Roman Empire and European colonialism; centered on the life and teachings of Jesus Christ." },
+          { term: "Islam", definition: "The second-largest universalizing religion (~1.9 billion followers); originated in the Arabian Peninsula in the 7th century CE; spread via trade routes and conquest; centered on submission to Allah." },
+          { term: "Buddhism", definition: "A universalizing religion (~500 million followers) founded in South Asia in the 5th century BCE; spread through missionary activity into East and Southeast Asia; centered on the teachings of Siddhartha Gautama." },
+          { term: "Sikhism", definition: "A universalizing religion (~30 million followers) founded in the Punjab region in the 15th century CE; emphasizes equality, service, and devotion to one God; spread globally through diaspora migration." },
+        ],
+      },
+      {
+        name: "Ethnic Religions",
+        terms: [
+          { term: "Hinduism", definition: "The world's third-largest religion (~1.2 billion followers), primarily concentrated in South Asia; ethnic in character with no central authority, missionary tradition, or single founder." },
+          { term: "Judaism", definition: "An ethnic monotheistic religion tied to the Jewish people and the land of Israel; approximately 15 million adherents worldwide; one of the oldest continuously practiced religions." },
+          { term: "Shintoism", definition: "An ethnic religion indigenous to Japan centered on reverence for kami (spirits in nature, ancestors, and sacred places); deeply intertwined with Japanese national identity." },
+          { term: "Animism", definition: "Localized traditional belief systems attributing spiritual essence to plants, animals, natural phenomena, and ancestors; found across indigenous cultures on every continent." },
+        ],
+      },
+      {
+        name: "Cultural Landscape Concepts",
+        terms: [
+          { term: "Sequent Occupance", definition: "The concept that successive cultures leave layered imprints on a landscape over time, creating a cumulative record of human habitation visible in place names, architecture, and land use." },
+          { term: "Sacred Space", definition: "A place considered holy or spiritually significant by a religious or cultural group, often marked by shrines, temples, or pilgrimage routes (e.g., Jerusalem, Mecca, the Ganges River)." },
+          { term: "Ethnic Enclave", definition: "A neighborhood or district with a high concentration of a particular ethnic group, often with businesses, religious institutions, and cultural organizations serving that community (e.g., Chinatown, Little Italy)." },
+          { term: "Placelessness", definition: "The erosion of a location's unique geographic and cultural character as globalization standardizes the built environment (e.g., identical chain stores and strip malls appearing in every city)." },
+        ],
+      },
+      {
+        name: "Indo-European Subfamilies",
+        terms: [
+          { term: "Romance Languages", definition: "The Indo-European subfamily descended from Latin, including Spanish, French, Portuguese, Italian, and Romanian; spread globally via European colonialism." },
+          { term: "Germanic Languages", definition: "The Indo-European subfamily including English, German, Dutch, Swedish, and Norwegian; dominant in Northern and Western Europe and their former colonies." },
+          { term: "Slavic Languages", definition: "The Indo-European subfamily including Russian, Polish, Czech, Bulgarian, and Serbo-Croatian; dominant across Eastern Europe and northern Asia." },
+          { term: "Indo-Iranian Languages", definition: "The Indo-European subfamily including Hindi, Urdu, Bengali, Farsi, and Punjabi; the most widely spoken branch by number of native speakers, dominant in South Asia and Iran." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 3, Puzzle 3: SPS ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-3-sps",
+    unit: 3,
+    puzzle: 3,
+    theme: { code: "SPS", name: "Spatial Processes and Societal Change" },
+    title: "Cultural Patterns and Processes",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Processes of Cultural Change",
+        terms: [
+          { term: "Acculturation", definition: "The process by which a group adopts elements of another culture through sustained contact while still retaining aspects of its original cultural identity." },
+          { term: "Assimilation", definition: "The process by which a minority group fully adopts the language, customs, and values of the dominant culture, losing its original cultural distinctiveness." },
+          { term: "Syncretism", definition: "The blending of elements from two or more cultures or religions to form a new, hybrid practice (e.g., Voodoo blends West African religion with Catholicism; Christmas incorporates pre-Christian traditions)." },
+          { term: "Cultural Revival", definition: "The renewal and revitalization of a declining cultural practice, language, or identity — often in response to outside pressure or as an expression of ethnic pride (e.g., Welsh language revival)." },
+        ],
+      },
+      {
+        name: "Ancient Cultural Hearths",
+        terms: [
+          { term: "Mesopotamia", definition: "One of humanity's earliest cultural hearths, located between the Tigris and Euphrates rivers (modern Iraq); origin point of writing, codified law, and urban civilization." },
+          { term: "Nile River Valley", definition: "A major cultural hearth in northeastern Africa where Egyptian civilization developed hieroglyphic writing, monumental architecture, and centralized government over 5,000 years." },
+          { term: "Indus River Valley", definition: "A cultural hearth in modern Pakistan and northwest India where the Harappan civilization developed planned grid cities, standardized weights, and an undeciphered writing system." },
+          { term: "Huang He Valley", definition: "A cultural hearth in eastern China where Chinese civilization developed one of the world's longest continuous cultural traditions, including Chinese writing, bronze metallurgy, and Confucianism." },
+        ],
+      },
+      {
+        name: "Globalization and Culture",
+        terms: [
+          { term: "Cultural Convergence", definition: "The tendency for cultures to become more alike as globalization spreads shared technologies, media, consumer goods, and values across the world." },
+          { term: "Cultural Divergence", definition: "The tendency for cultures to maintain or actively emphasize their distinctiveness and resist outside cultural influences as a response to globalization." },
+          { term: "Westernization", definition: "The spread of Western — especially American — cultural values, consumer brands, fashion, and media to other parts of the world through economic and political dominance." },
+          { term: "Glocalization", definition: "The adaptation of global products, brands, or ideas to fit the tastes and preferences of local cultures (e.g., McDonald's offering rice dishes in Asia or McAloo Tikki in India)." },
+        ],
+      },
+      {
+        name: "Social Identity Concepts",
+        terms: [
+          { term: "Race", definition: "A social construct categorizing humans based on perceived physical characteristics (e.g., skin color); lacks a consistent biological basis but carries profound social, political, and geographic significance." },
+          { term: "Ethnicity", definition: "A shared cultural identity based on common language, religion, ancestry, history, and traditions; distinct from race and self-defined rather than externally imposed." },
+          { term: "Nationality", definition: "Legal citizenship and political membership in a nation-state; can also refer to cultural affiliation with a national group, which may differ from legal citizenship." },
+          { term: "Diaspora", definition: "A population dispersed from its original homeland — often by force or migration — that maintains cultural, social, or political ties to that homeland (e.g., African diaspora, Jewish diaspora, Indian diaspora)." },
+        ],
+      },
+    ],
+  },
+];
+
+gameSets.push(...apHumanGeoUnit3GameSets);
+
+const apHumanGeoUnit4GameSets: GameSet[] = [
+  // ── Unit 4, Puzzle 1: PSO ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-4-pso",
+    unit: 4,
+    puzzle: 1,
+    theme: { code: "PSO", name: "Patterns and Spatial Organization" },
+    title: "Political Patterns and Processes",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Types of States",
+        terms: [
+          { term: "Nation-State", definition: "A state whose borders closely correspond to the territory occupied by a particular nation; the ideal political unit in modern geopolitics (e.g., Japan, Iceland, Denmark)." },
+          { term: "Multinational State", definition: "A state containing two or more distinct ethnic groups with traditions of self-determination who may seek autonomy or independence (e.g., Russia, Canada, Belgium)." },
+          { term: "Multistate Nation", definition: "A nation (ethnic group) whose homeland spans the borders of two or more states (e.g., Kurds across Turkey, Iraq, Iran, and Syria; Basques across Spain and France)." },
+          { term: "Stateless Nation", definition: "An ethnic group that considers itself a distinct nation but lacks its own sovereign state (e.g., Palestinians, Kurds, Tibetans, Roma)." },
+        ],
+      },
+      {
+        name: "Types of Boundaries",
+        terms: [
+          { term: "Antecedent Boundary", definition: "A boundary drawn before the area was significantly settled, with little regard for cultural or ethnic patterns (e.g., the US-Canada border along the 49th parallel west of the Great Lakes)." },
+          { term: "Subsequent Boundary", definition: "A boundary drawn after settlement, negotiated to account for existing cultural, linguistic, or religious differences in the population." },
+          { term: "Superimposed Boundary", definition: "A boundary drawn by outside powers — often colonial — with no consideration of existing cultural, ethnic, or tribal divisions, frequently sowing future conflict (e.g., Africa's colonial borders)." },
+          { term: "Relic Boundary", definition: "A boundary that no longer functions as a political divide but whose former presence is still visible in the cultural landscape (e.g., the former Iron Curtain, Hadrian's Wall)." },
+        ],
+      },
+      {
+        name: "Forms of Government",
+        terms: [
+          { term: "Unitary State", definition: "A state where political power is concentrated in the central government; subnational units have limited autonomy and exist at the central government's discretion (e.g., France, Japan, UK)." },
+          { term: "Federal State", definition: "A state where power is constitutionally divided between a central government and regional governments (states/provinces), each with defined authority (e.g., USA, Germany, India)." },
+          { term: "Theocracy", definition: "A government in which religious leaders rule and religious law forms the basis of civil law (e.g., Iran's Islamic Republic, Vatican City)." },
+          { term: "Autocracy", definition: "A system of government in which one person holds supreme, unchecked political power — either as a dictatorship or absolute monarchy." },
+        ],
+      },
+      {
+        name: "Shapes of States",
+        terms: [
+          { term: "Compact State", definition: "A state with a roughly circular or square shape that minimizes the distance from the center to any border, easing administration and communication (e.g., Poland, Uganda, Cambodia)." },
+          { term: "Elongated State", definition: "A state with a long, narrow shape that can create transportation, communication, and governance challenges (e.g., Chile, Norway, Vietnam, Gambia)." },
+          { term: "Fragmented State", definition: "A state made up of several disconnected pieces — islands or separated territories — that complicate national unity and administration (e.g., Indonesia, Philippines, USA with Alaska and Hawaii)." },
+          { term: "Perforated State", definition: "A state whose territory completely surrounds another state, creating an internal enclave (e.g., South Africa surrounds Lesotho; Italy surrounds Vatican City and San Marino)." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 4, Puzzle 2: IMP ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-4-imp",
+    unit: 4,
+    puzzle: 2,
+    theme: { code: "IMP", name: "Impacts and Interactions" },
+    title: "Political Patterns and Processes",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Supranational Organizations",
+        terms: [
+          { term: "United Nations (UN)", definition: "An intergovernmental organization founded in 1945 to promote international peace, security, and cooperation; currently has 193 member states and is headquartered in New York City." },
+          { term: "European Union (EU)", definition: "A political and economic supranational organization of 27 European states sharing a common market, common regulatory standards, and — for most members — a common currency (the euro)." },
+          { term: "NATO", definition: "The North Atlantic Treaty Organization; a military alliance of 32 democracies committed to collective defense — an armed attack on one member is considered an attack on all." },
+          { term: "OPEC", definition: "The Organization of the Petroleum Exporting Countries; a cartel of oil-producing nations that coordinates production levels to influence global oil prices and protect member revenues." },
+        ],
+      },
+      {
+        name: "Types of Boundary Disputes",
+        terms: [
+          { term: "Definitional Dispute", definition: "A disagreement over the legal language or treaty terms used to describe where a boundary lies (e.g., whether a river boundary follows the center or the deepest channel)." },
+          { term: "Locational Dispute", definition: "A disagreement over where exactly a boundary should be placed on the ground, even when the legal definition is agreed upon (e.g., disputes over border demarcation after a treaty)." },
+          { term: "Operational Dispute", definition: "A disagreement over how a boundary should function in practice — who can cross it, under what conditions, and how it is policed." },
+          { term: "Allocational Dispute", definition: "A disagreement over rights to natural resources — oil, water, fish, or minerals — that lie along or beneath a shared boundary (e.g., South China Sea territorial disputes)." },
+        ],
+      },
+      {
+        name: "Forces Acting on States",
+        terms: [
+          { term: "Centripetal Force", definition: "A force that unites and binds a state together, strengthening national identity — shared language, religion, common enemy, national pride, or a strong economy." },
+          { term: "Centrifugal Force", definition: "A force that divides and destabilizes a state, weakening national unity — ethnic conflict, regional inequality, religious difference, or separatist movements." },
+          { term: "Devolution", definition: "The transfer of political power from a central government to regional or subnational governments, often driven by centrifugal pressures (e.g., Scotland and Wales within the UK)." },
+          { term: "Balkanization", definition: "The process by which a state fragments into smaller, often hostile political units along ethnic or cultural lines; named after the fragmentation of the Balkans in the early 20th century and again in the 1990s." },
+        ],
+      },
+      {
+        name: "Geopolitical Theories",
+        terms: [
+          { term: "Heartland Theory", definition: "Halford Mackinder's 1904 theory arguing that whoever controls the Eurasian 'heartland' (Eastern Europe/Central Asia) controls the 'World Island' and ultimately the world." },
+          { term: "Rimland Theory", definition: "Nicholas Spykman's counter-theory (1944) arguing that the coastal rimland surrounding the Eurasian heartland is the key to global power, not the interior." },
+          { term: "Shatterbelt", definition: "A strategically located region caught between competing great powers and internally fragmented by ethnic or religious conflict (e.g., the Middle East, Southeast Asia, Eastern Europe)." },
+          { term: "Choke Point", definition: "A narrow, strategically vital waterway through which a large volume of global trade passes and which can be controlled to project military or economic power (e.g., Strait of Hormuz, Strait of Malacca, Suez Canal)." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 4, Puzzle 3: SPS ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-4-sps",
+    unit: 4,
+    puzzle: 3,
+    theme: { code: "SPS", name: "Spatial Processes and Societal Change" },
+    title: "Political Patterns and Processes",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Self-Determination Concepts",
+        terms: [
+          { term: "Nationalism", definition: "A strong sense of attachment to a nation based on shared culture, language, and history, often paired with the desire for political self-governance and a sovereign state." },
+          { term: "Self-Determination", definition: "The right of a people or nation to decide their own political status and form of government, including independence from colonial or foreign rule; enshrined in the UN Charter." },
+          { term: "Secession", definition: "The formal withdrawal of a group or region from a larger political entity to form an independent state (e.g., South Sudan from Sudan in 2011, Eritrea from Ethiopia in 1993)." },
+          { term: "Irredentism", definition: "A movement by a state to annex territory in a neighboring state populated by people of the same ethnicity (e.g., Germany's annexation of the Sudetenland in 1938; Russia's claims on eastern Ukraine)." },
+        ],
+      },
+      {
+        name: "Electoral Geography",
+        terms: [
+          { term: "Gerrymandering", definition: "The manipulation of electoral district boundaries to favor one political party or group over another, named after Governor Elbridge Gerry whose Massachusetts district looked like a salamander." },
+          { term: "Redistricting", definition: "The process of redrawing the boundaries of electoral districts, typically done after each decennial census to reflect population changes." },
+          { term: "Reapportionment", definition: "The reallocation of seats in a legislative body among states or districts based on population shifts measured by a census." },
+          { term: "Proportional Representation", definition: "An electoral system in which parties receive legislative seats in proportion to their share of the popular vote, contrasted with winner-take-all plurality systems." },
+        ],
+      },
+      {
+        name: "Colonialism and Its Legacy",
+        terms: [
+          { term: "Colonialism", definition: "The practice of a powerful country establishing political, economic, and cultural control over a weaker territory, exploiting its resources and labor for the colonizer's benefit." },
+          { term: "Imperialism", definition: "The policy of extending a country's power and influence over other territories through diplomacy, economic coercion, or military force, often without formal colonial administration." },
+          { term: "Neocolonialism", definition: "The continuation of economic and political dominance over formerly colonized nations through trade agreements, debt, foreign aid conditionality, and multinational corporations rather than direct rule." },
+          { term: "Decolonization", definition: "The process by which colonies gained political independence from their colonizers; primarily occurred in Africa and Asia in the decades following World War II." },
+        ],
+      },
+      {
+        name: "Special Territory Types",
+        terms: [
+          { term: "Primate City", definition: "A city overwhelmingly dominant in its country — disproportionately large and controlling most political, economic, and cultural activity — with no comparable rivals (e.g., Paris, Bangkok, Mexico City)." },
+          { term: "Forward Capital", definition: "A capital city deliberately relocated — often to a peripheral or disputed region — to assert sovereignty, promote development, or shift political focus (e.g., Brasília, Islamabad, Naypyidaw)." },
+          { term: "Enclave", definition: "A piece of territory belonging to one state that is completely surrounded by the territory of another state (e.g., Lesotho within South Africa; Vatican City within Italy)." },
+          { term: "Exclave", definition: "A portion of a state's territory that is geographically separated from its main body by the territory of another state (e.g., Alaska separated from the contiguous US; Kaliningrad separated from Russia by Lithuania and Belarus)." },
+        ],
+      },
+    ],
+  },
+];
+
+gameSets.push(...apHumanGeoUnit4GameSets);
+
+const apHumanGeoUnit5GameSets: GameSet[] = [
+  // ── Unit 5, Puzzle 1: PSO ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-5-pso",
+    unit: 5,
+    puzzle: 1,
+    theme: { code: "PSO", name: "Patterns and Spatial Organization" },
+    title: "Agriculture and Rural Land Use",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Types of Agriculture",
+        terms: [
+          { term: "Subsistence Agriculture", definition: "Farming in which nearly all crops or livestock are consumed by the farmer's own family, with little or no surplus produced for sale in markets." },
+          { term: "Commercial Agriculture", definition: "Farming in which crops or livestock are produced primarily for sale in markets, typically using mechanization, specialized inputs, and agribusiness integration." },
+          { term: "Intensive Agriculture", definition: "Agriculture requiring large inputs of labor, capital, or technology per unit of land area to maximize yields; typically found near population centers where land is scarce and valuable." },
+          { term: "Extensive Agriculture", definition: "Agriculture using large areas of land with relatively low inputs of labor or capital per unit; economically viable only where land is cheap and abundant, such as the Great Plains or Australian Outback." },
+        ],
+      },
+      {
+        name: "Von Thünen's Model Zones",
+        terms: [
+          { term: "Zone 1 — Market Garden and Dairy", definition: "The innermost ring in von Thünen's model, closest to the market city; produces perishable goods (vegetables, fruit, dairy) requiring fast delivery; high land rent is offset by high output value." },
+          { term: "Zone 2 — Forest", definition: "The second ring in von Thünen's model; historically used for firewood and timber, which were heavy and costly to transport; now largely obsolete but reflects 19th-century energy needs." },
+          { term: "Zone 3 — Crop Farming", definition: "The third ring where grain and field crops are grown; less perishable than dairy, so farmers can absorb higher transport costs at greater distances from the market city." },
+          { term: "Zone 4 — Livestock Ranching", definition: "The outermost ring in von Thünen's model, used for extensive grazing; livestock can walk themselves to market, making extreme distance from the city economically feasible." },
+        ],
+      },
+      {
+        name: "Rural Settlement Patterns",
+        terms: [
+          { term: "Clustered Settlement", definition: "A rural settlement pattern in which homes and buildings are grouped closely together in a central village surrounded by farmland; common in Europe and parts of Asia; also called nucleated." },
+          { term: "Dispersed Settlement", definition: "A rural settlement pattern in which farms and homes are spread individually across the landscape, each isolated on its own land; common in the American Midwest and Canada." },
+          { term: "Linear Settlement", definition: "A rural settlement pattern in which buildings are arranged in a line along a road, river, coastline, or other linear geographic feature." },
+          { term: "Long Lot Settlement", definition: "A settlement pattern of narrow strips of land extending perpendicular from a river or road, giving many farmers equal access to the waterway; characteristic of French colonial settlement in Louisiana and Quebec." },
+        ],
+      },
+      {
+        name: "Commercial Agriculture Types",
+        terms: [
+          { term: "Mediterranean Agriculture", definition: "A specialized commercial system in regions with hot, dry summers and mild, wet winters; produces olives, grapes, citrus, and wheat for export (e.g., California, southern Europe, Chile)." },
+          { term: "Mixed Crop and Livestock", definition: "A commercial system in which farmers raise animals and grow crops on the same farm, using crops to feed livestock and animal manure to fertilize fields; dominant in the US Corn Belt and Central Europe." },
+          { term: "Dairy Farming", definition: "A commercial system producing milk and dairy products; requires proximity to urban markets due to perishability; concentrated in the US Northeast, Great Lakes, and Northwestern Europe." },
+          { term: "Grain Farming", definition: "A highly mechanized commercial system specializing in wheat, corn, or soybeans on large, flat farms; dominant in the US Great Plains, Canadian Prairies, and Ukrainian steppe." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 5, Puzzle 2: IMP ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-5-imp",
+    unit: 5,
+    puzzle: 2,
+    theme: { code: "IMP", name: "Impacts and Interactions" },
+    title: "Agriculture and Rural Land Use",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Agricultural Revolutions",
+        terms: [
+          { term: "First Agricultural Revolution", definition: "The Neolithic transition (~10,000 BCE) from hunting and gathering to sedentary farming; involved the domestication of plants and animals; occurred independently in multiple hearths worldwide." },
+          { term: "Second Agricultural Revolution", definition: "An 18th-century transformation in Europe involving crop rotation, new farm tools, selective animal breeding, and land enclosure; increased yields and freed labor for industrial cities." },
+          { term: "Green Revolution", definition: "A mid-20th-century package of agricultural innovations — high-yielding crop varieties, synthetic fertilizers, pesticides, and irrigation — that dramatically increased food production in developing nations." },
+          { term: "Gene Revolution", definition: "The ongoing late-20th/21st-century transformation of agriculture through biotechnology, genetically modified organisms (GMOs), and genetic engineering to boost yields and resist disease." },
+        ],
+      },
+      {
+        name: "Agricultural Environmental Impacts",
+        terms: [
+          { term: "Soil Degradation", definition: "The decline in soil quality caused by erosion, nutrient depletion, compaction, waterlogging, or chemical contamination from intensive farming; reduces future agricultural productivity." },
+          { term: "Salinization", definition: "The buildup of salt in soil caused by irrigation with mineral-rich water that evaporates and leaves salt crystals behind; renders land infertile and is a major threat in arid irrigated regions." },
+          { term: "Desertification", definition: "The transformation of semi-arid or arid land into desert through overgrazing, deforestation, and drought; accelerated by human agricultural misuse of marginal lands (e.g., the Sahel)." },
+          { term: "Aquifer Depletion", definition: "The over-extraction of groundwater from underground aquifers faster than natural recharge; threatens long-term irrigation water supply (e.g., the Ogallala Aquifer beneath the US Great Plains)." },
+        ],
+      },
+      {
+        name: "Food System Concepts",
+        terms: [
+          { term: "Food Security", definition: "The condition in which all people at all times have physical and economic access to sufficient, safe, and nutritious food to meet their dietary needs for a healthy, active life." },
+          { term: "Food Desert", definition: "An area — often low-income and urban — with limited access to affordable, fresh, and nutritious food, typically due to the absence of grocery stores and overabundance of fast food." },
+          { term: "Agribusiness", definition: "Large-scale commercial farming integrated vertically with food processing, distribution, and retail; characterized by corporate ownership, mechanization, and global supply chains." },
+          { term: "Commodity Chain", definition: "The network of links connecting the production of an agricultural product — from seeds and farming through processing, distribution, and retail — to the final consumer." },
+        ],
+      },
+      {
+        name: "Agricultural Policy and Trade",
+        terms: [
+          { term: "Agricultural Subsidy", definition: "Government financial support for farmers that artificially lowers production costs or guarantees prices, allowing domestic products to compete with cheaper imports (e.g., EU Common Agricultural Policy, US farm bills)." },
+          { term: "Agricultural Tariff", definition: "A tax on imported agricultural goods that raises their price relative to domestic products, protecting local farmers from foreign competition." },
+          { term: "Fair Trade", definition: "A movement and certification system that guarantees farmers in developing countries a minimum price for their products, bypassing exploitative middlemen and promoting economic equity." },
+          { term: "Monoculture", definition: "The agricultural practice of growing a single crop species over a large area year after year; maximizes short-term efficiency but depletes soil nutrients and creates vulnerability to pests and disease." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 5, Puzzle 3: SPS ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-5-sps",
+    unit: 5,
+    puzzle: 3,
+    theme: { code: "SPS", name: "Spatial Processes and Societal Change" },
+    title: "Agriculture and Rural Land Use",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Agricultural Hearths",
+        terms: [
+          { term: "Fertile Crescent", definition: "The earliest known agricultural hearth in Southwest Asia (~10,000 BCE); birthplace of wheat, barley, lentils, chickpeas, and the domestication of sheep, goats, cattle, and pigs." },
+          { term: "East Asia Hearth", definition: "An independent agricultural hearth in China's Huang He and Yangtze River valleys (~7,000 BCE) where rice and millet were first domesticated; later soybean cultivation developed here as well." },
+          { term: "Sub-Saharan Africa Hearth", definition: "An independent agricultural hearth across West Africa and the Ethiopian Highlands where sorghum, yams, coffee, and cowpeas were domesticated; multiple sub-hearths developed across the continent." },
+          { term: "Mesoamerican Hearth", definition: "An independent agricultural hearth in modern Mexico and Central America (~7,000 BCE) where maize (corn), squash, and beans — the 'Three Sisters' — were domesticated and later spread throughout the Americas." },
+        ],
+      },
+      {
+        name: "Sustainable Agriculture Methods",
+        terms: [
+          { term: "Crop Rotation", definition: "The practice of alternating different crops on the same field across seasons or years to restore soil nutrients, reduce pest buildup, and decrease reliance on chemical inputs." },
+          { term: "Organic Farming", definition: "An agricultural system that avoids synthetic chemicals, pesticides, and GMOs, relying instead on natural inputs, compost, cover crops, and biological pest control to maintain soil health." },
+          { term: "Agroforestry", definition: "An integrated land management system deliberately combining trees with crops and/or livestock on the same land, improving biodiversity, soil quality, carbon sequestration, and farm income." },
+          { term: "Precision Agriculture", definition: "The use of GPS, remote sensing, drones, and data analytics to apply water, fertilizer, and pesticides exactly where and when needed, reducing waste and environmental impact." },
+        ],
+      },
+      {
+        name: "Agricultural Land Use Types",
+        terms: [
+          { term: "Truck Farm", definition: "A commercial farm near urban areas that intensively produces fruits and vegetables for nearby city markets; also called a market garden; relies on fast transport to deliver perishable goods." },
+          { term: "Feedlot (CAFO)", definition: "A Concentrated Animal Feeding Operation where large numbers of livestock are fattened on grain in confined spaces for efficient meat production; raises concerns about water pollution and animal welfare." },
+          { term: "Plantation", definition: "A large commercial farm in tropical or subtropical regions that specializes in a single cash crop for export (e.g., sugarcane, coffee, bananas, cotton); historically associated with colonial labor exploitation." },
+          { term: "Paddy Field", definition: "A flooded agricultural field used for growing wet rice; a defining feature of the South and Southeast Asian landscape; allows for high yields in the intensive subsistence farming system." },
+        ],
+      },
+      {
+        name: "Green Revolution Key Terms",
+        terms: [
+          { term: "High-Yielding Varieties (HYVs)", definition: "Specially bred crop strains — particularly wheat and rice — engineered to produce significantly more grain per plant than traditional varieties; the cornerstone of the Green Revolution." },
+          { term: "Norman Borlaug", definition: "American agronomist who developed high-yielding, disease-resistant wheat varieties in Mexico; his work during the Green Revolution is credited with preventing widespread famine; Nobel Peace Prize, 1970." },
+          { term: "Synthetic Fertilizers", definition: "Chemically manufactured fertilizers containing nitrogen, phosphorus, and potassium that dramatically boost crop yields; overuse can cause water pollution (eutrophication) and long-term soil degradation." },
+          { term: "Double Cropping", definition: "Growing two successive crops on the same land within a single year, made possible by fast-maturing HYVs and reliable irrigation; dramatically increases annual food output per unit of land." },
+        ],
+      },
+    ],
+  },
+];
+
+gameSets.push(...apHumanGeoUnit5GameSets);
+
+const apHumanGeoUnit6GameSets: GameSet[] = [
+  // ── Unit 6, Puzzle 1: PSO ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-6-pso",
+    unit: 6,
+    puzzle: 1,
+    theme: { code: "PSO", name: "Patterns and Spatial Organization" },
+    title: "Cities and Urban Land Use",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Urban Land Use Models",
+        terms: [
+          { term: "Concentric Zone Model", definition: "Burgess's 1925 model depicting cities as a series of concentric rings radiating from the CBD, with land use transitioning from commercial to industrial to residential to suburban with distance." },
+          { term: "Sector Model", definition: "Hoyt's 1939 model proposing cities grow in wedge-shaped sectors along transportation corridors rather than uniform rings; high-income housing attracts compatible development along its sector." },
+          { term: "Multiple Nuclei Model", definition: "Harris and Ullman's 1945 model arguing cities develop around multiple centers of activity (nuclei) — airports, universities, industrial parks — rather than a single dominant CBD." },
+          { term: "Peripheral Model", definition: "Muller's model showing that suburban growth around beltways and edge cities creates a new decentralized urban structure in which the traditional CBD is no longer the primary focus." },
+        ],
+      },
+      {
+        name: "Urban Zones and Districts",
+        terms: [
+          { term: "Central Business District (CBD)", definition: "The commercial and business core of a city; characterized by the highest land values, greatest building density, and concentration of retail, offices, banks, and services." },
+          { term: "Transition Zone", definition: "The ring surrounding the CBD marked by mixed land use, aging housing, light industry, and poverty; a target for both deterioration and gentrification as land values shift." },
+          { term: "Edge City", definition: "A large node of office, retail, and entertainment space that has developed outside a traditional urban core, typically at suburban highway interchanges (e.g., Tysons Corner, VA; Schaumburg, IL)." },
+          { term: "Disamenity Zone", definition: "An area of extreme poverty and urban decay found in cities of the developing world, often including informal squatter settlements with inadequate access to water, sanitation, or electricity." },
+        ],
+      },
+      {
+        name: "Urban Size Classifications",
+        terms: [
+          { term: "Megacity", definition: "A metropolitan area with a population exceeding 10 million people (e.g., Tokyo, Delhi, Shanghai, São Paulo, Mexico City); the number of megacities is growing rapidly in the Global South." },
+          { term: "Metacity", definition: "An exceptionally large urban agglomeration exceeding 20 million inhabitants (e.g., greater Tokyo-Yokohama, Delhi NCR); sometimes defined as the very largest megacities." },
+          { term: "Megalopolis", definition: "A chain of closely linked, overlapping metropolitan areas forming a continuous urban corridor (e.g., the BosWash corridor stretching from Boston through New York to Washington D.C.)." },
+          { term: "World City", definition: "A city that serves as a node in the global network of finance, trade, culture, and political power, with influence extending far beyond its national borders (e.g., New York, London, Tokyo)." },
+        ],
+      },
+      {
+        name: "Urban Growth Concepts",
+        terms: [
+          { term: "Rank-Size Rule", definition: "The empirical observation that in many countries the population of any city is inversely proportional to its rank — the second-largest city is half the size of the largest, the third is one-third, and so on." },
+          { term: "Bid-Rent Theory", definition: "The concept that different land users compete for central urban locations based on their ability to pay; land values peak at the CBD and decline with distance, shaping concentric patterns of land use." },
+          { term: "Urban Sprawl", definition: "The uncontrolled, low-density outward expansion of urban areas into surrounding rural land, driven by cheap land, car dependency, highway construction, and single-family zoning." },
+          { term: "Boomburb", definition: "A rapidly growing suburban city with a population over 100,000 that is not the largest city in its metropolitan area; characteristic of Sun Belt growth (e.g., Mesa, AZ; Arlington, TX; Henderson, NV)." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 6, Puzzle 2: IMP ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-6-imp",
+    unit: 6,
+    puzzle: 2,
+    theme: { code: "IMP", name: "Impacts and Interactions" },
+    title: "Cities and Urban Land Use",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Urban Inequality Concepts",
+        terms: [
+          { term: "Gentrification", definition: "The process by which higher-income residents move into a low-income urban neighborhood, renovating housing and raising property values — often displacing the original low-income and minority residents." },
+          { term: "Redlining", definition: "The discriminatory practice of denying mortgages, insurance, or other financial services to residents of minority neighborhoods based on race; now illegal but its legacy shapes urban residential segregation today." },
+          { term: "Blockbusting", definition: "An unethical real estate practice of encouraging white homeowners to sell quickly at low prices by stoking fear of racial neighborhood change, then reselling at inflated prices to Black families." },
+          { term: "White Flight", definition: "The large-scale migration of white, middle-class residents from racially changing urban neighborhoods to suburbs, contributing to urban disinvestment and the expansion of racially homogeneous suburbs." },
+        ],
+      },
+      {
+        name: "Informal Settlements",
+        terms: [
+          { term: "Squatter Settlement", definition: "An area where migrants build housing illegally on land they do not own, typically on city peripheries, lacking formal infrastructure such as running water, sewage, and electricity." },
+          { term: "Favela", definition: "A Brazilian term for an informal urban settlement or slum, often built on hillsides around cities like Rio de Janeiro and São Paulo; home to millions of urban poor." },
+          { term: "Shantytown", definition: "An informal settlement of makeshift housing — corrugated metal, cardboard, and scavenged materials — found on the urban periphery of cities in the Global South; also called a barrio or bidonville." },
+          { term: "Informal Economy", definition: "Economic activity outside formal legal and regulatory structures — street vending, unregistered businesses, day labor — dominant in squatter settlements where residents lack access to formal employment." },
+        ],
+      },
+      {
+        name: "Urban Environmental Issues",
+        terms: [
+          { term: "Urban Heat Island", definition: "The phenomenon where cities are measurably warmer than surrounding rural areas due to dark impervious surfaces, reduced vegetation, dense buildings, and waste heat from vehicles and machinery." },
+          { term: "Brownfield", definition: "A previously developed industrial or commercial site that has been abandoned or underused, often contaminated by pollutants; a key target for urban redevelopment and infill strategies." },
+          { term: "Green Infrastructure", definition: "Parks, urban forests, green roofs, bioswales, and restored wetlands deliberately integrated into cities to manage stormwater, reduce heat, improve air quality, and enhance livability." },
+          { term: "Urban Sustainability", definition: "The goal of designing and managing cities to meet present needs — for housing, energy, transport, and services — without compromising future generations' ability to meet their own needs." },
+        ],
+      },
+      {
+        name: "Global City Classifications",
+        terms: [
+          { term: "Alpha World City", definition: "The highest tier of global cities — major centers of international finance, corporate headquarters, culture, and political influence with truly global reach (e.g., New York, London, Tokyo, Paris)." },
+          { term: "Beta World City", definition: "Second-tier global cities with strong international connections and regional importance but lesser global clout than Alpha cities (e.g., Chicago, Sydney, Madrid, Toronto, Seoul)." },
+          { term: "Gateway City", definition: "A city that serves as a major point of entry through which immigrants, goods, capital, and cultural ideas flow into a country or world region; often a major port or border city." },
+          { term: "Metropolitan Statistical Area (MSA)", definition: "A US Census Bureau designation for a core urbanized area of at least 50,000 people plus surrounding counties with strong economic and commuting ties to the urban core." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 6, Puzzle 3: SPS ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-6-sps",
+    unit: 6,
+    puzzle: 3,
+    theme: { code: "SPS", name: "Spatial Processes and Societal Change" },
+    title: "Cities and Urban Land Use",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Smart Growth and Urban Planning",
+        terms: [
+          { term: "Smart Growth", definition: "An urban planning philosophy emphasizing compact, mixed-use, transit-accessible, walkable development and infill to reduce sprawl, protect open space, and build sustainable communities." },
+          { term: "New Urbanism", definition: "A design movement advocating human-scaled, walkable, mixed-use neighborhoods with traditional architecture, front porches, and public spaces — a deliberate reaction against car-dependent suburban sprawl." },
+          { term: "Transit-Oriented Development (TOD)", definition: "A planning strategy concentrating high-density, mixed-use residential and commercial development within walking distance of public transit stations to reduce automobile dependence." },
+          { term: "Urban Renewal", definition: "Government-led programs to rehabilitate deteriorating urban areas, historically through demolition of 'blighted' neighborhoods and construction of new housing or freeways — often displacing minority communities." },
+        ],
+      },
+      {
+        name: "Developing World City Models",
+        terms: [
+          { term: "Latin American City Model", definition: "The Griffin-Ford model depicting cities with a CBD, a spine of commerce and elite housing, and concentric rings of decreasing wealth ending in squatter settlements (disamenity zones) at the periphery." },
+          { term: "Sub-Saharan African City Model", definition: "A model showing African cities organized around three CBDs — colonial, traditional market, and transitional — surrounded by ethnic neighborhoods and a ring of informal settlements." },
+          { term: "Southeast Asian City Model", definition: "A model depicting cities structured around a port zone and alien commercial zone near the waterfront, with government housing near the center and squatter settlements on the urban fringe." },
+          { term: "Islamic City Model", definition: "A model of cities in Muslim-majority regions organized around the central mosque and bazaar (souk) rather than a Western CBD; characterized by winding medina streets, residential quarters by religion and ethnicity, and walls." },
+        ],
+      },
+      {
+        name: "Urban Change Processes",
+        terms: [
+          { term: "Suburbanization", definition: "The outward movement of people, businesses, and services from urban cores to surrounding suburbs, accelerated by highway construction, car ownership, cheap land, and government mortgage subsidies after WWII." },
+          { term: "Counterurbanization", definition: "The movement of population away from major cities to smaller towns, rural areas, or distant suburbs; driven by remote work, lower costs of living, and quality-of-life preferences." },
+          { term: "Reurbanization", definition: "The movement of people back into urban cores after a period of suburban migration; driven by gentrification, transit investment, urban amenities, and the preferences of younger, educated workers." },
+          { term: "Deindustrialization", definition: "The decline of manufacturing employment in cities as factories close or relocate, leaving behind unemployment, urban decay, and abandoned industrial landscapes in former industrial cities (e.g., Detroit, Pittsburgh)." },
+        ],
+      },
+      {
+        name: "Urban Model Theorists",
+        terms: [
+          { term: "Ernest Burgess", definition: "Sociologist who developed the Concentric Zone Model (1925) based on Chicago; proposed that immigrant and low-income groups push outward through rings as they become more established." },
+          { term: "Homer Hoyt", definition: "Economist who developed the Sector Model (1939); argued that high-income housing forms along transportation corridors and other development clusters around it in sectors, not rings." },
+          { term: "Harris and Ullman", definition: "Chauncy Harris and Edward Ullman developed the Multiple Nuclei Model (1945), arguing cities grow around several distinct activity centers rather than a single CBD." },
+          { term: "Walter Christaller", definition: "German geographer who developed Central Place Theory (1933), explaining the size, number, and spacing of cities based on the range and threshold of the goods and services they provide to surrounding hinterlands." },
+        ],
+      },
+    ],
+  },
+];
+
+gameSets.push(...apHumanGeoUnit6GameSets);
+
+const apHumanGeoUnit7GameSets: GameSet[] = [
+  // ── Unit 7, Puzzle 1: PSO ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-7-pso",
+    unit: 7,
+    puzzle: 1,
+    theme: { code: "PSO", name: "Patterns and Spatial Organization" },
+    title: "Industrial and Economic Development",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Economic Sectors",
+        terms: [
+          { term: "Primary Sector", definition: "Economic activities that extract or harvest natural resources directly from the earth — farming, fishing, mining, forestry, and oil extraction; dominant in less-developed economies." },
+          { term: "Secondary Sector", definition: "Economic activities that transform raw materials into manufactured goods through processing, fabrication, or construction (e.g., steel mills, car plants, garment factories)." },
+          { term: "Tertiary Sector", definition: "Economic activities that provide services — retail, banking, transportation, healthcare, education, and entertainment — rather than producing physical goods; dominant in developed economies." },
+          { term: "Quaternary Sector", definition: "Knowledge-based economic activities involving information processing, research and development, management consulting, and high-level decision-making (e.g., finance, software, universities, think tanks)." },
+        ],
+      },
+      {
+        name: "Measures of Development",
+        terms: [
+          { term: "Gross Domestic Product (GDP)", definition: "The total monetary value of all goods and services produced within a country's borders in a given year; the most widely used measure of economic output and size." },
+          { term: "Human Development Index (HDI)", definition: "A composite UNDP measure combining life expectancy, mean and expected years of schooling, and GNI per capita to compare levels of human well-being across countries." },
+          { term: "Gini Coefficient", definition: "A statistical measure of income inequality within a country, ranging from 0 (perfect equality) to 1 (one person has all income); higher values indicate greater wealth concentration." },
+          { term: "Purchasing Power Parity (PPP)", definition: "An adjustment to income data that accounts for differences in local price levels, enabling more accurate comparisons of living standards across countries with different currencies and costs." },
+        ],
+      },
+      {
+        name: "World Systems Theory",
+        terms: [
+          { term: "Core Countries", definition: "In Wallerstein's model, wealthy, highly industrialized nations with diversified economies, advanced technology, and strong political power that benefit most from the global economic system (e.g., USA, Germany, Japan)." },
+          { term: "Periphery Countries", definition: "Poor nations with low-skill, labor-intensive economies that export raw materials and cheap labor to core countries; structurally dependent on and exploited by the core (e.g., many sub-Saharan African and Central American nations)." },
+          { term: "Semi-Periphery Countries", definition: "Middle-tier nations with characteristics of both core and periphery; rapidly industrializing and climbing the global hierarchy by exporting manufactured goods (e.g., China, Brazil, India, Mexico, South Korea)." },
+          { term: "Dependency Theory", definition: "The argument that developing nations remain economically poor because wealthy core nations deliberately structured global trade, debt, and investment to maintain their own dominance at the periphery's expense." },
+        ],
+      },
+      {
+        name: "Industrial Location Theory",
+        terms: [
+          { term: "Weber's Least Cost Theory", definition: "Alfred Weber's model predicting that industries locate where total costs — transportation, labor, and agglomeration — are minimized; bulk-reducing industries locate near resources, bulk-gaining industries near markets." },
+          { term: "Agglomeration", definition: "The clustering of related economic activities in one area to share infrastructure, access skilled labor pools, reduce transport costs, and benefit from knowledge spillovers (e.g., Silicon Valley, Detroit auto industry)." },
+          { term: "Deglomeration", definition: "The dispersal of firms away from congested agglomerations when costs — high rents, wages, and traffic — begin to outweigh the benefits of clustering; drives industrial suburbanization and offshoring." },
+          { term: "Break-of-Bulk Point", definition: "A location where goods must be transferred from one mode of transportation to another (e.g., a port); often becomes a manufacturing center because cargo must be unloaded and reloaded anyway." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 7, Puzzle 2: IMP ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-7-imp",
+    unit: 7,
+    puzzle: 2,
+    theme: { code: "IMP", name: "Impacts and Interactions" },
+    title: "Industrial and Economic Development",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Globalization of Industry",
+        terms: [
+          { term: "Outsourcing", definition: "The practice of contracting work previously performed in-house to an external firm — often in another country — to reduce costs, increase flexibility, or access specialized expertise." },
+          { term: "Offshoring", definition: "The relocation of a business process or manufacturing facility to another country, typically to take advantage of lower wages, fewer regulations, or tax incentives." },
+          { term: "New International Division of Labor (NIDL)", definition: "The post-1970s reorganization of global production in which manufacturing shifted from wealthy to lower-wage developing countries as corporations pursued cheaper labor through global supply chains." },
+          { term: "Maquiladora", definition: "A factory in Mexico — typically near the US border — that assembles imported components into finished goods for export to the USA, benefiting from low wages and NAFTA/USMCA trade rules." },
+        ],
+      },
+      {
+        name: "Special Economic Zones",
+        terms: [
+          { term: "Export Processing Zone (EPZ)", definition: "A designated area where manufacturing for export is encouraged through tax exemptions, relaxed labor regulations, and infrastructure provision; widespread in East and Southeast Asia and Latin America." },
+          { term: "Special Economic Zone (SEZ)", definition: "A geographically defined area with more liberal economic laws — lower taxes, fewer regulations, and greater openness to foreign investment — designed to attract industry (e.g., Shenzhen, China)." },
+          { term: "Free Trade Zone (FTZ)", definition: "An area where goods can be imported, stored, manufactured, and re-exported without customs duties; reduces barriers to trade and attracts foreign investment in logistics and assembly." },
+          { term: "Offshore Financial Center", definition: "A jurisdiction offering very low taxes and minimal financial regulation that attracts corporate headquarters and private wealth management, facilitating legal tax avoidance (e.g., Cayman Islands, Luxembourg, Singapore)." },
+        ],
+      },
+      {
+        name: "Development Concepts",
+        terms: [
+          { term: "Commodity Dependence", definition: "A situation in which a country relies on one or a few primary commodities for the vast majority of its export revenue, leaving it vulnerable to price swings and unable to diversify." },
+          { term: "Multiplier Effect", definition: "The concept that new investment or job creation in one sector generates additional economic activity in related sectors — wages are spent, creating more demand, which creates more jobs — amplifying the original impact." },
+          { term: "Microfinance", definition: "The provision of small loans, savings accounts, and financial services to low-income individuals — especially women entrepreneurs — who lack access to traditional banks; pioneered by Muhammad Yunus's Grameen Bank in Bangladesh." },
+          { term: "Sustainable Development", definition: "Development that meets the needs of the present without compromising future generations' ability to meet their own needs; balancing economic growth with environmental protection and social equity." },
+        ],
+      },
+      {
+        name: "Production Systems",
+        terms: [
+          { term: "Fordism", definition: "A 20th-century mass production system based on assembly lines, standardized products, and high wages; named after Henry Ford — workers earned enough to buy the cars they built, creating a mass consumer class." },
+          { term: "Post-Fordism", definition: "A flexible, decentralized production system replacing Fordism; characterized by small-batch production, customized goods, global supply chains, outsourcing, and a shift to service and knowledge work." },
+          { term: "Just-in-Time (JIT)", definition: "A production and inventory strategy that minimizes warehousing costs by receiving components only as they are needed in the assembly process; requires reliable suppliers and efficient logistics." },
+          { term: "Resource Curse", definition: "The paradox in which countries with abundant natural resources (oil, diamonds, minerals) often experience slower economic growth, weaker institutions, greater corruption, and more armed conflict than resource-poor nations." },
+        ],
+      },
+    ],
+  },
+
+  // ── Unit 7, Puzzle 3: SPS ────────────────────────────────────────────────
+  {
+    id: "aphg-unit-7-sps",
+    unit: 7,
+    puzzle: 3,
+    theme: { code: "SPS", name: "Spatial Processes and Societal Change" },
+    title: "Industrial and Economic Development",
+    subject: "AP Human Geo",
+    groups: [
+      {
+        name: "Rostow's Stages of Growth",
+        terms: [
+          { term: "Traditional Society", definition: "Rostow's Stage 1 — subsistence agriculture, limited technology, hierarchical social structures, and very little investment in infrastructure; characteristic of pre-industrial societies." },
+          { term: "Preconditions for Takeoff", definition: "Rostow's Stage 2 — emergence of commercial agriculture, infrastructure investment, a growing entrepreneurial class, and the beginnings of a national identity that enables economic change." },
+          { term: "Takeoff", definition: "Rostow's Stage 3 — rapid industrialization, surging investment, accelerating urbanization, and the breakdown of traditional social structures; a critical economic threshold (e.g., Britain 1780s, South Korea 1960s)." },
+          { term: "High Mass Consumption", definition: "Rostow's Stage 5 — a consumer-driven economy with high wages, widespread access to durable goods, a dominant service sector, and robust social welfare programs (e.g., the USA and Western Europe after WWII)." },
+        ],
+      },
+      {
+        name: "Industrial Geography",
+        terms: [
+          { term: "Industrial Revolution", definition: "The period of rapid mechanization of production beginning in Britain in the 1760s–80s; introduced the factory system, steam power, and mass urbanization, transforming the global economy." },
+          { term: "Deindustrialization", definition: "The decline of manufacturing employment in wealthy countries as factories close or relocate to lower-wage nations, leaving behind unemployment, population loss, and abandoned industrial infrastructure." },
+          { term: "Rust Belt", definition: "The former manufacturing heartland of the northeastern and midwestern United States — including Detroit, Pittsburgh, Cleveland, and Buffalo — that experienced severe deindustrialization from the 1970s onward." },
+          { term: "Sun Belt", definition: "The southern and southwestern US region that gained population, industry, and political power as the Rust Belt declined, benefiting from warm climate, cheap land, lower taxes, and right-to-work laws." },
+        ],
+      },
+      {
+        name: "Gender and Development",
+        terms: [
+          { term: "Gender Development Index (GDI)", definition: "A UNDP measure that compares HDI values separately for men and women, revealing gender-based gaps in health, education, and income within a country." },
+          { term: "Women in Development (WID)", definition: "A post-1970 development approach recognizing that women's full inclusion in economic, political, and social life is essential for sustainable development and poverty reduction." },
+          { term: "Grameen Bank", definition: "Muhammad Yunus's microfinance institution founded in Bangladesh (1983) that provides small loans to poor women entrepreneurs; demonstrated that the very poor are creditworthy and that investing in women accelerates development." },
+          { term: "Gender Inequality Index (GII)", definition: "A UNDP index measuring gender-based disadvantage in three dimensions — reproductive health, political empowerment, and labor market participation; lower scores indicate greater gender equality." },
+        ],
+      },
+      {
+        name: "Development Strategies",
+        terms: [
+          { term: "Structural Adjustment Program (SAP)", definition: "IMF and World Bank policies requiring developing countries to cut government spending, privatize state enterprises, and liberalize trade in exchange for loans; widely criticized for worsening poverty and inequality." },
+          { term: "Foreign Direct Investment (FDI)", definition: "Investment by corporations based in one country into business operations — factories, offices, or subsidiaries — in another country; a key driver of industrialization in developing nations." },
+          { term: "Import Substitution Industrialization (ISI)", definition: "A development strategy in which a country builds domestic industries to produce goods previously imported, using tariffs and subsidies to protect infant industries; popular in Latin America in the mid-20th century." },
+          { term: "Export-Led Growth", definition: "A development strategy based on producing manufactured goods for export to earn foreign exchange and attract foreign investment; highly successful in East Asia (e.g., South Korea, Taiwan, Singapore, China)." },
+        ],
+      },
+    ],
+  },
+];
+
+gameSets.push(...apHumanGeoUnit7GameSets);
+
 export function getGameByUnit(unit: number, subject?: string): GameSet | undefined {
   return gameSets.find((g) => g.unit === unit && (!subject || g.subject === subject));
 }

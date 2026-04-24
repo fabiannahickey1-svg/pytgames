@@ -21,9 +21,10 @@ const Index = () => {
   const isAPPsych = location.pathname.startsWith("/appsych");
   const isAPBio = location.pathname.startsWith("/apbio");
   const isAPEuro = location.pathname.startsWith("/apeuro");
-  const subject = isPhilosophy ? "IB Philosophy" : isEnvSci ? "Env Science" : isAPWorld ? "AP World" : isAPGov ? "AP Gov" : isAPPsych ? "AP Psych" : isAPBio ? "AP Biology" : isAPEuro ? "AP Euro" : "APUSH";
-  const subjectBase = isPhilosophy ? "/philosophy" : isEnvSci ? "/envsci" : isAPWorld ? "/apworld" : isAPGov ? "/apgov" : isAPPsych ? "/appsych" : isAPBio ? "/apbio" : isAPEuro ? "/apeuro" : "/apush";
-  const unitBase = isPhilosophy ? "/philosophy/unit" : isEnvSci ? "/envsci/unit" : isAPWorld ? "/apworld/unit" : isAPGov ? "/apgov/unit" : isAPPsych ? "/appsych/unit" : isAPBio ? "/apbio/unit" : isAPEuro ? "/apeuro/unit" : "/unit";
+  const isAPHumanGeo = location.pathname.startsWith("/aphumangeo");
+  const subject = isPhilosophy ? "IB Philosophy" : isEnvSci ? "Env Science" : isAPWorld ? "AP World" : isAPGov ? "AP Gov" : isAPPsych ? "AP Psych" : isAPBio ? "AP Biology" : isAPEuro ? "AP Euro" : isAPHumanGeo ? "AP Human Geo" : "APUSH";
+  const subjectBase = isPhilosophy ? "/philosophy" : isEnvSci ? "/envsci" : isAPWorld ? "/apworld" : isAPGov ? "/apgov" : isAPPsych ? "/appsych" : isAPBio ? "/apbio" : isAPEuro ? "/apeuro" : isAPHumanGeo ? "/aphumangeo" : "/apush";
+  const unitBase = isPhilosophy ? "/philosophy/unit" : isEnvSci ? "/envsci/unit" : isAPWorld ? "/apworld/unit" : isAPGov ? "/apgov/unit" : isAPPsych ? "/appsych/unit" : isAPBio ? "/apbio/unit" : isAPEuro ? "/apeuro/unit" : isAPHumanGeo ? "/aphumangeo/unit" : "/unit";
 
   const puzzles = getGamesByUnit(unitNum, subject);
   const currentGame = puzzles.find((p) => (p.puzzle ?? 1) === puzzleNum);

@@ -17,9 +17,9 @@ const subjects = [
     path: "/philosophy",
     active: true,
     units: 8,
-    accent: "#6B3FA0",
-    accentLight: "#f0ebf8",
-    accentDark: "#4a2d7a",
+    accent: "#4338CA",
+    accentLight: "#eef2ff",
+    accentDark: "#3730A3",
   },
   {
     label: "Env Sci",
@@ -57,9 +57,9 @@ const subjects = [
     path: "/appsych",
     active: true,
     units: 5,
-    accent: "#7C3AED",
-    accentLight: "#f3eeff",
-    accentDark: "#5b21b6",
+    accent: "#DB2777",
+    accentLight: "#fce7f3",
+    accentDark: "#9D174D",
   },
   {
     label: "AP Bio",
@@ -67,9 +67,9 @@ const subjects = [
     path: "/apbio",
     active: true,
     units: 8,
-    accent: "#16A34A",
-    accentLight: "#f0fdf4",
-    accentDark: "#15803d",
+    accent: "#CA8A04",
+    accentLight: "#fefce8",
+    accentDark: "#92400E",
   },
   {
     label: "AP Euro",
@@ -80,6 +80,16 @@ const subjects = [
     accent: "#B45309",
     accentLight: "#FEF3C7",
     accentDark: "#92400E",
+  },
+  {
+    label: "AP HuG",
+    description: "AP Human Geography",
+    path: "/aphumangeo",
+    active: true,
+    units: 7,
+    accent: "#7C3AED",
+    accentLight: "#f5f3ff",
+    accentDark: "#5B21B6",
   },
 ];
 
@@ -167,7 +177,7 @@ const Splash = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-4 gap-3">
           {subjects.map(({ label, description, path, active, units, accent, accentLight, accentDark }, i) => (
             <button
               key={label}
@@ -180,28 +190,28 @@ const Splash = () => {
                 aspectRatio: "1 / 1",
               }}
               className={[
-                "animate-fade-in flex flex-col items-center justify-center gap-2 rounded-2xl border p-5 text-center transition-all duration-200 w-full",
+                "animate-fade-in flex flex-col items-center justify-center gap-2 rounded-xl border p-5 text-center transition-all duration-200 w-full",
                 active
-                  ? "cursor-pointer hover:shadow-2xl hover:-translate-y-2 active:scale-[0.97]"
+                  ? "cursor-pointer hover:shadow-lg hover:-translate-y-1 active:scale-[0.97]"
                   : "cursor-not-allowed opacity-50",
               ].join(" ")}
             >
               <p
-                className="text-2xl font-black leading-none"
+                className="text-xl font-black leading-none"
                 style={{ color: active ? accentDark : "#999" }}
               >
                 {label}
               </p>
-              <p className="text-xs text-muted-foreground">{description}</p>
+              <p className="text-[10px] text-muted-foreground leading-tight">{description}</p>
               {active ? (
                 <span
-                  className="rounded-full px-4 py-1.5 text-xs font-bold"
+                  className="rounded-full px-2.5 py-1 text-[10px] font-bold mt-0.5"
                   style={{ backgroundColor: accent, color: "#fff" }}
                 >
                   {units} Units →
                 </span>
               ) : (
-                <span className="rounded-full bg-muted px-3 py-1.5 text-xs font-semibold text-muted-foreground">
+                <span className="rounded-full bg-muted px-2.5 py-1 text-[10px] font-semibold text-muted-foreground">
                   Coming Soon
                 </span>
               )}

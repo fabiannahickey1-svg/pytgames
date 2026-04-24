@@ -5,42 +5,40 @@ import { cn } from "@/lib/utils";
 import { gameSets } from "@/data/gameSets";
 import { getCompletedUnits } from "@/lib/progress";
 
-const SUBJECT = "APUSH";
-const ACCENT = "#0F4D92";
-const ACCENT_LIGHT = "#e8f0fb";
-const ACCENT_BORDER = "#0F4D92";
+const SUBJECT = "AP Human Geo";
+const ACCENT = "#0891B2";
+const ACCENT_LIGHT = "#e0f2fe";
+const ACCENT_BORDER = "#0891B2";
 
+const TOTAL_UNITS = 7;
 const activeUnits = new Set(
   gameSets.filter((g) => g.subject === SUBJECT).map((g) => g.unit)
 );
 
-const UNIT_DATA: { number: number; label: string; title: string; description: string }[] = [
-  { number: 1, label: "Units 1 & 2", title: "Native Peoples, Contact & Colonial America", description: "1491–1754 · Native peoples, colonization, and the Atlantic world" },
-  { number: 3, label: "Unit 3",      title: "The American Revolution & New Republic",     description: "1754–1800 · Revolution, independence, and founding documents" },
-  { number: 4, label: "Unit 4",      title: "Expansion, Reform & Sectional Tension",      description: "1800–1848 · Westward expansion, democracy, and reform movements" },
-  { number: 5, label: "Unit 5",      title: "Civil War & Reconstruction",                 description: "1844–1877 · Sectionalism, the Civil War, and Reconstruction" },
-  { number: 6, label: "Unit 6",      title: "The Gilded Age",                             description: "1865–1898 · Industrialization, immigration, and big business" },
-  { number: 7, label: "Unit 7",      title: "Progressive Era through WWII",               description: "1890–1945 · Progressivism, WWI, the Depression, and WWII" },
-  { number: 8, label: "Unit 8",      title: "Cold War & Postwar America",                 description: "1945–1980 · Cold War, civil rights, and the counterculture" },
-  { number: 9, label: "Unit 9",      title: "Contemporary America",                       description: "1980–Present · Reagan revolution through today" },
+const UNIT_DATA: { number: number; title: string; description: string }[] = [
+  { number: 1, title: "Thinking Geographically",                    description: "Maps, scale, diffusion, and geospatial tools" },
+  { number: 2, title: "Population and Migration Patterns",           description: "Demographics, migration models, and population policy" },
+  { number: 3, title: "Cultural Patterns and Processes",             description: "Culture, language, religion, and identity" },
+  { number: 4, title: "Political Patterns and Processes",            description: "States, borders, geopolitics, and sovereignty" },
+  { number: 5, title: "Agriculture and Rural Land Use",              description: "Farming systems, land use models, and food security" },
+  { number: 6, title: "Cities and Urban Land-Use Patterns",          description: "Urbanization, urban models, and sustainability" },
+  { number: 7, title: "Industrial and Economic Development",         description: "Development theories, industry, and globalization" },
 ];
 
-const TOTAL_UNITS = UNIT_DATA.length;
-
 const LEVELS = [
-  { min: 0, label: "Rookie",     marker: "🌱" },
-  { min: 1, label: "Novice",     marker: "📖" },
-  { min: 3, label: "Apprentice", marker: "🔍" },
-  { min: 5, label: "Scholar",    marker: "🎓" },
-  { min: 7, label: "Historian",  marker: "🏛️" },
-  { min: 8, label: "Master",     marker: "🏆" },
+  { min: 0, label: "Novice Geographer",  marker: "🌱" },
+  { min: 1, label: "Map Reader",         marker: "🗺️" },
+  { min: 2, label: "Cartographer",       marker: "📐" },
+  { min: 4, label: "Field Researcher",   marker: "🔭" },
+  { min: 6, label: "GIS Analyst",        marker: "🌐" },
+  { min: 7, label: "AP Scholar",         marker: "🏆" },
 ];
 
 function getLevel(completed: number) {
   return [...LEVELS].reverse().find((l) => completed >= l.min) ?? LEVELS[0];
 }
 
-const Landing = () => {
+const APHumanGeoLanding = () => {
   const navigate = useNavigate();
   const [completed, setCompleted] = useState<number[]>([]);
 
@@ -65,10 +63,10 @@ const Landing = () => {
 
       <header className="mb-10 text-center animate-fade-in">
         <h1 className="text-4xl font-bold tracking-tight text-foreground">
-          APUSH
+          AP Human Geo
         </h1>
         <p className="mt-2 text-base text-muted-foreground">
-          AP US History · 9 Units
+          AP Human Geography · 7 Units
         </p>
       </header>
 
@@ -101,7 +99,7 @@ const Landing = () => {
           {completed.length < TOTAL_UNITS && (
             <p className="mt-2 text-[11px] text-muted-foreground">
               {TOTAL_UNITS - completed.length} more to reach{" "}
-              {LEVELS.find((l) => l.min > completed.length)?.label ?? "Master"}!
+              {LEVELS.find((l) => l.min > completed.length)?.label ?? "AP Scholar"}!
             </p>
           )}
         </div>
@@ -112,14 +110,14 @@ const Landing = () => {
           Choose a Unit
         </h2>
 
-        {UNIT_DATA.map(({ number, label, title, description }) => {
+        {UNIT_DATA.map(({ number, title, description }) => {
           const active = activeUnits.has(number);
           const done = completed.includes(number);
 
           return (
             <button
               key={number}
-              onClick={() => active && navigate(`/unit/${number}`)}
+              onClick={() => active && navigate(`/aphumangeo/unit/${number}`)}
               disabled={!active}
               className={cn(
                 "w-full text-left rounded-2xl border px-5 py-4 transition-all duration-200",
@@ -140,7 +138,7 @@ const Landing = () => {
                           : { backgroundColor: "hsl(var(--muted))", color: "hsl(var(--muted-foreground))" }
                       }
                     >
-                      {label}
+                      Unit {number}
                     </span>
                     {done && (
                       <span className="text-xs font-bold" style={{ color: ACCENT }}>✓</span>
@@ -170,4 +168,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default APHumanGeoLanding;
