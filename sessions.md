@@ -117,6 +117,24 @@
 
 **Next:** AP Lang; shuffle button; mobile polish; APUSH content audit
 
+## 2026-04-23 — Session 11
+
+- Added AP Human Geography as a fully active subject with violet accent (#7C3AED)
+- 7-unit structure matching the AP Human Geo curriculum; 21 puzzles total — 3 per unit, one per Big Idea (PSO · IMP · SPS)
+- New `APHumanGeoLanding.tsx` at `/aphumangeo` — mastery levels Novice Geographer → Map Reader → Cartographer → Field Researcher → GIS Analyst → AP Scholar
+- New `APHumanGeoUnitPage.tsx` at `/aphumangeo/unit/:unit` — puzzle picker showing Big Idea code and name
+- `Index.tsx` updated to detect `/aphumangeo` prefix; AP HuG card added to Splash
+- `App.tsx`: added routes for `/aphumangeo`, `/aphumangeo/unit/:unit`, `/aphumangeo/unit/:unit/:puzzle`
+- Redesigned APUSH `Landing.tsx` to match the card-list style of all other subject landing pages — full-width unit cards with title, date range description, and mastery bar; replaced old 3-column square grid
+- Resized subject cards on Splash from large squares (3-col) to smaller squares (4-col grid, `p-5`, `text-xl`)
+- Diversified Splash subject card accent colors to eliminate overlapping color families:
+  - IB Phil: purple → indigo (#4338CA)
+  - AP Psych: violet → hot pink (#DB2777)
+  - AP Bio: green → gold (#CA8A04)
+  - AP HuG: cyan → violet (#7C3AED, freed from AP Psych)
+
+**Next:** AP Lang; shuffle button; mobile polish; APUSH content audit
+
 ## 2026-04-19 — Session 8
 
 - Completed AP World History (Units 7–9) — 9 puzzles total, 3 per unit using GOV/CDI/SIO+ECN themes covering Global Conflict, Cold War & Decolonization, and Globalization

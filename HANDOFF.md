@@ -1,13 +1,13 @@
 # Developer Handoff — PYT Games
 
-**Last updated:** 2026-04-22  
-**Status:** Active development — APUSH (Units 1, 3–9, 8 themed puzzles each) + IB Philosophy (20 puzzles across 8 themes) + Environmental Science (all 9 units, 29 puzzles) + AP World History (Units 7–9, 9 puzzles) + AP Gov (all 5 units, 25 puzzles) + AP Psychology (all 5 units, 15 puzzles) + AP Biology (all 8 units, 20 puzzles) + AP European History (all 9 units, 45 puzzles) all live; AP Lang coming soon
+**Last updated:** 2026-04-23  
+**Status:** Active development — APUSH (Units 1, 3–9, 8 themed puzzles each) + IB Philosophy (20 puzzles) + Environmental Science (all 9 units, 29 puzzles) + AP World History (Units 7–9, 9 puzzles) + AP Gov (all 5 units, 25 puzzles) + AP Psychology (all 5 units, 15 puzzles) + AP Biology (all 8 units, 20 puzzles) + AP European History (all 9 units, 45 puzzles) + AP Human Geography (all 7 units, 21 puzzles) all live; AP Lang coming soon
 
 ---
 
 ## What this is
 
-PYT Games is a web-based study game where students group 16 vocab terms into 4 categories. Built for AP exam test prep. Active subjects: APUSH, IB Philosophy, Environmental Science, AP World History, AP Gov, AP Psychology, AP Biology, AP European History. AP Lang is planned next.
+PYT Games is a web-based study game where students group 16 vocab terms into 4 categories. Built for AP exam test prep. Active subjects: APUSH, IB Philosophy, Environmental Science, AP World History, AP Gov, AP Psychology, AP Biology, AP European History, AP Human Geography. AP Lang is planned next.
 
 ---
 
@@ -35,7 +35,7 @@ GITHUB_TOKEN=your_token   # stored in .env, never committed
 src/
   App.tsx                         # Router setup, providers
   data/
-    gameSets.ts                   # All game content (APUSH + IB Philosophy + Env Science + AP World + AP Gov + AP Psych + AP Bio + AP Euro)
+    gameSets.ts                   # All game content (APUSH + IB Philosophy + Env Science + AP World + AP Gov + AP Psych + AP Bio + AP Euro + AP Human Geo)
   lib/
     progress.ts                   # Per-subject localStorage helpers
     analytics.ts                  # GA4 event tracking helper (trackEvent wrapper)
@@ -61,6 +61,8 @@ src/
     APBioUnitPage.tsx             # /apbio/unit/:unit — Big Idea puzzle picker
     APEuroLanding.tsx             # /apeuro — AP European History unit grid with mastery bar
     APEuroUnitPage.tsx            # /apeuro/unit/:unit — theme puzzle picker
+    APHumanGeoLanding.tsx         # /aphumangeo — AP Human Geography unit grid with mastery bar
+    APHumanGeoUnitPage.tsx        # /aphumangeo/unit/:unit — Big Idea puzzle picker (PSO/IMP/SPS)
     PuzzlePicker.tsx              # puzzle selector (APUSH + Philosophy)
     Index.tsx                     # game page (subject-aware via URL)
     About.tsx                     # /about — team and mission
@@ -96,10 +98,13 @@ src/
 | `/apeuro` | `APEuroLanding.tsx` | AP European History unit grid |
 | `/apeuro/unit/:unit` | `APEuroUnitPage.tsx` | AP Euro theme puzzle picker |
 | `/apeuro/unit/:unit/:puzzle` | `Index.tsx` | AP Euro game |
+| `/aphumangeo` | `APHumanGeoLanding.tsx` | AP Human Geography unit grid |
+| `/aphumangeo/unit/:unit` | `APHumanGeoUnitPage.tsx` | AP Human Geo Big Idea puzzle picker |
+| `/aphumangeo/unit/:unit/:puzzle` | `Index.tsx` | AP Human Geo game |
 | `/about` | `About.tsx` | About page |
 | `/contact` | `Contact.tsx` | Contact page |
 
-**3-level navigation subjects** (subject → unit → puzzle): Env Science, AP World, AP Gov, AP Psychology, AP Biology, AP Euro. **2-level navigation subjects** (subject → puzzle): APUSH, IB Philosophy. To add a new subject: create a landing page + unit page, add routes in `App.tsx`, activate the card in `Splash.tsx`, add content to `gameSets.ts` with the correct `subject` field, update subject detection in `Index.tsx`.
+**3-level navigation subjects** (subject → unit → puzzle): Env Science, AP World, AP Gov, AP Psychology, AP Biology, AP Euro, AP Human Geo. **2-level navigation subjects** (subject → puzzle): APUSH, IB Philosophy. To add a new subject: create a landing page + unit page, add routes in `App.tsx`, activate the card in `Splash.tsx`, add content to `gameSets.ts` with the correct `subject` field, update subject detection in `Index.tsx`.
 
 **State:** All game state is local to `ConnectionsGame` — no global store, no persistence between sessions.
 
@@ -107,7 +112,7 @@ src/
 
 **Analytics:** GA4 (G-M1MTBZCT7T) via `src/lib/analytics.ts`. Four custom events fire from `ConnectionsGame.tsx`: `puzzle_start`, `group_solved`, `puzzle_complete` (includes `mistakes` + `hints_used`), `puzzle_fail`. All events include `subject`, `unit`, `puzzle`, and `puzzle_id` params.
 
-**Styling:** Tailwind CSS + shadcn/ui. APUSH accent: Yale Blue `#0F4D92`. IB Philosophy accent: purple `#6B3FA0`. Env Science accent: forest green `#2D7A4F`. AP Psych accent: violet `#7C3AED`. AP Biology accent: green `#16A34A`. AP Euro accent: amber `#B45309`. Fonts: Quicksand (UI) + Playfair Display (hero title).
+**Styling:** Tailwind CSS + shadcn/ui. Subject accent colors — APUSH: navy `#0F4D92` · IB Phil: indigo `#4338CA` · Env Sci: forest green `#2D7A4F` · AP World: dark red `#8B1A1A` · AP Gov: teal `#0D5C63` · AP Psych: hot pink `#DB2777` · AP Bio: gold `#CA8A04` · AP Euro: amber `#B45309` · AP Human Geo: violet `#7C3AED`. Fonts: Quicksand (UI) + Playfair Display (hero title).
 
 ---
 
@@ -142,7 +147,7 @@ interface GameSet {
 }
 ```
 
-The APUSH landing page renders a 3-column grid of units 1–9 (Unit 2 hidden — merged into Unit 1). The Philosophy landing page renders a 2-column grid of 8 themes. The Env Science landing page renders a full-width list of 9 units; clicking a unit opens `EnvSciUnitPage` showing subtopic cards.
+The APUSH landing page renders a full-width card list of units 1–9 (Unit 2 hidden — merged into Unit 1) with unit titles and date ranges, matching the style of all other subject landing pages. The Philosophy landing page renders a 2-column grid of 8 themes. The Env Science landing page renders a full-width list of 9 units; clicking a unit opens `EnvSciUnitPage` showing subtopic cards.
 
 ### APUSH content
 
@@ -222,6 +227,22 @@ For AP & IB Environmental Science. Uses N.X subtopic naming (e.g. 1.1, 1.2).
 | 7 | Natural Selection | 2 | EVO · SYI |
 | 8 | Ecology | 4 | EVO · ENE · IST · SYI |
 
+### AP Human Geography content
+
+7-unit AP Human Geography curriculum. 21 puzzles total — 3 per unit, one per Big Idea. Subject field: `"AP Human Geo"`. Accent: violet `#7C3AED`.
+
+**Big Ideas**: PSO (Patterns and Spatial Organization) · IMP (Impacts and Interactions) · SPS (Spatial Processes and Societal Change)
+
+| Unit | Title | Puzzles |
+|------|-------|---------|
+| 1 | Thinking Geographically | 3 (PSO · IMP · SPS) |
+| 2 | Population and Migration Patterns | 3 (PSO · IMP · SPS) |
+| 3 | Cultural Patterns and Processes | 3 (PSO · IMP · SPS) |
+| 4 | Political Patterns and Processes | 3 (PSO · IMP · SPS) |
+| 5 | Agriculture and Rural Land Use | 3 (PSO · IMP · SPS) |
+| 6 | Cities and Urban Land Use | 3 (PSO · IMP · SPS) |
+| 7 | Industrial and Economic Development | 3 (PSO · IMP · SPS) |
+
 ### AP European History content
 
 9-unit AP European History curriculum. 45 puzzles total organized by 7 AP Euro themes. Subject field: `"AP Euro"`. Accent: amber `#B45309`.
@@ -260,6 +281,7 @@ For AP & IB Environmental Science. Uses N.X subtopic naming (e.g. 1.1, 1.2).
 - **All APUSH units themed** — All active units (1, 3–9) now have 8 AP-themed puzzles; Unit 2 is merged into Unit 1 and shows as Coming Soon
 - **AP Psych Units 4–5 need more content** — currently 3 puzzles each; developmental psych (3.1–3.6), language (3.5), and intelligence (2.8) aren't yet covered
 - **AP Bio Unit 3 and Unit 6** have only 1 puzzle each (ENE and IST respectively) — could expand if more Big Ideas apply
+- **AP Human Geo** is fully live (7 units, 21 puzzles) — no known gaps
 - **AP Lang** subject page doesn't exist yet — splash shows it as Coming Soon
 - **No shuffle button** — terms are shuffled once on load; players can't reshuffle mid-game
 - **No streak/history** — win/loss per session isn't tracked beyond puzzle completion in localStorage
