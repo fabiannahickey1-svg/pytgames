@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useEffect } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import { GameSet, GameGroup } from "@/data/gameSets";
 import GameTile from "./GameTile";
 import SolvedGroup from "./SolvedGroup";
@@ -37,14 +37,60 @@ const ConnectionsGame = ({ gameSet, onWin, onNextUnit, onNextUnitLabel, onTryAga
   const [message, setMessage] = useState("");
   const [hintsUsed, setHintsUsed] = useState(0);
   const [hintMessage, setHintMessage] = useState("");
+  const [linkCopied, setLinkCopied] = useState(false);
+
+  // Live refs so the abandonment cleanup reads current state, not stale closure values.
+  const solvedRef = useRef<GameGroup[]>([]);
+  const mistakesRef = useRef(0);
+  const hintsRef = useRef(0);
+  const wonRef = useRef(false);
+  const lostRef = useRef(false);
+  const startTimeRef = useRef(0);
+
+  useEffect(() => { solvedRef.current = solvedGroups; }, [solvedGroups]);
+  useEffect(() => { mistakesRef.current = mistakes; }, [mistakes]);
+  useEffect(() => { hintsRef.current = hintsUsed; }, [hintsUsed]);
+  useEffect(() => { wonRef.current = won; }, [won]);
+  useEffect(() => { lostRef.current = lost; }, [lost]);
 
   useEffect(() => {
+    solvedRef.current = [];
+    mistakesRef.current = 0;
+    hintsRef.current = 0;
+    wonRef.current = false;
+    lostRef.current = false;
+    startTimeRef.current = performance.now();
+
     trackEvent("puzzle_start", {
       subject: gameSet.subject,
       unit: gameSet.unit,
       puzzle: gameSet.puzzle ?? 1,
       puzzle_id: gameSet.id,
     });
+
+    let resolved = false;
+    const finalize = () => {
+      if (resolved) return;
+      if (wonRef.current || lostRef.current) { resolved = true; return; }
+      resolved = true;
+      trackEvent("puzzle_abandon", {
+        subject: gameSet.subject,
+        unit: gameSet.unit,
+        puzzle: gameSet.puzzle ?? 1,
+        puzzle_id: gameSet.id,
+        groups_solved: solvedRef.current.length,
+        mistakes: mistakesRef.current,
+        hints_used: hintsRef.current,
+        time_ms: Math.round(performance.now() - startTimeRef.current),
+      });
+    };
+
+    const onVis = () => { if (document.visibilityState === "hidden") finalize(); };
+    document.addEventListener("visibilitychange", onVis);
+    return () => {
+      document.removeEventListener("visibilitychange", onVis);
+      finalize();
+    };
   }, [gameSet.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // All terms as objects, shuffled once on load
@@ -111,6 +157,7 @@ const solvedTermStrings = useMemo(
           puzzle_id: gameSet.id,
           mistakes,
           hints_used: hintsUsed,
+          time_ms: Math.round(performance.now() - startTimeRef.current),
         });
       }
     } else {
@@ -140,7 +187,9 @@ const solvedTermStrings = useMemo(
           puzzle: gameSet.puzzle ?? 1,
           puzzle_id: gameSet.id,
           groups_solved: solvedGroups.length,
+          mistakes: newMistakes,
           hints_used: hintsUsed,
+          time_ms: Math.round(performance.now() - startTimeRef.current),
         });
       }
     }
@@ -165,6 +214,15 @@ const solvedTermStrings = useMemo(
     setHintMessage(`One category is: "${group.name}"`);
     setHintsUsed((c) => c + 1);
     setMessage("");
+    trackEvent("hint_used", {
+      subject: gameSet.subject,
+      unit: gameSet.unit,
+      puzzle: gameSet.puzzle ?? 1,
+      puzzle_id: gameSet.id,
+      hint_number: hintsUsed + 1,
+      groups_solved: solvedGroups.length,
+      mistakes,
+    });
   };
 
   if (won) {
@@ -181,6 +239,27 @@ const solvedTermStrings = useMemo(
           <div className="flex items-center justify-center gap-3 pt-2">
             <Button variant="outline" size="sm" onClick={onBackToUnits}>
               All Units
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={async () => {
+                try {
+                  await navigator.clipboard.writeText(window.location.href);
+                  setLinkCopied(true);
+                  setTimeout(() => setLinkCopied(false), 1500);
+                  trackEvent("share_link_copied", {
+                    subject: gameSet.subject,
+                    unit: gameSet.unit,
+                    puzzle: gameSet.puzzle ?? 1,
+                    puzzle_id: gameSet.id,
+                  });
+                } catch {
+                  // clipboard blocked — silently no-op
+                }
+              }}
+            >
+              {linkCopied ? "Copied!" : "Copy Link"}
             </Button>
             {onNextUnit && (
               <Button size="sm" onClick={onNextUnit}>
