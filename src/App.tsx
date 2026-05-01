@@ -24,8 +24,10 @@ import PuzzlePicker from "./pages/PuzzlePicker.tsx";
 import Index from "./pages/Index.tsx";
 import About from "./pages/About.tsx";
 import Contact from "./pages/Contact.tsx";
+import Privacy from "./pages/Privacy.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import NavMenu from "./components/NavMenu.tsx";
+import AnalyticsBanner from "./components/AnalyticsBanner.tsx";
 
 const queryClient = new QueryClient();
 
@@ -36,10 +38,12 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <NavMenu />
+        <AnalyticsBanner />
         <Routes>
           <Route path="/" element={<Splash />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<Privacy />} />
           <Route path="/apush" element={<Landing />} />
           <Route path="/unit/:unit" element={<PuzzlePicker />} />
           <Route path="/unit/:unit/:puzzle" element={<Index />} />

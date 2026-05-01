@@ -1,11 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { Menu, X, Home, Info, Mail } from "lucide-react";
+import { Menu, X, Home, Info, Mail, Shield } from "lucide-react";
 
 const LINKS = [
   { label: "Home",       path: "/",        icon: Home },
   { label: "About Us",   path: "/about",   icon: Info },
   { label: "Contact",    path: "/contact", icon: Mail },
+  { label: "Privacy",    path: "/privacy", icon: Shield },
 ];
 
 const NavMenu = () => {
